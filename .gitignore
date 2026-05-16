@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+.pytest_cache/
+nfl_prediction_app_deploy.zip
+data/*
+models/*
+predictions/*
+explanations/*
+
+!data/nfl_matchups_1999_2025_advanced.csv
+!data/team_metadata.csv
+!models/home_win_advanced_automl_no_market_deep.joblib
+!models/home_win_advanced_automl_no_market_deep.metrics.json
+!predictions/nfl_2026_predictions_advanced_no_market_deep.csv
+!explanations/global_shap_2025.csv
