@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NFL Matchup Prediction Dashboard</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <div>
+        <p class="eyebrow">2026 NFL Predictions</p>
+        <h1>NFL Matchup Prediction Dashboard</h1>
+        <p class="lede">
+          A public-facing data science dashboard with schedule forecasts, model confidence, and SHAP-style feature impact summaries.
+        </p>
+      </div>
+      <div class="header-badge">
+        <span>Educational tool</span>
+        <strong>Not a betting site</strong>
+      </div>
+    </header>
+
+    <main>
+      <section class="metrics" id="metrics"></section>
+
+      <section class="toolbar" aria-label="Schedule filters">
+        <label>
+          Week
+          <select id="weekFilter"></select>
+        </label>
+        <label>
+          Team
+          <select id="teamFilter"></select>
+        </label>
+        <label>
+          Minimum confidence
+          <input id="confidenceFilter" type="range" min="50" max="85" value="50" />
+          <span id="confidenceValue">50%</span>
+        </label>
+      </section>
+
+      <section class="section-grid">
+        <article class="panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Schedule</p>
+              <h2>Predicted Winners</h2>
+            </div>
+            <span id="visibleCount" class="count-pill"></span>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Week</th>
+                  <th>Away</th>
+                  <th>Home</th>
+                  <th>Prediction</th>
+                  <th>Away Win %</th>
+                  <th>Home Win %</th>
+                  <th>Confidence</th>
+                </tr>
+              </thead>
+              <tbody id="predictionRows"></tbody>
+            </table>
+          </div>
+        </article>
+
+        <aside class="panel">
+          <p class="eyebrow">Distribution</p>
+          <h2>Most Picked Teams</h2>
+          <div id="winnerBars" class="bars"></div>
+        </aside>
+      </section>
+
+      <section class="section-grid">
+        <article class="panel">
+          <p class="eyebrow">Model Signals</p>
+          <h2>Global Feature Impact</h2>
+          <p class="body-copy">
+            Larger values indicate features that more strongly influenced the model across the 2025 holdout season.
+          </p>
+          <div id="shapBars" class="bars feature-bars"></div>
+        </article>
+
+        <aside class="panel">
+          <p class="eyebrow">Key</p>
+          <h2>How To Read Features</h2>
+          <dl class="feature-key">
+            <dt>SHAP impact</dt>
+            <dd>Approximate movement in the model output caused by a feature.</dd>
+            <dt>Home edge</dt>
+            <dd>Home team value minus away team value. Positive means the home team has the edge.</dd>
+            <dt>EPA</dt>
+            <dd>Expected Points Added. Higher offensive EPA is better; lower defensive EPA allowed is better.</dd>
+            <dt>Rolling windows</dt>
+            <dd>Last 3 or last 5 games before a matchup.</dd>
+            <dt>No-market model</dt>
+            <dd>Spreads and betting totals are excluded so future schedule predictions do not depend on betting lines.</dd>
+          </dl>
+        </aside>
+      </section>
+
+      <section class="panel disclaimer">
+        <p class="eyebrow">Disclaimers And Fair Use</p>
+        <h2>Educational Predictive Analytics</h2>
+        <p>
+          This site is an educational predictive analytics tool for exploring NFL data science workflows. It is not a betting site,
+          sportsbook, gambling service, financial advice service, or guarantee of future outcomes. Predictions are probabilistic
+          estimates from historical public data and should be treated as research outputs, not instructions.
+        </p>
+        <p>
+          Team names, logos, marks, and related identifiers belong to their respective owners. Logos are displayed only to identify
+          teams and improve readability in a non-commercial, informational context. This project is not affiliated with, endorsed by,
+          or sponsored by the NFL, any NFL club, ESPN, or nflverse.
+        </p>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "holdout_season": 2025,
+  "validation_season": 2024,
+  "train_rows": 6681,
+  "test_rows": 271,
+  "best_cv_neg_log_loss": -0.6111557412390916,
+  "accuracy": 0.6236162361623616,
+  "log_loss": 0.6364412204302673,
+  "roc_auc": 0.6823013698630136,
+  "best_params": {
+    "model__n_estimators": "700",
+    "model__min_samples_split": "2",
+    "model__min_samples_leaf": "2",
+    "model__max_features": "log2",
+    "model__max_depth": "12",
+    "model__class_weight": "None",
+    "model": "RandomForestClassifier(n_jobs=-1, random_state=42)"
+  },
+  "exclude_market": true,
+  "complexity": "deep"
+}
