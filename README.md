@@ -87,6 +87,14 @@ Use the no-market model for schedule-only future predictions, because future spr
 
 ## Make Predictions
 
+Refresh completed scores, score-based team form, upcoming forecasts, and public dashboard data:
+
+```powershell
+python refresh_predictions.py --season 2026
+```
+
+This preserves saved pregame picks for completed games. It does not retrain the model or refresh advanced EPA, QB, injury, and roster snapshots; that limitation is shown on the public dashboard. The weekly Codex refresh runs Tuesday at 9 a.m. America/New_York and publishes updated assets.
+
 Score a known game row:
 
 ```powershell

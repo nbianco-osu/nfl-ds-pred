@@ -114,8 +114,11 @@ def fill_latest_team_state(
     season: int,
     week: int,
 ) -> pd.DataFrame:
-    home_latest = _latest_team_row(matchups, home_team, season, week)
-    away_latest = _latest_team_row(matchups, away_team, season, week)
+    # Score-only updates must not erase the most recent available advanced snapshot.
+    advanced_cols = [c for c in matchups if c.startswith(('home_team_pbp_', 'away_team_pbp_'))]
+    advanced_history = matchups.dropna(subset=advanced_cols, how='all') if advanced_cols else matchups
+    home_latest = _latest_team_row(advanced_history, home_team, season, week)
+    away_latest = _latest_team_row(advanced_history, away_team, season, week)
 
     def source_value(latest: pd.Series | None, team: str, suffix: str) -> object:
         if latest is None:

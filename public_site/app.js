@@ -49,6 +49,9 @@ function metricCard(label, value) {
 }
 
 function renderMetrics(predictions, metrics) {
+  if (predictions[0]?.updated_at) {
+    byId("refreshStatus").textContent = `Updated ${new Date(predictions[0].updated_at).toLocaleString()}. ${predictions[0].feature_note} Final games retain their pregame predictions.`;
+  }
   byId("metrics").innerHTML = [
     metricCard("Predicted Games", predictions.length.toLocaleString()),
     metricCard("Model", "Random Forest"),
@@ -90,6 +93,7 @@ function renderRows(rows) {
           <td>${pct(row.away_win_probability)}</td>
           <td>${pct(row.home_win_probability)}</td>
           <td>${pct(row.confidence)}</td>
+          <td>${row.status === "Final" ? `Final: ${row.away_score} - ${row.home_score}` : "Scheduled"}</td>
         </tr>
       `,
     )

@@ -49,6 +49,10 @@ def cached_global_importance(model_path: str, history_path: str, season: int) ->
 
 
 def prediction_feature_row(artifact: dict, history: pd.DataFrame, game: pd.Series) -> pd.DataFrame:
+    completed_path = ROOT / 'data' / f"nfl_{int(game['season'])}_completed.csv"
+    if completed_path.exists():
+        completed = pd.read_csv(completed_path)
+        history = pd.concat([history, completed], ignore_index=True).drop_duplicates('game_id', keep='first')
     row = make_prediction_row(
         matchups=history,
         feature_cols=artifact["feature_cols"],
