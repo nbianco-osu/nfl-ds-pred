@@ -79,7 +79,8 @@ def pct(value: float) -> str:
 def enrich_predictions(predictions: pd.DataFrame, teams: pd.DataFrame) -> pd.DataFrame:
     team_names = teams.set_index("team_abbr")["team_name"].to_dict()
     team_logos = teams.set_index("team_abbr")["team_logo_espn"].to_dict()
-    enriched = predictions.copy()
+    from active_learning import grade_predictions
+    enriched = grade_predictions(predictions)
     enriched["away_team_name"] = enriched["away_team"].map(team_names).fillna(enriched["away_team"])
     enriched["home_team_name"] = enriched["home_team"].map(team_names).fillna(enriched["home_team"])
     enriched["predicted_winner_name"] = enriched["predicted_winner"].map(team_names).fillna(enriched["predicted_winner"])
@@ -268,6 +269,7 @@ with schedule_tab:
             "home_team_name",
             "winner_logo",
             "predicted_winner_name",
+            "prediction_result",
             "away_win_pct",
             "home_win_pct",
             "confidence_pct",
@@ -290,6 +292,7 @@ with schedule_tab:
             "home_team_name": st.column_config.TextColumn("Home Team"),
             "winner_logo": st.column_config.ImageColumn("Pick"),
             "predicted_winner_name": st.column_config.TextColumn("Predicted Winner"),
+            "prediction_result": st.column_config.TextColumn("Prediction Correct?"),
             "away_win_pct": st.column_config.NumberColumn("Away Win %", format="%.1f%%"),
             "home_win_pct": st.column_config.NumberColumn("Home Win %", format="%.1f%%"),
             "confidence_pct": st.column_config.NumberColumn("Confidence", format="%.1f%%"),

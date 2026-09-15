@@ -10,6 +10,7 @@ import nflreadpy as nfl
 import pandas as pd
 
 from predict_schedule import predict_schedule
+from active_learning import grade_predictions, update_learning
 
 
 def main() -> None:
@@ -40,6 +41,7 @@ def main() -> None:
     predictions = predictions.merge(schedule[['game_id', 'home_score', 'away_score']], on='game_id', validate='one_to_one')
     predictions['status'] = predictions.home_score.notna().map({True: 'Final', False: 'Scheduled'})
     predictions = predictions.sort_values(['week', 'game_id'])
+    predictions = grade_predictions(predictions)
     public = predictions.copy()
     teams = pd.read_csv(root / 'data/team_metadata.csv').set_index('team_abbr')
     for side in ['home', 'away']:
@@ -57,6 +59,8 @@ def main() -> None:
     predictions.to_csv(output, index=False)
     completed.to_csv(root / f'data/nfl_{args.season}_completed.csv', index=False)
     public.to_json(root / 'public_site/data/predictions.json', orient='records', indent=2)
+    summary = update_learning(predictions, root)
+    print(f"Active learner: {summary['status']}; {summary['training_games']} training games")
     print(completed[['game_id', 'home_score', 'away_score']].to_string(index=False))
     print(f'Refreshed {len(upcoming)} upcoming forecasts; preserved {len(preserved)} pregame picks.')
 

@@ -87,13 +87,23 @@ Use the no-market model for schedule-only future predictions, because future spr
 
 ## Make Predictions
 
+### Active Learning
+
+`refresh_predictions.py` now also runs `active_learning.py`. The learner queries up to eight games in the next unplayed week: six nearest 50% win probability plus two deterministic random exploration picks. Official results supply labels; the query controls which later games enter candidate training. All completed games remain in production accuracy reporting, including games outside the query.
+
+The first 16 available results seed a regularized logistic probability-calibration candidate using the archived baseline probability as its sole input. This is an active-learning-inspired calibration experiment, not a retrained Random Forest or updated EPA/QB model. `learning/candidate.joblib`, `state.json`, `summary.json`, and `evaluation.csv` persist training selections and shadow forecasts. Repeated refreshes do not duplicate labels. Initial seed games are never counted as prospective validation. Unknown outcomes and ties are excluded from binary training and accuracy.
+
+Future candidate forecasts are saved before results, then scored against the baseline before refitting. Query selection never uses final scores or correctness. Same-day games are excluded from new shadow forecasts because source kickoff times are not consistently available. At least 64 prospective evaluated games and lower log loss AND Brier score flag a candidate for review; this is a screening rule, not statistical proof. Production stays on the original model until a separate evaluation and promotion. No improvement is claimed from the seed sample.
+
+Run `python active_learning.py` to update the candidate from existing prediction files, or `python -m unittest test_active_learning.py` for grading, tie, sampling, and prospective-evaluation checks.
+
 Refresh completed scores, score-based team form, upcoming forecasts, and public dashboard data:
 
 ```powershell
 python refresh_predictions.py --season 2026
 ```
 
-This preserves saved pregame picks for completed games. It does not retrain the model or refresh advanced EPA, QB, injury, and roster snapshots; that limitation is shown on the public dashboard. The weekly Codex refresh runs Tuesday at 9 a.m. America/New_York and publishes updated assets.
+This preserves saved pregame picks for completed games and grades them Yes, No, Tie (no winner), or Pending. It does not retrain the production model or refresh advanced EPA, QB, injury, and roster snapshots; that limitation is shown on the public dashboard. It updates the separate shadow learner. The weekly Codex refresh runs Tuesday at 9 a.m. America/New_York and publishes updated assets.
 
 Score a known game row:
 

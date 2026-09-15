@@ -20,7 +20,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lac.png",
     "confidence":0.5605314022,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":"ARI",
+    "prediction_correct":false,
+    "prediction_result":"No"
   },
   {
     "game_id":"2026_01_ATL_PIT",
@@ -43,7 +46,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/pit.png",
     "confidence":0.5552331033,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":"PIT",
+    "prediction_correct":true,
+    "prediction_result":"Yes"
   },
   {
     "game_id":"2026_01_BAL_IND",
@@ -66,7 +72,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/bal.png",
     "confidence":0.5750127622,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":"BAL",
+    "prediction_correct":true,
+    "prediction_result":"Yes"
   },
   {
     "game_id":"2026_01_BUF_HOU",
@@ -89,7 +98,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/buf.png",
     "confidence":0.5287384429,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":"BUF",
+    "prediction_correct":true,
+    "prediction_result":"Yes"
   },
   {
     "game_id":"2026_01_CHI_CAR",
@@ -112,7 +124,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/chi.png",
     "confidence":0.5232878767,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":"CHI",
+    "prediction_correct":true,
+    "prediction_result":"Yes"
   },
   {
     "game_id":"2026_01_CLE_JAX",
@@ -135,7 +150,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/jax.png",
     "confidence":0.6794762773,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":"JAX",
+    "prediction_correct":true,
+    "prediction_result":"Yes"
   },
   {
     "game_id":"2026_01_DAL_NYG",
@@ -158,7 +176,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/dal.png",
     "confidence":0.5587367325,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":"NYG",
+    "prediction_correct":false,
+    "prediction_result":"No"
   },
   {
     "game_id":"2026_01_DEN_KC",
@@ -181,7 +202,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/den.png",
     "confidence":0.5480019001,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":"KC",
+    "prediction_correct":false,
+    "prediction_result":"No"
   },
   {
     "game_id":"2026_01_GB_MIN",
@@ -204,7 +228,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/gb.png",
     "confidence":0.5311189862,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":"MIN",
+    "prediction_correct":false,
+    "prediction_result":"No"
   },
   {
     "game_id":"2026_01_MIA_LV",
@@ -227,7 +254,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/mia.png",
     "confidence":0.5327730206,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":"LV",
+    "prediction_correct":false,
+    "prediction_result":"No"
   },
   {
     "game_id":"2026_01_NE_SEA",
@@ -250,7 +280,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ne.png",
     "confidence":0.5047649985,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":"SEA",
+    "prediction_correct":false,
+    "prediction_result":"No"
   },
   {
     "game_id":"2026_01_NO_DET",
@@ -273,7 +306,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/det.png",
     "confidence":0.6201943752,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":"DET",
+    "prediction_correct":true,
+    "prediction_result":"Yes"
   },
   {
     "game_id":"2026_01_NYJ_TEN",
@@ -296,7 +332,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ten.png",
     "confidence":0.5911182469,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":"NYJ",
+    "prediction_correct":false,
+    "prediction_result":"No"
   },
   {
     "game_id":"2026_01_SF_LA",
@@ -319,7 +358,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lar.png",
     "confidence":0.5236986268,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":"SF",
+    "prediction_correct":false,
+    "prediction_result":"No"
   },
   {
     "game_id":"2026_01_TB_CIN",
@@ -342,7 +384,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/cin.png",
     "confidence":0.5337672602,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":"CIN",
+    "prediction_correct":true,
+    "prediction_result":"Yes"
   },
   {
     "game_id":"2026_01_WAS_PHI",
@@ -365,7 +410,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/phi.png",
     "confidence":0.5680833064,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":"PHI",
+    "prediction_correct":true,
+    "prediction_result":"Yes"
   },
   {
     "game_id":"2026_02_CAR_ATL",
@@ -388,7 +436,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/atl.png",
     "confidence":0.6671954684,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_02_CIN_HOU",
@@ -411,7 +462,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/cin.png",
     "confidence":0.5406735201,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_02_CLE_TB",
@@ -434,7 +488,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/tb.png",
     "confidence":0.7606459251,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_02_DET_BUF",
@@ -457,7 +514,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/buf.png",
     "confidence":0.5714775301,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_02_GB_NYJ",
@@ -480,7 +540,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/gb.png",
     "confidence":0.5977860655,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_02_IND_KC",
@@ -503,7 +566,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/kc.png",
     "confidence":0.6296520332,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_02_JAX_DEN",
@@ -526,7 +592,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/den.png",
     "confidence":0.5204342534,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_02_LV_LAC",
@@ -549,7 +618,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lac.png",
     "confidence":0.5847694843,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_02_MIA_SF",
@@ -572,7 +644,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sf.png",
     "confidence":0.7770391963,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_02_MIN_CHI",
@@ -595,7 +670,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/chi.png",
     "confidence":0.6060898002,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_02_NO_BAL",
@@ -618,7 +696,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/bal.png",
     "confidence":0.6798288496,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_02_NYG_LA",
@@ -641,7 +722,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lar.png",
     "confidence":0.6054909203,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_02_PHI_TEN",
@@ -664,7 +748,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/phi.png",
     "confidence":0.6749635057,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_02_PIT_NE",
@@ -687,7 +774,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ne.png",
     "confidence":0.5942070368,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_02_SEA_ARI",
@@ -710,7 +800,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sea.png",
     "confidence":0.5055132072,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_02_WAS_DAL",
@@ -733,7 +826,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/wsh.png",
     "confidence":0.5184565111,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_03_ARI_SF",
@@ -756,7 +852,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sf.png",
     "confidence":0.698476128,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_03_ATL_GB",
@@ -779,7 +878,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/gb.png",
     "confidence":0.5828018218,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_03_BAL_DAL",
@@ -802,7 +904,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/bal.png",
     "confidence":0.5963502402,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_03_CAR_CLE",
@@ -825,7 +930,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500-dark\/car.png",
     "confidence":0.5322087332,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_03_CIN_PIT",
@@ -848,7 +956,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/pit.png",
     "confidence":0.51670374,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_03_HOU_IND",
@@ -871,7 +982,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/hou.png",
     "confidence":0.5644332149,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_03_KC_MIA",
@@ -894,7 +1008,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/kc.png",
     "confidence":0.5801831371,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_03_LAC_BUF",
@@ -917,7 +1034,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/buf.png",
     "confidence":0.6555981414,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_03_LA_DEN",
@@ -940,7 +1060,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/den.png",
     "confidence":0.5163827771,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_03_LV_NO",
@@ -963,7 +1086,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/no.png",
     "confidence":0.585078129,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_03_MIN_TB",
@@ -986,7 +1112,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/tb.png",
     "confidence":0.5039391746,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_03_NE_JAX",
@@ -1009,7 +1138,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/jax.png",
     "confidence":0.5427720378,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_03_NYJ_DET",
@@ -1032,7 +1164,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/det.png",
     "confidence":0.6159913553,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_03_PHI_CHI",
@@ -1055,7 +1190,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/chi.png",
     "confidence":0.5642944183,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_03_SEA_WAS",
@@ -1078,7 +1216,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sea.png",
     "confidence":0.5416029746,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_03_TEN_NYG",
@@ -1101,7 +1242,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/nyg.png",
     "confidence":0.6725201903,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_04_ARI_NYG",
@@ -1124,7 +1268,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ari.png",
     "confidence":0.5418901513,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_04_ATL_NO",
@@ -1147,7 +1294,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/no.png",
     "confidence":0.5548765221,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_04_DAL_HOU",
@@ -1170,7 +1320,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/hou.png",
     "confidence":0.5524259271,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_04_DEN_SF",
@@ -1193,7 +1346,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sf.png",
     "confidence":0.6534736556,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_04_DET_CAR",
@@ -1216,7 +1372,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/det.png",
     "confidence":0.6182692976,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_04_GB_TB",
@@ -1239,7 +1398,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/gb.png",
     "confidence":0.5092347363,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_04_IND_WAS",
@@ -1262,7 +1424,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/wsh.png",
     "confidence":0.5999661884,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_04_JAX_CIN",
@@ -1285,7 +1450,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/cin.png",
     "confidence":0.5202608993,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_04_KC_LV",
@@ -1308,7 +1476,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/kc.png",
     "confidence":0.5993649157,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_04_LAC_SEA",
@@ -1331,7 +1502,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sea.png",
     "confidence":0.6378208329,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_04_LA_PHI",
@@ -1354,7 +1528,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/phi.png",
     "confidence":0.5689439626,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_04_MIA_MIN",
@@ -1377,7 +1554,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/min.png",
     "confidence":0.58307994,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_04_NE_BUF",
@@ -1400,7 +1580,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/buf.png",
     "confidence":0.5194625654,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_04_NYJ_CHI",
@@ -1423,7 +1606,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/chi.png",
     "confidence":0.6852499906,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_04_PIT_CLE",
@@ -1446,7 +1632,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/pit.png",
     "confidence":0.6522912513,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_04_TEN_BAL",
@@ -1469,7 +1658,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/bal.png",
     "confidence":0.737336185,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_05_BAL_ATL",
@@ -1492,7 +1684,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/bal.png",
     "confidence":0.6111333226,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_05_BUF_LA",
@@ -1515,7 +1710,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/buf.png",
     "confidence":0.5165303068,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_05_CHI_GB",
@@ -1538,7 +1736,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/gb.png",
     "confidence":0.5128558403,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_05_CIN_MIA",
@@ -1561,7 +1762,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/cin.png",
     "confidence":0.5571826415,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_05_CLE_NYJ",
@@ -1584,7 +1788,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/nyj.png",
     "confidence":0.6103249068,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_05_DEN_LAC",
@@ -1607,7 +1814,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lac.png",
     "confidence":0.5190842203,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_05_DET_ARI",
@@ -1630,7 +1840,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/det.png",
     "confidence":0.5536067055,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_05_HOU_TEN",
@@ -1653,7 +1866,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/hou.png",
     "confidence":0.5955665019,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_05_IND_PIT",
@@ -1676,7 +1892,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/pit.png",
     "confidence":0.6944928826,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_05_LV_NE",
@@ -1699,7 +1918,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ne.png",
     "confidence":0.6362639533,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_05_MIN_NO",
@@ -1722,7 +1944,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/min.png",
     "confidence":0.5430165158,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_05_NYG_WAS",
@@ -1745,7 +1970,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/wsh.png",
     "confidence":0.555555018,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_05_PHI_JAX",
@@ -1768,7 +1996,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/jax.png",
     "confidence":0.5768135892,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_05_SF_SEA",
@@ -1791,7 +2022,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sf.png",
     "confidence":0.5581818545,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_05_TB_DAL",
@@ -1814,7 +2048,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/tb.png",
     "confidence":0.5304123953,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_06_ARI_LA",
@@ -1837,7 +2074,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lar.png",
     "confidence":0.5224783852,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_06_BAL_CLE",
@@ -1860,7 +2100,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/bal.png",
     "confidence":0.6269016504,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_06_BUF_LV",
@@ -1883,7 +2126,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/buf.png",
     "confidence":0.5918555394,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_06_CAR_PHI",
@@ -1906,7 +2152,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/phi.png",
     "confidence":0.7306521035,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_06_CHI_ATL",
@@ -1929,7 +2178,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/chi.png",
     "confidence":0.5243639409,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_06_DAL_GB",
@@ -1952,7 +2204,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/gb.png",
     "confidence":0.5577851156,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_06_HOU_JAX",
@@ -1975,7 +2230,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/jax.png",
     "confidence":0.7091874299,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_06_LAC_KC",
@@ -1998,7 +2256,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/kc.png",
     "confidence":0.5572820957,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_06_NO_NYG",
@@ -2021,7 +2282,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/nyg.png",
     "confidence":0.514426692,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_06_NYJ_NE",
@@ -2044,7 +2308,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ne.png",
     "confidence":0.5992499522,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_06_PIT_TB",
@@ -2067,7 +2334,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/pit.png",
     "confidence":0.5281654042,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_06_SEA_DEN",
@@ -2090,7 +2360,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sea.png",
     "confidence":0.501400015,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_06_TEN_IND",
@@ -2113,7 +2386,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ind.png",
     "confidence":0.6087015456,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_06_WAS_SF",
@@ -2136,7 +2412,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sf.png",
     "confidence":0.681644209,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_07_CIN_BAL",
@@ -2159,7 +2438,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/bal.png",
     "confidence":0.5762923601,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_07_CLE_TEN",
@@ -2182,7 +2464,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ten.png",
     "confidence":0.6692131191,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_07_DAL_PHI",
@@ -2205,7 +2490,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/phi.png",
     "confidence":0.6105952396,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_07_DEN_ARI",
@@ -2228,7 +2516,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/den.png",
     "confidence":0.5147015319,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_07_GB_DET",
@@ -2251,7 +2542,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/det.png",
     "confidence":0.5133258472,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_07_IND_MIN",
@@ -2274,7 +2568,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/min.png",
     "confidence":0.6471424124,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_07_KC_SEA",
@@ -2297,7 +2594,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sea.png",
     "confidence":0.5640652041,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_07_LA_LV",
@@ -2320,7 +2620,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lar.png",
     "confidence":0.5946390809,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_07_MIA_NYJ",
@@ -2343,7 +2646,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/nyj.png",
     "confidence":0.5208943795,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_07_NE_CHI",
@@ -2366,7 +2672,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/chi.png",
     "confidence":0.5154954166,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_07_NYG_HOU",
@@ -2389,7 +2698,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/hou.png",
     "confidence":0.5777903927,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_07_PIT_NO",
@@ -2412,7 +2724,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/pit.png",
     "confidence":0.5306073986,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_07_SF_ATL",
@@ -2435,7 +2750,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sf.png",
     "confidence":0.6052272235,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_07_TB_CAR",
@@ -2458,7 +2776,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/tb.png",
     "confidence":0.5609161155,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_08_ARI_DAL",
@@ -2481,7 +2802,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ari.png",
     "confidence":0.5581601335,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_08_ATL_TB",
@@ -2504,7 +2828,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/tb.png",
     "confidence":0.5777170025,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_08_BAL_BUF",
@@ -2527,7 +2854,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/bal.png",
     "confidence":0.5185105637,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_08_CAR_GB",
@@ -2550,7 +2880,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/gb.png",
     "confidence":0.657974107,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_08_CHI_SEA",
@@ -2573,7 +2906,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sea.png",
     "confidence":0.5695049297,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_08_CLE_PIT",
@@ -2596,7 +2932,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/pit.png",
     "confidence":0.8176707959,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_08_IND_JAX",
@@ -2619,7 +2958,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/jax.png",
     "confidence":0.7065980513,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_08_KC_DEN",
@@ -2642,7 +2984,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/den.png",
     "confidence":0.5396823022,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_08_LAC_LA",
@@ -2665,7 +3010,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lar.png",
     "confidence":0.5751948523,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_08_LV_NYJ",
@@ -2688,7 +3036,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/nyj.png",
     "confidence":0.5299992952,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_08_MIN_DET",
@@ -2711,7 +3062,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/det.png",
     "confidence":0.5410715532,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_08_NE_MIA",
@@ -2734,7 +3088,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ne.png",
     "confidence":0.5933140412,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_08_PHI_WAS",
@@ -2757,7 +3114,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/phi.png",
     "confidence":0.5274307223,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_08_TEN_CIN",
@@ -2780,7 +3140,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/cin.png",
     "confidence":0.7847404973,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_09_ARI_SEA",
@@ -2803,7 +3166,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sea.png",
     "confidence":0.560886639,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_09_BUF_MIN",
@@ -2826,7 +3192,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/buf.png",
     "confidence":0.5178770218,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_09_CIN_ATL",
@@ -2849,7 +3218,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/cin.png",
     "confidence":0.5661288285,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_09_CLE_NO",
@@ -2872,7 +3244,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/no.png",
     "confidence":0.7407972505,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_09_DAL_IND",
@@ -2895,7 +3270,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/dal.png",
     "confidence":0.5556150014,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_09_DEN_CAR",
@@ -2918,7 +3296,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/den.png",
     "confidence":0.5742247972,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_09_DET_MIA",
@@ -2941,7 +3322,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/det.png",
     "confidence":0.6211386984,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_09_GB_NE",
@@ -2964,7 +3348,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ne.png",
     "confidence":0.5604640067,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_09_HOU_LAC",
@@ -2987,7 +3374,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lac.png",
     "confidence":0.522938417,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_09_JAX_BAL",
@@ -3010,7 +3400,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/bal.png",
     "confidence":0.5267979453,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_09_LA_WAS",
@@ -3033,7 +3426,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lar.png",
     "confidence":0.5199128189,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_09_LV_SF",
@@ -3056,7 +3452,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sf.png",
     "confidence":0.7717008178,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_09_NYG_PHI",
@@ -3079,7 +3478,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/phi.png",
     "confidence":0.6227378524,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_09_NYJ_KC",
@@ -3102,7 +3504,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/kc.png",
     "confidence":0.7143779169,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_09_TB_CHI",
@@ -3125,7 +3530,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/chi.png",
     "confidence":0.6120868412,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_10_BUF_NYJ",
@@ -3148,7 +3556,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/buf.png",
     "confidence":0.5914183089,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_10_CAR_NO",
@@ -3171,7 +3582,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/no.png",
     "confidence":0.6535663095,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_10_HOU_CLE",
@@ -3194,7 +3608,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/hou.png",
     "confidence":0.648567479,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_10_JAX_TEN",
@@ -3217,7 +3634,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/jax.png",
     "confidence":0.6758911553,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_10_KC_ATL",
@@ -3240,7 +3660,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/kc.png",
     "confidence":0.5343524111,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_10_LAC_BAL",
@@ -3263,7 +3686,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/bal.png",
     "confidence":0.6268550438,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_10_LA_ARI",
@@ -3286,7 +3712,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lar.png",
     "confidence":0.5118080132,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_10_MIA_IND",
@@ -3309,7 +3738,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ind.png",
     "confidence":0.5230619695,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_10_MIN_GB",
@@ -3332,7 +3764,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/gb.png",
     "confidence":0.5203683817,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_10_NE_DET",
@@ -3355,7 +3790,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/det.png",
     "confidence":0.5414971881,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_10_PIT_CIN",
@@ -3378,7 +3816,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/cin.png",
     "confidence":0.5566077279,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_10_SEA_LV",
@@ -3401,7 +3842,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sea.png",
     "confidence":0.5642911962,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_10_SF_DAL",
@@ -3424,7 +3868,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sf.png",
     "confidence":0.5808720914,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_10_WAS_NYG",
@@ -3447,7 +3894,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/nyg.png",
     "confidence":0.518547524,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_11_ARI_KC",
@@ -3470,7 +3920,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/kc.png",
     "confidence":0.5520982355,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_11_BAL_CAR",
@@ -3493,7 +3946,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/bal.png",
     "confidence":0.6001230413,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_11_CIN_WAS",
@@ -3516,7 +3972,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/cin.png",
     "confidence":0.5330404006,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_11_IND_HOU",
@@ -3539,7 +3998,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/hou.png",
     "confidence":0.6673589584,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_11_JAX_NYG",
@@ -3562,7 +4024,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/jax.png",
     "confidence":0.6213089077,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_11_LV_DEN",
@@ -3585,7 +4050,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/den.png",
     "confidence":0.6179141088,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_11_MIA_BUF",
@@ -3608,7 +4076,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/buf.png",
     "confidence":0.706252877,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_11_MIN_SF",
@@ -3631,7 +4102,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sf.png",
     "confidence":0.6544137081,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_11_NO_CHI",
@@ -3654,7 +4128,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/chi.png",
     "confidence":0.6991651698,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_11_NYJ_LAC",
@@ -3677,7 +4154,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lac.png",
     "confidence":0.5597736448,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_11_PIT_PHI",
@@ -3700,7 +4180,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/phi.png",
     "confidence":0.58452037,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_11_TB_DET",
@@ -3723,7 +4206,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/det.png",
     "confidence":0.629163764,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_11_TEN_DAL",
@@ -3746,7 +4232,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/dal.png",
     "confidence":0.6662505,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_12_ATL_MIN",
@@ -3769,7 +4258,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/min.png",
     "confidence":0.5805530952,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_12_BAL_HOU",
@@ -3792,7 +4284,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/bal.png",
     "confidence":0.5918070113,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_12_CAR_TB",
@@ -3815,7 +4310,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/tb.png",
     "confidence":0.6602973697,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_12_CHI_DET",
@@ -3838,7 +4336,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/det.png",
     "confidence":0.5284077876,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_12_DEN_PIT",
@@ -3861,7 +4362,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/pit.png",
     "confidence":0.5430106672,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_12_GB_LA",
@@ -3884,7 +4388,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lar.png",
     "confidence":0.5194909605,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_12_KC_BUF",
@@ -3907,7 +4414,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/buf.png",
     "confidence":0.6060968477,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_12_LV_CLE",
@@ -3930,7 +4440,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lv.png",
     "confidence":0.5788276156,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_12_NE_LAC",
@@ -3953,7 +4466,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ne.png",
     "confidence":0.5749449667,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_12_NO_CIN",
@@ -3976,7 +4492,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/cin.png",
     "confidence":0.6905344363,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_12_NYG_IND",
@@ -3999,7 +4518,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/nyg.png",
     "confidence":0.5091009467,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_12_NYJ_MIA",
@@ -4022,7 +4544,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/mia.png",
     "confidence":0.5299051451,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_12_PHI_DAL",
@@ -4045,7 +4570,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/phi.png",
     "confidence":0.5622006941,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_12_SEA_SF",
@@ -4068,7 +4596,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sf.png",
     "confidence":0.6649104613,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_12_TEN_JAX",
@@ -4091,7 +4622,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/jax.png",
     "confidence":0.8089084976,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_12_WAS_ARI",
@@ -4114,7 +4648,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ari.png",
     "confidence":0.5706306689,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_13_BUF_NE",
@@ -4137,7 +4674,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/buf.png",
     "confidence":0.5051143228,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_13_CAR_MIN",
@@ -4160,7 +4700,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/min.png",
     "confidence":0.6530393934,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_13_CIN_CLE",
@@ -4183,7 +4726,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/cin.png",
     "confidence":0.649293451,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_13_DAL_SEA",
@@ -4206,7 +4752,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sea.png",
     "confidence":0.5970038842,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_13_DET_ATL",
@@ -4229,7 +4778,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/det.png",
     "confidence":0.5869623131,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_13_GB_NO",
@@ -4252,7 +4804,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/gb.png",
     "confidence":0.5156521787,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_13_HOU_PIT",
@@ -4275,7 +4830,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/pit.png",
     "confidence":0.6145660095,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_13_JAX_CHI",
@@ -4298,7 +4856,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/chi.png",
     "confidence":0.5551333811,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_13_KC_LA",
@@ -4321,7 +4882,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lar.png",
     "confidence":0.5329795831,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_13_LAC_TB",
@@ -4344,7 +4908,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/tb.png",
     "confidence":0.5354646235,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_13_MIA_DEN",
@@ -4367,7 +4934,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/den.png",
     "confidence":0.6192843162,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_13_PHI_ARI",
@@ -4390,7 +4960,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/phi.png",
     "confidence":0.5187625901,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_13_SF_NYG",
@@ -4413,7 +4986,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sf.png",
     "confidence":0.6564078361,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_13_WAS_TEN",
@@ -4436,7 +5012,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/wsh.png",
     "confidence":0.5778568064,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_14_ATL_CLE",
@@ -4459,7 +5038,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/atl.png",
     "confidence":0.6192921321,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_14_BUF_GB",
@@ -4482,7 +5064,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/gb.png",
     "confidence":0.5061901301,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_14_CHI_MIA",
@@ -4505,7 +5090,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/chi.png",
     "confidence":0.5740894796,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_14_DEN_NYJ",
@@ -4528,7 +5116,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/den.png",
     "confidence":0.5830819985,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_14_HOU_WAS",
@@ -4551,7 +5142,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/wsh.png",
     "confidence":0.5534532832,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_14_IND_PHI",
@@ -4574,7 +5168,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/phi.png",
     "confidence":0.7089207778,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_14_KC_CIN",
@@ -4597,7 +5194,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/cin.png",
     "confidence":0.5900700955,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_14_LAC_LV",
@@ -4620,7 +5220,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lac.png",
     "confidence":0.5238474274,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_14_LA_SF",
@@ -4643,7 +5246,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sf.png",
     "confidence":0.6243079149,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_14_MIN_NE",
@@ -4666,7 +5272,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ne.png",
     "confidence":0.5634621081,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_14_NO_CAR",
@@ -4689,7 +5298,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/no.png",
     "confidence":0.5023931853,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_14_NYG_SEA",
@@ -4712,7 +5324,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sea.png",
     "confidence":0.6610601279,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_14_PIT_JAX",
@@ -4735,7 +5350,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/jax.png",
     "confidence":0.6829028852,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_14_TB_BAL",
@@ -4758,7 +5376,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/bal.png",
     "confidence":0.6546005575,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_14_TEN_DET",
@@ -4781,7 +5402,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/det.png",
     "confidence":0.7673768273,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_15_ATL_WAS",
@@ -4804,7 +5428,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/wsh.png",
     "confidence":0.5780737436,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_15_BAL_PIT",
@@ -4827,7 +5454,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/bal.png",
     "confidence":0.5778267808,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_15_CHI_BUF",
@@ -4850,7 +5480,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/buf.png",
     "confidence":0.5600783835,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_15_CIN_CAR",
@@ -4873,7 +5506,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/cin.png",
     "confidence":0.5637944863,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_15_CLE_NYG",
@@ -4896,7 +5532,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/nyg.png",
     "confidence":0.7636121295,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_15_DAL_LA",
@@ -4919,7 +5558,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lar.png",
     "confidence":0.5761189162,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_15_DEN_LV",
@@ -4942,7 +5584,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/den.png",
     "confidence":0.5732562622,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_15_DET_MIN",
@@ -4965,7 +5610,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/det.png",
     "confidence":0.5281656945,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_15_IND_TEN",
@@ -4988,7 +5636,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ten.png",
     "confidence":0.5236719901,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_15_JAX_HOU",
@@ -5011,7 +5662,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/jax.png",
     "confidence":0.5863917512,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_15_MIA_GB",
@@ -5034,7 +5688,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/gb.png",
     "confidence":0.6133289204,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_15_NE_KC",
@@ -5057,7 +5714,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ne.png",
     "confidence":0.5105609861,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_15_NO_TB",
@@ -5080,7 +5740,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/tb.png",
     "confidence":0.5429991305,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_15_NYJ_ARI",
@@ -5103,7 +5766,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ari.png",
     "confidence":0.6401329168,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_15_SEA_PHI",
@@ -5126,7 +5792,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/phi.png",
     "confidence":0.5449183416,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_15_SF_LAC",
@@ -5149,7 +5818,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sf.png",
     "confidence":0.6106525681,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_16_ARI_NO",
@@ -5172,7 +5844,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ari.png",
     "confidence":0.5191408525,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_16_BUF_DEN",
@@ -5195,7 +5870,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/buf.png",
     "confidence":0.52358151,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_16_CAR_PIT",
@@ -5218,7 +5896,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/pit.png",
     "confidence":0.7274572752,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_16_CIN_IND",
@@ -5241,7 +5922,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/cin.png",
     "confidence":0.5665314558,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_16_CLE_BAL",
@@ -5264,7 +5948,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/bal.png",
     "confidence":0.7695072329,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_16_GB_CHI",
@@ -5287,7 +5974,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/gb.png",
     "confidence":0.5089205757,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_16_HOU_PHI",
@@ -5310,7 +6000,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/phi.png",
     "confidence":0.6589709199,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_16_JAX_DAL",
@@ -5333,7 +6026,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/jax.png",
     "confidence":0.5570003915,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_16_LAC_MIA",
@@ -5356,7 +6052,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lac.png",
     "confidence":0.5033370668,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_16_LA_SEA",
@@ -5379,7 +6078,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sea.png",
     "confidence":0.5492026788,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_16_NE_NYJ",
@@ -5402,7 +6104,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ne.png",
     "confidence":0.5336332414,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_16_NYG_DET",
@@ -5425,7 +6130,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/det.png",
     "confidence":0.6449026359,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_16_SF_KC",
@@ -5448,7 +6156,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sf.png",
     "confidence":0.5625627401,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_16_TB_ATL",
@@ -5471,7 +6182,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/tb.png",
     "confidence":0.5159179187,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_16_TEN_LV",
@@ -5494,7 +6208,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lv.png",
     "confidence":0.6063388877,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_16_WAS_MIN",
@@ -5517,7 +6234,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/min.png",
     "confidence":0.5889516918,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_17_BAL_CIN",
@@ -5540,7 +6260,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/bal.png",
     "confidence":0.5423421352,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_17_BUF_MIA",
@@ -5563,7 +6286,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/buf.png",
     "confidence":0.5909813767,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_17_DEN_NE",
@@ -5586,7 +6312,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ne.png",
     "confidence":0.5687861269,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_17_DET_CHI",
@@ -5609,7 +6338,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/chi.png",
     "confidence":0.5313337222,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_17_HOU_GB",
@@ -5632,7 +6364,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/gb.png",
     "confidence":0.5655926774,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_17_IND_CLE",
@@ -5655,7 +6390,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ind.png",
     "confidence":0.5659664929,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_17_KC_LAC",
@@ -5678,7 +6416,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/kc.png",
     "confidence":0.5289860229,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_17_LA_TB",
@@ -5701,7 +6442,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lar.png",
     "confidence":0.536426732,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_17_LV_ARI",
@@ -5724,7 +6468,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ari.png",
     "confidence":0.6313721312,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_17_MIN_NYJ",
@@ -5747,7 +6494,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/min.png",
     "confidence":0.54219667,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_17_NO_ATL",
@@ -5770,7 +6520,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/atl.png",
     "confidence":0.5645238128,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_17_NYG_DAL",
@@ -5793,7 +6546,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/dal.png",
     "confidence":0.530336555,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_17_PHI_SF",
@@ -5816,7 +6572,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sf.png",
     "confidence":0.6108194209,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_17_PIT_TEN",
@@ -5839,7 +6598,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/pit.png",
     "confidence":0.6299117992,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_17_SEA_CAR",
@@ -5862,7 +6624,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sea.png",
     "confidence":0.5997548353,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_17_WAS_JAX",
@@ -5885,7 +6650,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/jax.png",
     "confidence":0.6409159767,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_18_ATL_CAR",
@@ -5908,7 +6676,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/atl.png",
     "confidence":0.5416889643,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_18_CHI_MIN",
@@ -5931,7 +6702,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/min.png",
     "confidence":0.5217150442,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_18_CLE_CIN",
@@ -5954,7 +6728,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/cin.png",
     "confidence":0.8249034983,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_18_DAL_WAS",
@@ -5977,7 +6754,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/wsh.png",
     "confidence":0.5115917645,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_18_DET_GB",
@@ -6000,7 +6780,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/gb.png",
     "confidence":0.500376963,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_18_JAX_IND",
@@ -6023,7 +6806,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/jax.png",
     "confidence":0.6156967209,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_18_LAC_DEN",
@@ -6046,7 +6832,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/den.png",
     "confidence":0.5489867081,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_18_LV_KC",
@@ -6069,7 +6858,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/kc.png",
     "confidence":0.6987730664,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_18_MIA_NE",
@@ -6092,7 +6884,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ne.png",
     "confidence":0.6858567621,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_18_NYJ_BUF",
@@ -6115,7 +6910,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/buf.png",
     "confidence":0.6618850775,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_18_PHI_NYG",
@@ -6138,7 +6936,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/phi.png",
     "confidence":0.5786503213,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_18_PIT_BAL",
@@ -6161,7 +6962,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/bal.png",
     "confidence":0.6134837851,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_18_SEA_LA",
@@ -6184,7 +6988,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sea.png",
     "confidence":0.5091095538,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_18_SF_ARI",
@@ -6207,7 +7014,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sf.png",
     "confidence":0.5647973015,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_18_TB_NO",
@@ -6230,7 +7040,10 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/no.png",
     "confidence":0.533405442,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   },
   {
     "game_id":"2026_18_TEN_HOU",
@@ -6253,6 +7066,9 @@
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/hou.png",
     "confidence":0.695299178,
     "updated_at":"2026-09-15T13:02:14.710886+00:00",
-    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
+    "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.",
+    "actual_winner":null,
+    "prediction_correct":null,
+    "prediction_result":"Pending"
   }
 ]
