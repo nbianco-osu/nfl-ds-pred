@@ -19,7 +19,7 @@
     "predicted_winner_name":"Los Angeles Chargers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lac.png",
     "confidence":0.5605314022,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -42,7 +42,7 @@
     "predicted_winner_name":"Pittsburgh Steelers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/pit.png",
     "confidence":0.5552331033,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -65,7 +65,7 @@
     "predicted_winner_name":"Baltimore Ravens",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/bal.png",
     "confidence":0.5750127622,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -88,7 +88,7 @@
     "predicted_winner_name":"Buffalo Bills",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/buf.png",
     "confidence":0.5287384429,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -111,7 +111,7 @@
     "predicted_winner_name":"Chicago Bears",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/chi.png",
     "confidence":0.5232878767,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -134,7 +134,7 @@
     "predicted_winner_name":"Jacksonville Jaguars",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/jax.png",
     "confidence":0.6794762773,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -157,7 +157,7 @@
     "predicted_winner_name":"Dallas Cowboys",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/dal.png",
     "confidence":0.5587367325,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -170,9 +170,9 @@
     "home_win_probability":0.4519980999,
     "away_win_probability":0.5480019001,
     "predicted_winner":"DEN",
-    "home_score":null,
-    "away_score":null,
-    "status":"Scheduled",
+    "home_score":31.0,
+    "away_score":10.0,
+    "status":"Final",
     "home_team_name":"Kansas City Chiefs",
     "home_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/kc.png",
     "away_team_name":"Denver Broncos",
@@ -180,7 +180,7 @@
     "predicted_winner_name":"Denver Broncos",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/den.png",
     "confidence":0.5480019001,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -203,7 +203,7 @@
     "predicted_winner_name":"Green Bay Packers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/gb.png",
     "confidence":0.5311189862,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -226,7 +226,7 @@
     "predicted_winner_name":"Miami Dolphins",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/mia.png",
     "confidence":0.5327730206,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -249,7 +249,7 @@
     "predicted_winner_name":"New England Patriots",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ne.png",
     "confidence":0.5047649985,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -272,7 +272,7 @@
     "predicted_winner_name":"Detroit Lions",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/det.png",
     "confidence":0.6201943752,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -295,7 +295,7 @@
     "predicted_winner_name":"Tennessee Titans",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ten.png",
     "confidence":0.5911182469,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -318,7 +318,7 @@
     "predicted_winner_name":"Los Angeles Rams",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lar.png",
     "confidence":0.5236986268,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -341,7 +341,7 @@
     "predicted_winner_name":"Cincinnati Bengals",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/cin.png",
     "confidence":0.5337672602,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -364,7 +364,7 @@
     "predicted_winner_name":"Philadelphia Eagles",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/phi.png",
     "confidence":0.5680833064,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -387,7 +387,7 @@
     "predicted_winner_name":"Atlanta Falcons",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/atl.png",
     "confidence":0.6671954684,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -410,7 +410,7 @@
     "predicted_winner_name":"Cincinnati Bengals",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/cin.png",
     "confidence":0.5406735201,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -433,7 +433,7 @@
     "predicted_winner_name":"Tampa Bay Buccaneers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/tb.png",
     "confidence":0.7606459251,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -456,7 +456,7 @@
     "predicted_winner_name":"Buffalo Bills",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/buf.png",
     "confidence":0.5714775301,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -479,7 +479,7 @@
     "predicted_winner_name":"Green Bay Packers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/gb.png",
     "confidence":0.5977860655,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -489,8 +489,8 @@
     "gameday":"2026-09-20",
     "away_team":"IND",
     "home_team":"KC",
-    "home_win_probability":0.5814537124,
-    "away_win_probability":0.4185462876,
+    "home_win_probability":0.6296520332,
+    "away_win_probability":0.3703479668,
     "predicted_winner":"KC",
     "home_score":null,
     "away_score":null,
@@ -501,8 +501,8 @@
     "away_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ind.png",
     "predicted_winner_name":"Kansas City Chiefs",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/kc.png",
-    "confidence":0.5814537124,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "confidence":0.6296520332,
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -512,8 +512,8 @@
     "gameday":"2026-09-20",
     "away_team":"JAX",
     "home_team":"DEN",
-    "home_win_probability":0.5432938022,
-    "away_win_probability":0.4567061978,
+    "home_win_probability":0.5204342534,
+    "away_win_probability":0.4795657466,
     "predicted_winner":"DEN",
     "home_score":null,
     "away_score":null,
@@ -524,8 +524,8 @@
     "away_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/jax.png",
     "predicted_winner_name":"Denver Broncos",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/den.png",
-    "confidence":0.5432938022,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "confidence":0.5204342534,
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -548,7 +548,7 @@
     "predicted_winner_name":"Los Angeles Chargers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lac.png",
     "confidence":0.5847694843,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -571,7 +571,7 @@
     "predicted_winner_name":"San Francisco 49ers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sf.png",
     "confidence":0.7770391963,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -594,7 +594,7 @@
     "predicted_winner_name":"Chicago Bears",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/chi.png",
     "confidence":0.6060898002,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -617,7 +617,7 @@
     "predicted_winner_name":"Baltimore Ravens",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/bal.png",
     "confidence":0.6798288496,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -640,7 +640,7 @@
     "predicted_winner_name":"Los Angeles Rams",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lar.png",
     "confidence":0.6054909203,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -663,7 +663,7 @@
     "predicted_winner_name":"Philadelphia Eagles",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/phi.png",
     "confidence":0.6749635057,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -686,7 +686,7 @@
     "predicted_winner_name":"New England Patriots",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ne.png",
     "confidence":0.5942070368,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -709,7 +709,7 @@
     "predicted_winner_name":"Seattle Seahawks",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sea.png",
     "confidence":0.5055132072,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -732,7 +732,7 @@
     "predicted_winner_name":"Washington Commanders",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/wsh.png",
     "confidence":0.5184565111,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -755,7 +755,7 @@
     "predicted_winner_name":"San Francisco 49ers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sf.png",
     "confidence":0.698476128,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -778,7 +778,7 @@
     "predicted_winner_name":"Green Bay Packers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/gb.png",
     "confidence":0.5828018218,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -801,7 +801,7 @@
     "predicted_winner_name":"Baltimore Ravens",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/bal.png",
     "confidence":0.5963502402,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -824,7 +824,7 @@
     "predicted_winner_name":"Carolina Panthers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500-dark\/car.png",
     "confidence":0.5322087332,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -847,7 +847,7 @@
     "predicted_winner_name":"Pittsburgh Steelers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/pit.png",
     "confidence":0.51670374,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -870,7 +870,7 @@
     "predicted_winner_name":"Houston Texans",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/hou.png",
     "confidence":0.5644332149,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -880,8 +880,8 @@
     "gameday":"2026-09-27",
     "away_team":"KC",
     "home_team":"MIA",
-    "home_win_probability":0.479947114,
-    "away_win_probability":0.520052886,
+    "home_win_probability":0.4198168629,
+    "away_win_probability":0.5801831371,
     "predicted_winner":"KC",
     "home_score":null,
     "away_score":null,
@@ -892,8 +892,8 @@
     "away_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/kc.png",
     "predicted_winner_name":"Kansas City Chiefs",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/kc.png",
-    "confidence":0.520052886,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "confidence":0.5801831371,
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -916,7 +916,7 @@
     "predicted_winner_name":"Buffalo Bills",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/buf.png",
     "confidence":0.6555981414,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -926,8 +926,8 @@
     "gameday":"2026-09-27",
     "away_team":"LA",
     "home_team":"DEN",
-    "home_win_probability":0.5483278,
-    "away_win_probability":0.4516722,
+    "home_win_probability":0.5163827771,
+    "away_win_probability":0.4836172229,
     "predicted_winner":"DEN",
     "home_score":null,
     "away_score":null,
@@ -938,8 +938,8 @@
     "away_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lar.png",
     "predicted_winner_name":"Denver Broncos",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/den.png",
-    "confidence":0.5483278,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "confidence":0.5163827771,
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -962,7 +962,7 @@
     "predicted_winner_name":"New Orleans Saints",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/no.png",
     "confidence":0.585078129,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -985,7 +985,7 @@
     "predicted_winner_name":"Tampa Bay Buccaneers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/tb.png",
     "confidence":0.5039391746,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -1008,7 +1008,7 @@
     "predicted_winner_name":"Jacksonville Jaguars",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/jax.png",
     "confidence":0.5427720378,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -1031,7 +1031,7 @@
     "predicted_winner_name":"Detroit Lions",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/det.png",
     "confidence":0.6159913553,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -1054,7 +1054,7 @@
     "predicted_winner_name":"Chicago Bears",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/chi.png",
     "confidence":0.5642944183,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -1077,7 +1077,7 @@
     "predicted_winner_name":"Seattle Seahawks",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sea.png",
     "confidence":0.5416029746,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -1100,7 +1100,7 @@
     "predicted_winner_name":"New York Giants",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/nyg.png",
     "confidence":0.6725201903,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -1123,7 +1123,7 @@
     "predicted_winner_name":"Arizona Cardinals",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ari.png",
     "confidence":0.5418901513,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -1146,7 +1146,7 @@
     "predicted_winner_name":"New Orleans Saints",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/no.png",
     "confidence":0.5548765221,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -1169,7 +1169,7 @@
     "predicted_winner_name":"Houston Texans",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/hou.png",
     "confidence":0.5524259271,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -1179,8 +1179,8 @@
     "gameday":"2026-10-04",
     "away_team":"DEN",
     "home_team":"SF",
-    "home_win_probability":0.6586162861,
-    "away_win_probability":0.3413837139,
+    "home_win_probability":0.6534736556,
+    "away_win_probability":0.3465263444,
     "predicted_winner":"SF",
     "home_score":null,
     "away_score":null,
@@ -1191,8 +1191,8 @@
     "away_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/den.png",
     "predicted_winner_name":"San Francisco 49ers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sf.png",
-    "confidence":0.6586162861,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "confidence":0.6534736556,
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -1215,7 +1215,7 @@
     "predicted_winner_name":"Detroit Lions",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/det.png",
     "confidence":0.6182692976,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -1238,7 +1238,7 @@
     "predicted_winner_name":"Green Bay Packers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/gb.png",
     "confidence":0.5092347363,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -1261,7 +1261,7 @@
     "predicted_winner_name":"Washington Commanders",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/wsh.png",
     "confidence":0.5999661884,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -1284,7 +1284,7 @@
     "predicted_winner_name":"Cincinnati Bengals",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/cin.png",
     "confidence":0.5202608993,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -1294,8 +1294,8 @@
     "gameday":"2026-10-04",
     "away_team":"KC",
     "home_team":"LV",
-    "home_win_probability":0.4777528044,
-    "away_win_probability":0.5222471956,
+    "home_win_probability":0.4006350843,
+    "away_win_probability":0.5993649157,
     "predicted_winner":"KC",
     "home_score":null,
     "away_score":null,
@@ -1306,8 +1306,8 @@
     "away_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/kc.png",
     "predicted_winner_name":"Kansas City Chiefs",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/kc.png",
-    "confidence":0.5222471956,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "confidence":0.5993649157,
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -1330,7 +1330,7 @@
     "predicted_winner_name":"Seattle Seahawks",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sea.png",
     "confidence":0.6378208329,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -1353,7 +1353,7 @@
     "predicted_winner_name":"Philadelphia Eagles",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/phi.png",
     "confidence":0.5689439626,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -1376,7 +1376,7 @@
     "predicted_winner_name":"Minnesota Vikings",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/min.png",
     "confidence":0.58307994,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -1399,7 +1399,7 @@
     "predicted_winner_name":"Buffalo Bills",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/buf.png",
     "confidence":0.5194625654,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -1422,7 +1422,7 @@
     "predicted_winner_name":"Chicago Bears",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/chi.png",
     "confidence":0.6852499906,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -1445,7 +1445,7 @@
     "predicted_winner_name":"Pittsburgh Steelers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/pit.png",
     "confidence":0.6522912513,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -1468,7 +1468,7 @@
     "predicted_winner_name":"Baltimore Ravens",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/bal.png",
     "confidence":0.737336185,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -1491,7 +1491,7 @@
     "predicted_winner_name":"Baltimore Ravens",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/bal.png",
     "confidence":0.6111333226,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -1514,7 +1514,7 @@
     "predicted_winner_name":"Buffalo Bills",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/buf.png",
     "confidence":0.5165303068,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -1537,7 +1537,7 @@
     "predicted_winner_name":"Green Bay Packers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/gb.png",
     "confidence":0.5128558403,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -1560,7 +1560,7 @@
     "predicted_winner_name":"Cincinnati Bengals",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/cin.png",
     "confidence":0.5571826415,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -1583,7 +1583,7 @@
     "predicted_winner_name":"New York Jets",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/nyj.png",
     "confidence":0.6103249068,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -1593,9 +1593,9 @@
     "gameday":"2026-10-11",
     "away_team":"DEN",
     "home_team":"LAC",
-    "home_win_probability":0.4462620081,
-    "away_win_probability":0.5537379919,
-    "predicted_winner":"DEN",
+    "home_win_probability":0.5190842203,
+    "away_win_probability":0.4809157797,
+    "predicted_winner":"LAC",
     "home_score":null,
     "away_score":null,
     "status":"Scheduled",
@@ -1603,10 +1603,10 @@
     "home_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lac.png",
     "away_team_name":"Denver Broncos",
     "away_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/den.png",
-    "predicted_winner_name":"Denver Broncos",
-    "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/den.png",
-    "confidence":0.5537379919,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "predicted_winner_name":"Los Angeles Chargers",
+    "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lac.png",
+    "confidence":0.5190842203,
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -1629,7 +1629,7 @@
     "predicted_winner_name":"Detroit Lions",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/det.png",
     "confidence":0.5536067055,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -1652,7 +1652,7 @@
     "predicted_winner_name":"Houston Texans",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/hou.png",
     "confidence":0.5955665019,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -1675,7 +1675,7 @@
     "predicted_winner_name":"Pittsburgh Steelers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/pit.png",
     "confidence":0.6944928826,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -1698,7 +1698,7 @@
     "predicted_winner_name":"New England Patriots",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ne.png",
     "confidence":0.6362639533,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -1721,7 +1721,7 @@
     "predicted_winner_name":"Minnesota Vikings",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/min.png",
     "confidence":0.5430165158,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -1744,7 +1744,7 @@
     "predicted_winner_name":"Washington Commanders",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/wsh.png",
     "confidence":0.555555018,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -1767,7 +1767,7 @@
     "predicted_winner_name":"Jacksonville Jaguars",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/jax.png",
     "confidence":0.5768135892,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -1790,7 +1790,7 @@
     "predicted_winner_name":"San Francisco 49ers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sf.png",
     "confidence":0.5581818545,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -1813,7 +1813,7 @@
     "predicted_winner_name":"Tampa Bay Buccaneers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/tb.png",
     "confidence":0.5304123953,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -1836,7 +1836,7 @@
     "predicted_winner_name":"Los Angeles Rams",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lar.png",
     "confidence":0.5224783852,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -1859,7 +1859,7 @@
     "predicted_winner_name":"Baltimore Ravens",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/bal.png",
     "confidence":0.6269016504,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -1882,7 +1882,7 @@
     "predicted_winner_name":"Buffalo Bills",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/buf.png",
     "confidence":0.5918555394,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -1905,7 +1905,7 @@
     "predicted_winner_name":"Philadelphia Eagles",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/phi.png",
     "confidence":0.7306521035,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -1928,7 +1928,7 @@
     "predicted_winner_name":"Chicago Bears",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/chi.png",
     "confidence":0.5243639409,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -1951,7 +1951,7 @@
     "predicted_winner_name":"Green Bay Packers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/gb.png",
     "confidence":0.5577851156,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -1974,7 +1974,7 @@
     "predicted_winner_name":"Jacksonville Jaguars",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/jax.png",
     "confidence":0.7091874299,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -1984,8 +1984,8 @@
     "gameday":"2026-10-18",
     "away_team":"LAC",
     "home_team":"KC",
-    "home_win_probability":0.5240608889,
-    "away_win_probability":0.4759391111,
+    "home_win_probability":0.5572820957,
+    "away_win_probability":0.4427179043,
     "predicted_winner":"KC",
     "home_score":null,
     "away_score":null,
@@ -1996,8 +1996,8 @@
     "away_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lac.png",
     "predicted_winner_name":"Kansas City Chiefs",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/kc.png",
-    "confidence":0.5240608889,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "confidence":0.5572820957,
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -2020,7 +2020,7 @@
     "predicted_winner_name":"New York Giants",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/nyg.png",
     "confidence":0.514426692,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -2043,7 +2043,7 @@
     "predicted_winner_name":"New England Patriots",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ne.png",
     "confidence":0.5992499522,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -2066,7 +2066,7 @@
     "predicted_winner_name":"Pittsburgh Steelers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/pit.png",
     "confidence":0.5281654042,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -2076,9 +2076,9 @@
     "gameday":"2026-10-15",
     "away_team":"SEA",
     "home_team":"DEN",
-    "home_win_probability":0.572821767,
-    "away_win_probability":0.427178233,
-    "predicted_winner":"DEN",
+    "home_win_probability":0.498599985,
+    "away_win_probability":0.501400015,
+    "predicted_winner":"SEA",
     "home_score":null,
     "away_score":null,
     "status":"Scheduled",
@@ -2086,10 +2086,10 @@
     "home_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/den.png",
     "away_team_name":"Seattle Seahawks",
     "away_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sea.png",
-    "predicted_winner_name":"Denver Broncos",
-    "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/den.png",
-    "confidence":0.572821767,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "predicted_winner_name":"Seattle Seahawks",
+    "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sea.png",
+    "confidence":0.501400015,
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -2112,7 +2112,7 @@
     "predicted_winner_name":"Indianapolis Colts",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ind.png",
     "confidence":0.6087015456,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -2135,7 +2135,7 @@
     "predicted_winner_name":"San Francisco 49ers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sf.png",
     "confidence":0.681644209,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -2158,7 +2158,7 @@
     "predicted_winner_name":"Baltimore Ravens",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/bal.png",
     "confidence":0.5762923601,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -2181,7 +2181,7 @@
     "predicted_winner_name":"Tennessee Titans",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ten.png",
     "confidence":0.6692131191,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -2204,7 +2204,7 @@
     "predicted_winner_name":"Philadelphia Eagles",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/phi.png",
     "confidence":0.6105952396,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -2214,8 +2214,8 @@
     "gameday":"2026-10-25",
     "away_team":"DEN",
     "home_team":"ARI",
-    "home_win_probability":0.4594191355,
-    "away_win_probability":0.5405808645,
+    "home_win_probability":0.4852984681,
+    "away_win_probability":0.5147015319,
     "predicted_winner":"DEN",
     "home_score":null,
     "away_score":null,
@@ -2226,8 +2226,8 @@
     "away_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/den.png",
     "predicted_winner_name":"Denver Broncos",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/den.png",
-    "confidence":0.5405808645,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "confidence":0.5147015319,
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -2250,7 +2250,7 @@
     "predicted_winner_name":"Detroit Lions",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/det.png",
     "confidence":0.5133258472,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -2273,7 +2273,7 @@
     "predicted_winner_name":"Minnesota Vikings",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/min.png",
     "confidence":0.6471424124,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -2283,8 +2283,8 @@
     "gameday":"2026-10-25",
     "away_team":"KC",
     "home_team":"SEA",
-    "home_win_probability":0.6341780224,
-    "away_win_probability":0.3658219776,
+    "home_win_probability":0.5640652041,
+    "away_win_probability":0.4359347959,
     "predicted_winner":"SEA",
     "home_score":null,
     "away_score":null,
@@ -2295,8 +2295,8 @@
     "away_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/kc.png",
     "predicted_winner_name":"Seattle Seahawks",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sea.png",
-    "confidence":0.6341780224,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "confidence":0.5640652041,
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -2319,7 +2319,7 @@
     "predicted_winner_name":"Los Angeles Rams",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lar.png",
     "confidence":0.5946390809,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -2342,7 +2342,7 @@
     "predicted_winner_name":"New York Jets",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/nyj.png",
     "confidence":0.5208943795,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -2365,7 +2365,7 @@
     "predicted_winner_name":"Chicago Bears",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/chi.png",
     "confidence":0.5154954166,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -2388,7 +2388,7 @@
     "predicted_winner_name":"Houston Texans",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/hou.png",
     "confidence":0.5777903927,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -2411,7 +2411,7 @@
     "predicted_winner_name":"Pittsburgh Steelers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/pit.png",
     "confidence":0.5306073986,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -2434,7 +2434,7 @@
     "predicted_winner_name":"San Francisco 49ers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sf.png",
     "confidence":0.6052272235,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -2457,7 +2457,7 @@
     "predicted_winner_name":"Tampa Bay Buccaneers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/tb.png",
     "confidence":0.5609161155,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -2480,7 +2480,7 @@
     "predicted_winner_name":"Arizona Cardinals",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ari.png",
     "confidence":0.5581601335,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -2503,7 +2503,7 @@
     "predicted_winner_name":"Tampa Bay Buccaneers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/tb.png",
     "confidence":0.5777170025,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -2526,7 +2526,7 @@
     "predicted_winner_name":"Baltimore Ravens",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/bal.png",
     "confidence":0.5185105637,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -2549,7 +2549,7 @@
     "predicted_winner_name":"Green Bay Packers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/gb.png",
     "confidence":0.657974107,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -2572,7 +2572,7 @@
     "predicted_winner_name":"Seattle Seahawks",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sea.png",
     "confidence":0.5695049297,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -2595,7 +2595,7 @@
     "predicted_winner_name":"Pittsburgh Steelers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/pit.png",
     "confidence":0.8176707959,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -2618,7 +2618,7 @@
     "predicted_winner_name":"Jacksonville Jaguars",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/jax.png",
     "confidence":0.7065980513,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -2628,8 +2628,8 @@
     "gameday":"2026-11-01",
     "away_team":"KC",
     "home_team":"DEN",
-    "home_win_probability":0.623568888,
-    "away_win_probability":0.376431112,
+    "home_win_probability":0.5396823022,
+    "away_win_probability":0.4603176978,
     "predicted_winner":"DEN",
     "home_score":null,
     "away_score":null,
@@ -2640,8 +2640,8 @@
     "away_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/kc.png",
     "predicted_winner_name":"Denver Broncos",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/den.png",
-    "confidence":0.623568888,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "confidence":0.5396823022,
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -2664,7 +2664,7 @@
     "predicted_winner_name":"Los Angeles Rams",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lar.png",
     "confidence":0.5751948523,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -2687,7 +2687,7 @@
     "predicted_winner_name":"New York Jets",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/nyj.png",
     "confidence":0.5299992952,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -2710,7 +2710,7 @@
     "predicted_winner_name":"Detroit Lions",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/det.png",
     "confidence":0.5410715532,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -2733,7 +2733,7 @@
     "predicted_winner_name":"New England Patriots",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ne.png",
     "confidence":0.5933140412,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -2756,7 +2756,7 @@
     "predicted_winner_name":"Philadelphia Eagles",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/phi.png",
     "confidence":0.5274307223,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -2779,7 +2779,7 @@
     "predicted_winner_name":"Cincinnati Bengals",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/cin.png",
     "confidence":0.7847404973,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -2802,7 +2802,7 @@
     "predicted_winner_name":"Seattle Seahawks",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sea.png",
     "confidence":0.560886639,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -2825,7 +2825,7 @@
     "predicted_winner_name":"Buffalo Bills",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/buf.png",
     "confidence":0.5178770218,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -2848,7 +2848,7 @@
     "predicted_winner_name":"Cincinnati Bengals",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/cin.png",
     "confidence":0.5661288285,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -2871,7 +2871,7 @@
     "predicted_winner_name":"New Orleans Saints",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/no.png",
     "confidence":0.7407972505,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -2894,7 +2894,7 @@
     "predicted_winner_name":"Dallas Cowboys",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/dal.png",
     "confidence":0.5556150014,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -2904,8 +2904,8 @@
     "gameday":"2026-11-08",
     "away_team":"DEN",
     "home_team":"CAR",
-    "home_win_probability":0.3895873522,
-    "away_win_probability":0.6104126478,
+    "home_win_probability":0.4257752028,
+    "away_win_probability":0.5742247972,
     "predicted_winner":"DEN",
     "home_score":null,
     "away_score":null,
@@ -2916,8 +2916,8 @@
     "away_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/den.png",
     "predicted_winner_name":"Denver Broncos",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/den.png",
-    "confidence":0.6104126478,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "confidence":0.5742247972,
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -2940,7 +2940,7 @@
     "predicted_winner_name":"Detroit Lions",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/det.png",
     "confidence":0.6211386984,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -2963,7 +2963,7 @@
     "predicted_winner_name":"New England Patriots",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ne.png",
     "confidence":0.5604640067,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -2986,7 +2986,7 @@
     "predicted_winner_name":"Los Angeles Chargers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lac.png",
     "confidence":0.522938417,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -3009,7 +3009,7 @@
     "predicted_winner_name":"Baltimore Ravens",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/bal.png",
     "confidence":0.5267979453,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -3032,7 +3032,7 @@
     "predicted_winner_name":"Los Angeles Rams",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lar.png",
     "confidence":0.5199128189,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -3055,7 +3055,7 @@
     "predicted_winner_name":"San Francisco 49ers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sf.png",
     "confidence":0.7717008178,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -3078,7 +3078,7 @@
     "predicted_winner_name":"Philadelphia Eagles",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/phi.png",
     "confidence":0.6227378524,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -3088,8 +3088,8 @@
     "gameday":"2026-11-08",
     "away_team":"NYJ",
     "home_team":"KC",
-    "home_win_probability":0.5811601704,
-    "away_win_probability":0.4188398296,
+    "home_win_probability":0.7143779169,
+    "away_win_probability":0.2856220831,
     "predicted_winner":"KC",
     "home_score":null,
     "away_score":null,
@@ -3100,8 +3100,8 @@
     "away_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/nyj.png",
     "predicted_winner_name":"Kansas City Chiefs",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/kc.png",
-    "confidence":0.5811601704,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "confidence":0.7143779169,
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -3124,7 +3124,7 @@
     "predicted_winner_name":"Chicago Bears",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/chi.png",
     "confidence":0.6120868412,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -3147,7 +3147,7 @@
     "predicted_winner_name":"Buffalo Bills",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/buf.png",
     "confidence":0.5914183089,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -3170,7 +3170,7 @@
     "predicted_winner_name":"New Orleans Saints",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/no.png",
     "confidence":0.6535663095,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -3193,7 +3193,7 @@
     "predicted_winner_name":"Houston Texans",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/hou.png",
     "confidence":0.648567479,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -3216,7 +3216,7 @@
     "predicted_winner_name":"Jacksonville Jaguars",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/jax.png",
     "confidence":0.6758911553,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -3226,9 +3226,9 @@
     "gameday":"2026-11-15",
     "away_team":"KC",
     "home_team":"ATL",
-    "home_win_probability":0.5361845048,
-    "away_win_probability":0.4638154952,
-    "predicted_winner":"ATL",
+    "home_win_probability":0.4656475889,
+    "away_win_probability":0.5343524111,
+    "predicted_winner":"KC",
     "home_score":null,
     "away_score":null,
     "status":"Scheduled",
@@ -3236,10 +3236,10 @@
     "home_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/atl.png",
     "away_team_name":"Kansas City Chiefs",
     "away_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/kc.png",
-    "predicted_winner_name":"Atlanta Falcons",
-    "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/atl.png",
-    "confidence":0.5361845048,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "predicted_winner_name":"Kansas City Chiefs",
+    "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/kc.png",
+    "confidence":0.5343524111,
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -3262,7 +3262,7 @@
     "predicted_winner_name":"Baltimore Ravens",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/bal.png",
     "confidence":0.6268550438,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -3285,7 +3285,7 @@
     "predicted_winner_name":"Los Angeles Rams",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lar.png",
     "confidence":0.5118080132,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -3308,7 +3308,7 @@
     "predicted_winner_name":"Indianapolis Colts",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ind.png",
     "confidence":0.5230619695,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -3331,7 +3331,7 @@
     "predicted_winner_name":"Green Bay Packers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/gb.png",
     "confidence":0.5203683817,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -3354,7 +3354,7 @@
     "predicted_winner_name":"Detroit Lions",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/det.png",
     "confidence":0.5414971881,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -3377,7 +3377,7 @@
     "predicted_winner_name":"Cincinnati Bengals",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/cin.png",
     "confidence":0.5566077279,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -3400,7 +3400,7 @@
     "predicted_winner_name":"Seattle Seahawks",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sea.png",
     "confidence":0.5642911962,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -3423,7 +3423,7 @@
     "predicted_winner_name":"San Francisco 49ers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sf.png",
     "confidence":0.5808720914,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -3446,7 +3446,7 @@
     "predicted_winner_name":"New York Giants",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/nyg.png",
     "confidence":0.518547524,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -3456,9 +3456,9 @@
     "gameday":"2026-11-22",
     "away_team":"ARI",
     "home_team":"KC",
-    "home_win_probability":0.463166133,
-    "away_win_probability":0.536833867,
-    "predicted_winner":"ARI",
+    "home_win_probability":0.5520982355,
+    "away_win_probability":0.4479017645,
+    "predicted_winner":"KC",
     "home_score":null,
     "away_score":null,
     "status":"Scheduled",
@@ -3466,10 +3466,10 @@
     "home_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/kc.png",
     "away_team_name":"Arizona Cardinals",
     "away_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ari.png",
-    "predicted_winner_name":"Arizona Cardinals",
-    "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ari.png",
-    "confidence":0.536833867,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "predicted_winner_name":"Kansas City Chiefs",
+    "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/kc.png",
+    "confidence":0.5520982355,
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -3492,7 +3492,7 @@
     "predicted_winner_name":"Baltimore Ravens",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/bal.png",
     "confidence":0.6001230413,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -3515,7 +3515,7 @@
     "predicted_winner_name":"Cincinnati Bengals",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/cin.png",
     "confidence":0.5330404006,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -3538,7 +3538,7 @@
     "predicted_winner_name":"Houston Texans",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/hou.png",
     "confidence":0.6673589584,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -3561,7 +3561,7 @@
     "predicted_winner_name":"Jacksonville Jaguars",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/jax.png",
     "confidence":0.6213089077,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -3571,8 +3571,8 @@
     "gameday":"2026-11-22",
     "away_team":"LV",
     "home_team":"DEN",
-    "home_win_probability":0.6584032845,
-    "away_win_probability":0.3415967155,
+    "home_win_probability":0.6179141088,
+    "away_win_probability":0.3820858912,
     "predicted_winner":"DEN",
     "home_score":null,
     "away_score":null,
@@ -3583,8 +3583,8 @@
     "away_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lv.png",
     "predicted_winner_name":"Denver Broncos",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/den.png",
-    "confidence":0.6584032845,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "confidence":0.6179141088,
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -3607,7 +3607,7 @@
     "predicted_winner_name":"Buffalo Bills",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/buf.png",
     "confidence":0.706252877,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -3630,7 +3630,7 @@
     "predicted_winner_name":"San Francisco 49ers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sf.png",
     "confidence":0.6544137081,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -3653,7 +3653,7 @@
     "predicted_winner_name":"Chicago Bears",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/chi.png",
     "confidence":0.6991651698,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -3676,7 +3676,7 @@
     "predicted_winner_name":"Los Angeles Chargers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lac.png",
     "confidence":0.5597736448,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -3699,7 +3699,7 @@
     "predicted_winner_name":"Philadelphia Eagles",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/phi.png",
     "confidence":0.58452037,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -3722,7 +3722,7 @@
     "predicted_winner_name":"Detroit Lions",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/det.png",
     "confidence":0.629163764,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -3745,7 +3745,7 @@
     "predicted_winner_name":"Dallas Cowboys",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/dal.png",
     "confidence":0.6662505,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -3768,7 +3768,7 @@
     "predicted_winner_name":"Minnesota Vikings",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/min.png",
     "confidence":0.5805530952,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -3791,7 +3791,7 @@
     "predicted_winner_name":"Baltimore Ravens",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/bal.png",
     "confidence":0.5918070113,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -3814,7 +3814,7 @@
     "predicted_winner_name":"Tampa Bay Buccaneers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/tb.png",
     "confidence":0.6602973697,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -3837,7 +3837,7 @@
     "predicted_winner_name":"Detroit Lions",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/det.png",
     "confidence":0.5284077876,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -3847,8 +3847,8 @@
     "gameday":"2026-11-27",
     "away_team":"DEN",
     "home_team":"PIT",
-    "home_win_probability":0.5190217036,
-    "away_win_probability":0.4809782964,
+    "home_win_probability":0.5430106672,
+    "away_win_probability":0.4569893328,
     "predicted_winner":"PIT",
     "home_score":null,
     "away_score":null,
@@ -3859,8 +3859,8 @@
     "away_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/den.png",
     "predicted_winner_name":"Pittsburgh Steelers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/pit.png",
-    "confidence":0.5190217036,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "confidence":0.5430106672,
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -3883,7 +3883,7 @@
     "predicted_winner_name":"Los Angeles Rams",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lar.png",
     "confidence":0.5194909605,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -3893,8 +3893,8 @@
     "gameday":"2026-11-26",
     "away_team":"KC",
     "home_team":"BUF",
-    "home_win_probability":0.6855039811,
-    "away_win_probability":0.3144960189,
+    "home_win_probability":0.6060968477,
+    "away_win_probability":0.3939031523,
     "predicted_winner":"BUF",
     "home_score":null,
     "away_score":null,
@@ -3905,8 +3905,8 @@
     "away_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/kc.png",
     "predicted_winner_name":"Buffalo Bills",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/buf.png",
-    "confidence":0.6855039811,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "confidence":0.6060968477,
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -3929,7 +3929,7 @@
     "predicted_winner_name":"Las Vegas Raiders",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lv.png",
     "confidence":0.5788276156,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -3952,7 +3952,7 @@
     "predicted_winner_name":"New England Patriots",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ne.png",
     "confidence":0.5749449667,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -3975,7 +3975,7 @@
     "predicted_winner_name":"Cincinnati Bengals",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/cin.png",
     "confidence":0.6905344363,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -3998,7 +3998,7 @@
     "predicted_winner_name":"New York Giants",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/nyg.png",
     "confidence":0.5091009467,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -4021,7 +4021,7 @@
     "predicted_winner_name":"Miami Dolphins",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/mia.png",
     "confidence":0.5299051451,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -4044,7 +4044,7 @@
     "predicted_winner_name":"Philadelphia Eagles",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/phi.png",
     "confidence":0.5622006941,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -4067,7 +4067,7 @@
     "predicted_winner_name":"San Francisco 49ers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sf.png",
     "confidence":0.6649104613,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -4090,7 +4090,7 @@
     "predicted_winner_name":"Jacksonville Jaguars",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/jax.png",
     "confidence":0.8089084976,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -4113,7 +4113,7 @@
     "predicted_winner_name":"Arizona Cardinals",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ari.png",
     "confidence":0.5706306689,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -4136,7 +4136,7 @@
     "predicted_winner_name":"Buffalo Bills",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/buf.png",
     "confidence":0.5051143228,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -4159,7 +4159,7 @@
     "predicted_winner_name":"Minnesota Vikings",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/min.png",
     "confidence":0.6530393934,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -4182,7 +4182,7 @@
     "predicted_winner_name":"Cincinnati Bengals",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/cin.png",
     "confidence":0.649293451,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -4205,7 +4205,7 @@
     "predicted_winner_name":"Seattle Seahawks",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sea.png",
     "confidence":0.5970038842,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -4228,7 +4228,7 @@
     "predicted_winner_name":"Detroit Lions",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/det.png",
     "confidence":0.5869623131,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -4251,7 +4251,7 @@
     "predicted_winner_name":"Green Bay Packers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/gb.png",
     "confidence":0.5156521787,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -4274,7 +4274,7 @@
     "predicted_winner_name":"Pittsburgh Steelers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/pit.png",
     "confidence":0.6145660095,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -4297,7 +4297,7 @@
     "predicted_winner_name":"Chicago Bears",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/chi.png",
     "confidence":0.5551333811,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -4307,8 +4307,8 @@
     "gameday":"2026-12-03",
     "away_team":"KC",
     "home_team":"LA",
-    "home_win_probability":0.5888451445,
-    "away_win_probability":0.4111548555,
+    "home_win_probability":0.5329795831,
+    "away_win_probability":0.4670204169,
     "predicted_winner":"LA",
     "home_score":null,
     "away_score":null,
@@ -4319,8 +4319,8 @@
     "away_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/kc.png",
     "predicted_winner_name":"Los Angeles Rams",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lar.png",
-    "confidence":0.5888451445,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "confidence":0.5329795831,
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -4343,7 +4343,7 @@
     "predicted_winner_name":"Tampa Bay Buccaneers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/tb.png",
     "confidence":0.5354646235,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -4353,8 +4353,8 @@
     "gameday":"2026-12-06",
     "away_team":"MIA",
     "home_team":"DEN",
-    "home_win_probability":0.7083319589,
-    "away_win_probability":0.2916680411,
+    "home_win_probability":0.6192843162,
+    "away_win_probability":0.3807156838,
     "predicted_winner":"DEN",
     "home_score":null,
     "away_score":null,
@@ -4365,8 +4365,8 @@
     "away_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/mia.png",
     "predicted_winner_name":"Denver Broncos",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/den.png",
-    "confidence":0.7083319589,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "confidence":0.6192843162,
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -4389,7 +4389,7 @@
     "predicted_winner_name":"Philadelphia Eagles",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/phi.png",
     "confidence":0.5187625901,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -4412,7 +4412,7 @@
     "predicted_winner_name":"San Francisco 49ers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sf.png",
     "confidence":0.6564078361,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -4435,7 +4435,7 @@
     "predicted_winner_name":"Washington Commanders",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/wsh.png",
     "confidence":0.5778568064,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -4458,7 +4458,7 @@
     "predicted_winner_name":"Atlanta Falcons",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/atl.png",
     "confidence":0.6192921321,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -4481,7 +4481,7 @@
     "predicted_winner_name":"Green Bay Packers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/gb.png",
     "confidence":0.5061901301,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -4504,7 +4504,7 @@
     "predicted_winner_name":"Chicago Bears",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/chi.png",
     "confidence":0.5740894796,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -4514,8 +4514,8 @@
     "gameday":"2026-12-13",
     "away_team":"DEN",
     "home_team":"NYJ",
-    "home_win_probability":0.3986926839,
-    "away_win_probability":0.6013073161,
+    "home_win_probability":0.4169180015,
+    "away_win_probability":0.5830819985,
     "predicted_winner":"DEN",
     "home_score":null,
     "away_score":null,
@@ -4526,8 +4526,8 @@
     "away_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/den.png",
     "predicted_winner_name":"Denver Broncos",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/den.png",
-    "confidence":0.6013073161,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "confidence":0.5830819985,
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -4550,7 +4550,7 @@
     "predicted_winner_name":"Washington Commanders",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/wsh.png",
     "confidence":0.5534532832,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -4573,7 +4573,7 @@
     "predicted_winner_name":"Philadelphia Eagles",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/phi.png",
     "confidence":0.7089207778,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -4583,8 +4583,8 @@
     "gameday":"2026-12-13",
     "away_team":"KC",
     "home_team":"CIN",
-    "home_win_probability":0.6567442111,
-    "away_win_probability":0.3432557889,
+    "home_win_probability":0.5900700955,
+    "away_win_probability":0.4099299045,
     "predicted_winner":"CIN",
     "home_score":null,
     "away_score":null,
@@ -4595,8 +4595,8 @@
     "away_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/kc.png",
     "predicted_winner_name":"Cincinnati Bengals",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/cin.png",
-    "confidence":0.6567442111,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "confidence":0.5900700955,
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -4619,7 +4619,7 @@
     "predicted_winner_name":"Los Angeles Chargers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lac.png",
     "confidence":0.5238474274,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -4642,7 +4642,7 @@
     "predicted_winner_name":"San Francisco 49ers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sf.png",
     "confidence":0.6243079149,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -4665,7 +4665,7 @@
     "predicted_winner_name":"New England Patriots",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ne.png",
     "confidence":0.5634621081,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -4688,7 +4688,7 @@
     "predicted_winner_name":"New Orleans Saints",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/no.png",
     "confidence":0.5023931853,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -4711,7 +4711,7 @@
     "predicted_winner_name":"Seattle Seahawks",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sea.png",
     "confidence":0.6610601279,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -4734,7 +4734,7 @@
     "predicted_winner_name":"Jacksonville Jaguars",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/jax.png",
     "confidence":0.6829028852,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -4757,7 +4757,7 @@
     "predicted_winner_name":"Baltimore Ravens",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/bal.png",
     "confidence":0.6546005575,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -4780,7 +4780,7 @@
     "predicted_winner_name":"Detroit Lions",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/det.png",
     "confidence":0.7673768273,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -4803,7 +4803,7 @@
     "predicted_winner_name":"Washington Commanders",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/wsh.png",
     "confidence":0.5780737436,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -4826,7 +4826,7 @@
     "predicted_winner_name":"Baltimore Ravens",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/bal.png",
     "confidence":0.5778267808,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -4849,7 +4849,7 @@
     "predicted_winner_name":"Buffalo Bills",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/buf.png",
     "confidence":0.5600783835,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -4872,7 +4872,7 @@
     "predicted_winner_name":"Cincinnati Bengals",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/cin.png",
     "confidence":0.5637944863,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -4895,7 +4895,7 @@
     "predicted_winner_name":"New York Giants",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/nyg.png",
     "confidence":0.7636121295,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -4918,7 +4918,7 @@
     "predicted_winner_name":"Los Angeles Rams",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lar.png",
     "confidence":0.5761189162,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -4928,8 +4928,8 @@
     "gameday":"2026-12-20",
     "away_team":"DEN",
     "home_team":"LV",
-    "home_win_probability":0.4105055118,
-    "away_win_probability":0.5894944882,
+    "home_win_probability":0.4267437378,
+    "away_win_probability":0.5732562622,
     "predicted_winner":"DEN",
     "home_score":null,
     "away_score":null,
@@ -4940,8 +4940,8 @@
     "away_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/den.png",
     "predicted_winner_name":"Denver Broncos",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/den.png",
-    "confidence":0.5894944882,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "confidence":0.5732562622,
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -4964,7 +4964,7 @@
     "predicted_winner_name":"Detroit Lions",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/det.png",
     "confidence":0.5281656945,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -4987,7 +4987,7 @@
     "predicted_winner_name":"Tennessee Titans",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ten.png",
     "confidence":0.5236719901,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -5010,7 +5010,7 @@
     "predicted_winner_name":"Jacksonville Jaguars",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/jax.png",
     "confidence":0.5863917512,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -5033,7 +5033,7 @@
     "predicted_winner_name":"Green Bay Packers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/gb.png",
     "confidence":0.6133289204,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -5043,8 +5043,8 @@
     "gameday":"2026-12-21",
     "away_team":"NE",
     "home_team":"KC",
-    "home_win_probability":0.4598758524,
-    "away_win_probability":0.5401241476,
+    "home_win_probability":0.4894390139,
+    "away_win_probability":0.5105609861,
     "predicted_winner":"NE",
     "home_score":null,
     "away_score":null,
@@ -5055,8 +5055,8 @@
     "away_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ne.png",
     "predicted_winner_name":"New England Patriots",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ne.png",
-    "confidence":0.5401241476,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "confidence":0.5105609861,
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -5079,7 +5079,7 @@
     "predicted_winner_name":"Tampa Bay Buccaneers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/tb.png",
     "confidence":0.5429991305,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -5102,7 +5102,7 @@
     "predicted_winner_name":"Arizona Cardinals",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ari.png",
     "confidence":0.6401329168,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -5125,7 +5125,7 @@
     "predicted_winner_name":"Philadelphia Eagles",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/phi.png",
     "confidence":0.5449183416,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -5148,7 +5148,7 @@
     "predicted_winner_name":"San Francisco 49ers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sf.png",
     "confidence":0.6106525681,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -5171,7 +5171,7 @@
     "predicted_winner_name":"Arizona Cardinals",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ari.png",
     "confidence":0.5191408525,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -5181,9 +5181,9 @@
     "gameday":"2026-12-25",
     "away_team":"BUF",
     "home_team":"DEN",
-    "home_win_probability":0.5101518674,
-    "away_win_probability":0.4898481326,
-    "predicted_winner":"DEN",
+    "home_win_probability":0.47641849,
+    "away_win_probability":0.52358151,
+    "predicted_winner":"BUF",
     "home_score":null,
     "away_score":null,
     "status":"Scheduled",
@@ -5191,10 +5191,10 @@
     "home_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/den.png",
     "away_team_name":"Buffalo Bills",
     "away_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/buf.png",
-    "predicted_winner_name":"Denver Broncos",
-    "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/den.png",
-    "confidence":0.5101518674,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "predicted_winner_name":"Buffalo Bills",
+    "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/buf.png",
+    "confidence":0.52358151,
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -5217,7 +5217,7 @@
     "predicted_winner_name":"Pittsburgh Steelers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/pit.png",
     "confidence":0.7274572752,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -5240,7 +5240,7 @@
     "predicted_winner_name":"Cincinnati Bengals",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/cin.png",
     "confidence":0.5665314558,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -5263,7 +5263,7 @@
     "predicted_winner_name":"Baltimore Ravens",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/bal.png",
     "confidence":0.7695072329,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -5286,7 +5286,7 @@
     "predicted_winner_name":"Green Bay Packers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/gb.png",
     "confidence":0.5089205757,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -5309,7 +5309,7 @@
     "predicted_winner_name":"Philadelphia Eagles",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/phi.png",
     "confidence":0.6589709199,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -5332,7 +5332,7 @@
     "predicted_winner_name":"Jacksonville Jaguars",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/jax.png",
     "confidence":0.5570003915,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -5355,7 +5355,7 @@
     "predicted_winner_name":"Los Angeles Chargers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lac.png",
     "confidence":0.5033370668,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -5378,7 +5378,7 @@
     "predicted_winner_name":"Seattle Seahawks",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sea.png",
     "confidence":0.5492026788,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -5401,7 +5401,7 @@
     "predicted_winner_name":"New England Patriots",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ne.png",
     "confidence":0.5336332414,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -5424,7 +5424,7 @@
     "predicted_winner_name":"Detroit Lions",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/det.png",
     "confidence":0.6449026359,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -5434,8 +5434,8 @@
     "gameday":"2026-12-27",
     "away_team":"SF",
     "home_team":"KC",
-    "home_win_probability":0.3859210433,
-    "away_win_probability":0.6140789567,
+    "home_win_probability":0.4374372599,
+    "away_win_probability":0.5625627401,
     "predicted_winner":"SF",
     "home_score":null,
     "away_score":null,
@@ -5446,8 +5446,8 @@
     "away_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sf.png",
     "predicted_winner_name":"San Francisco 49ers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sf.png",
-    "confidence":0.6140789567,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "confidence":0.5625627401,
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -5470,7 +5470,7 @@
     "predicted_winner_name":"Tampa Bay Buccaneers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/tb.png",
     "confidence":0.5159179187,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -5493,7 +5493,7 @@
     "predicted_winner_name":"Las Vegas Raiders",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lv.png",
     "confidence":0.6063388877,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -5516,7 +5516,7 @@
     "predicted_winner_name":"Minnesota Vikings",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/min.png",
     "confidence":0.5889516918,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -5539,7 +5539,7 @@
     "predicted_winner_name":"Baltimore Ravens",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/bal.png",
     "confidence":0.5423421352,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -5562,7 +5562,7 @@
     "predicted_winner_name":"Buffalo Bills",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/buf.png",
     "confidence":0.5909813767,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -5572,8 +5572,8 @@
     "gameday":"2027-01-03",
     "away_team":"DEN",
     "home_team":"NE",
-    "home_win_probability":0.5573210219,
-    "away_win_probability":0.4426789781,
+    "home_win_probability":0.5687861269,
+    "away_win_probability":0.4312138731,
     "predicted_winner":"NE",
     "home_score":null,
     "away_score":null,
@@ -5584,8 +5584,8 @@
     "away_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/den.png",
     "predicted_winner_name":"New England Patriots",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ne.png",
-    "confidence":0.5573210219,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "confidence":0.5687861269,
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -5608,7 +5608,7 @@
     "predicted_winner_name":"Chicago Bears",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/chi.png",
     "confidence":0.5313337222,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -5631,7 +5631,7 @@
     "predicted_winner_name":"Green Bay Packers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/gb.png",
     "confidence":0.5655926774,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -5654,7 +5654,7 @@
     "predicted_winner_name":"Indianapolis Colts",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ind.png",
     "confidence":0.5659664929,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -5664,9 +5664,9 @@
     "gameday":"2027-01-03",
     "away_team":"KC",
     "home_team":"LAC",
-    "home_win_probability":0.5336896501,
-    "away_win_probability":0.4663103499,
-    "predicted_winner":"LAC",
+    "home_win_probability":0.4710139771,
+    "away_win_probability":0.5289860229,
+    "predicted_winner":"KC",
     "home_score":null,
     "away_score":null,
     "status":"Scheduled",
@@ -5674,10 +5674,10 @@
     "home_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lac.png",
     "away_team_name":"Kansas City Chiefs",
     "away_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/kc.png",
-    "predicted_winner_name":"Los Angeles Chargers",
-    "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lac.png",
-    "confidence":0.5336896501,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "predicted_winner_name":"Kansas City Chiefs",
+    "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/kc.png",
+    "confidence":0.5289860229,
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -5700,7 +5700,7 @@
     "predicted_winner_name":"Los Angeles Rams",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lar.png",
     "confidence":0.536426732,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -5723,7 +5723,7 @@
     "predicted_winner_name":"Arizona Cardinals",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ari.png",
     "confidence":0.6313721312,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -5746,7 +5746,7 @@
     "predicted_winner_name":"Minnesota Vikings",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/min.png",
     "confidence":0.54219667,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -5769,7 +5769,7 @@
     "predicted_winner_name":"Atlanta Falcons",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/atl.png",
     "confidence":0.5645238128,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -5792,7 +5792,7 @@
     "predicted_winner_name":"Dallas Cowboys",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/dal.png",
     "confidence":0.530336555,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -5815,7 +5815,7 @@
     "predicted_winner_name":"San Francisco 49ers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sf.png",
     "confidence":0.6108194209,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -5838,7 +5838,7 @@
     "predicted_winner_name":"Pittsburgh Steelers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/pit.png",
     "confidence":0.6299117992,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -5861,7 +5861,7 @@
     "predicted_winner_name":"Seattle Seahawks",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sea.png",
     "confidence":0.5997548353,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -5884,7 +5884,7 @@
     "predicted_winner_name":"Jacksonville Jaguars",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/jax.png",
     "confidence":0.6409159767,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -5907,7 +5907,7 @@
     "predicted_winner_name":"Atlanta Falcons",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/atl.png",
     "confidence":0.5416889643,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -5930,7 +5930,7 @@
     "predicted_winner_name":"Minnesota Vikings",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/min.png",
     "confidence":0.5217150442,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -5953,7 +5953,7 @@
     "predicted_winner_name":"Cincinnati Bengals",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/cin.png",
     "confidence":0.8249034983,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -5976,7 +5976,7 @@
     "predicted_winner_name":"Washington Commanders",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/wsh.png",
     "confidence":0.5115917645,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -5999,7 +5999,7 @@
     "predicted_winner_name":"Green Bay Packers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/gb.png",
     "confidence":0.500376963,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -6022,7 +6022,7 @@
     "predicted_winner_name":"Jacksonville Jaguars",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/jax.png",
     "confidence":0.6156967209,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -6032,8 +6032,8 @@
     "gameday":"2027-01-10",
     "away_team":"LAC",
     "home_team":"DEN",
-    "home_win_probability":0.6542756332,
-    "away_win_probability":0.3457243668,
+    "home_win_probability":0.5489867081,
+    "away_win_probability":0.4510132919,
     "predicted_winner":"DEN",
     "home_score":null,
     "away_score":null,
@@ -6044,8 +6044,8 @@
     "away_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lac.png",
     "predicted_winner_name":"Denver Broncos",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/den.png",
-    "confidence":0.6542756332,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "confidence":0.5489867081,
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -6055,8 +6055,8 @@
     "gameday":"2027-01-10",
     "away_team":"LV",
     "home_team":"KC",
-    "home_win_probability":0.5940372104,
-    "away_win_probability":0.4059627896,
+    "home_win_probability":0.6987730664,
+    "away_win_probability":0.3012269336,
     "predicted_winner":"KC",
     "home_score":null,
     "away_score":null,
@@ -6067,8 +6067,8 @@
     "away_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lv.png",
     "predicted_winner_name":"Kansas City Chiefs",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/kc.png",
-    "confidence":0.5940372104,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "confidence":0.6987730664,
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -6091,7 +6091,7 @@
     "predicted_winner_name":"New England Patriots",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ne.png",
     "confidence":0.6858567621,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -6114,7 +6114,7 @@
     "predicted_winner_name":"Buffalo Bills",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/buf.png",
     "confidence":0.6618850775,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -6137,7 +6137,7 @@
     "predicted_winner_name":"Philadelphia Eagles",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/phi.png",
     "confidence":0.5786503213,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -6160,7 +6160,7 @@
     "predicted_winner_name":"Baltimore Ravens",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/bal.png",
     "confidence":0.6134837851,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -6183,7 +6183,7 @@
     "predicted_winner_name":"Seattle Seahawks",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sea.png",
     "confidence":0.5091095538,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -6206,7 +6206,7 @@
     "predicted_winner_name":"San Francisco 49ers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sf.png",
     "confidence":0.5647973015,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -6229,7 +6229,7 @@
     "predicted_winner_name":"New Orleans Saints",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/no.png",
     "confidence":0.533405442,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   },
   {
@@ -6252,7 +6252,7 @@
     "predicted_winner_name":"Houston Texans",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/hou.png",
     "confidence":0.695299178,
-    "updated_at":"2026-09-14T13:22:32.571965+00:00",
+    "updated_at":"2026-09-15T13:02:14.710886+00:00",
     "feature_note":"Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained."
   }
 ]
