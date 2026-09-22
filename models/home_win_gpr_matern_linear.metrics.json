@@ -1,0 +1,48 @@
+{
+  "name": "matern_linear",
+  "holdout_season": 2026,
+  "test_rows": 32,
+  "accuracy": 0.65625,
+  "log_loss": 0.6643453954444645,
+  "brier_score": 0.23573584567190084,
+  "roc_auc": 0.6431372549019607,
+  "search_trials": [
+    {
+      "noise_level": 0.1,
+      "length_scale": 3.0,
+      "validation_log_loss": 0.6631709482022898
+    },
+    {
+      "noise_level": 0.1,
+      "length_scale": 8.0,
+      "validation_log_loss": 0.6613348426185576
+    },
+    {
+      "noise_level": 0.5,
+      "length_scale": 3.0,
+      "validation_log_loss": 0.6581469208541332
+    },
+    {
+      "noise_level": 0.5,
+      "length_scale": 8.0,
+      "validation_log_loss": 0.6532109091085967
+    }
+  ],
+  "selected": {
+    "noise_level": 0.5,
+    "length_scale": 8.0,
+    "validation_log_loss": 0.6532109091085967
+  },
+  "evaluation": "Pre-refit retrospective holdout; tuning on preceding season only",
+  "final_regression_rows": 1000,
+  "final_calibration_rows": 271,
+  "final_training_end": [
+    2025,
+    2
+  ],
+  "calibration_start": [
+    2025,
+    3
+  ],
+  "kernel": "Matern(length_scale=8, nu=1.5) + 0.224**2 * DotProduct(sigma_0=1) + WhiteKernel(noise_level=0.5)"
+}

@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from pathlib import Path
+import json
 
 import joblib
 import pandas as pd
@@ -239,7 +240,31 @@ top[1].metric("Model", type(artifact["model"].named_steps["model"]).__name__)
 top[2].metric("Holdout Log Loss", f"{metrics.get('log_loss', float('nan')):.3f}")
 top[3].metric("Holdout ROC AUC", f"{metrics.get('roc_auc', float('nan')):.3f}")
 
-schedule_tab, model_tab, game_tab = st.tabs(["Schedule", "Model Signals", "Game Explanation"])
+schedule_tab, comparison_tab, model_tab, game_tab = st.tabs(["Schedule", "Model Comparison", "Model Signals", "Game Explanation"])
+
+with comparison_tab:
+    st.subheader("16-Model Comparison")
+    st.caption("Pre-refit retrospective evaluation, not live pregame accuracy. Production picks remain unchanged. Market-input models use different information from no-market models.")
+    comparison_path = ROOT / "public_site/data/model_comparison.json"
+    if comparison_path.exists():
+        comparison = json.loads(comparison_path.read_text())
+        rows = pd.DataFrame(comparison["models"])
+        group = st.selectbox("Model group", ["All models", "GPR", "Original", "No-market"])
+        if group == "No-market":
+            rows = rows.loc[~rows.market_inputs]
+        elif group != "All models":
+            rows = rows.loc[rows.family.eq(group)]
+        rows = rows.sort_values("log_loss")
+        st.plotly_chart(px.bar(rows, x="log_loss", y="name", color="status", orientation="h",
+                               labels={"log_loss": "Log loss (lower is better)", "name": "Model", "status": "Status"})
+                        .update_layout(yaxis={"categoryorder": "total descending"}, height=600), width="stretch")
+        st.dataframe(rows[["name", "status", "market_inputs", "holdout_season", "test_rows", "log_loss", "accuracy", "roc_auc", "noise_variance", "length_scale", "training"]].rename(columns={
+            "name": "Model", "status": "Status", "market_inputs": "Market inputs", "holdout_season": "Evaluation season",
+            "test_rows": "Games evaluated", "log_loss": "Log loss", "accuracy": "Accuracy (0-1)", "roc_auc": "ROC AUC",
+            "noise_variance": "Noise variance", "length_scale": "Length scale", "training": "Final fit"}), hide_index=True, width="stretch")
+        st.caption("GPR: binary-label Gaussian regression with white-noise kernels and later sigmoid calibration. Up to 1,000 recent regression games plus at least 256 separate calibration games. Parameters selected on 2025; 2026 evaluated before final fitting. Small-sample scores do not establish improvement.")
+    else:
+        st.info("Model comparison unavailable. Run python export_model_comparison.py.")
 
 with schedule_tab:
     left, right = st.columns([1, 3])

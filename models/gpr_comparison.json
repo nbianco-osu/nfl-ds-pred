@@ -1,0 +1,395 @@
+{
+  "created_at": "20260922T153952Z",
+  "status": "experimental; no automatic promotion",
+  "validation_season": 2025,
+  "holdout_season": 2026,
+  "holdout_rows": 32,
+  "models": [
+    {
+      "name": "rbf",
+      "holdout_season": 2026,
+      "test_rows": 32,
+      "accuracy": 0.53125,
+      "log_loss": 0.6770076898807421,
+      "brier_score": 0.24168911445694688,
+      "roc_auc": 0.596078431372549,
+      "search_trials": [
+        {
+          "noise_level": 0.1,
+          "length_scale": 3.0,
+          "validation_log_loss": 0.67507746665124
+        },
+        {
+          "noise_level": 0.1,
+          "length_scale": 8.0,
+          "validation_log_loss": 0.6547534964730795
+        },
+        {
+          "noise_level": 0.5,
+          "length_scale": 3.0,
+          "validation_log_loss": 0.6640473206794872
+        },
+        {
+          "noise_level": 0.5,
+          "length_scale": 8.0,
+          "validation_log_loss": 0.6478934995874129
+        }
+      ],
+      "selected": {
+        "noise_level": 0.5,
+        "length_scale": 8.0,
+        "validation_log_loss": 0.6478934995874129
+      },
+      "evaluation": "Pre-refit retrospective holdout; tuning on preceding season only",
+      "final_regression_rows": 1000,
+      "final_calibration_rows": 271,
+      "final_training_end": [
+        2025,
+        2
+      ],
+      "calibration_start": [
+        2025,
+        3
+      ],
+      "kernel": "RBF(length_scale=8) + WhiteKernel(noise_level=0.5)"
+    },
+    {
+      "name": "matern_05",
+      "holdout_season": 2026,
+      "test_rows": 32,
+      "accuracy": 0.59375,
+      "log_loss": 0.6705395853897129,
+      "brier_score": 0.23895069077864767,
+      "roc_auc": 0.6117647058823529,
+      "search_trials": [
+        {
+          "noise_level": 0.1,
+          "length_scale": 3.0,
+          "validation_log_loss": 0.6581446778059094
+        },
+        {
+          "noise_level": 0.1,
+          "length_scale": 8.0,
+          "validation_log_loss": 0.658187894490014
+        },
+        {
+          "noise_level": 0.5,
+          "length_scale": 3.0,
+          "validation_log_loss": 0.6552526208080941
+        },
+        {
+          "noise_level": 0.5,
+          "length_scale": 8.0,
+          "validation_log_loss": 0.6536643778526224
+        }
+      ],
+      "selected": {
+        "noise_level": 0.5,
+        "length_scale": 8.0,
+        "validation_log_loss": 0.6536643778526224
+      },
+      "evaluation": "Pre-refit retrospective holdout; tuning on preceding season only",
+      "final_regression_rows": 1000,
+      "final_calibration_rows": 271,
+      "final_training_end": [
+        2025,
+        2
+      ],
+      "calibration_start": [
+        2025,
+        3
+      ],
+      "kernel": "Matern(length_scale=8, nu=0.5) + WhiteKernel(noise_level=0.5)"
+    },
+    {
+      "name": "matern_15",
+      "holdout_season": 2026,
+      "test_rows": 32,
+      "accuracy": 0.625,
+      "log_loss": 0.668261693331406,
+      "brier_score": 0.23779887527874743,
+      "roc_auc": 0.6313725490196078,
+      "search_trials": [
+        {
+          "noise_level": 0.1,
+          "length_scale": 3.0,
+          "validation_log_loss": 0.6646661037772351
+        },
+        {
+          "noise_level": 0.1,
+          "length_scale": 8.0,
+          "validation_log_loss": 0.6622172607504818
+        },
+        {
+          "noise_level": 0.5,
+          "length_scale": 3.0,
+          "validation_log_loss": 0.6592025552461952
+        },
+        {
+          "noise_level": 0.5,
+          "length_scale": 8.0,
+          "validation_log_loss": 0.6534252604301073
+        }
+      ],
+      "selected": {
+        "noise_level": 0.5,
+        "length_scale": 8.0,
+        "validation_log_loss": 0.6534252604301073
+      },
+      "evaluation": "Pre-refit retrospective holdout; tuning on preceding season only",
+      "final_regression_rows": 1000,
+      "final_calibration_rows": 271,
+      "final_training_end": [
+        2025,
+        2
+      ],
+      "calibration_start": [
+        2025,
+        3
+      ],
+      "kernel": "Matern(length_scale=8, nu=1.5) + WhiteKernel(noise_level=0.5)"
+    },
+    {
+      "name": "matern_25",
+      "holdout_season": 2026,
+      "test_rows": 32,
+      "accuracy": 0.59375,
+      "log_loss": 0.6691414943509297,
+      "brier_score": 0.23819261417709245,
+      "roc_auc": 0.6313725490196078,
+      "search_trials": [
+        {
+          "noise_level": 0.1,
+          "length_scale": 3.0,
+          "validation_log_loss": 0.6675331803712258
+        },
+        {
+          "noise_level": 0.1,
+          "length_scale": 8.0,
+          "validation_log_loss": 0.661295899092212
+        },
+        {
+          "noise_level": 0.5,
+          "length_scale": 3.0,
+          "validation_log_loss": 0.6608536232917118
+        },
+        {
+          "noise_level": 0.5,
+          "length_scale": 8.0,
+          "validation_log_loss": 0.6520542037116461
+        }
+      ],
+      "selected": {
+        "noise_level": 0.5,
+        "length_scale": 8.0,
+        "validation_log_loss": 0.6520542037116461
+      },
+      "evaluation": "Pre-refit retrospective holdout; tuning on preceding season only",
+      "final_regression_rows": 1000,
+      "final_calibration_rows": 271,
+      "final_training_end": [
+        2025,
+        2
+      ],
+      "calibration_start": [
+        2025,
+        3
+      ],
+      "kernel": "Matern(length_scale=8, nu=2.5) + WhiteKernel(noise_level=0.5)"
+    },
+    {
+      "name": "rational_quadratic",
+      "holdout_season": 2026,
+      "test_rows": 32,
+      "accuracy": 0.59375,
+      "log_loss": 0.6719831796366262,
+      "brier_score": 0.23947965616977906,
+      "roc_auc": 0.6196078431372549,
+      "search_trials": [
+        {
+          "noise_level": 0.1,
+          "length_scale": 3.0,
+          "validation_log_loss": 0.6668859393122792
+        },
+        {
+          "noise_level": 0.1,
+          "length_scale": 8.0,
+          "validation_log_loss": 0.657847937149616
+        },
+        {
+          "noise_level": 0.5,
+          "length_scale": 3.0,
+          "validation_log_loss": 0.6587562774522164
+        },
+        {
+          "noise_level": 0.5,
+          "length_scale": 8.0,
+          "validation_log_loss": 0.6503035790420724
+        }
+      ],
+      "selected": {
+        "noise_level": 0.5,
+        "length_scale": 8.0,
+        "validation_log_loss": 0.6503035790420724
+      },
+      "evaluation": "Pre-refit retrospective holdout; tuning on preceding season only",
+      "final_regression_rows": 1000,
+      "final_calibration_rows": 271,
+      "final_training_end": [
+        2025,
+        2
+      ],
+      "calibration_start": [
+        2025,
+        3
+      ],
+      "kernel": "RationalQuadratic(alpha=1, length_scale=8) + WhiteKernel(noise_level=0.5)"
+    },
+    {
+      "name": "linear",
+      "holdout_season": 2026,
+      "test_rows": 32,
+      "accuracy": 0.59375,
+      "log_loss": 0.6946012658094494,
+      "brier_score": 0.24977469629218518,
+      "roc_auc": 0.5607843137254902,
+      "search_trials": [
+        {
+          "noise_level": 0.1,
+          "length_scale": 3.0,
+          "validation_log_loss": 0.6537426208297128
+        },
+        {
+          "noise_level": 0.1,
+          "length_scale": 8.0,
+          "validation_log_loss": 0.6537426208297128
+        },
+        {
+          "noise_level": 0.5,
+          "length_scale": 3.0,
+          "validation_log_loss": 0.6542459937768021
+        },
+        {
+          "noise_level": 0.5,
+          "length_scale": 8.0,
+          "validation_log_loss": 0.6542459937768021
+        }
+      ],
+      "selected": {
+        "noise_level": 0.1,
+        "length_scale": 3.0,
+        "validation_log_loss": 0.6537426208297128
+      },
+      "evaluation": "Pre-refit retrospective holdout; tuning on preceding season only",
+      "final_regression_rows": 1000,
+      "final_calibration_rows": 271,
+      "final_training_end": [
+        2025,
+        2
+      ],
+      "calibration_start": [
+        2025,
+        3
+      ],
+      "kernel": "0.224**2 * DotProduct(sigma_0=1) + WhiteKernel(noise_level=0.1)"
+    },
+    {
+      "name": "rbf_linear",
+      "holdout_season": 2026,
+      "test_rows": 32,
+      "accuracy": 0.59375,
+      "log_loss": 0.6686649542766842,
+      "brier_score": 0.23745680205136188,
+      "roc_auc": 0.6352941176470589,
+      "search_trials": [
+        {
+          "noise_level": 0.1,
+          "length_scale": 3.0,
+          "validation_log_loss": 0.6736842505959927
+        },
+        {
+          "noise_level": 0.1,
+          "length_scale": 8.0,
+          "validation_log_loss": 0.6561718221809613
+        },
+        {
+          "noise_level": 0.5,
+          "length_scale": 3.0,
+          "validation_log_loss": 0.6627665069201774
+        },
+        {
+          "noise_level": 0.5,
+          "length_scale": 8.0,
+          "validation_log_loss": 0.6495113664437425
+        }
+      ],
+      "selected": {
+        "noise_level": 0.5,
+        "length_scale": 8.0,
+        "validation_log_loss": 0.6495113664437425
+      },
+      "evaluation": "Pre-refit retrospective holdout; tuning on preceding season only",
+      "final_regression_rows": 1000,
+      "final_calibration_rows": 271,
+      "final_training_end": [
+        2025,
+        2
+      ],
+      "calibration_start": [
+        2025,
+        3
+      ],
+      "kernel": "RBF(length_scale=8) + 0.224**2 * DotProduct(sigma_0=1) + WhiteKernel(noise_level=0.5)"
+    },
+    {
+      "name": "matern_linear",
+      "holdout_season": 2026,
+      "test_rows": 32,
+      "accuracy": 0.65625,
+      "log_loss": 0.6643453954444645,
+      "brier_score": 0.23573584567190084,
+      "roc_auc": 0.6431372549019607,
+      "search_trials": [
+        {
+          "noise_level": 0.1,
+          "length_scale": 3.0,
+          "validation_log_loss": 0.6631709482022898
+        },
+        {
+          "noise_level": 0.1,
+          "length_scale": 8.0,
+          "validation_log_loss": 0.6613348426185576
+        },
+        {
+          "noise_level": 0.5,
+          "length_scale": 3.0,
+          "validation_log_loss": 0.6581469208541332
+        },
+        {
+          "noise_level": 0.5,
+          "length_scale": 8.0,
+          "validation_log_loss": 0.6532109091085967
+        }
+      ],
+      "selected": {
+        "noise_level": 0.5,
+        "length_scale": 8.0,
+        "validation_log_loss": 0.6532109091085967
+      },
+      "evaluation": "Pre-refit retrospective holdout; tuning on preceding season only",
+      "final_regression_rows": 1000,
+      "final_calibration_rows": 271,
+      "final_training_end": [
+        2025,
+        2
+      ],
+      "calibration_start": [
+        2025,
+        3
+      ],
+      "kernel": "Matern(length_scale=8, nu=1.5) + 0.224**2 * DotProduct(sigma_0=1) + WhiteKernel(noise_level=0.5)"
+    }
+  ],
+  "limitations": "Binary-label Gaussian regression with sigmoid calibration, not GPC. Recent-window fits; WhiteKernel observation noise is not a random winner flip. 2026 retrospective evaluation is small, not a prospective performance claim. Unavailable current features retain historical fallback.",
+  "saved_model_count_excluding_smoke": 16
+}

@@ -194,6 +194,49 @@ Output:
 
 - `predictions/nfl_2026_predictions.csv`
 
+## Experimental Gaussian Process Models
+
+The saved library contains 16 models (excluding the smoke-test artifact): the
+original eight plus eight GPR candidates. Train or rerun the new candidates with:
+
+```powershell
+python train_gpr.py --input data/nfl_matchups_1999_2026_advanced.csv
+python export_model_comparison.py
+python -m unittest test_gpr_models.py test_season_simulation.py test_active_learning.py
+```
+
+Kernels: RBF, Matern 0.5, Matern 1.5, Matern 2.5, Rational Quadratic, linear,
+RBF plus linear, and Matern 1.5 plus linear. Every kernel includes WhiteKernel
+observation noise. Four configurations per kernel combine noise variances 0.1
+and 0.5 with length scales 3 and 8 (length scale is irrelevant to linear).
+These are a bounded grid search, not continuous kernel optimization. Noise is
+in normalized-target units and does not randomly flip matchup winners.
+
+These experimental models regress binary outcomes, then sigmoid-calibrate the
+regression scores; they are not Gaussian process classifiers. Each fit uses up
+to 1,000 recent games for regression and a separate later calibration block of
+at least 256 games, with entire season/week groups kept together at the boundary.
+Imputation and scaling use only the regression training block. Twenty fixed,
+non-market feature contrasts cover form, EPA, QB, rest, injuries and rosters.
+Unavailable inputs retain the dataset's historical fallback.
+
+Hyperparameters are selected on 2025, with regression/calibration fitting only
+earlier games. Selected configurations are refit through 2025 and evaluated on
+2026 before the final chronological fit includes completed 2026 games in its
+calibration block. Not all historical rows enter the bounded regression fit.
+The 2026 results are retrospective and small-sample, not prospective evidence
+of improvement. Neither production picks nor active-learning state is changed.
+
+Artifacts are saved locally as `models/home_win_gpr_<kernel>.joblib`, with
+per-model metrics, `models/gpr_comparison.json`, and the separate pre-refit
+`models/gpr_holdout_predictions.csv`. Binaries stay out of Git under the existing
+artifact policy; the training code and comparison reports can be versioned.
+Saved estimators support `predict_proba` and the shared schedule pipeline.
+The public dashboard and Streamlit Model Comparison tab show all 16 evaluation
+snapshots, with model-group filters, production status, market-input labels,
+and GPR noise/kernel settings. Re-export after retraining; the comparison does
+not replace live production predictions or retrospectively grade final-fit models.
+
 ## Good Next Features
 
 - Play-by-play EPA/offensive success rate from `nfl.load_pbp(...)`

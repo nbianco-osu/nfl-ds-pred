@@ -1,0 +1,48 @@
+{
+  "name": "matern_15",
+  "holdout_season": 2026,
+  "test_rows": 32,
+  "accuracy": 0.625,
+  "log_loss": 0.668261693331406,
+  "brier_score": 0.23779887527874743,
+  "roc_auc": 0.6313725490196078,
+  "search_trials": [
+    {
+      "noise_level": 0.1,
+      "length_scale": 3.0,
+      "validation_log_loss": 0.6646661037772351
+    },
+    {
+      "noise_level": 0.1,
+      "length_scale": 8.0,
+      "validation_log_loss": 0.6622172607504818
+    },
+    {
+      "noise_level": 0.5,
+      "length_scale": 3.0,
+      "validation_log_loss": 0.6592025552461952
+    },
+    {
+      "noise_level": 0.5,
+      "length_scale": 8.0,
+      "validation_log_loss": 0.6534252604301073
+    }
+  ],
+  "selected": {
+    "noise_level": 0.5,
+    "length_scale": 8.0,
+    "validation_log_loss": 0.6534252604301073
+  },
+  "evaluation": "Pre-refit retrospective holdout; tuning on preceding season only",
+  "final_regression_rows": 1000,
+  "final_calibration_rows": 271,
+  "final_training_end": [
+    2025,
+    2
+  ],
+  "calibration_start": [
+    2025,
+    3
+  ],
+  "kernel": "Matern(length_scale=8, nu=1.5) + WhiteKernel(noise_level=0.5)"
+}

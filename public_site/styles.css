@@ -309,6 +309,36 @@ th {
   margin-bottom: 40px;
 }
 
+.model-comparison {
+  padding: 24px 0;
+  margin-bottom: 24px;
+  border-block: 1px solid var(--line);
+  scroll-margin-top: 16px;
+}
+
+.comparison-controls {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 240px)) auto;
+  align-items: end;
+  gap: 16px;
+  margin: 18px 0;
+}
+
+.comparison-table small {
+  display: block;
+  margin-top: 6px;
+  color: var(--muted);
+}
+
+.production-model { background: #e9f6ee; }
+.model-comparison summary { cursor: pointer; font-weight: 600; }
+.model-comparison .panel-heading { flex-wrap: wrap; }
+.model-comparison a { color: var(--blue); }
+
+@media (max-width: 600px) {
+  .comparison-controls { grid-template-columns: 1fr; }
+}
+
 @media (max-width: 900px) {
   .app-header {
     display: block;

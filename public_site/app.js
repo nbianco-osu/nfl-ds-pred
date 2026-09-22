@@ -127,16 +127,28 @@ function renderShap(shapRows) {
 }
 
 async function main() {
-  const [predictions, shapRows, metrics, simulations] = await Promise.all([
+  const [predictions, shapRows, metrics, simulations, comparison] = await Promise.all([
     fetch("./data/predictions.json").then((response) => response.json()),
     fetch("./data/global_shap.json").then((response) => response.json()),
     fetch("./data/metrics.json").then((response) => response.json()),
     fetch("./data/season_simulations.json").then((response) => response.json()),
+    fetch("./data/model_comparison.json").then((response) => {
+      if (!response.ok) throw new Error("Model comparison data unavailable");
+      return response.json();
+    }).catch(() => null),
   ]);
 
   renderMetrics(predictions, metrics);
   renderFilters(predictions);
   renderShap(shapRows);
+  if (comparison) {
+    const render = () => renderModelComparison(comparison);
+    byId("modelGroup").addEventListener("change", render);
+    byId("modelSort").addEventListener("change", render);
+    render();
+  } else {
+    byId("modelRows").innerHTML = '<tr><td colspan="9">Model comparison is temporarily unavailable. Schedule forecasts are unaffected.</td></tr>';
+  }
 
   function update() {
     const visible = filterPredictions(predictions);
@@ -148,6 +160,28 @@ async function main() {
     byId(id).addEventListener("input", update);
   }
   update();
+}
+
+function renderModelComparison(comparison) {
+  const group = byId("modelGroup").value;
+  const sort = byId("modelSort").value;
+  const rows = comparison.models.filter((row) => group === "all" ||
+    (group === "no-market" ? !row.market_inputs : row.family === group));
+  rows.sort((a, b) => sort === "name" ? a.name.localeCompare(b.name) :
+    sort === "log_loss" ? a[sort] - b[sort] : (b[sort] ?? -1) - (a[sort] ?? -1));
+  byId("modelCount").textContent = `${rows.length} models`;
+  const escape = (value) => String(value).replace(/[&<>"']/g, (char) => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
+  })[char]);
+  byId("modelRows").innerHTML = rows.map((row) => `<tr class="${row.status === "Production" ? "production-model" : ""}">
+    <td><strong>${escape(row.name)}</strong><small>${escape(row.training)}</small></td>
+    <td>${escape(row.status)}</td><td>${row.market_inputs ? "Yes" : "No"}</td>
+    <td>${row.holdout_season} / ${row.test_rows}</td>
+    <td>${row.log_loss.toFixed(3)}</td><td>${pct(row.accuracy)}</td>
+    <td>${row.roc_auc == null ? "N/A" : row.roc_auc.toFixed(3)}</td>
+    <td>${row.noise_variance ?? "N/A"}</td><td>${row.length_scale ?? "N/A"}</td>
+  </tr>`).join("");
+  byId("comparisonDate").textContent = `GPR training version: ${comparison.gpr_trained_at}. Evaluation snapshots do not change with the schedule filters.`;
 }
 
 main().catch((error) => {

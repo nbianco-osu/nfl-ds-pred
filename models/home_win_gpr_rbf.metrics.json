@@ -1,0 +1,48 @@
+{
+  "name": "rbf",
+  "holdout_season": 2026,
+  "test_rows": 32,
+  "accuracy": 0.53125,
+  "log_loss": 0.6770076898807421,
+  "brier_score": 0.24168911445694688,
+  "roc_auc": 0.596078431372549,
+  "search_trials": [
+    {
+      "noise_level": 0.1,
+      "length_scale": 3.0,
+      "validation_log_loss": 0.67507746665124
+    },
+    {
+      "noise_level": 0.1,
+      "length_scale": 8.0,
+      "validation_log_loss": 0.6547534964730795
+    },
+    {
+      "noise_level": 0.5,
+      "length_scale": 3.0,
+      "validation_log_loss": 0.6640473206794872
+    },
+    {
+      "noise_level": 0.5,
+      "length_scale": 8.0,
+      "validation_log_loss": 0.6478934995874129
+    }
+  ],
+  "selected": {
+    "noise_level": 0.5,
+    "length_scale": 8.0,
+    "validation_log_loss": 0.6478934995874129
+  },
+  "evaluation": "Pre-refit retrospective holdout; tuning on preceding season only",
+  "final_regression_rows": 1000,
+  "final_calibration_rows": 271,
+  "final_training_end": [
+    2025,
+    2
+  ],
+  "calibration_start": [
+    2025,
+    3
+  ],
+  "kernel": "RBF(length_scale=8) + WhiteKernel(noise_level=0.5)"
+}

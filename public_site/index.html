@@ -24,6 +24,7 @@
     <main>
       <section class="metrics" id="metrics"></section>
       <p id="refreshStatus" aria-live="polite"></p>
+      <p><a href="#modelComparison">Model library: 16 models, including 8 experimental GPR candidates</a></p>
 
       <section class="toolbar" aria-label="Schedule filters">
         <label>
@@ -78,9 +79,30 @@
         </aside>
       </section>
 
+      <section id="modelComparison" class="model-comparison" aria-labelledby="comparisonHeading">
+        <div class="panel-heading">
+          <div><p class="eyebrow">Model Research</p><h2 id="comparisonHeading">16-Model Comparison</h2></div>
+          <a href="./data/model_comparison.json" download>Download results</a>
+        </div>
+        <p class="body-copy">Pre-refit 2026 evaluation on 32 completed games. These retrospective scores are not live pregame accuracy and are too small a sample to establish an improvement. Production forecasts still use the deep, no-market Random Forest.</p>
+        <div class="comparison-controls">
+          <label>Model group<select id="modelGroup"><option value="all">All 16 models</option><option value="GPR">Experimental GPR</option><option value="Original">Original models</option><option value="no-market">No-market models</option></select></label>
+          <label>Sort by<select id="modelSort"><option value="log_loss">Log loss: lowest first</option><option value="accuracy">Accuracy: highest first</option><option value="roc_auc">ROC AUC: highest first</option><option value="name">Model name</option></select></label>
+          <span id="modelCount" aria-live="polite"></span>
+        </div>
+        <div class="table-wrap" tabindex="0" aria-label="Model evaluation results">
+          <table class="comparison-table">
+            <thead><tr><th scope="col">Model</th><th scope="col">Status</th><th scope="col">Market inputs</th><th scope="col">Evaluation season / games</th><th scope="col">Log loss<br>(lower is better)</th><th scope="col">Accuracy</th><th scope="col">ROC AUC</th><th scope="col">Noise variance</th><th scope="col">Length scale</th></tr></thead>
+            <tbody id="modelRows"></tbody>
+          </table>
+        </div>
+        <p class="body-copy">GPR means Gaussian Process Regression. All eight kernels include white-noise observation variance, selected with length scale on 2025 data. Regression scores are sigmoid-calibrated into win probabilities; this is not Gaussian process classification. Noise does not randomly flip picks. Market-input models use spreads and totals and are not directly equivalent to no-market models.</p>
+        <details><summary>Training and evaluation details</summary><p class="body-copy">Each GPR fit uses up to 1,000 recent regression games and a separate, later calibration block of at least 256 games. The final calibration block includes completed 2026 games. The displayed evaluation was measured before that final fit. Missing current features retain historical fallbacks. Kernel uncertainty is distinct from the assumed noise used in season simulations.</p><p id="comparisonDate" class="body-copy"></p></details>
+      </section>
+
       <section class="section-grid">
         <article class="panel">
-          <p class="eyebrow">Model Signals</p>
+          <p class="eyebrow">Model Signals - Production Random Forest</p>
           <h2>Global Feature Impact</h2>
           <p class="body-copy">
             Feature impact for the retrained model on 2025 reference games. These games are included in training, not a holdout evaluation.

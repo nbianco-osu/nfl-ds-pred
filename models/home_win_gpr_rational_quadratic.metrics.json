@@ -1,0 +1,48 @@
+{
+  "name": "rational_quadratic",
+  "holdout_season": 2026,
+  "test_rows": 32,
+  "accuracy": 0.59375,
+  "log_loss": 0.6719831796366262,
+  "brier_score": 0.23947965616977906,
+  "roc_auc": 0.6196078431372549,
+  "search_trials": [
+    {
+      "noise_level": 0.1,
+      "length_scale": 3.0,
+      "validation_log_loss": 0.6668859393122792
+    },
+    {
+      "noise_level": 0.1,
+      "length_scale": 8.0,
+      "validation_log_loss": 0.657847937149616
+    },
+    {
+      "noise_level": 0.5,
+      "length_scale": 3.0,
+      "validation_log_loss": 0.6587562774522164
+    },
+    {
+      "noise_level": 0.5,
+      "length_scale": 8.0,
+      "validation_log_loss": 0.6503035790420724
+    }
+  ],
+  "selected": {
+    "noise_level": 0.5,
+    "length_scale": 8.0,
+    "validation_log_loss": 0.6503035790420724
+  },
+  "evaluation": "Pre-refit retrospective holdout; tuning on preceding season only",
+  "final_regression_rows": 1000,
+  "final_calibration_rows": 271,
+  "final_training_end": [
+    2025,
+    2
+  ],
+  "calibration_start": [
+    2025,
+    3
+  ],
+  "kernel": "RationalQuadratic(alpha=1, length_scale=8) + WhiteKernel(noise_level=0.5)"
+}
