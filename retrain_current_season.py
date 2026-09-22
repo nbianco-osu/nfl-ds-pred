@@ -11,6 +11,7 @@ from sklearn.metrics import accuracy_score, log_loss, roc_auc_score
 
 from model_utils import get_feature_columns
 from prediction_features import make_prediction_row, fill_latest_team_state
+from current_features import apply_current
 
 
 def main():
@@ -22,11 +23,14 @@ def main():
         raise ValueError('Need unique completed current-season games')
     feature_cols = get_feature_columns(history)
     context = pd.concat([history, games], ignore_index=True)
+    snapshots_path = root / 'data/current_features_2026.csv'
+    snapshots = pd.read_csv(snapshots_path).set_index('game_id') if snapshots_path.exists() else None
     rows = []
     for _, game in games.iterrows():
         args = {key: game.get(key) for key in ['home_team', 'away_team', 'season', 'week', 'game_type', 'roof', 'surface', 'temp', 'wind', 'div_game', 'spread_line', 'total_line']}
         row = make_prediction_row(context, feature_cols, **args)
         row = fill_latest_team_state(row, context, feature_cols, str(game.home_team), str(game.away_team), int(game.season), int(game.week))
+        row = apply_current(row, game, snapshots)
         for key in ['game_id', 'gameday', 'home_score', 'away_score']:
             row[key] = game[key]
         row['home_win'] = int(game.home_score > game.away_score)
@@ -62,7 +66,7 @@ def main():
             'final_training_rows': len(full), 'final_training_2026_rows': len(current),
             'final_training_through': str(games.gameday.max()),
             'configuration': 'Previously tuned hyperparameters retained; no new search',
-            'advanced_features': 'Historical snapshots carried forward for 2026',
+            'advanced_features': 'Available 2026 pregame features; historical fallback for missing values' if snapshots is not None else 'Historical snapshots carried forward for 2026',
         }
         model.fit(full[cols], full.home_win)
         shutil.copy2(path, archive / path.name)

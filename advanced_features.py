@@ -17,7 +17,7 @@ def _safe_load(name: str, seasons: list[int], min_season: int | None = None, max
         print(f"Skipping {name}: no requested seasons are in its supported range")
         return pd.DataFrame()
     try:
-        frame = getattr(nfl, name)(load_seasons).to_pandas()
+        frame = pd.DataFrame(getattr(nfl, name)(load_seasons).to_dicts())
         print(f"Loaded {name}: {len(frame):,} rows")
         return frame
     except Exception as exc:
@@ -193,7 +193,7 @@ def make_qb_features(games: pd.DataFrame, seasons: list[int]) -> tuple[pd.DataFr
 
 
 def make_injury_features(games: pd.DataFrame, seasons: list[int]) -> pd.DataFrame:
-    injuries = _safe_load("load_injuries", seasons, min_season=2009, max_season=2025)
+    injuries = _safe_load("load_injuries", seasons, min_season=2009)
     if injuries.empty:
         return pd.DataFrame()
 
@@ -223,7 +223,7 @@ def make_injury_features(games: pd.DataFrame, seasons: list[int]) -> pd.DataFram
 
 
 def make_roster_features(games: pd.DataFrame, seasons: list[int]) -> pd.DataFrame:
-    rosters = _safe_load("load_rosters_weekly", seasons, min_season=2002, max_season=2025)
+    rosters = _safe_load("load_rosters_weekly", seasons, min_season=2002)
     if rosters.empty:
         return pd.DataFrame()
 

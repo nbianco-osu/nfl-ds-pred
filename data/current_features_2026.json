@@ -1,0 +1,10 @@
+{
+  "season": 2026,
+  "completed_games": 32,
+  "sources": {
+    "pbp_games": 32,
+    "qb_team_games": 64,
+    "injuries_team_weeks": 64,
+    "rosters_team_weeks": 96
+  }
+}

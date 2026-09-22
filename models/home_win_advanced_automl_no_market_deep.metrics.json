@@ -3,12 +3,12 @@
   "evaluation": "2026 before final refit; evaluation estimator trained through 2025",
   "train_rows": 6952,
   "test_rows": 32,
-  "accuracy": 0.59375,
-  "log_loss": 0.68115513942558,
-  "roc_auc": 0.5686274509803921,
+  "accuracy": 0.5625,
+  "log_loss": 0.6836880219046824,
+  "roc_auc": 0.5372549019607844,
   "final_training_rows": 6984,
   "final_training_2026_rows": 32,
   "final_training_through": "2026-09-21",
   "configuration": "Previously tuned hyperparameters retained; no new search",
-  "advanced_features": "Historical snapshots carried forward for 2026"
+  "advanced_features": "Available 2026 pregame features; historical fallback for missing values"
 }

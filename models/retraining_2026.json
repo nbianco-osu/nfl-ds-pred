@@ -5,41 +5,41 @@
     "train_rows": 6952,
     "test_rows": 32,
     "accuracy": 0.65625,
-    "log_loss": 0.6623855472357899,
-    "roc_auc": 0.6549019607843137,
+    "log_loss": 0.6554031387244171,
+    "roc_auc": 0.6196078431372549,
     "final_training_rows": 6984,
     "final_training_2026_rows": 32,
     "final_training_through": "2026-09-21",
     "configuration": "Previously tuned hyperparameters retained; no new search",
-    "advanced_features": "Historical snapshots carried forward for 2026"
+    "advanced_features": "Available 2026 pregame features; historical fallback for missing values"
   },
   "home_win_advanced_automl_no_market.joblib": {
     "holdout_season": 2026,
     "evaluation": "2026 before final refit; evaluation estimator trained through 2025",
     "train_rows": 6952,
     "test_rows": 32,
-    "accuracy": 0.59375,
-    "log_loss": 0.6791819461180701,
-    "roc_auc": 0.6000000000000001,
+    "accuracy": 0.5625,
+    "log_loss": 0.687597905008156,
+    "roc_auc": 0.5333333333333333,
     "final_training_rows": 6984,
     "final_training_2026_rows": 32,
     "final_training_through": "2026-09-21",
     "configuration": "Previously tuned hyperparameters retained; no new search",
-    "advanced_features": "Historical snapshots carried forward for 2026"
+    "advanced_features": "Available 2026 pregame features; historical fallback for missing values"
   },
   "home_win_advanced_automl_no_market_deep.joblib": {
     "holdout_season": 2026,
     "evaluation": "2026 before final refit; evaluation estimator trained through 2025",
     "train_rows": 6952,
     "test_rows": 32,
-    "accuracy": 0.59375,
-    "log_loss": 0.68115513942558,
-    "roc_auc": 0.5686274509803921,
+    "accuracy": 0.5625,
+    "log_loss": 0.6836880219046824,
+    "roc_auc": 0.5372549019607844,
     "final_training_rows": 6984,
     "final_training_2026_rows": 32,
     "final_training_through": "2026-09-21",
     "configuration": "Previously tuned hyperparameters retained; no new search",
-    "advanced_features": "Historical snapshots carried forward for 2026"
+    "advanced_features": "Available 2026 pregame features; historical fallback for missing values"
   },
   "home_win_advanced_logreg.joblib": {
     "holdout_season": 2026,
@@ -47,27 +47,27 @@
     "train_rows": 6952,
     "test_rows": 32,
     "accuracy": 0.5625,
-    "log_loss": 0.6747450948042668,
-    "roc_auc": 0.6313725490196078,
+    "log_loss": 0.7103645306143997,
+    "roc_auc": 0.607843137254902,
     "final_training_rows": 6984,
     "final_training_2026_rows": 32,
     "final_training_through": "2026-09-21",
     "configuration": "Previously tuned hyperparameters retained; no new search",
-    "advanced_features": "Historical snapshots carried forward for 2026"
+    "advanced_features": "Available 2026 pregame features; historical fallback for missing values"
   },
   "home_win_advanced_logreg_no_market.joblib": {
     "holdout_season": 2026,
     "evaluation": "2026 before final refit; evaluation estimator trained through 2025",
     "train_rows": 6952,
     "test_rows": 32,
-    "accuracy": 0.5,
-    "log_loss": 0.7894717314277531,
-    "roc_auc": 0.4784313725490196,
+    "accuracy": 0.46875,
+    "log_loss": 0.8651291110248722,
+    "roc_auc": 0.4235294117647059,
     "final_training_rows": 6984,
     "final_training_2026_rows": 32,
     "final_training_through": "2026-09-21",
     "configuration": "Previously tuned hyperparameters retained; no new search",
-    "advanced_features": "Historical snapshots carried forward for 2026"
+    "advanced_features": "Available 2026 pregame features; historical fallback for missing values"
   },
   "home_win_automl.joblib": {
     "holdout_season": 2026,
@@ -81,7 +81,7 @@
     "final_training_2026_rows": 32,
     "final_training_through": "2026-09-21",
     "configuration": "Previously tuned hyperparameters retained; no new search",
-    "advanced_features": "Historical snapshots carried forward for 2026"
+    "advanced_features": "Available 2026 pregame features; historical fallback for missing values"
   },
   "home_win_automl_no_market.joblib": {
     "holdout_season": 2026,
@@ -95,7 +95,7 @@
     "final_training_2026_rows": 32,
     "final_training_through": "2026-09-21",
     "configuration": "Previously tuned hyperparameters retained; no new search",
-    "advanced_features": "Historical snapshots carried forward for 2026"
+    "advanced_features": "Available 2026 pregame features; historical fallback for missing values"
   },
   "home_win_logreg.joblib": {
     "holdout_season": 2026,
@@ -109,6 +109,6 @@
     "final_training_2026_rows": 32,
     "final_training_through": "2026-09-21",
     "configuration": "Previously tuned hyperparameters retained; no new search",
-    "advanced_features": "Historical snapshots carried forward for 2026"
+    "advanced_features": "Available 2026 pregame features; historical fallback for missing values"
   }
 }

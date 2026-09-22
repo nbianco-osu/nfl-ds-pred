@@ -1,0 +1,6 @@
+{
+  "simulations": 10000,
+  "seed": 42,
+  "logit_noise_sd": 0.35,
+  "interval": 0.8
+}

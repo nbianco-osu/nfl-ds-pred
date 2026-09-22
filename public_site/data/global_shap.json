@@ -1,1897 +1,1897 @@
 [
   {
     "feature":"diff_team_last_5_point_diff",
-    "mean_abs_shap":0.0069879038,
+    "mean_abs_shap":0.0070414233,
     "mean_value":0.0382893435
-  },
-  {
-    "feature":"diff_point_diff_per_game",
-    "mean_abs_shap":0.0064868758,
-    "mean_value":-0.0105227892
   },
   {
     "feature":"diff_team_point_diff_per_game",
-    "mean_abs_shap":0.0060272898,
+    "mean_abs_shap":0.0061145468,
     "mean_value":-0.0105227892
   },
   {
-    "feature":"diff_team_points_for_per_game",
-    "mean_abs_shap":0.005070491,
-    "mean_value":0.0148654097
-  },
-  {
-    "feature":"diff_team_win_pct",
-    "mean_abs_shap":0.0050426673,
-    "mean_value":0.0039128299
-  },
-  {
-    "feature":"diff_win_pct",
-    "mean_abs_shap":0.0050368398,
-    "mean_value":0.0039128299
+    "feature":"diff_point_diff_per_game",
+    "mean_abs_shap":0.0060183799,
+    "mean_value":-0.0105227892
   },
   {
     "feature":"diff_last_5_point_diff",
-    "mean_abs_shap":0.0048375663,
+    "mean_abs_shap":0.0049883784,
     "mean_value":0.0382893435
   },
   {
+    "feature":"diff_win_pct",
+    "mean_abs_shap":0.0048418439,
+    "mean_value":0.0039128299
+  },
+  {
+    "feature":"diff_team_win_pct",
+    "mean_abs_shap":0.0047730981,
+    "mean_value":0.0039128299
+  },
+  {
     "feature":"home_team_point_diff_per_game",
-    "mean_abs_shap":0.0045819582,
+    "mean_abs_shap":0.0045332744,
     "mean_value":-0.0039257238
   },
   {
-    "feature":"diff_team_pbp_off_epa_per_play_avg",
-    "mean_abs_shap":0.0042513406,
-    "mean_value":0.0033719859
-  },
-  {
-    "feature":"diff_team_pbp_off_success_rate_avg",
-    "mean_abs_shap":0.0041204467,
-    "mean_value":-0.0107371286
-  },
-  {
-    "feature":"diff_team_pbp_off_epa_per_play_last_5",
-    "mean_abs_shap":0.0035666479,
-    "mean_value":0.0027330396
-  },
-  {
-    "feature":"diff_points_for_per_game",
-    "mean_abs_shap":0.0035304541,
+    "feature":"diff_team_points_for_per_game",
+    "mean_abs_shap":0.0045323361,
     "mean_value":0.0148654097
   },
   {
+    "feature":"diff_team_pbp_off_epa_per_play_avg",
+    "mean_abs_shap":0.0043555937,
+    "mean_value":0.0038648149
+  },
+  {
+    "feature":"diff_points_for_per_game",
+    "mean_abs_shap":0.0041958228,
+    "mean_value":0.0148654097
+  },
+  {
+    "feature":"diff_team_pbp_off_epa_per_play_last_5",
+    "mean_abs_shap":0.0040823687,
+    "mean_value":0.0034642258
+  },
+  {
     "feature":"home_team_last_5_point_diff",
-    "mean_abs_shap":0.0035280612,
+    "mean_abs_shap":0.0039629748,
     "mean_value":0.0266310226
   },
   {
+    "feature":"diff_team_pbp_off_success_rate_avg",
+    "mean_abs_shap":0.0039612489,
+    "mean_value":-0.0108151082
+  },
+  {
     "feature":"home_team_win_pct",
-    "mean_abs_shap":0.0035127073,
+    "mean_abs_shap":0.0036637534,
     "mean_value":0.012881707
   },
   {
     "feature":"diff_team_pbp_off_pass_epa_avg",
-    "mean_abs_shap":0.0034544145,
-    "mean_value":-0.0098230666
+    "mean_abs_shap":0.0034042344,
+    "mean_value":-0.00890985
   },
   {
     "feature":"diff_team_qb_qb_passing_epa_avg",
-    "mean_abs_shap":0.003366247,
-    "mean_value":-0.0147087715
-  },
-  {
-    "feature":"home_team_points_against_per_game",
-    "mean_abs_shap":0.003271344,
-    "mean_value":0.1426876406
-  },
-  {
-    "feature":"diff_team_points_against_per_game",
-    "mean_abs_shap":0.0030874518,
-    "mean_value":0.0323105195
+    "mean_abs_shap":0.0033733545,
+    "mean_value":-0.01353447
   },
   {
     "feature":"diff_team_qb_qb_passing_epa_last_5",
-    "mean_abs_shap":0.0030075954,
-    "mean_value":0.0083983895
-  },
-  {
-    "feature":"diff_team_pbp_off_success_rate_last_5",
-    "mean_abs_shap":0.0029640759,
-    "mean_value":-0.0198920201
-  },
-  {
-    "feature":"diff_team_pbp_prev_season_off_epa_per_play",
-    "mean_abs_shap":0.0029563184,
-    "mean_value":-0.0091164152
+    "mean_abs_shap":0.0032891921,
+    "mean_value":0.0092114695
   },
   {
     "feature":"away_team_pbp_off_success_rate_avg",
-    "mean_abs_shap":0.0028545886,
-    "mean_value":0.2769991985
+    "mean_abs_shap":0.0031232308,
+    "mean_value":0.2769426546
+  },
+  {
+    "feature":"home_team_points_against_per_game",
+    "mean_abs_shap":0.0030863334,
+    "mean_value":0.1426876406
   },
   {
     "feature":"diff_points_against_per_game",
-    "mean_abs_shap":0.0028412506,
+    "mean_abs_shap":0.0029930119,
+    "mean_value":0.0323105195
+  },
+  {
+    "feature":"diff_team_points_against_per_game",
+    "mean_abs_shap":0.0029710939,
     "mean_value":0.0323105195
   },
   {
     "feature":"away_team_point_diff_per_game",
-    "mean_abs_shap":0.0027972352,
+    "mean_abs_shap":0.0029568648,
     "mean_value":0.0108525781
   },
   {
+    "feature":"diff_team_pbp_off_success_rate_last_5",
+    "mean_abs_shap":0.0029049857,
+    "mean_value":-0.0194133516
+  },
+  {
     "feature":"away_team_win_pct",
-    "mean_abs_shap":0.0027742766,
+    "mean_abs_shap":0.002848041,
     "mean_value":0.0078734599
   },
   {
     "feature":"diff_team_pbp_prev_season_off_success_rate",
-    "mean_abs_shap":0.0026939401,
+    "mean_abs_shap":0.0028425302,
     "mean_value":-0.0185788825
   },
   {
+    "feature":"diff_team_pbp_prev_season_off_epa_per_play",
+    "mean_abs_shap":0.0028093619,
+    "mean_value":-0.0091164152
+  },
+  {
     "feature":"diff_team_qb_qb_passing_epa_last_3",
-    "mean_abs_shap":0.0026859992,
-    "mean_value":0.0043863613
-  },
-  {
-    "feature":"away_team_pbp_off_success_rate_last_5",
-    "mean_abs_shap":0.0026626313,
-    "mean_value":0.2701960357
-  },
-  {
-    "feature":"away_team_pbp_prev_season_off_epa_per_play",
-    "mean_abs_shap":0.0026128404,
-    "mean_value":0.3756936543
+    "mean_abs_shap":0.002789145,
+    "mean_value":0.0055321796
   },
   {
     "feature":"diff_team_pbp_def_explosive_allowed_rate_avg",
-    "mean_abs_shap":0.0025677041,
-    "mean_value":0.0070248362
+    "mean_abs_shap":0.0025260291,
+    "mean_value":0.0073023564
   },
   {
-    "feature":"diff_team_pbp_off_success_rate_last_3",
-    "mean_abs_shap":0.0023603302,
-    "mean_value":0.0136363978
+    "feature":"away_team_pbp_prev_season_off_epa_per_play",
+    "mean_abs_shap":0.0024254861,
+    "mean_value":0.3756936543
   },
   {
-    "feature":"away_team_last_5_point_diff",
-    "mean_abs_shap":0.0023001977,
-    "mean_value":-0.0272417299
-  },
-  {
-    "feature":"diff_team_pbp_off_pass_epa_last_5",
-    "mean_abs_shap":0.0022727512,
-    "mean_value":0.0082754797
+    "feature":"away_team_pbp_off_success_rate_last_5",
+    "mean_abs_shap":0.0024218883,
+    "mean_value":0.2699557393
   },
   {
     "feature":"diff_team_qb_prev_season_qb_passing_epa",
-    "mean_abs_shap":0.0022530521,
+    "mean_abs_shap":0.002313525,
     "mean_value":-0.0060764648
   },
   {
+    "feature":"diff_team_pbp_off_success_rate_last_3",
+    "mean_abs_shap":0.0022892878,
+    "mean_value":0.0140983561
+  },
+  {
     "feature":"diff_team_pbp_off_epa_per_play_last_3",
-    "mean_abs_shap":0.002230666,
-    "mean_value":0.0164560865
+    "mean_abs_shap":0.0022025718,
+    "mean_value":0.0172012278
   },
   {
-    "feature":"home_team_pbp_off_epa_per_play_avg",
-    "mean_abs_shap":0.0022164912,
-    "mean_value":0.2716027256
-  },
-  {
-    "feature":"diff_team_pbp_prev_season_def_explosive_allowed_rate",
-    "mean_abs_shap":0.0021280628,
-    "mean_value":-0.0096181501
-  },
-  {
-    "feature":"away_team_pbp_prev_season_off_success_rate",
-    "mean_abs_shap":0.0020669146,
-    "mean_value":1.2078898777
-  },
-  {
-    "feature":"home_team_pbp_off_epa_per_play_last_5",
-    "mean_abs_shap":0.0020307178,
-    "mean_value":0.2349723995
-  },
-  {
-    "feature":"away_team_qb_prev_season_qb_passing_epa",
-    "mean_abs_shap":0.0020265965,
-    "mean_value":0.1079033806
-  },
-  {
-    "feature":"diff_team_pbp_prev_season_off_pass_epa",
-    "mean_abs_shap":0.0020105533,
-    "mean_value":-0.0042706025
-  },
-  {
-    "feature":"home_team_pbp_off_success_rate_avg",
-    "mean_abs_shap":0.0019808503,
-    "mean_value":0.2719160859
+    "feature":"away_team_last_5_point_diff",
+    "mean_abs_shap":0.0021639988,
+    "mean_value":-0.0272417299
   },
   {
     "feature":"away_team_pbp_off_epa_per_play_avg",
-    "mean_abs_shap":0.0019543155,
-    "mean_value":0.2691088012
+    "mean_abs_shap":0.0021317462,
+    "mean_value":0.2680508845
   },
   {
-    "feature":"home_team_pbp_off_pass_epa_avg",
-    "mean_abs_shap":0.0019440301,
-    "mean_value":0.0529939777
+    "feature":"diff_team_pbp_prev_season_off_pass_epa",
+    "mean_abs_shap":0.0020610589,
+    "mean_value":-0.0042706025
   },
   {
-    "feature":"home_team_pbp_def_explosive_allowed_rate_last_5",
-    "mean_abs_shap":0.001941466,
-    "mean_value":0.0377392842
+    "feature":"diff_team_pbp_prev_season_def_explosive_allowed_rate",
+    "mean_abs_shap":0.002046099,
+    "mean_value":-0.0096181501
   },
   {
-    "feature":"away_team_pbp_prev_season_off_explosive_rate",
-    "mean_abs_shap":0.0019306962,
-    "mean_value":0.279348603
+    "feature":"diff_team_pbp_off_pass_epa_last_5",
+    "mean_abs_shap":0.0020385777,
+    "mean_value":0.0089647078
+  },
+  {
+    "feature":"away_team_pbp_prev_season_off_success_rate",
+    "mean_abs_shap":0.002031884,
+    "mean_value":1.2078898777
   },
   {
     "feature":"diff_team_pbp_off_pass_epa_last_3",
-    "mean_abs_shap":0.0018789933,
-    "mean_value":-0.0023627162
+    "mean_abs_shap":0.0020077733,
+    "mean_value":-0.0012114756
   },
   {
-    "feature":"home_team_pbp_def_explosive_allowed_rate_avg",
-    "mean_abs_shap":0.0018510924,
-    "mean_value":0.0489273996
+    "feature":"away_team_pbp_prev_season_off_explosive_rate",
+    "mean_abs_shap":0.0020007452,
+    "mean_value":0.279348603
   },
   {
-    "feature":"home_team_qb_qb_passing_epa_avg",
-    "mean_abs_shap":0.0018456576,
-    "mean_value":0.004321921
+    "feature":"home_team_pbp_def_explosive_allowed_rate_last_5",
+    "mean_abs_shap":0.0019355618,
+    "mean_value":0.0382291487
   },
   {
-    "feature":"away_team_pbp_off_pass_epa_avg",
-    "mean_abs_shap":0.0018390906,
-    "mean_value":0.0652722885
-  },
-  {
-    "feature":"home_team_points_for_per_game",
-    "mean_abs_shap":0.0018010931,
-    "mean_value":0.1335377512
-  },
-  {
-    "feature":"home_team_pbp_prev_season_off_success_rate",
-    "mean_abs_shap":0.0017296279,
-    "mean_value":1.1860871315
-  },
-  {
-    "feature":"diff_team_pbp_def_explosive_allowed_rate_last_5",
-    "mean_abs_shap":0.0017157715,
-    "mean_value":-0.0177894159
-  },
-  {
-    "feature":"away_team_pbp_off_epa_per_play_last_5",
-    "mean_abs_shap":0.0017004959,
-    "mean_value":0.2319122513
-  },
-  {
-    "feature":"diff_team_roster_size",
-    "mean_abs_shap":0.0016717186,
-    "mean_value":0.0096277147
-  },
-  {
-    "feature":"diff_team_pbp_def_success_allowed_rate_avg",
-    "mean_abs_shap":0.0016380674,
-    "mean_value":0.0221483186
-  },
-  {
-    "feature":"away_team_pbp_prev_season_off_pass_epa",
-    "mean_abs_shap":0.0016305888,
-    "mean_value":0.1837807758
-  },
-  {
-    "feature":"diff_team_pbp_prev_season_off_rush_epa",
-    "mean_abs_shap":0.0016103975,
-    "mean_value":-0.0299723889
-  },
-  {
-    "feature":"home_team_pbp_def_explosive_allowed_rate_last_3",
-    "mean_abs_shap":0.0015978696,
-    "mean_value":0.035563506
+    "feature":"home_team_pbp_off_epa_per_play_last_5",
+    "mean_abs_shap":0.001928392,
+    "mean_value":0.2346837734
   },
   {
     "feature":"away_team_pbp_off_success_rate_last_3",
-    "mean_abs_shap":0.0015814964,
-    "mean_value":0.2621920622
+    "mean_abs_shap":0.0019267475,
+    "mean_value":0.2620823651
   },
   {
-    "feature":"home_team_pbp_prev_season_off_epa_per_play",
-    "mean_abs_shap":0.0015676479,
-    "mean_value":0.3612141114
+    "feature":"diff_team_pbp_def_explosive_allowed_rate_last_5",
+    "mean_abs_shap":0.0018633362,
+    "mean_value":-0.0170069053
   },
   {
-    "feature":"diff_team_qb_qb_passing_tds_avg",
-    "mean_abs_shap":0.001556435,
-    "mean_value":0.0354688695
+    "feature":"home_team_pbp_off_pass_epa_avg",
+    "mean_abs_shap":0.0018397922,
+    "mean_value":0.0535196684
   },
   {
-    "feature":"home_team_qb_qb_passing_epa_last_5",
-    "mean_abs_shap":0.0015335899,
-    "mean_value":0.0017365584
+    "feature":"away_team_qb_prev_season_qb_passing_epa",
+    "mean_abs_shap":0.0018251144,
+    "mean_value":0.1079033806
   },
   {
-    "feature":"diff_team_pbp_prev_season_def_epa_allowed_per_play",
-    "mean_abs_shap":0.0015298906,
-    "mean_value":-0.0191531025
-  },
-  {
-    "feature":"diff_team_pbp_prev_season_def_success_allowed_rate",
-    "mean_abs_shap":0.00150915,
-    "mean_value":-0.032344965
+    "feature":"home_team_qb_qb_passing_epa_avg",
+    "mean_abs_shap":0.001813955,
+    "mean_value":0.0048648792
   },
   {
     "feature":"away_team_points_for_per_game",
-    "mean_abs_shap":0.0014933889,
+    "mean_abs_shap":0.001792561,
     "mean_value":0.1178882181
   },
   {
-    "feature":"away_team_pbp_prev_season_off_turnover_rate",
-    "mean_abs_shap":0.001487227,
-    "mean_value":-0.7788646124
+    "feature":"home_team_pbp_prev_season_off_success_rate",
+    "mean_abs_shap":0.0017650108,
+    "mean_value":1.1860871315
   },
   {
-    "feature":"away_team_qb_qb_passing_tds_avg",
-    "mean_abs_shap":0.0014709831,
-    "mean_value":0.1625133871
+    "feature":"away_team_pbp_off_pass_epa_avg",
+    "mean_abs_shap":0.0016961831,
+    "mean_value":0.0645909517
   },
   {
-    "feature":"home_team_pbp_off_pass_epa_last_5",
-    "mean_abs_shap":0.0014443655,
-    "mean_value":0.0358835174
+    "feature":"home_team_pbp_off_epa_per_play_avg",
+    "mean_abs_shap":0.0016886761,
+    "mean_value":0.2704045566
   },
   {
-    "feature":"home_team_pbp_off_epa_per_play_last_3",
-    "mean_abs_shap":0.0014375335,
-    "mean_value":0.2373016879
+    "feature":"home_team_pbp_def_explosive_allowed_rate_avg",
+    "mean_abs_shap":0.0016703119,
+    "mean_value":0.0492245533
   },
   {
-    "feature":"home_team_pbp_off_success_rate_last_5",
-    "mean_abs_shap":0.0014194763,
-    "mean_value":0.2606678522
+    "feature":"home_team_pbp_off_success_rate_avg",
+    "mean_abs_shap":0.0016620373,
+    "mean_value":0.2718273992
+  },
+  {
+    "feature":"home_team_points_for_per_game",
+    "mean_abs_shap":0.0016450208,
+    "mean_value":0.1335377512
+  },
+  {
+    "feature":"diff_team_qb_qb_passing_tds_avg",
+    "mean_abs_shap":0.0016383625,
+    "mean_value":0.0377506316
+  },
+  {
+    "feature":"diff_team_pbp_prev_season_def_epa_allowed_per_play",
+    "mean_abs_shap":0.0016382686,
+    "mean_value":-0.0191531025
+  },
+  {
+    "feature":"away_team_pbp_prev_season_off_pass_epa",
+    "mean_abs_shap":0.0016321784,
+    "mean_value":0.1837807758
+  },
+  {
+    "feature":"away_team_pbp_off_epa_per_play_last_5",
+    "mean_abs_shap":0.0016233018,
+    "mean_value":0.2311006951
+  },
+  {
+    "feature":"diff_team_pbp_prev_season_off_rush_epa",
+    "mean_abs_shap":0.0015738597,
+    "mean_value":-0.0299723889
   },
   {
     "feature":"away_team_qb_qb_passing_epa_avg",
-    "mean_abs_shap":0.0014134041,
-    "mean_value":0.0246519224
+    "mean_abs_shap":0.0015605633,
+    "mean_value":0.0235896419
   },
   {
-    "feature":"away_team_pbp_prev_season_def_epa_allowed_per_play",
-    "mean_abs_shap":0.0013986564,
-    "mean_value":0.4899210261
+    "feature":"home_team_pbp_def_explosive_allowed_rate_last_3",
+    "mean_abs_shap":0.0015520458,
+    "mean_value":0.0363778792
   },
   {
-    "feature":"diff_team_pbp_def_epa_allowed_per_play_last_5",
-    "mean_abs_shap":0.0013843548,
-    "mean_value":-0.0462477144
-  },
-  {
-    "feature":"diff_team_qb_qb_passing_cpoe_last_5",
-    "mean_abs_shap":0.0013651162,
-    "mean_value":0.0168555882
-  },
-  {
-    "feature":"diff_team_qb_qb_passing_yards_last_3",
-    "mean_abs_shap":0.0013412625,
-    "mean_value":-0.0135318882
-  },
-  {
-    "feature":"home_team_pbp_prev_season_off_rush_epa",
-    "mean_abs_shap":0.0013195821,
-    "mean_value":0.4769293069
-  },
-  {
-    "feature":"diff_team_pbp_def_epa_allowed_per_play_avg",
-    "mean_abs_shap":0.0013065422,
-    "mean_value":0.0339171134
-  },
-  {
-    "feature":"home_team_pbp_prev_season_def_explosive_allowed_rate",
-    "mean_abs_shap":0.0012783346,
-    "mean_value":0.3204735694
-  },
-  {
-    "feature":"diff_team_qb_qb_sacks_suffered_avg",
-    "mean_abs_shap":0.001272842,
-    "mean_value":0.0285423244
-  },
-  {
-    "feature":"diff_team_qb_qb_passing_yards_last_5",
-    "mean_abs_shap":0.0012688732,
-    "mean_value":-0.0119964072
-  },
-  {
-    "feature":"diff_team_qb_prev_season_qb_passing_tds",
-    "mean_abs_shap":0.0012577758,
-    "mean_value":0.0000849325
-  },
-  {
-    "feature":"diff_team_pbp_prev_season_off_explosive_rate",
-    "mean_abs_shap":0.001242624,
-    "mean_value":-0.0098447926
-  },
-  {
-    "feature":"away_team_pbp_prev_season_off_rush_epa",
-    "mean_abs_shap":0.0012303636,
-    "mean_value":0.5130188896
-  },
-  {
-    "feature":"diff_team_pbp_def_explosive_allowed_rate_last_3",
-    "mean_abs_shap":0.0012144682,
-    "mean_value":-0.0353910846
-  },
-  {
-    "feature":"away_team_qb_qb_passing_epa_last_5",
-    "mean_abs_shap":0.0011965977,
-    "mean_value":-0.0099994186
-  },
-  {
-    "feature":"away_team_points_against_per_game",
-    "mean_abs_shap":0.0011748636,
-    "mean_value":0.1113177732
-  },
-  {
-    "feature":"diff_team_pbp_def_success_allowed_rate_last_5",
-    "mean_abs_shap":0.0011627038,
-    "mean_value":-0.0321240237
+    "feature":"away_team_pbp_prev_season_off_turnover_rate",
+    "mean_abs_shap":0.0015135074,
+    "mean_value":-0.7788646124
   },
   {
     "feature":"diff_team_qb_qb_passing_cpoe_avg",
-    "mean_abs_shap":0.0011509131,
-    "mean_value":-0.0099127815
+    "mean_abs_shap":0.0014657725,
+    "mean_value":-0.0101591812
   },
   {
-    "feature":"diff_team_pbp_off_rush_epa_last_5",
-    "mean_abs_shap":0.0011503317,
-    "mean_value":0.0084953979
+    "feature":"away_team_pbp_prev_season_def_epa_allowed_per_play",
+    "mean_abs_shap":0.0014517094,
+    "mean_value":0.4899210261
   },
   {
-    "feature":"home_team_pbp_def_success_allowed_rate_last_3",
-    "mean_abs_shap":0.0011477404,
-    "mean_value":0.2806766936
+    "feature":"diff_team_roster_size",
+    "mean_abs_shap":0.0014327502,
+    "mean_value":0.0081647279
   },
   {
-    "feature":"home_team_pbp_off_pass_epa_last_3",
-    "mean_abs_shap":0.0011375838,
-    "mean_value":0.0440068521
+    "feature":"away_team_qb_qb_passing_tds_avg",
+    "mean_abs_shap":0.0014276533,
+    "mean_value":0.1598945458
+  },
+  {
+    "feature":"diff_team_pbp_def_success_allowed_rate_avg",
+    "mean_abs_shap":0.0014274227,
+    "mean_value":0.0217598521
+  },
+  {
+    "feature":"home_team_pbp_off_epa_per_play_last_3",
+    "mean_abs_shap":0.0013624561,
+    "mean_value":0.2377591031
+  },
+  {
+    "feature":"diff_team_pbp_def_epa_allowed_per_play_avg",
+    "mean_abs_shap":0.001351268,
+    "mean_value":0.034178138
   },
   {
     "feature":"away_team_pbp_prev_season_def_success_allowed_rate",
-    "mean_abs_shap":0.0011332544,
+    "mean_abs_shap":0.0013341642,
     "mean_value":1.4195310797
   },
   {
+    "feature":"diff_team_qb_qb_passing_yards_last_5",
+    "mean_abs_shap":0.0013336007,
+    "mean_value":-0.0110192318
+  },
+  {
+    "feature":"home_team_qb_qb_passing_epa_last_5",
+    "mean_abs_shap":0.001327358,
+    "mean_value":0.0022253865
+  },
+  {
+    "feature":"diff_team_pbp_def_explosive_allowed_rate_last_3",
+    "mean_abs_shap":0.0013190846,
+    "mean_value":-0.0345810784
+  },
+  {
+    "feature":"diff_team_pbp_prev_season_def_success_allowed_rate",
+    "mean_abs_shap":0.0012958252,
+    "mean_value":-0.032344965
+  },
+  {
+    "feature":"away_team_points_against_per_game",
+    "mean_abs_shap":0.0012943252,
+    "mean_value":0.1113177732
+  },
+  {
+    "feature":"home_team_pbp_prev_season_off_rush_epa",
+    "mean_abs_shap":0.0012734729,
+    "mean_value":0.4769293069
+  },
+  {
+    "feature":"home_team_pbp_off_pass_epa_last_5",
+    "mean_abs_shap":0.0012574144,
+    "mean_value":0.0365779961
+  },
+  {
+    "feature":"diff_team_pbp_prev_season_off_explosive_rate",
+    "mean_abs_shap":0.0012469599,
+    "mean_value":-0.0098447926
+  },
+  {
+    "feature":"away_team_qb_qb_passing_epa_last_5",
+    "mean_abs_shap":0.001230254,
+    "mean_value":-0.0106618516
+  },
+  {
+    "feature":"diff_team_qb_prev_season_qb_passing_tds",
+    "mean_abs_shap":0.0012132306,
+    "mean_value":0.0000849325
+  },
+  {
+    "feature":"diff_team_pbp_def_epa_allowed_per_play_last_5",
+    "mean_abs_shap":0.0011987402,
+    "mean_value":-0.0448817399
+  },
+  {
+    "feature":"home_team_pbp_off_success_rate_last_5",
+    "mean_abs_shap":0.0011938614,
+    "mean_value":0.2606987395
+  },
+  {
     "feature":"home_team_pbp_def_success_allowed_rate_avg",
-    "mean_abs_shap":0.001118881,
-    "mean_value":0.2860380807
+    "mean_abs_shap":0.0011925031,
+    "mean_value":0.2858522495
+  },
+  {
+    "feature":"away_team_pbp_prev_season_off_rush_epa",
+    "mean_abs_shap":0.0011844285,
+    "mean_value":0.5130188896
+  },
+  {
+    "feature":"home_team_pbp_prev_season_def_explosive_allowed_rate",
+    "mean_abs_shap":0.0011831845,
+    "mean_value":0.3204735694
+  },
+  {
+    "feature":"diff_team_qb_qb_passing_cpoe_last_5",
+    "mean_abs_shap":0.0011806902,
+    "mean_value":0.0165139351
+  },
+  {
+    "feature":"diff_team_pbp_def_success_allowed_rate_last_5",
+    "mean_abs_shap":0.0011718677,
+    "mean_value":-0.0318818552
   },
   {
     "feature":"away_team_qb_qb_passing_cpoe_avg",
-    "mean_abs_shap":0.0011095572,
-    "mean_value":0.1475944925
+    "mean_abs_shap":0.0011673068,
+    "mean_value":0.1464348463
   },
   {
-    "feature":"away_team_pbp_off_pass_epa_last_5",
-    "mean_abs_shap":0.0011021293,
-    "mean_value":0.0236526585
-  },
-  {
-    "feature":"diff_team_pbp_def_success_allowed_rate_last_3",
-    "mean_abs_shap":0.0010869534,
-    "mean_value":0.0233514981
-  },
-  {
-    "feature":"diff_team_pbp_off_explosive_rate_avg",
-    "mean_abs_shap":0.0010806731,
-    "mean_value":0.0058899394
-  },
-  {
-    "feature":"away_team_pbp_off_epa_per_play_last_3",
-    "mean_abs_shap":0.0010708099,
-    "mean_value":0.2151231749
+    "feature":"home_team_pbp_prev_season_off_epa_per_play",
+    "mean_abs_shap":0.0011653584,
+    "mean_value":0.3612141114
   },
   {
     "feature":"home_team_pbp_def_success_allowed_rate_last_5",
-    "mean_abs_shap":0.001054334,
-    "mean_value":0.264566402
-  },
-  {
-    "feature":"home_team_qb_prev_season_qb_passing_epa",
-    "mean_abs_shap":0.0010512492,
-    "mean_value":0.0990669372
-  },
-  {
-    "feature":"home_team_qb_qb_passing_epa_last_3",
-    "mean_abs_shap":0.0010497072,
-    "mean_value":0.0177642076
-  },
-  {
-    "feature":"home_team_pbp_off_success_rate_last_3",
-    "mean_abs_shap":0.0010436004,
-    "mean_value":0.2721941669
-  },
-  {
-    "feature":"diff_team_pbp_prev_season_def_takeaway_rate",
-    "mean_abs_shap":0.001041104,
-    "mean_value":-0.0039248633
-  },
-  {
-    "feature":"season",
-    "mean_abs_shap":0.0010402487,
-    "mean_value":1.6272640347
+    "mean_abs_shap":0.0011371111,
+    "mean_value":0.2645250915
   },
   {
     "feature":"home_team_pbp_def_epa_allowed_per_play_avg",
-    "mean_abs_shap":0.0010186886,
-    "mean_value":0.3295220308
+    "mean_abs_shap":0.001130613,
+    "mean_value":0.3281805588
   },
   {
-    "feature":"diff_team_pbp_def_epa_allowed_per_play_last_3",
-    "mean_abs_shap":0.0010157591,
-    "mean_value":0.0197282185
-  },
-  {
-    "feature":"away_team_pbp_prev_season_def_explosive_allowed_rate",
-    "mean_abs_shap":0.0010101393,
-    "mean_value":0.3345585201
+    "feature":"away_team_pbp_off_pass_epa_last_5",
+    "mean_abs_shap":0.0011295961,
+    "mean_value":0.023275871
   },
   {
     "feature":"diff_team_qb_qb_passing_tds_last_5",
-    "mean_abs_shap":0.0010094191,
-    "mean_value":0.0495361164
+    "mean_abs_shap":0.0011226193,
+    "mean_value":0.0515929271
   },
   {
-    "feature":"home_team_qb_qb_passing_cpoe_last_5",
-    "mean_abs_shap":0.0010021704,
-    "mean_value":0.0875300241
+    "feature":"home_team_pbp_off_success_rate_last_3",
+    "mean_abs_shap":0.0011001892,
+    "mean_value":0.2724372321
   },
   {
-    "feature":"home_team_pbp_def_epa_allowed_per_play_last_5",
-    "mean_abs_shap":0.0009738492,
-    "mean_value":0.2374917291
+    "feature":"diff_team_qb_qb_sacks_suffered_avg",
+    "mean_abs_shap":0.0011001534,
+    "mean_value":0.0290022693
   },
   {
-    "feature":"diff_team_pbp_off_rush_epa_avg",
-    "mean_abs_shap":0.0009681973,
-    "mean_value":0.0222772825
-  },
-  {
-    "feature":"diff_team_pbp_prev_season_off_turnover_rate",
-    "mean_abs_shap":0.0009673335,
-    "mean_value":0.0054045538
-  },
-  {
-    "feature":"away_team_qb_qb_passing_epa_last_3",
-    "mean_abs_shap":0.0009617106,
-    "mean_value":0.0115596321
-  },
-  {
-    "feature":"diff_team_qb_prev_season_qb_prev_starter_same_as_prev_game",
-    "mean_abs_shap":0.0009604343,
-    "mean_value":-0.0081626763
-  },
-  {
-    "feature":"home_team_pbp_prev_season_def_epa_allowed_per_play",
-    "mean_abs_shap":0.0009458622,
-    "mean_value":0.4676295414
-  },
-  {
-    "feature":"diff_team_qb_qb_passing_tds_last_3",
-    "mean_abs_shap":0.0009307091,
-    "mean_value":0.0601977171
-  },
-  {
-    "feature":"diff_team_qb_qb_passing_yards_avg",
-    "mean_abs_shap":0.0009264555,
-    "mean_value":-0.0192288321
-  },
-  {
-    "feature":"away_team_pbp_off_pass_epa_last_3",
-    "mean_abs_shap":0.0009233893,
-    "mean_value":0.0457990354
-  },
-  {
-    "feature":"diff_team_qb_qb_passing_cpoe_last_3",
-    "mean_abs_shap":0.000914249,
-    "mean_value":-0.0069876248
-  },
-  {
-    "feature":"away_team_qb_prev_season_qb_passing_tds",
-    "mean_abs_shap":0.000909,
-    "mean_value":0.2252201349
-  },
-  {
-    "feature":"home_team_qb_qb_passing_yards_last_3",
-    "mean_abs_shap":0.0008939477,
-    "mean_value":0.0339018782
-  },
-  {
-    "feature":"away_team_qb_qb_passing_yards_last_5",
-    "mean_abs_shap":0.000878885,
-    "mean_value":0.0413245111
-  },
-  {
-    "feature":"home_team_pbp_def_epa_allowed_per_play_last_3",
-    "mean_abs_shap":0.0008788802,
-    "mean_value":0.2660778127
+    "feature":"diff_team_qb_qb_passing_yards_last_3",
+    "mean_abs_shap":0.0010955194,
+    "mean_value":-0.0124397138
   },
   {
     "feature":"home_team_pbp_prev_season_def_success_allowed_rate",
-    "mean_abs_shap":0.000878152,
+    "mean_abs_shap":0.0010931296,
     "mean_value":1.3900362637
   },
   {
-    "feature":"home_team_qb_qb_sacks_suffered_avg",
-    "mean_abs_shap":0.0008707266,
-    "mean_value":0.1585893654
+    "feature":"season",
+    "mean_abs_shap":0.0010711475,
+    "mean_value":1.6272640347
+  },
+  {
+    "feature":"home_team_qb_qb_passing_epa_last_3",
+    "mean_abs_shap":0.001045921,
+    "mean_value":0.0188107663
+  },
+  {
+    "feature":"diff_team_pbp_off_rush_epa_last_5",
+    "mean_abs_shap":0.0010322507,
+    "mean_value":0.0086016544
+  },
+  {
+    "feature":"diff_team_pbp_off_explosive_rate_avg",
+    "mean_abs_shap":0.0010233571,
+    "mean_value":0.0076775349
+  },
+  {
+    "feature":"home_team_pbp_off_pass_epa_last_3",
+    "mean_abs_shap":0.0010209527,
+    "mean_value":0.0453348365
+  },
+  {
+    "feature":"home_team_qb_prev_season_qb_passing_epa",
+    "mean_abs_shap":0.0010110664,
+    "mean_value":0.0990669372
+  },
+  {
+    "feature":"diff_team_pbp_prev_season_def_takeaway_rate",
+    "mean_abs_shap":0.0010099757,
+    "mean_value":-0.0039248633
+  },
+  {
+    "feature":"away_team_pbp_off_epa_per_play_last_3",
+    "mean_abs_shap":0.0010050496,
+    "mean_value":0.2147804436
+  },
+  {
+    "feature":"diff_team_pbp_def_success_allowed_rate_last_3",
+    "mean_abs_shap":0.0009898169,
+    "mean_value":0.0235578147
+  },
+  {
+    "feature":"home_team_pbp_def_success_allowed_rate_last_3",
+    "mean_abs_shap":0.0009737802,
+    "mean_value":0.2808024218
   },
   {
     "feature":"away_team_qb_prev_season_qb_passing_cpoe",
-    "mean_abs_shap":0.0008598489,
+    "mean_abs_shap":0.0009686669,
     "mean_value":0.4129181793
   },
   {
-    "feature":"diff_team_pbp_off_turnover_rate_avg",
-    "mean_abs_shap":0.0008482878,
-    "mean_value":-0.0162393688
-  },
-  {
-    "feature":"away_team_pbp_prev_season_def_takeaway_rate",
-    "mean_abs_shap":0.0008420049,
-    "mean_value":-0.8260586068
-  },
-  {
-    "feature":"diff_team_qb_qb_prev_starter_same_as_prev_game_avg",
-    "mean_abs_shap":0.000840945,
-    "mean_value":0.0129997877
-  },
-  {
     "feature":"away_team_pbp_def_epa_allowed_per_play_avg",
-    "mean_abs_shap":0.0008210932,
-    "mean_value":0.2735379405
-  },
-  {
-    "feature":"home_team_pbp_def_takeaway_rate_avg",
-    "mean_abs_shap":0.0008145326,
-    "mean_value":-0.4725895096
-  },
-  {
-    "feature":"home_team_pbp_prev_season_def_takeaway_rate",
-    "mean_abs_shap":0.0008135334,
-    "mean_value":-0.8285791747
-  },
-  {
-    "feature":"away_team_qb_prev_season_qb_prev_starter_same_as_prev_game",
-    "mean_abs_shap":0.0008063909,
-    "mean_value":0.2645185653
-  },
-  {
-    "feature":"diff_team_qb_prev_season_qb_sacks_suffered",
-    "mean_abs_shap":0.000804625,
-    "mean_value":0.0010684106
-  },
-  {
-    "feature":"diff_team_pbp_off_pass_rate_avg",
-    "mean_abs_shap":0.0008012715,
-    "mean_value":-0.0000198996
-  },
-  {
-    "feature":"home_team_roster_size",
-    "mean_abs_shap":0.0007907935,
-    "mean_value":0.9986670097
-  },
-  {
-    "feature":"home_team_pbp_prev_season_off_turnover_rate",
-    "mean_abs_shap":0.0007871852,
-    "mean_value":-0.7711156086
-  },
-  {
-    "feature":"diff_team_roster_rookie_count",
-    "mean_abs_shap":0.0007808188,
-    "mean_value":0.0676513669
-  },
-  {
-    "feature":"home_team_qb_qb_passing_yards_last_5",
-    "mean_abs_shap":0.0007800468,
-    "mean_value":0.0284235256
-  },
-  {
-    "feature":"diff_team_qb_prev_season_qb_passing_cpoe",
-    "mean_abs_shap":0.000776003,
-    "mean_value":-0.0135790604
-  },
-  {
-    "feature":"away_team_qb_prev_season_qb_passing_yards",
-    "mean_abs_shap":0.0007663054,
-    "mean_value":0.1574861172
+    "mean_abs_shap":0.0009590393,
+    "mean_value":0.2718779028
   },
   {
     "feature":"away_team_qb_qb_passing_yards_last_3",
-    "mean_abs_shap":0.0007568178,
-    "mean_value":0.0488098273
+    "mean_abs_shap":0.0009576848,
+    "mean_value":0.0481078544
   },
   {
-    "feature":"diff_team_pbp_prev_season_off_pass_rate",
-    "mean_abs_shap":0.0007515253,
-    "mean_value":0.0082509851
+    "feature":"diff_team_pbp_def_epa_allowed_per_play_last_3",
+    "mean_abs_shap":0.0009492853,
+    "mean_value":0.0208671612
   },
   {
-    "feature":"away_team_pbp_off_explosive_rate_avg",
-    "mean_abs_shap":0.0007493293,
-    "mean_value":0.0356182565
+    "feature":"away_team_qb_qb_passing_epa_last_3",
+    "mean_abs_shap":0.0009483777,
+    "mean_value":0.0109933935
+  },
+  {
+    "feature":"diff_team_qb_prev_season_qb_sacks_suffered",
+    "mean_abs_shap":0.000941658,
+    "mean_value":0.0010684106
+  },
+  {
+    "feature":"home_team_pbp_def_takeaway_rate_avg",
+    "mean_abs_shap":0.0009410411,
+    "mean_value":-0.4722060042
+  },
+  {
+    "feature":"away_team_qb_prev_season_qb_passing_tds",
+    "mean_abs_shap":0.000923359,
+    "mean_value":0.2252201349
+  },
+  {
+    "feature":"away_team_pbp_prev_season_def_explosive_allowed_rate",
+    "mean_abs_shap":0.0009168222,
+    "mean_value":0.3345585201
+  },
+  {
+    "feature":"diff_team_pbp_prev_season_off_turnover_rate",
+    "mean_abs_shap":0.00091372,
+    "mean_value":0.0054045538
+  },
+  {
+    "feature":"diff_team_qb_prev_season_qb_prev_starter_same_as_prev_game",
+    "mean_abs_shap":0.0008990246,
+    "mean_value":-0.0081626763
+  },
+  {
+    "feature":"home_team_pbp_def_epa_allowed_per_play_last_3",
+    "mean_abs_shap":0.0008851304,
+    "mean_value":0.2669627664
+  },
+  {
+    "feature":"home_team_pbp_prev_season_off_turnover_rate",
+    "mean_abs_shap":0.0008764627,
+    "mean_value":-0.7711156086
+  },
+  {
+    "feature":"diff_team_qb_qb_passing_yards_avg",
+    "mean_abs_shap":0.0008703245,
+    "mean_value":-0.0182354738
   },
   {
     "feature":"away_team_qb_qb_passing_yards_avg",
-    "mean_abs_shap":0.0007414969,
-    "mean_value":0.0384378089
-  },
-  {
-    "feature":"home_team_pbp_prev_season_off_pass_rate",
-    "mean_abs_shap":0.0007366502,
-    "mean_value":0.009333827
-  },
-  {
-    "feature":"away_team_pbp_off_rush_epa_avg",
-    "mean_abs_shap":0.00073094,
-    "mean_value":0.4916306041
-  },
-  {
-    "feature":"diff_team_roster_skill_count",
-    "mean_abs_shap":0.0007266488,
-    "mean_value":0.0000906217
-  },
-  {
-    "feature":"diff_team_qb_qb_sacks_suffered_last_5",
-    "mean_abs_shap":0.0007227696,
-    "mean_value":0.007059689
-  },
-  {
-    "feature":"away_team_pbp_off_rush_epa_last_5",
-    "mean_abs_shap":0.0007206768,
-    "mean_value":0.4207117507
-  },
-  {
-    "feature":"away_team_qb_prev_season_qb_passing_interceptions",
-    "mean_abs_shap":0.0007195304,
-    "mean_value":-0.428755886
-  },
-  {
-    "feature":"away_team_pbp_def_epa_allowed_per_play_last_5",
-    "mean_abs_shap":0.0007179656,
-    "mean_value":0.2903152285
-  },
-  {
-    "feature":"away_team_qb_qb_prev_starter_same_as_prev_game_avg",
-    "mean_abs_shap":0.0007163216,
-    "mean_value":0.1039859787
-  },
-  {
-    "feature":"home_team_qb_prev_season_qb_sacks_suffered",
-    "mean_abs_shap":0.0007110395,
-    "mean_value":0.2524840708
-  },
-  {
-    "feature":"away_team_qb_qb_passing_tds_last_5",
-    "mean_abs_shap":0.0007082007,
-    "mean_value":0.1242463589
-  },
-  {
-    "feature":"away_team_pbp_off_explosive_rate_last_5",
-    "mean_abs_shap":0.000701658,
-    "mean_value":0.0286630485
-  },
-  {
-    "feature":"away_team_pbp_def_success_allowed_rate_last_5",
-    "mean_abs_shap":0.0007001806,
-    "mean_value":0.2786845586
-  },
-  {
-    "feature":"home_team_pbp_off_rush_epa_last_5",
-    "mean_abs_shap":0.000696761,
-    "mean_value":0.4210100741
-  },
-  {
-    "feature":"diff_team_pbp_def_takeaway_rate_avg",
-    "mean_abs_shap":0.0006903882,
-    "mean_value":-0.0078143371
-  },
-  {
-    "feature":"home_team_pbp_prev_season_off_pass_epa",
-    "mean_abs_shap":0.0006897096,
-    "mean_value":0.1767740565
-  },
-  {
-    "feature":"away_team_pbp_off_explosive_rate_last_3",
-    "mean_abs_shap":0.000681396,
-    "mean_value":0.0498882138
-  },
-  {
-    "feature":"away_team_pbp_def_explosive_allowed_rate_last_5",
-    "mean_abs_shap":0.0006780837,
-    "mean_value":0.0535272357
-  },
-  {
-    "feature":"home_team_qb_qb_passing_cpoe_last_3",
-    "mean_abs_shap":0.0006780283,
-    "mean_value":0.0775501847
-  },
-  {
-    "feature":"home_team_qb_qb_sacks_suffered_last_5",
-    "mean_abs_shap":0.0006765358,
-    "mean_value":0.1441675619
-  },
-  {
-    "feature":"diff_team_injury_out_count",
-    "mean_abs_shap":0.0006679208,
-    "mean_value":-0.0305619673
-  },
-  {
-    "feature":"away_team_qb_qb_passing_cpoe_last_3",
-    "mean_abs_shap":0.0006591588,
-    "mean_value":0.0892543572
+    "mean_abs_shap":0.000861577,
+    "mean_value":0.0378109227
   },
   {
     "feature":"home_team_pbp_def_takeaway_rate_last_3",
-    "mean_abs_shap":0.0006564125,
-    "mean_value":-0.3534131492
+    "mean_abs_shap":0.0008613381,
+    "mean_value":-0.353694405
   },
   {
-    "feature":"diff_team_roster_avg_years_exp",
-    "mean_abs_shap":0.0006547807,
-    "mean_value":-0.02959645
+    "feature":"home_team_qb_qb_passing_cpoe_last_5",
+    "mean_abs_shap":0.0008599428,
+    "mean_value":0.0864374956
   },
   {
-    "feature":"away_team_pbp_off_rush_epa_last_3",
-    "mean_abs_shap":0.0006505275,
-    "mean_value":0.3237330674
+    "feature":"away_team_pbp_off_pass_epa_last_3",
+    "mean_abs_shap":0.0008592338,
+    "mean_value":0.0453644677
   },
   {
-    "feature":"diff_team_pbp_off_explosive_rate_last_5",
-    "mean_abs_shap":0.0006443082,
-    "mean_value":0.0147112896
+    "feature":"diff_team_qb_qb_passing_cpoe_last_3",
+    "mean_abs_shap":0.0008581851,
+    "mean_value":-0.0071051091
   },
   {
-    "feature":"home_team_pbp_prev_season_off_explosive_rate",
-    "mean_abs_shap":0.000642227,
-    "mean_value":0.2653750658
+    "feature":"home_team_pbp_prev_season_def_takeaway_rate",
+    "mean_abs_shap":0.0008563865,
+    "mean_value":-0.8285791747
   },
   {
-    "feature":"diff_team_qb_prev_season_qb_passing_yards",
-    "mean_abs_shap":0.0006368443,
-    "mean_value":-0.0060477783
+    "feature":"away_team_pbp_off_rush_epa_avg",
+    "mean_abs_shap":0.0008549309,
+    "mean_value":0.4913245334
   },
   {
-    "feature":"diff_team_pbp_off_explosive_rate_last_3",
-    "mean_abs_shap":0.0006342555,
-    "mean_value":-0.0180645711
+    "feature":"diff_team_pbp_off_rush_epa_avg",
+    "mean_abs_shap":0.0008429441,
+    "mean_value":0.0214532664
   },
   {
-    "feature":"home_team_pbp_def_takeaway_rate_last_5",
-    "mean_abs_shap":0.000626675,
-    "mean_value":-0.400514036
+    "feature":"diff_team_pbp_off_pass_rate_avg",
+    "mean_abs_shap":0.0008376308,
+    "mean_value":0.000898349
   },
   {
-    "feature":"home_team_qb_prev_season_qb_prev_starter_same_as_prev_game",
-    "mean_abs_shap":0.00062548,
-    "mean_value":0.2526393444
+    "feature":"diff_team_qb_qb_passing_tds_last_3",
+    "mean_abs_shap":0.0008301362,
+    "mean_value":0.0627218227
+  },
+  {
+    "feature":"home_team_pbp_prev_season_def_epa_allowed_per_play",
+    "mean_abs_shap":0.0008232746,
+    "mean_value":0.4676295414
+  },
+  {
+    "feature":"diff_team_qb_prev_season_qb_passing_cpoe",
+    "mean_abs_shap":0.0008229809,
+    "mean_value":-0.0135790604
   },
   {
     "feature":"away_team_pbp_off_turnover_rate_avg",
-    "mean_abs_shap":0.0006232295,
-    "mean_value":-0.46741013
+    "mean_abs_shap":0.0008228071,
+    "mean_value":-0.4665321002
   },
   {
-    "feature":"diff_team_qb_prev_season_qb_passing_interceptions",
-    "mean_abs_shap":0.0006216159,
-    "mean_value":-0.0035841929
+    "feature":"diff_team_qb_qb_prev_starter_same_as_prev_game_avg",
+    "mean_abs_shap":0.0007932342,
+    "mean_value":0.0129997877
   },
   {
-    "feature":"away_team_qb_qb_passing_cpoe_last_5",
-    "mean_abs_shap":0.0006141616,
-    "mean_value":0.0647725615
+    "feature":"home_team_pbp_prev_season_off_pass_rate",
+    "mean_abs_shap":0.0007843174,
+    "mean_value":0.009333827
   },
   {
-    "feature":"home_team_qb_qb_passing_cpoe_avg",
-    "mean_abs_shap":0.0006097394,
-    "mean_value":0.1309171353
+    "feature":"away_team_pbp_prev_season_def_takeaway_rate",
+    "mean_abs_shap":0.0007831236,
+    "mean_value":-0.8260586068
   },
   {
-    "feature":"away_team_pbp_off_turnover_rate_last_5",
-    "mean_abs_shap":0.0006046868,
-    "mean_value":-0.3686292856
+    "feature":"diff_team_pbp_def_takeaway_rate_avg",
+    "mean_abs_shap":0.0007775342,
+    "mean_value":-0.0067273738
   },
   {
-    "feature":"diff_team_pbp_off_rush_epa_last_3",
-    "mean_abs_shap":0.0006015797,
-    "mean_value":0.0603183782
+    "feature":"away_team_pbp_off_explosive_rate_avg",
+    "mean_abs_shap":0.0007747617,
+    "mean_value":0.0349294283
   },
   {
-    "feature":"away_team_pbp_off_pass_rate_last_3",
-    "mean_abs_shap":0.0005979032,
-    "mean_value":-0.0092830182
+    "feature":"home_team_qb_qb_passing_yards_last_5",
+    "mean_abs_shap":0.0007697169,
+    "mean_value":0.0287839147
   },
   {
-    "feature":"home_team_qb_prev_season_qb_passing_tds",
-    "mean_abs_shap":0.0005971537,
-    "mean_value":0.2247911355
+    "feature":"home_team_pbp_def_epa_allowed_per_play_last_5",
+    "mean_abs_shap":0.0007673346,
+    "mean_value":0.2377760972
   },
   {
-    "feature":"week",
-    "mean_abs_shap":0.0005961438,
-    "mean_value":0.076809586
+    "feature":"diff_team_pbp_off_turnover_rate_avg",
+    "mean_abs_shap":0.0007668584,
+    "mean_value":-0.0178529014
   },
   {
-    "feature":"home_team_pbp_off_turnover_rate_avg",
-    "mean_abs_shap":0.0005961011,
-    "mean_value":-0.4845288425
+    "feature":"away_team_qb_prev_season_qb_passing_yards",
+    "mean_abs_shap":0.0007597996,
+    "mean_value":0.1574861172
   },
   {
-    "feature":"away_team_qb_qb_passing_tds_last_3",
-    "mean_abs_shap":0.0005936912,
-    "mean_value":0.1134348573
+    "feature":"diff_team_pbp_off_explosive_rate_last_5",
+    "mean_abs_shap":0.000751849,
+    "mean_value":0.0162543132
   },
   {
-    "feature":"away_team_pbp_def_success_allowed_rate_avg",
-    "mean_abs_shap":0.000586561,
-    "mean_value":0.2747537108
+    "feature":"diff_team_roster_rookie_count",
+    "mean_abs_shap":0.0007462299,
+    "mean_value":0.066533094
   },
   {
-    "feature":"away_team_pbp_off_pass_rate_avg",
-    "mean_abs_shap":0.0005858819,
-    "mean_value":-0.005398442
+    "feature":"home_team_qb_qb_passing_yards_last_3",
+    "mean_abs_shap":0.0007456206,
+    "mean_value":0.0344552735
   },
   {
-    "feature":"away_team_qb_prev_season_qb_sacks_suffered",
-    "mean_abs_shap":0.0005857491,
-    "mean_value":0.2507216955
+    "feature":"away_team_qb_qb_prev_starter_same_as_prev_game_avg",
+    "mean_abs_shap":0.0007435243,
+    "mean_value":0.1039859787
   },
   {
-    "feature":"away_team_pbp_def_takeaway_rate_avg",
-    "mean_abs_shap":0.0005772894,
-    "mean_value":-0.45822622
+    "feature":"away_team_qb_prev_season_qb_prev_starter_same_as_prev_game",
+    "mean_abs_shap":0.0007406676,
+    "mean_value":0.2645185653
   },
   {
-    "feature":"home_team_qb_qb_passing_yards_avg",
-    "mean_abs_shap":0.00057309,
-    "mean_value":0.0179227174
+    "feature":"home_team_qb_qb_passing_cpoe_last_3",
+    "mean_abs_shap":0.0007341471,
+    "mean_value":0.0773670712
   },
   {
-    "feature":"away_team_qb_qb_sacks_suffered_avg",
-    "mean_abs_shap":0.0005716118,
-    "mean_value":0.1220170583
+    "feature":"away_team_qb_prev_season_qb_passing_interceptions",
+    "mean_abs_shap":0.0007327073,
+    "mean_value":-0.428755886
   },
   {
-    "feature":"away_team_pbp_def_explosive_allowed_rate_avg",
-    "mean_abs_shap":0.000570802,
-    "mean_value":0.0402217814
+    "feature":"away_team_qb_qb_passing_tds_last_5",
+    "mean_abs_shap":0.000721628,
+    "mean_value":0.1219141361
   },
   {
-    "feature":"away_team_games_played",
-    "mean_abs_shap":0.0005641273,
-    "mean_value":0.089601139
+    "feature":"away_team_pbp_off_explosive_rate_last_3",
+    "mean_abs_shap":0.000713477,
+    "mean_value":0.0492844201
   },
   {
-    "feature":"home_team_qb_qb_attempts_last_3",
-    "mean_abs_shap":0.0005552025,
-    "mean_value":0.0363712222
+    "feature":"away_team_pbp_def_success_allowed_rate_last_5",
+    "mean_abs_shap":0.0007062596,
+    "mean_value":0.2785576563
   },
   {
-    "feature":"home_team_games_played",
-    "mean_abs_shap":0.0005546016,
-    "mean_value":0.0913443658
+    "feature":"home_team_roster_size",
+    "mean_abs_shap":0.0007060649,
+    "mean_value":0.996397734
   },
   {
-    "feature":"home_team_pbp_off_explosive_rate_avg",
-    "mean_abs_shap":0.0005513533,
-    "mean_value":0.0418732328
+    "feature":"home_team_qb_prev_season_qb_sacks_suffered",
+    "mean_abs_shap":0.0006950867,
+    "mean_value":0.2524840708
+  },
+  {
+    "feature":"diff_team_injury_out_count",
+    "mean_abs_shap":0.0006892189,
+    "mean_value":-0.0300531156
+  },
+  {
+    "feature":"home_team_pbp_def_takeaway_rate_last_5",
+    "mean_abs_shap":0.0006852074,
+    "mean_value":-0.4007314524
+  },
+  {
+    "feature":"diff_team_pbp_prev_season_off_pass_rate",
+    "mean_abs_shap":0.000666669,
+    "mean_value":0.0082509851
   },
   {
     "feature":"away_team_pbp_def_success_allowed_rate_last_3",
-    "mean_abs_shap":0.0005509421,
-    "mean_value":0.2667512822
+    "mean_abs_shap":0.0006630977,
+    "mean_value":0.2667720634
   },
   {
-    "feature":"home_team_roster_avg_years_exp",
-    "mean_abs_shap":0.0005501231,
-    "mean_value":-0.0990238472
+    "feature":"away_team_pbp_off_explosive_rate_last_5",
+    "mean_abs_shap":0.0006581335,
+    "mean_value":0.0280657404
+  },
+  {
+    "feature":"diff_team_qb_prev_season_qb_passing_yards",
+    "mean_abs_shap":0.0006572932,
+    "mean_value":-0.0060477783
+  },
+  {
+    "feature":"home_team_pbp_prev_season_off_pass_epa",
+    "mean_abs_shap":0.0006533945,
+    "mean_value":0.1767740565
+  },
+  {
+    "feature":"away_team_pbp_off_rush_epa_last_5",
+    "mean_abs_shap":0.0006506733,
+    "mean_value":0.4200860942
+  },
+  {
+    "feature":"home_team_qb_qb_passing_cpoe_avg",
+    "mean_abs_shap":0.0006485847,
+    "mean_value":0.1294478655
+  },
+  {
+    "feature":"diff_team_pbp_off_explosive_rate_last_3",
+    "mean_abs_shap":0.0006481586,
+    "mean_value":-0.0162449304
+  },
+  {
+    "feature":"home_team_qb_qb_sacks_suffered_avg",
+    "mean_abs_shap":0.0006442827,
+    "mean_value":0.1588323663
+  },
+  {
+    "feature":"away_team_pbp_def_epa_allowed_per_play_last_5",
+    "mean_abs_shap":0.0006427097,
+    "mean_value":0.2888948572
+  },
+  {
+    "feature":"away_team_pbp_def_success_allowed_rate_avg",
+    "mean_abs_shap":0.0006414938,
+    "mean_value":0.2747150586
+  },
+  {
+    "feature":"away_team_pbp_def_explosive_allowed_rate_avg",
+    "mean_abs_shap":0.000637187,
+    "mean_value":0.0402183624
+  },
+  {
+    "feature":"diff_team_qb_qb_sacks_suffered_last_5",
+    "mean_abs_shap":0.0006369386,
+    "mean_value":0.007431925
+  },
+  {
+    "feature":"home_team_qb_qb_sacks_suffered_last_5",
+    "mean_abs_shap":0.0006354542,
+    "mean_value":0.1441709504
+  },
+  {
+    "feature":"diff_team_roster_avg_years_exp",
+    "mean_abs_shap":0.0006310177,
+    "mean_value":-0.0299487651
+  },
+  {
+    "feature":"home_team_qb_qb_attempts_last_3",
+    "mean_abs_shap":0.0006204108,
+    "mean_value":0.0367970573
   },
   {
     "feature":"away_team_qb_qb_passing_interceptions_avg",
-    "mean_abs_shap":0.0005425238,
-    "mean_value":-0.2830546669
+    "mean_abs_shap":0.0006169072,
+    "mean_value":-0.2819654921
   },
   {
-    "feature":"home_team_qb_qb_attempts_last_5",
-    "mean_abs_shap":0.0005371476,
-    "mean_value":0.0430065921
+    "feature":"home_team_pbp_off_rush_epa_last_5",
+    "mean_abs_shap":0.0006168756,
+    "mean_value":0.4201069975
+  },
+  {
+    "feature":"away_team_qb_qb_passing_yards_last_5",
+    "mean_abs_shap":0.000614762,
+    "mean_value":0.0405964674
+  },
+  {
+    "feature":"diff_team_roster_skill_count",
+    "mean_abs_shap":0.0006136765,
+    "mean_value":-0.00120055
+  },
+  {
+    "feature":"diff_team_pbp_off_rush_epa_last_3",
+    "mean_abs_shap":0.0006123131,
+    "mean_value":0.0601822397
   },
   {
     "feature":"away_team_pbp_def_epa_allowed_per_play_last_3",
-    "mean_abs_shap":0.0005368103,
-    "mean_value":0.2336559096
+    "mean_abs_shap":0.0005925797,
+    "mean_value":0.2328769152
   },
   {
-    "feature":"home_team_pbp_off_explosive_rate_last_5",
-    "mean_abs_shap":0.0005285286,
-    "mean_value":0.0435135116
-  },
-  {
-    "feature":"diff_team_pbp_off_turnover_rate_last_5",
-    "mean_abs_shap":0.0005228682,
-    "mean_value":-0.0436207258
-  },
-  {
-    "feature":"home_team_pbp_off_rush_epa_avg",
-    "mean_abs_shap":0.0005183382,
-    "mean_value":0.5064683445
-  },
-  {
-    "feature":"away_team_pbp_off_pass_rate_last_5",
-    "mean_abs_shap":0.0005087632,
-    "mean_value":-0.0036444698
-  },
-  {
-    "feature":"diff_team_pbp_off_pass_rate_last_3",
-    "mean_abs_shap":0.0005032761,
-    "mean_value":-0.0117587381
-  },
-  {
-    "feature":"away_team_pbp_def_takeaway_rate_last_3",
-    "mean_abs_shap":0.0004954504,
-    "mean_value":-0.3515015697
-  },
-  {
-    "feature":"away_team_pbp_def_explosive_allowed_rate_last_3",
-    "mean_abs_shap":0.0004930028,
-    "mean_value":0.0677390912
-  },
-  {
-    "feature":"home_team_qb_qb_attempts_avg",
-    "mean_abs_shap":0.0004897419,
-    "mean_value":0.0514544123
-  },
-  {
-    "feature":"diff_team_qb_qb_attempts_avg",
-    "mean_abs_shap":0.0004859147,
-    "mean_value":-0.0150746265
-  },
-  {
-    "feature":"home_team_qb_prev_season_qb_passing_cpoe",
-    "mean_abs_shap":0.00048572,
-    "mean_value":0.3958434555
-  },
-  {
-    "feature":"diff_team_qb_qb_attempts_last_3",
-    "mean_abs_shap":0.0004839983,
-    "mean_value":-0.0176893207
-  },
-  {
-    "feature":"away_team_pbp_prev_season_off_pass_rate",
-    "mean_abs_shap":0.0004819828,
-    "mean_value":-0.0037012714
-  },
-  {
-    "feature":"home_team_qb_qb_passing_tds_avg",
-    "mean_abs_shap":0.0004784484,
-    "mean_value":0.2096425462
-  },
-  {
-    "feature":"home_team_pbp_off_turnover_rate_last_5",
-    "mean_abs_shap":0.0004784352,
-    "mean_value":-0.4216691229
-  },
-  {
-    "feature":"diff_team_qb_qb_attempts_last_5",
-    "mean_abs_shap":0.000472985,
-    "mean_value":-0.0148533101
-  },
-  {
-    "feature":"home_team_pbp_off_rush_epa_last_3",
-    "mean_abs_shap":0.0004631622,
-    "mean_value":0.3927671467
-  },
-  {
-    "feature":"diff_team_roster_ol_count",
-    "mean_abs_shap":0.0004613221,
-    "mean_value":0.0057298199
-  },
-  {
-    "feature":"home_team_qb_prev_season_qb_passing_yards",
-    "mean_abs_shap":0.0004605945,
-    "mean_value":0.1488079108
-  },
-  {
-    "feature":"home_team_pbp_off_explosive_rate_last_3",
-    "mean_abs_shap":0.0004585595,
-    "mean_value":0.0315100056
-  },
-  {
-    "feature":"away_team_qb_qb_attempts_avg",
-    "mean_abs_shap":0.0004576039,
-    "mean_value":0.067082027
-  },
-  {
-    "feature":"diff_team_pbp_def_takeaway_rate_last_5",
-    "mean_abs_shap":0.0004574894,
-    "mean_value":0.0037828157
-  },
-  {
-    "feature":"away_team_qb_qb_prev_starter_same_as_prev_game_last_5",
-    "mean_abs_shap":0.0004532843,
-    "mean_value":0.091864622
+    "feature":"home_team_qb_qb_passing_yards_avg",
+    "mean_abs_shap":0.000588857,
+    "mean_value":0.0183734885
   },
   {
     "feature":"home_team_roster_skill_count",
-    "mean_abs_shap":0.0004501435,
-    "mean_value":0.8163639494
+    "mean_abs_shap":0.0005848361,
+    "mean_value":0.813719173
   },
   {
-    "feature":"temp",
-    "mean_abs_shap":0.0004393512,
-    "mean_value":-0.0019792382
+    "feature":"home_team_pbp_off_explosive_rate_avg",
+    "mean_abs_shap":0.00058377,
+    "mean_value":0.042894517
   },
   {
-    "feature":"away_team_pbp_off_turnover_rate_last_3",
-    "mean_abs_shap":0.0004389907,
-    "mean_value":-0.316747823
+    "feature":"away_team_pbp_def_takeaway_rate_avg",
+    "mean_abs_shap":0.0005824826,
+    "mean_value":-0.4583502579
   },
   {
-    "feature":"diff_team_pbp_def_takeaway_rate_last_3",
-    "mean_abs_shap":0.0004353603,
-    "mean_value":0.0030488975
+    "feature":"away_team_qb_qb_passing_tds_last_3",
+    "mean_abs_shap":0.0005755731,
+    "mean_value":0.1110209675
   },
   {
-    "feature":"away_team_qb_qb_attempts_last_3",
-    "mean_abs_shap":0.0004351941,
-    "mean_value":0.0554121364
+    "feature":"home_team_games_played",
+    "mean_abs_shap":0.0005732832,
+    "mean_value":0.0913443658
+  },
+  {
+    "feature":"home_team_qb_qb_attempts_last_5",
+    "mean_abs_shap":0.0005715498,
+    "mean_value":0.0435484821
+  },
+  {
+    "feature":"home_team_pbp_prev_season_off_explosive_rate",
+    "mean_abs_shap":0.0005688387,
+    "mean_value":0.2653750658
+  },
+  {
+    "feature":"away_team_games_played",
+    "mean_abs_shap":0.0005682849,
+    "mean_value":0.089601139
+  },
+  {
+    "feature":"away_team_pbp_def_explosive_allowed_rate_last_5",
+    "mean_abs_shap":0.0005644537,
+    "mean_value":0.0532553684
+  },
+  {
+    "feature":"diff_team_qb_qb_attempts_avg",
+    "mean_abs_shap":0.0005604862,
+    "mean_value":-0.0141591526
+  },
+  {
+    "feature":"home_team_qb_prev_season_qb_passing_tds",
+    "mean_abs_shap":0.0005553209,
+    "mean_value":0.2247911355
+  },
+  {
+    "feature":"home_team_pbp_off_explosive_rate_last_5",
+    "mean_abs_shap":0.0005520571,
+    "mean_value":0.0444559361
+  },
+  {
+    "feature":"week",
+    "mean_abs_shap":0.0005499329,
+    "mean_value":0.076809586
+  },
+  {
+    "feature":"diff_team_pbp_off_turnover_rate_last_5",
+    "mean_abs_shap":0.0005485044,
+    "mean_value":-0.0449746471
+  },
+  {
+    "feature":"diff_team_pbp_off_pass_rate_last_3",
+    "mean_abs_shap":0.0005475411,
+    "mean_value":-0.0111853175
   },
   {
     "feature":"home_team_qb_qb_prev_starter_same_as_prev_game_last_3",
-    "mean_abs_shap":0.0004334477,
+    "mean_abs_shap":0.0005363469,
     "mean_value":0.1160486451
   },
   {
-    "feature":"home_team_qb_qb_passing_interceptions_avg",
-    "mean_abs_shap":0.0004298366,
-    "mean_value":-0.295589364
+    "feature":"home_team_roster_avg_years_exp",
+    "mean_abs_shap":0.0005334354,
+    "mean_value":-0.0979217247
   },
   {
-    "feature":"home_team_pbp_off_pass_rate_avg",
-    "mean_abs_shap":0.0004258173,
-    "mean_value":-0.0036785091
+    "feature":"away_team_pbp_off_rush_epa_last_3",
+    "mean_abs_shap":0.0005307256,
+    "mean_value":0.3237616209
   },
   {
-    "feature":"home_team_pbp_off_pass_rate_last_3",
-    "mean_abs_shap":0.0004242533,
-    "mean_value":-0.0158827046
-  },
-  {
-    "feature":"diff_team_injury_questionable_count",
-    "mean_abs_shap":0.0004204562,
-    "mean_value":-0.01488516
-  },
-  {
-    "feature":"away_team_pbp_def_takeaway_rate_last_5",
-    "mean_abs_shap":0.0004199149,
-    "mean_value":-0.3974220111
-  },
-  {
-    "feature":"home_team_pbp_off_turnover_rate_last_3",
-    "mean_abs_shap":0.0004171045,
-    "mean_value":-0.3786972292
-  },
-  {
-    "feature":"home_team_injury_report_count",
-    "mean_abs_shap":0.0004148621,
-    "mean_value":0.3031893391
-  },
-  {
-    "feature":"diff_team_injury_report_count",
-    "mean_abs_shap":0.0004108443,
-    "mean_value":-0.0565447581
-  },
-  {
-    "feature":"away_team_qb_qb_sacks_suffered_last_5",
-    "mean_abs_shap":0.0004104637,
-    "mean_value":0.1342574259
+    "feature":"home_team_qb_qb_passing_tds_avg",
+    "mean_abs_shap":0.000529488,
+    "mean_value":0.210418391
   },
   {
     "feature":"away_team_qb_qb_attempts_last_5",
-    "mean_abs_shap":0.0004081298,
-    "mean_value":0.0586466546
+    "mean_abs_shap":0.0005249339,
+    "mean_value":0.0580578396
   },
   {
-    "feature":"away_team_qb_prev_season_qb_attempts",
-    "mean_abs_shap":0.0004079685,
-    "mean_value":0.0934157367
+    "feature":"away_team_pbp_off_pass_rate_avg",
+    "mean_abs_shap":0.0005206891,
+    "mean_value":-0.0054286019
   },
   {
-    "feature":"home_team_qb_prev_season_qb_passing_interceptions",
-    "mean_abs_shap":0.0004048856,
-    "mean_value":-0.4333100399
-  },
-  {
-    "feature":"diff_team_pbp_off_turnover_rate_last_3",
-    "mean_abs_shap":0.0004012119,
-    "mean_value":-0.0479501131
-  },
-  {
-    "feature":"diff_team_qb_qb_passing_interceptions_avg",
-    "mean_abs_shap":0.0004008244,
-    "mean_value":-0.0106381765
+    "feature":"away_team_qb_prev_season_qb_sacks_suffered",
+    "mean_abs_shap":0.0005182375,
+    "mean_value":0.2507216955
   },
   {
     "feature":"home_team_qb_qb_prev_starter_same_as_prev_game_avg",
-    "mean_abs_shap":0.0003985543,
+    "mean_abs_shap":0.0005171691,
     "mean_value":0.1131066719
   },
   {
+    "feature":"home_team_pbp_off_explosive_rate_last_3",
+    "mean_abs_shap":0.0005146512,
+    "mean_value":0.0328675685
+  },
+  {
+    "feature":"home_team_pbp_off_rush_epa_last_3",
+    "mean_abs_shap":0.0005143153,
+    "mean_value":0.3922893194
+  },
+  {
+    "feature":"away_team_pbp_off_pass_rate_last_3",
+    "mean_abs_shap":0.000508386,
+    "mean_value":-0.0094593416
+  },
+  {
+    "feature":"diff_team_qb_prev_season_qb_passing_interceptions",
+    "mean_abs_shap":0.000508151,
+    "mean_value":-0.0035841929
+  },
+  {
+    "feature":"home_team_pbp_off_rush_epa_avg",
+    "mean_abs_shap":0.0005055475,
+    "mean_value":0.5038087709
+  },
+  {
+    "feature":"away_team_qb_qb_passing_cpoe_last_3",
+    "mean_abs_shap":0.0005054905,
+    "mean_value":0.0892154073
+  },
+  {
+    "feature":"away_team_pbp_off_pass_rate_last_5",
+    "mean_abs_shap":0.0005052723,
+    "mean_value":-0.0037879976
+  },
+  {
+    "feature":"away_team_pbp_off_turnover_rate_last_5",
+    "mean_abs_shap":0.0005027837,
+    "mean_value":-0.3680422282
+  },
+  {
+    "feature":"home_team_pbp_off_turnover_rate_avg",
+    "mean_abs_shap":0.0004990437,
+    "mean_value":-0.4848901729
+  },
+  {
+    "feature":"home_team_pbp_off_turnover_rate_last_5",
+    "mean_abs_shap":0.0004937283,
+    "mean_value":-0.4223610989
+  },
+  {
+    "feature":"home_team_pbp_off_pass_rate_avg",
+    "mean_abs_shap":0.0004937114,
+    "mean_value":-0.003161906
+  },
+  {
+    "feature":"away_team_pbp_off_turnover_rate_last_3",
+    "mean_abs_shap":0.0004917247,
+    "mean_value":-0.3165040646
+  },
+  {
+    "feature":"away_team_qb_qb_passing_cpoe_last_5",
+    "mean_abs_shap":0.0004849515,
+    "mean_value":0.0640960907
+  },
+  {
+    "feature":"home_team_qb_prev_season_qb_prev_starter_same_as_prev_game",
+    "mean_abs_shap":0.0004849366,
+    "mean_value":0.2526393444
+  },
+  {
+    "feature":"diff_team_pbp_off_turnover_rate_last_3",
+    "mean_abs_shap":0.0004812363,
+    "mean_value":-0.049479562
+  },
+  {
+    "feature":"home_team_pbp_off_turnover_rate_last_3",
+    "mean_abs_shap":0.0004754608,
+    "mean_value":-0.3801510204
+  },
+  {
+    "feature":"away_team_pbp_def_explosive_allowed_rate_last_3",
+    "mean_abs_shap":0.0004753026,
+    "mean_value":0.0676834427
+  },
+  {
     "feature":"home_team_roster_ol_count",
-    "mean_abs_shap":0.0003919928,
-    "mean_value":1.0872785109
+    "mean_abs_shap":0.0004726858,
+    "mean_value":1.0850055389
   },
   {
-    "feature":"home_team_qb_prev_season_qb_attempts",
-    "mean_abs_shap":0.0003866137,
-    "mean_value":0.0935634226
+    "feature":"home_team_qb_qb_attempts_avg",
+    "mean_abs_shap":0.0004670987,
+    "mean_value":0.0520510947
   },
   {
-    "feature":"away_team_injury_out_count",
-    "mean_abs_shap":0.0003800508,
-    "mean_value":0.4707688395
+    "feature":"temp",
+    "mean_abs_shap":0.0004639601,
+    "mean_value":-0.0019792382
+  },
+  {
+    "feature":"diff_team_qb_qb_attempts_last_5",
+    "mean_abs_shap":0.0004628867,
+    "mean_value":-0.0138155548
   },
   {
     "feature":"diff_team_pbp_off_pass_rate_last_5",
-    "mean_abs_shap":0.0003794269,
-    "mean_value":-0.022549405
+    "mean_abs_shap":0.0004622831,
+    "mean_value":-0.0219249248
   },
   {
-    "feature":"away_team_roster_avg_years_exp",
-    "mean_abs_shap":0.0003762969,
-    "mean_value":-0.0641176792
+    "feature":"away_team_pbp_def_takeaway_rate_last_5",
+    "mean_abs_shap":0.000459404,
+    "mean_value":-0.3976267127
+  },
+  {
+    "feature":"away_team_pbp_prev_season_off_pass_rate",
+    "mean_abs_shap":0.0004529075,
+    "mean_value":-0.0037012714
+  },
+  {
+    "feature":"diff_team_pbp_def_takeaway_rate_last_3",
+    "mean_abs_shap":0.0004527479,
+    "mean_value":0.0038011532
+  },
+  {
+    "feature":"home_team_qb_prev_season_qb_passing_cpoe",
+    "mean_abs_shap":0.0004518973,
+    "mean_value":0.3958434555
+  },
+  {
+    "feature":"away_team_qb_qb_sacks_suffered_avg",
+    "mean_abs_shap":0.0004512848,
+    "mean_value":0.121560145
+  },
+  {
+    "feature":"away_team_qb_qb_sacks_suffered_last_5",
+    "mean_abs_shap":0.000451085,
+    "mean_value":0.1337102769
+  },
+  {
+    "feature":"diff_team_qb_qb_attempts_last_3",
+    "mean_abs_shap":0.0004404603,
+    "mean_value":-0.0167740027
+  },
+  {
+    "feature":"home_team_roster_rookie_count",
+    "mean_abs_shap":0.0004385259,
+    "mean_value":0.6687945016
+  },
+  {
+    "feature":"away_team_qb_qb_attempts_last_3",
+    "mean_abs_shap":0.0004374546,
+    "mean_value":0.0548201066
+  },
+  {
+    "feature":"home_team_qb_prev_season_qb_passing_yards",
+    "mean_abs_shap":0.0004350996,
+    "mean_value":0.1488079108
+  },
+  {
+    "feature":"away_team_qb_qb_attempts_avg",
+    "mean_abs_shap":0.0004320451,
+    "mean_value":0.0666877425
+  },
+  {
+    "feature":"home_team_qb_qb_passing_interceptions_avg",
+    "mean_abs_shap":0.0004198062,
+    "mean_value":-0.2950388607
+  },
+  {
+    "feature":"diff_team_pbp_def_takeaway_rate_last_5",
+    "mean_abs_shap":0.0004190001,
+    "mean_value":0.0040627698
+  },
+  {
+    "feature":"away_team_pbp_def_takeaway_rate_last_3",
+    "mean_abs_shap":0.0004187745,
+    "mean_value":-0.3525982446
+  },
+  {
+    "feature":"diff_team_injury_report_count",
+    "mean_abs_shap":0.0004185951,
+    "mean_value":-0.0568906894
+  },
+  {
+    "feature":"diff_team_qb_qb_passing_interceptions_avg",
+    "mean_abs_shap":0.000414898,
+    "mean_value":-0.0112940794
   },
   {
     "feature":"home_team_pbp_off_pass_rate_last_5",
-    "mean_abs_shap":0.0003746966,
-    "mean_value":-0.0146951402
+    "mean_abs_shap":0.0004082575,
+    "mean_value":-0.0144757686
   },
   {
-    "feature":"diff_team_qb_qb_sacks_suffered_last_3",
-    "mean_abs_shap":0.0003724857,
-    "mean_value":-0.0014624014
+    "feature":"home_team_pbp_off_pass_rate_last_3",
+    "mean_abs_shap":0.0004079865,
+    "mean_value":-0.0156954577
   },
   {
-    "feature":"away_team_injury_report_count",
-    "mean_abs_shap":0.00037231,
-    "mean_value":0.2642482611
-  },
-  {
-    "feature":"home_team_qb_qb_prev_starter_same_as_prev_game_last_5",
-    "mean_abs_shap":0.0003595256,
-    "mean_value":0.1043847313
+    "feature":"diff_team_roster_ol_count",
+    "mean_abs_shap":0.0004071238,
+    "mean_value":0.0023002406
   },
   {
     "feature":"home_team_qb_qb_passing_tds_last_5",
-    "mean_abs_shap":0.0003578391,
-    "mean_value":0.1899401286
+    "mean_abs_shap":0.0004044885,
+    "mean_value":0.1906319619
   },
   {
-    "feature":"diff_team_roster_qb_count",
-    "mean_abs_shap":0.0003495385,
-    "mean_value":-0.0283829602
+    "feature":"home_team_qb_prev_season_qb_passing_interceptions",
+    "mean_abs_shap":0.0004023527,
+    "mean_value":-0.4333100399
+  },
+  {
+    "feature":"away_team_injury_out_count",
+    "mean_abs_shap":0.0003974175,
+    "mean_value":0.4797712783
+  },
+  {
+    "feature":"home_team_injury_report_count",
+    "mean_abs_shap":0.0003920087,
+    "mean_value":0.3103491448
+  },
+  {
+    "feature":"diff_team_injury_questionable_count",
+    "mean_abs_shap":0.0003823542,
+    "mean_value":-0.0141699744
+  },
+  {
+    "feature":"away_team_qb_qb_prev_starter_same_as_prev_game_last_5",
+    "mean_abs_shap":0.0003800518,
+    "mean_value":0.091864622
+  },
+  {
+    "feature":"away_team_qb_prev_season_qb_attempts",
+    "mean_abs_shap":0.0003765325,
+    "mean_value":0.0934157367
   },
   {
     "feature":"diff_team_qb_prev_season_qb_attempts",
-    "mean_abs_shap":0.0003490217,
+    "mean_abs_shap":0.0003760895,
     "mean_value":0.0004743175
   },
   {
+    "feature":"diff_team_injury_skill_out_count",
+    "mean_abs_shap":0.0003741879,
+    "mean_value":-0.1004644719
+  },
+  {
+    "feature":"diff_team_injury_qb_out",
+    "mean_abs_shap":0.0003679695,
+    "mean_value":0.0508613732
+  },
+  {
+    "feature":"away_team_roster_avg_years_exp",
+    "mean_abs_shap":0.0003636296,
+    "mean_value":-0.062720108
+  },
+  {
+    "feature":"diff_team_roster_qb_count",
+    "mean_abs_shap":0.0003624203,
+    "mean_value":-0.0303699864
+  },
+  {
+    "feature":"away_team_injury_report_count",
+    "mean_abs_shap":0.0003562422,
+    "mean_value":0.3838388563
+  },
+  {
+    "feature":"home_team_qb_qb_sacks_suffered_last_3",
+    "mean_abs_shap":0.0003512666,
+    "mean_value":0.125802835
+  },
+  {
+    "feature":"home_team_qb_prev_season_qb_attempts",
+    "mean_abs_shap":0.0003443978,
+    "mean_value":0.0935634226
+  },
+  {
+    "feature":"diff_team_qb_qb_sacks_suffered_last_3",
+    "mean_abs_shap":0.0003391793,
+    "mean_value":-0.0013727401
+  },
+  {
+    "feature":"home_team_qb_qb_prev_starter_same_as_prev_game_last_5",
+    "mean_abs_shap":0.0003274755,
+    "mean_value":0.1043847313
+  },
+  {
+    "feature":"away_team_roster_skill_count",
+    "mean_abs_shap":0.0003257737,
+    "mean_value":0.8141855143
+  },
+  {
     "feature":"away_team_roster_size",
-    "mean_abs_shap":0.0003463128,
-    "mean_value":0.9956965623
+    "mean_abs_shap":0.0003194692,
+    "mean_value":0.9942863632
   },
   {
     "feature":"diff_team_qb_qb_prev_starter_same_as_prev_game_last_5",
-    "mean_abs_shap":0.0003460875,
+    "mean_abs_shap":0.0003145972,
     "mean_value":0.0165760586
   },
   {
-    "feature":"diff_team_injury_skill_out_count",
-    "mean_abs_shap":0.0003407071,
-    "mean_value":-0.1001641056
+    "feature":"away_team_injury_skill_out_count",
+    "mean_abs_shap":0.0003095359,
+    "mean_value":0.6088717396
   },
   {
     "feature":"away_team_qb_qb_prev_starter_same_as_prev_game_last_3",
-    "mean_abs_shap":0.0003300312,
+    "mean_abs_shap":0.0003062141,
     "mean_value":0.0699549228
   },
   {
     "feature":"home_team_injury_qb_out",
-    "mean_abs_shap":0.0003202523,
-    "mean_value":0.2827642157
-  },
-  {
-    "feature":"diff_team_injury_qb_out",
-    "mean_abs_shap":0.0003156532,
-    "mean_value":0.0507787238
-  },
-  {
-    "feature":"away_team_roster_ol_count",
-    "mean_abs_shap":0.0003155129,
-    "mean_value":1.0830359364
-  },
-  {
-    "feature":"home_team_roster_rookie_count",
-    "mean_abs_shap":0.0003135073,
-    "mean_value":0.6710845731
-  },
-  {
-    "feature":"away_team_roster_rookie_count",
-    "mean_abs_shap":0.0003010476,
-    "mean_value":0.6220336008
+    "mean_abs_shap":0.0003045999,
+    "mean_value":0.2838888739
   },
   {
     "feature":"home_team_injury_out_count",
-    "mean_abs_shap":0.0002966704,
-    "mean_value":0.431981271
+    "mean_abs_shap":0.0002931273,
+    "mean_value":0.4418096794
   },
   {
-    "feature":"away_team_roster_skill_count",
-    "mean_abs_shap":0.0002942823,
-    "mean_value":0.8154806777
+    "feature":"away_team_roster_ol_count",
+    "mean_abs_shap":0.0002878914,
+    "mean_value":1.0861477675
   },
   {
-    "feature":"away_team_injury_skill_out_count",
-    "mean_abs_shap":0.000293037,
-    "mean_value":0.6025475386
-  },
-  {
-    "feature":"away_team_injury_questionable_count",
-    "mean_abs_shap":0.0002906808,
-    "mean_value":-0.0578024039
-  },
-  {
-    "feature":"home_team_qb_qb_sacks_suffered_last_3",
-    "mean_abs_shap":0.0002898767,
-    "mean_value":0.1257672625
-  },
-  {
-    "feature":"home_team_injury_questionable_count",
-    "mean_abs_shap":0.0002872786,
-    "mean_value":-0.0783975277
+    "feature":"away_team_roster_rookie_count",
+    "mean_abs_shap":0.0002799408,
+    "mean_value":0.6213084373
   },
   {
     "feature":"diff_team_qb_qb_passing_interceptions_last_5",
-    "mean_abs_shap":0.0002758538,
-    "mean_value":-0.0261811442
+    "mean_abs_shap":0.0002786195,
+    "mean_value":-0.0262758721
+  },
+  {
+    "feature":"home_team_injury_questionable_count",
+    "mean_abs_shap":0.0002576184,
+    "mean_value":-0.0747403781
   },
   {
     "feature":"away_team_qb_qb_sacks_suffered_last_3",
-    "mean_abs_shap":0.0002733512,
-    "mean_value":0.1277640145
+    "mean_abs_shap":0.0002535726,
+    "mean_value":0.127586762
   },
   {
     "feature":"away_team_qb_qb_passing_interceptions_last_5",
-    "mean_abs_shap":0.0002667937,
-    "mean_value":-0.2165182855
-  },
-  {
-    "feature":"wind",
-    "mean_abs_shap":0.0002315739,
-    "mean_value":-0.0873187344
+    "mean_abs_shap":0.0002535722,
+    "mean_value":-0.2159336442
   },
   {
     "feature":"home_team_qb_qb_passing_interceptions_last_5",
-    "mean_abs_shap":0.0002304125,
-    "mean_value":-0.2513465131
-  },
-  {
-    "feature":"diff_team_injury_line_out_count",
-    "mean_abs_shap":0.0002223137,
-    "mean_value":-0.0165660526
+    "mean_abs_shap":0.0002453138,
+    "mean_value":-0.250678385
   },
   {
     "feature":"home_team_roster_qb_count",
-    "mean_abs_shap":0.0002189871,
-    "mean_value":0.5980398852
-  },
-  {
-    "feature":"home_team_injury_skill_out_count",
-    "mean_abs_shap":0.000216524,
-    "mean_value":0.4959749617
-  },
-  {
-    "feature":"away_team_qb_qb_passing_interceptions_last_3",
-    "mean_abs_shap":0.0002157449,
-    "mean_value":-0.18938884
-  },
-  {
-    "feature":"home_team_qb_qb_passing_tds_last_3",
-    "mean_abs_shap":0.0002133078,
-    "mean_value":0.1933238561
-  },
-  {
-    "feature":"diff_team_qb_qb_passing_interceptions_last_3",
-    "mean_abs_shap":0.0002114787,
-    "mean_value":-0.0221166315
-  },
-  {
-    "feature":"home_team_injury_line_out_count",
-    "mean_abs_shap":0.0002089174,
-    "mean_value":0.2935757991
-  },
-  {
-    "feature":"diff_team_rest_days",
-    "mean_abs_shap":0.0002085591,
-    "mean_value":0.0107179106
-  },
-  {
-    "feature":"home_team_qb_qb_passing_interceptions_last_3",
-    "mean_abs_shap":0.000196559,
-    "mean_value":-0.2192622991
+    "mean_abs_shap":0.0002420819,
+    "mean_value":0.5981856669
   },
   {
     "feature":"diff_team_qb_qb_prev_starter_same_as_prev_game_last_3",
-    "mean_abs_shap":0.000192559,
+    "mean_abs_shap":0.000238823,
     "mean_value":0.0561406305
   },
   {
+    "feature":"home_team_qb_qb_passing_tds_last_3",
+    "mean_abs_shap":0.000233023,
+    "mean_value":0.1946159077
+  },
+  {
+    "feature":"home_team_injury_line_out_count",
+    "mean_abs_shap":0.0002265107,
+    "mean_value":0.3003569655
+  },
+  {
+    "feature":"away_team_injury_questionable_count",
+    "mean_abs_shap":0.0002253661,
+    "mean_value":-0.0551413831
+  },
+  {
+    "feature":"home_team_injury_skill_out_count",
+    "mean_abs_shap":0.000222118,
+    "mean_value":0.5018161653
+  },
+  {
+    "feature":"wind",
+    "mean_abs_shap":0.0002202086,
+    "mean_value":-0.0873187344
+  },
+  {
+    "feature":"diff_team_qb_qb_passing_interceptions_last_3",
+    "mean_abs_shap":0.0002154578,
+    "mean_value":-0.0224780144
+  },
+  {
     "feature":"away_team_rest_days",
-    "mean_abs_shap":0.0001855868,
-    "mean_value":-0.0189519935
+    "mean_abs_shap":0.0002089869,
+    "mean_value":-0.0179351938
   },
   {
-    "feature":"surface_grass",
-    "mean_abs_shap":0.0001709852,
-    "mean_value":0.5461254613
+    "feature":"diff_team_injury_line_out_count",
+    "mean_abs_shap":0.0002087004,
+    "mean_value":-0.0163689785
   },
   {
-    "feature":"away_team_injury_line_out_count",
-    "mean_abs_shap":0.0001709584,
-    "mean_value":0.3141401571
+    "feature":"diff_team_rest_days",
+    "mean_abs_shap":0.0001749308,
+    "mean_value":0.0104865799
+  },
+  {
+    "feature":"away_team_qb_qb_passing_interceptions_last_3",
+    "mean_abs_shap":0.0001701673,
+    "mean_value":-0.1891580329
+  },
+  {
+    "feature":"home_team_qb_qb_passing_interceptions_last_3",
+    "mean_abs_shap":0.0001608182,
+    "mean_value":-0.2193607268
   },
   {
     "feature":"home_team_rest_days",
-    "mean_abs_shap":0.0001530387,
-    "mean_value":-0.0055909214
+    "mean_abs_shap":0.0001571308,
+    "mean_value":-0.0048617608
   },
   {
-    "feature":"div_game",
-    "mean_abs_shap":0.0001401505,
-    "mean_value":-0.0655715996
+    "feature":"away_team_injury_line_out_count",
+    "mean_abs_shap":0.0001523202,
+    "mean_value":0.3211608676
+  },
+  {
+    "feature":"surface_grass",
+    "mean_abs_shap":0.0001480705,
+    "mean_value":0.5461254613
   },
   {
     "feature":"away_team_roster_qb_count",
-    "mean_abs_shap":0.0001238084,
-    "mean_value":0.624941037
-  },
-  {
-    "feature":"roof_closed",
-    "mean_abs_shap":0.0001131018,
-    "mean_value":0.1512915129
+    "mean_abs_shap":0.0001452047,
+    "mean_value":0.6293735316
   },
   {
     "feature":"diff_games_played",
-    "mean_abs_shap":0.0001110175,
+    "mean_abs_shap":0.0001225126,
     "mean_value":0.0190354024
   },
   {
     "feature":"away_team_PIT",
-    "mean_abs_shap":0.0000938159,
+    "mean_abs_shap":0.0001191366,
     "mean_value":0.0295202952
   },
   {
-    "feature":"roof_outdoors",
-    "mean_abs_shap":0.0000919951,
-    "mean_value":0.6642066421
-  },
-  {
-    "feature":"surface_fieldturf",
-    "mean_abs_shap":0.0000857301,
-    "mean_value":0.2435424354
-  },
-  {
-    "feature":"away_team_PHI",
-    "mean_abs_shap":0.0000835977,
-    "mean_value":0.0332103321
-  },
-  {
-    "feature":"home_team_CLE",
-    "mean_abs_shap":0.000082808,
-    "mean_value":0.0332103321
-  },
-  {
-    "feature":"diff_team_games_played",
-    "mean_abs_shap":0.0000812814,
-    "mean_value":0.0190354024
+    "feature":"roof_closed",
+    "mean_abs_shap":0.0001141689,
+    "mean_value":0.1512915129
   },
   {
     "feature":"away_team_NE",
-    "mean_abs_shap":0.0000766307,
+    "mean_abs_shap":0.0001031207,
     "mean_value":0.0295202952
   },
   {
-    "feature":"surface_sportturf",
-    "mean_abs_shap":0.000075661,
-    "mean_value":0.0590405904
+    "feature":"diff_team_games_played",
+    "mean_abs_shap":0.0000967964,
+    "mean_value":0.0190354024
+  },
+  {
+    "feature":"div_game",
+    "mean_abs_shap":0.0000914901,
+    "mean_value":-0.0655715996
   },
   {
     "feature":"home_team_WAS",
-    "mean_abs_shap":0.0000693827,
+    "mean_abs_shap":0.0000868639,
     "mean_value":0.0295202952
   },
   {
-    "feature":"away_team_injury_qb_out",
-    "mean_abs_shap":0.0000693614,
-    "mean_value":0.2005614963
-  },
-  {
-    "feature":"home_team_PIT",
-    "mean_abs_shap":0.0000631128,
+    "feature":"home_team_CLE",
+    "mean_abs_shap":0.0000868353,
     "mean_value":0.0332103321
   },
   {
     "feature":"roof_dome",
-    "mean_abs_shap":0.0000575158,
+    "mean_abs_shap":0.000076529,
     "mean_value":0.184501845
   },
   {
-    "feature":"away_team_DET",
-    "mean_abs_shap":0.0000533848,
+    "feature":"roof_outdoors",
+    "mean_abs_shap":0.0000755965,
+    "mean_value":0.6642066421
+  },
+  {
+    "feature":"away_team_PHI",
+    "mean_abs_shap":0.0000735968,
     "mean_value":0.0332103321
   },
   {
-    "feature":"away_team_TEN",
-    "mean_abs_shap":0.0000484407,
-    "mean_value":0.0295202952
-  },
-  {
-    "feature":"home_team_MIN",
-    "mean_abs_shap":0.0000474589,
-    "mean_value":0.0295202952
-  },
-  {
-    "feature":"home_team_NYG",
-    "mean_abs_shap":0.0000439963,
-    "mean_value":0.0295202952
-  },
-  {
-    "feature":"home_team_NO",
-    "mean_abs_shap":0.0000399181,
-    "mean_value":0.0295202952
-  },
-  {
-    "feature":"away_team_IND",
-    "mean_abs_shap":0.000039535,
-    "mean_value":0.0295202952
-  },
-  {
-    "feature":"home_team_DET",
-    "mean_abs_shap":0.0000351651,
-    "mean_value":0.0295202952
-  },
-  {
-    "feature":"away_team_NO",
-    "mean_abs_shap":0.000030516,
+    "feature":"home_team_NE",
+    "mean_abs_shap":0.0000654522,
     "mean_value":0.0332103321
   },
   {
-    "feature":"away_team_JAX",
-    "mean_abs_shap":0.0000300754,
-    "mean_value":0.0295202952
-  },
-  {
-    "feature":"home_team_BAL",
-    "mean_abs_shap":0.000030046,
-    "mean_value":0.0332103321
-  },
-  {
-    "feature":"away_team_CHI",
-    "mean_abs_shap":0.0000296108,
-    "mean_value":0.0332103321
-  },
-  {
-    "feature":"away_team_CAR",
-    "mean_abs_shap":0.000028958,
-    "mean_value":0.0332103321
-  },
-  {
-    "feature":"home_team_ATL",
-    "mean_abs_shap":0.0000278879,
-    "mean_value":0.0295202952
-  },
-  {
-    "feature":"home_team_MIA",
-    "mean_abs_shap":0.0000270565,
-    "mean_value":0.0332103321
-  },
-  {
-    "feature":"away_team_BUF",
-    "mean_abs_shap":0.0000259553,
-    "mean_value":0.0295202952
-  },
-  {
-    "feature":"home_team_HOU",
-    "mean_abs_shap":0.0000259336,
-    "mean_value":0.0332103321
-  },
-  {
-    "feature":"home_team_KC",
-    "mean_abs_shap":0.0000241727,
-    "mean_value":0.0332103321
-  },
-  {
-    "feature":"home_team_CAR",
-    "mean_abs_shap":0.0000240936,
-    "mean_value":0.0295202952
-  },
-  {
-    "feature":"away_team_ATL",
-    "mean_abs_shap":0.0000240794,
-    "mean_value":0.0332103321
-  },
-  {
-    "feature":"surface_matrixturf",
-    "mean_abs_shap":0.000023819,
-    "mean_value":0.0848708487
+    "feature":"surface_sportturf",
+    "mean_abs_shap":0.0000634568,
+    "mean_value":0.0590405904
   },
   {
     "feature":"home_team_ARI",
-    "mean_abs_shap":0.000023782,
+    "mean_abs_shap":0.0000628046,
     "mean_value":0.0295202952
   },
   {
-    "feature":"away_team_CLE",
-    "mean_abs_shap":0.0000234849,
+    "feature":"surface_fieldturf",
+    "mean_abs_shap":0.0000575604,
+    "mean_value":0.2435424354
+  },
+  {
+    "feature":"away_team_TEN",
+    "mean_abs_shap":0.0000482447,
     "mean_value":0.0295202952
   },
   {
-    "feature":"home_team_JAX",
-    "mean_abs_shap":0.0000232853,
+    "feature":"home_team_PIT",
+    "mean_abs_shap":0.000045758,
+    "mean_value":0.0332103321
+  },
+  {
+    "feature":"home_team_DET",
+    "mean_abs_shap":0.0000432176,
+    "mean_value":0.0295202952
+  },
+  {
+    "feature":"away_team_injury_qb_out",
+    "mean_abs_shap":0.0000428222,
+    "mean_value":0.201504658
+  },
+  {
+    "feature":"away_team_WAS",
+    "mean_abs_shap":0.0000376072,
+    "mean_value":0.0332103321
+  },
+  {
+    "feature":"home_team_HOU",
+    "mean_abs_shap":0.0000326276,
     "mean_value":0.0332103321
   },
   {
     "feature":"away_team_NYG",
-    "mean_abs_shap":0.0000232416,
+    "mean_abs_shap":0.0000322142,
     "mean_value":0.0332103321
   },
   {
-    "feature":"home_team_CIN",
-    "mean_abs_shap":0.0000231985,
-    "mean_value":0.0332103321
-  },
-  {
-    "feature":"home_team_TEN",
-    "mean_abs_shap":0.0000230839,
+    "feature":"away_team_DET",
+    "mean_abs_shap":0.0000298761,
     "mean_value":0.0332103321
   },
   {
     "feature":"away_team_TB",
-    "mean_abs_shap":0.0000230177,
+    "mean_abs_shap":0.000029338,
     "mean_value":0.0332103321
   },
   {
-    "feature":"away_team_MIN",
-    "mean_abs_shap":0.0000224538,
-    "mean_value":0.0332103321
-  },
-  {
-    "feature":"away_team_BAL",
-    "mean_abs_shap":0.0000223767,
+    "feature":"home_team_NO",
+    "mean_abs_shap":0.0000289241,
     "mean_value":0.0295202952
   },
   {
-    "feature":"home_team_TB",
-    "mean_abs_shap":0.0000220608,
+    "feature":"away_team_JAX",
+    "mean_abs_shap":0.0000279989,
     "mean_value":0.0295202952
   },
   {
-    "feature":"away_team_GB",
-    "mean_abs_shap":0.0000218405,
+    "feature":"away_team_IND",
+    "mean_abs_shap":0.0000278956,
     "mean_value":0.0295202952
   },
   {
-    "feature":"home_team_LA",
-    "mean_abs_shap":0.0000216345,
+    "feature":"home_team_NYG",
+    "mean_abs_shap":0.0000271251,
     "mean_value":0.0295202952
   },
   {
-    "feature":"home_team_NE",
-    "mean_abs_shap":0.0000214563,
-    "mean_value":0.0332103321
-  },
-  {
-    "feature":"home_team_SEA",
-    "mean_abs_shap":0.0000210735,
+    "feature":"home_team_MIN",
+    "mean_abs_shap":0.0000270098,
     "mean_value":0.0295202952
   },
   {
-    "feature":"away_team_KC",
-    "mean_abs_shap":0.0000203316,
-    "mean_value":0.0295202952
-  },
-  {
-    "feature":"away_team_WAS",
-    "mean_abs_shap":0.0000203119,
-    "mean_value":0.0332103321
-  },
-  {
-    "feature":"home_team_IND",
-    "mean_abs_shap":0.0000184204,
-    "mean_value":0.0332103321
-  },
-  {
-    "feature":"away_team_DAL",
-    "mean_abs_shap":0.0000172339,
+    "feature":"home_team_BAL",
+    "mean_abs_shap":0.0000267824,
     "mean_value":0.0332103321
   },
   {
     "feature":"home_team_DEN",
-    "mean_abs_shap":0.0000171922,
+    "mean_abs_shap":0.0000265686,
     "mean_value":0.0332103321
   },
   {
-    "feature":"away_team_DEN",
-    "mean_abs_shap":0.0000170297,
+    "feature":"away_team_BUF",
+    "mean_abs_shap":0.000025565,
     "mean_value":0.0295202952
   },
   {
-    "feature":"home_team_OAK",
-    "mean_abs_shap":0.0000170106,
-    "mean_value":0.0
-  },
-  {
-    "feature":"home_team_GB",
-    "mean_abs_shap":0.0000167413,
-    "mean_value":0.0295202952
-  },
-  {
-    "feature":"home_team_NYJ",
-    "mean_abs_shap":0.0000166412,
+    "feature":"away_team_NO",
+    "mean_abs_shap":0.0000253028,
     "mean_value":0.0332103321
   },
   {
-    "feature":"away_team_LAC",
-    "mean_abs_shap":0.0000166134,
-    "mean_value":0.0295202952
-  },
-  {
-    "feature":"away_team_SEA",
-    "mean_abs_shap":0.0000165789,
+    "feature":"home_team_CIN",
+    "mean_abs_shap":0.0000252638,
     "mean_value":0.0332103321
   },
   {
-    "feature":"home_team_CHI",
-    "mean_abs_shap":0.0000159156,
+    "feature":"away_team_CLE",
+    "mean_abs_shap":0.0000251692,
     "mean_value":0.0295202952
   },
   {
-    "feature":"home_team_PHI",
-    "mean_abs_shap":0.0000157683,
+    "feature":"away_team_ATL",
+    "mean_abs_shap":0.0000243041,
+    "mean_value":0.0332103321
+  },
+  {
+    "feature":"away_team_GB",
+    "mean_abs_shap":0.0000241683,
+    "mean_value":0.0295202952
+  },
+  {
+    "feature":"home_team_SF",
+    "mean_abs_shap":0.0000235651,
+    "mean_value":0.0295202952
+  },
+  {
+    "feature":"home_team_ATL",
+    "mean_abs_shap":0.0000234172,
     "mean_value":0.0295202952
   },
   {
     "feature":"surface_astroturf",
-    "mean_abs_shap":0.0000154179,
+    "mean_abs_shap":0.0000233338,
     "mean_value":0.0332103321
   },
   {
-    "feature":"home_team_LAC",
-    "mean_abs_shap":0.0000148604,
+    "feature":"home_team_KC",
+    "mean_abs_shap":0.0000230364,
     "mean_value":0.0332103321
   },
   {
-    "feature":"home_team_BUF",
-    "mean_abs_shap":0.0000142853,
+    "feature":"home_team_GB",
+    "mean_abs_shap":0.0000229096,
+    "mean_value":0.0295202952
+  },
+  {
+    "feature":"home_team_CAR",
+    "mean_abs_shap":0.0000227924,
+    "mean_value":0.0295202952
+  },
+  {
+    "feature":"home_team_TEN",
+    "mean_abs_shap":0.0000221073,
     "mean_value":0.0332103321
   },
   {
-    "feature":"home_team_SF",
-    "mean_abs_shap":0.0000139282,
-    "mean_value":0.0295202952
-  },
-  {
-    "feature":"away_team_CIN",
-    "mean_abs_shap":0.0000134183,
-    "mean_value":0.0295202952
-  },
-  {
-    "feature":"away_team_HOU",
-    "mean_abs_shap":0.0000125905,
-    "mean_value":0.0295202952
-  },
-  {
-    "feature":"away_team_LA",
-    "mean_abs_shap":0.0000122837,
-    "mean_value":0.0332103321
-  },
-  {
-    "feature":"away_team_NYJ",
-    "mean_abs_shap":0.000012026,
-    "mean_value":0.0295202952
-  },
-  {
-    "feature":"away_team_ARI",
-    "mean_abs_shap":0.0000114118,
-    "mean_value":0.0332103321
-  },
-  {
-    "feature":"away_team_LV",
-    "mean_abs_shap":0.0000111435,
-    "mean_value":0.0295202952
-  },
-  {
-    "feature":"away_team_MIA",
-    "mean_abs_shap":0.0000108072,
-    "mean_value":0.0295202952
-  },
-  {
-    "feature":"away_team_SD",
-    "mean_abs_shap":0.0000104322,
-    "mean_value":0.0
-  },
-  {
-    "feature":"home_team_SD",
-    "mean_abs_shap":0.0000101668,
-    "mean_value":0.0
-  },
-  {
-    "feature":"home_team_LV",
-    "mean_abs_shap":0.0000098133,
+    "feature":"home_team_JAX",
+    "mean_abs_shap":0.0000219734,
     "mean_value":0.0332103321
   },
   {
     "feature":"home_team_DAL",
-    "mean_abs_shap":0.000007905,
+    "mean_abs_shap":0.0000214743,
     "mean_value":0.0258302583
   },
   {
-    "feature":"away_team_OAK",
-    "mean_abs_shap":0.0000071851,
-    "mean_value":0.0
+    "feature":"home_team_TB",
+    "mean_abs_shap":0.0000214609,
+    "mean_value":0.0295202952
   },
   {
-    "feature":"away_team_SF",
-    "mean_abs_shap":0.0000063301,
+    "feature":"home_team_LAC",
+    "mean_abs_shap":0.0000205977,
     "mean_value":0.0332103321
   },
   {
-    "feature":"home_team_STL",
-    "mean_abs_shap":0.0000054084,
+    "feature":"home_team_MIA",
+    "mean_abs_shap":0.0000190509,
+    "mean_value":0.0332103321
+  },
+  {
+    "feature":"away_team_MIA",
+    "mean_abs_shap":0.0000190246,
+    "mean_value":0.0295202952
+  },
+  {
+    "feature":"away_team_NYJ",
+    "mean_abs_shap":0.0000186839,
+    "mean_value":0.0295202952
+  },
+  {
+    "feature":"away_team_CAR",
+    "mean_abs_shap":0.0000185729,
+    "mean_value":0.0332103321
+  },
+  {
+    "feature":"home_team_NYJ",
+    "mean_abs_shap":0.0000185568,
+    "mean_value":0.0332103321
+  },
+  {
+    "feature":"home_team_CHI",
+    "mean_abs_shap":0.0000179532,
+    "mean_value":0.0295202952
+  },
+  {
+    "feature":"away_team_KC",
+    "mean_abs_shap":0.0000173852,
+    "mean_value":0.0295202952
+  },
+  {
+    "feature":"home_team_PHI",
+    "mean_abs_shap":0.0000173718,
+    "mean_value":0.0295202952
+  },
+  {
+    "feature":"surface_matrixturf",
+    "mean_abs_shap":0.0000173059,
+    "mean_value":0.0848708487
+  },
+  {
+    "feature":"away_team_CHI",
+    "mean_abs_shap":0.00001542,
+    "mean_value":0.0332103321
+  },
+  {
+    "feature":"away_team_MIN",
+    "mean_abs_shap":0.0000152345,
+    "mean_value":0.0332103321
+  },
+  {
+    "feature":"away_team_CIN",
+    "mean_abs_shap":0.0000149127,
+    "mean_value":0.0295202952
+  },
+  {
+    "feature":"away_team_SF",
+    "mean_abs_shap":0.0000147517,
+    "mean_value":0.0332103321
+  },
+  {
+    "feature":"away_team_BAL",
+    "mean_abs_shap":0.0000147061,
+    "mean_value":0.0295202952
+  },
+  {
+    "feature":"away_team_DAL",
+    "mean_abs_shap":0.0000143416,
+    "mean_value":0.0332103321
+  },
+  {
+    "feature":"home_team_IND",
+    "mean_abs_shap":0.0000139951,
+    "mean_value":0.0332103321
+  },
+  {
+    "feature":"away_team_SEA",
+    "mean_abs_shap":0.0000135612,
+    "mean_value":0.0332103321
+  },
+  {
+    "feature":"away_team_HOU",
+    "mean_abs_shap":0.0000134353,
+    "mean_value":0.0295202952
+  },
+  {
+    "feature":"home_team_SEA",
+    "mean_abs_shap":0.000012818,
+    "mean_value":0.0295202952
+  },
+  {
+    "feature":"away_team_DEN",
+    "mean_abs_shap":0.0000126816,
+    "mean_value":0.0295202952
+  },
+  {
+    "feature":"away_team_OAK",
+    "mean_abs_shap":0.0000117348,
     "mean_value":0.0
   },
   {
-    "feature":"surface_astroplay",
-    "mean_abs_shap":0.0000051429,
+    "feature":"home_team_SD",
+    "mean_abs_shap":0.0000112328,
     "mean_value":0.0
   },
   {
     "feature":"surface_a_turf",
-    "mean_abs_shap":0.0000048007,
+    "mean_abs_shap":0.0000105765,
     "mean_value":0.0332103321
   },
   {
-    "feature":"roof_open",
-    "mean_abs_shap":0.0000044112,
+    "feature":"away_team_LAC",
+    "mean_abs_shap":0.0000105322,
+    "mean_value":0.0295202952
+  },
+  {
+    "feature":"away_team_ARI",
+    "mean_abs_shap":0.0000099394,
+    "mean_value":0.0332103321
+  },
+  {
+    "feature":"home_team_OAK",
+    "mean_abs_shap":0.0000096292,
+    "mean_value":0.0
+  },
+  {
+    "feature":"home_team_LV",
+    "mean_abs_shap":0.0000087181,
+    "mean_value":0.0332103321
+  },
+  {
+    "feature":"away_team_LA",
+    "mean_abs_shap":0.0000083414,
+    "mean_value":0.0332103321
+  },
+  {
+    "feature":"home_team_LA",
+    "mean_abs_shap":0.0000082223,
+    "mean_value":0.0295202952
+  },
+  {
+    "feature":"away_team_SD",
+    "mean_abs_shap":0.0000078368,
     "mean_value":0.0
   },
   {
     "feature":"surface_grass ",
-    "mean_abs_shap":0.0000036997,
+    "mean_abs_shap":0.0000073437,
+    "mean_value":0.0
+  },
+  {
+    "feature":"home_team_BUF",
+    "mean_abs_shap":0.0000068346,
+    "mean_value":0.0332103321
+  },
+  {
+    "feature":"roof_open",
+    "mean_abs_shap":0.0000059084,
     "mean_value":0.0
   },
   {
     "feature":"away_team_STL",
-    "mean_abs_shap":0.0000029189,
+    "mean_abs_shap":0.0000054521,
     "mean_value":0.0
   },
   {
+    "feature":"surface_astroplay",
+    "mean_abs_shap":0.0000052723,
+    "mean_value":0.0
+  },
+  {
+    "feature":"home_team_STL",
+    "mean_abs_shap":0.0000046702,
+    "mean_value":0.0
+  },
+  {
+    "feature":"away_team_LV",
+    "mean_abs_shap":0.0000031707,
+    "mean_value":0.0295202952
+  },
+  {
     "feature":"surface_dessograss",
-    "mean_abs_shap":0.0000014913,
+    "mean_abs_shap":0.0000015904,
     "mean_value":0.0
   },
   {

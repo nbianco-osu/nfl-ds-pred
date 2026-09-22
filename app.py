@@ -61,7 +61,7 @@ def prediction_feature_row(artifact: dict, history: pd.DataFrame, game: pd.Serie
         season=int(game["season"]),
         week=int(game["week"]),
     )
-    return fill_latest_team_state(
+    row = fill_latest_team_state(
         row,
         history,
         artifact["feature_cols"],
@@ -70,6 +70,11 @@ def prediction_feature_row(artifact: dict, history: pd.DataFrame, game: pd.Serie
         season=int(game["season"]),
         week=int(game["week"]),
     )
+    snapshot_path = ROOT / 'data' / f"current_features_{int(game['season'])}.csv"
+    if snapshot_path.exists():
+        from current_features import apply_current
+        row = apply_current(row, game, pd.read_csv(snapshot_path).set_index('game_id'))
+    return row
 
 
 def pct(value: float) -> str:
@@ -253,11 +258,19 @@ with schedule_tab:
     filtered = filtered[filtered["confidence"].ge(min_confidence)]
 
     with right:
+        from simulate_season import simulate
+        simulated = simulate(predictions)
+        if selected_teams:
+            simulated = simulated.loc[simulated.team.isin(selected_teams)]
+        simulated['upper_error'] = (simulated.high_wins - simulated.expected_wins).clip(lower=0)
+        simulated['lower_error'] = (simulated.expected_wins - simulated.low_wins).clip(lower=0)
         st.plotly_chart(
-            px.histogram(filtered, x="predicted_winner_name", title="Predicted Winners In Filtered Schedule")
-            .update_layout(xaxis_title=None, yaxis_title="Games"),
+            px.bar(simulated, x='team', y='expected_wins', error_y='upper_error', error_y_minus='lower_error',
+                   hover_data=['low_wins', 'high_wins', 'probability_16_plus'], title='Full-Season Expected Wins: 10,000 Simulations')
+            .update_layout(xaxis_title=None, yaxis_title='Wins'),
             width="stretch",
         )
+        st.caption('80% simulation ranges; completed results fixed. Probability noise is assumed, not calibrated. Week and confidence filters affect only the matchup table.')
 
     table = filtered[
         [

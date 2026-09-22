@@ -51,7 +51,13 @@ Source coverage is not identical across all years. Play-by-play and player stats
 
 ### Refit Through 2026
 
-Run `python retrain_current_season.py` after refreshing completed scores. This refits all eight saved production/baseline configurations (excluding the smoke-test artifact), using the same feature columns and tuned hyperparameters. It reconstructs 2026 pregame score-based form with week cutoffs and carries historical advanced snapshots forward. It does not fetch fresh 2026 EPA, injury, QB, or roster inputs.
+Run `python current_features.py` and then `python retrain_current_season.py` after refreshing completed scores. This refits all eight saved production/baseline configurations (excluding the smoke-test artifact), using the same feature columns and tuned hyperparameters. It reconstructs pregame form, EPA and QB rollups from strictly earlier weeks, plus rest and available same-week roster/injury reports. Missing values retain the historical fallback. Source coverage is recorded in `data/current_features_2026.json`.
+
+### Noisy Season Projections
+
+`simulate_season.py` runs 10,000 seeded seasons. Each unplayed game's baseline log-odds receives zero-mean Gaussian noise with standard deviation 0.35, followed by a Bernoulli outcome draw. This is an explicit modeling assumption, not measured or validated calibration. Published matchup probabilities are retained; the uncertainty layer changes simulated season outcomes rather than randomly rewriting pregame picks. Completed results are fixed, and the same simulated game cannot award two wins. Future ties are not modeled. The dashboard reports expected wins and 10th-90th percentile ranges, with no artificial cap against 16-win seasons. Noise settings are saved in `models/simulation_config.json`; seed 42 makes refreshes reproducible for identical inputs.
+
+`refresh_predictions.py` refreshes the 2026 feature snapshot and simulation output on every scheduled run. Injury reports or rosters for future weeks may be unavailable; their absence is not interpreted as zero injuries.
 
 Each configuration is first fitted through 2025 and evaluated on completed 2026 games. It is then refitted on all 6,984 games through September 21, 2026, including 32 current-season games. The reported pre-refit metrics are NOT an independent evaluation of the final model, which now includes those labels. Historical pregame picks remain frozen. Models before replacement are backed up under `models/archive/`; the full comparison is `models/retraining_2026.json`.
 
@@ -111,7 +117,7 @@ Refresh completed scores, score-based team form, upcoming forecasts, and public 
 python refresh_predictions.py --season 2026
 ```
 
-This preserves saved pregame picks for completed games and grades them Yes, No, Tie (no winner), or Pending. It does not retrain the production model or refresh advanced EPA, QB, injury, and roster snapshots; that limitation is shown on the public dashboard. It updates the separate shadow learner. The weekly Codex refresh runs Tuesday at 9 a.m. America/New_York and publishes updated assets.
+This preserves saved pregame picks for completed games and grades them Yes, No, Tie (no winner), or Pending. It refreshes available current-season advanced inputs and simulations without refitting production weights, and updates the separate shadow learner. Unavailable future-week inputs use historical fallback. The weekly Codex refresh runs Tuesday at 9 a.m. America/New_York and publishes updated assets.
 
 Score a known game row:
 

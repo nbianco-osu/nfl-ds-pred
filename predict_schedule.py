@@ -103,7 +103,7 @@ def load_schedule(season: int, schedule_csv: Path | None, source: str) -> pd.Dat
     return schedule.sort_values(["week", "game_id"]).reset_index(drop=True)
 
 
-def predict_schedule(schedule: pd.DataFrame, history: pd.DataFrame, artifact: dict[str, object]) -> pd.DataFrame:
+def predict_schedule(schedule: pd.DataFrame, history: pd.DataFrame, artifact: dict[str, object], snapshots=None) -> pd.DataFrame:
     if schedule.empty:
         raise ValueError(
             "No schedule rows found. Try --source espn, or pass --schedule-csv with columns season, week, "
@@ -140,6 +140,9 @@ def predict_schedule(schedule: pd.DataFrame, history: pd.DataFrame, artifact: di
             season=int(game["season"]),
             week=int(game["week"]),
         )
+        if snapshots is not None:
+            from current_features import apply_current
+            feature_row = apply_current(feature_row, game, snapshots)
         feature_rows.append(feature_row)
         rows.append(
             {

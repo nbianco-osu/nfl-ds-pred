@@ -101,13 +101,11 @@ function renderRows(rows) {
     .join("");
 }
 
-function renderWinnerBars(rows) {
-  const counts = new Map();
-  for (const row of rows) counts.set(row.predicted_winner_name, (counts.get(row.predicted_winner_name) || 0) + 1);
-  const entries = [...counts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 12);
-  const max = Math.max(1, ...entries.map((entry) => entry[1]));
+function renderWinnerBars(simulations) {
+  const team = byId("teamFilter").value;
+  const entries = simulations.teams.filter((row) => team === "all" || row.team_name === team);
   byId("winnerBars").innerHTML = entries
-    .map(([team, count]) => barRow(team, `${count} picks`, (count / max) * 100))
+    .map((row) => barRow(row.team_name, `${row.expected_wins.toFixed(1)} wins (${row.low_wins}-${row.high_wins})`, (row.expected_wins / 17) * 100))
     .join("");
 }
 
@@ -129,10 +127,11 @@ function renderShap(shapRows) {
 }
 
 async function main() {
-  const [predictions, shapRows, metrics] = await Promise.all([
+  const [predictions, shapRows, metrics, simulations] = await Promise.all([
     fetch("./data/predictions.json").then((response) => response.json()),
     fetch("./data/global_shap.json").then((response) => response.json()),
     fetch("./data/metrics.json").then((response) => response.json()),
+    fetch("./data/season_simulations.json").then((response) => response.json()),
   ]);
 
   renderMetrics(predictions, metrics);
@@ -142,7 +141,7 @@ async function main() {
   function update() {
     const visible = filterPredictions(predictions);
     renderRows(visible);
-    renderWinnerBars(visible);
+    renderWinnerBars(simulations);
   }
 
   for (const id of ["weekFilter", "teamFilter", "confidenceFilter"]) {

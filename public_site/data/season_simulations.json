@@ -1,0 +1,299 @@
+{
+  "config": {
+    "simulations": 10000,
+    "seed": 42,
+    "logit_noise_sd": 0.35,
+    "interval": 0.8
+  },
+  "teams": [
+    {
+      "team": "SF",
+      "actual_wins": 2,
+      "expected_wins": 11.7769,
+      "low_wins": 9,
+      "high_wins": 14,
+      "probability_16_plus": 0.0148,
+      "team_name": "San Francisco 49ers"
+    },
+    {
+      "team": "BUF",
+      "actual_wins": 2,
+      "expected_wins": 11.2289,
+      "low_wins": 9,
+      "high_wins": 14,
+      "probability_16_plus": 0.0061,
+      "team_name": "Buffalo Bills"
+    },
+    {
+      "team": "KC",
+      "actual_wins": 2,
+      "expected_wins": 10.9285,
+      "low_wins": 9,
+      "high_wins": 13,
+      "probability_16_plus": 0.0046,
+      "team_name": "Kansas City Chiefs"
+    },
+    {
+      "team": "CIN",
+      "actual_wins": 2,
+      "expected_wins": 10.546,
+      "low_wins": 8,
+      "high_wins": 13,
+      "probability_16_plus": 0.0023,
+      "team_name": "Cincinnati Bengals"
+    },
+    {
+      "team": "BAL",
+      "actual_wins": 1,
+      "expected_wins": 10.508,
+      "low_wins": 8,
+      "high_wins": 13,
+      "probability_16_plus": 0.001,
+      "team_name": "Baltimore Ravens"
+    },
+    {
+      "team": "SEA",
+      "actual_wins": 2,
+      "expected_wins": 10.5033,
+      "low_wins": 8,
+      "high_wins": 13,
+      "probability_16_plus": 0.0012,
+      "team_name": "Seattle Seahawks"
+    },
+    {
+      "team": "PHI",
+      "actual_wins": 2,
+      "expected_wins": 10.3484,
+      "low_wins": 8,
+      "high_wins": 13,
+      "probability_16_plus": 0.0018,
+      "team_name": "Philadelphia Eagles"
+    },
+    {
+      "team": "JAX",
+      "actual_wins": 1,
+      "expected_wins": 9.9915,
+      "low_wins": 8,
+      "high_wins": 12,
+      "probability_16_plus": 0.0002,
+      "team_name": "Jacksonville Jaguars"
+    },
+    {
+      "team": "MIN",
+      "actual_wins": 2,
+      "expected_wins": 9.7172,
+      "low_wins": 7,
+      "high_wins": 12,
+      "probability_16_plus": 0.0006,
+      "team_name": "Minnesota Vikings"
+    },
+    {
+      "team": "DET",
+      "actual_wins": 1,
+      "expected_wins": 9.6884,
+      "low_wins": 7,
+      "high_wins": 12,
+      "probability_16_plus": 0.0005,
+      "team_name": "Detroit Lions"
+    },
+    {
+      "team": "LV",
+      "actual_wins": 2,
+      "expected_wins": 9.6071,
+      "low_wins": 7,
+      "high_wins": 12,
+      "probability_16_plus": 0.0007,
+      "team_name": "Las Vegas Raiders"
+    },
+    {
+      "team": "CAR",
+      "actual_wins": 1,
+      "expected_wins": 9.5066,
+      "low_wins": 7,
+      "high_wins": 12,
+      "probability_16_plus": 0.0,
+      "team_name": "Carolina Panthers"
+    },
+    {
+      "team": "DAL",
+      "actual_wins": 1,
+      "expected_wins": 9.2942,
+      "low_wins": 7,
+      "high_wins": 12,
+      "probability_16_plus": 0.0002,
+      "team_name": "Dallas Cowboys"
+    },
+    {
+      "team": "NO",
+      "actual_wins": 1,
+      "expected_wins": 9.1068,
+      "low_wins": 7,
+      "high_wins": 12,
+      "probability_16_plus": 0.0001,
+      "team_name": "New Orleans Saints"
+    },
+    {
+      "team": "NYJ",
+      "actual_wins": 1,
+      "expected_wins": 9.0247,
+      "low_wins": 7,
+      "high_wins": 11,
+      "probability_16_plus": 0.0001,
+      "team_name": "New York Jets"
+    },
+    {
+      "team": "CHI",
+      "actual_wins": 1,
+      "expected_wins": 8.9768,
+      "low_wins": 7,
+      "high_wins": 11,
+      "probability_16_plus": 0.0,
+      "team_name": "Chicago Bears"
+    },
+    {
+      "team": "LA",
+      "actual_wins": 1,
+      "expected_wins": 8.771,
+      "low_wins": 6,
+      "high_wins": 11,
+      "probability_16_plus": 0.0,
+      "team_name": "Los Angeles Rams"
+    },
+    {
+      "team": "GB",
+      "actual_wins": 1,
+      "expected_wins": 8.2096,
+      "low_wins": 6,
+      "high_wins": 11,
+      "probability_16_plus": 0.0,
+      "team_name": "Green Bay Packers"
+    },
+    {
+      "team": "NE",
+      "actual_wins": 1,
+      "expected_wins": 7.914,
+      "low_wins": 6,
+      "high_wins": 10,
+      "probability_16_plus": 0.0,
+      "team_name": "New England Patriots"
+    },
+    {
+      "team": "DEN",
+      "actual_wins": 1,
+      "expected_wins": 7.749,
+      "low_wins": 5,
+      "high_wins": 10,
+      "probability_16_plus": 0.0,
+      "team_name": "Denver Broncos"
+    },
+    {
+      "team": "CLE",
+      "actual_wins": 1,
+      "expected_wins": 7.452,
+      "low_wins": 5,
+      "high_wins": 10,
+      "probability_16_plus": 0.0,
+      "team_name": "Cleveland Browns"
+    },
+    {
+      "team": "TB",
+      "actual_wins": 0,
+      "expected_wins": 7.1914,
+      "low_wins": 5,
+      "high_wins": 10,
+      "probability_16_plus": 0.0,
+      "team_name": "Tampa Bay Buccaneers"
+    },
+    {
+      "team": "WAS",
+      "actual_wins": 0,
+      "expected_wins": 7.1362,
+      "low_wins": 5,
+      "high_wins": 10,
+      "probability_16_plus": 0.0,
+      "team_name": "Washington Commanders"
+    },
+    {
+      "team": "NYG",
+      "actual_wins": 1,
+      "expected_wins": 7.103,
+      "low_wins": 5,
+      "high_wins": 10,
+      "probability_16_plus": 0.0,
+      "team_name": "New York Giants"
+    },
+    {
+      "team": "PIT",
+      "actual_wins": 1,
+      "expected_wins": 7.0996,
+      "low_wins": 5,
+      "high_wins": 9,
+      "probability_16_plus": 0.0,
+      "team_name": "Pittsburgh Steelers"
+    },
+    {
+      "team": "ARI",
+      "actual_wins": 1,
+      "expected_wins": 6.9881,
+      "low_wins": 5,
+      "high_wins": 9,
+      "probability_16_plus": 0.0,
+      "team_name": "Arizona Cardinals"
+    },
+    {
+      "team": "IND",
+      "actual_wins": 0,
+      "expected_wins": 6.6623,
+      "low_wins": 4,
+      "high_wins": 9,
+      "probability_16_plus": 0.0,
+      "team_name": "Indianapolis Colts"
+    },
+    {
+      "team": "HOU",
+      "actual_wins": 0,
+      "expected_wins": 6.6128,
+      "low_wins": 4,
+      "high_wins": 9,
+      "probability_16_plus": 0.0,
+      "team_name": "Houston Texans"
+    },
+    {
+      "team": "TEN",
+      "actual_wins": 0,
+      "expected_wins": 6.0177,
+      "low_wins": 4,
+      "high_wins": 8,
+      "probability_16_plus": 0.0,
+      "team_name": "Tennessee Titans"
+    },
+    {
+      "team": "ATL",
+      "actual_wins": 0,
+      "expected_wins": 5.6561,
+      "low_wins": 3,
+      "high_wins": 8,
+      "probability_16_plus": 0.0,
+      "team_name": "Atlanta Falcons"
+    },
+    {
+      "team": "LAC",
+      "actual_wins": 0,
+      "expected_wins": 5.5391,
+      "low_wins": 3,
+      "high_wins": 8,
+      "probability_16_plus": 0.0,
+      "team_name": "Los Angeles Chargers"
+    },
+    {
+      "team": "MIA",
+      "actual_wins": 0,
+      "expected_wins": 5.1448,
+      "low_wins": 3,
+      "high_wins": 8,
+      "probability_16_plus": 0.0,
+      "team_name": "Miami Dolphins"
+    }
+  ],
+  "note": "Assumed noise, not calibrated uncertainty. Completed results fixed; remaining games sampled independently. Ranges are simulation percentiles, not guarantees."
+}

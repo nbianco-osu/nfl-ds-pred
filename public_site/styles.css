@@ -280,6 +280,19 @@ th {
   line-height: 1.5;
 }
 
+#winnerBars {
+  max-height: 650px;
+  overflow-y: auto;
+}
+
+#winnerBars .bar-label {
+  flex-wrap: wrap;
+}
+
+#winnerBars .bar-label strong {
+  white-space: nowrap;
+}
+
 .prediction-correct {
   color: #166534;
   background-color: #dcfce7;
