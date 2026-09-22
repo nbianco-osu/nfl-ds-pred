@@ -90,7 +90,7 @@ function renderRows(rows) {
           <td><div class="team-cell"><img src="${row.away_logo}" alt="" />${row.away_team_name}</div></td>
           <td><div class="team-cell"><img src="${row.home_logo}" alt="" />${row.home_team_name}</div></td>
           <td><div class="pick-cell"><img src="${row.winner_logo}" alt="" /><strong>${row.predicted_winner_name}</strong></div></td>
-          <td>${row.prediction_result || "Pending"}</td>
+          <td class="${row.prediction_result === 'Yes' ? 'prediction-correct' : row.prediction_result === 'No' ? 'prediction-incorrect' : ''}">${row.prediction_result || "Pending"}</td>
           <td>${pct(row.away_win_probability)}</td>
           <td>${pct(row.home_win_probability)}</td>
           <td>${pct(row.confidence)}</td>

@@ -280,6 +280,18 @@ th {
   line-height: 1.5;
 }
 
+.prediction-correct {
+  color: #166534;
+  background-color: #dcfce7;
+  font-weight: 700;
+}
+
+.prediction-incorrect {
+  color: #991b1b;
+  background-color: #fee2e2;
+  font-weight: 700;
+}
+
 .disclaimer {
   margin-bottom: 40px;
 }

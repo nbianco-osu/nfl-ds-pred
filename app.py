@@ -276,7 +276,11 @@ with schedule_tab:
         ]
     ].sort_values(["week", "gameday"])
     st.dataframe(
-        table.style.format(
+        table.style.map(
+            lambda value: 'color: #166534; background-color: #dcfce7; font-weight: bold' if value == 'Yes'
+            else 'color: #991b1b; background-color: #fee2e2; font-weight: bold' if value == 'No' else '',
+            subset=['prediction_result'],
+        ).format(
             {
                 "away_win_pct": "{:.1f}%",
                 "home_win_pct": "{:.1f}%",
