@@ -1,6 +1,6 @@
 {
   "status": "Learning in shadow mode",
-  "training_games": 16,
+  "training_games": 24,
   "selected_game_ids": {
     "2026_02": [
       "2026_02_SEA_ARI",
@@ -11,9 +11,23 @@
       "2026_02_LV_LAC",
       "2026_02_PHI_TEN",
       "2026_02_CLE_TB"
+    ],
+    "2026_03": [
+      "2026_03_MIN_TB",
+      "2026_03_LA_DEN",
+      "2026_03_HOU_IND",
+      "2026_03_NE_JAX",
+      "2026_03_PHI_CHI",
+      "2026_03_CIN_PIT",
+      "2026_03_SEA_WAS",
+      "2026_03_ATL_GB"
     ]
   },
-  "evaluated_games": 0,
+  "evaluated_games": 16,
   "minimum_evaluation_games": 64,
+  "baseline_log_loss": 0.7102925359719583,
+  "baseline_brier": 0.256731793608117,
+  "candidate_log_loss": 0.7573259366148956,
+  "candidate_brier": 0.28123757248318615,
   "note": "Candidate recalibrates baseline probabilities; no production replacement or proven improvement yet. Ties excluded. Initial completed games are training-only."
 }
