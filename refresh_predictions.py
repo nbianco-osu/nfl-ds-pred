@@ -32,8 +32,12 @@ def main() -> None:
     artifact = joblib.load(model)
     upcoming = schedule.loc[~finished]
     predictions = predict_schedule(upcoming, history, artifact) if len(upcoming) else pd.DataFrame()
+    generation = artifact.get('model_version')
+    predictions['model_version'] = generation or 'legacy'
     old = pd.read_csv(output) if output.exists() else pd.DataFrame(columns=['game_id'])
     preserved = old.loc[old.game_id.isin(completed.game_id)].copy()
+    if 'model_version' not in preserved:
+        preserved['model_version'] = 'legacy'
     predictions = pd.concat([predictions, preserved], ignore_index=True)
     if len(predictions) != len(schedule):
         raise ValueError('Completed games lack saved pregame forecasts; refusing retrospective picks.')
@@ -51,7 +55,11 @@ def main() -> None:
     public['winner_logo'] = public.predicted_winner.map(teams.team_logo_espn)
     public['confidence'] = public[['home_win_probability', 'away_win_probability']].max(axis=1)
     public['updated_at'] = datetime.now(timezone.utc).isoformat()
-    public['feature_note'] = 'Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.'
+    public['feature_note'] = (
+        f"Model retrained through {artifact['metrics']['final_training_through']}; "
+        'EPA, QB, injury and roster inputs retain historical values.'
+        if generation else 'Scores and team form updated; EPA, QB, injury and roster inputs retain historical values. Model not retrained.'
+    )
     if public[['home_team_name', 'away_team_name']].isna().any().any():
         raise ValueError('Unknown team in schedule')
     if not public.home_win_probability.between(0, 1).all():
@@ -59,7 +67,8 @@ def main() -> None:
     predictions.to_csv(output, index=False)
     completed.to_csv(root / f'data/nfl_{args.season}_completed.csv', index=False)
     public.to_json(root / 'public_site/data/predictions.json', orient='records', indent=2)
-    summary = update_learning(predictions, root)
+    learning_rows = predictions.loc[predictions.model_version.eq(generation)] if generation else predictions
+    summary = update_learning(learning_rows, root, generation=generation)
     print(f"Active learner: {summary['status']}; {summary['training_games']} training games")
     print(completed[['game_id', 'home_score', 'away_score']].to_string(index=False))
     print(f'Refreshed {len(upcoming)} upcoming forecasts; preserved {len(preserved)} pregame picks.')

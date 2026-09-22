@@ -51,6 +51,17 @@ class LearningTests(unittest.TestCase):
             self.assertAlmostEqual(evaluation.iloc[0].candidate, saved['candidate'])
             self.assertEqual(later, update_learning(rows, root))
 
+    def test_new_model_generation_is_isolated(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            update_learning(fixtures(), root)
+            original = (root / 'learning/state.json').read_text()
+            pending = fixtures().loc[lambda rows: rows.status.eq('Scheduled')]
+            summary = update_learning(pending, root, generation='20260922T120000Z')
+            self.assertEqual(summary['training_games'], 0)
+            self.assertEqual(summary['evaluated_games'], 0)
+            self.assertEqual(original, (root / 'learning/state.json').read_text())
+
 
 if __name__ == '__main__':
     unittest.main()

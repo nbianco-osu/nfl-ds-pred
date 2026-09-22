@@ -49,6 +49,14 @@ Source coverage is not identical across all years. Play-by-play and player stats
 
 ## Train And Save A Model
 
+### Refit Through 2026
+
+Run `python retrain_current_season.py` after refreshing completed scores. This refits all eight saved production/baseline configurations (excluding the smoke-test artifact), using the same feature columns and tuned hyperparameters. It reconstructs 2026 pregame score-based form with week cutoffs and carries historical advanced snapshots forward. It does not fetch fresh 2026 EPA, injury, QB, or roster inputs.
+
+Each configuration is first fitted through 2025 and evaluated on completed 2026 games. It is then refitted on all 6,984 games through September 21, 2026, including 32 current-season games. The reported pre-refit metrics are NOT an independent evaluation of the final model, which now includes those labels. Historical pregame picks remain frozen. Models before replacement are backed up under `models/archive/`; the full comparison is `models/retraining_2026.json`.
+
+Run `python refresh_predictions.py --season 2026` afterward to score upcoming games. Each new forecast records its model version. Calibration learning starts a separate cohort under `learning/generations/<model_version>/`, leaving old learning history intact. No old-model seed labels or shadow metrics are reused as evidence for the new version.
+
 ```powershell
 python train_model.py --input data/nfl_matchups_1999_2025.csv
 ```

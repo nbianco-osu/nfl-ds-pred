@@ -47,10 +47,14 @@ def query_games(pool: pd.DataFrame, budget: int = 8) -> list[str]:
     return uncertain.game_id.tolist() + explore.game_id.tolist()
 
 
-def update_learning(rows: pd.DataFrame, root: Path) -> dict:
+def update_learning(rows: pd.DataFrame, root: Path, generation: str | None = None) -> dict:
     rows = grade_predictions(rows)
     folder = root / 'learning'
-    folder.mkdir(exist_ok=True)
+    if generation:
+        if not generation.replace('T', '').replace('Z', '').isdigit():
+            raise ValueError('Invalid model generation')
+        folder = folder / 'generations' / generation
+    folder.mkdir(parents=True, exist_ok=True)
     state_path = folder / 'state.json'
     state = json.loads(state_path.read_text()) if state_path.exists() else {
         'seed_ids': rows.loc[rows.prediction_correct.notna(), 'game_id'].tolist(),
@@ -104,4 +108,9 @@ def update_learning(rows: pd.DataFrame, root: Path) -> dict:
 if __name__ == '__main__':
     root = Path(__file__).resolve().parent
     frames = sorted((root / 'predictions').glob('nfl_*_predictions_advanced_no_market_deep.csv'))
-    print(json.dumps(update_learning(pd.concat([pd.read_csv(p) for p in frames], ignore_index=True), root), indent=2))
+    rows = pd.concat([pd.read_csv(p) for p in frames], ignore_index=True)
+    versions = sorted(set(rows.get('model_version', pd.Series(dtype=str)).dropna()) - {'legacy'})
+    generation = versions[-1] if versions else None
+    if generation:
+        rows = rows.loc[rows.model_version.eq(generation)]
+    print(json.dumps(update_learning(rows, root, generation=generation), indent=2))

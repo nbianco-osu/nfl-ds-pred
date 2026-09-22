@@ -55,8 +55,8 @@ function renderMetrics(predictions, metrics) {
   byId("metrics").innerHTML = [
     metricCard("Predicted Games", predictions.length.toLocaleString()),
     metricCard("Model", "Random Forest"),
-    metricCard("Holdout Log Loss", metrics.log_loss.toFixed(3)),
-    metricCard("Holdout ROC AUC", metrics.roc_auc.toFixed(3)),
+    metricCard("Pre-refit 2026 Log Loss", metrics.log_loss.toFixed(3)),
+    metricCard("Pre-refit 2026 ROC AUC", metrics.roc_auc.toFixed(3)),
   ].join("");
 }
 

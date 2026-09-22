@@ -10,6 +10,8 @@ explanations/*
 !data/nfl_matchups_1999_2025_advanced.csv
 !data/team_metadata.csv
 !data/nfl_2026_completed.csv
+!data/nfl_matchups_1999_2026_advanced.csv
+!models/retraining_2026.json
 !models/home_win_advanced_automl_no_market_deep.joblib
 !models/home_win_advanced_automl_no_market_deep.metrics.json
 !predictions/nfl_2026_predictions_advanced_no_market_deep.csv
