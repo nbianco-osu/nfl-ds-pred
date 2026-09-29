@@ -46,12 +46,13 @@ def make_kernel(name, length_scale, noise, dimensions):
 
 class CalibratedGPRClassifier(ClassifierMixin, BaseEstimator):
     def __init__(self, kernel_name="rbf", noise_level=0.1, length_scale=5.0,
-                 max_train_rows=1000, calibration_rows=256):
+                 max_train_rows=1000, calibration_rows=256, extra_features=()):
         self.kernel_name = kernel_name
         self.noise_level = noise_level
         self.length_scale = length_scale
         self.max_train_rows = max_train_rows
         self.calibration_rows = calibration_rows
+        self.extra_features = extra_features
 
     def fit(self, X, y):
         if self.max_train_rows < 2 or self.calibration_rows < 2 or self.noise_level <= 0:
@@ -70,7 +71,7 @@ class CalibratedGPRClassifier(ClassifierMixin, BaseEstimator):
         cal = frame.loc[calibration]
         if len(train) < 2 or cal._target.nunique() != 2:
             raise ValueError("Need earlier training games and both calibration outcomes")
-        self.feature_cols_ = list(FEATURES)
+        self.feature_cols_ = list(FEATURES) + list(self.extra_features)
         self.preprocessor_ = make_pipeline(
             SimpleImputer(strategy="median", keep_empty_features=True), StandardScaler())
         a = self.preprocessor_.fit_transform(train[self.feature_cols_])

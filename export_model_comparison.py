@@ -41,8 +41,16 @@ def export(root=None):
                      "length_scale": None if result["name"] == "linear" else result["selected"]["length_scale"],
                      "training": f"{result['final_regression_rows']:,} regression + {result['final_calibration_rows']:,} calibration games",
                      **{key: result[key] for key in ("holdout_season", "test_rows", "accuracy", "log_loss", "roc_auc")}})
-    if len(rows) != 16 or len({row['id'] for row in rows}) != 16:
-        raise ValueError("Expected eight original and eight unique GPR models")
+    expanded = json.loads((root / 'models/expanded_comparison.json').read_text())
+    for result in expanded['models']:
+        rows.append({'id': f"home_win_expanded_{result['name']}.joblib",
+                     'name': result['family'].replace('_', ' ').title() + ' - ' + result['view'].replace('_', ' '),
+                     'family': 'Expanded', 'status': 'Experimental', 'market_inputs': False,
+                     'kernel': None, 'noise_variance': None, 'length_scale': None,
+                     'training': f"{result['final_training_rows']:,} games (2017+); {result['feature_count']} input columns",
+                     **{key: result[key] for key in ('holdout_season', 'test_rows', 'accuracy', 'log_loss', 'roc_auc')}})
+    if len(rows) != 32 or len({row['id'] for row in rows}) != 32:
+        raise ValueError("Expected eight original, eight GPR, and sixteen expanded models")
     output = {"gpr_trained_at": gpr["created_at"], "models": rows,
               "note": "Pre-refit retrospective evaluation. Not live pregame accuracy; no automatic promotion. "
               "Market-input and no-market models use different information. GPR uses a bounded recent-game window. "

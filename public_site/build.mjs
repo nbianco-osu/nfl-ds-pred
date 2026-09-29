@@ -6,6 +6,11 @@ const root = dirname(fileURLToPath(import.meta.url));
 const dist = join(root, "dist");
 
 const assets = {
+  "/season_chart.js": { file: "season_chart.js", type: "text/javascript; charset=utf-8" },
+  "/vendor/chart.umd.min.js": { file: "vendor/chart.umd.min.js", type: "text/javascript; charset=utf-8" },
+  "/vendor/Chart.js.LICENSE.md": { file: "vendor/Chart.js.LICENSE.md", type: "text/plain; charset=utf-8" },
+  "/data/season_charts.json": { file: "data/season_charts.json", type: "application/json; charset=utf-8" },
+  "/data/expanded_coverage.json": { file: "data/expanded_coverage.json", type: "application/json; charset=utf-8" },
   "/data/model_comparison.json": { file: "data/model_comparison.json", type: "application/json; charset=utf-8" },
   "/data/season_simulations.json": { file: "data/season_simulations.json", type: "application/json; charset=utf-8" },
   "/": { file: "index.html", type: "text/html; charset=utf-8" },

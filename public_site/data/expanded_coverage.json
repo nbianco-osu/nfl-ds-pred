@@ -1,0 +1,34 @@
+{
+  "updated_at": "2026-09-29T12:41:06.587270+00:00",
+  "through_season": 2026,
+  "pbp": {
+    "2016": 256,
+    "2017": 256,
+    "2018": 256,
+    "2019": 256,
+    "2020": 256,
+    "2021": 272,
+    "2022": 271,
+    "2023": 272,
+    "2024": 272,
+    "2025": 272,
+    "2026": 48
+  },
+  "ngs": {
+    "passing": {
+      "current_team_weeks": 96,
+      "latest_week": 3
+    },
+    "rushing": {
+      "current_team_weeks": 85,
+      "latest_week": 3
+    },
+    "receiving": {
+      "current_team_weeks": 95,
+      "latest_week": 3
+    }
+  },
+  "errors": [],
+  "dataset_rows": 7000,
+  "new_columns": 69
+}

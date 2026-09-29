@@ -72,6 +72,8 @@ def main() -> None:
     completed.to_csv(root / f'data/nfl_{args.season}_completed.csv', index=False)
     public.to_json(root / 'public_site/data/predictions.json', orient='records', indent=2)
     export_simulations(predictions, root)
+    from season_charts import export as export_charts
+    export_charts(root)
     learning_rows = predictions.loc[predictions.model_version.eq(generation)] if generation else predictions
     summary = update_learning(learning_rows, root, generation=generation)
     print(f"Active learner: {summary['status']}; {summary['training_games']} training games")

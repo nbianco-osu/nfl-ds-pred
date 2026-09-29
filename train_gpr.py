@@ -37,6 +37,7 @@ def main():
     # Keep paired team columns for the shared schedule feature builder. The
     # estimator itself uses only the fixed numeric contrasts in FEATURES.
     cols = get_feature_columns(data, exclude_market=True)
+    extras = tuple(c for c in cols if c.startswith('diff_team_ext_'))
     train = data.loc[data.season < args.holdout_season - 1]
     validation = data.loc[data.season == args.holdout_season - 1]
     history = data.loc[data.season < args.holdout_season]
@@ -58,17 +59,17 @@ def main():
         trials = []
         for noise in (0.1, 0.5):
             for scale in (3.0, 8.0):
-                candidate = CalibratedGPRClassifier(name, noise, scale, args.max_train_rows)
+                candidate = CalibratedGPRClassifier(name, noise, scale, args.max_train_rows, extra_features=extras)
                 candidate.fit(train[cols], train.home_win)
                 loss = log_loss(validation.home_win, candidate.predict_proba(validation[cols]), labels=[0, 1])
                 trials.append({"noise_level": noise, "length_scale": scale, "validation_log_loss": float(loss)})
         best = min(trials, key=lambda row: row["validation_log_loss"])
-        model = CalibratedGPRClassifier(name, best["noise_level"], best["length_scale"], args.max_train_rows)
+        model = CalibratedGPRClassifier(name, best["noise_level"], best["length_scale"], args.max_train_rows, extra_features=extras)
         model.fit(history[cols], history.home_win)
         p = model.predict_proba(test[cols])[:, 1]
         predictions[name] = p
         result = {"name": name, "holdout_season": args.holdout_season, "test_rows": len(test),
-                  **metrics(test.home_win, p), "search_trials": trials, "selected": best,
+                  **metrics(test.home_win, p), "search_trials": trials, "selected": best, "extra_features": list(extras),
                   "evaluation": "Pre-refit retrospective holdout; tuning on preceding season only"}
         model.fit(full[cols], full.home_win)
         result.update(final_regression_rows=model.training_rows_, final_calibration_rows=model.calibration_rows_,
@@ -77,7 +78,8 @@ def main():
         path = args.model_dir / f"home_win_gpr_{name}.joblib"
         artifact = {"model": model, "feature_cols": cols, "target_col": "home_win", "metrics": result,
                     "trained_at": stamp, "model_version": f"gpr_{name}_{stamp}", "training_input": str(args.input),
-                    "training_through_season": args.holdout_season, "experimental": True}
+                    "training_through_season": args.holdout_season, "experimental": True,
+                    "requires_expanded_features": bool(extras)}
         if path.exists():
             archive = args.model_dir / "archive" / stamp
             archive.mkdir(parents=True, exist_ok=True)

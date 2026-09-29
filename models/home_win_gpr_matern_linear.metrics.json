@@ -1,48 +1,73 @@
 {
   "name": "matern_linear",
   "holdout_season": 2026,
-  "test_rows": 32,
-  "accuracy": 0.65625,
-  "log_loss": 0.6643453954444645,
-  "brier_score": 0.23573584567190084,
-  "roc_auc": 0.6431372549019607,
+  "test_rows": 48,
+  "accuracy": 0.6875,
+  "log_loss": 0.6374933086329766,
+  "brier_score": 0.22284239835444986,
+  "roc_auc": 0.7000000000000001,
   "search_trials": [
     {
       "noise_level": 0.1,
       "length_scale": 3.0,
-      "validation_log_loss": 0.6631709482022898
+      "validation_log_loss": 0.6635346153089567
     },
     {
       "noise_level": 0.1,
       "length_scale": 8.0,
-      "validation_log_loss": 0.6613348426185576
+      "validation_log_loss": 0.6706444036588824
     },
     {
       "noise_level": 0.5,
       "length_scale": 3.0,
-      "validation_log_loss": 0.6581469208541332
+      "validation_log_loss": 0.6610445256650563
     },
     {
       "noise_level": 0.5,
       "length_scale": 8.0,
-      "validation_log_loss": 0.6532109091085967
+      "validation_log_loss": 0.6631150227330587
     }
   ],
   "selected": {
     "noise_level": 0.5,
-    "length_scale": 8.0,
-    "validation_log_loss": 0.6532109091085967
+    "length_scale": 3.0,
+    "validation_log_loss": 0.6610445256650563
   },
+  "extra_features": [
+    "diff_team_ext_off_early_epa_last5",
+    "diff_team_ext_off_sack_rate_last5",
+    "diff_team_ext_off_hit_rate_last5",
+    "diff_team_ext_off_third_conversion_last5",
+    "diff_team_ext_off_stuff_rate_last5",
+    "diff_team_ext_def_early_epa_last5",
+    "diff_team_ext_def_sack_rate_last5",
+    "diff_team_ext_def_hit_rate_last5",
+    "diff_team_ext_def_third_conversion_last5",
+    "diff_team_ext_def_stuff_rate_last5",
+    "diff_team_ext_off_red_zone_td_rate_last5",
+    "diff_team_ext_def_red_zone_td_rate_last5",
+    "diff_team_ext_ngs_avg_time_to_throw_last5",
+    "diff_team_ext_ngs_avg_intended_air_yards_last5",
+    "diff_team_ext_ngs_aggressiveness_last5",
+    "diff_team_ext_ngs_completion_percentage_above_expectation_last5",
+    "diff_team_ext_ngs_rush_yards_over_expected_per_att_last5",
+    "diff_team_ext_ngs_rush_pct_over_expected_last5",
+    "diff_team_ext_ngs_avg_separation_last5",
+    "diff_team_ext_ngs_avg_yac_above_expectation_last5",
+    "diff_team_ext_elo",
+    "diff_team_ext_opponent_elo",
+    "diff_team_ext_observed_games"
+  ],
   "evaluation": "Pre-refit retrospective holdout; tuning on preceding season only",
   "final_regression_rows": 1000,
-  "final_calibration_rows": 271,
+  "final_calibration_rows": 256,
   "final_training_end": [
     2025,
-    2
+    4
   ],
   "calibration_start": [
     2025,
-    3
+    5
   ],
-  "kernel": "Matern(length_scale=8, nu=1.5) + 0.224**2 * DotProduct(sigma_0=1) + WhiteKernel(noise_level=0.5)"
+  "kernel": "Matern(length_scale=3, nu=1.5) + 0.152**2 * DotProduct(sigma_0=1) + WhiteKernel(noise_level=0.5)"
 }

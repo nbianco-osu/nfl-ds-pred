@@ -112,6 +112,12 @@ def predict_schedule(schedule: pd.DataFrame, history: pd.DataFrame, artifact: di
 
     model = artifact["model"]
     feature_cols = artifact["feature_cols"]
+    expanded = None
+    if artifact.get('requires_expanded_features'):
+        season = int(schedule.season.max())
+        expanded = pd.read_csv(Path(__file__).resolve().parent / f'data/expanded_features_{season}.csv').set_index('game_id')
+        if not schedule.game_id.isin(expanded.index).all():
+            raise ValueError('Expanded features missing for scheduled games; rebuild expanded_features.py')
     rows = []
     feature_rows = []
     for _, game in schedule.iterrows():
@@ -143,6 +149,9 @@ def predict_schedule(schedule: pd.DataFrame, history: pd.DataFrame, artifact: di
         if snapshots is not None:
             from current_features import apply_current
             feature_row = apply_current(feature_row, game, snapshots)
+        if expanded is not None:
+            for col in expanded.columns.intersection(feature_row.columns):
+                feature_row.at[0, col] = expanded.at[game.game_id, col]
         feature_rows.append(feature_row)
         rows.append(
             {
@@ -172,7 +181,9 @@ def main() -> None:
     artifact = joblib.load(args.model)
     history = pd.read_csv(args.history)
     schedule = load_schedule(args.season, args.schedule_csv, args.source)
-    predictions = predict_schedule(schedule, history, artifact)
+    snapshot_path = Path(__file__).resolve().parent / f'data/current_features_{args.season}.csv'
+    snapshots = pd.read_csv(snapshot_path).set_index('game_id') if snapshot_path.exists() else None
+    predictions = predict_schedule(schedule, history, artifact, snapshots=snapshots)
 
     output = args.output or Path("predictions") / f"nfl_{args.season}_predictions.csv"
     output.parent.mkdir(parents=True, exist_ok=True)

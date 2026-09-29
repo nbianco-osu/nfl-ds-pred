@@ -13,6 +13,11 @@ explanations/*
 !data/nfl_matchups_1999_2026_advanced.csv
 !models/retraining_2026.json
 !models/simulation_config.json
+!models/expanded_comparison.json
+!models/expanded_holdout_predictions.csv
+!data/nfl_matchups_1999_2026_expanded.csv
+!data/expanded_features_2026.csv
+!data/expanded_coverage_2026.json
 !models/gpr_comparison.json
 !models/gpr_holdout_predictions.csv
 !models/home_win_gpr_*.metrics.json

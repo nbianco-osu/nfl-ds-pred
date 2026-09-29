@@ -127,7 +127,7 @@ function renderShap(shapRows) {
 }
 
 async function main() {
-  const [predictions, shapRows, metrics, simulations, comparison] = await Promise.all([
+  const [predictions, shapRows, metrics, simulations, comparison, seasonCharts] = await Promise.all([
     fetch("./data/predictions.json").then((response) => response.json()),
     fetch("./data/global_shap.json").then((response) => response.json()),
     fetch("./data/metrics.json").then((response) => response.json()),
@@ -136,12 +136,20 @@ async function main() {
       if (!response.ok) throw new Error("Model comparison data unavailable");
       return response.json();
     }).catch(() => null),
+    fetch('./data/season_charts.json').then(response => {
+      if (!response.ok) throw new Error('Season chart data unavailable');
+      return response.json();
+    }).catch(() => null),
   ]);
 
   renderMetrics(predictions, metrics);
   renderFilters(predictions);
   renderShap(shapRows);
+  window.setupSeasonCharts(seasonCharts || {teams: []});
+  if (!seasonCharts) byId('seasonTab').textContent = 'Team Season Charts (unavailable)';
   if (comparison) {
+    byId('comparisonHeading').textContent = `${comparison.models.length}-Model Comparison`;
+    byId('libraryLink').textContent = `Model library: ${comparison.models.length} models`;
     const render = () => renderModelComparison(comparison);
     byId("modelGroup").addEventListener("change", render);
     byId("modelSort").addEventListener("change", render);

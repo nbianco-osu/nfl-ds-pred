@@ -1,0 +1,16 @@
+{
+  "seed_ids": [],
+  "queries": {
+    "2026_04": [
+      "2026_04_JAX_CIN",
+      "2026_04_PIT_CLE",
+      "2026_04_LA_PHI",
+      "2026_04_KC_LV",
+      "2026_04_DET_CAR",
+      "2026_04_ARI_NYG",
+      "2026_04_NYJ_CHI",
+      "2026_04_DAL_HOU"
+    ]
+  },
+  "forecasts": {}
+}

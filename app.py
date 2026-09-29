@@ -240,16 +240,48 @@ top[1].metric("Model", type(artifact["model"].named_steps["model"]).__name__)
 top[2].metric("Holdout Log Loss", f"{metrics.get('log_loss', float('nan')):.3f}")
 top[3].metric("Holdout ROC AUC", f"{metrics.get('roc_auc', float('nan')):.3f}")
 
-schedule_tab, comparison_tab, model_tab, game_tab = st.tabs(["Schedule", "Model Comparison", "Model Signals", "Game Explanation"])
+schedule_tab, season_tab, comparison_tab, model_tab, game_tab = st.tabs(["Schedule", "Team Season Charts", "Model Comparison", "Model Signals", "Game Explanation"])
+
+with season_tab:
+    from season_charts import build_series
+    chart_data = build_series(json.loads(predictions.to_json(orient='records')))
+    names = {team['team']: team['name'] for team in chart_data['teams']}
+    choice = st.selectbox('Chart team', ['All teams', *names], format_func=lambda value: names.get(value, value))
+    measure = st.selectbox('Chart measure', ['Weekly win probability', 'Cumulative projected wins'])
+    records = []
+    for team in chart_data['teams']:
+        if choice != 'All teams' and team['team'] != choice:
+            continue
+        for point in team['points']:
+            if measure == 'Weekly win probability':
+                forecast = None if point['win_probability'] is None else 100 * point['win_probability']
+                actual = None if point['actual_win'] is None else 100 * point['actual_win']
+            else:
+                forecast, actual = point['projected_wins'], point['actual_wins']
+            for label, value in [('Model', forecast), ('Actual', actual)]:
+                records.append(dict(Team=team['name'], Week=point['week'], Value=value, Series=label, Opponent=point['opponent']))
+    chart_frame = pd.DataFrame(records)
+    facets = {'facet_col': 'Team', 'facet_col_wrap': 3} if choice == 'All teams' else {}
+    fig = px.line(chart_frame, x='Week', y='Value', color='Series', markers=True,
+                  hover_data=['Opponent'], color_discrete_map={'Model': '#175cd3', 'Actual': '#087443'}, **facets)
+    fig.update_traces(connectgaps=False)
+    if measure == 'Weekly win probability':
+        fig.update_traces(selector={'name': 'Actual'}, mode='markers')
+    fig.update_layout(height=290 * ((len(names) + 2) // 3) if choice == 'All teams' else 420)
+    fig.update_yaxes(range=[0, 100 if measure == 'Weekly win probability' else 17], title_text='Win chance (%)' if measure == 'Weekly win probability' else 'Wins')
+    st.plotly_chart(fig, width='stretch')
+    st.caption(chart_data['note'])
+    with st.expander('Weekly chart values'):
+        st.dataframe(chart_frame, hide_index=True, width='stretch')
 
 with comparison_tab:
-    st.subheader("16-Model Comparison")
+    st.subheader("32-Model Comparison")
     st.caption("Pre-refit retrospective evaluation, not live pregame accuracy. Production picks remain unchanged. Market-input models use different information from no-market models.")
     comparison_path = ROOT / "public_site/data/model_comparison.json"
     if comparison_path.exists():
         comparison = json.loads(comparison_path.read_text())
         rows = pd.DataFrame(comparison["models"])
-        group = st.selectbox("Model group", ["All models", "GPR", "Original", "No-market"])
+        group = st.selectbox("Model group", ["All models", "Expanded", "GPR", "Original", "No-market"])
         if group == "No-market":
             rows = rows.loc[~rows.market_inputs]
         elif group != "All models":
@@ -263,6 +295,7 @@ with comparison_tab:
             "test_rows": "Games evaluated", "log_loss": "Log loss", "accuracy": "Accuracy (0-1)", "roc_auc": "ROC AUC",
             "noise_variance": "Noise variance", "length_scale": "Length scale", "training": "Final fit"}), hide_index=True, width="stretch")
         st.caption("GPR: binary-label Gaussian regression with white-noise kernels and later sigmoid calibration. Up to 1,000 recent regression games plus at least 256 separate calibration games. Parameters selected on 2025; 2026 evaluated before final fitting. Small-sample scores do not establish improvement.")
+        st.caption('Expanded models: eight estimator families, each with team-difference and full-context inputs. New metrics cover early-down EPA, sack/hit rates, red-zone and third-down efficiency, NGS tracking aggregates, and custom Elo/strength of schedule. Sixteen configurations, not sixteen distinct algorithms. Training starts in 2017; missing values use training-only imputation.')
     else:
         st.info("Model comparison unavailable. Run python export_model_comparison.py.")
 

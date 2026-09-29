@@ -24,7 +24,12 @@
     <main>
       <section class="metrics" id="metrics"></section>
       <p id="refreshStatus" aria-live="polite"></p>
-      <p><a href="#modelComparison">Model library: 16 models, including 8 experimental GPR candidates</a></p>
+      <p><a href="#modelComparison" id="libraryLink">Model library: 32 models</a></p>
+      <div class="view-tabs" role="tablist" aria-label="Dashboard views">
+        <button id="dashboardTab" role="tab" aria-selected="true" aria-controls="dashboardPanel">Matchups &amp; Models</button>
+        <button id="seasonTab" role="tab" aria-selected="false" aria-controls="seasonPanel" tabindex="-1">Team Season Charts</button>
+      </div>
+      <div id="dashboardPanel" role="tabpanel" aria-labelledby="dashboardTab">
 
       <section class="toolbar" aria-label="Schedule filters">
         <label>
@@ -81,12 +86,12 @@
 
       <section id="modelComparison" class="model-comparison" aria-labelledby="comparisonHeading">
         <div class="panel-heading">
-          <div><p class="eyebrow">Model Research</p><h2 id="comparisonHeading">16-Model Comparison</h2></div>
+          <div><p class="eyebrow">Model Research</p><h2 id="comparisonHeading">32-Model Comparison</h2></div>
           <a href="./data/model_comparison.json" download>Download results</a>
         </div>
-        <p class="body-copy">Pre-refit 2026 evaluation on 32 completed games. These retrospective scores are not live pregame accuracy and are too small a sample to establish an improvement. Production forecasts still use the deep, no-market Random Forest.</p>
+        <p class="body-copy">Pre-refit 2026 evaluation on 48 completed games. These retrospective scores are not live pregame accuracy and are too small a sample to establish an improvement. Production forecasts still use the deep, no-market Random Forest, refit through Week 3.</p>
         <div class="comparison-controls">
-          <label>Model group<select id="modelGroup"><option value="all">All 16 models</option><option value="GPR">Experimental GPR</option><option value="Original">Original models</option><option value="no-market">No-market models</option></select></label>
+          <label>Model group<select id="modelGroup"><option value="all">All 32 models</option><option value="Expanded">Expanded-metric candidates</option><option value="GPR">Experimental GPR</option><option value="Original">Original models</option><option value="no-market">No-market models</option></select></label>
           <label>Sort by<select id="modelSort"><option value="log_loss">Log loss: lowest first</option><option value="accuracy">Accuracy: highest first</option><option value="roc_auc">ROC AUC: highest first</option><option value="name">Model name</option></select></label>
           <span id="modelCount" aria-live="polite"></span>
         </div>
@@ -98,6 +103,18 @@
         </div>
         <p class="body-copy">GPR means Gaussian Process Regression. All eight kernels include white-noise observation variance, selected with length scale on 2025 data. Regression scores are sigmoid-calibrated into win probabilities; this is not Gaussian process classification. Noise does not randomly flip picks. Market-input models use spreads and totals and are not directly equivalent to no-market models.</p>
         <details><summary>Training and evaluation details</summary><p class="body-copy">Each GPR fit uses up to 1,000 recent regression games and a separate, later calibration block of at least 256 games. The final calibration block includes completed 2026 games. The displayed evaluation was measured before that final fit. Missing current features retain historical fallbacks. Kernel uncertainty is distinct from the assumed noise used in season simulations.</p><p id="comparisonDate" class="body-copy"></p></details>
+        <details><summary>New team metrics and sources</summary>
+          <p class="body-copy">The 16 expanded candidates use eight estimator families with two feature views: team differences or full matchup context. They train on 2017 onward, tune on 2025, and evaluate on 2026 before final fitting. GPR candidates also include the new team differences. The original eight retain their earlier feature definitions.</p>
+          <dl class="feature-key">
+            <dt>Early-down EPA</dt><dd>Mean Expected Points Added on first and second down; offensive production and defensive EPA allowed.</dd>
+            <dt>Sacks, QB hits, third downs</dt><dd>Sacks and recorded hits per dropback; third-down conversions per third-down play. Hits are not a complete pressure metric.</dd>
+            <dt>Red-zone efficiency and run stuffs</dt><dd>Touchdowns per drive reaching the opponent's 20-yard line; rushes gaining zero or fewer yards per rush.</dd>
+            <dt>Next Gen Stats</dt><dd>Time to throw, intended air yards, tight-window throws, completion percentage over expected, rushing yards over expected, receiver separation, and yards after catch over expected. Team rates weight qualifying players by attempts or targets.</dd>
+            <dt>Team strength</dt><dd>Custom Elo ratings with offseason regression, plus the average pregame Elo of prior opponents. Not an official NFL rating.</dd>
+          </dl>
+          <p class="body-copy">Performance metrics use only earlier weeks, averaged over the last five team games. Public PBP/NGS history begins in 2016 for this feature set. NGS excludes players below reporting thresholds; missing values are imputed from training data, not filled with future results. Historical data are revised snapshots, not timestamped original releases.</p>
+          <p><a href="https://nflreadr.nflverse.com/reference/load_nextgen_stats.html">NGS coverage</a> · <a href="https://nflfastr.com/reference/fast_scraper.html">Play-by-play definitions</a> · <a href="./data/expanded_coverage.json">Source coverage report</a></p>
+        </details>
       </section>
 
       <section class="section-grid">
@@ -128,6 +145,18 @@
         </aside>
       </section>
 
+      </div>
+      <section id="seasonPanel" role="tabpanel" aria-labelledby="seasonTab" hidden>
+        <h2>Team Win Predictions Across the Season</h2>
+        <div class="comparison-controls">
+          <label>Team<select id="chartTeam"><option value="all">All teams</option></select></label>
+          <label>Measure<select id="chartMeasure"><option value="weekly">Weekly win probability</option><option value="cumulative">Cumulative projected wins</option></select></label>
+          <a href="./data/season_charts.json" download>Download chart data</a>
+        </div>
+        <p id="chartNote" class="body-copy"></p>
+        <div id="teamCharts" class="team-charts" aria-live="polite"></div>
+      </section>
+
       <section class="panel disclaimer">
         <p class="eyebrow">Disclaimers And Fair Use</p>
         <h2>Educational Predictive Analytics</h2>
@@ -144,6 +173,8 @@
       </section>
     </main>
 
+    <script src="./vendor/chart.umd.min.js"></script>
+    <script src="./season_chart.js"></script>
     <script src="./app.js"></script>
   </body>
 </html>

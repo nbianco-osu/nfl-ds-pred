@@ -1,0 +1,630 @@
+{
+  "created_at": "20260929T124625Z",
+  "models": [
+    {
+      "name": "logistic_contrasts",
+      "family": "logistic",
+      "view": "contrasts",
+      "feature_count": 43,
+      "holdout_season": 2026,
+      "test_rows": 48,
+      "validation_season": 2025,
+      "final_training_rows": 2423,
+      "final_training_through": "2026-09-28",
+      "selected_configuration": "LogisticRegression(C=0.03, max_iter=3000)",
+      "trials": [
+        {
+          "configuration": "LogisticRegression(C=0.03, max_iter=3000)",
+          "accuracy": 0.6715867158671587,
+          "log_loss": 0.6284912486450988,
+          "brier_score": 0.21976708526678654,
+          "roc_auc": 0.6991232876712328
+        },
+        {
+          "configuration": "LogisticRegression(C=0.1, max_iter=3000)",
+          "accuracy": 0.6642066420664207,
+          "log_loss": 0.6292949871414685,
+          "brier_score": 0.22019044616217112,
+          "roc_auc": 0.6976438356164385
+        },
+        {
+          "configuration": "LogisticRegression(C=0.3, max_iter=3000)",
+          "accuracy": 0.6605166051660517,
+          "log_loss": 0.6300551437159186,
+          "brier_score": 0.2205407686826969,
+          "roc_auc": 0.6966027397260274
+        }
+      ],
+      "accuracy": 0.5833333333333334,
+      "log_loss": 0.6977535052815916,
+      "brier_score": 0.2503517998468425,
+      "roc_auc": 0.5714285714285714
+    },
+    {
+      "name": "random_forest_contrasts",
+      "family": "random_forest",
+      "view": "contrasts",
+      "feature_count": 43,
+      "holdout_season": 2026,
+      "test_rows": 48,
+      "validation_season": 2025,
+      "final_training_rows": 2423,
+      "final_training_through": "2026-09-28",
+      "selected_configuration": "RandomForestClassifier(max_depth=4, min_samples_leaf=12, n_estimators=300,\n                       n_jobs=2, random_state=42)",
+      "trials": [
+        {
+          "configuration": "RandomForestClassifier(max_depth=4, min_samples_leaf=12, n_estimators=300,\n                       n_jobs=2, random_state=42)",
+          "accuracy": 0.6236162361623616,
+          "log_loss": 0.643202395794057,
+          "brier_score": 0.22615161477045415,
+          "roc_auc": 0.6738630136986301
+        },
+        {
+          "configuration": "RandomForestClassifier(max_depth=8, min_samples_leaf=12, n_estimators=300,\n                       n_jobs=2, random_state=42)",
+          "accuracy": 0.6273062730627307,
+          "log_loss": 0.6457103477239026,
+          "brier_score": 0.22721130608531018,
+          "roc_auc": 0.6712328767123288
+        },
+        {
+          "configuration": "RandomForestClassifier(max_depth=12, min_samples_leaf=12, n_estimators=300,\n                       n_jobs=2, random_state=42)",
+          "accuracy": 0.6420664206642066,
+          "log_loss": 0.6461207724668498,
+          "brier_score": 0.22716423101317648,
+          "roc_auc": 0.6747945205479453
+        }
+      ],
+      "accuracy": 0.5208333333333334,
+      "log_loss": 0.6782189853961508,
+      "brier_score": 0.2429423569743269,
+      "roc_auc": 0.5696428571428571
+    },
+    {
+      "name": "extra_trees_contrasts",
+      "family": "extra_trees",
+      "view": "contrasts",
+      "feature_count": 43,
+      "holdout_season": 2026,
+      "test_rows": 48,
+      "validation_season": 2025,
+      "final_training_rows": 2423,
+      "final_training_through": "2026-09-28",
+      "selected_configuration": "ExtraTreesClassifier(max_depth=12, min_samples_leaf=12, n_estimators=300,\n                     n_jobs=2, random_state=42)",
+      "trials": [
+        {
+          "configuration": "ExtraTreesClassifier(max_depth=4, min_samples_leaf=12, n_estimators=300,\n                     n_jobs=2, random_state=42)",
+          "accuracy": 0.6199261992619927,
+          "log_loss": 0.6516867695606263,
+          "brier_score": 0.22981813289051706,
+          "roc_auc": 0.6882739726027398
+        },
+        {
+          "configuration": "ExtraTreesClassifier(max_depth=8, min_samples_leaf=12, n_estimators=300,\n                     n_jobs=2, random_state=42)",
+          "accuracy": 0.6309963099630996,
+          "log_loss": 0.6398141658326948,
+          "brier_score": 0.22441143406950276,
+          "roc_auc": 0.6905753424657535
+        },
+        {
+          "configuration": "ExtraTreesClassifier(max_depth=12, min_samples_leaf=12, n_estimators=300,\n                     n_jobs=2, random_state=42)",
+          "accuracy": 0.6273062730627307,
+          "log_loss": 0.638883240134688,
+          "brier_score": 0.22400041453496888,
+          "roc_auc": 0.6857534246575343
+        }
+      ],
+      "accuracy": 0.5625,
+      "log_loss": 0.6816756340277466,
+      "brier_score": 0.24468387996311125,
+      "roc_auc": 0.5589285714285714
+    },
+    {
+      "name": "hist_boost_contrasts",
+      "family": "hist_boost",
+      "view": "contrasts",
+      "feature_count": 43,
+      "holdout_season": 2026,
+      "test_rows": 48,
+      "validation_season": 2025,
+      "final_training_rows": 2423,
+      "final_training_through": "2026-09-28",
+      "selected_configuration": "HistGradientBoostingClassifier(early_stopping=False, l2_regularization=3,\n                               learning_rate=0.03, max_iter=150,\n                               max_leaf_nodes=7, random_state=42)",
+      "trials": [
+        {
+          "configuration": "HistGradientBoostingClassifier(early_stopping=False, l2_regularization=3,\n                               learning_rate=0.03, max_iter=150,\n                               max_leaf_nodes=7, random_state=42)",
+          "accuracy": 0.6531365313653137,
+          "log_loss": 0.6377341509288603,
+          "brier_score": 0.2229715048123294,
+          "roc_auc": 0.689095890410959
+        },
+        {
+          "configuration": "HistGradientBoostingClassifier(early_stopping=False, l2_regularization=3,\n                               learning_rate=0.03, max_iter=150,\n                               max_leaf_nodes=15, random_state=42)",
+          "accuracy": 0.6531365313653137,
+          "log_loss": 0.638386683037395,
+          "brier_score": 0.22306234246549073,
+          "roc_auc": 0.6906301369863014
+        },
+        {
+          "configuration": "HistGradientBoostingClassifier(early_stopping=False, l2_regularization=3,\n                               learning_rate=0.03, max_iter=150,\n                               random_state=42)",
+          "accuracy": 0.6420664206642066,
+          "log_loss": 0.6488336359159214,
+          "brier_score": 0.22708557493458836,
+          "roc_auc": 0.6861369863013699
+        }
+      ],
+      "accuracy": 0.5833333333333334,
+      "log_loss": 0.6855894573538052,
+      "brier_score": 0.24591738751803863,
+      "roc_auc": 0.5678571428571428
+    },
+    {
+      "name": "gradient_boost_contrasts",
+      "family": "gradient_boost",
+      "view": "contrasts",
+      "feature_count": 43,
+      "holdout_season": 2026,
+      "test_rows": 48,
+      "validation_season": 2025,
+      "final_training_rows": 2423,
+      "final_training_through": "2026-09-28",
+      "selected_configuration": "GradientBoostingClassifier(learning_rate=0.03, max_depth=2, min_samples_leaf=20,\n                           n_estimators=150, random_state=42)",
+      "trials": [
+        {
+          "configuration": "GradientBoostingClassifier(learning_rate=0.03, max_depth=1, min_samples_leaf=20,\n                           n_estimators=150, random_state=42)",
+          "accuracy": 0.6236162361623616,
+          "log_loss": 0.6400215792314511,
+          "brier_score": 0.22481474242178495,
+          "roc_auc": 0.678027397260274
+        },
+        {
+          "configuration": "GradientBoostingClassifier(learning_rate=0.03, max_depth=2, min_samples_leaf=20,\n                           n_estimators=150, random_state=42)",
+          "accuracy": 0.6531365313653137,
+          "log_loss": 0.6353561489915666,
+          "brier_score": 0.22219861631365623,
+          "roc_auc": 0.6877808219178082
+        },
+        {
+          "configuration": "GradientBoostingClassifier(learning_rate=0.03, min_samples_leaf=20,\n                           n_estimators=150, random_state=42)",
+          "accuracy": 0.6420664206642066,
+          "log_loss": 0.6468631007115302,
+          "brier_score": 0.22700632622261246,
+          "roc_auc": 0.6771506849315069
+        }
+      ],
+      "accuracy": 0.5625,
+      "log_loss": 0.6902357418606385,
+      "brier_score": 0.24843469396232354,
+      "roc_auc": 0.5517857142857143
+    },
+    {
+      "name": "adaboost_contrasts",
+      "family": "adaboost",
+      "view": "contrasts",
+      "feature_count": 43,
+      "holdout_season": 2026,
+      "test_rows": 48,
+      "validation_season": 2025,
+      "final_training_rows": 2423,
+      "final_training_through": "2026-09-28",
+      "selected_configuration": "AdaBoostClassifier(estimator=DecisionTreeClassifier(max_depth=1,\n                                                    min_samples_leaf=20),\n                   learning_rate=0.03, n_estimators=100, random_state=42)",
+      "trials": [
+        {
+          "configuration": "AdaBoostClassifier(estimator=DecisionTreeClassifier(max_depth=1,\n                                                    min_samples_leaf=20),\n                   learning_rate=0.03, n_estimators=100, random_state=42)",
+          "accuracy": 0.6273062730627307,
+          "log_loss": 0.6638226550743147,
+          "brier_score": 0.2342439897107167,
+          "roc_auc": 0.6689315068493151
+        },
+        {
+          "configuration": "AdaBoostClassifier(estimator=DecisionTreeClassifier(max_depth=2,\n                                                    min_samples_leaf=20),\n                   learning_rate=0.03, n_estimators=100, random_state=42)",
+          "accuracy": 0.6014760147601476,
+          "log_loss": 0.7068598125720794,
+          "brier_score": 0.25042010524843167,
+          "roc_auc": 0.6548767123287671
+        },
+        {
+          "configuration": "AdaBoostClassifier(estimator=DecisionTreeClassifier(max_depth=3,\n                                                    min_samples_leaf=20),\n                   learning_rate=0.03, n_estimators=100, random_state=42)",
+          "accuracy": 0.6162361623616236,
+          "log_loss": 0.6879874466319532,
+          "brier_score": 0.24289994387580877,
+          "roc_auc": 0.6639178082191781
+        }
+      ],
+      "accuracy": 0.6458333333333334,
+      "log_loss": 0.7291773083239725,
+      "brier_score": 0.2608246207523115,
+      "roc_auc": 0.5642857142857143
+    },
+    {
+      "name": "sgd_logistic_contrasts",
+      "family": "sgd_logistic",
+      "view": "contrasts",
+      "feature_count": 43,
+      "holdout_season": 2026,
+      "test_rows": 48,
+      "validation_season": 2025,
+      "final_training_rows": 2423,
+      "final_training_through": "2026-09-28",
+      "selected_configuration": "SGDClassifier(alpha=0.03, average=True, loss='log_loss', max_iter=3000,\n              random_state=42, tol=1e-05)",
+      "trials": [
+        {
+          "configuration": "SGDClassifier(alpha=0.01, average=True, loss='log_loss', max_iter=3000,\n              random_state=42, tol=1e-05)",
+          "accuracy": 0.6642066420664207,
+          "log_loss": 0.6287732150859972,
+          "brier_score": 0.21998574263129567,
+          "roc_auc": 0.699123287671233
+        },
+        {
+          "configuration": "SGDClassifier(alpha=0.03, average=True, loss='log_loss', max_iter=3000,\n              random_state=42, tol=1e-05)",
+          "accuracy": 0.6678966789667896,
+          "log_loss": 0.6280877782301401,
+          "brier_score": 0.2195399896035894,
+          "roc_auc": 0.7007123287671233
+        },
+        {
+          "configuration": "SGDClassifier(alpha=0.1, average=True, loss='log_loss', max_iter=3000,\n              random_state=42, tol=1e-05)",
+          "accuracy": 0.6678966789667896,
+          "log_loss": 0.6284882396722695,
+          "brier_score": 0.21959538382905683,
+          "roc_auc": 0.7008767123287671
+        }
+      ],
+      "accuracy": 0.5625,
+      "log_loss": 0.69566847680778,
+      "brier_score": 0.24969596478180237,
+      "roc_auc": 0.5714285714285714
+    },
+    {
+      "name": "gaussian_nb_contrasts",
+      "family": "gaussian_nb",
+      "view": "contrasts",
+      "feature_count": 43,
+      "holdout_season": 2026,
+      "test_rows": 48,
+      "validation_season": 2025,
+      "final_training_rows": 2423,
+      "final_training_through": "2026-09-28",
+      "selected_configuration": "GaussianNB(var_smoothing=0.1)",
+      "trials": [
+        {
+          "configuration": "GaussianNB(var_smoothing=0.001)",
+          "accuracy": 0.6346863468634686,
+          "log_loss": 1.371416557220609,
+          "brier_score": 0.29583030021183565,
+          "roc_auc": 0.695945205479452
+        },
+        {
+          "configuration": "GaussianNB(var_smoothing=0.01)",
+          "accuracy": 0.6346863468634686,
+          "log_loss": 1.3607445731735763,
+          "brier_score": 0.2953212416806507,
+          "roc_auc": 0.6958356164383562
+        },
+        {
+          "configuration": "GaussianNB(var_smoothing=0.1)",
+          "accuracy": 0.6383763837638377,
+          "log_loss": 1.2649479227192872,
+          "brier_score": 0.2904019542829245,
+          "roc_auc": 0.6955616438356165
+        }
+      ],
+      "accuracy": 0.5,
+      "log_loss": 2.1026706485307476,
+      "brier_score": 0.4133827301346844,
+      "roc_auc": 0.5410714285714286
+    },
+    {
+      "name": "logistic_full_context",
+      "family": "logistic",
+      "view": "full_context",
+      "feature_count": 373,
+      "holdout_season": 2026,
+      "test_rows": 48,
+      "validation_season": 2025,
+      "final_training_rows": 2423,
+      "final_training_through": "2026-09-28",
+      "selected_configuration": "LogisticRegression(C=0.03, max_iter=3000)",
+      "trials": [
+        {
+          "configuration": "LogisticRegression(C=0.03, max_iter=3000)",
+          "accuracy": 0.6236162361623616,
+          "log_loss": 0.6637594189536542,
+          "brier_score": 0.23505387282000512,
+          "roc_auc": 0.6602739726027397
+        },
+        {
+          "configuration": "LogisticRegression(C=0.1, max_iter=3000)",
+          "accuracy": 0.6125461254612546,
+          "log_loss": 0.6849899143408277,
+          "brier_score": 0.24292822228328295,
+          "roc_auc": 0.6515616438356164
+        },
+        {
+          "configuration": "LogisticRegression(C=0.3, max_iter=3000)",
+          "accuracy": 0.6051660516605166,
+          "log_loss": 0.7118011207841664,
+          "brier_score": 0.25161729338104066,
+          "roc_auc": 0.6392876712328768
+        }
+      ],
+      "accuracy": 0.5208333333333334,
+      "log_loss": 0.750971257765782,
+      "brier_score": 0.2740957306831889,
+      "roc_auc": 0.5214285714285715
+    },
+    {
+      "name": "random_forest_full_context",
+      "family": "random_forest",
+      "view": "full_context",
+      "feature_count": 373,
+      "holdout_season": 2026,
+      "test_rows": 48,
+      "validation_season": 2025,
+      "final_training_rows": 2423,
+      "final_training_through": "2026-09-28",
+      "selected_configuration": "RandomForestClassifier(max_depth=12, min_samples_leaf=12, n_estimators=300,\n                       n_jobs=2, random_state=42)",
+      "trials": [
+        {
+          "configuration": "RandomForestClassifier(max_depth=4, min_samples_leaf=12, n_estimators=300,\n                       n_jobs=2, random_state=42)",
+          "accuracy": 0.6346863468634686,
+          "log_loss": 0.6479313171565684,
+          "brier_score": 0.2285485709960688,
+          "roc_auc": 0.6605479452054794
+        },
+        {
+          "configuration": "RandomForestClassifier(max_depth=8, min_samples_leaf=12, n_estimators=300,\n                       n_jobs=2, random_state=42)",
+          "accuracy": 0.6273062730627307,
+          "log_loss": 0.650098891281888,
+          "brier_score": 0.22928113690747842,
+          "roc_auc": 0.6610410958904109
+        },
+        {
+          "configuration": "RandomForestClassifier(max_depth=12, min_samples_leaf=12, n_estimators=300,\n                       n_jobs=2, random_state=42)",
+          "accuracy": 0.6273062730627307,
+          "log_loss": 0.6446668123213884,
+          "brier_score": 0.22676621228258823,
+          "roc_auc": 0.6698082191780822
+        }
+      ],
+      "accuracy": 0.5416666666666666,
+      "log_loss": 0.6791874762712977,
+      "brier_score": 0.24424349535275117,
+      "roc_auc": 0.5535714285714286
+    },
+    {
+      "name": "extra_trees_full_context",
+      "family": "extra_trees",
+      "view": "full_context",
+      "feature_count": 373,
+      "holdout_season": 2026,
+      "test_rows": 48,
+      "validation_season": 2025,
+      "final_training_rows": 2423,
+      "final_training_through": "2026-09-28",
+      "selected_configuration": "ExtraTreesClassifier(max_depth=8, min_samples_leaf=12, n_estimators=300,\n                     n_jobs=2, random_state=42)",
+      "trials": [
+        {
+          "configuration": "ExtraTreesClassifier(max_depth=4, min_samples_leaf=12, n_estimators=300,\n                     n_jobs=2, random_state=42)",
+          "accuracy": 0.6088560885608856,
+          "log_loss": 0.6552940570723604,
+          "brier_score": 0.23166474334404852,
+          "roc_auc": 0.663945205479452
+        },
+        {
+          "configuration": "ExtraTreesClassifier(max_depth=8, min_samples_leaf=12, n_estimators=300,\n                     n_jobs=2, random_state=42)",
+          "accuracy": 0.6309963099630996,
+          "log_loss": 0.6472274581115944,
+          "brier_score": 0.22797152959785366,
+          "roc_auc": 0.6702465753424657
+        },
+        {
+          "configuration": "ExtraTreesClassifier(max_depth=12, min_samples_leaf=12, n_estimators=300,\n                     n_jobs=2, random_state=42)",
+          "accuracy": 0.6236162361623616,
+          "log_loss": 0.6474157141950295,
+          "brier_score": 0.22807642767695294,
+          "roc_auc": 0.6661369863013699
+        }
+      ],
+      "accuracy": 0.5,
+      "log_loss": 0.6805567256574774,
+      "brier_score": 0.244831871276161,
+      "roc_auc": 0.5267857142857143
+    },
+    {
+      "name": "hist_boost_full_context",
+      "family": "hist_boost",
+      "view": "full_context",
+      "feature_count": 373,
+      "holdout_season": 2026,
+      "test_rows": 48,
+      "validation_season": 2025,
+      "final_training_rows": 2423,
+      "final_training_through": "2026-09-28",
+      "selected_configuration": "HistGradientBoostingClassifier(early_stopping=False, l2_regularization=3,\n                               learning_rate=0.03, max_iter=150,\n                               max_leaf_nodes=7, random_state=42)",
+      "trials": [
+        {
+          "configuration": "HistGradientBoostingClassifier(early_stopping=False, l2_regularization=3,\n                               learning_rate=0.03, max_iter=150,\n                               max_leaf_nodes=7, random_state=42)",
+          "accuracy": 0.6051660516605166,
+          "log_loss": 0.6487831626815175,
+          "brier_score": 0.22886754731674205,
+          "roc_auc": 0.6682739726027398
+        },
+        {
+          "configuration": "HistGradientBoostingClassifier(early_stopping=False, l2_regularization=3,\n                               learning_rate=0.03, max_iter=150,\n                               max_leaf_nodes=15, random_state=42)",
+          "accuracy": 0.5904059040590406,
+          "log_loss": 0.662665231147357,
+          "brier_score": 0.23458732646656216,
+          "roc_auc": 0.6533698630136986
+        },
+        {
+          "configuration": "HistGradientBoostingClassifier(early_stopping=False, l2_regularization=3,\n                               learning_rate=0.03, max_iter=150,\n                               random_state=42)",
+          "accuracy": 0.6088560885608856,
+          "log_loss": 0.6619548266117906,
+          "brier_score": 0.23455469418604663,
+          "roc_auc": 0.6569863013698629
+        }
+      ],
+      "accuracy": 0.5208333333333334,
+      "log_loss": 0.6777945577401728,
+      "brier_score": 0.24380225098550778,
+      "roc_auc": 0.5839285714285715
+    },
+    {
+      "name": "gradient_boost_full_context",
+      "family": "gradient_boost",
+      "view": "full_context",
+      "feature_count": 373,
+      "holdout_season": 2026,
+      "test_rows": 48,
+      "validation_season": 2025,
+      "final_training_rows": 2423,
+      "final_training_through": "2026-09-28",
+      "selected_configuration": "GradientBoostingClassifier(learning_rate=0.03, max_depth=1, min_samples_leaf=20,\n                           n_estimators=150, random_state=42)",
+      "trials": [
+        {
+          "configuration": "GradientBoostingClassifier(learning_rate=0.03, max_depth=1, min_samples_leaf=20,\n                           n_estimators=150, random_state=42)",
+          "accuracy": 0.6088560885608856,
+          "log_loss": 0.6447659385011919,
+          "brier_score": 0.22694137877090476,
+          "roc_auc": 0.6672876712328768
+        },
+        {
+          "configuration": "GradientBoostingClassifier(learning_rate=0.03, max_depth=2, min_samples_leaf=20,\n                           n_estimators=150, random_state=42)",
+          "accuracy": 0.6309963099630996,
+          "log_loss": 0.6483606674156936,
+          "brier_score": 0.22843681267962623,
+          "roc_auc": 0.6665753424657535
+        },
+        {
+          "configuration": "GradientBoostingClassifier(learning_rate=0.03, min_samples_leaf=20,\n                           n_estimators=150, random_state=42)",
+          "accuracy": 0.6199261992619927,
+          "log_loss": 0.6582034684399178,
+          "brier_score": 0.23306783237801793,
+          "roc_auc": 0.6502465753424659
+        }
+      ],
+      "accuracy": 0.5416666666666666,
+      "log_loss": 0.6914668392287795,
+      "brier_score": 0.2491112854195573,
+      "roc_auc": 0.5339285714285714
+    },
+    {
+      "name": "adaboost_full_context",
+      "family": "adaboost",
+      "view": "full_context",
+      "feature_count": 373,
+      "holdout_season": 2026,
+      "test_rows": 48,
+      "validation_season": 2025,
+      "final_training_rows": 2423,
+      "final_training_through": "2026-09-28",
+      "selected_configuration": "AdaBoostClassifier(estimator=DecisionTreeClassifier(max_depth=1,\n                                                    min_samples_leaf=20),\n                   learning_rate=0.03, n_estimators=100, random_state=42)",
+      "trials": [
+        {
+          "configuration": "AdaBoostClassifier(estimator=DecisionTreeClassifier(max_depth=1,\n                                                    min_samples_leaf=20),\n                   learning_rate=0.03, n_estimators=100, random_state=42)",
+          "accuracy": 0.6236162361623616,
+          "log_loss": 0.6606366911665399,
+          "brier_score": 0.233176796139783,
+          "roc_auc": 0.6706575342465754
+        },
+        {
+          "configuration": "AdaBoostClassifier(estimator=DecisionTreeClassifier(max_depth=2,\n                                                    min_samples_leaf=20),\n                   learning_rate=0.03, n_estimators=100, random_state=42)",
+          "accuracy": 0.6199261992619927,
+          "log_loss": 0.6935667150649607,
+          "brier_score": 0.24623330110313474,
+          "roc_auc": 0.6516164383561643
+        },
+        {
+          "configuration": "AdaBoostClassifier(estimator=DecisionTreeClassifier(max_depth=3,\n                                                    min_samples_leaf=20),\n                   learning_rate=0.03, n_estimators=100, random_state=42)",
+          "accuracy": 0.5940959409594095,
+          "log_loss": 0.6864412116848498,
+          "brier_score": 0.24451035923064876,
+          "roc_auc": 0.6455342465753424
+        }
+      ],
+      "accuracy": 0.6458333333333334,
+      "log_loss": 0.7211450446135393,
+      "brier_score": 0.2573983548531052,
+      "roc_auc": 0.5803571428571428
+    },
+    {
+      "name": "sgd_logistic_full_context",
+      "family": "sgd_logistic",
+      "view": "full_context",
+      "feature_count": 373,
+      "holdout_season": 2026,
+      "test_rows": 48,
+      "validation_season": 2025,
+      "final_training_rows": 2423,
+      "final_training_through": "2026-09-28",
+      "selected_configuration": "SGDClassifier(alpha=0.1, average=True, loss='log_loss', max_iter=3000,\n              random_state=42, tol=1e-05)",
+      "trials": [
+        {
+          "configuration": "SGDClassifier(alpha=0.01, average=True, loss='log_loss', max_iter=3000,\n              random_state=42, tol=1e-05)",
+          "accuracy": 0.6273062730627307,
+          "log_loss": 0.7027660973157813,
+          "brier_score": 0.2469131714118916,
+          "roc_auc": 0.6624109589041097
+        },
+        {
+          "configuration": "SGDClassifier(alpha=0.03, average=True, loss='log_loss', max_iter=3000,\n              random_state=42, tol=1e-05)",
+          "accuracy": 0.6346863468634686,
+          "log_loss": 0.660468150674744,
+          "brier_score": 0.2333403179126186,
+          "roc_auc": 0.666082191780822
+        },
+        {
+          "configuration": "SGDClassifier(alpha=0.1, average=True, loss='log_loss', max_iter=3000,\n              random_state=42, tol=1e-05)",
+          "accuracy": 0.6383763837638377,
+          "log_loss": 0.6429511170705251,
+          "brier_score": 0.2260565617864447,
+          "roc_auc": 0.6784109589041096
+        }
+      ],
+      "accuracy": 0.4791666666666667,
+      "log_loss": 0.7205585039586578,
+      "brier_score": 0.2621333742082596,
+      "roc_auc": 0.5464285714285715
+    },
+    {
+      "name": "gaussian_nb_full_context",
+      "family": "gaussian_nb",
+      "view": "full_context",
+      "feature_count": 373,
+      "holdout_season": 2026,
+      "test_rows": 48,
+      "validation_season": 2025,
+      "final_training_rows": 2423,
+      "final_training_through": "2026-09-28",
+      "selected_configuration": "GaussianNB(var_smoothing=0.1)",
+      "trials": [
+        {
+          "configuration": "GaussianNB(var_smoothing=0.001)",
+          "accuracy": 0.6125461254612546,
+          "log_loss": 7.73939095289337,
+          "brier_score": 0.3751309510898826,
+          "roc_auc": 0.6665479452054794
+        },
+        {
+          "configuration": "GaussianNB(var_smoothing=0.01)",
+          "accuracy": 0.6125461254612546,
+          "log_loss": 7.349698424538366,
+          "brier_score": 0.3752954428338687,
+          "roc_auc": 0.6686849315068493
+        },
+        {
+          "configuration": "GaussianNB(var_smoothing=0.1)",
+          "accuracy": 0.6088560885608856,
+          "log_loss": 6.418133004446073,
+          "brier_score": 0.3799245960176133,
+          "roc_auc": 0.6672876712328768
+        }
+      ],
+      "accuracy": 0.5,
+      "log_loss": 10.940984197275933,
+      "brier_score": 0.4901454937078032,
+      "roc_auc": 0.5071428571428571
+    }
+  ],
+  "note": "Eight estimator families, two feature views; 16 configurations, not 16 distinct algorithms. Three validation trials each. 2017+ history; 2025 tuning; 2026 retrospective pre-refit evaluation. No automatic promotion."
+}

@@ -1,0 +1,19 @@
+{
+  "status": "Learning in shadow mode",
+  "training_games": 0,
+  "selected_game_ids": {
+    "2026_04": [
+      "2026_04_JAX_CIN",
+      "2026_04_PIT_CLE",
+      "2026_04_LA_PHI",
+      "2026_04_KC_LV",
+      "2026_04_DET_CAR",
+      "2026_04_ARI_NYG",
+      "2026_04_NYJ_CHI",
+      "2026_04_DAL_HOU"
+    ]
+  },
+  "evaluated_games": 0,
+  "minimum_evaluation_games": 64,
+  "note": "Candidate recalibrates baseline probabilities; no production replacement or proven improvement yet. Ties excluded. Initial completed games are training-only."
+}

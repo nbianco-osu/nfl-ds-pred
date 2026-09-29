@@ -52,7 +52,7 @@ h2 {
 }
 
 h1 {
-  font-size: clamp(32px, 5vw, 56px);
+  font-size: 32px;
   line-height: 1;
 }
 
@@ -334,6 +334,21 @@ th {
 .model-comparison summary { cursor: pointer; font-weight: 600; }
 .model-comparison .panel-heading { flex-wrap: wrap; }
 .model-comparison a { color: var(--blue); }
+
+[hidden] { display: none !important; }
+.view-tabs { display: flex; gap: 18px; border-bottom: 1px solid var(--line); margin: 24px 0; }
+.view-tabs button { border: 0; border-bottom: 3px solid transparent; padding: 12px 0; background: none; font: inherit; color: var(--muted); cursor: pointer; }
+.view-tabs button[aria-selected="true"] { border-color: var(--blue); color: var(--ink); font-weight: 700; }
+.view-tabs button:focus-visible { outline: 2px solid var(--blue); outline-offset: 3px; }
+.team-charts { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 350px), 1fr)); gap: 18px; margin: 24px 0; }
+.team-chart { min-width: 0; border: 1px solid var(--line); border-radius: 6px; padding: 16px; background: white; }
+.team-chart h3 { display: flex; align-items: center; gap: 10px; font-size: 17px; margin: 0 0 12px; overflow-wrap: anywhere; }
+.team-chart h3 img { width: 30px; height: 30px; object-fit: contain; }
+.chart-frame { position: relative; height: 240px; width: 100%; }
+.team-chart details { overflow-x: auto; margin-top: 12px; }
+.team-chart summary { cursor: pointer; color: var(--muted); font-size: 14px; }
+.chart-values { min-width: 0; }
+.chart-values th, .chart-values td { font-size: 12px; padding: 6px; }
 
 @media (max-width: 600px) {
   .comparison-controls { grid-template-columns: 1fr; }

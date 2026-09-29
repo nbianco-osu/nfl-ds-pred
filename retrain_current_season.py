@@ -3,6 +3,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 import json
 import shutil
+import argparse
 
 import joblib
 import pandas as pd
@@ -15,6 +16,9 @@ from current_features import apply_current
 
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--original-only', action='store_true', help='Original eight models (the default); GPR/expanded models use their dedicated trainers.')
+    options = parser.parse_args()
     root = Path(__file__).resolve().parent
     history = pd.read_csv(root / 'data/nfl_matchups_1999_2025_advanced.csv')
     games = pd.read_csv(root / 'data/nfl_2026_completed.csv')
@@ -48,6 +52,8 @@ def main():
     reports = {}
     for path in sorted((root / 'models').glob('*.joblib')):
         if 'smoke' in path.name:
+            continue
+        if 'gpr_' in path.name or 'expanded_' in path.name:
             continue
         print(f'Retraining {path.name}', flush=True)
         artifact = joblib.load(path)
