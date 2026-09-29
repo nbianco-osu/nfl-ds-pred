@@ -62,6 +62,19 @@ class LearningTests(unittest.TestCase):
             self.assertEqual(summary['evaluated_games'], 0)
             self.assertEqual(original, (root / 'learning/state.json').read_text())
 
+    def test_pending_forecasts_are_preserved_after_refit(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            rows = fixtures()
+            update_learning(rows, root)
+            path = root / 'learning/state.json'
+            saved = json.loads(path.read_text())
+            rows.loc[4:, 'home_win_probability'] = 0.9
+            update_learning(rows, root)
+            updated = json.loads(path.read_text())
+            self.assertEqual(saved['forecasts'], updated['forecasts'])
+            self.assertEqual(saved['queries'], updated['queries'])
+
 
 if __name__ == '__main__':
     unittest.main()

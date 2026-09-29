@@ -95,7 +95,7 @@ def update_learning(rows: pd.DataFrame, root: Path, generation: str | None = Non
         if not pending.empty:
             probabilities = candidate.predict_proba(inputs(pending.home_win_probability))[:, 1]
             for (_, game), probability in zip(pending.iterrows(), probabilities):
-                state['forecasts'][game.game_id] = {'baseline': float(game.home_win_probability), 'candidate': float(probability)}
+                state['forecasts'].setdefault(game.game_id, {'baseline': float(game.home_win_probability), 'candidate': float(probability)})
     summary = {'status': 'Ready for review' if ready else 'Learning in shadow mode',
                'training_games': len(train), 'selected_game_ids': state['queries'], **metrics,
                'note': 'Candidate recalibrates baseline probabilities; no production replacement or proven improvement yet. Ties excluded. Initial completed games are training-only.'}
