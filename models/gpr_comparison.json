@@ -591,5 +591,5 @@
     }
   ],
   "limitations": "Binary-label Gaussian regression with sigmoid calibration, not GPC. Recent-window fits; WhiteKernel observation noise is not a random winner flip. 2026 retrospective evaluation is small, not a prospective performance claim. Unavailable current features retain historical fallback.",
-  "saved_model_count_excluding_smoke": 21
+  "trained_gpr_model_count": 8
 }

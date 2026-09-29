@@ -90,7 +90,7 @@ def main():
         path.with_suffix(".metrics.json").write_text(json.dumps(result, indent=2), encoding="utf-8")
         report["models"].append(result)
         print(f"{name}: 2026 log loss {result['log_loss']:.4f}; saved {path}", flush=True)
-    report["saved_model_count_excluding_smoke"] = len([p for p in args.model_dir.glob("*.joblib") if "smoke" not in p.name])
+    report["trained_gpr_model_count"] = len(report["models"])
     (args.model_dir / "gpr_comparison.json").write_text(json.dumps(report, indent=2), encoding="utf-8")
     predictions.to_csv(args.model_dir / "gpr_holdout_predictions.csv", index=False)
 
