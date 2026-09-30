@@ -1,0 +1,33 @@
+{
+  "evaluation": "2026 retrospective pre-refit; tuning on 2025 only",
+  "holdout_rows": 48,
+  "training_rows": 7000,
+  "training_through": "2026-09-28",
+  "trials": [
+    {
+      "family": "RandomForestRegressor",
+      "depth": 5,
+      "validation_score_mae": 7.524964323391911
+    },
+    {
+      "family": "RandomForestRegressor",
+      "depth": 10,
+      "validation_score_mae": 7.523332175896776
+    },
+    {
+      "family": "ExtraTreesRegressor",
+      "depth": 5,
+      "validation_score_mae": 7.527954445580499
+    },
+    {
+      "family": "ExtraTreesRegressor",
+      "depth": 10,
+      "validation_score_mae": 7.478573541232494
+    }
+  ],
+  "home_mae": 8.777847630077614,
+  "away_mae": 8.51317118107228,
+  "margin_mae": 11.821940758730008,
+  "total_mae": 12.491359681989238,
+  "note": "Expected points, not exact score outcomes or ATS probabilities. Two equally weighted tree regressors; independent of the winner classifier. Historical dataset excludes ties."
+}

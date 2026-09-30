@@ -13,6 +13,8 @@ explanations/*
 !data/nfl_matchups_1999_2026_advanced.csv
 !models/retraining_2026.json
 !models/simulation_config.json
+!models/score_models/
+!predictions/nfl_2026_score_predictions.csv
 !models/expanded_comparison.json
 !models/expanded_holdout_predictions.csv
 !data/nfl_matchups_1999_2026_expanded.csv

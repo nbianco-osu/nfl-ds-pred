@@ -50,6 +50,8 @@ def main() -> None:
     predictions['status'] = predictions.home_score.notna().map({True: 'Final', False: 'Scheduled'})
     predictions = predictions.sort_values(['week', 'game_id'])
     predictions = grade_predictions(predictions)
+    from score_markets import refresh as refresh_scores
+    predictions = refresh_scores(predictions, schedule, history, snapshots, root)
     public = predictions.copy()
     teams = pd.read_csv(root / 'data/team_metadata.csv').set_index('team_abbr')
     for side in ['home', 'away']:

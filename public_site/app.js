@@ -144,6 +144,7 @@ async function main() {
 
   renderMetrics(predictions, metrics);
   renderFilters(predictions);
+  window.setupScoreLines(predictions);
   renderShap(shapRows);
   window.setupSeasonCharts(seasonCharts || {teams: []});
   if (!seasonCharts) byId('seasonTab').textContent = 'Team Season Charts (unavailable)';

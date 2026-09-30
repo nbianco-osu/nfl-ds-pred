@@ -240,7 +240,27 @@ top[1].metric("Model", type(artifact["model"].named_steps["model"]).__name__)
 top[2].metric("Holdout Log Loss", f"{metrics.get('log_loss', float('nan')):.3f}")
 top[3].metric("Holdout ROC AUC", f"{metrics.get('roc_auc', float('nan')):.3f}")
 
-schedule_tab, season_tab, comparison_tab, model_tab, game_tab = st.tabs(["Schedule", "Team Season Charts", "Model Comparison", "Model Signals", "Game Explanation"])
+schedule_tab, season_tab, comparison_tab, model_tab, game_tab, scores_tab = st.tabs(["Schedule", "Team Season Charts", "Model Comparison", "Model Signals", "Game Explanation", "Scores & Lines"])
+
+with scores_tab:
+    st.subheader("Expected Scores, Spreads & Totals")
+    st.caption("Separate two-regressor score ensemble; expected points can disagree with the winner classifier. nflverse lines are snapshots, not live prices. Negative home handicap means home favored. Educational research, not betting advice.")
+    score_columns = {'week': 'Week', 'away_team': 'Away', 'home_team': 'Home',
+                     'predicted_away_score': 'Expected away points', 'predicted_home_score': 'Expected home points',
+                     'market_home_spread': 'Home handicap', 'market_total': 'Total line',
+                     'model_spread_side': 'Model spread result', 'model_total_side': 'Model total result',
+                     'away_score': 'Actual away points', 'home_score': 'Actual home points',
+                     'actual_spread_side': 'Actual spread result', 'spread_grade': 'Spread pick correct?',
+                     'actual_total_side': 'Actual total result', 'total_grade': 'Total pick correct?',
+                     'line_basis': 'Line basis', 'line_observed_at': 'Line snapshot time'}
+    if 'predicted_home_score' in predictions:
+        score_view = predictions[[c for c in score_columns if c in predictions]].rename(columns=score_columns)
+        def score_color(value):
+            return 'color: #14653a' if value == 'Correct' else 'color: #aa2424' if value == 'Wrong' else ''
+        st.dataframe(score_view.style.map(score_color, subset=['Spread pick correct?', 'Total pick correct?']), hide_index=True, use_container_width=True)
+    else:
+        st.info("Score forecasts have not been refreshed yet.")
+    st.caption("Missing lines and legacy pregame scores remain unavailable. Forecasts and line snapshots freeze at kickoff. Pushes are excluded from correctness; no archived score-and-line pick means no model grade.")
 
 with season_tab:
     from season_charts import build_series

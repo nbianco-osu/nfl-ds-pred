@@ -373,3 +373,12 @@ th {
     margin-inline: 28px;
   }
 }
+:root { --score-green: #14653a; --score-red: #aa2424; }
+.score-table { min-width: 1680px; }
+.score-table td { vertical-align: top; }
+.score-table strong, .score-table small { display: block; margin-top: 5px; }
+.score-table small { font-size: 12px; }
+.score-grade { font-weight: 650; }
+.score-correct { color: var(--score-green); }
+.score-wrong { color: var(--score-red); }
+.view-tabs { flex-wrap: wrap; }

@@ -6,6 +6,8 @@ const root = dirname(fileURLToPath(import.meta.url));
 const dist = join(root, "dist");
 
 const assets = {
+  "/score_lines.js": { file: "score_lines.js", type: "text/javascript; charset=utf-8" },
+  "/data/score_metrics.json": { file: "data/score_metrics.json", type: "application/json; charset=utf-8" },
   "/season_chart.js": { file: "season_chart.js", type: "text/javascript; charset=utf-8" },
   "/vendor/chart.umd.min.js": { file: "vendor/chart.umd.min.js", type: "text/javascript; charset=utf-8" },
   "/vendor/Chart.js.LICENSE.md": { file: "vendor/Chart.js.LICENSE.md", type: "text/plain; charset=utf-8" },

@@ -103,14 +103,13 @@ def load_schedule(season: int, schedule_csv: Path | None, source: str) -> pd.Dat
     return schedule.sort_values(["week", "game_id"]).reset_index(drop=True)
 
 
-def predict_schedule(schedule: pd.DataFrame, history: pd.DataFrame, artifact: dict[str, object], snapshots=None) -> pd.DataFrame:
+def build_schedule_features(schedule: pd.DataFrame, history: pd.DataFrame, artifact: dict[str, object], snapshots=None):
     if schedule.empty:
         raise ValueError(
             "No schedule rows found. Try --source espn, or pass --schedule-csv with columns season, week, "
             "game_id, home_team, away_team, and optional gameday, roof, surface, temp, wind, div_game."
         )
 
-    model = artifact["model"]
     feature_cols = artifact["feature_cols"]
     expanded = None
     if artifact.get('requires_expanded_features'):
@@ -165,8 +164,12 @@ def predict_schedule(schedule: pd.DataFrame, history: pd.DataFrame, artifact: di
         )
 
     features = pd.concat(feature_rows, ignore_index=True)
-    home_probs = model.predict_proba(features)[:, 1]
-    predictions = pd.DataFrame(rows)
+    return pd.DataFrame(rows), features
+
+
+def predict_schedule(schedule: pd.DataFrame, history: pd.DataFrame, artifact: dict[str, object], snapshots=None) -> pd.DataFrame:
+    predictions, features = build_schedule_features(schedule, history, artifact, snapshots)
+    home_probs = artifact['model'].predict_proba(features)[:, 1]
     predictions["home_win_probability"] = home_probs
     predictions["away_win_probability"] = 1 - predictions["home_win_probability"]
     predictions["predicted_winner"] = predictions["home_team"].where(

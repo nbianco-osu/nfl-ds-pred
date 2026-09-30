@@ -28,6 +28,7 @@
       <div class="view-tabs" role="tablist" aria-label="Dashboard views">
         <button id="dashboardTab" role="tab" aria-selected="true" aria-controls="dashboardPanel">Matchups &amp; Models</button>
         <button id="seasonTab" role="tab" aria-selected="false" aria-controls="seasonPanel" tabindex="-1">Team Season Charts</button>
+        <button id="scoresTab" role="tab" aria-selected="false" aria-controls="scoresPanel" tabindex="-1">Scores &amp; Lines</button>
       </div>
       <div id="dashboardPanel" role="tabpanel" aria-labelledby="dashboardTab">
 
@@ -157,6 +158,21 @@
         <div id="teamCharts" class="team-charts" aria-live="polite"></div>
       </section>
 
+      <section id="scoresPanel" role="tabpanel" aria-labelledby="scoresTab" hidden>
+        <h2>Expected Scores, Spreads &amp; Totals</h2>
+        <div class="comparison-controls">
+          <label>Week<select id="scoreWeek"><option value="all">All weeks</option></select></label>
+          <label>Team<select id="scoreTeam"><option value="all">All teams</option></select></label>
+          <span id="scoreCount" aria-live="polite"></span>
+        </div>
+        <p class="body-copy">Expected points come from a separate Random Forest / Extra Trees regression ensemble, not the winner classifier. Decimal scores are averages, not exact-score forecasts, and can imply a different winner. Lines are nflverse snapshots, not live prices. Missing lines are not estimated.</p>
+        <p id="scoreEvaluation" class="body-copy"></p>
+        <div class="table-wrap" tabindex="0" aria-label="Expected scores and spread and total results">
+          <table class="score-table"><thead><tr><th>Week / matchup</th><th>Expected score<br>Away - Home</th><th>Home handicap</th><th>Total line</th><th>Model spread result</th><th>Model total result</th><th>Final score<br>Away - Home</th><th>Actual spread result</th><th>Spread pick correct?</th><th>Actual total result</th><th>Total pick correct?</th><th>Line source / snapshot</th></tr></thead><tbody id="scoreRows"></tbody></table>
+        </div>
+        <p class="body-copy">A negative home handicap means the home team is favored. A push means the adjusted margin or total equals the line; pushes are not wins or losses. Model picks require an archived pregame score and line. Earlier completed games have actual line results only, with no retrospective model picks. Forecasts and available lines freeze at kickoff; settled comparisons use that snapshot when available.</p>
+        <p><a href="https://nflreadr.nflverse.com/articles/dictionary_schedules.html">nflverse schedule and line definitions</a></p>
+      </section>
       <section class="panel disclaimer">
         <p class="eyebrow">Disclaimers And Fair Use</p>
         <h2>Educational Predictive Analytics</h2>
@@ -175,6 +191,7 @@
 
     <script src="./vendor/chart.umd.min.js"></script>
     <script src="./season_chart.js"></script>
+    <script src="./score_lines.js"></script>
     <script src="./app.js"></script>
   </body>
 </html>
