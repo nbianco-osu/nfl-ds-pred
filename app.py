@@ -247,14 +247,16 @@ with scores_tab:
     st.caption("Separate two-regressor score ensemble; expected points can disagree with the winner classifier. nflverse lines are snapshots, not live prices. Negative home handicap means home favored. Educational research, not betting advice.")
     score_columns = {'week': 'Week', 'away_team': 'Away', 'home_team': 'Home',
                      'predicted_away_score': 'Expected away points', 'predicted_home_score': 'Expected home points',
+                     'predicted_total': 'Model predicted total', 'predicted_margin': 'Model margin (home - away)',
                      'market_home_spread': 'Home handicap', 'market_total': 'Total line',
                      'model_spread_side': 'Model spread result', 'model_total_side': 'Model total result',
-                     'away_score': 'Actual away points', 'home_score': 'Actual home points',
+                     'away_score': 'Actual away points', 'home_score': 'Actual home points', 'actual_total': 'Actual total',
                      'actual_spread_side': 'Actual spread result', 'spread_grade': 'Spread pick correct?',
                      'actual_total_side': 'Actual total result', 'total_grade': 'Total pick correct?',
                      'line_basis': 'Line basis', 'line_observed_at': 'Line snapshot time'}
     if 'predicted_home_score' in predictions:
-        score_view = predictions[[c for c in score_columns if c in predictions]].rename(columns=score_columns)
+        score_data = predictions.assign(actual_total=predictions.home_score + predictions.away_score)
+        score_view = score_data[[c for c in score_columns if c in score_data]].rename(columns=score_columns)
         def score_color(value):
             return 'color: #14653a' if value == 'Correct' else 'color: #aa2424' if value == 'Wrong' else ''
         st.dataframe(score_view.style.map(score_color, subset=['Spread pick correct?', 'Total pick correct?']), hide_index=True, use_container_width=True)

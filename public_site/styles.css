@@ -374,7 +374,7 @@ th {
   }
 }
 :root { --score-green: #14653a; --score-red: #aa2424; }
-.score-table { min-width: 1680px; }
+.score-table { min-width: 2050px; }
 .score-table td { vertical-align: top; }
 .score-table strong, .score-table small { display: block; margin-top: 5px; }
 .score-table small { font-size: 12px; }
