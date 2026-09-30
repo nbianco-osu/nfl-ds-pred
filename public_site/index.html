@@ -165,8 +165,13 @@
           <label>Team<select id="scoreTeam"><option value="all">All teams</option></select></label>
           <span id="scoreCount" aria-live="polite"></span>
         </div>
-        <p class="body-copy">Expected points come from a separate Random Forest / Extra Trees regression ensemble, not the winner classifier. Decimal scores are averages, not exact-score forecasts, and can imply a different winner. Lines are nflverse snapshots, not live prices. Missing lines are not estimated.</p>
+        <p class="body-copy">Expected points come from a separately trained score-regression ensemble, not the winner classifier. Decimal scores are averages, not exact-score forecasts, and can imply a different winner. Lines are nflverse snapshots, not live prices. Missing lines are not estimated.</p>
         <p id="scoreEvaluation" class="body-copy"></p>
+        <p id="scoreLiveResults" aria-live="polite"></p>
+        <details><summary>Score model training and retrospective evaluation</summary>
+          <p class="body-copy">Four regression families, two settings each. Settings and the top-two equal-weight ensemble are selected on 2025 margin/total error. The 2026 evaluation precedes final refitting through the latest completed games. Historical source lines are not timestamped pregame snapshots: the research hit rates below are not live results, profitability, or evidence of an advantage. Pushes, missing lines, and model no-edge picks are excluded from hit-rate denominators.</p>
+          <div class="table-wrap"><table><thead><tr><th>Score model</th><th>Ensemble member</th><th>2025 selection error</th><th>2026 margin MAE</th><th>2026 total MAE</th><th>2026 spread correct / graded</th><th>2026 O/U correct / graded</th></tr></thead><tbody id="scoreModelRows"></tbody></table></div>
+        </details>
         <div class="table-wrap" tabindex="0" aria-label="Expected scores and spread and total results">
           <table class="score-table"><thead><tr><th>Week / matchup</th><th>Model predicted score<br>Away - Home</th><th>Model predicted total</th><th>Betting total (O/U)</th><th>Model total result</th><th>Model predicted margin<br>Home - Away</th><th>Betting spread<br>Home handicap</th><th>Model spread result</th><th>Actual score<br>Away - Home</th><th>Actual total</th><th>Actual total result</th><th>Total pick correct?</th><th>Actual spread result</th><th>Spread pick correct?</th><th>Line source / snapshot</th></tr></thead><tbody id="scoreRows"></tbody></table>
         </div>

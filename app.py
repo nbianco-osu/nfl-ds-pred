@@ -244,7 +244,11 @@ schedule_tab, season_tab, comparison_tab, model_tab, game_tab, scores_tab = st.t
 
 with scores_tab:
     st.subheader("Expected Scores, Spreads & Totals")
-    st.caption("Separate two-regressor score ensemble; expected points can disagree with the winner classifier. nflverse lines are snapshots, not live prices. Negative home handicap means home favored. Educational research, not betting advice.")
+    st.caption("Separately trained score ensemble; expected points can disagree with the winner classifier. nflverse lines are snapshots, not live prices. Negative home handicap means home favored. Educational research, not betting advice.")
+    score_report = ROOT / 'models/score_models/score_ensemble.metrics.json'
+    if score_report.exists():
+        report = json.loads(score_report.read_text())
+        st.caption(f"Score models: {', '.join(report.get('selected_models', []))}. Trained through {report['training_through']}. Retrospective pre-refit margin MAE: {report['margin_mae']:.1f}; total MAE: {report['total_mae']:.1f} points. Not live pregame accuracy.")
     score_columns = {'week': 'Week', 'away_team': 'Away', 'home_team': 'Home',
                      'predicted_away_score': 'Expected away points', 'predicted_home_score': 'Expected home points',
                      'predicted_total': 'Model predicted total', 'predicted_margin': 'Model margin (home - away)',

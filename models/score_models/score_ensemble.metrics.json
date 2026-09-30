@@ -6,28 +6,249 @@
   "trials": [
     {
       "family": "RandomForestRegressor",
-      "depth": 5,
-      "validation_score_mae": 7.524964323391911
+      "params": {
+        "max_depth": 5,
+        "max_features": 0.5
+      },
+      "validation_objective": 10.572711724319102,
+      "home_mae": 7.389113781945705,
+      "away_mae": 7.643480755867089,
+      "margin_mae": 10.455115196690679,
+      "total_mae": 10.690308251947528
     },
     {
       "family": "RandomForestRegressor",
-      "depth": 10,
-      "validation_score_mae": 7.523332175896776
+      "params": {
+        "max_depth": 10,
+        "max_features": 0.5
+      },
+      "validation_objective": 10.540696583437853,
+      "home_mae": 7.330033155697783,
+      "away_mae": 7.654729861533568,
+      "margin_mae": 10.370397269804846,
+      "total_mae": 10.71099589707086
     },
     {
       "family": "ExtraTreesRegressor",
-      "depth": 5,
-      "validation_score_mae": 7.527954445580499
+      "params": {
+        "max_depth": 5,
+        "max_features": 0.5
+      },
+      "validation_objective": 10.572788818028357,
+      "home_mae": 7.414910607398662,
+      "away_mae": 7.650507280091328,
+      "margin_mae": 10.38660007758457,
+      "total_mae": 10.758977558472145
     },
     {
       "family": "ExtraTreesRegressor",
-      "depth": 10,
-      "validation_score_mae": 7.478573541232494
+      "params": {
+        "max_depth": 10,
+        "max_features": 0.5
+      },
+      "validation_objective": 10.498711679115154,
+      "home_mae": 7.324246977963285,
+      "away_mae": 7.621060010167931,
+      "margin_mae": 10.276353234656098,
+      "total_mae": 10.72107012357421
+    },
+    {
+      "family": "Ridge",
+      "params": {
+        "alpha": 100
+      },
+      "validation_objective": 10.63563925024118,
+      "home_mae": 7.196047912064987,
+      "away_mae": 7.721508786554139,
+      "margin_mae": 10.44037985430443,
+      "total_mae": 10.83089864617793
+    },
+    {
+      "family": "Ridge",
+      "params": {
+        "alpha": 1000
+      },
+      "validation_objective": 10.561710206876263,
+      "home_mae": 7.226524089093739,
+      "away_mae": 7.66897765858036,
+      "margin_mae": 10.49219675602423,
+      "total_mae": 10.631223657728297
+    },
+    {
+      "family": "HistGradientBoostingRegressor",
+      "params": {
+        "max_leaf_nodes": 7,
+        "l2_regularization": 10
+      },
+      "validation_objective": 10.517343131587612,
+      "home_mae": 7.272919002631504,
+      "away_mae": 7.638709106351664,
+      "margin_mae": 10.382909532328458,
+      "total_mae": 10.651776730846768
+    },
+    {
+      "family": "HistGradientBoostingRegressor",
+      "params": {
+        "max_leaf_nodes": 15,
+        "l2_regularization": 10
+      },
+      "validation_objective": 10.541497816588803,
+      "home_mae": 7.281858882423792,
+      "away_mae": 7.66201644047203,
+      "margin_mae": 10.32187560004037,
+      "total_mae": 10.761120033137237
     }
   ],
-  "home_mae": 8.777847630077614,
-  "away_mae": 8.51317118107228,
-  "margin_mae": 11.821940758730008,
-  "total_mae": 12.491359681989238,
-  "note": "Expected points, not exact score outcomes or ATS probabilities. Two equally weighted tree regressors; independent of the winner classifier. Historical dataset excludes ties."
+  "home_mae": 8.761366117009972,
+  "away_mae": 8.401943882137045,
+  "margin_mae": 11.700213248092476,
+  "total_mae": 12.39655739400728,
+  "selection": "Equal-weight top two families by mean of margin and total MAE on 2025",
+  "selected_models": [
+    "ExtraTreesRegressor",
+    "HistGradientBoostingRegressor"
+  ],
+  "markets": {
+    "spread": {
+      "correct": 19,
+      "wrong": 25,
+      "graded": 44,
+      "pushes": 3,
+      "no_edge": 1,
+      "missing": 0,
+      "accuracy": 0.4318181818181818
+    },
+    "total": {
+      "correct": 18,
+      "wrong": 30,
+      "graded": 48,
+      "pushes": 0,
+      "no_edge": 0,
+      "missing": 0,
+      "accuracy": 0.375
+    }
+  },
+  "candidates": [
+    {
+      "family": "ExtraTreesRegressor",
+      "validation_objective": 10.498711679115154,
+      "holdout": {
+        "home_mae": 8.6676807900403,
+        "away_mae": 8.396595759944411,
+        "margin_mae": 11.604829962080194,
+        "total_mae": 12.404842836839856,
+        "markets": {
+          "spread": {
+            "correct": 18,
+            "wrong": 27,
+            "graded": 45,
+            "pushes": 3,
+            "no_edge": 0,
+            "missing": 0,
+            "accuracy": 0.4
+          },
+          "total": {
+            "correct": 16,
+            "wrong": 31,
+            "graded": 47,
+            "pushes": 0,
+            "no_edge": 1,
+            "missing": 0,
+            "accuracy": 0.3404255319148936
+          }
+        }
+      }
+    },
+    {
+      "family": "HistGradientBoostingRegressor",
+      "validation_objective": 10.517343131587612,
+      "holdout": {
+        "home_mae": 8.866669763730044,
+        "away_mae": 8.433380012853506,
+        "margin_mae": 11.802604772102569,
+        "total_mae": 12.388271951174701,
+        "markets": {
+          "spread": {
+            "correct": 18,
+            "wrong": 27,
+            "graded": 45,
+            "pushes": 3,
+            "no_edge": 0,
+            "missing": 0,
+            "accuracy": 0.4
+          },
+          "total": {
+            "correct": 19,
+            "wrong": 29,
+            "graded": 48,
+            "pushes": 0,
+            "no_edge": 0,
+            "missing": 0,
+            "accuracy": 0.3958333333333333
+          }
+        }
+      }
+    },
+    {
+      "family": "RandomForestRegressor",
+      "validation_objective": 10.540696583437853,
+      "holdout": {
+        "home_mae": 8.689396036140819,
+        "away_mae": 8.476699138581049,
+        "margin_mae": 11.722026083179841,
+        "total_mae": 12.346945909692664,
+        "markets": {
+          "spread": {
+            "correct": 20,
+            "wrong": 24,
+            "graded": 44,
+            "pushes": 3,
+            "no_edge": 1,
+            "missing": 0,
+            "accuracy": 0.45454545454545453
+          },
+          "total": {
+            "correct": 16,
+            "wrong": 32,
+            "graded": 48,
+            "pushes": 0,
+            "no_edge": 0,
+            "missing": 0,
+            "accuracy": 0.3333333333333333
+          }
+        }
+      }
+    },
+    {
+      "family": "Ridge",
+      "validation_objective": 10.561710206876263,
+      "holdout": {
+        "home_mae": 9.497064124108242,
+        "away_mae": 8.622423622810938,
+        "margin_mae": 12.644991096058758,
+        "total_mae": 13.042370414641281,
+        "markets": {
+          "spread": {
+            "correct": 20,
+            "wrong": 25,
+            "graded": 45,
+            "pushes": 3,
+            "no_edge": 0,
+            "missing": 0,
+            "accuracy": 0.4444444444444444
+          },
+          "total": {
+            "correct": 15,
+            "wrong": 32,
+            "graded": 47,
+            "pushes": 0,
+            "no_edge": 1,
+            "missing": 0,
+            "accuracy": 0.3191489361702128
+          }
+        }
+      }
+    }
+  ],
+  "note": "Expected points, not exact score outcomes or ATS probabilities. Independent of winner classifier. Historical dataset excludes ties. Market evaluation uses retrospective source lines, not archived pregame picks; missing lines, pushes and no-edge picks excluded from accuracy."
 }

@@ -4,6 +4,7 @@ window.setupScoreLines = function (games) {
   const valid = value => value != null && Number.isFinite(Number(value));
   const points = value => valid(value) ? Number(value).toFixed(1) : 'Not available';
   const signed = value => `${Number(value) > 0 ? '+' : ''}${points(value)}`;
+  const modelName = value => ({ExtraTreesRegressor:'Extra Trees', RandomForestRegressor:'Random Forest', HistGradientBoostingRegressor:'Histogram Gradient Boosting', Ridge:'Ridge Regression'})[value] || value;
   const badge = value => `<span class="score-grade ${value === 'Correct' ? 'score-correct' : value === 'Wrong' ? 'score-wrong' : ''}">${esc(value || 'Not available')}</span>`;
   const outcome = (value, spread = false) => !value ? 'Not available' : value === 'Push' ? 'Push' : `${esc(value)}${spread ? ' covers' : ''}`;
   for (const week of [...new Set(games.map(g => g.week))].sort((a,b) => a-b)) el('scoreWeek').add(new Option(`Week ${week}`, week));
@@ -12,6 +13,13 @@ window.setupScoreLines = function (games) {
   function render() {
     const rows = games.filter(g => (el('scoreWeek').value === 'all' || String(g.week) === el('scoreWeek').value) && (el('scoreTeam').value === 'all' || [g.home_team,g.away_team].includes(el('scoreTeam').value)));
     el('scoreCount').textContent = `${rows.length} games`;
+    const live = (field, name) => {
+      const correct = rows.filter(g => g[field] === 'Correct').length;
+      const wrong = rows.filter(g => g[field] === 'Wrong').length;
+      const pushes = rows.filter(g => g[field] === 'Push').length;
+      return `${name}: ${correct + wrong ? `${correct}/${correct + wrong} correct` : 'no settled pregame picks'}; ${pushes} pushes`;
+    };
+    el('scoreLiveResults').textContent = `Live archived picks for selected games. ${live('spread_grade','Spread')}. ${live('total_grade','O/U')}.`;
     el('scoreRows').innerHTML = rows.map(g => {
       const predicted = valid(g.predicted_away_score) && valid(g.predicted_home_score);
       const final = valid(g.away_score) && valid(g.home_score);
@@ -34,6 +42,8 @@ window.setupScoreLines = function (games) {
   el('scoreTeam').addEventListener('change',render);
   render();
   fetch('./data/score_metrics.json').then(r => {if (!r.ok) throw new Error(); return r.json();}).then(m => {
-    el('scoreEvaluation').textContent = `Trained through ${m.training_through}. Retrospective pre-refit evaluation on ${m.holdout_rows} games in 2026: margin mean absolute error ${points(m.margin_mae)} points; total mean absolute error ${points(m.total_mae)} points. Tuning used 2025 only. This small sample is not live forecast accuracy; historical training excludes ties. No cover probabilities are estimated.`;
+    el('scoreEvaluation').textContent = `Score ensemble: ${(m.selected_models || []).map(modelName).join(' + ')}. Trained through ${m.training_through}. Retrospective pre-refit evaluation on ${m.holdout_rows} games in 2026: margin mean absolute error ${points(m.margin_mae)} points; total mean absolute error ${points(m.total_mae)} points. Tuning used 2025 only. This small sample is not live forecast accuracy; historical training excludes ties. No cover probabilities are estimated.`;
+    const count = value => value ? `${value.correct} / ${value.graded}` : 'Not available';
+    el('scoreModelRows').innerHTML = (m.candidates || []).map(c => `<tr><td>${esc(modelName(c.family))}</td><td>${(m.selected_models || []).includes(c.family) ? 'Yes' : 'No'}</td><td>${points(c.validation_objective)}</td><td>${points(c.holdout.margin_mae)}</td><td>${points(c.holdout.total_mae)}</td><td>${count(c.holdout.markets?.spread)}</td><td>${count(c.holdout.markets?.total)}</td></tr>`).join('') + `<tr><td><strong>Selected ensemble</strong></td><td>Serving score forecasts</td><td>Top-two mean</td><td>${points(m.margin_mae)}</td><td>${points(m.total_mae)}</td><td>${count(m.markets?.spread)}</td><td>${count(m.markets?.total)}</td></tr>`;
   }).catch(() => {el('scoreEvaluation').textContent = 'Score model evaluation is temporarily unavailable.';});
 };
