@@ -1,6 +1,6 @@
 {
   "status": "Learning in shadow mode",
-  "training_games": 0,
+  "training_games": 8,
   "selected_game_ids": {
     "2026_04": [
       "2026_04_JAX_CIN",
@@ -11,6 +11,16 @@
       "2026_04_ARI_NYG",
       "2026_04_NYJ_CHI",
       "2026_04_DAL_HOU"
+    ],
+    "2026_05": [
+      "2026_05_BUF_LA",
+      "2026_05_MIN_NO",
+      "2026_05_NYG_WAS",
+      "2026_05_IND_PIT",
+      "2026_05_LV_NE",
+      "2026_05_HOU_TEN",
+      "2026_05_SF_SEA",
+      "2026_05_CHI_GB"
     ]
   },
   "evaluated_games": 0,
