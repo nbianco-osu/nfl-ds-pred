@@ -39,7 +39,7 @@
     "predicted_winner_name":"Los Angeles Chargers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lac.png",
     "confidence":0.5605314022,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -82,7 +82,7 @@
     "predicted_winner_name":"Pittsburgh Steelers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/pit.png",
     "confidence":0.5552331033,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -125,7 +125,7 @@
     "predicted_winner_name":"Baltimore Ravens",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/bal.png",
     "confidence":0.5750127622,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -168,7 +168,7 @@
     "predicted_winner_name":"Buffalo Bills",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/buf.png",
     "confidence":0.5287384429,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -211,7 +211,7 @@
     "predicted_winner_name":"Chicago Bears",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/chi.png",
     "confidence":0.5232878767,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -254,7 +254,7 @@
     "predicted_winner_name":"Jacksonville Jaguars",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/jax.png",
     "confidence":0.6794762773,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -297,7 +297,7 @@
     "predicted_winner_name":"Dallas Cowboys",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/dal.png",
     "confidence":0.5587367325,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -340,7 +340,7 @@
     "predicted_winner_name":"Denver Broncos",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/den.png",
     "confidence":0.5480019001,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -383,7 +383,7 @@
     "predicted_winner_name":"Green Bay Packers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/gb.png",
     "confidence":0.5311189862,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -426,7 +426,7 @@
     "predicted_winner_name":"Miami Dolphins",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/mia.png",
     "confidence":0.5327730206,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -469,7 +469,7 @@
     "predicted_winner_name":"New England Patriots",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ne.png",
     "confidence":0.5047649985,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -512,7 +512,7 @@
     "predicted_winner_name":"Detroit Lions",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/det.png",
     "confidence":0.6201943752,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -555,7 +555,7 @@
     "predicted_winner_name":"Tennessee Titans",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ten.png",
     "confidence":0.5911182469,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -598,7 +598,7 @@
     "predicted_winner_name":"Los Angeles Rams",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lar.png",
     "confidence":0.5236986268,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -641,7 +641,7 @@
     "predicted_winner_name":"Cincinnati Bengals",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/cin.png",
     "confidence":0.5337672602,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -684,7 +684,7 @@
     "predicted_winner_name":"Philadelphia Eagles",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/phi.png",
     "confidence":0.5680833064,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -727,7 +727,7 @@
     "predicted_winner_name":"Atlanta Falcons",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/atl.png",
     "confidence":0.6671954684,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -770,7 +770,7 @@
     "predicted_winner_name":"Cincinnati Bengals",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/cin.png",
     "confidence":0.5406735201,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -813,7 +813,7 @@
     "predicted_winner_name":"Tampa Bay Buccaneers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/tb.png",
     "confidence":0.7606459251,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -856,7 +856,7 @@
     "predicted_winner_name":"Buffalo Bills",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/buf.png",
     "confidence":0.5714775301,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -899,7 +899,7 @@
     "predicted_winner_name":"Green Bay Packers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/gb.png",
     "confidence":0.5977860655,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -942,7 +942,7 @@
     "predicted_winner_name":"Kansas City Chiefs",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/kc.png",
     "confidence":0.6296520332,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -985,7 +985,7 @@
     "predicted_winner_name":"Denver Broncos",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/den.png",
     "confidence":0.5204342534,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -1028,7 +1028,7 @@
     "predicted_winner_name":"Los Angeles Chargers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lac.png",
     "confidence":0.5847694843,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -1071,7 +1071,7 @@
     "predicted_winner_name":"San Francisco 49ers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sf.png",
     "confidence":0.7770391963,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -1114,7 +1114,7 @@
     "predicted_winner_name":"Chicago Bears",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/chi.png",
     "confidence":0.6060898002,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -1157,7 +1157,7 @@
     "predicted_winner_name":"Baltimore Ravens",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/bal.png",
     "confidence":0.6798288496,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -1200,7 +1200,7 @@
     "predicted_winner_name":"Los Angeles Rams",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lar.png",
     "confidence":0.6054909203,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -1243,7 +1243,7 @@
     "predicted_winner_name":"Philadelphia Eagles",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/phi.png",
     "confidence":0.6749635057,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -1286,7 +1286,7 @@
     "predicted_winner_name":"New England Patriots",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ne.png",
     "confidence":0.5942070368,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -1329,7 +1329,7 @@
     "predicted_winner_name":"Seattle Seahawks",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sea.png",
     "confidence":0.5055132072,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -1372,7 +1372,7 @@
     "predicted_winner_name":"Washington Commanders",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/wsh.png",
     "confidence":0.5184565111,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -1415,7 +1415,7 @@
     "predicted_winner_name":"San Francisco 49ers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sf.png",
     "confidence":0.8021444076,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -1458,7 +1458,7 @@
     "predicted_winner_name":"Green Bay Packers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/gb.png",
     "confidence":0.6547478357,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -1501,7 +1501,7 @@
     "predicted_winner_name":"Baltimore Ravens",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/bal.png",
     "confidence":0.5388277225,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -1544,7 +1544,7 @@
     "predicted_winner_name":"Carolina Panthers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500-dark\/car.png",
     "confidence":0.6140697846,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -1587,7 +1587,7 @@
     "predicted_winner_name":"Cincinnati Bengals",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/cin.png",
     "confidence":0.5834969988,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -1630,7 +1630,7 @@
     "predicted_winner_name":"Indianapolis Colts",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ind.png",
     "confidence":0.5206409616,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -1673,7 +1673,7 @@
     "predicted_winner_name":"Kansas City Chiefs",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/kc.png",
     "confidence":0.6969059185,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -1716,7 +1716,7 @@
     "predicted_winner_name":"Buffalo Bills",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/buf.png",
     "confidence":0.7359985766,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -1759,7 +1759,7 @@
     "predicted_winner_name":"Los Angeles Rams",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lar.png",
     "confidence":0.5770573136,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -1802,7 +1802,7 @@
     "predicted_winner_name":"New Orleans Saints",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/no.png",
     "confidence":0.5076010827,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -1845,7 +1845,7 @@
     "predicted_winner_name":"Minnesota Vikings",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/min.png",
     "confidence":0.5070563055,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -1888,7 +1888,7 @@
     "predicted_winner_name":"Jacksonville Jaguars",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/jax.png",
     "confidence":0.6349417408,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -1931,7 +1931,7 @@
     "predicted_winner_name":"Detroit Lions",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/det.png",
     "confidence":0.549988311,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -1974,7 +1974,7 @@
     "predicted_winner_name":"Chicago Bears",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/chi.png",
     "confidence":0.5187914185,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -2017,7 +2017,7 @@
     "predicted_winner_name":"Seattle Seahawks",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sea.png",
     "confidence":0.5917553207,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -2060,7 +2060,7 @@
     "predicted_winner_name":"New York Giants",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/nyg.png",
     "confidence":0.5744432559,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -2103,7 +2103,7 @@
     "predicted_winner_name":"Arizona Cardinals",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ari.png",
     "confidence":0.5413980921,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -2146,7 +2146,7 @@
     "predicted_winner_name":"New Orleans Saints",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/no.png",
     "confidence":0.6457558316,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -2189,7 +2189,7 @@
     "predicted_winner_name":"Dallas Cowboys",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/dal.png",
     "confidence":0.574251692,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -2232,7 +2232,7 @@
     "predicted_winner_name":"San Francisco 49ers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sf.png",
     "confidence":0.79987715,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -2275,7 +2275,7 @@
     "predicted_winner_name":"Detroit Lions",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/det.png",
     "confidence":0.5319750809,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -2318,7 +2318,7 @@
     "predicted_winner_name":"Tampa Bay Buccaneers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/tb.png",
     "confidence":0.547829131,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -2361,7 +2361,7 @@
     "predicted_winner_name":"Washington Commanders",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/wsh.png",
     "confidence":0.6173457202,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -2404,7 +2404,7 @@
     "predicted_winner_name":"Cincinnati Bengals",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/cin.png",
     "confidence":0.5126366019,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -2447,7 +2447,7 @@
     "predicted_winner_name":"Kansas City Chiefs",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/kc.png",
     "confidence":0.5490170747,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -2490,7 +2490,7 @@
     "predicted_winner_name":"Seattle Seahawks",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sea.png",
     "confidence":0.8137594639,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -2533,7 +2533,7 @@
     "predicted_winner_name":"Philadelphia Eagles",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/phi.png",
     "confidence":0.5324541779,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -2576,7 +2576,7 @@
     "predicted_winner_name":"Minnesota Vikings",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/min.png",
     "confidence":0.7068409889,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -2619,7 +2619,7 @@
     "predicted_winner_name":"Buffalo Bills",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/buf.png",
     "confidence":0.8115379492,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -2662,7 +2662,7 @@
     "predicted_winner_name":"Chicago Bears",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/chi.png",
     "confidence":0.6215474625,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -2705,7 +2705,7 @@
     "predicted_winner_name":"Cleveland Browns",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/cle.png",
     "confidence":0.5017289548,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -2748,7 +2748,7 @@
     "predicted_winner_name":"Baltimore Ravens",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/bal.png",
     "confidence":0.7824527469,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -2791,7 +2791,7 @@
     "predicted_winner_name":"Baltimore Ravens",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/bal.png",
     "confidence":0.5918694334,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -2834,7 +2834,7 @@
     "predicted_winner_name":"Los Angeles Rams",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lar.png",
     "confidence":0.5066207406,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -2877,7 +2877,7 @@
     "predicted_winner_name":"Chicago Bears",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/chi.png",
     "confidence":0.5560463693,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -2920,7 +2920,7 @@
     "predicted_winner_name":"Cincinnati Bengals",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/cin.png",
     "confidence":0.6556226701,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -2963,7 +2963,7 @@
     "predicted_winner_name":"New York Jets",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/nyj.png",
     "confidence":0.5625342298,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -3006,7 +3006,7 @@
     "predicted_winner_name":"Denver Broncos",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/den.png",
     "confidence":0.5931727697,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -3049,7 +3049,7 @@
     "predicted_winner_name":"Detroit Lions",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/det.png",
     "confidence":0.6065584389,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -3092,7 +3092,7 @@
     "predicted_winner_name":"Houston Texans",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/hou.png",
     "confidence":0.5429464693,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -3135,7 +3135,7 @@
     "predicted_winner_name":"Pittsburgh Steelers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/pit.png",
     "confidence":0.5253408569,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -3178,7 +3178,7 @@
     "predicted_winner_name":"Las Vegas Raiders",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lv.png",
     "confidence":0.5279180086,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -3221,7 +3221,7 @@
     "predicted_winner_name":"Minnesota Vikings",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/min.png",
     "confidence":0.5163832925,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -3264,7 +3264,7 @@
     "predicted_winner_name":"Washington Commanders",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/wsh.png",
     "confidence":0.5246196684,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -3307,7 +3307,7 @@
     "predicted_winner_name":"Jacksonville Jaguars",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/jax.png",
     "confidence":0.7096458144,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -3350,7 +3350,7 @@
     "predicted_winner_name":"San Francisco 49ers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sf.png",
     "confidence":0.5601086352,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -3393,7 +3393,7 @@
     "predicted_winner_name":"Dallas Cowboys",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/dal.png",
     "confidence":0.5914980756,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -3436,7 +3436,7 @@
     "predicted_winner_name":"Los Angeles Rams",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lar.png",
     "confidence":0.6823327699,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -3479,7 +3479,7 @@
     "predicted_winner_name":"Baltimore Ravens",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/bal.png",
     "confidence":0.6561226373,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -3522,7 +3522,7 @@
     "predicted_winner_name":"Buffalo Bills",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/buf.png",
     "confidence":0.521274368,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -3565,7 +3565,7 @@
     "predicted_winner_name":"Philadelphia Eagles",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/phi.png",
     "confidence":0.52506648,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -3608,7 +3608,7 @@
     "predicted_winner_name":"Atlanta Falcons",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/atl.png",
     "confidence":0.5037185439,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -3651,7 +3651,7 @@
     "predicted_winner_name":"Dallas Cowboys",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/dal.png",
     "confidence":0.515897468,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -3694,7 +3694,7 @@
     "predicted_winner_name":"Jacksonville Jaguars",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/jax.png",
     "confidence":0.7413230462,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -3737,7 +3737,7 @@
     "predicted_winner_name":"Kansas City Chiefs",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/kc.png",
     "confidence":0.8447296192,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -3780,7 +3780,7 @@
     "predicted_winner_name":"New York Giants",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/nyg.png",
     "confidence":0.5221565694,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -3823,7 +3823,7 @@
     "predicted_winner_name":"New England Patriots",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ne.png",
     "confidence":0.5053252099,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -3866,7 +3866,7 @@
     "predicted_winner_name":"Tampa Bay Buccaneers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/tb.png",
     "confidence":0.5173290506,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -3909,7 +3909,7 @@
     "predicted_winner_name":"Seattle Seahawks",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sea.png",
     "confidence":0.5929368649,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -3952,7 +3952,7 @@
     "predicted_winner_name":"Indianapolis Colts",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ind.png",
     "confidence":0.6449680665,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -3995,7 +3995,7 @@
     "predicted_winner_name":"San Francisco 49ers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sf.png",
     "confidence":0.7512630201,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -4038,7 +4038,7 @@
     "predicted_winner_name":"Baltimore Ravens",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/bal.png",
     "confidence":0.6261849827,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -4081,7 +4081,7 @@
     "predicted_winner_name":"Cleveland Browns",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/cle.png",
     "confidence":0.5378523035,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -4124,7 +4124,7 @@
     "predicted_winner_name":"Dallas Cowboys",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/dal.png",
     "confidence":0.5192803916,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -4167,7 +4167,7 @@
     "predicted_winner_name":"Denver Broncos",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/den.png",
     "confidence":0.534947832,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -4210,7 +4210,7 @@
     "predicted_winner_name":"Detroit Lions",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/det.png",
     "confidence":0.6892364347,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -4253,7 +4253,7 @@
     "predicted_winner_name":"Minnesota Vikings",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/min.png",
     "confidence":0.6030410297,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -4296,7 +4296,7 @@
     "predicted_winner_name":"Seattle Seahawks",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sea.png",
     "confidence":0.5128650856,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -4339,7 +4339,7 @@
     "predicted_winner_name":"Las Vegas Raiders",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lv.png",
     "confidence":0.5754495087,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -4382,7 +4382,7 @@
     "predicted_winner_name":"New York Jets",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/nyj.png",
     "confidence":0.755040052,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -4425,7 +4425,7 @@
     "predicted_winner_name":"Chicago Bears",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/chi.png",
     "confidence":0.7963161351,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -4468,7 +4468,7 @@
     "predicted_winner_name":"Houston Texans",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/hou.png",
     "confidence":0.5429886978,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -4511,7 +4511,7 @@
     "predicted_winner_name":"New Orleans Saints",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/no.png",
     "confidence":0.5168244176,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -4554,7 +4554,7 @@
     "predicted_winner_name":"San Francisco 49ers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sf.png",
     "confidence":0.6189126965,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -4597,7 +4597,7 @@
     "predicted_winner_name":"Carolina Panthers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500-dark\/car.png",
     "confidence":0.6776389086,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -4640,7 +4640,7 @@
     "predicted_winner_name":"Dallas Cowboys",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/dal.png",
     "confidence":0.6554523959,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -4683,7 +4683,7 @@
     "predicted_winner_name":"Atlanta Falcons",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/atl.png",
     "confidence":0.5388700728,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -4726,7 +4726,7 @@
     "predicted_winner_name":"Buffalo Bills",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/buf.png",
     "confidence":0.5148242932,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -4769,7 +4769,7 @@
     "predicted_winner_name":"Green Bay Packers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/gb.png",
     "confidence":0.5134326429,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -4812,7 +4812,7 @@
     "predicted_winner_name":"Seattle Seahawks",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sea.png",
     "confidence":0.6150975642,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -4855,7 +4855,7 @@
     "predicted_winner_name":"Pittsburgh Steelers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/pit.png",
     "confidence":0.5457457892,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -4898,7 +4898,7 @@
     "predicted_winner_name":"Jacksonville Jaguars",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/jax.png",
     "confidence":0.7656960816,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -4941,7 +4941,7 @@
     "predicted_winner_name":"Kansas City Chiefs",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/kc.png",
     "confidence":0.624468126,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -4984,7 +4984,7 @@
     "predicted_winner_name":"Los Angeles Rams",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lar.png",
     "confidence":0.735310963,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -5027,7 +5027,7 @@
     "predicted_winner_name":"Las Vegas Raiders",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lv.png",
     "confidence":0.5203457066,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -5070,7 +5070,7 @@
     "predicted_winner_name":"Detroit Lions",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/det.png",
     "confidence":0.6066714842,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -5113,7 +5113,7 @@
     "predicted_winner_name":"New England Patriots",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ne.png",
     "confidence":0.6543727009,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -5156,7 +5156,7 @@
     "predicted_winner_name":"Philadelphia Eagles",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/phi.png",
     "confidence":0.5040352383,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -5199,7 +5199,7 @@
     "predicted_winner_name":"Cincinnati Bengals",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/cin.png",
     "confidence":0.8037148092,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -5242,7 +5242,7 @@
     "predicted_winner_name":"Seattle Seahawks",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sea.png",
     "confidence":0.7563753403,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -5285,7 +5285,7 @@
     "predicted_winner_name":"Buffalo Bills",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/buf.png",
     "confidence":0.5060444005,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -5328,7 +5328,7 @@
     "predicted_winner_name":"Cincinnati Bengals",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/cin.png",
     "confidence":0.5055713596,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -5371,7 +5371,7 @@
     "predicted_winner_name":"New Orleans Saints",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/no.png",
     "confidence":0.5221839958,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -5414,7 +5414,7 @@
     "predicted_winner_name":"Dallas Cowboys",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/dal.png",
     "confidence":0.5317177251,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -5457,7 +5457,7 @@
     "predicted_winner_name":"Carolina Panthers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500-dark\/car.png",
     "confidence":0.6772044713,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -5500,7 +5500,7 @@
     "predicted_winner_name":"Detroit Lions",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/det.png",
     "confidence":0.6639613928,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -5543,7 +5543,7 @@
     "predicted_winner_name":"Green Bay Packers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/gb.png",
     "confidence":0.5018212635,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -5586,7 +5586,7 @@
     "predicted_winner_name":"Houston Texans",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/hou.png",
     "confidence":0.5193404749,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -5629,7 +5629,7 @@
     "predicted_winner_name":"Baltimore Ravens",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/bal.png",
     "confidence":0.5470782095,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -5672,7 +5672,7 @@
     "predicted_winner_name":"Los Angeles Rams",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lar.png",
     "confidence":0.6065972744,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -5715,7 +5715,7 @@
     "predicted_winner_name":"San Francisco 49ers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sf.png",
     "confidence":0.7031847759,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -5758,7 +5758,7 @@
     "predicted_winner_name":"Philadelphia Eagles",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/phi.png",
     "confidence":0.591307101,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -5801,7 +5801,7 @@
     "predicted_winner_name":"Kansas City Chiefs",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/kc.png",
     "confidence":0.7941999133,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -5844,7 +5844,7 @@
     "predicted_winner_name":"Chicago Bears",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/chi.png",
     "confidence":0.7097888871,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -5887,7 +5887,7 @@
     "predicted_winner_name":"Buffalo Bills",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/buf.png",
     "confidence":0.5865065706,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -5930,7 +5930,7 @@
     "predicted_winner_name":"Carolina Panthers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500-dark\/car.png",
     "confidence":0.6061729168,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -5973,7 +5973,7 @@
     "predicted_winner_name":"Cleveland Browns",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/cle.png",
     "confidence":0.5431940851,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -6016,7 +6016,7 @@
     "predicted_winner_name":"Jacksonville Jaguars",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/jax.png",
     "confidence":0.6656606056,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -6059,7 +6059,7 @@
     "predicted_winner_name":"Kansas City Chiefs",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/kc.png",
     "confidence":0.5640323772,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -6102,7 +6102,7 @@
     "predicted_winner_name":"Baltimore Ravens",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/bal.png",
     "confidence":0.7973737104,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -6145,7 +6145,7 @@
     "predicted_winner_name":"Los Angeles Rams",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lar.png",
     "confidence":0.6047118519,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -6188,7 +6188,7 @@
     "predicted_winner_name":"Indianapolis Colts",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ind.png",
     "confidence":0.693110388,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -6231,7 +6231,7 @@
     "predicted_winner_name":"Minnesota Vikings",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/min.png",
     "confidence":0.543834651,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -6274,7 +6274,7 @@
     "predicted_winner_name":"Detroit Lions",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/det.png",
     "confidence":0.6716112339,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -6317,7 +6317,7 @@
     "predicted_winner_name":"Cincinnati Bengals",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/cin.png",
     "confidence":0.7107783968,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -6360,7 +6360,7 @@
     "predicted_winner_name":"Seattle Seahawks",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sea.png",
     "confidence":0.5007647129,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -6403,7 +6403,7 @@
     "predicted_winner_name":"San Francisco 49ers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sf.png",
     "confidence":0.5837608627,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -6446,7 +6446,7 @@
     "predicted_winner_name":"New York Giants",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/nyg.png",
     "confidence":0.5232533267,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -6489,7 +6489,7 @@
     "predicted_winner_name":"Kansas City Chiefs",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/kc.png",
     "confidence":0.8359178022,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -6532,7 +6532,7 @@
     "predicted_winner_name":"Baltimore Ravens",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/bal.png",
     "confidence":0.5786511483,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -6575,7 +6575,7 @@
     "predicted_winner_name":"Cincinnati Bengals",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/cin.png",
     "confidence":0.6305069899,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -6618,7 +6618,7 @@
     "predicted_winner_name":"Indianapolis Colts",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ind.png",
     "confidence":0.5009878812,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -6661,7 +6661,7 @@
     "predicted_winner_name":"Jacksonville Jaguars",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/jax.png",
     "confidence":0.651229594,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -6704,7 +6704,7 @@
     "predicted_winner_name":"Las Vegas Raiders",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lv.png",
     "confidence":0.539857508,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -6747,7 +6747,7 @@
     "predicted_winner_name":"Buffalo Bills",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/buf.png",
     "confidence":0.8612807736,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -6790,7 +6790,7 @@
     "predicted_winner_name":"San Francisco 49ers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sf.png",
     "confidence":0.7366028565,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -6833,7 +6833,7 @@
     "predicted_winner_name":"Chicago Bears",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/chi.png",
     "confidence":0.6979335199,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -6876,7 +6876,7 @@
     "predicted_winner_name":"New York Jets",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/nyj.png",
     "confidence":0.5732109755,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -6919,7 +6919,7 @@
     "predicted_winner_name":"Philadelphia Eagles",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/phi.png",
     "confidence":0.5469508658,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -6962,7 +6962,7 @@
     "predicted_winner_name":"Detroit Lions",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/det.png",
     "confidence":0.6818969671,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -7005,7 +7005,7 @@
     "predicted_winner_name":"Dallas Cowboys",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/dal.png",
     "confidence":0.7522072907,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -7048,7 +7048,7 @@
     "predicted_winner_name":"Minnesota Vikings",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/min.png",
     "confidence":0.5952779184,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -7091,7 +7091,7 @@
     "predicted_winner_name":"Baltimore Ravens",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/bal.png",
     "confidence":0.6714605455,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -7134,7 +7134,7 @@
     "predicted_winner_name":"Carolina Panthers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500-dark\/car.png",
     "confidence":0.5045785186,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -7177,7 +7177,7 @@
     "predicted_winner_name":"Detroit Lions",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/det.png",
     "confidence":0.5582723314,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -7220,7 +7220,7 @@
     "predicted_winner_name":"Pittsburgh Steelers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/pit.png",
     "confidence":0.5437678347,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -7263,7 +7263,7 @@
     "predicted_winner_name":"Los Angeles Rams",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lar.png",
     "confidence":0.6290007111,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -7306,7 +7306,7 @@
     "predicted_winner_name":"Buffalo Bills",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/buf.png",
     "confidence":0.5395520047,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -7349,7 +7349,7 @@
     "predicted_winner_name":"Las Vegas Raiders",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lv.png",
     "confidence":0.5819668663,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -7392,7 +7392,7 @@
     "predicted_winner_name":"New England Patriots",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ne.png",
     "confidence":0.5755030108,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -7435,7 +7435,7 @@
     "predicted_winner_name":"Cincinnati Bengals",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/cin.png",
     "confidence":0.6803820001,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -7478,7 +7478,7 @@
     "predicted_winner_name":"Indianapolis Colts",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ind.png",
     "confidence":0.5704724652,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -7521,7 +7521,7 @@
     "predicted_winner_name":"New York Jets",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/nyj.png",
     "confidence":0.58932268,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -7564,7 +7564,7 @@
     "predicted_winner_name":"Dallas Cowboys",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/dal.png",
     "confidence":0.6110746347,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -7607,7 +7607,7 @@
     "predicted_winner_name":"San Francisco 49ers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sf.png",
     "confidence":0.6888423083,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -7650,7 +7650,7 @@
     "predicted_winner_name":"Jacksonville Jaguars",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/jax.png",
     "confidence":0.8507838317,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -7693,7 +7693,7 @@
     "predicted_winner_name":"Arizona Cardinals",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ari.png",
     "confidence":0.5282691228,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -7736,7 +7736,7 @@
     "predicted_winner_name":"Buffalo Bills",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/buf.png",
     "confidence":0.6440996819,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -7779,7 +7779,7 @@
     "predicted_winner_name":"Minnesota Vikings",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/min.png",
     "confidence":0.5490037937,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -7822,7 +7822,7 @@
     "predicted_winner_name":"Cincinnati Bengals",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/cin.png",
     "confidence":0.6073318974,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -7865,7 +7865,7 @@
     "predicted_winner_name":"Seattle Seahawks",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sea.png",
     "confidence":0.588141666,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -7908,7 +7908,7 @@
     "predicted_winner_name":"Detroit Lions",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/det.png",
     "confidence":0.5467279392,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -7951,7 +7951,7 @@
     "predicted_winner_name":"Green Bay Packers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/gb.png",
     "confidence":0.5172819945,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -7994,7 +7994,7 @@
     "predicted_winner_name":"Pittsburgh Steelers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/pit.png",
     "confidence":0.5778987661,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -8037,7 +8037,7 @@
     "predicted_winner_name":"Chicago Bears",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/chi.png",
     "confidence":0.5485616585,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -8080,7 +8080,7 @@
     "predicted_winner_name":"Kansas City Chiefs",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/kc.png",
     "confidence":0.5055602613,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -8123,7 +8123,7 @@
     "predicted_winner_name":"Tampa Bay Buccaneers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/tb.png",
     "confidence":0.6030766874,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -8166,7 +8166,7 @@
     "predicted_winner_name":"Denver Broncos",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/den.png",
     "confidence":0.7647328843,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -8209,7 +8209,7 @@
     "predicted_winner_name":"Philadelphia Eagles",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/phi.png",
     "confidence":0.5415512099,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -8252,7 +8252,7 @@
     "predicted_winner_name":"San Francisco 49ers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sf.png",
     "confidence":0.666988903,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -8295,7 +8295,7 @@
     "predicted_winner_name":"Washington Commanders",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/wsh.png",
     "confidence":0.5497439558,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -8338,7 +8338,7 @@
     "predicted_winner_name":"Atlanta Falcons",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/atl.png",
     "confidence":0.5469940003,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -8381,7 +8381,7 @@
     "predicted_winner_name":"Buffalo Bills",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/buf.png",
     "confidence":0.5477844624,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -8424,7 +8424,7 @@
     "predicted_winner_name":"Chicago Bears",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/chi.png",
     "confidence":0.6767152423,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -8467,7 +8467,7 @@
     "predicted_winner_name":"New York Jets",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/nyj.png",
     "confidence":0.5941921424,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -8510,7 +8510,7 @@
     "predicted_winner_name":"Washington Commanders",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/wsh.png",
     "confidence":0.5158809981,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -8553,7 +8553,7 @@
     "predicted_winner_name":"Philadelphia Eagles",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/phi.png",
     "confidence":0.5430823893,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -8596,7 +8596,7 @@
     "predicted_winner_name":"Kansas City Chiefs",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/kc.png",
     "confidence":0.5431343887,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -8639,7 +8639,7 @@
     "predicted_winner_name":"Las Vegas Raiders",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lv.png",
     "confidence":0.749960626,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -8682,7 +8682,7 @@
     "predicted_winner_name":"San Francisco 49ers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sf.png",
     "confidence":0.6846893151,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -8725,7 +8725,7 @@
     "predicted_winner_name":"Minnesota Vikings",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/min.png",
     "confidence":0.529161246,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -8768,7 +8768,7 @@
     "predicted_winner_name":"Carolina Panthers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500-dark\/car.png",
     "confidence":0.701977061,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -8811,7 +8811,7 @@
     "predicted_winner_name":"Seattle Seahawks",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sea.png",
     "confidence":0.7442385762,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -8854,7 +8854,7 @@
     "predicted_winner_name":"Jacksonville Jaguars",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/jax.png",
     "confidence":0.7274710569,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -8897,7 +8897,7 @@
     "predicted_winner_name":"Baltimore Ravens",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/bal.png",
     "confidence":0.7707889845,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -8940,7 +8940,7 @@
     "predicted_winner_name":"Detroit Lions",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/det.png",
     "confidence":0.7721799897,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -8983,7 +8983,7 @@
     "predicted_winner_name":"Atlanta Falcons",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/atl.png",
     "confidence":0.5688331729,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -9026,7 +9026,7 @@
     "predicted_winner_name":"Baltimore Ravens",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/bal.png",
     "confidence":0.6378025328,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -9069,7 +9069,7 @@
     "predicted_winner_name":"Buffalo Bills",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/buf.png",
     "confidence":0.5467603951,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -9112,7 +9112,7 @@
     "predicted_winner_name":"Carolina Panthers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500-dark\/car.png",
     "confidence":0.5357349625,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -9155,7 +9155,7 @@
     "predicted_winner_name":"New York Giants",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/nyg.png",
     "confidence":0.5359605131,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -9198,7 +9198,7 @@
     "predicted_winner_name":"Los Angeles Rams",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lar.png",
     "confidence":0.5644503086,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -9241,7 +9241,7 @@
     "predicted_winner_name":"Las Vegas Raiders",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lv.png",
     "confidence":0.6590387758,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -9284,7 +9284,7 @@
     "predicted_winner_name":"Detroit Lions",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/det.png",
     "confidence":0.5855746902,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -9327,7 +9327,7 @@
     "predicted_winner_name":"Indianapolis Colts",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ind.png",
     "confidence":0.5509503866,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -9370,7 +9370,7 @@
     "predicted_winner_name":"Jacksonville Jaguars",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/jax.png",
     "confidence":0.6060325182,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -9413,7 +9413,7 @@
     "predicted_winner_name":"Green Bay Packers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/gb.png",
     "confidence":0.7137715472,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -9456,7 +9456,7 @@
     "predicted_winner_name":"Kansas City Chiefs",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/kc.png",
     "confidence":0.8516839256,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -9499,7 +9499,7 @@
     "predicted_winner_name":"Tampa Bay Buccaneers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/tb.png",
     "confidence":0.5607187073,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -9542,7 +9542,7 @@
     "predicted_winner_name":"New York Jets",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/nyj.png",
     "confidence":0.5107020785,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -9585,7 +9585,7 @@
     "predicted_winner_name":"Seattle Seahawks",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sea.png",
     "confidence":0.5986424492,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -9628,7 +9628,7 @@
     "predicted_winner_name":"San Francisco 49ers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sf.png",
     "confidence":0.6237847274,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -9671,7 +9671,7 @@
     "predicted_winner_name":"New Orleans Saints",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/no.png",
     "confidence":0.5461604026,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -9714,7 +9714,7 @@
     "predicted_winner_name":"Buffalo Bills",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/buf.png",
     "confidence":0.5558604139,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -9757,7 +9757,7 @@
     "predicted_winner_name":"Carolina Panthers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500-dark\/car.png",
     "confidence":0.5301472662,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -9800,7 +9800,7 @@
     "predicted_winner_name":"Cincinnati Bengals",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/cin.png",
     "confidence":0.5839161637,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -9843,7 +9843,7 @@
     "predicted_winner_name":"Baltimore Ravens",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/bal.png",
     "confidence":0.7149236709,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -9886,7 +9886,7 @@
     "predicted_winner_name":"Chicago Bears",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/chi.png",
     "confidence":0.6293369558,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -9929,7 +9929,7 @@
     "predicted_winner_name":"Philadelphia Eagles",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/phi.png",
     "confidence":0.5547458282,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -9972,7 +9972,7 @@
     "predicted_winner_name":"Jacksonville Jaguars",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/jax.png",
     "confidence":0.5253145018,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -10015,7 +10015,7 @@
     "predicted_winner_name":"Los Angeles Chargers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lac.png",
     "confidence":0.5419960571,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -10058,7 +10058,7 @@
     "predicted_winner_name":"Seattle Seahawks",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sea.png",
     "confidence":0.6364471815,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -10101,7 +10101,7 @@
     "predicted_winner_name":"New York Jets",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/nyj.png",
     "confidence":0.6209082262,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -10144,7 +10144,7 @@
     "predicted_winner_name":"Detroit Lions",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/det.png",
     "confidence":0.6761117327,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -10187,7 +10187,7 @@
     "predicted_winner_name":"Kansas City Chiefs",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/kc.png",
     "confidence":0.5209515556,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -10230,7 +10230,7 @@
     "predicted_winner_name":"Atlanta Falcons",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/atl.png",
     "confidence":0.6574569704,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -10273,7 +10273,7 @@
     "predicted_winner_name":"Las Vegas Raiders",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lv.png",
     "confidence":0.8009134018,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -10316,7 +10316,7 @@
     "predicted_winner_name":"Minnesota Vikings",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/min.png",
     "confidence":0.5989464773,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -10359,7 +10359,7 @@
     "predicted_winner_name":"Baltimore Ravens",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/bal.png",
     "confidence":0.578727876,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -10402,7 +10402,7 @@
     "predicted_winner_name":"Buffalo Bills",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/buf.png",
     "confidence":0.6748393024,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -10445,7 +10445,7 @@
     "predicted_winner_name":"New England Patriots",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ne.png",
     "confidence":0.5016947993,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -10488,7 +10488,7 @@
     "predicted_winner_name":"Detroit Lions",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/det.png",
     "confidence":0.508985747,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -10531,7 +10531,7 @@
     "predicted_winner_name":"Green Bay Packers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/gb.png",
     "confidence":0.5665334949,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -10574,7 +10574,7 @@
     "predicted_winner_name":"Cleveland Browns",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/cle.png",
     "confidence":0.5437822151,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -10617,7 +10617,7 @@
     "predicted_winner_name":"Kansas City Chiefs",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/kc.png",
     "confidence":0.6953732169,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -10660,7 +10660,7 @@
     "predicted_winner_name":"Los Angeles Rams",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lar.png",
     "confidence":0.5357491361,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -10703,7 +10703,7 @@
     "predicted_winner_name":"Las Vegas Raiders",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lv.png",
     "confidence":0.570112445,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -10746,7 +10746,7 @@
     "predicted_winner_name":"New York Jets",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/nyj.png",
     "confidence":0.5051870751,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -10789,7 +10789,7 @@
     "predicted_winner_name":"Atlanta Falcons",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/atl.png",
     "confidence":0.5594089578,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -10832,7 +10832,7 @@
     "predicted_winner_name":"Dallas Cowboys",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/dal.png",
     "confidence":0.6513031417,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -10875,7 +10875,7 @@
     "predicted_winner_name":"San Francisco 49ers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sf.png",
     "confidence":0.767783877,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -10918,7 +10918,7 @@
     "predicted_winner_name":"Pittsburgh Steelers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/pit.png",
     "confidence":0.5720779599,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -10961,7 +10961,7 @@
     "predicted_winner_name":"Carolina Panthers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500-dark\/car.png",
     "confidence":0.5366466746,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -11004,7 +11004,7 @@
     "predicted_winner_name":"Jacksonville Jaguars",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/jax.png",
     "confidence":0.6917720286,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -11047,7 +11047,7 @@
     "predicted_winner_name":"Carolina Panthers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500-dark\/car.png",
     "confidence":0.597928076,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -11090,7 +11090,7 @@
     "predicted_winner_name":"Minnesota Vikings",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/min.png",
     "confidence":0.5341136522,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -11133,7 +11133,7 @@
     "predicted_winner_name":"Cincinnati Bengals",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/cin.png",
     "confidence":0.6360273517,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -11176,7 +11176,7 @@
     "predicted_winner_name":"Dallas Cowboys",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/dal.png",
     "confidence":0.6019569955,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -11219,7 +11219,7 @@
     "predicted_winner_name":"Detroit Lions",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/det.png",
     "confidence":0.5856588298,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -11262,7 +11262,7 @@
     "predicted_winner_name":"Jacksonville Jaguars",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/jax.png",
     "confidence":0.5842866505,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -11305,7 +11305,7 @@
     "predicted_winner_name":"Denver Broncos",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/den.png",
     "confidence":0.7361546734,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -11348,7 +11348,7 @@
     "predicted_winner_name":"Kansas City Chiefs",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/kc.png",
     "confidence":0.6848464082,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -11391,7 +11391,7 @@
     "predicted_winner_name":"New England Patriots",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/ne.png",
     "confidence":0.7293603113,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -11434,7 +11434,7 @@
     "predicted_winner_name":"Buffalo Bills",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/buf.png",
     "confidence":0.6691467966,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -11477,7 +11477,7 @@
     "predicted_winner_name":"New York Giants",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/nyg.png",
     "confidence":0.5692991324,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -11520,7 +11520,7 @@
     "predicted_winner_name":"Baltimore Ravens",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/bal.png",
     "confidence":0.6971565158,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -11563,7 +11563,7 @@
     "predicted_winner_name":"Los Angeles Rams",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/lar.png",
     "confidence":0.5058978748,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -11606,7 +11606,7 @@
     "predicted_winner_name":"San Francisco 49ers",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/sf.png",
     "confidence":0.6115658203,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -11649,7 +11649,7 @@
     "predicted_winner_name":"New Orleans Saints",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/no.png",
     "confidence":0.5201614463,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   },
   {
@@ -11692,7 +11692,7 @@
     "predicted_winner_name":"Houston Texans",
     "winner_logo":"https:\/\/a.espncdn.com\/i\/teamlogos\/nfl\/500\/hou.png",
     "confidence":0.6566589222,
-    "updated_at":"2026-10-06T13:17:41.415043+00:00",
+    "updated_at":"2026-10-06T13:33:18.704743+00:00",
     "feature_note":"Model retrained through 2026-09-28; Available 2026 EPA, QB and roster inputs refreshed; unavailable inputs use historical fallback. Simulation noise is an assumption, not measured uncertainty."
   }
 ]

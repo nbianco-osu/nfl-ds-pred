@@ -69,6 +69,7 @@
                   <th>Away Win %</th>
                   <th>Home Win %</th>
                   <th>Confidence</th>
+                  <th>Expected score<br>Away - Home<br>(score ensemble)</th>
                   <th>Result (Away - Home)</th>
                 </tr>
               </thead>
@@ -162,11 +163,13 @@
         <h2>Expected Scores, Spreads &amp; Totals</h2>
         <div class="comparison-controls">
           <label>Week<select id="scoreWeek"><option value="all">All weeks</option></select></label>
+          <label>Score model<select id="scoreModel"><option value="ensemble">Selected ensemble</option></select></label>
           <label>Team<select id="scoreTeam"><option value="all">All teams</option></select></label>
           <span id="scoreCount" aria-live="polite"></span>
         </div>
         <p class="body-copy">Expected points come from a separately trained score-regression ensemble, not the winner classifier. Decimal scores are averages, not exact-score forecasts, and can imply a different winner. Lines are nflverse snapshots, not live prices. Missing lines are not estimated.</p>
         <p id="scoreEvaluation" class="body-copy"></p>
+        <p id="scoreModelStatus" class="body-copy">Individual score models loading.</p>
         <p id="scoreLiveResults" aria-live="polite"></p>
         <details><summary>Score model training and retrospective evaluation</summary>
           <p class="body-copy">Four regression families, two settings each. Settings and the top-two equal-weight ensemble are selected on 2025 margin/total error. The 2026 evaluation precedes final refitting through the latest completed games. Historical source lines are not timestamped pregame snapshots: the research hit rates below are not live results, profitability, or evidence of an advantage. Pushes, missing lines, and model no-edge picks are excluded from hit-rate denominators.</p>

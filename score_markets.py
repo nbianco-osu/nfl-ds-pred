@@ -80,20 +80,25 @@ def comparisons(game, saved=None):
     return result
 
 
-def refresh(predictions, schedule, history, snapshots, root, now=None):
+def refresh(predictions, schedule, history, snapshots, root, now=None, family=None):
     root = Path(root)
     now = now or datetime.now(timezone.utc)
     season = int(schedule.season.max())
-    path = root / f'predictions/nfl_{season}_score_predictions.csv'
+    families = ['ExtraTreesRegressor', 'RandomForestRegressor', 'Ridge', 'HistGradientBoostingRegressor']
+    if family is not None and family not in families:
+        raise ValueError('Unknown score model family')
+    suffix = family or 'predictions'
+    path = root / f'predictions/nfl_{season}_score_{suffix}.csv'
     records = pd.read_csv(path).to_dict('records') if path.exists() else []
     if len(records) != len({row['game_id'] for row in records}):
         raise ValueError('Duplicate archived score forecasts')
     archive = {row['game_id']: row for row in records}
-    artifact = joblib.load(root / 'models/score_models/score_ensemble.joblib')
+    artifact = joblib.load(root / 'models/score_models' / f'{family or "score_ensemble"}.joblib')
+    estimators = [artifact['model']] if family else artifact['models']
     upcoming = schedule.loc[schedule.apply(lambda row: pregame(row, now), axis=1)]
     if not upcoming.empty:
         metadata, features = build_schedule_features(upcoming, history, artifact, snapshots)
-        values = np.round(np.maximum(0, np.mean([model.predict(features) for model in artifact['models']], axis=0)), 1)
+        values = np.round(np.maximum(0, np.mean([model.predict(features) for model in estimators], axis=0)), 1)
         if values.shape != (len(upcoming), 2) or not np.isfinite(values).all():
             raise ValueError('Invalid predicted scores')
         for game, scores in zip(upcoming.to_dict('records'), values):
@@ -111,6 +116,13 @@ def refresh(predictions, schedule, history, snapshots, root, now=None):
     additions = pd.DataFrame([comparisons(game, archive.get(game['game_id'])) for game in schedule.to_dict('records')])
     output = predictions.drop(columns=OUTPUT_FIELDS, errors='ignore').merge(additions, on='game_id', validate='one_to_one')
     pd.DataFrame(archive.values(), columns=SNAPSHOT_FIELDS).sort_values('game_id').to_csv(path, index=False)
-    metrics_path = root / 'public_site/data/score_metrics.json'
-    metrics_path.write_text(json.dumps(artifact['metrics'], indent=2), encoding='utf-8')
+    if family is None:
+        metrics_path = root / 'public_site/data/score_metrics.json'
+        metrics_path.write_text(json.dumps(artifact['metrics'], indent=2), encoding='utf-8')
+        models = {}
+        for name in families:
+            if (root / 'models/score_models' / f'{name}.joblib').exists():
+                frame = refresh(predictions, schedule, history, snapshots, root, now=now, family=name)
+                models[name] = json.loads(frame[['game_id'] + OUTPUT_FIELDS].to_json(orient='records'))
+        (root / 'public_site/data/model_score_predictions.json').write_text(json.dumps(models, indent=2), encoding='utf-8')
     return output

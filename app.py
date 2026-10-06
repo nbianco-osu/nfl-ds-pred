@@ -259,7 +259,16 @@ with scores_tab:
                      'actual_total_side': 'Actual total result', 'total_grade': 'Total pick correct?',
                      'line_basis': 'Line basis', 'line_observed_at': 'Line snapshot time'}
     if 'predicted_home_score' in predictions:
-        score_data = predictions.assign(actual_total=predictions.home_score + predictions.away_score)
+        score_data = predictions.copy()
+        per_model_path = ROOT / 'public_site/data/model_score_predictions.json'
+        if per_model_path.exists():
+            per_model = json.loads(per_model_path.read_text())
+            names = {'ensemble': 'Selected ensemble', 'ExtraTreesRegressor': 'Extra Trees', 'RandomForestRegressor': 'Random Forest', 'Ridge': 'Ridge Regression', 'HistGradientBoostingRegressor': 'Histogram Gradient Boosting'}
+            selected_score = st.selectbox('Score model', ['ensemble', *per_model], format_func=lambda name: names.get(name, name))
+            if selected_score != 'ensemble':
+                extra = pd.DataFrame(per_model[selected_score])
+                score_data = score_data.drop(columns=[c for c in extra if c != 'game_id'], errors='ignore').merge(extra, on='game_id', validate='one_to_one')
+        score_data = score_data.assign(actual_total=score_data.home_score + score_data.away_score)
         score_view = score_data[[c for c in score_columns if c in score_data]].rename(columns=score_columns)
         def score_color(value):
             return 'color: #14653a' if value == 'Correct' else 'color: #aa2424' if value == 'Wrong' else ''
@@ -356,6 +365,10 @@ with schedule_tab:
         )
         st.caption('80% simulation ranges; completed results fixed. Probability noise is assumed, not calibrated. Week and confidence filters affect only the matchup table.')
 
+    filtered = filtered.assign(expected_score=filtered.apply(
+        lambda row: f"{row['predicted_away_score']:.1f} - {row['predicted_home_score']:.1f}"
+        if pd.notna(row.get('predicted_away_score')) and pd.notna(row.get('predicted_home_score'))
+        else 'No pregame forecast', axis=1))
     table = filtered[
         [
             "week",
@@ -370,6 +383,7 @@ with schedule_tab:
             "away_win_pct",
             "home_win_pct",
             "confidence_pct",
+            "expected_score",
         ]
     ].sort_values(["week", "gameday"])
     st.dataframe(
@@ -397,6 +411,7 @@ with schedule_tab:
             "away_win_pct": st.column_config.NumberColumn("Away Win %", format="%.1f%%"),
             "home_win_pct": st.column_config.NumberColumn("Home Win %", format="%.1f%%"),
             "confidence_pct": st.column_config.NumberColumn("Confidence", format="%.1f%%"),
+            "expected_score": st.column_config.TextColumn("Expected Score (Away - Home)", help="Separate score ensemble; not derived from win probability."),
         },
         hide_index=True,
         width="stretch",

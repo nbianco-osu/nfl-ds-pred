@@ -5,13 +5,16 @@ window.setupScoreLines = function (games) {
   const points = value => valid(value) ? Number(value).toFixed(1) : 'Not available';
   const signed = value => `${Number(value) > 0 ? '+' : ''}${points(value)}`;
   const modelName = value => ({ExtraTreesRegressor:'Extra Trees', RandomForestRegressor:'Random Forest', HistGradientBoostingRegressor:'Histogram Gradient Boosting', Ridge:'Ridge Regression'})[value] || value;
+  const modelForecasts = {};
   const badge = value => `<span class="score-grade ${value === 'Correct' ? 'score-correct' : value === 'Wrong' ? 'score-wrong' : ''}">${esc(value || 'Not available')}</span>`;
   const outcome = (value, spread = false) => !value ? 'Not available' : value === 'Push' ? 'Push' : `${esc(value)}${spread ? ' covers' : ''}`;
   for (const week of [...new Set(games.map(g => g.week))].sort((a,b) => a-b)) el('scoreWeek').add(new Option(`Week ${week}`, week));
   const teams = new Map(games.flatMap(g => [[g.away_team, g.away_team_name], [g.home_team, g.home_team_name]]));
   for (const [code, name] of [...teams].sort((a,b) => a[1].localeCompare(b[1]))) el('scoreTeam').add(new Option(name, code));
   function render() {
-    const rows = games.filter(g => (el('scoreWeek').value === 'all' || String(g.week) === el('scoreWeek').value) && (el('scoreTeam').value === 'all' || [g.home_team,g.away_team].includes(el('scoreTeam').value)));
+    const selected = el('scoreModel').value;
+    const source = selected === 'ensemble' ? games : games.map(g => ({...g, ...modelForecasts[selected].get(g.game_id)}));
+    const rows = source.filter(g => (el('scoreWeek').value === 'all' || String(g.week) === el('scoreWeek').value) && (el('scoreTeam').value === 'all' || [g.home_team,g.away_team].includes(el('scoreTeam').value)));
     el('scoreCount').textContent = `${rows.length} games`;
     const live = (field, name) => {
       const correct = rows.filter(g => g[field] === 'Correct').length;
@@ -40,7 +43,16 @@ window.setupScoreLines = function (games) {
   }
   el('scoreWeek').addEventListener('change',render);
   el('scoreTeam').addEventListener('change',render);
+  el('scoreModel').addEventListener('change',render);
   render();
+  fetch('./data/model_score_predictions.json').then(r => {if (!r.ok) throw new Error(); return r.json();}).then(data => {
+    for (const [name, rows] of Object.entries(data)) {
+      if (rows.length !== games.length || new Set(rows.map(r => r.game_id)).size !== games.length || !games.every(g => rows.some(r => r.game_id === g.game_id))) throw new Error('Incomplete model forecasts');
+      modelForecasts[name] = new Map(rows.map(r => [r.game_id,r]));
+      el('scoreModel').add(new Option(modelName(name),name));
+    }
+    el('scoreModelStatus').textContent = 'Individual score forecasts are archived separately from the ensemble. Win probabilities remain those of the production winner classifier, not the selected score regressor.';
+  }).catch(() => {el('scoreModelStatus').textContent = 'Individual score forecasts are unavailable; ensemble forecasts remain available.';});
   fetch('./data/score_metrics.json').then(r => {if (!r.ok) throw new Error(); return r.json();}).then(m => {
     el('scoreEvaluation').textContent = `Score ensemble: ${(m.selected_models || []).map(modelName).join(' + ')}. Trained through ${m.training_through}. Retrospective pre-refit evaluation on ${m.holdout_rows} games in 2026: margin mean absolute error ${points(m.margin_mae)} points; total mean absolute error ${points(m.total_mae)} points. Tuning used 2025 only. This small sample is not live forecast accuracy; historical training excludes ties. No cover probabilities are estimated.`;
     const count = value => value ? `${value.correct} / ${value.graded}` : 'Not available';

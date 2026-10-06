@@ -94,6 +94,7 @@ function renderRows(rows) {
           <td>${pct(row.away_win_probability)}</td>
           <td>${pct(row.home_win_probability)}</td>
           <td>${pct(row.confidence)}</td>
+          <td>${row.predicted_away_score != null && row.predicted_home_score != null ? `${Number(row.predicted_away_score).toFixed(1)} - ${Number(row.predicted_home_score).toFixed(1)}` : 'No pregame forecast'}</td>
           <td>${row.status === "Final" ? `Final: ${row.away_score} - ${row.home_score}` : "Scheduled"}</td>
         </tr>
       `,

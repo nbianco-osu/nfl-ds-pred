@@ -6,6 +6,7 @@ const root = dirname(fileURLToPath(import.meta.url));
 const dist = join(root, "dist");
 
 const assets = {
+  "/data/model_score_predictions.json": { file: "data/model_score_predictions.json", type: "application/json; charset=utf-8" },
   "/score_lines.js": { file: "score_lines.js", type: "text/javascript; charset=utf-8" },
   "/data/score_metrics.json": { file: "data/score_metrics.json", type: "application/json; charset=utf-8" },
   "/season_chart.js": { file: "season_chart.js", type: "text/javascript; charset=utf-8" },

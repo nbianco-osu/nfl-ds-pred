@@ -82,6 +82,22 @@ class ScoreMarketsTests(unittest.TestCase):
             self.assertEqual(saved.loc['future','predicted_home_score'], 24)
             self.assertFalse(saved.index.duplicated().any())
 
+    def test_individual_model_archive_is_separate(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / 'predictions').mkdir()
+            schedule = pd.DataFrame([dict(self.game, season=2026), dict(self.game, game_id='future', season=2026, home_score=None, away_score=None)])
+            model = Mock()
+            model.predict.return_value = np.array([[30, 15]])
+            artifact = dict(model=model, model_version='individual')
+            now = datetime(2026,10,1,tzinfo=timezone.utc)
+            with patch('score_markets.joblib.load', return_value=artifact), patch('score_markets.build_schedule_features', return_value=(None,pd.DataFrame([{'x':1}]))):
+                result = refresh(schedule[['game_id']], schedule, None, None, root, now, family='Ridge')
+            self.assertTrue((root / 'predictions/nfl_2026_score_Ridge.csv').exists())
+            self.assertFalse((root / 'predictions/nfl_2026_score_predictions.csv').exists())
+            self.assertTrue(pd.isna(result.loc[result.game_id.eq('test'),'predicted_home_score']).all())
+            self.assertEqual(result.loc[result.game_id.eq('future'),'predicted_home_score'].iloc[0],30)
+
 
 if __name__ == '__main__':
     unittest.main()
