@@ -16,6 +16,7 @@ window.renderMatchups = function (rows) {
     };
     return `<article class="matchup-game" data-game-id="${escape(row.game_id)}"><div class="matchup-meta"><span>Week ${row.week} &middot; ${escape(row.gameday)}</span><span class="${tone}">${result}</span></div><div class="matchup-meta"><span>Score ensemble</span><span>Expected points</span></div>${team('away')}${team('home')}
       <div class="matchup-pick"><strong>Pick: ${escape(row.predicted_winner_name)}</strong><span>${row.status === 'Final' ? `Final ${row.away_score} - ${row.home_score}` : 'Scheduled'}</span></div>
+      ${window.matchupSignals ? window.matchupSignals(row) : ''}
       <details ${opened.has(row.game_id)?'open':''}><summary>Game details</summary><dl class="matchup-details">
         <dt>Expected score (away - home)</dt><dd>${points(row.predicted_away_score)} - ${points(row.predicted_home_score)}; score ensemble</dd>
         <dt>Expected total / source total</dt><dd>${points(row.predicted_total)} / ${points(row.market_total)}</dd>
@@ -25,6 +26,6 @@ window.renderMatchups = function (rows) {
         <dt>Winner / score version</dt><dd>${escape(row.model_version)} / ${escape(row.score_model_version || 'Not archived')}</dd>
         <dt>Score forecast saved</dt><dd>${escape(row.score_forecast_at || 'No pregame score forecast')}</dd>
         <dt>Line provenance</dt><dd>${escape(row.line_basis)}</dd>
-      </dl>${window.gameResearch?window.gameResearch(row):''}</details></article>`;
+      </dl>${window.gameInsights?window.gameInsights(row):''}${window.gameResearch?window.gameResearch(row):''}</details></article>`;
   }).join('') || '<p>No games match these filters.</p>';
 };

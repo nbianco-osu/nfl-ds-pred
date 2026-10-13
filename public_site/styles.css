@@ -394,6 +394,19 @@ th {
 .matchup-team img { object-fit: contain; }
 .matchup-team small { display: block; color: var(--muted); font-size: 11px; margin-top: 4px; }
 .matchup-team strong { font-size: 20px; text-align: right; }
+.model-agreement { font-size: 12px; color: #475467; line-height: 1.5; }
+.coverage-summary { font-size: 11px; color: #475467; line-height: 1.5; }
+.model-disagreement { border-left: 3px solid #aa5b00; padding-left: 8px; color: #784000; }
+.game-insights { font-size: 12px; line-height: 1.5; overflow-wrap: anywhere; }
+.game-insights h4 { font-size: 14px; margin-top: 22px; }
+.forecast-timeline { padding-left: 20px; max-height: 440px; overflow: auto; }
+.forecast-timeline > li { border-bottom: 1px solid var(--line); padding: 10px 0; }
+.version-text { color: var(--muted); }
+.preference-controls { display: flex; align-items: end; flex-wrap: wrap; gap: 12px; }
+.preference-controls button, .preference-controls select { min-height: 38px; }
+.preference-controls a, #preferenceStatus { font-size: 12px; }
+.profile-heading { display: flex; align-items: center; gap: 12px; }
+#teamProfile, #driftNote, #driftStatus { line-height: 1.6; overflow-wrap: anywhere; }
 .matchup-pick { border-top: 1px solid var(--line); padding-top: 12px; margin-bottom: 12px; }
 .matchup-game summary, .full-schedule summary, .performance-detail summary { cursor: pointer; font-size: 13px; }
 .matchup-details { font-size: 12px; overflow-wrap: anywhere; }

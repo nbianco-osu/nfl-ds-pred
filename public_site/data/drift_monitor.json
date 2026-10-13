@@ -1,0 +1,4 @@
+{
+  "cohorts": [],
+  "note": "Only timestamped, pre-kickoff archives. Winner and score versions stay separate; ties excluded from binary metrics. Latest forecast per game/version/horizon. Compare the last 32 games with earlier games (at least 32 decisive games per window). Review thresholds: log loss +0.10 or Brier +0.03. Descriptive alerts, not significance tests or automatic promotion. Calibration bias is mean home probability minus home-win frequency. Horizon cohorts can contain the same games and are not independent."
+}

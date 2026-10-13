@@ -24,19 +24,19 @@ limitations, and the next acceptance check before marking an item complete.
 | R10 | Medium | Implemented | Independent score-model/version comparisons and calibration chart with Wilson 95% intervals and bin sample sizes. Empty/legacy samples remain explicit. |
 | R11 | Medium | Implemented; operational hardening continues | Staged validation, atomic per-file writes with rollback, health/stale indicator, Pages validation gate and scheduled Python/build CI. Weekly automation updated to semantic comparison and new audit exports. Whole-directory crash atomicity and remote raw-snapshot backup remain open. |
 
-## Proposed Next Iteration
+## R12-R17 Iteration
 
-These are proposals, not implemented features. Finish R7's historical inputs and
+R12-R17 are implemented with the limits below. Finish R7's historical inputs and
 review the legacy roster-status correction before adding more model families.
 
 | ID | Priority | Status | Scope and acceptance |
 | --- | --- | --- | --- |
-| R12 | High | Proposed | Forecast change history: compare archived probabilities and scores across refreshes, with timestamps and changed inputs; never imply causal attribution from correlation. |
-| R13 | High | Proposed | Model disagreement: flag classifier versus score-ensemble winner differences, show model-family dispersion and keep each output's meaning explicit. |
-| R14 | High | Proposed | Data-quality summary: distinguish missing/stale starter, injury and weather inputs from win probability; no unvalidated probability penalty. |
-| R15 | Medium | Proposed | Team profiles: opponent-adjusted trends, upcoming opponents and version-scoped observed performance with sample counts. |
-| R16 | Medium | Proposed | Favorites and shareable filters: local saved team preference and URL-linked week/team/game views, with reset and mobile checks. |
-| R17 | Medium | Proposed | Drift and forecast-horizon evaluation: compare calibration and score error by season stage and forecast lead time using only immutable prospective archives. |
+| R12 | High | Implemented prospectively | Timestamped winner and combined-score history, same-version deltas and changed inputs/source hashes. Immutable observations preserved in audit/dashboard_history.json; unchanged refreshes deduplicate. No reconstructed legacy history. |
+| R13 | High | Implemented | Classifier/score-ensemble disagreement on cards; per-family expected scores, versions and margin range in game details. Dispersion is not a calibrated interval. |
+| R14 | High | Implemented with provider limits | Coverage summary and detailed missing/fallback counts, QB/weather/injury limitations, source observation age and roster caveat. Freshness unknown where publication times absent; no probability penalty. |
+| R15 | Medium | Implemented | 32 profiles, opponent-adjusted EPA trend, complete schedule/scores, record and version-scoped observed winner accuracy with counts. Trends use revised research context, not live historical availability. |
+| R16 | Medium | Implemented | Browser-local favorite, URL-linked week/team/confidence or game, reset, back-navigation handling and storage-failure fallback. No accounts or server-stored preferences. |
+| R17 | Medium | Implemented; accumulating prospective evidence | Winner/score-version-isolated horizon and season-stage metrics, calibration bias, score MAE and sample-gated drift alerts. No settled verified observations initially; no automatic production changes. |
 
 ## Evidence and Boundaries
 
@@ -62,6 +62,8 @@ Backtest outputs: `backtests/weekly_predictions.csv` and
 results, but never runs backtests or retrains production automatically.
 
 ## Iteration Log
+
+- 2026-10-13, R12-R17: Added archive-backed insights, team profiles, preferences and monitoring; refresh exporter runs inside existing staged validation. Production models and forecasts unchanged. Monitor uses latest observation per game/version/horizon, with no retrospective score backfill. Descriptive drift thresholds require at least 32 decisive games in both recent and earlier windows; no statistical significance or improved-performance claim.
 
 - 2026-10-13: Added blue projected-winner emphasis to weekly team rows, with explicit text and a pregame-pick label for finals. Green/red remain outcome correctness indicators. Highlight uses the classifier's saved pick even when the score ensemble disagrees. Added R12-R17 proposals; no model or forecast changes.
 

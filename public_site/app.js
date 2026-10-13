@@ -174,6 +174,7 @@ async function main() {
     byId(id).addEventListener("input", update);
   }
   update();
+  window.setupInsights(predictions, update);
   window.addEventListener('researchready',update);
 }
 

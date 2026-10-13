@@ -331,3 +331,20 @@ uses semantic comparisons to avoid timestamp-only deployments.
 
 Remaining options and data dependencies are tracked in ROADMAP.md rather than a
 second, potentially stale feature list.
+# Dashboard Insights (R12-R17)
+
+Weekly refreshes export forecast history and prospective monitoring automatically.
+To rebuild these exports without fetching data or retraining:
+
+```powershell
+.\.venv\Scripts\python.exe dashboard_insights.py
+```
+
+Preserve `audit/dashboard_history.json` along with `audit/forecasts/`: these are
+prospective observations, not regenerable historical labels. The exporter adds
+combined score observations only before kickoff and never overwrites old records.
+Winner-only imported observations do not imply a historical score forecast.
+The forecast monitor starts empty until verified forecasts settle. Review alerts
+are descriptive, model-version isolated and never promote or retrain a model.
+Favorites stay in the visitor's browser; share links encode schedule filters.
+

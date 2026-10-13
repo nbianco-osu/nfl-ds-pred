@@ -1,6 +1,7 @@
 """Dependency-free publication gate for exported forecast data."""
 import json
 import math
+from datetime import datetime
 from pathlib import Path
 
 
@@ -40,6 +41,18 @@ def validate(root):
             for field in ['spread','total']:
                 if d[field] and abs(sum(d[field].values())-1)>1e-9:
                     raise ValueError('Incoherent line probabilities')
+    history_path=folder/'forecast_history.json'
+    if history_path.exists():
+        for game_id, records in json.loads(history_path.read_text())['games'].items():
+            if game_id not in {r['game_id'] for r in rows}:
+                raise ValueError('Unknown game in forecast history')
+            if len({r['id'] for r in records}) != len(records):
+                raise ValueError('Duplicate history observations')
+            for r in records:
+                if not 0 <= r['probability'] <= 1:
+                    raise ValueError('Invalid history probability')
+                if datetime.fromisoformat(r['forecast_at'].replace('Z','+00:00')).tzinfo is None:
+                    raise ValueError('History timestamp lacks timezone')
     return {'games':len(rows),'completed':sum(r['status']=='Final' for r in rows)}
 
 

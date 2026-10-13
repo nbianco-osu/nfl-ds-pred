@@ -32,6 +32,8 @@
         <button id="scoresTab" role="tab" aria-selected="false" aria-controls="scoresPanel" tabindex="-1">Scores &amp; Lines</button>
         <button id="performanceTab" role="tab" aria-selected="false" aria-controls="performancePanel" tabindex="-1">Performance</button>
         <button id="researchTab" role="tab" aria-selected="false" aria-controls="researchPanel" tabindex="-1">Research &amp; Review</button>
+        <button id="profilesTab" role="tab" aria-selected="false" aria-controls="profilesPanel" tabindex="-1">Team Profiles</button>
+        <button id="monitorTab" role="tab" aria-selected="false" aria-controls="monitorPanel" tabindex="-1">Forecast Monitor</button>
       </div>
       <div id="dashboardPanel" role="tabpanel" aria-labelledby="dashboardTab">
 
@@ -223,6 +225,20 @@
           <div class="table-wrap"><table><thead><tr><th>Production cohort</th><th>Prospective games / minimum</th><th>Candidate minus baseline log-loss interval</th><th>Review readiness</th><th>Human decision</th></tr></thead><tbody id="challengerRows"></tbody></table></div>
         </section>
       </section>
+      <section id="profilesPanel" role="tabpanel" aria-labelledby="profilesTab" hidden>
+        <h2>Team Profile</h2>
+        <div class="comparison-controls"><label>Team<select id="profileTeam"></select></label><label>Winner model version<select id="profileVersion"></select></label></div>
+        <div id="teamProfile" aria-live="polite"></div>
+        <div class="chart-frame"><canvas id="profileChart" role="img" aria-label="Opponent-adjusted offensive EPA trend"></canvas></div>
+        <div class="table-wrap"><table><thead><tr><th>Week</th><th>Opponent</th><th>Team win chance</th><th>Expected score (team - opponent)</th><th>Actual score</th><th>Pick correct?</th></tr></thead><tbody id="profileGames"></tbody></table></div>
+      </section>
+      <section id="monitorPanel" role="tabpanel" aria-labelledby="monitorTab" hidden>
+        <h2>Prospective Forecast Monitor</h2><p id="driftNote" class="body-copy"></p>
+        <div class="comparison-controls"><label>Winner version<select id="driftVersion"></select></label><a href="./data/drift_monitor.json" download>Download monitoring results</a><a href="./data/forecast_history.json" download>Download forecast history</a></div>
+        <p id="driftStatus" aria-live="polite"></p>
+        <div class="table-wrap"><table><thead><tr><th>Score version / horizon</th><th>Graded / ties</th><th>Log loss</th><th>Brier</th><th>Calibration bias</th><th>Score games / MAE</th><th>Recent / baseline games</th><th>Review status</th></tr></thead><tbody id="driftRows"></tbody></table></div>
+        <h3>Season Stage</h3><div class="table-wrap"><table><thead><tr><th>Score version / stage</th><th>Graded games</th><th>Log loss</th><th>Brier</th><th>Score games / MAE</th></tr></thead><tbody id="driftStages"></tbody></table></div>
+      </section>
       <section class="panel disclaimer">
         <p class="eyebrow">Disclaimers And Fair Use</p>
         <h2>Educational Predictive Analytics</h2>
@@ -245,6 +261,7 @@
     <script src="./matchups.js"></script>
     <script src="./performance.js"></script>
     <script src="./research.js"></script>
+    <script src="./insights.js"></script>
     <script src="./app.js"></script>
   </body>
 </html>
