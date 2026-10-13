@@ -287,7 +287,23 @@ archived line cannot be filled later to create a model pick. Future lines may
 change on refresh; absent lines remain unavailable. Preserve this archive.
 This is educational analysis, not betting advice or a live odds service.
 
-## Good Next Features
+## Evaluation and Iteration
+
+See [ROADMAP.md](ROADMAP.md) for prioritized options, acceptance checks and the
+iteration log. The Performance tab separates observed archived results from
+weekly historical backtests. It defaults to the latest winner-model version;
+legacy provenance limitations and score/line exclusions remain visible.
+
+Run `python rolling_backtest.py --start-season 2023 --end-season 2025` for the
+fixed-setting home-field, recent-form and Ridge-score baselines. The command
+writes per-game predictions and fold cutoffs, never production model artifacts.
+`python performance.py` rebuilds observed performance from the existing public
+forecast archive. The weekly refresh invokes this export automatically.
+
+The matchup view opens on the earliest unfinished week (or the final week when
+all games are complete), with compact score summaries and expandable details.
+
+## Additional Feature Options
 
 - Play-by-play EPA/offensive success rate from `nfl.load_pbp(...)`
 - Weekly rosters/injuries from `nfl.load_rosters_weekly(...)` and `nfl.load_injuries(...)`

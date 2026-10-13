@@ -382,3 +382,28 @@ th {
 .score-correct { color: var(--score-green); }
 .score-wrong { color: var(--score-red); }
 .view-tabs { flex-wrap: wrap; }
+.eyebrow { letter-spacing: 0; }
+.matchup-section { min-width: 0; }
+.matchup-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+.matchup-game { background: white; border: 1px solid var(--line); border-radius: 6px; padding: 16px; min-width: 0; }
+.matchup-meta, .matchup-pick { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; font-size: 12px; margin-bottom: 16px; }
+.matchup-meta span:last-child { padding: 2px 5px; }
+.matchup-team { display: grid; grid-template-columns: 32px minmax(0, 1fr) 44px; align-items: center; gap: 8px; margin: 12px 0; font-size: 14px; }
+.matchup-team img { object-fit: contain; }
+.matchup-team small { display: block; color: var(--muted); font-size: 11px; margin-top: 4px; }
+.matchup-team strong { font-size: 20px; text-align: right; }
+.matchup-pick { border-top: 1px solid var(--line); padding-top: 12px; margin-bottom: 12px; }
+.matchup-game summary, .full-schedule summary, .performance-detail summary { cursor: pointer; font-size: 13px; }
+.matchup-details { font-size: 12px; overflow-wrap: anywhere; }
+.matchup-details dt { color: var(--muted); margin-top: 12px; }
+.matchup-details dd { margin: 4px 0; }
+.full-schedule, .performance-detail { margin: 20px 0; }
+.full-schedule .table-wrap { margin-top: 12px; }
+.backtest-section { border-top: 1px solid var(--line); padding: 24px 0; margin-top: 24px; }
+#performanceMetrics .metric strong { font-size: 20px; overflow-wrap: anywhere; }
+@media (max-width: 600px) {
+  .matchup-list { grid-template-columns: 1fr; }
+  .app-header, main { padding: 18px; }
+  .toolbar { margin-inline: 0; }
+  .panel-heading { flex-wrap: wrap; }
+}

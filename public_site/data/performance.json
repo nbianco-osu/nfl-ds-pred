@@ -1,0 +1,1396 @@
+{
+  "schema_version": 1,
+  "source_updated_at": "2026-10-13T13:29:29.674651+00:00",
+  "default_version": "20260929T124531Z",
+  "note": "Observed saved forecasts, not backtests. Winner archives lack individual creation timestamps; legacy provenance is incomplete. All versions combines different models. Score errors require an archived score timestamp. Score/line statistics use the ensemble and the selected winner-version cohort. Ties are excluded from winner metrics; pushes and ungraded picks are excluded from line hit rates.",
+  "groups": [
+    {
+      "version": "all",
+      "summary": {
+        "completed": 79,
+        "ties": 1,
+        "winner_n": 78,
+        "correct": 46,
+        "accuracy": 0.5897435897435898,
+        "log_loss": 0.6662048942339887,
+        "brier": 0.23691947342134811,
+        "calibration": [
+          {
+            "lower": 0.0,
+            "upper": 0.1,
+            "n": 0,
+            "predicted": null,
+            "observed": null
+          },
+          {
+            "lower": 0.1,
+            "upper": 0.2,
+            "n": 0,
+            "predicted": null,
+            "observed": null
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "n": 0,
+            "predicted": null,
+            "observed": null
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "n": 5,
+            "predicted": 0.35037593644000004,
+            "observed": 0.2
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "n": 28,
+            "predicted": 0.4518519784857143,
+            "observed": 0.4642857142857143
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "n": 23,
+            "predicted": 0.5458881760260871,
+            "observed": 0.5652173913043478
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "n": 12,
+            "predicted": 0.6385221929166668,
+            "observed": 0.5
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "n": 7,
+            "predicted": 0.7532143426,
+            "observed": 0.8571428571428571
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "n": 3,
+            "predicted": 0.8091472735666666,
+            "observed": 0.6666666666666666
+          },
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "n": 0,
+            "predicted": null,
+            "observed": null
+          }
+        ],
+        "score_n": 31,
+        "team_score_mae": 6.791935483870967,
+        "margin_mae": 8.796774193548389,
+        "total_mae": 10.835483870967742,
+        "spread": {
+          "correct": 15,
+          "n": 29,
+          "pushes": 2,
+          "excluded": 48
+        },
+        "total": {
+          "correct": 15,
+          "n": 30,
+          "pushes": 0,
+          "excluded": 49
+        }
+      },
+      "weeks": [
+        {
+          "week": 1,
+          "completed": 16,
+          "ties": 0,
+          "winner_n": 16,
+          "correct": 8,
+          "accuracy": 0.5,
+          "log_loss": 0.673471001409786,
+          "brier": 0.2406111183463861,
+          "calibration": [
+            {
+              "lower": 0.0,
+              "upper": 0.1,
+              "n": 0,
+              "predicted": null,
+              "observed": null
+            },
+            {
+              "lower": 0.1,
+              "upper": 0.2,
+              "n": 0,
+              "predicted": null,
+              "observed": null
+            },
+            {
+              "lower": 0.2,
+              "upper": 0.3,
+              "n": 0,
+              "predicted": null,
+              "observed": null
+            },
+            {
+              "lower": 0.3,
+              "upper": 0.4,
+              "n": 0,
+              "predicted": null,
+              "observed": null
+            },
+            {
+              "lower": 0.4,
+              "upper": 0.5,
+              "n": 8,
+              "predicted": 0.4621956600375,
+              "observed": 0.625
+            },
+            {
+              "lower": 0.5,
+              "upper": 0.6,
+              "n": 6,
+              "predicted": 0.5554053243,
+              "observed": 0.5
+            },
+            {
+              "lower": 0.6,
+              "upper": 0.7,
+              "n": 2,
+              "predicted": 0.6498353262500001,
+              "observed": 1.0
+            },
+            {
+              "lower": 0.7,
+              "upper": 0.8,
+              "n": 0,
+              "predicted": null,
+              "observed": null
+            },
+            {
+              "lower": 0.8,
+              "upper": 0.9,
+              "n": 0,
+              "predicted": null,
+              "observed": null
+            },
+            {
+              "lower": 0.9,
+              "upper": 1.0,
+              "n": 0,
+              "predicted": null,
+              "observed": null
+            }
+          ],
+          "score_n": 0,
+          "team_score_mae": null,
+          "margin_mae": null,
+          "total_mae": null,
+          "spread": {
+            "correct": 0,
+            "n": 0,
+            "pushes": 0,
+            "excluded": 16
+          },
+          "total": {
+            "correct": 0,
+            "n": 0,
+            "pushes": 0,
+            "excluded": 16
+          }
+        },
+        {
+          "week": 2,
+          "completed": 16,
+          "ties": 0,
+          "winner_n": 16,
+          "correct": 10,
+          "accuracy": 0.625,
+          "log_loss": 0.7102925359875931,
+          "brier": 0.25673179361518317,
+          "calibration": [
+            {
+              "lower": 0.0,
+              "upper": 0.1,
+              "n": 0,
+              "predicted": null,
+              "observed": null
+            },
+            {
+              "lower": 0.1,
+              "upper": 0.2,
+              "n": 0,
+              "predicted": null,
+              "observed": null
+            },
+            {
+              "lower": 0.2,
+              "upper": 0.3,
+              "n": 0,
+              "predicted": null,
+              "observed": null
+            },
+            {
+              "lower": 0.3,
+              "upper": 0.4,
+              "n": 1,
+              "predicted": 0.32503649430000003,
+              "observed": 0.0
+            },
+            {
+              "lower": 0.4,
+              "upper": 0.5,
+              "n": 4,
+              "predicted": 0.45939267402500006,
+              "observed": 0.25
+            },
+            {
+              "lower": 0.5,
+              "upper": 0.6,
+              "n": 4,
+              "predicted": 0.56772207615,
+              "observed": 0.75
+            },
+            {
+              "lower": 0.6,
+              "upper": 0.7,
+              "n": 5,
+              "predicted": 0.6376514143400002,
+              "observed": 0.4
+            },
+            {
+              "lower": 0.7,
+              "upper": 0.8,
+              "n": 2,
+              "predicted": 0.7688425607,
+              "observed": 0.5
+            },
+            {
+              "lower": 0.8,
+              "upper": 0.9,
+              "n": 0,
+              "predicted": null,
+              "observed": null
+            },
+            {
+              "lower": 0.9,
+              "upper": 1.0,
+              "n": 0,
+              "predicted": null,
+              "observed": null
+            }
+          ],
+          "score_n": 0,
+          "team_score_mae": null,
+          "margin_mae": null,
+          "total_mae": null,
+          "spread": {
+            "correct": 0,
+            "n": 0,
+            "pushes": 0,
+            "excluded": 16
+          },
+          "total": {
+            "correct": 0,
+            "n": 0,
+            "pushes": 0,
+            "excluded": 16
+          }
+        },
+        {
+          "week": 3,
+          "completed": 16,
+          "ties": 0,
+          "winner_n": 16,
+          "correct": 10,
+          "accuracy": 0.625,
+          "log_loss": 0.6535804511118283,
+          "brier": 0.23260499280371771,
+          "calibration": [
+            {
+              "lower": 0.0,
+              "upper": 0.1,
+              "n": 0,
+              "predicted": null,
+              "observed": null
+            },
+            {
+              "lower": 0.1,
+              "upper": 0.2,
+              "n": 0,
+              "predicted": null,
+              "observed": null
+            },
+            {
+              "lower": 0.2,
+              "upper": 0.3,
+              "n": 0,
+              "predicted": null,
+              "observed": null
+            },
+            {
+              "lower": 0.3,
+              "upper": 0.4,
+              "n": 2,
+              "predicted": 0.34451214845,
+              "observed": 0.5
+            },
+            {
+              "lower": 0.4,
+              "upper": 0.5,
+              "n": 5,
+              "predicted": 0.44036126778,
+              "observed": 0.6
+            },
+            {
+              "lower": 0.5,
+              "upper": 0.6,
+              "n": 5,
+              "predicted": 0.53429300594,
+              "observed": 0.8
+            },
+            {
+              "lower": 0.6,
+              "upper": 0.7,
+              "n": 2,
+              "predicted": 0.64484478825,
+              "observed": 0.5
+            },
+            {
+              "lower": 0.7,
+              "upper": 0.8,
+              "n": 1,
+              "predicted": 0.7359985766,
+              "observed": 1.0
+            },
+            {
+              "lower": 0.8,
+              "upper": 0.9,
+              "n": 1,
+              "predicted": 0.8021444076,
+              "observed": 1.0
+            },
+            {
+              "lower": 0.9,
+              "upper": 1.0,
+              "n": 0,
+              "predicted": null,
+              "observed": null
+            }
+          ],
+          "score_n": 0,
+          "team_score_mae": null,
+          "margin_mae": null,
+          "total_mae": null,
+          "spread": {
+            "correct": 0,
+            "n": 0,
+            "pushes": 0,
+            "excluded": 16
+          },
+          "total": {
+            "correct": 0,
+            "n": 0,
+            "pushes": 0,
+            "excluded": 16
+          }
+        },
+        {
+          "week": 4,
+          "completed": 16,
+          "ties": 0,
+          "winner_n": 16,
+          "correct": 8,
+          "accuracy": 0.5,
+          "log_loss": 0.6762478727932042,
+          "brier": 0.241461958366173,
+          "calibration": [
+            {
+              "lower": 0.0,
+              "upper": 0.1,
+              "n": 0,
+              "predicted": null,
+              "observed": null
+            },
+            {
+              "lower": 0.1,
+              "upper": 0.2,
+              "n": 0,
+              "predicted": null,
+              "observed": null
+            },
+            {
+              "lower": 0.2,
+              "upper": 0.3,
+              "n": 0,
+              "predicted": null,
+              "observed": null
+            },
+            {
+              "lower": 0.3,
+              "upper": 0.4,
+              "n": 0,
+              "predicted": null,
+              "observed": null
+            },
+            {
+              "lower": 0.4,
+              "upper": 0.5,
+              "n": 4,
+              "predicted": 0.450839515075,
+              "observed": 0.5
+            },
+            {
+              "lower": 0.5,
+              "upper": 0.6,
+              "n": 4,
+              "predicted": 0.5236622164,
+              "observed": 0.25
+            },
+            {
+              "lower": 0.6,
+              "upper": 0.7,
+              "n": 3,
+              "predicted": 0.6282163381000001,
+              "observed": 0.3333333333333333
+            },
+            {
+              "lower": 0.7,
+              "upper": 0.8,
+              "n": 3,
+              "predicted": 0.7630569619333333,
+              "observed": 1.0
+            },
+            {
+              "lower": 0.8,
+              "upper": 0.9,
+              "n": 2,
+              "predicted": 0.81264870655,
+              "observed": 0.5
+            },
+            {
+              "lower": 0.9,
+              "upper": 1.0,
+              "n": 0,
+              "predicted": null,
+              "observed": null
+            }
+          ],
+          "score_n": 16,
+          "team_score_mae": 6.321875,
+          "margin_mae": 7.49375,
+          "total_mae": 10.78125,
+          "spread": {
+            "correct": 10,
+            "n": 15,
+            "pushes": 1,
+            "excluded": 0
+          },
+          "total": {
+            "correct": 9,
+            "n": 15,
+            "pushes": 0,
+            "excluded": 1
+          }
+        },
+        {
+          "week": 5,
+          "completed": 15,
+          "ties": 1,
+          "winner_n": 14,
+          "correct": 10,
+          "accuracy": 0.7142857142857143,
+          "log_loss": 0.6104651406723235,
+          "brier": 0.20979722262584216,
+          "calibration": [
+            {
+              "lower": 0.0,
+              "upper": 0.1,
+              "n": 0,
+              "predicted": null,
+              "observed": null
+            },
+            {
+              "lower": 0.1,
+              "upper": 0.2,
+              "n": 0,
+              "predicted": null,
+              "observed": null
+            },
+            {
+              "lower": 0.2,
+              "upper": 0.3,
+              "n": 0,
+              "predicted": null,
+              "observed": null
+            },
+            {
+              "lower": 0.3,
+              "upper": 0.4,
+              "n": 2,
+              "predicted": 0.36890944550000004,
+              "observed": 0.0
+            },
+            {
+              "lower": 0.4,
+              "upper": 0.5,
+              "n": 7,
+              "predicted": 0.4445078602857143,
+              "observed": 0.2857142857142857
+            },
+            {
+              "lower": 0.5,
+              "upper": 0.6,
+              "n": 4,
+              "predicted": 0.546498475725,
+              "observed": 0.5
+            },
+            {
+              "lower": 0.6,
+              "upper": 0.7,
+              "n": 0,
+              "predicted": null,
+              "observed": null
+            },
+            {
+              "lower": 0.7,
+              "upper": 0.8,
+              "n": 1,
+              "predicted": 0.7096458144000001,
+              "observed": 1.0
+            },
+            {
+              "lower": 0.8,
+              "upper": 0.9,
+              "n": 0,
+              "predicted": null,
+              "observed": null
+            },
+            {
+              "lower": 0.9,
+              "upper": 1.0,
+              "n": 0,
+              "predicted": null,
+              "observed": null
+            }
+          ],
+          "score_n": 15,
+          "team_score_mae": 7.293333333333334,
+          "margin_mae": 10.186666666666667,
+          "total_mae": 10.893333333333334,
+          "spread": {
+            "correct": 5,
+            "n": 14,
+            "pushes": 1,
+            "excluded": 0
+          },
+          "total": {
+            "correct": 6,
+            "n": 15,
+            "pushes": 0,
+            "excluded": 0
+          }
+        }
+      ]
+    },
+    {
+      "version": "20260922T151906Z",
+      "summary": {
+        "completed": 16,
+        "ties": 0,
+        "winner_n": 16,
+        "correct": 10,
+        "accuracy": 0.625,
+        "log_loss": 0.6535804511118283,
+        "brier": 0.23260499280371771,
+        "calibration": [
+          {
+            "lower": 0.0,
+            "upper": 0.1,
+            "n": 0,
+            "predicted": null,
+            "observed": null
+          },
+          {
+            "lower": 0.1,
+            "upper": 0.2,
+            "n": 0,
+            "predicted": null,
+            "observed": null
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "n": 0,
+            "predicted": null,
+            "observed": null
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "n": 2,
+            "predicted": 0.34451214845,
+            "observed": 0.5
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "n": 5,
+            "predicted": 0.44036126778,
+            "observed": 0.6
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "n": 5,
+            "predicted": 0.53429300594,
+            "observed": 0.8
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "n": 2,
+            "predicted": 0.64484478825,
+            "observed": 0.5
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "n": 1,
+            "predicted": 0.7359985766,
+            "observed": 1.0
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "n": 1,
+            "predicted": 0.8021444076,
+            "observed": 1.0
+          },
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "n": 0,
+            "predicted": null,
+            "observed": null
+          }
+        ],
+        "score_n": 0,
+        "team_score_mae": null,
+        "margin_mae": null,
+        "total_mae": null,
+        "spread": {
+          "correct": 0,
+          "n": 0,
+          "pushes": 0,
+          "excluded": 16
+        },
+        "total": {
+          "correct": 0,
+          "n": 0,
+          "pushes": 0,
+          "excluded": 16
+        }
+      },
+      "weeks": [
+        {
+          "week": 3,
+          "completed": 16,
+          "ties": 0,
+          "winner_n": 16,
+          "correct": 10,
+          "accuracy": 0.625,
+          "log_loss": 0.6535804511118283,
+          "brier": 0.23260499280371771,
+          "calibration": [
+            {
+              "lower": 0.0,
+              "upper": 0.1,
+              "n": 0,
+              "predicted": null,
+              "observed": null
+            },
+            {
+              "lower": 0.1,
+              "upper": 0.2,
+              "n": 0,
+              "predicted": null,
+              "observed": null
+            },
+            {
+              "lower": 0.2,
+              "upper": 0.3,
+              "n": 0,
+              "predicted": null,
+              "observed": null
+            },
+            {
+              "lower": 0.3,
+              "upper": 0.4,
+              "n": 2,
+              "predicted": 0.34451214845,
+              "observed": 0.5
+            },
+            {
+              "lower": 0.4,
+              "upper": 0.5,
+              "n": 5,
+              "predicted": 0.44036126778,
+              "observed": 0.6
+            },
+            {
+              "lower": 0.5,
+              "upper": 0.6,
+              "n": 5,
+              "predicted": 0.53429300594,
+              "observed": 0.8
+            },
+            {
+              "lower": 0.6,
+              "upper": 0.7,
+              "n": 2,
+              "predicted": 0.64484478825,
+              "observed": 0.5
+            },
+            {
+              "lower": 0.7,
+              "upper": 0.8,
+              "n": 1,
+              "predicted": 0.7359985766,
+              "observed": 1.0
+            },
+            {
+              "lower": 0.8,
+              "upper": 0.9,
+              "n": 1,
+              "predicted": 0.8021444076,
+              "observed": 1.0
+            },
+            {
+              "lower": 0.9,
+              "upper": 1.0,
+              "n": 0,
+              "predicted": null,
+              "observed": null
+            }
+          ],
+          "score_n": 0,
+          "team_score_mae": null,
+          "margin_mae": null,
+          "total_mae": null,
+          "spread": {
+            "correct": 0,
+            "n": 0,
+            "pushes": 0,
+            "excluded": 16
+          },
+          "total": {
+            "correct": 0,
+            "n": 0,
+            "pushes": 0,
+            "excluded": 16
+          }
+        }
+      ]
+    },
+    {
+      "version": "20260929T124531Z",
+      "summary": {
+        "completed": 31,
+        "ties": 1,
+        "winner_n": 30,
+        "correct": 18,
+        "accuracy": 0.6,
+        "log_loss": 0.6455492644701265,
+        "brier": 0.2266850816873519,
+        "calibration": [
+          {
+            "lower": 0.0,
+            "upper": 0.1,
+            "n": 0,
+            "predicted": null,
+            "observed": null
+          },
+          {
+            "lower": 0.1,
+            "upper": 0.2,
+            "n": 0,
+            "predicted": null,
+            "observed": null
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "n": 0,
+            "predicted": null,
+            "observed": null
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "n": 2,
+            "predicted": 0.36890944550000004,
+            "observed": 0.0
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "n": 11,
+            "predicted": 0.44681028020909097,
+            "observed": 0.36363636363636365
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "n": 8,
+            "predicted": 0.5350803460625,
+            "observed": 0.375
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "n": 3,
+            "predicted": 0.6282163381000001,
+            "observed": 0.3333333333333333
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "n": 4,
+            "predicted": 0.74970417505,
+            "observed": 1.0
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "n": 2,
+            "predicted": 0.81264870655,
+            "observed": 0.5
+          },
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "n": 0,
+            "predicted": null,
+            "observed": null
+          }
+        ],
+        "score_n": 31,
+        "team_score_mae": 6.791935483870967,
+        "margin_mae": 8.796774193548389,
+        "total_mae": 10.835483870967742,
+        "spread": {
+          "correct": 15,
+          "n": 29,
+          "pushes": 2,
+          "excluded": 0
+        },
+        "total": {
+          "correct": 15,
+          "n": 30,
+          "pushes": 0,
+          "excluded": 1
+        }
+      },
+      "weeks": [
+        {
+          "week": 4,
+          "completed": 16,
+          "ties": 0,
+          "winner_n": 16,
+          "correct": 8,
+          "accuracy": 0.5,
+          "log_loss": 0.6762478727932042,
+          "brier": 0.241461958366173,
+          "calibration": [
+            {
+              "lower": 0.0,
+              "upper": 0.1,
+              "n": 0,
+              "predicted": null,
+              "observed": null
+            },
+            {
+              "lower": 0.1,
+              "upper": 0.2,
+              "n": 0,
+              "predicted": null,
+              "observed": null
+            },
+            {
+              "lower": 0.2,
+              "upper": 0.3,
+              "n": 0,
+              "predicted": null,
+              "observed": null
+            },
+            {
+              "lower": 0.3,
+              "upper": 0.4,
+              "n": 0,
+              "predicted": null,
+              "observed": null
+            },
+            {
+              "lower": 0.4,
+              "upper": 0.5,
+              "n": 4,
+              "predicted": 0.450839515075,
+              "observed": 0.5
+            },
+            {
+              "lower": 0.5,
+              "upper": 0.6,
+              "n": 4,
+              "predicted": 0.5236622164,
+              "observed": 0.25
+            },
+            {
+              "lower": 0.6,
+              "upper": 0.7,
+              "n": 3,
+              "predicted": 0.6282163381000001,
+              "observed": 0.3333333333333333
+            },
+            {
+              "lower": 0.7,
+              "upper": 0.8,
+              "n": 3,
+              "predicted": 0.7630569619333333,
+              "observed": 1.0
+            },
+            {
+              "lower": 0.8,
+              "upper": 0.9,
+              "n": 2,
+              "predicted": 0.81264870655,
+              "observed": 0.5
+            },
+            {
+              "lower": 0.9,
+              "upper": 1.0,
+              "n": 0,
+              "predicted": null,
+              "observed": null
+            }
+          ],
+          "score_n": 16,
+          "team_score_mae": 6.321875,
+          "margin_mae": 7.49375,
+          "total_mae": 10.78125,
+          "spread": {
+            "correct": 10,
+            "n": 15,
+            "pushes": 1,
+            "excluded": 0
+          },
+          "total": {
+            "correct": 9,
+            "n": 15,
+            "pushes": 0,
+            "excluded": 1
+          }
+        },
+        {
+          "week": 5,
+          "completed": 15,
+          "ties": 1,
+          "winner_n": 14,
+          "correct": 10,
+          "accuracy": 0.7142857142857143,
+          "log_loss": 0.6104651406723235,
+          "brier": 0.20979722262584216,
+          "calibration": [
+            {
+              "lower": 0.0,
+              "upper": 0.1,
+              "n": 0,
+              "predicted": null,
+              "observed": null
+            },
+            {
+              "lower": 0.1,
+              "upper": 0.2,
+              "n": 0,
+              "predicted": null,
+              "observed": null
+            },
+            {
+              "lower": 0.2,
+              "upper": 0.3,
+              "n": 0,
+              "predicted": null,
+              "observed": null
+            },
+            {
+              "lower": 0.3,
+              "upper": 0.4,
+              "n": 2,
+              "predicted": 0.36890944550000004,
+              "observed": 0.0
+            },
+            {
+              "lower": 0.4,
+              "upper": 0.5,
+              "n": 7,
+              "predicted": 0.4445078602857143,
+              "observed": 0.2857142857142857
+            },
+            {
+              "lower": 0.5,
+              "upper": 0.6,
+              "n": 4,
+              "predicted": 0.546498475725,
+              "observed": 0.5
+            },
+            {
+              "lower": 0.6,
+              "upper": 0.7,
+              "n": 0,
+              "predicted": null,
+              "observed": null
+            },
+            {
+              "lower": 0.7,
+              "upper": 0.8,
+              "n": 1,
+              "predicted": 0.7096458144000001,
+              "observed": 1.0
+            },
+            {
+              "lower": 0.8,
+              "upper": 0.9,
+              "n": 0,
+              "predicted": null,
+              "observed": null
+            },
+            {
+              "lower": 0.9,
+              "upper": 1.0,
+              "n": 0,
+              "predicted": null,
+              "observed": null
+            }
+          ],
+          "score_n": 15,
+          "team_score_mae": 7.293333333333334,
+          "margin_mae": 10.186666666666667,
+          "total_mae": 10.893333333333334,
+          "spread": {
+            "correct": 5,
+            "n": 14,
+            "pushes": 1,
+            "excluded": 0
+          },
+          "total": {
+            "correct": 6,
+            "n": 15,
+            "pushes": 0,
+            "excluded": 0
+          }
+        }
+      ]
+    },
+    {
+      "version": "legacy",
+      "summary": {
+        "completed": 32,
+        "ties": 0,
+        "winner_n": 32,
+        "correct": 18,
+        "accuracy": 0.5625,
+        "log_loss": 0.6918817686986896,
+        "brier": 0.2486714559807846,
+        "calibration": [
+          {
+            "lower": 0.0,
+            "upper": 0.1,
+            "n": 0,
+            "predicted": null,
+            "observed": null
+          },
+          {
+            "lower": 0.1,
+            "upper": 0.2,
+            "n": 0,
+            "predicted": null,
+            "observed": null
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "n": 0,
+            "predicted": null,
+            "observed": null
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "n": 1,
+            "predicted": 0.32503649430000003,
+            "observed": 0.0
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "n": 12,
+            "predicted": 0.46126133136666664,
+            "observed": 0.5
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "n": 10,
+            "predicted": 0.56033202504,
+            "observed": 0.6
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "n": 7,
+            "predicted": 0.6411325320285715,
+            "observed": 0.5714285714285714
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "n": 2,
+            "predicted": 0.7688425607,
+            "observed": 0.5
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "n": 0,
+            "predicted": null,
+            "observed": null
+          },
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "n": 0,
+            "predicted": null,
+            "observed": null
+          }
+        ],
+        "score_n": 0,
+        "team_score_mae": null,
+        "margin_mae": null,
+        "total_mae": null,
+        "spread": {
+          "correct": 0,
+          "n": 0,
+          "pushes": 0,
+          "excluded": 32
+        },
+        "total": {
+          "correct": 0,
+          "n": 0,
+          "pushes": 0,
+          "excluded": 32
+        }
+      },
+      "weeks": [
+        {
+          "week": 1,
+          "completed": 16,
+          "ties": 0,
+          "winner_n": 16,
+          "correct": 8,
+          "accuracy": 0.5,
+          "log_loss": 0.673471001409786,
+          "brier": 0.2406111183463861,
+          "calibration": [
+            {
+              "lower": 0.0,
+              "upper": 0.1,
+              "n": 0,
+              "predicted": null,
+              "observed": null
+            },
+            {
+              "lower": 0.1,
+              "upper": 0.2,
+              "n": 0,
+              "predicted": null,
+              "observed": null
+            },
+            {
+              "lower": 0.2,
+              "upper": 0.3,
+              "n": 0,
+              "predicted": null,
+              "observed": null
+            },
+            {
+              "lower": 0.3,
+              "upper": 0.4,
+              "n": 0,
+              "predicted": null,
+              "observed": null
+            },
+            {
+              "lower": 0.4,
+              "upper": 0.5,
+              "n": 8,
+              "predicted": 0.4621956600375,
+              "observed": 0.625
+            },
+            {
+              "lower": 0.5,
+              "upper": 0.6,
+              "n": 6,
+              "predicted": 0.5554053243,
+              "observed": 0.5
+            },
+            {
+              "lower": 0.6,
+              "upper": 0.7,
+              "n": 2,
+              "predicted": 0.6498353262500001,
+              "observed": 1.0
+            },
+            {
+              "lower": 0.7,
+              "upper": 0.8,
+              "n": 0,
+              "predicted": null,
+              "observed": null
+            },
+            {
+              "lower": 0.8,
+              "upper": 0.9,
+              "n": 0,
+              "predicted": null,
+              "observed": null
+            },
+            {
+              "lower": 0.9,
+              "upper": 1.0,
+              "n": 0,
+              "predicted": null,
+              "observed": null
+            }
+          ],
+          "score_n": 0,
+          "team_score_mae": null,
+          "margin_mae": null,
+          "total_mae": null,
+          "spread": {
+            "correct": 0,
+            "n": 0,
+            "pushes": 0,
+            "excluded": 16
+          },
+          "total": {
+            "correct": 0,
+            "n": 0,
+            "pushes": 0,
+            "excluded": 16
+          }
+        },
+        {
+          "week": 2,
+          "completed": 16,
+          "ties": 0,
+          "winner_n": 16,
+          "correct": 10,
+          "accuracy": 0.625,
+          "log_loss": 0.7102925359875931,
+          "brier": 0.25673179361518317,
+          "calibration": [
+            {
+              "lower": 0.0,
+              "upper": 0.1,
+              "n": 0,
+              "predicted": null,
+              "observed": null
+            },
+            {
+              "lower": 0.1,
+              "upper": 0.2,
+              "n": 0,
+              "predicted": null,
+              "observed": null
+            },
+            {
+              "lower": 0.2,
+              "upper": 0.3,
+              "n": 0,
+              "predicted": null,
+              "observed": null
+            },
+            {
+              "lower": 0.3,
+              "upper": 0.4,
+              "n": 1,
+              "predicted": 0.32503649430000003,
+              "observed": 0.0
+            },
+            {
+              "lower": 0.4,
+              "upper": 0.5,
+              "n": 4,
+              "predicted": 0.45939267402500006,
+              "observed": 0.25
+            },
+            {
+              "lower": 0.5,
+              "upper": 0.6,
+              "n": 4,
+              "predicted": 0.56772207615,
+              "observed": 0.75
+            },
+            {
+              "lower": 0.6,
+              "upper": 0.7,
+              "n": 5,
+              "predicted": 0.6376514143400002,
+              "observed": 0.4
+            },
+            {
+              "lower": 0.7,
+              "upper": 0.8,
+              "n": 2,
+              "predicted": 0.7688425607,
+              "observed": 0.5
+            },
+            {
+              "lower": 0.8,
+              "upper": 0.9,
+              "n": 0,
+              "predicted": null,
+              "observed": null
+            },
+            {
+              "lower": 0.9,
+              "upper": 1.0,
+              "n": 0,
+              "predicted": null,
+              "observed": null
+            }
+          ],
+          "score_n": 0,
+          "team_score_mae": null,
+          "margin_mae": null,
+          "total_mae": null,
+          "spread": {
+            "correct": 0,
+            "n": 0,
+            "pushes": 0,
+            "excluded": 16
+          },
+          "total": {
+            "correct": 0,
+            "n": 0,
+            "pushes": 0,
+            "excluded": 16
+          }
+        }
+      ]
+    }
+  ]
+}

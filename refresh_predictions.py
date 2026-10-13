@@ -73,6 +73,8 @@ def main() -> None:
     predictions.to_csv(output, index=False)
     completed.to_csv(root / f'data/nfl_{args.season}_completed.csv', index=False)
     public.to_json(root / 'public_site/data/predictions.json', orient='records', indent=2)
+    from performance import export as export_performance
+    export_performance(root)
     export_simulations(predictions, root)
     from season_charts import export as export_charts
     export_charts(root)

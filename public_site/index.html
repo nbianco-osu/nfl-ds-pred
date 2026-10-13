@@ -29,6 +29,7 @@
         <button id="dashboardTab" role="tab" aria-selected="true" aria-controls="dashboardPanel">Matchups &amp; Models</button>
         <button id="seasonTab" role="tab" aria-selected="false" aria-controls="seasonPanel" tabindex="-1">Team Season Charts</button>
         <button id="scoresTab" role="tab" aria-selected="false" aria-controls="scoresPanel" tabindex="-1">Scores &amp; Lines</button>
+        <button id="performanceTab" role="tab" aria-selected="false" aria-controls="performancePanel" tabindex="-1">Performance</button>
       </div>
       <div id="dashboardPanel" role="tabpanel" aria-labelledby="dashboardTab">
 
@@ -49,7 +50,7 @@
       </section>
 
       <section class="section-grid">
-        <article class="panel">
+        <article class="matchup-section">
           <div class="panel-heading">
             <div>
               <p class="eyebrow">Schedule</p>
@@ -57,6 +58,8 @@
             </div>
             <span id="visibleCount" class="count-pill"></span>
           </div>
+          <div id="matchupList" class="matchup-list" aria-live="polite"></div>
+          <details class="full-schedule"><summary>Detailed forecast table</summary>
           <div class="table-wrap">
             <table>
               <thead>
@@ -76,6 +79,7 @@
               <tbody id="predictionRows"></tbody>
             </table>
           </div>
+          </details>
         </article>
 
         <aside class="panel">
@@ -181,6 +185,24 @@
         <p class="body-copy">A negative home handicap means the home team is favored. A push means the adjusted margin or total equals the line; pushes are not wins or losses. Model picks require an archived pregame score and line. Earlier completed games have actual line results only, with no retrospective model picks. Forecasts and available lines freeze at kickoff; settled comparisons use that snapshot when available.</p>
         <p><a href="https://nflreadr.nflverse.com/articles/dictionary_schedules.html">nflverse schedule and line definitions</a></p>
       </section>
+      <section id="performancePanel" role="tabpanel" aria-labelledby="performanceTab" hidden>
+        <h2>Observed Forecast Performance</h2>
+        <div class="comparison-controls"><label>Winner model version<select id="performanceVersion"></select></label><a href="./data/performance.json" download>Download observed results</a></div>
+        <p id="performanceNote" class="body-copy" aria-live="polite"></p>
+        <div id="performanceMetrics" class="metrics"></div>
+        <p id="performanceCounts" class="body-copy"></p>
+        <h3>Weekly Results</h3>
+        <div class="table-wrap" tabindex="0" aria-label="Weekly observed performance"><table><thead><tr><th>Week</th><th>Correct / graded</th><th>Accuracy</th><th>Log loss</th><th>Brier score</th><th>Score games</th><th>Margin MAE</th><th>Total MAE</th></tr></thead><tbody id="weeklyPerformance"></tbody></table></div>
+        <details class="performance-detail"><summary>Probability calibration</summary>
+          <p class="body-copy">Home-win probabilities compared with observed home-win frequency. Empty bins have no estimate. Log loss and Brier score reward probability quality; lower is better. MAE is mean absolute error in points.</p>
+          <div class="table-wrap"><table><thead><tr><th>Home-win probability band</th><th>Games</th><th>Average prediction</th><th>Observed home wins</th></tr></thead><tbody id="calibrationRows"></tbody></table></div>
+        </details>
+        <section class="backtest-section"><p class="eyebrow">Separate retrospective research</p><h2>Rolling Weekly Backtests</h2>
+          <p id="backtestNote" class="body-copy"></p>
+          <div class="table-wrap" tabindex="0" aria-label="Historical weekly backtests"><table><thead><tr><th>Season</th><th>Graded games</th><th>Home baseline accuracy</th><th>Home baseline log loss</th><th>Recent-form accuracy</th><th>Recent-form log loss</th><th>Ridge margin MAE</th><th>Ridge total MAE</th></tr></thead><tbody id="backtestRows"></tbody></table></div>
+          <p><a href="./data/backtest.json" download>Download methods, results and fold cutoffs</a></p>
+        </section>
+      </section>
       <section class="panel disclaimer">
         <p class="eyebrow">Disclaimers And Fair Use</p>
         <h2>Educational Predictive Analytics</h2>
@@ -200,6 +222,8 @@
     <script src="./vendor/chart.umd.min.js"></script>
     <script src="./season_chart.js"></script>
     <script src="./score_lines.js"></script>
+    <script src="./matchups.js"></script>
+    <script src="./performance.js"></script>
     <script src="./app.js"></script>
   </body>
 </html>

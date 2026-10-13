@@ -53,10 +53,10 @@ function renderMetrics(predictions, metrics) {
     byId("refreshStatus").textContent = `Updated ${new Date(predictions[0].updated_at).toLocaleString()}. ${predictions[0].feature_note} Final games retain their pregame predictions.`;
   }
   byId("metrics").innerHTML = [
-    metricCard("Predicted Games", predictions.length.toLocaleString()),
+    metricCard("Current Week", window.nextMatchupWeek(predictions)),
     metricCard("Model", "Random Forest"),
-    metricCard("Pre-refit 2026 Log Loss", metrics.log_loss.toFixed(3)),
-    metricCard("Pre-refit 2026 ROC AUC", metrics.roc_auc.toFixed(3)),
+    metricCard("Completed Games", predictions.filter(row => row.status === 'Final').length),
+    metricCard("Upcoming Games", predictions.filter(row => row.status !== 'Final').length),
   ].join("");
 }
 
@@ -65,6 +65,7 @@ function renderFilters(predictions) {
   const teams = [...new Set(predictions.flatMap((row) => [row.away_team_name, row.home_team_name]))].sort();
   byId("weekFilter").innerHTML = [`<option value="all">All weeks</option>`, ...weeks.map((week) => `<option value="${week}">Week ${week}</option>`)].join("");
   byId("teamFilter").innerHTML = [`<option value="all">All teams</option>`, ...teams.map((team) => `<option value="${team}">${team}</option>`)].join("");
+  byId('weekFilter').value = String(window.nextMatchupWeek(predictions));
 }
 
 function filterPredictions(predictions) {
@@ -80,6 +81,7 @@ function filterPredictions(predictions) {
 }
 
 function renderRows(rows) {
+  window.renderMatchups([...rows].sort((a, b) => a.week - b.week || String(a.gameday).localeCompare(String(b.gameday))));
   byId("visibleCount").textContent = `${rows.length} games`;
   byId("predictionRows").innerHTML = rows
     .sort((a, b) => a.week - b.week || String(a.gameday).localeCompare(String(b.gameday)))
@@ -146,6 +148,7 @@ async function main() {
   renderMetrics(predictions, metrics);
   renderFilters(predictions);
   window.setupScoreLines(predictions);
+  window.setupPerformance();
   renderShap(shapRows);
   window.setupSeasonCharts(seasonCharts || {teams: []});
   if (!seasonCharts) byId('seasonTab').textContent = 'Team Season Charts (unavailable)';
