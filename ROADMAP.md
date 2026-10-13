@@ -24,6 +24,20 @@ limitations, and the next acceptance check before marking an item complete.
 | R10 | Medium | Implemented | Independent score-model/version comparisons and calibration chart with Wilson 95% intervals and bin sample sizes. Empty/legacy samples remain explicit. |
 | R11 | Medium | Implemented; operational hardening continues | Staged validation, atomic per-file writes with rollback, health/stale indicator, Pages validation gate and scheduled Python/build CI. Weekly automation updated to semantic comparison and new audit exports. Whole-directory crash atomicity and remote raw-snapshot backup remain open. |
 
+## Proposed Next Iteration
+
+These are proposals, not implemented features. Finish R7's historical inputs and
+review the legacy roster-status correction before adding more model families.
+
+| ID | Priority | Status | Scope and acceptance |
+| --- | --- | --- | --- |
+| R12 | High | Proposed | Forecast change history: compare archived probabilities and scores across refreshes, with timestamps and changed inputs; never imply causal attribution from correlation. |
+| R13 | High | Proposed | Model disagreement: flag classifier versus score-ensemble winner differences, show model-family dispersion and keep each output's meaning explicit. |
+| R14 | High | Proposed | Data-quality summary: distinguish missing/stale starter, injury and weather inputs from win probability; no unvalidated probability penalty. |
+| R15 | Medium | Proposed | Team profiles: opponent-adjusted trends, upcoming opponents and version-scoped observed performance with sample counts. |
+| R16 | Medium | Proposed | Favorites and shareable filters: local saved team preference and URL-linked week/team/game views, with reset and mobile checks. |
+| R17 | Medium | Proposed | Drift and forecast-horizon evaluation: compare calibration and score error by season stage and forecast lead time using only immutable prospective archives. |
+
 ## Evidence and Boundaries
 
 - `rolling_backtest.py` is a research baseline harness, not a refit or evaluation of the deployed Random Forest. Production model files and archived picks are unchanged.
@@ -48,6 +62,8 @@ Backtest outputs: `backtests/weekly_predictions.csv` and
 results, but never runs backtests or retrains production automatically.
 
 ## Iteration Log
+
+- 2026-10-13: Added blue projected-winner emphasis to weekly team rows, with explicit text and a pregame-pick label for finals. Green/red remain outcome correctness indicators. Highlight uses the classifier's saved pick even when the score ensemble disagrees. Added R12-R17 proposals; no model or forecast changes.
 
 - 2026-10-13: Implemented R1-R3 and initialized the options tracker. All 31 Python tests passed; desktop/mobile browser checks passed, including all 28 Week 6 team-logo images, tab navigation, model-version filtering and no page overflow. Recent-form baseline: 62.5% accuracy / 0.645 log loss; home-field baseline: 54.2% / 0.691. These retrospective results do not establish production improvement.
 - 2026-10-13, R4-R11: Added provenance, nested evaluation, shadow score distributions, review gates, independent score results and staged publishing. Nested RF/HGB log loss 0.640 versus Elo 0.638 on 543 decisive games; no basis for automatic promotion. Nominal 80% research intervals achieved roughly 79-81% coverage. Preserved all 79 completed production forecasts. R7 remains partial for confirmed-starter/weather history and contextual ablations. An audit identified the legacy active-roster status-code mismatch; corrected research active-OL counts are separate from production.

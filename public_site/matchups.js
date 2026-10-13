@@ -10,7 +10,10 @@ window.renderMatchups = function (rows) {
   document.getElementById('matchupList').innerHTML = rows.map(row => {
     const result = row.prediction_result === 'Yes' ? 'Correct' : row.prediction_result === 'No' ? 'Wrong' : row.status === 'Final' ? 'Tie' : 'Pending';
     const tone = result === 'Correct' ? 'prediction-correct' : result === 'Wrong' ? 'prediction-incorrect' : '';
-    const team = side => `<div class="matchup-team"><img src="${escape(row[`${side}_logo`])}" alt="" width="32" height="32"><span>${escape(row[`${side}_team_name`])}<small>${side === 'home' ? 'Home' : 'Away'} &middot; ${(row[`${side}_win_probability`]*100).toFixed(1)}% win chance</small></span><strong>${points(row[`predicted_${side}_score`])}</strong></div>`;
+    const team = side => {
+      const projected = row.predicted_winner === row[`${side}_team`];
+      return `<div class="matchup-team${projected ? ' matchup-projected' : ''}" data-team="${escape(row[`${side}_team`])}"><img src="${escape(row[`${side}_logo`])}" alt="" width="32" height="32"><span>${escape(row[`${side}_team_name`])}${projected ? `<small class="projected-label">${row.status === 'Final' ? 'Pregame pick' : 'Projected winner'}</small>` : ''}<small>${side === 'home' ? 'Home' : 'Away'} &middot; ${(row[`${side}_win_probability`]*100).toFixed(1)}% win chance</small></span><strong>${points(row[`predicted_${side}_score`])}</strong></div>`;
+    };
     return `<article class="matchup-game" data-game-id="${escape(row.game_id)}"><div class="matchup-meta"><span>Week ${row.week} &middot; ${escape(row.gameday)}</span><span class="${tone}">${result}</span></div><div class="matchup-meta"><span>Score ensemble</span><span>Expected points</span></div>${team('away')}${team('home')}
       <div class="matchup-pick"><strong>Pick: ${escape(row.predicted_winner_name)}</strong><span>${row.status === 'Final' ? `Final ${row.away_score} - ${row.home_score}` : 'Scheduled'}</span></div>
       <details ${opened.has(row.game_id)?'open':''}><summary>Game details</summary><dl class="matchup-details">

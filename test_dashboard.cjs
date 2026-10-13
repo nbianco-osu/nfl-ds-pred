@@ -26,6 +26,19 @@ const assert = require('node:assert/strict');
     const nextWeek = Math.min(...currentGames.filter(g => g.status !== 'Final').map(g => g.week));
     assert.equal(await page.locator('#weekFilter').inputValue(), String(nextWeek));
     assert.equal(await page.locator('.matchup-game').count(), currentGames.filter(g => g.week === nextWeek).length);
+    for (const game of currentGames.filter(g => g.week === nextWeek)) {
+      const winner = page.locator(`[data-game-id="${game.game_id}"] .matchup-projected`);
+      assert.equal(await winner.count(), 1);
+      assert.equal(await winner.getAttribute('data-team'), game.predicted_winner);
+      assert.match(await winner.innerText(), /Projected winner|Pregame pick/);
+    }
+    await page.evaluate(game => {
+      window.renderMatchups([{...game, predicted_winner: game.away_team, predicted_away_score: 10, predicted_home_score: 30, status: 'Final', prediction_result: 'No'}]);
+    }, currentGames[0]);
+    assert.equal(await page.locator('.matchup-projected').getAttribute('data-team'), currentGames[0].away_team);
+    assert.match(await page.locator('.matchup-projected').innerText(), /Pregame pick/);
+    assert.equal(await page.locator('.prediction-incorrect').first().innerText(), 'Wrong');
+    await page.evaluate(rows => window.renderMatchups(rows), currentGames.filter(g => g.week === nextWeek));
     await page.locator('.matchup-game summary').first().click();
     assert(await page.locator('.matchup-details').first().isVisible());
     await page.waitForFunction(()=>Object.keys(window.researchData?.audit||{}).length>0);

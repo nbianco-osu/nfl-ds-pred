@@ -222,7 +222,7 @@ th {
 }
 
 .pick-cell strong {
-  color: var(--green);
+  color: #1756a9;
 }
 
 .bars {
@@ -388,7 +388,9 @@ th {
 .matchup-game { background: white; border: 1px solid var(--line); border-radius: 6px; padding: 16px; min-width: 0; }
 .matchup-meta, .matchup-pick { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; font-size: 12px; margin-bottom: 16px; }
 .matchup-meta span:last-child { padding: 2px 5px; }
-.matchup-team { display: grid; grid-template-columns: 32px minmax(0, 1fr) 44px; align-items: center; gap: 8px; margin: 12px 0; font-size: 14px; }
+.matchup-team { display: grid; grid-template-columns: 32px minmax(0, 1fr) 44px; align-items: center; gap: 8px; margin: 12px 0; padding: 10px 8px; border: 1px solid transparent; border-left-width: 3px; border-radius: 4px; font-size: 14px; overflow-wrap: anywhere; }
+.matchup-projected { background: #edf5ff; border-color: #bfd5ef; border-left-color: #1756a9; }
+.matchup-team .projected-label { color: #1756a9; font-weight: 700; }
 .matchup-team img { object-fit: contain; }
 .matchup-team small { display: block; color: var(--muted); font-size: 11px; margin-top: 4px; }
 .matchup-team strong { font-size: 20px; text-align: right; }
