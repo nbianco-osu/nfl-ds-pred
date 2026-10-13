@@ -1,0 +1,8 @@
+{
+  "last_successful_refresh": "2026-10-13T15:48:51.253391+00:00",
+  "validation": "passed",
+  "season": 2026,
+  "games": 272,
+  "completed": 79,
+  "note": "Validated staged refresh; individual files replaced atomically. Production publishing uses a single built archive."
+}

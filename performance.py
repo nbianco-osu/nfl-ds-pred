@@ -4,6 +4,16 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
+from audit_io import write_json
+
+
+def interval(successes, n):
+    if not n:
+        return [None,None]
+    p,z=successes/n,1.96
+    center=(p+z*z/(2*n))/(1+z*z/n)
+    radius=z*np.sqrt(p*(1-p)/n+z*z/(4*n*n))/(1+z*z/n)
+    return [float(center-radius),float(center+radius)]
 
 
 def summarize(rows):
@@ -21,7 +31,8 @@ def summarize(rows):
         mask = (p >= i / 10) & ((p < (i + 1) / 10) if i < 9 else (p <= 1))
         bins.append({'lower': i / 10, 'upper': (i + 1) / 10, 'n': int(mask.sum()),
                      'predicted': float(p[mask].mean()) if mask.any() else None,
-                     'observed': float(y[mask].mean()) if mask.any() else None})
+                     'observed': float(y[mask].mean()) if mask.any() else None,
+                     'observed_ci95':interval(int(y[mask].sum()),int(mask.sum()))})
     scores = final.dropna(subset=['predicted_home_score', 'predicted_away_score', 'score_forecast_at'])
     errors = scores.predicted_home_score - scores.home_score
     away_errors = scores.predicted_away_score - scores.away_score
@@ -29,6 +40,8 @@ def summarize(rows):
         'completed': len(final), 'ties': int(final.home_score.eq(final.away_score).sum()),
         'winner_n': len(valid), 'correct': int(correct.sum()),
         'accuracy': float(correct.mean()) if len(valid) else None,
+        'accuracy_ci95':interval(int(correct.sum()),len(valid)),
+        'timestamped_winner_n':int(valid.get('winner_forecast_at',pd.Series(dtype=str)).notna().sum()),
         'log_loss': float(-(y * np.log(clipped) + (1-y) * np.log(1-clipped)).mean()) if len(y) else None,
         'brier': float(((p-y)**2).mean()) if len(y) else None,
         'calibration': bins, 'score_n': len(scores),
@@ -54,11 +67,24 @@ def export(root):
         selected = rows if version == 'all' else rows.loc[rows.model_version.eq(version)]
         groups.append({'version': version, 'summary': summarize(selected),
                        'weeks': [{'week': int(week), **summarize(part)} for week, part in selected.groupby('week') if part.status.eq('Final').any()]})
-    report = {'schema_version': 1, 'source_updated_at': rows.updated_at.iloc[0],
+    score_groups=[]
+    families={'ensemble':rows}
+    model_path=root/'public_site/data/model_score_predictions.json'
+    if model_path.exists():
+        for family,records in json.loads(model_path.read_text()).items():
+            model=pd.DataFrame(records)
+            base=rows.drop(columns=[c for c in model if c!='game_id'],errors='ignore')
+            families[family]=base.merge(model,on='game_id',validate='one_to_one')
+    for family,frame in families.items():
+        for version in ['all',*sorted(frame.score_model_version.dropna().unique())]:
+            selected=frame if version=='all' else frame.loc[frame.score_model_version.eq(version)]
+            score_groups.append({'family':family,'version':version,'summary':summarize(selected),
+                'weeks':[{'week':int(week),**summarize(part)} for week,part in selected.groupby('week') if part.status.eq('Final').any()]})
+    report = {'schema_version': 2, 'source_updated_at': rows.updated_at.iloc[0],
               'default_version': versions[-1] if versions[-1] != 'legacy' else next((v for v in reversed(versions) if v != 'legacy'), 'legacy'),
-              'note': 'Observed saved forecasts, not backtests. Winner archives lack individual creation timestamps; legacy provenance is incomplete. All versions combines different models. Score errors require an archived score timestamp. Score/line statistics use the ensemble and the selected winner-version cohort. Ties are excluded from winner metrics; pushes and ungraded picks are excluded from line hit rates.',
-              'groups': groups}
-    (root / 'public_site/data/performance.json').write_text(json.dumps(report, indent=2, allow_nan=False) + '\n', encoding='utf-8')
+              'note': 'Observed saved forecasts, not backtests. Older winner archives lack creation timestamps; legacy provenance is incomplete. New forecasts carry timestamps from the October 13 audit onward. All versions combines different models. Score errors require an archived score timestamp. Top summary score/line statistics use the ensemble within the selected winner cohort; the independent score comparison below uses score-model versions. Ties are excluded from winner metrics; pushes and ungraded picks are excluded from line hit rates. Wilson 95% intervals assume independent games and can understate dependence.',
+              'groups': groups,'score_groups':score_groups}
+    write_json(root / 'public_site/data/performance.json',report)
     return report
 
 

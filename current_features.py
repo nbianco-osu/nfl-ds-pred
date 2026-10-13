@@ -4,6 +4,7 @@ import json
 import numpy as np
 import pandas as pd
 import nflreadpy as nfl
+from audit_io import receipt, write_json, write_csv
 from advanced_features import make_rest_features, make_injury_features, make_roster_features, merge_team_feature_block
 
 
@@ -22,16 +23,22 @@ def roll_forward(per_game, schedule, value_cols, prefix):
     return pd.DataFrame(rows)
 
 
-def build_current(season=2026):
-    root = Path(__file__).resolve().parent
-    schedule = pd.DataFrame(nfl.load_schedules([season]).to_dicts())
+def build_current(season=2026, root=None):
+    root = Path(root) if root else Path(__file__).resolve().parent
+    receipts = {}
+    def load(name):
+        frame = getattr(nfl, name)([season])
+        receipts[name] = receipt(root, name, frame)
+        return pd.DataFrame(frame.to_dicts())
+    schedule = load('load_schedules')
+    write_csv(root/f'data/schedule_{season}.csv', schedule)
     schedule = schedule.loc[schedule.game_type.eq('REG')].copy()
     finished = schedule.loc[schedule.home_score.notna() & schedule.away_score.notna()]
     output = schedule[['game_id', 'season', 'week', 'home_team', 'away_team']].copy()
     output = merge_team_feature_block(output, make_rest_features(schedule))
     coverage = {'season': season, 'completed_games': len(finished), 'sources': {}}
     try:
-        pbp = pd.DataFrame(nfl.load_pbp([season]).to_dicts())
+        pbp = load('load_pbp')
         pbp = pbp.loc[pbp.game_id.isin(finished.game_id) & pbp.posteam.notna() & pbp.epa.notna() & ~pbp.play_type.isin(['no_play', 'qb_kneel', 'qb_spike'])].copy()
         pbp['success'] = pbp.epa.gt(0).astype(int)
         pbp['explosive'] = ((pbp.pass_attempt.eq(1) & pbp.yards_gained.ge(20)) | (pbp.rush_attempt.eq(1) & pbp.yards_gained.ge(10))).astype(int)
@@ -54,7 +61,7 @@ def build_current(season=2026):
     except Exception as exc:
         coverage['sources']['pbp_error'] = str(exc)
     try:
-        stats = pd.DataFrame(nfl.load_player_stats([season]).to_dicts())
+        stats = load('load_player_stats')
         stats = stats.loc[stats.season_type.eq('REG') & stats.position.eq('QB') & stats.attempts.gt(0)]
         completed_teams = pd.concat([finished[['season', 'week', 'home_team']].rename(columns={'home_team': 'team'}), finished[['season', 'week', 'away_team']].rename(columns={'away_team': 'team'})])
         stats = stats.merge(completed_teams, on=['season', 'week', 'team'], validate='many_to_one')
@@ -67,13 +74,16 @@ def build_current(season=2026):
         coverage['sources']['qb_error'] = str(exc)
     for name, loader in [('injuries', make_injury_features), ('rosters', make_roster_features)]:
         try:
-            block = loader(schedule, [season])
+            raw = load('load_injuries' if name == 'injuries' else 'load_rosters_weekly')
+            block = loader(schedule, [season], raw=raw)
             output = merge_team_feature_block(output, block)
             coverage['sources'][name + '_team_weeks'] = len(block)
         except Exception as exc:
             coverage['sources'][name + '_error'] = str(exc)
-    output.to_csv(root / f'data/current_features_{season}.csv', index=False)
-    (root / f'data/current_features_{season}.json').write_text(json.dumps(coverage, indent=2), encoding='utf-8')
+    coverage['receipts'] = receipts
+    coverage['availability_note'] = 'Only earlier-week performance is rolled forward. Same-week injury/roster reports are revised source snapshots; original release time is unknown. Missing data do not imply healthy players.'
+    write_csv(root / f'data/current_features_{season}.csv', output)
+    write_json(root / f'data/current_features_{season}.json', coverage)
     print(json.dumps(coverage, indent=2), flush=True)
 
 

@@ -149,6 +149,7 @@ async function main() {
   renderFilters(predictions);
   window.setupScoreLines(predictions);
   window.setupPerformance();
+  window.setupResearch();
   renderShap(shapRows);
   window.setupSeasonCharts(seasonCharts || {teams: []});
   if (!seasonCharts) byId('seasonTab').textContent = 'Team Season Charts (unavailable)';
@@ -173,6 +174,7 @@ async function main() {
     byId(id).addEventListener("input", update);
   }
   update();
+  window.addEventListener('researchready',update);
 }
 
 function renderModelComparison(comparison) {

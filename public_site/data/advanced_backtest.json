@@ -1,0 +1,776 @@
+{
+  "status": "research_only",
+  "start_season": 2024,
+  "end_season": 2025,
+  "folds": [
+    {
+      "season": 2024,
+      "week": 1,
+      "test_cutoff": "2024-09-05",
+      "train_through": "2024-01-07",
+      "inner_train_through": "2023-11-13",
+      "validation_start": "2023-11-16",
+      "selected": "rf12",
+      "validation_log_loss": {
+        "rf8": 0.6623021900694386,
+        "rf12": 0.6580376119721008,
+        "hgb7": 0.6717940677405141,
+        "hgb15": 0.6831695740564271
+      },
+      "training_rows": 1322,
+      "test_rows": 16
+    },
+    {
+      "season": 2024,
+      "week": 2,
+      "test_cutoff": "2024-09-12",
+      "train_through": "2024-09-09",
+      "inner_train_through": "2023-11-20",
+      "validation_start": "2023-11-23",
+      "selected": "rf12",
+      "validation_log_loss": {
+        "rf8": 0.6734980089351282,
+        "rf12": 0.6691046607654857,
+        "hgb7": 0.6793362618562554,
+        "hgb15": 0.675166129878813
+      },
+      "training_rows": 1338,
+      "test_rows": 16
+    },
+    {
+      "season": 2024,
+      "week": 3,
+      "test_cutoff": "2024-09-19",
+      "train_through": "2024-09-16",
+      "inner_train_through": "2023-11-27",
+      "validation_start": "2023-11-30",
+      "selected": "rf12",
+      "validation_log_loss": {
+        "rf8": 0.6793494899314854,
+        "rf12": 0.6742741528259777,
+        "hgb7": 0.6892070025190918,
+        "hgb15": 0.7064750369829814
+      },
+      "training_rows": 1354,
+      "test_rows": 16
+    },
+    {
+      "season": 2024,
+      "week": 4,
+      "test_cutoff": "2024-09-26",
+      "train_through": "2024-09-23",
+      "inner_train_through": "2023-12-04",
+      "validation_start": "2023-12-07",
+      "selected": "rf8",
+      "validation_log_loss": {
+        "rf8": 0.6874496204042974,
+        "rf12": 0.6929310184960737,
+        "hgb7": 0.7029582219424827,
+        "hgb15": 0.7185177192378926
+      },
+      "training_rows": 1370,
+      "test_rows": 16
+    },
+    {
+      "season": 2024,
+      "week": 5,
+      "test_cutoff": "2024-10-03",
+      "train_through": "2024-09-30",
+      "inner_train_through": "2023-12-11",
+      "validation_start": "2023-12-14",
+      "selected": "rf12",
+      "validation_log_loss": {
+        "rf8": 0.6856662790652266,
+        "rf12": 0.6833773818300521,
+        "hgb7": 0.7011979763050487,
+        "hgb15": 0.7147100878378632
+      },
+      "training_rows": 1386,
+      "test_rows": 14
+    },
+    {
+      "season": 2024,
+      "week": 6,
+      "test_cutoff": "2024-10-10",
+      "train_through": "2024-10-07",
+      "inner_train_through": "2023-12-18",
+      "validation_start": "2023-12-21",
+      "selected": "rf12",
+      "validation_log_loss": {
+        "rf8": 0.7046331973720097,
+        "rf12": 0.701692961000173,
+        "hgb7": 0.7098197649131752,
+        "hgb15": 0.7234060529140932
+      },
+      "training_rows": 1400,
+      "test_rows": 14
+    },
+    {
+      "season": 2024,
+      "week": 7,
+      "test_cutoff": "2024-10-17",
+      "train_through": "2024-10-14",
+      "inner_train_through": "2023-12-25",
+      "validation_start": "2023-12-28",
+      "selected": "rf12",
+      "validation_log_loss": {
+        "rf8": 0.6818857305316702,
+        "rf12": 0.6741371781411841,
+        "hgb7": 0.6981509684371365,
+        "hgb15": 0.7098512124380467
+      },
+      "training_rows": 1414,
+      "test_rows": 15
+    },
+    {
+      "season": 2024,
+      "week": 8,
+      "test_cutoff": "2024-10-24",
+      "train_through": "2024-10-21",
+      "inner_train_through": "2023-12-31",
+      "validation_start": "2024-01-06",
+      "selected": "hgb15",
+      "validation_log_loss": {
+        "rf8": 0.6748677454748769,
+        "rf12": 0.6870413173820975,
+        "hgb7": 0.6736359477100582,
+        "hgb15": 0.6644858513087298
+      },
+      "training_rows": 1429,
+      "test_rows": 16
+    },
+    {
+      "season": 2024,
+      "week": 9,
+      "test_cutoff": "2024-10-31",
+      "train_through": "2024-10-28",
+      "inner_train_through": "2024-01-07",
+      "validation_start": "2024-09-05",
+      "selected": "rf12",
+      "validation_log_loss": {
+        "rf8": 0.6675971489751356,
+        "rf12": 0.65127549335451,
+        "hgb7": 0.6695528000631384,
+        "hgb15": 0.6609769857633194
+      },
+      "training_rows": 1445,
+      "test_rows": 15
+    },
+    {
+      "season": 2024,
+      "week": 10,
+      "test_cutoff": "2024-11-07",
+      "train_through": "2024-11-04",
+      "inner_train_through": "2024-09-09",
+      "validation_start": "2024-09-12",
+      "selected": "rf8",
+      "validation_log_loss": {
+        "rf8": 0.6406425749092585,
+        "rf12": 0.6427087185970022,
+        "hgb7": 0.6445049529110745,
+        "hgb15": 0.6417210084226936
+      },
+      "training_rows": 1460,
+      "test_rows": 14
+    },
+    {
+      "season": 2024,
+      "week": 11,
+      "test_cutoff": "2024-11-14",
+      "train_through": "2024-11-11",
+      "inner_train_through": "2024-09-16",
+      "validation_start": "2024-09-19",
+      "selected": "rf8",
+      "validation_log_loss": {
+        "rf8": 0.6303467180467376,
+        "rf12": 0.6342275971558221,
+        "hgb7": 0.6321652732257516,
+        "hgb15": 0.6430026842982316
+      },
+      "training_rows": 1474,
+      "test_rows": 14
+    },
+    {
+      "season": 2024,
+      "week": 12,
+      "test_cutoff": "2024-11-21",
+      "train_through": "2024-11-18",
+      "inner_train_through": "2024-09-23",
+      "validation_start": "2024-09-26",
+      "selected": "rf8",
+      "validation_log_loss": {
+        "rf8": 0.626934017843483,
+        "rf12": 0.6282433093310831,
+        "hgb7": 0.6275223906562368,
+        "hgb15": 0.6394447234467111
+      },
+      "training_rows": 1488,
+      "test_rows": 13
+    },
+    {
+      "season": 2024,
+      "week": 13,
+      "test_cutoff": "2024-11-28",
+      "train_through": "2024-11-25",
+      "inner_train_through": "2024-09-30",
+      "validation_start": "2024-10-03",
+      "selected": "rf12",
+      "validation_log_loss": {
+        "rf8": 0.633150674582429,
+        "rf12": 0.6255621758071653,
+        "hgb7": 0.6378753236677183,
+        "hgb15": 0.6494790826771227
+      },
+      "training_rows": 1501,
+      "test_rows": 16
+    },
+    {
+      "season": 2024,
+      "week": 14,
+      "test_cutoff": "2024-12-05",
+      "train_through": "2024-12-02",
+      "inner_train_through": "2024-10-07",
+      "validation_start": "2024-10-10",
+      "selected": "rf8",
+      "validation_log_loss": {
+        "rf8": 0.5950858641796049,
+        "rf12": 0.5951929110699087,
+        "hgb7": 0.6290775758535304,
+        "hgb15": 0.6486843439783538
+      },
+      "training_rows": 1517,
+      "test_rows": 13
+    },
+    {
+      "season": 2024,
+      "week": 15,
+      "test_cutoff": "2024-12-12",
+      "train_through": "2024-12-09",
+      "inner_train_through": "2024-10-14",
+      "validation_start": "2024-10-17",
+      "selected": "rf12",
+      "validation_log_loss": {
+        "rf8": 0.61209008429433,
+        "rf12": 0.5983312513998618,
+        "hgb7": 0.6119033829801377,
+        "hgb15": 0.6224083725401014
+      },
+      "training_rows": 1530,
+      "test_rows": 16
+    },
+    {
+      "season": 2024,
+      "week": 16,
+      "test_cutoff": "2024-12-19",
+      "train_through": "2024-12-16",
+      "inner_train_through": "2024-10-21",
+      "validation_start": "2024-10-24",
+      "selected": "rf12",
+      "validation_log_loss": {
+        "rf8": 0.6287455555047954,
+        "rf12": 0.6182381231718245,
+        "hgb7": 0.6257890761171004,
+        "hgb15": 0.6379681779507514
+      },
+      "training_rows": 1546,
+      "test_rows": 16
+    },
+    {
+      "season": 2024,
+      "week": 17,
+      "test_cutoff": "2024-12-25",
+      "train_through": "2024-12-23",
+      "inner_train_through": "2024-10-28",
+      "validation_start": "2024-10-31",
+      "selected": "rf8",
+      "validation_log_loss": {
+        "rf8": 0.6194472423572298,
+        "rf12": 0.6288937342369915,
+        "hgb7": 0.6316824057534647,
+        "hgb15": 0.6560372943371606
+      },
+      "training_rows": 1562,
+      "test_rows": 16
+    },
+    {
+      "season": 2024,
+      "week": 18,
+      "test_cutoff": "2025-01-04",
+      "train_through": "2024-12-30",
+      "inner_train_through": "2024-11-04",
+      "validation_start": "2024-11-07",
+      "selected": "rf12",
+      "validation_log_loss": {
+        "rf8": 0.6230739471396847,
+        "rf12": 0.6178597098198192,
+        "hgb7": 0.6318508846571648,
+        "hgb15": 0.6504645386708733
+      },
+      "training_rows": 1578,
+      "test_rows": 16
+    },
+    {
+      "season": 2025,
+      "week": 1,
+      "test_cutoff": "2025-09-04",
+      "train_through": "2025-01-05",
+      "inner_train_through": "2024-11-11",
+      "validation_start": "2024-11-14",
+      "selected": "rf8",
+      "validation_log_loss": {
+        "rf8": 0.6377386427638359,
+        "rf12": 0.6445692399367435,
+        "hgb7": 0.6441186461141432,
+        "hgb15": 0.6707409464846887
+      },
+      "training_rows": 1339,
+      "test_rows": 16
+    },
+    {
+      "season": 2025,
+      "week": 2,
+      "test_cutoff": "2025-09-11",
+      "train_through": "2025-09-08",
+      "inner_train_through": "2024-11-18",
+      "validation_start": "2024-11-21",
+      "selected": "rf12",
+      "validation_log_loss": {
+        "rf8": 0.6348785129726334,
+        "rf12": 0.6206562496318118,
+        "hgb7": 0.631139958593319,
+        "hgb15": 0.6287629499862771
+      },
+      "training_rows": 1355,
+      "test_rows": 16
+    },
+    {
+      "season": 2025,
+      "week": 3,
+      "test_cutoff": "2025-09-18",
+      "train_through": "2025-09-15",
+      "inner_train_through": "2024-11-25",
+      "validation_start": "2024-11-28",
+      "selected": "hgb7",
+      "validation_log_loss": {
+        "rf8": 0.6145155286083493,
+        "rf12": 0.6147254617894724,
+        "hgb7": 0.6095636165035794,
+        "hgb15": 0.6141138812096312
+      },
+      "training_rows": 1371,
+      "test_rows": 16
+    },
+    {
+      "season": 2025,
+      "week": 4,
+      "test_cutoff": "2025-09-25",
+      "train_through": "2025-09-22",
+      "inner_train_through": "2024-12-02",
+      "validation_start": "2024-12-05",
+      "selected": "rf8",
+      "validation_log_loss": {
+        "rf8": 0.6243528550386264,
+        "rf12": 0.6275765137955752,
+        "hgb7": 0.6411459760721658,
+        "hgb15": 0.6345196403200171
+      },
+      "training_rows": 1387,
+      "test_rows": 16
+    },
+    {
+      "season": 2025,
+      "week": 5,
+      "test_cutoff": "2025-10-02",
+      "train_through": "2025-09-29",
+      "inner_train_through": "2024-12-09",
+      "validation_start": "2024-12-12",
+      "selected": "rf12",
+      "validation_log_loss": {
+        "rf8": 0.6204233424923132,
+        "rf12": 0.6122754598445932,
+        "hgb7": 0.6387833655979636,
+        "hgb15": 0.6591777576182352
+      },
+      "training_rows": 1402,
+      "test_rows": 14
+    },
+    {
+      "season": 2025,
+      "week": 6,
+      "test_cutoff": "2025-10-09",
+      "train_through": "2025-10-06",
+      "inner_train_through": "2024-12-16",
+      "validation_start": "2024-12-19",
+      "selected": "rf8",
+      "validation_log_loss": {
+        "rf8": 0.6449070280592292,
+        "rf12": 0.6559351223988626,
+        "hgb7": 0.6748778815271372,
+        "hgb15": 0.674010449954726
+      },
+      "training_rows": 1416,
+      "test_rows": 15
+    },
+    {
+      "season": 2025,
+      "week": 7,
+      "test_cutoff": "2025-10-16",
+      "train_through": "2025-10-13",
+      "inner_train_through": "2024-12-23",
+      "validation_start": "2024-12-25",
+      "selected": "rf12",
+      "validation_log_loss": {
+        "rf8": 0.6502063708559548,
+        "rf12": 0.6465768242636696,
+        "hgb7": 0.6789216528324326,
+        "hgb15": 0.6911289036186086
+      },
+      "training_rows": 1431,
+      "test_rows": 15
+    },
+    {
+      "season": 2025,
+      "week": 8,
+      "test_cutoff": "2025-10-23",
+      "train_through": "2025-10-20",
+      "inner_train_through": "2024-12-30",
+      "validation_start": "2025-01-04",
+      "selected": "rf8",
+      "validation_log_loss": {
+        "rf8": 0.648021745424938,
+        "rf12": 0.648545377936694,
+        "hgb7": 0.6797126561751243,
+        "hgb15": 0.6827964505250529
+      },
+      "training_rows": 1446,
+      "test_rows": 13
+    },
+    {
+      "season": 2025,
+      "week": 9,
+      "test_cutoff": "2025-10-30",
+      "train_through": "2025-10-27",
+      "inner_train_through": "2025-01-05",
+      "validation_start": "2025-09-04",
+      "selected": "rf12",
+      "validation_log_loss": {
+        "rf8": 0.635157060969208,
+        "rf12": 0.6292044328148291,
+        "hgb7": 0.6794254695257025,
+        "hgb15": 0.7002749678704866
+      },
+      "training_rows": 1459,
+      "test_rows": 14
+    },
+    {
+      "season": 2025,
+      "week": 10,
+      "test_cutoff": "2025-11-06",
+      "train_through": "2025-11-03",
+      "inner_train_through": "2025-09-08",
+      "validation_start": "2025-09-11",
+      "selected": "rf8",
+      "validation_log_loss": {
+        "rf8": 0.6402951513495113,
+        "rf12": 0.6516950763545035,
+        "hgb7": 0.6862905731766088,
+        "hgb15": 0.7220014271866321
+      },
+      "training_rows": 1473,
+      "test_rows": 14
+    },
+    {
+      "season": 2025,
+      "week": 11,
+      "test_cutoff": "2025-11-13",
+      "train_through": "2025-11-10",
+      "inner_train_through": "2025-09-15",
+      "validation_start": "2025-09-18",
+      "selected": "rf8",
+      "validation_log_loss": {
+        "rf8": 0.6522121282006276,
+        "rf12": 0.6571747113494342,
+        "hgb7": 0.6892762243327057,
+        "hgb15": 0.7001581695852788
+      },
+      "training_rows": 1487,
+      "test_rows": 15
+    },
+    {
+      "season": 2025,
+      "week": 12,
+      "test_cutoff": "2025-11-20",
+      "train_through": "2025-11-17",
+      "inner_train_through": "2025-09-22",
+      "validation_start": "2025-09-25",
+      "selected": "rf12",
+      "validation_log_loss": {
+        "rf8": 0.6612529258715438,
+        "rf12": 0.6509287431531218,
+        "hgb7": 0.6869651277094024,
+        "hgb15": 0.6930515709224149
+      },
+      "training_rows": 1502,
+      "test_rows": 14
+    },
+    {
+      "season": 2025,
+      "week": 13,
+      "test_cutoff": "2025-11-27",
+      "train_through": "2025-11-24",
+      "inner_train_through": "2025-09-29",
+      "validation_start": "2025-10-02",
+      "selected": "rf8",
+      "validation_log_loss": {
+        "rf8": 0.6446452989749418,
+        "rf12": 0.6505590604541759,
+        "hgb7": 0.6800716014404865,
+        "hgb15": 0.6751981697348508
+      },
+      "training_rows": 1516,
+      "test_rows": 16
+    },
+    {
+      "season": 2025,
+      "week": 14,
+      "test_cutoff": "2025-12-04",
+      "train_through": "2025-12-01",
+      "inner_train_through": "2025-10-06",
+      "validation_start": "2025-10-09",
+      "selected": "rf12",
+      "validation_log_loss": {
+        "rf8": 0.6265386367036597,
+        "rf12": 0.6238601801682384,
+        "hgb7": 0.6582830971055657,
+        "hgb15": 0.6415644684047327
+      },
+      "training_rows": 1532,
+      "test_rows": 14
+    },
+    {
+      "season": 2025,
+      "week": 15,
+      "test_cutoff": "2025-12-11",
+      "train_through": "2025-12-08",
+      "inner_train_through": "2025-10-13",
+      "validation_start": "2025-10-16",
+      "selected": "rf8",
+      "validation_log_loss": {
+        "rf8": 0.6142408909867116,
+        "rf12": 0.616581528286318,
+        "hgb7": 0.6426771869649615,
+        "hgb15": 0.6527035793681736
+      },
+      "training_rows": 1546,
+      "test_rows": 16
+    },
+    {
+      "season": 2025,
+      "week": 16,
+      "test_cutoff": "2025-12-18",
+      "train_through": "2025-12-15",
+      "inner_train_through": "2025-10-20",
+      "validation_start": "2025-10-23",
+      "selected": "rf12",
+      "validation_log_loss": {
+        "rf8": 0.6357141814409422,
+        "rf12": 0.6305435572722694,
+        "hgb7": 0.6448137848223906,
+        "hgb15": 0.6476900331723988
+      },
+      "training_rows": 1562,
+      "test_rows": 16
+    },
+    {
+      "season": 2025,
+      "week": 17,
+      "test_cutoff": "2025-12-25",
+      "train_through": "2025-12-22",
+      "inner_train_through": "2025-10-27",
+      "validation_start": "2025-10-30",
+      "selected": "rf8",
+      "validation_log_loss": {
+        "rf8": 0.6362027173524346,
+        "rf12": 0.6425791629869928,
+        "hgb7": 0.643407009522251,
+        "hgb15": 0.6535228393507385
+      },
+      "training_rows": 1578,
+      "test_rows": 16
+    },
+    {
+      "season": 2025,
+      "week": 18,
+      "test_cutoff": "2026-01-03",
+      "train_through": "2025-12-29",
+      "inner_train_through": "2025-11-03",
+      "validation_start": "2025-11-06",
+      "selected": "rf8",
+      "validation_log_loss": {
+        "rf8": 0.6173733396524318,
+        "rf12": 0.6227222754457873,
+        "hgb7": 0.6214273377609385,
+        "hgb15": 0.6380554724880502
+      },
+      "training_rows": 1594,
+      "test_rows": 16
+    }
+  ],
+  "features": [
+    "home_for",
+    "home_against",
+    "away_for",
+    "away_against",
+    "diff_team_pbp_off_epa_per_play_last_5",
+    "diff_team_pbp_off_success_rate_last_5",
+    "diff_team_pbp_off_explosive_rate_last_5",
+    "diff_team_pbp_off_turnover_rate_last_5",
+    "diff_team_pbp_off_pass_rate_last_5",
+    "diff_team_pbp_off_pass_epa_last_5",
+    "diff_team_pbp_off_rush_epa_last_5",
+    "diff_team_pbp_def_epa_allowed_per_play_last_5",
+    "diff_team_pbp_def_success_allowed_rate_last_5",
+    "diff_team_pbp_def_explosive_allowed_rate_last_5",
+    "diff_team_pbp_def_takeaway_rate_last_5",
+    "diff_team_qb_qb_attempts_last_5",
+    "diff_team_qb_qb_passing_yards_last_5",
+    "diff_team_qb_qb_passing_tds_last_5",
+    "diff_team_qb_qb_passing_interceptions_last_5",
+    "diff_team_qb_qb_sacks_suffered_last_5",
+    "diff_team_qb_qb_passing_epa_last_5",
+    "diff_team_qb_qb_passing_cpoe_last_5",
+    "diff_team_qb_qb_prev_starter_same_as_prev_game_last_5",
+    "diff_team_rest_days",
+    "diff_team_ext_ngs_avg_time_to_throw_last5",
+    "diff_team_ext_ngs_avg_intended_air_yards_last5",
+    "diff_team_ext_ngs_aggressiveness_last5",
+    "diff_team_ext_ngs_completion_percentage_above_expectation_last5",
+    "diff_team_ext_ngs_rush_yards_over_expected_per_att_last5",
+    "diff_team_ext_ngs_rush_pct_over_expected_last5",
+    "diff_team_ext_ngs_avg_separation_last5",
+    "diff_team_ext_ngs_avg_yac_above_expectation_last5"
+  ],
+  "ablations": {
+    "epa": [
+      "diff_team_pbp_off_epa_per_play_last_5",
+      "diff_team_pbp_off_success_rate_last_5",
+      "diff_team_pbp_off_explosive_rate_last_5",
+      "diff_team_pbp_off_turnover_rate_last_5",
+      "diff_team_pbp_off_pass_rate_last_5",
+      "diff_team_pbp_off_pass_epa_last_5",
+      "diff_team_pbp_off_rush_epa_last_5",
+      "diff_team_pbp_def_epa_allowed_per_play_last_5",
+      "diff_team_pbp_def_success_allowed_rate_last_5",
+      "diff_team_pbp_def_explosive_allowed_rate_last_5",
+      "diff_team_pbp_def_takeaway_rate_last_5"
+    ],
+    "qb": [
+      "diff_team_qb_qb_attempts_last_5",
+      "diff_team_qb_qb_passing_yards_last_5",
+      "diff_team_qb_qb_passing_tds_last_5",
+      "diff_team_qb_qb_passing_interceptions_last_5",
+      "diff_team_qb_qb_sacks_suffered_last_5",
+      "diff_team_qb_qb_passing_epa_last_5",
+      "diff_team_qb_qb_passing_cpoe_last_5",
+      "diff_team_qb_qb_prev_starter_same_as_prev_game_last_5"
+    ],
+    "rest": [
+      "diff_team_rest_days"
+    ],
+    "ngs": [
+      "diff_team_ext_ngs_avg_time_to_throw_last5",
+      "diff_team_ext_ngs_avg_intended_air_yards_last5",
+      "diff_team_ext_ngs_aggressiveness_last5",
+      "diff_team_ext_ngs_completion_percentage_above_expectation_last5",
+      "diff_team_ext_ngs_rush_yards_over_expected_per_att_last5",
+      "diff_team_ext_ngs_rush_pct_over_expected_last5",
+      "diff_team_ext_ngs_avg_separation_last5",
+      "diff_team_ext_ngs_avg_yac_above_expectation_last5"
+    ]
+  },
+  "games": 544,
+  "ties": 1,
+  "metrics": {
+    "candidate_probability": {
+      "n": 543,
+      "accuracy": 0.6206261510128913,
+      "log_loss": 0.6397023000160824,
+      "brier": 0.22476005822495146,
+      "accuracy_ci95": [
+        0.5790999299307522,
+        0.6604575580145686
+      ]
+    },
+    "elo_probability": {
+      "n": 543,
+      "accuracy": 0.6427255985267035,
+      "log_loss": 0.6383255964198128,
+      "brier": 0.22386451517997,
+      "accuracy_ci95": [
+        0.601546234939204,
+        0.681899647744191
+      ]
+    },
+    "market_probability": {
+      "n": 543,
+      "accuracy": 0.6813996316758748,
+      "log_loss": 0.5997923584479177,
+      "brier": 0.20685307974729605,
+      "accuracy_ci95": [
+        0.6410519516438252,
+        0.7191986218311993
+      ]
+    },
+    "ablation_none": {
+      "n": 543,
+      "accuracy": 0.6095764272559853,
+      "log_loss": 0.6434200764761767,
+      "brier": 0.2261596979221012,
+      "accuracy_ci95": [
+        0.5679103145328741,
+        0.6497029760434097
+      ]
+    },
+    "ablation_epa": {
+      "n": 543,
+      "accuracy": 0.6169429097605893,
+      "log_loss": 0.6365443227553714,
+      "brier": 0.22335396512649208,
+      "accuracy_ci95": [
+        0.5753676069594712,
+        0.656875148529504
+      ]
+    },
+    "ablation_qb": {
+      "n": 543,
+      "accuracy": 0.6040515653775322,
+      "log_loss": 0.6440660512913716,
+      "brier": 0.2263940286902769,
+      "accuracy_ci95": [
+        0.5623237294135203,
+        0.6443174624782452
+      ]
+    },
+    "ablation_rest": {
+      "n": 543,
+      "accuracy": 0.6114180478821363,
+      "log_loss": 0.6425179500014537,
+      "brier": 0.22567178873869825,
+      "accuracy_ci95": [
+        0.5697737225103625,
+        0.6514969342940942
+      ]
+    },
+    "ablation_ngs": {
+      "n": 543,
+      "accuracy": 0.6169429097605893,
+      "log_loss": 0.6431089366278693,
+      "brier": 0.2260175470916787,
+      "accuracy_ci95": [
+        0.5753676069594712,
+        0.656875148529504
+      ]
+    }
+  },
+  "note": "Nested weekly evaluation: four RF/HGB settings selected on eight earlier weeks, then refit on all earlier data (up to five seasons). Not the production 700-tree model. Ablations hold logistic settings fixed. Elo uses K=20, home advantage 55, offseason retention 75%. These are fixed assumptions. Market benchmark uses revised source lines, not proven pregame lines. Advanced history is revised; missing tie-game features are imputed within training folds. Wilson 95% accuracy intervals assume independent games and do not account for weekly dependence. No automatic promotion."
+}

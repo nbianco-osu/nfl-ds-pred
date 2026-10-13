@@ -10,6 +10,7 @@ import numpy as np
 import pandas as pd
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import log_loss, brier_score_loss
+from audit_io import write_json, write_csv
 
 
 def grade_predictions(rows: pd.DataFrame) -> pd.DataFrame:
@@ -48,6 +49,12 @@ def query_games(pool: pd.DataFrame, budget: int = 8) -> list[str]:
 
 
 def update_learning(rows: pd.DataFrame, root: Path, generation: str | None = None) -> dict:
+    if rows.game_id.duplicated().any():
+        raise ValueError('Duplicate learning games')
+    if 'model_version' in rows and rows.model_version.dropna().nunique()>1:
+        raise ValueError('Learning cohorts cannot mix model versions')
+    if generation and 'model_version' in rows and not rows.model_version.dropna().eq(generation).all():
+        raise ValueError('Learning generation mismatch')
     rows = grade_predictions(rows)
     folder = root / 'learning'
     if generation:
@@ -95,13 +102,14 @@ def update_learning(rows: pd.DataFrame, root: Path, generation: str | None = Non
         if not pending.empty:
             probabilities = candidate.predict_proba(inputs(pending.home_win_probability))[:, 1]
             for (_, game), probability in zip(pending.iterrows(), probabilities):
-                state['forecasts'].setdefault(game.game_id, {'baseline': float(game.home_win_probability), 'candidate': float(probability)})
+                state['forecasts'].setdefault(game.game_id, {'baseline': float(game.home_win_probability), 'candidate': float(probability),
+                    'forecast_at':datetime.now(timezone.utc).isoformat(),'model_version':generation})
     summary = {'status': 'Ready for review' if ready else 'Learning in shadow mode',
                'training_games': len(train), 'selected_game_ids': state['queries'], **metrics,
                'note': 'Candidate recalibrates baseline probabilities; no production replacement or proven improvement yet. Ties excluded. Initial completed games are training-only.'}
-    state_path.write_text(json.dumps(state, indent=2), encoding='utf-8')
-    (folder / 'summary.json').write_text(json.dumps(summary, indent=2), encoding='utf-8')
-    pd.DataFrame(evaluation, columns=['game_id', 'label', 'baseline', 'candidate']).to_csv(folder / 'evaluation.csv', index=False)
+    write_json(state_path,state)
+    write_json(folder/'summary.json',summary)
+    write_csv(folder/'evaluation.csv',pd.DataFrame(evaluation, columns=['game_id', 'label', 'baseline', 'candidate']))
     return summary
 
 

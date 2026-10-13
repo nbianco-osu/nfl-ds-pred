@@ -1,0 +1,9 @@
+{
+  "source": "nflreadpy.backtest_schedules",
+  "sha256": "f1907dc7a445e703b35806b7cb383c65b7aadd87bd7245845f4ad30cecfd3ba6",
+  "rows": 7276,
+  "retrieved_at": "2026-10-13T15:18:28.479449+00:00",
+  "provider_published_at": null,
+  "cache_may_be_used": true,
+  "note": "Local observation time, not proof of original publication or freshness."
+}

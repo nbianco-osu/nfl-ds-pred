@@ -15,14 +15,14 @@ limitations, and the next acceptance check before marking an item complete.
 
 | ID | Priority | Status | Acceptance check |
 | --- | --- | --- | --- |
-| R4 | High | Planned | Audit feature availability and leakage; timestamp every original input and winner forecast. Never reconstruct old forecasts from final results. |
-| R5 | High | Planned | Extend rolling evaluation to advanced production candidates with nested time-based tuning; compare Elo and market-informed benchmarks separately. Include confidence intervals and regular-season/tie-complete coverage. |
-| R6 | High | Planned | Joint score/margin/total distributions; validate interval coverage, score coherence, and cover/over/push probabilities on unseen weeks. No arbitrary probability noise or win cap. |
-| R7 | High | Planned | Per-game source freshness: QB certainty, injury/roster coverage, forecast weather, opponent-adjusted EPA, pace and OL availability; ablation test each addition. |
-| R8 | Medium | Planned | Challenger review: version-isolated prospective cohorts, minimum evidence threshold, explicit human promotion; no automatic production replacement. |
-| R9 | Medium | Partial | Expanded matchup detail with local explanations and input provenance. Current iteration adds score, line and model-version details only. |
-| R10 | Medium | Planned | Compare individual score models in observed performance, with independent score-version filters and calibration plots with uncertainty. |
-| R11 | Medium | Partial | Reproducible validation-gated publishing, visible last successful refresh, stale-data alerts, atomic data writes and scheduled CI tests. Existing weekly automation remains unchanged. |
+| R4 | High | Implemented prospectively; legacy limits remain | Raw source receipts and local snapshots, exact winner inputs and model hashes, forecast timestamps, kickoff freeze and local SHAP reconstruction. See DATA_AUDIT.md. Original historical publication times cannot be recovered. |
+| R5 | High | Implemented research baseline | 36 nested weekly RF/HGB selection folds for 2024-2025, 544 regular-season games including one tie; Elo and separately labeled market benchmark, fixed-estimator EPA/QB/rest/NGS ablations and 95% accuracy intervals. Not a replica of the production 700-tree fit. |
+| R6 | High | Implemented shadow experiment | Paired-residual Ridge score distribution; 1,030 prequential evaluations, interval coverage and three-class spread/total scoring. Future probabilities archived by version; no serving-model promotion. Scoring-process and prospective calibration remain future research. |
+| R7 | High | Partial; data dependencies explicit | Current matchup source coverage, unconfirmed QB status/previous usage, prior play volume, opponent-adjusted EPA and same-week OL context. Timestamped weather adapter added, but no provider configured. Historical starter/weather snapshots and new-context ablations still needed; current features stay research-only. |
+| R8 | Medium | Implemented review gate | Version-isolated prospective cohorts, 64-game minimum, paired bootstrap log-loss interval and Brier check; human decision CLI and audit trail. Approval records do not automatically change production. |
+| R9 | Medium | Implemented prospectively | Per-game SHAP contributions, reference probability, source availability, input fingerprint and research distributions. Never reconstruct explanations for legacy finals. |
+| R10 | Medium | Implemented | Independent score-model/version comparisons and calibration chart with Wilson 95% intervals and bin sample sizes. Empty/legacy samples remain explicit. |
+| R11 | Medium | Implemented; operational hardening continues | Staged validation, atomic per-file writes with rollback, health/stale indicator, Pages validation gate and scheduled Python/build CI. Weekly automation updated to semantic comparison and new audit exports. Whole-directory crash atomicity and remote raw-snapshot backup remain open. |
 
 ## Evidence and Boundaries
 
@@ -50,3 +50,5 @@ results, but never runs backtests or retrains production automatically.
 ## Iteration Log
 
 - 2026-10-13: Implemented R1-R3 and initialized the options tracker. All 31 Python tests passed; desktop/mobile browser checks passed, including all 28 Week 6 team-logo images, tab navigation, model-version filtering and no page overflow. Recent-form baseline: 62.5% accuracy / 0.645 log loss; home-field baseline: 54.2% / 0.691. These retrospective results do not establish production improvement.
+- 2026-10-13, R4-R11: Added provenance, nested evaluation, shadow score distributions, review gates, independent score results and staged publishing. Nested RF/HGB log loss 0.640 versus Elo 0.638 on 543 decisive games; no basis for automatic promotion. Nominal 80% research intervals achieved roughly 79-81% coverage. Preserved all 79 completed production forecasts. R7 remains partial for confirmed-starter/weather history and contextual ablations. An audit identified the legacy active-roster status-code mismatch; corrected research active-OL counts are separate from production.
+- Validation: 41 Python tests pass, including temporal boundaries, mixed-version rejection, staged-failure preservation, atomic-write failures and probability conservation. Desktop/mobile browser checks cover local explanations, all 28 current-week logos, score-model filtering and nonblank calibration intervals. Production classifier/score artifacts and existing calibration forecasts remain unchanged.

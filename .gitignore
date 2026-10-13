@@ -1,4 +1,6 @@
 .venv/
+audit/sources/**/*.parquet
+.refresh-stage/
 __pycache__/
 .pytest_cache/
 nfl_prediction_app_deploy.zip
@@ -14,6 +16,10 @@ explanations/*
 !models/retraining_2026.json
 !models/simulation_config.json
 !models/score_models/
+!models/research/
+!predictions/score_distribution_archive.json
+!data/schedule_2026.csv
+!data/context_features_2026.csv
 !predictions/nfl_2026_score_predictions.csv
 !predictions/nfl_2026_score_*.csv
 !models/expanded_comparison.json

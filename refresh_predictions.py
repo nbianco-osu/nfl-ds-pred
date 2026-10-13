@@ -9,37 +9,45 @@ import joblib
 import nflreadpy as nfl
 import pandas as pd
 
-from predict_schedule import predict_schedule
+from predict_schedule import build_schedule_features
 from active_learning import grade_predictions, update_learning
 from current_features import build_current
 from simulate_season import export_simulations
 
 
-def main() -> None:
-    parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--season', type=int, default=datetime.now().year)
-    args = parser.parse_args()
-    root = Path(__file__).resolve().parent
-    build_current(args.season)
-    snapshots = pd.read_csv(root / f'data/current_features_{args.season}.csv').set_index('game_id')
+def run(root, season) -> None:
+    from audit_io import write_csv, write_json
+    from score_markets import pregame
+    build_current(season, root=root)
+    snapshots = pd.read_csv(root / f'data/current_features_{season}.csv').set_index('game_id')
     model = root / 'models/home_win_advanced_automl_no_market_deep.joblib'
-    output = root / f'predictions/nfl_{args.season}_predictions_advanced_no_market_deep.csv'
+    output = root / f'predictions/nfl_{season}_predictions_advanced_no_market_deep.csv'
     history = pd.read_csv(root / 'data/nfl_matchups_1999_2025_advanced.csv')
-    schedule = pd.DataFrame(nfl.load_schedules([args.season]).to_dicts())
+    schedule = pd.read_csv(root/f'data/schedule_{season}.csv')
     schedule = schedule.loc[schedule.game_type.eq('REG')].copy()
     if schedule.empty or schedule.game_id.duplicated().any():
         raise ValueError('Schedule missing or contains duplicate games; existing forecasts preserved.')
     finished = schedule.home_score.notna() & schedule.away_score.notna()
     completed = schedule.loc[finished].copy()
     # Only completed scores enter team form. Advanced inputs remain the saved historical snapshot.
-    history = pd.concat([history.loc[history.season.lt(args.season)], completed], ignore_index=True)
+    history = pd.concat([history.loc[history.season.lt(season)], completed], ignore_index=True)
     artifact = joblib.load(model)
-    upcoming = schedule.loc[~finished]
-    predictions = predict_schedule(upcoming, history, artifact, snapshots=snapshots) if len(upcoming) else pd.DataFrame()
+    now = datetime.now(timezone.utc)
+    upcoming = schedule.loc[schedule.apply(lambda row: pregame(row, now),axis=1)]
+    old = pd.read_csv(output) if output.exists() else pd.DataFrame(columns=['game_id'])
+    predictions = pd.DataFrame()
+    if len(upcoming):
+        predictions, features = build_schedule_features(upcoming, history, artifact, snapshots=snapshots)
+        probabilities = artifact['model'].predict_proba(features)[:,1]
+        predictions['home_win_probability'] = probabilities
+        predictions['away_win_probability'] = 1-probabilities
+        predictions['predicted_winner'] = predictions.home_team.where(predictions.home_win_probability.ge(.5),predictions.away_team)
+        from forecast_audit import archive
+        stamps=archive(root,schedule,predictions,features,artifact,probabilities,old)
+        predictions['winner_forecast_at']=predictions.game_id.map(stamps)
     generation = artifact.get('model_version')
     predictions['model_version'] = generation or 'legacy'
-    old = pd.read_csv(output) if output.exists() else pd.DataFrame(columns=['game_id'])
-    preserved = old.loc[old.game_id.isin(completed.game_id)].copy()
+    preserved = old.loc[~old.game_id.isin(upcoming.game_id)].copy()
     if 'model_version' not in preserved:
         preserved['model_version'] = 'legacy'
     predictions = pd.concat([predictions, preserved], ignore_index=True)
@@ -70,9 +78,10 @@ def main() -> None:
         raise ValueError('Unknown team in schedule')
     if not public.home_win_probability.between(0, 1).all():
         raise ValueError('Invalid probabilities')
-    predictions.to_csv(output, index=False)
-    completed.to_csv(root / f'data/nfl_{args.season}_completed.csv', index=False)
-    public.to_json(root / 'public_site/data/predictions.json', orient='records', indent=2)
+    write_csv(output,predictions)
+    write_csv(root / f'data/nfl_{season}_completed.csv',completed)
+    import json
+    write_json(root / 'public_site/data/predictions.json',json.loads(public.to_json(orient='records')))
     from performance import export as export_performance
     export_performance(root)
     export_simulations(predictions, root)
@@ -80,9 +89,24 @@ def main() -> None:
     export_charts(root)
     learning_rows = predictions.loc[predictions.model_version.eq(generation)] if generation else predictions
     summary = update_learning(learning_rows, root, generation=generation)
+    from challenger_review import report
+    report(root)
+    from matchup_context import context
+    context(root,season)
+    from score_distribution import export as export_distributions
+    export_distributions(root,schedule)
     print(f"Active learner: {summary['status']}; {summary['training_games']} training games")
     print(completed[['game_id', 'home_score', 'away_score']].to_string(index=False))
     print(f'Refreshed {len(upcoming)} upcoming forecasts; preserved {len(preserved)} pregame picks.')
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    now=datetime.now()
+    parser.add_argument('--season',type=int,default=now.year-(now.month<=2))
+    args=parser.parse_args()
+    from staged_refresh import refresh
+    refresh(Path(__file__).resolve().parent,args.season)
 
 
 if __name__ == '__main__':

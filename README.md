@@ -303,10 +303,31 @@ forecast archive. The weekly refresh invokes this export automatically.
 The matchup view opens on the earliest unfinished week (or the final week when
 all games are complete), with compact score summaries and expandable details.
 
-## Additional Feature Options
+## Audited Research and Refreshes
 
-- Play-by-play EPA/offensive success rate from `nfl.load_pbp(...)`
-- Weekly rosters/injuries from `nfl.load_rosters_weekly(...)` and `nfl.load_injuries(...)`
-- QB starter continuity and passing efficiency
-- Rest/travel/time-zone effects
-- Market features such as spread and total, if you want a model that incorporates betting-market information
+See [DATA_AUDIT.md](DATA_AUDIT.md) for provenance, known leakage risks, missing
+sources and the legacy active-roster status-code mismatch. Research context is
+not silently injected into the serving feature contract.
+
+```powershell
+python advanced_backtest.py --start-season 2024 --end-season 2025
+python score_distribution.py --train
+python challenger_review.py
+python validate_dashboard.py
+python publication_changes.py
+```
+
+The first two commands are explicit research training jobs; weekly refreshes do
+not run them. `score_distribution.py` without `--train` uses the saved shadow
+artifact. Its version-isolated forecasts are retained separately from production.
+The Research & Review tab labels historical market benchmarks and shadow outputs.
+
+Human review can be recorded with `challenger_review.py --version VERSION
+--decision hold --reviewer NAME --reason REASON`. Approval is rejected before the
+evidence threshold and never replaces production automatically. Raw source
+Parquet snapshots are local and should be backed up separately; receipts and exact
+winner inputs are committed. The Tuesday automation retains its schedule and
+uses semantic comparisons to avoid timestamp-only deployments.
+
+Remaining options and data dependencies are tracked in ROADMAP.md rather than a
+second, potentially stale feature list.

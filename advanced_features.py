@@ -192,8 +192,8 @@ def make_qb_features(games: pd.DataFrame, seasons: list[int]) -> tuple[pd.DataFr
     return _pregame_rollups(per_game.fillna(0), qb_value_cols, "team_qb"), _prior_season_features(per_game.fillna(0), qb_value_cols, "team_qb")
 
 
-def make_injury_features(games: pd.DataFrame, seasons: list[int]) -> pd.DataFrame:
-    injuries = _safe_load("load_injuries", seasons, min_season=2009)
+def make_injury_features(games: pd.DataFrame, seasons: list[int], raw=None) -> pd.DataFrame:
+    injuries = raw.copy() if raw is not None else _safe_load("load_injuries", seasons, min_season=2009)
     if injuries.empty:
         return pd.DataFrame()
 
@@ -222,8 +222,8 @@ def make_injury_features(games: pd.DataFrame, seasons: list[int]) -> pd.DataFram
     )
 
 
-def make_roster_features(games: pd.DataFrame, seasons: list[int]) -> pd.DataFrame:
-    rosters = _safe_load("load_rosters_weekly", seasons, min_season=2002)
+def make_roster_features(games: pd.DataFrame, seasons: list[int], raw=None) -> pd.DataFrame:
+    rosters = raw.copy() if raw is not None else _safe_load("load_rosters_weekly", seasons, min_season=2002)
     if rosters.empty:
         return pd.DataFrame()
 

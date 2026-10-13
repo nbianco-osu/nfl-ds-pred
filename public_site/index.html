@@ -24,12 +24,14 @@
     <main>
       <section class="metrics" id="metrics"></section>
       <p id="refreshStatus" aria-live="polite"></p>
+      <p id="healthStatus" aria-live="polite"></p>
       <p><a href="#modelComparison" id="libraryLink">Model library: 32 models</a></p>
       <div class="view-tabs" role="tablist" aria-label="Dashboard views">
         <button id="dashboardTab" role="tab" aria-selected="true" aria-controls="dashboardPanel">Matchups &amp; Models</button>
         <button id="seasonTab" role="tab" aria-selected="false" aria-controls="seasonPanel" tabindex="-1">Team Season Charts</button>
         <button id="scoresTab" role="tab" aria-selected="false" aria-controls="scoresPanel" tabindex="-1">Scores &amp; Lines</button>
         <button id="performanceTab" role="tab" aria-selected="false" aria-controls="performancePanel" tabindex="-1">Performance</button>
+        <button id="researchTab" role="tab" aria-selected="false" aria-controls="researchPanel" tabindex="-1">Research &amp; Review</button>
       </div>
       <div id="dashboardPanel" role="tabpanel" aria-labelledby="dashboardTab">
 
@@ -194,13 +196,31 @@
         <h3>Weekly Results</h3>
         <div class="table-wrap" tabindex="0" aria-label="Weekly observed performance"><table><thead><tr><th>Week</th><th>Correct / graded</th><th>Accuracy</th><th>Log loss</th><th>Brier score</th><th>Score games</th><th>Margin MAE</th><th>Total MAE</th></tr></thead><tbody id="weeklyPerformance"></tbody></table></div>
         <details class="performance-detail"><summary>Probability calibration</summary>
+          <div class="chart-frame calibration-frame"><canvas id="calibrationChart" role="img" aria-label="Observed home-win calibration with 95 percent intervals"></canvas></div>
           <p class="body-copy">Home-win probabilities compared with observed home-win frequency. Empty bins have no estimate. Log loss and Brier score reward probability quality; lower is better. MAE is mean absolute error in points.</p>
           <div class="table-wrap"><table><thead><tr><th>Home-win probability band</th><th>Games</th><th>Average prediction</th><th>Observed home wins</th></tr></thead><tbody id="calibrationRows"></tbody></table></div>
         </details>
+        <section class="backtest-section"><h2>Independent Score-Model Results</h2>
+          <div class="comparison-controls"><label>Score model<select id="performanceScoreModel"></select></label><label>Score model version<select id="performanceScoreVersion"></select></label></div>
+          <p id="independentScoreSummary" class="body-copy" aria-live="polite"></p>
+          <div class="table-wrap"><table><thead><tr><th>Week</th><th>Archived score games</th><th>Team score MAE</th><th>Margin MAE</th><th>Total MAE</th><th>Spread correct / graded</th><th>Total correct / graded</th></tr></thead><tbody id="independentScoreRows"></tbody></table></div>
+        </section>
         <section class="backtest-section"><p class="eyebrow">Separate retrospective research</p><h2>Rolling Weekly Backtests</h2>
           <p id="backtestNote" class="body-copy"></p>
           <div class="table-wrap" tabindex="0" aria-label="Historical weekly backtests"><table><thead><tr><th>Season</th><th>Graded games</th><th>Home baseline accuracy</th><th>Home baseline log loss</th><th>Recent-form accuracy</th><th>Recent-form log loss</th><th>Ridge margin MAE</th><th>Ridge total MAE</th></tr></thead><tbody id="backtestRows"></tbody></table></div>
           <p><a href="./data/backtest.json" download>Download methods, results and fold cutoffs</a></p>
+        </section>
+      </section>
+      <section id="researchPanel" role="tabpanel" aria-labelledby="researchTab" hidden>
+        <h2>Nested Candidate Evaluation</h2><p id="advancedNote" class="body-copy"></p>
+        <div class="table-wrap"><table><thead><tr><th>Candidate / ablation</th><th>Graded games</th><th>Accuracy</th><th>95% accuracy interval</th><th>Log loss</th><th>Brier score</th></tr></thead><tbody id="advancedRows"></tbody></table></div>
+        <p><a href="./data/advanced_backtest.json" download>Download fold cutoffs and ablation results</a></p>
+        <section class="backtest-section"><h2>Score-Distribution Coverage</h2><p id="distributionNote" class="body-copy"></p>
+          <p id="distributionLineResults" class="body-copy"></p>
+          <div class="table-wrap"><table><thead><tr><th>Target</th><th>Nominal interval</th><th>Observed coverage</th></tr></thead><tbody id="coverageRows"></tbody></table></div>
+        </section>
+        <section class="backtest-section"><h2>Challenger Review</h2><p id="challengerNote" class="body-copy"></p>
+          <div class="table-wrap"><table><thead><tr><th>Production cohort</th><th>Prospective games / minimum</th><th>Candidate minus baseline log-loss interval</th><th>Review readiness</th><th>Human decision</th></tr></thead><tbody id="challengerRows"></tbody></table></div>
         </section>
       </section>
       <section class="panel disclaimer">
@@ -224,6 +244,7 @@
     <script src="./score_lines.js"></script>
     <script src="./matchups.js"></script>
     <script src="./performance.js"></script>
+    <script src="./research.js"></script>
     <script src="./app.js"></script>
   </body>
 </html>

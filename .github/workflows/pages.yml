@@ -29,7 +29,11 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Configure Pages
+        if: success()
         uses: actions/configure-pages@v5
+
+      - name: Validate forecast exports
+        run: python validate_dashboard.py
 
       - name: Upload static site
         uses: actions/upload-pages-artifact@v3

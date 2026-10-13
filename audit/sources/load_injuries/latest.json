@@ -1,0 +1,9 @@
+{
+  "source": "nflreadpy.load_injuries",
+  "sha256": "98842bb3ad57c32fdedbdcd73aebd39bcd7a55d14800b9366dee23bb4fca08c6",
+  "rows": 1413,
+  "retrieved_at": "2026-10-13T15:40:34.103342+00:00",
+  "provider_published_at": null,
+  "cache_may_be_used": true,
+  "note": "Local observation time, not proof of original publication or freshness."
+}

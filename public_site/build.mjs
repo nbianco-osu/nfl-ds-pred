@@ -6,6 +6,14 @@ const root = dirname(fileURLToPath(import.meta.url));
 const dist = join(root, "dist");
 
 const assets = {
+  "/research.js": { file: "research.js", type: "text/javascript; charset=utf-8" },
+  "/data/game_audit.json": { file: "data/game_audit.json", type: "application/json; charset=utf-8" },
+  "/data/matchup_context.json": { file: "data/matchup_context.json", type: "application/json; charset=utf-8" },
+  "/data/score_distributions.json": { file: "data/score_distributions.json", type: "application/json; charset=utf-8" },
+  "/data/distribution_metrics.json": { file: "data/distribution_metrics.json", type: "application/json; charset=utf-8" },
+  "/data/advanced_backtest.json": { file: "data/advanced_backtest.json", type: "application/json; charset=utf-8" },
+  "/data/challenger_review.json": { file: "data/challenger_review.json", type: "application/json; charset=utf-8" },
+  "/data/refresh_health.json": { file: "data/refresh_health.json", type: "application/json; charset=utf-8" },
   "/performance.js": { file: "performance.js", type: "text/javascript; charset=utf-8" },
   "/matchups.js": { file: "matchups.js", type: "text/javascript; charset=utf-8" },
   "/data/performance.json": { file: "data/performance.json", type: "application/json; charset=utf-8" },
