@@ -51,10 +51,19 @@ def export(root=None):
                      **{key: result[key] for key in ('holdout_season', 'test_rows', 'accuracy', 'log_loss', 'roc_auc')}})
     if len(rows) != 32 or len({row['id'] for row in rows}) != 32:
         raise ValueError("Expected eight original, eight GPR, and sixteen expanded models")
+    research_path = root/'models/research32_report.json'
+    if research_path.exists():
+        research = json.loads(research_path.read_text())
+        if len(research['models']) != 32:
+            raise ValueError('Research training incomplete')
+        for result in research['models']:
+            rows.append({**result, 'id':result['name'],
+                'name':result['method'].replace('_',' ').title()+' - '+result['view'],
+                'noise_variance':None,'length_scale':None})
     output = {"gpr_trained_at": gpr["created_at"], "models": rows,
               "note": "Pre-refit retrospective evaluation. Not live pregame accuracy; no automatic promotion. "
               "Market-input and no-market models use different information. GPR uses a bounded recent-game window. "
-              "Missing current features retain historical fallbacks."}
+              "Missing current features retain historical fallbacks. New Research32 candidates use a later 78-game evaluation, versus 48 for the earlier library; do not compare their scores as a matched leaderboard."}
     path = root / "public_site/data/model_comparison.json"
     path.write_text(json.dumps(output, indent=2, allow_nan=False), encoding="utf-8")
     return output

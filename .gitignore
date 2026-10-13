@@ -1,4 +1,12 @@
 .venv/
+.env
+.env.*
+!.env.example
+!data/research_sources/
+data/research_sources/*
+!data/research_sources/manifest.json
+!models/research32_report.json
+!models/research32_holdout.csv
 audit/sources/**/*.parquet
 .refresh-stage/
 __pycache__/
@@ -36,3 +44,8 @@ explanations/*
 !models/home_win_advanced_automl_no_market_deep.metrics.json
 !predictions/nfl_2026_predictions_advanced_no_market_deep.csv
 !explanations/global_shap_2025.csv
+!models/research32_report.json
+!models/research32_holdout.csv
+!data/research_sources/
+data/research_sources/*
+!data/research_sources/manifest.json

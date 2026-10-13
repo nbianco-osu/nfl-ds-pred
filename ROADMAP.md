@@ -63,6 +63,8 @@ results, but never runs backtests or retrains production automatically.
 
 ## Iteration Log
 
+- 2026-10-13, database and research expansion: Trained and saved 32 additional temporally calibrated configurations (16 method families x 2 feature views), bringing the library to 64. New research evaluates 78 decisive 2026 games through October 12, not the earlier library's 48-game cohort. Added private FTN/snap-count source collection, lagged charted features, 7,031-row research dataset (2026 tie retained), private Supabase schema and verified-batch importer. Database import status is recorded separately in database/README.md; no production promotion. Next priorities: matched rolling evaluation, score-distribution models, temporal stacking, and confirmed-starter/weather archives.
+
 - 2026-10-13, R12-R17: Added archive-backed insights, team profiles, preferences and monitoring; refresh exporter runs inside existing staged validation. Production models and forecasts unchanged. Monitor uses latest observation per game/version/horizon, with no retrospective score backfill. Descriptive drift thresholds require at least 32 decisive games in both recent and earlier windows; no statistical significance or improved-performance claim.
 
 - 2026-10-13: Added blue projected-winner emphasis to weekly team rows, with explicit text and a pregame-pick label for finals. Green/red remain outcome correctness indicators. Highlight uses the classifier's saved pick even when the score ensemble disagrees. Added R12-R17 proposals; no model or forecast changes.
