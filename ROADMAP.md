@@ -38,6 +38,18 @@ review the legacy roster-status correction before adding more model families.
 | R16 | Medium | Implemented | Browser-local favorite, URL-linked week/team/confidence or game, reset, back-navigation handling and storage-failure fallback. No accounts or server-stored preferences. |
 | R17 | Medium | Implemented; accumulating prospective evidence | Winner/score-version-isolated horizon and season-stage metrics, calibration bias, score MAE and sample-gated drift alerts. No settled verified observations initially; no automatic production changes. |
 
+## Proposed R18-R22
+
+These are proposals, not completed upgrades or authorization for model promotion.
+
+| ID | Priority | Status | Acceptance check |
+| --- | --- | --- | --- |
+| R18 | High | Proposed | Compare all 64 configurations on identical nested rolling folds; report paired log-loss/Brier differences and counts, then collect prospective evidence. |
+| R19 | High | Proposed | Evaluate Poisson/Tweedie and football-scoring-process models for scores, margins and totals; compare calibration, proper scoring rules and interval coverage against current score baselines. |
+| R20 | High | Proposed | Archive confirmed starters and weather forecasts with observation/kickoff timestamps; measure incremental value without historical backfilling of availability. |
+| R21 | Medium | Proposed | Train regularized stacking only on temporal out-of-fold predictions; isolate its calibration and prospective forecasts by model version. |
+| R22 | Medium | Proposed | Normalize warehouse team/player/venue dimensions and automate verified incremental sync after privilege, storage-cost and source-license review. Keep raw snapshots private. |
+
 ## Evidence and Boundaries
 
 - `rolling_backtest.py` is a research baseline harness, not a refit or evaluation of the deployed Random Forest. Production model files and archived picks are unchanged.
