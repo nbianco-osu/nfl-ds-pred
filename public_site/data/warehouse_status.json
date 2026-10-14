@@ -1,0 +1,6 @@
+{
+  "verified_at": "2026-10-14",
+  "status": "private_verified",
+  "counts": {"snapshot_records":10089,"team_identifiers":36,"schedule_venues":38,"schedule_qb_identities":42,"schedule_observations":272},
+  "note": "Private normalized warehouse; 580 current forecast, schedule and team records verified across 58 incremental batches, with zero duplicate inserts. Schedule QB identities are not confirmed starters or complete rosters. Raw source files remain local. Incremental sync is assistant-mediated through the connected tool, not an independent service. RLS enabled; no anonymous or authenticated read grants."
+}

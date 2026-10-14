@@ -94,6 +94,21 @@ checksums and receipts. No paywall or access restriction was bypassed.
 
 ## Next Research
 
+R22 update (2026-10-14): `normalized_warehouse.sql` and
+`harden_setup_function.sql` are applied. The additive `nfl_private` schema has
+36 team identifiers, 38 venues, 42 schedule-QB identities and 272 schedule
+observations. These identities are not confirmed starters or complete rosters.
+All tables have RLS and no public read grants. Existing 10,089 snapshots remain
+intact. See `normalized_verification.json` for the verified receipt.
+
+Weekly refresh stages an insert-only queue with `warehouse_queue.py`. The
+connected Supabase tool executes and verifies batches; this is assistant-mediated,
+not a standalone background service. The initial 58 batches matched all 580
+records and inserted none. Never mark a queue synced before remote verification.
+The older secret-key REST path above is separate and is not configured or
+validated for the new private normalization trigger. Raw objects remain local
+pending license and storage review. See `backtests/NEXT_RESEARCH.md` for R19-R21.
+
 1. R18 now compares all 64 recipes on identical rolling folds; collect prospective evidence before any promotion.
 2. Test Poisson/Tweedie score models and football-scoring-process simulations;
    compare interval coverage and margin/total scoring, not just winner accuracy.

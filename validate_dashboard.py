@@ -77,6 +77,41 @@ def validate(root):
         for fold in matched['folds']:
             if not fold['final_fit_through']<fold['selection_start'] or not fold['final_calibration_through']<fold['test_start']:
                 raise ValueError('Evaluation fold overlap')
+    experiments=folder/'score_experiments.json'
+    if experiments.exists():
+        report=json.loads(experiments.read_text())
+        if report['status']!='research_only' or len(report['models'])!=4:
+            raise ValueError('Invalid score research registry')
+        expected=sum(f['games'] for f in report['folds'])
+        for fold in report['folds']:
+            if not fold['fit_through']<fold['calibration_through']<fold['test_start']:
+                raise ValueError('Score research dates overlap')
+        for model in report['models']:
+            if model['overall']['games']!=expected:
+                raise ValueError('Score research cohorts differ')
+            for summary in [model['overall'],*model['seasons'].values()]:
+                for key,value in summary['metrics'].items():
+                    if value is not None and (not math.isfinite(value) or value<0 or (key.endswith('coverage80') and value>1)):
+                        raise ValueError('Invalid score experiment metric')
+    inputs=folder/'pregame_inputs.json'
+    if inputs.exists():
+        records=json.loads(inputs.read_text())
+        if len({g['game_id'] for g in records['games']})!=len(records['games']):
+            raise ValueError('Duplicate pregame archive game')
+        for game in records['games']:
+            for record in game['observations'].values():
+                observed=datetime.fromisoformat(record['observed_at'])
+                published=datetime.fromisoformat(record['published_at'])
+                kickoff=datetime.fromisoformat(record['kickoff_at_observation'])
+                if any(t.tzinfo is None for t in [observed,published,kickoff]) or not published<=observed<kickoff:
+                    raise ValueError('Invalid pregame input provenance')
+    stack=folder/'temporal_stack.json'
+    if stack.exists():
+        report=json.loads(stack.read_text())
+        if report['status']!='research_only' or not report['meta_fit_season']<report['calibration_season']<report['test_season']:
+            raise ValueError('Invalid temporal stacking protocol')
+        if report['summary']['n']!=report['baseline']['n']:
+            raise ValueError('Stack comparator cohort differs')
     return {'games':len(rows),'completed':sum(r['status']=='Final' for r in rows)}
 
 

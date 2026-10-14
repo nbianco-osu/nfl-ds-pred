@@ -33,6 +33,7 @@
         <button id="performanceTab" role="tab" aria-selected="false" aria-controls="performancePanel" tabindex="-1">Performance</button>
         <button id="researchTab" role="tab" aria-selected="false" aria-controls="researchPanel" tabindex="-1">Research &amp; Review</button>
         <button id="matchedTab" role="tab" aria-selected="false" aria-controls="matchedPanel" tabindex="-1">Matched Evaluation</button>
+          <button id="experimentsTab" role="tab" aria-selected="false" aria-controls="experimentsPanel" tabindex="-1">Experiments &amp; Inputs</button>
         <button id="profilesTab" role="tab" aria-selected="false" aria-controls="profilesPanel" tabindex="-1">Team Profiles</button>
         <button id="monitorTab" role="tab" aria-selected="false" aria-controls="monitorPanel" tabindex="-1">Forecast Monitor</button>
       </div>
@@ -250,6 +251,24 @@
         </section>
         <details><summary>Methodology and limitations</summary><p id="matchedNote" class="body-copy"></p><p class="body-copy">The recipe library was designed after these historical seasons. Ranking 64 recipes introduces selection optimism; a favorable retrospective result is not prospective validation.</p><p class="body-copy">Charted inputs: <a href="https://nflreadr.nflverse.com/reference/load_ftn_charting.html">FTN Data via nflverse, CC-BY-SA 4.0</a>. Snap counts: Pro Football Reference via nflverse. Raw inputs remain private.</p></details>
       </section>
+      <section id="experimentsPanel" role="tabpanel" aria-labelledby="experimentsTab" hidden>
+        <h2>Score Distribution Experiments</h2><p id="scoreExperimentStatus" role="status">Loading research results.</p>
+        <div class="comparison-controls"><label>Evaluation season<select id="experimentSeason"><option value="all">All evaluated seasons</option><option>2024</option><option>2025</option><option>2026</option></select></label><label>Target<select id="experimentTarget"><option value="total">Combined score</option><option value="margin">Home scoring margin</option><option value="home">Home score</option><option value="away">Away score</option></select></label><a href="./data/score_experiments.json" download>Download score research</a></div>
+        <div class="experiment-chart-frame"><canvas id="scoreExperimentChart" role="img" aria-label="Observed coverage compared with nominal 80 percent intervals"></canvas></div>
+        <div class="table-wrap" tabindex="0" aria-label="Score distribution results"><table><thead><tr><th>Experiment</th><th>Games</th><th>Mean absolute error</th><th>CRPS</th><th>80% coverage</th><th>Interval width</th><th>Interval score</th><th>Line games</th><th>Line Brier (3-class)</th><th>Line log loss</th></tr></thead><tbody id="scoreExperimentRows"></tbody></table></div>
+        <details><summary>Score methodology and limitations</summary><p id="scoreExperimentNote" class="body-copy"></p></details>
+        <section class="experiment-section"><h2>Temporal Stacking</h2><p id="stackStatus"></p><p id="stackReview" class="body-copy"></p>
+          <div class="table-wrap" tabindex="0" aria-label="Temporal stack evaluation"><table><thead><tr><th>Research model</th><th>Games</th><th>Accuracy</th><th>Log loss</th><th>Brier score</th><th>Log-loss difference</th><th>95% paired interval</th></tr></thead><tbody id="stackRows"></tbody></table></div>
+          <details><summary>Stacking methodology and limitations</summary><p id="stackNote" class="body-copy"></p></details>
+        </section>
+        <section class="experiment-section"><h2>Pregame Input Archive</h2><p id="pregameStatus"></p><label>Week<select id="pregameWeek"><option value="all">All weeks</option></select></label>
+          <div class="table-wrap" tabindex="0" aria-label="Timestamped supplied pregame inputs"><table><thead><tr><th>Week</th><th>Game</th><th>Away starting QB</th><th>Home starting QB</th><th>Forecast weather</th></tr></thead><tbody id="pregameRows"></tbody></table></div>
+          <details><summary>Source availability and timestamp policy</summary><p id="pregameNote" class="body-copy"></p></details>
+        </section>
+        <section class="experiment-section"><h2>Private Warehouse Status</h2><p id="warehouseStatus"></p><p id="warehouseVerified" class="body-copy"></p>
+          <div class="table-wrap"><table><thead><tr><th>Dataset</th><th>Records</th></tr></thead><tbody id="warehouseRows"></tbody></table></div>
+        </section>
+      </section>
       <section id="profilesPanel" role="tabpanel" aria-labelledby="profilesTab" hidden>
         <h2>Team Profile</h2>
         <div class="comparison-controls"><label>Team<select id="profileTeam"></select></label><label>Winner model version<select id="profileVersion"></select></label></div>
@@ -288,6 +307,7 @@
     <script src="./research.js"></script>
     <script src="./insights.js"></script>
     <script src="./matched.js"></script>
+    <script src="./experiments.js"></script>
     <script src="./app.js"></script>
   </body>
 </html>

@@ -97,6 +97,10 @@ def run(root, season) -> None:
     export_distributions(root,schedule)
     from dashboard_insights import export as export_insights
     export_insights(root)
+    from pregame_inputs import export as export_pregame_inputs
+    export_pregame_inputs(root,season)
+    from warehouse_queue import stage as stage_warehouse
+    stage_warehouse(root,season)
     print(f"Active learner: {summary['status']}; {summary['training_games']} training games")
     print(completed[['game_id', 'home_score', 'away_score']].to_string(index=False))
     print(f'Refreshed {len(upcoming)} upcoming forecasts; preserved {len(preserved)} pregame picks.')

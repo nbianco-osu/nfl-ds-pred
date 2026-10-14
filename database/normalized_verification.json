@@ -1,0 +1,15 @@
+{
+  "verified_at": "2026-10-14",
+  "project_id": "unzfybzuynezjhcjyptu",
+  "migrations": ["private_nfl_dimensions", "restrict_setup_event_trigger_execution"],
+  "queue_sha256": "793bba3537e5225f8526f2d164c991bb2fc4ac28904f5ff89d8490e9af2836e9",
+  "batches_verified": 58,
+  "records_verified": 580,
+  "inserted": 0,
+  "snapshot_records": 10089,
+  "normalized": {"teams":36,"venues":38,"schedule_qb_identities":42,"game_observations":272},
+  "normalization_trigger_rollback_test": "passed; zero test rows retained",
+  "rls_enabled_all_tables": true,
+  "anon_and_authenticated_select": false,
+  "advisors": "No security warnings remain. Five INFO notices for enabled RLS without policies are intentional deny-by-default."
+}

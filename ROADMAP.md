@@ -40,16 +40,16 @@ review the legacy roster-status correction before adding more model families.
 
 ## R18-R22 Iteration
 
-R18 is the current matched-evaluation iteration. R19-R22 remain proposals, not
-authorization for implementation or model promotion.
+R18-R22 now include implemented research and private warehouse improvements.
+Provider coverage and prospective evaluation remain incomplete; no model promotion.
 
 | ID | Priority | Status | Acceptance check |
 | --- | --- | --- | --- |
 | R18 | High | Implemented retrospectively | Re-tuned 64 recipes on 621 identical decisive games across annual nested rolling folds for 2024-2026; paired log-loss/Brier intervals, counts, information-set filters and cutoff audit. Prospective evidence remains required; no automatic promotion. |
-| R19 | High | Proposed | Evaluate Poisson/Tweedie and football-scoring-process models for scores, margins and totals; compare calibration, proper scoring rules and interval coverage against current score baselines. |
-| R20 | High | Proposed | Archive confirmed starters and weather forecasts with observation/kickoff timestamps; measure incremental value without historical backfilling of availability. |
-| R21 | Medium | Proposed | Train regularized stacking only on temporal out-of-fold predictions; isolate its calibration and prospective forecasts by model version. |
-| R22 | Medium | Proposed | Normalize warehouse team/player/venue dimensions and automate verified incremental sync after privilege, storage-cost and source-license review. Keep raw snapshots private. |
+| R19 | High | Implemented research | Four score distributions on 623 matched games; CRPS, interval coverage and three-class line scoring. Scoring-event assumptions are not a full football engine. Saved research artifacts; production unchanged. |
+| R20 | High | Import support implemented | Strict timestamped starter/weather imports, immutable observations and explicit missing inputs. No provider configured, zero observations; incremental-value evaluation awaits prospective data. |
+| R21 | Medium | Retrospective implementation | Regularized stack fit on 2024 temporal OOF predictions, calibrated in 2025, evaluated on 78 decisive 2026 games. Paired interval is inconclusive. Future forecasts withheld until matching live base artifacts are available. |
+| R22 | Medium | Private dimensions and assisted sync implemented | Private team/venue/schedule-QB dimensions, insert normalization and verified incremental connector queue. 580 records matched with zero duplicate inserts. Full roster coverage and raw-object storage remain pending. |
 
 ## Evidence and Boundaries
 
@@ -75,6 +75,8 @@ Backtest outputs: `backtests/weekly_predictions.csv` and
 results, but never runs backtests or retrains production automatically.
 
 ## Iteration Log
+
+- 2026-10-14, R19-R22: Added Experiments & Inputs dashboard, four saved score distributions, retrospective temporal stacking, strict supplied-input archive and private normalized warehouse. Browser desktop/mobile checks and 69 Python tests passed. Existing production models, picks and learning cohorts unchanged. Stacking improvement is inconclusive; confirmed starter/weather inputs remain unavailable.
 
 - 2026-10-14, recovery and R18: Completed and fingerprint-verified all 10,089 private Supabase records using the connected tool, preserving existing rows and RLS. Added matched evaluation of 64 re-tuned research recipes across 272 / 271 / 78 decisive games in 2024 / 2025 / 2026. The new tab separates information sets and reports paired season-week bootstrap intervals, fold cutoffs, missingness and selected settings. Original AutoML searches are bounded at 4/6 trials; revised source data and recipe-selection optimism remain limitations. Production models, forecasts and shadow learning are unchanged. R19-R22 remain proposed.
 
