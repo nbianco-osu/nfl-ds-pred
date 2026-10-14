@@ -53,6 +53,30 @@ def validate(root):
                     raise ValueError('Invalid history probability')
                 if datetime.fromisoformat(r['forecast_at'].replace('Z','+00:00')).tzinfo is None:
                     raise ValueError('History timestamp lacks timezone')
+    matched_path=folder/'matched_comparison.json'
+    if matched_path.exists():
+        matched=json.loads(matched_path.read_text())
+        models=matched['models']
+        if matched['status']!='research_only' or len(models)!=64 or len({m['id'] for m in models})!=64:
+            raise ValueError('Incomplete matched model registry')
+        for model in models:
+            if model['overall']['n']!=matched['games']:
+                raise ValueError('Mismatched evaluation counts')
+            if sum(m['n'] for m in model['seasons'].values())!=matched['games']:
+                raise ValueError('Invalid evaluation season totals')
+            for year, summary in model['seasons'].items():
+                if summary['n']!=matched['baseline_seasons'][year]['n']:
+                    raise ValueError('Mismatched season cohort')
+            for summary in [model['overall'], *model['seasons'].values()]:
+                if not 0<=summary['accuracy']<=1 or not 0<=summary['brier']<=1 or summary['log_loss']<0:
+                    raise ValueError('Invalid evaluation metric')
+                for key in ['delta_log_loss_ci95','delta_brier_ci95']:
+                    low,high=summary[key]
+                    if not math.isfinite(low) or not math.isfinite(high) or low>high:
+                        raise ValueError('Invalid paired interval')
+        for fold in matched['folds']:
+            if not fold['final_fit_through']<fold['selection_start'] or not fold['final_calibration_through']<fold['test_start']:
+                raise ValueError('Evaluation fold overlap')
     return {'games':len(rows),'completed':sum(r['status']=='Final' for r in rows)}
 
 

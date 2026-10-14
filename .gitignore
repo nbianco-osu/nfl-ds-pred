@@ -11,6 +11,7 @@ audit/sources/**/*.parquet
 .refresh-stage/
 __pycache__/
 .pytest_cache/
+backtests/matched/
 nfl_prediction_app_deploy.zip
 data/*
 models/*

@@ -1,0 +1,22 @@
+{
+  "verified_at": "2026-10-14",
+  "project_id": "unzfybzuynezjhcjyptu",
+  "table": "public.nfl_dataset_records",
+  "status": "complete",
+  "total_rows": 10089,
+  "recovered_rows": 1217,
+  "recovery_batches": 49,
+  "method": "Insert-only ON CONFLICT; per-batch semantic JSONB equality; full-dataset canonical payload and metadata fingerprints matched local manifest sources. Numeric scale normalized without rounding.",
+  "rls_enabled": true,
+  "anon_select": false,
+  "authenticated_select": false,
+  "datasets": {
+    "forecast_current": {"rows": 272, "sha256": "3af7506f64fa7cb93c67a55a65d88a37dd144967e0d4fa3b16f1dada274acec8"},
+    "model_research32": {"rows": 32, "sha256": "1ff3900ab0bf7eacff8c2b36810365cd06000600dec571a4f6c55dc0ab6e4bba"},
+    "research_matchups": {"rows": 7031, "sha256": "e34e1b2afef70d44e74c493dbec653d9472aa2bee9244a28f2aed42776436378"},
+    "schedule_2026": {"rows": 272, "sha256": "6facb679c9c731e26b756b037bd4002d760d9141da30b8d06ecc23b17f2d2000"},
+    "source_receipts": {"rows": 10, "sha256": "87593007801ba838b46538b65ec16d88e64803a7322adc92b6771d37255a9977"},
+    "team_games": {"rows": 2436, "sha256": "69e0c18d803549f459cfda5ea1dde490472b39b982fea5749a8e7399da7faf64"},
+    "teams": {"rows": 36, "sha256": "2d8a73e7ca6720ad871567c9f236325bd0245bbd5f2cf7e8bd7e2efdbd826eb5"}
+  }
+}

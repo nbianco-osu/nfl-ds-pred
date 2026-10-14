@@ -38,13 +38,14 @@ review the legacy roster-status correction before adding more model families.
 | R16 | Medium | Implemented | Browser-local favorite, URL-linked week/team/confidence or game, reset, back-navigation handling and storage-failure fallback. No accounts or server-stored preferences. |
 | R17 | Medium | Implemented; accumulating prospective evidence | Winner/score-version-isolated horizon and season-stage metrics, calibration bias, score MAE and sample-gated drift alerts. No settled verified observations initially; no automatic production changes. |
 
-## Proposed R18-R22
+## R18-R22 Iteration
 
-These are proposals, not completed upgrades or authorization for model promotion.
+R18 is the current matched-evaluation iteration. R19-R22 remain proposals, not
+authorization for implementation or model promotion.
 
 | ID | Priority | Status | Acceptance check |
 | --- | --- | --- | --- |
-| R18 | High | Proposed | Compare all 64 configurations on identical nested rolling folds; report paired log-loss/Brier differences and counts, then collect prospective evidence. |
+| R18 | High | Implemented retrospectively | Re-tuned 64 recipes on 621 identical decisive games across annual nested rolling folds for 2024-2026; paired log-loss/Brier intervals, counts, information-set filters and cutoff audit. Prospective evidence remains required; no automatic promotion. |
 | R19 | High | Proposed | Evaluate Poisson/Tweedie and football-scoring-process models for scores, margins and totals; compare calibration, proper scoring rules and interval coverage against current score baselines. |
 | R20 | High | Proposed | Archive confirmed starters and weather forecasts with observation/kickoff timestamps; measure incremental value without historical backfilling of availability. |
 | R21 | Medium | Proposed | Train regularized stacking only on temporal out-of-fold predictions; isolate its calibration and prospective forecasts by model version. |
@@ -74,6 +75,8 @@ Backtest outputs: `backtests/weekly_predictions.csv` and
 results, but never runs backtests or retrains production automatically.
 
 ## Iteration Log
+
+- 2026-10-14, recovery and R18: Completed and fingerprint-verified all 10,089 private Supabase records using the connected tool, preserving existing rows and RLS. Added matched evaluation of 64 re-tuned research recipes across 272 / 271 / 78 decisive games in 2024 / 2025 / 2026. The new tab separates information sets and reports paired season-week bootstrap intervals, fold cutoffs, missingness and selected settings. Original AutoML searches are bounded at 4/6 trials; revised source data and recipe-selection optimism remain limitations. Production models, forecasts and shadow learning are unchanged. R19-R22 remain proposed.
 
 - 2026-10-13, database and research expansion: Trained and saved 32 additional temporally calibrated configurations (16 method families x 2 feature views), bringing the library to 64. New research evaluates 78 decisive 2026 games through October 12, not the earlier library's 48-game cohort. Added private FTN/snap-count source collection, lagged charted features, 7,031-row research dataset (2026 tie retained), private Supabase schema and verified-batch importer. Database import status is recorded separately in database/README.md; no production promotion. Next priorities: matched rolling evaluation, score-distribution models, temporal stacking, and confirmed-starter/weather archives.
 

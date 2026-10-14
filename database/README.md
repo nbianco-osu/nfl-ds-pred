@@ -2,7 +2,24 @@
 
 Project: `nfl-ds-pred` (`unzfybzuynezjhcjyptu`), Free, us-west-2.
 
-## Import Checkpoint (2026-10-13)
+## Recovery Complete (2026-10-14)
+
+All 10,089 manifest records are present. With user authorization, the connected
+Supabase tool inserted the remaining 1,217 rows in 49 conflict-safe batches.
+Each batch verified metadata and semantic JSONB equality; existing rows were
+not overwritten. Aggregate SHA-256 fingerprints for all seven datasets match
+the original local manifest sources after normalizing numeric scale (`7.0` = `7`).
+Counts, fingerprints and access checks are recorded in `import_verification.json`.
+RLS remains enabled; neither anon nor authenticated has SELECT privileges.
+No credentials were collected and no schema or grants were changed.
+
+`warehouse_fingerprints.py` verifies source file checksums and reproduces the
+content fingerprints; `verify_snapshot.sql` provides the read-only remote query.
+`prepare_connector_recovery.py` stages SQL requests for
+the specific recovered source, not an automatic general-purpose sync job.
+The public dashboard still uses static exports. R22 remains proposed.
+
+### Previous Import Checkpoint (2026-10-13)
 
 PARTIAL: 8,872 of 10,089 intended records are stored and verified against a full
 browser CSV export, including semantic JSON payload comparisons and unique IDs.
@@ -12,7 +29,7 @@ with `Failed to fetch (api.supabase.com)` while the dashboard showed a service
 incident banner. Existing rows were preserved; no delete or overwrite was used.
 
 The user explicitly chose browser import, not a password-based direct connection.
-No upload is running. After service recovery, refresh/export the table and
+At that checkpoint no upload was running. The recovery plan was to refresh/export the table and
 reconcile again before importing. The current local remainder is
 `data/database_import/resume_missing_part_01.csv` (1,217 rows), SHA-256
 `7ad4626c50e39e7f3b39c64716be35cab17eeef112470f29f23e8a7cffc05662`.
@@ -77,7 +94,7 @@ checksums and receipts. No paywall or access restriction was bypassed.
 
 ## Next Research
 
-1. Evaluate all 64 models on identical rolling folds before ranking them.
+1. R18 now compares all 64 recipes on identical rolling folds; collect prospective evidence before any promotion.
 2. Test Poisson/Tweedie score models and football-scoring-process simulations;
    compare interval coverage and margin/total scoring, not just winner accuracy.
 3. Collect timestamped confirmed starters and weather forecasts prospectively.

@@ -32,6 +32,7 @@
         <button id="scoresTab" role="tab" aria-selected="false" aria-controls="scoresPanel" tabindex="-1">Scores &amp; Lines</button>
         <button id="performanceTab" role="tab" aria-selected="false" aria-controls="performancePanel" tabindex="-1">Performance</button>
         <button id="researchTab" role="tab" aria-selected="false" aria-controls="researchPanel" tabindex="-1">Research &amp; Review</button>
+        <button id="matchedTab" role="tab" aria-selected="false" aria-controls="matchedPanel" tabindex="-1">Matched Evaluation</button>
         <button id="profilesTab" role="tab" aria-selected="false" aria-controls="profilesPanel" tabindex="-1">Team Profiles</button>
         <button id="monitorTab" role="tab" aria-selected="false" aria-controls="monitorPanel" tabindex="-1">Forecast Monitor</button>
       </div>
@@ -228,6 +229,27 @@
           <div class="table-wrap"><table><thead><tr><th>Production cohort</th><th>Prospective games / minimum</th><th>Candidate minus baseline log-loss interval</th><th>Review readiness</th><th>Human decision</th></tr></thead><tbody id="challengerRows"></tbody></table></div>
         </section>
       </section>
+      <section id="matchedPanel" role="tabpanel" aria-labelledby="matchedTab" hidden>
+        <div class="section-heading"><h2>Matched Model Evaluation</h2><a href="./data/matched_comparison.json" download>Download matched results</a></div>
+        <p id="matchedStatus" role="status">Loading matched research results.</p>
+        <div id="matchedControls" class="comparison-controls">
+          <label>Evaluation season<select id="matchedSeason"><option value="all">All evaluated seasons</option></select></label>
+          <label>Information set<select id="matchedMarket"><option value="no-market">No market inputs</option><option value="market">With market inputs</option><option value="all">All (different information sets)</option></select></label>
+          <label>Model group<select id="matchedGroup"><option value="all">All groups</option><option>Original</option><option>GPR</option><option>Expanded</option><option>Research32</option></select></label>
+          <label>Sort by<select id="matchedMetric"><option value="log_loss">Log loss</option><option value="brier">Brier score</option></select></label>
+        </div>
+        <p id="matchedBaseline" class="body-copy"></p>
+        <div class="matched-chart-frame"><canvas id="matchedComparisonChart" role="img" aria-label="Paired model differences from baseline with 95 percent uncertainty intervals"></canvas></div>
+        <p id="matchedChartCaption" class="body-copy"></p>
+        <div class="table-wrap" tabindex="0" aria-label="Matched model comparison results"><table><thead><tr><th>Research recipe</th><th>Group</th><th>Market inputs</th><th>Games</th><th>Accuracy</th><th>Log loss</th><th>Brier score</th><th>Log-loss difference</th><th>95% paired interval</th><th>Brier difference</th><th>95% paired interval</th></tr></thead><tbody id="matchedRows"></tbody></table></div>
+        <section id="matchedDetail" class="matched-detail">
+          <label>Inspect recipe<select id="matchedModel"></select></label><h3 id="matchedDetailName"></h3>
+          <div class="chart-frame"><canvas id="matchedSeasonChart" role="img" aria-label="Selected model and baseline log loss by evaluation season"></canvas></div>
+          <div class="table-wrap" tabindex="0" aria-label="Chronological fold audit"><table><thead><tr><th>Test season</th><th>Games</th><th>Final base fit through</th><th>Final calibration through</th><th>Test begins</th><th>Inner trials</th><th>Input fields</th><th>Missing test values</th><th>Log loss</th><th>Brier</th></tr></thead><tbody id="matchedFoldRows"></tbody></table></div>
+          <details><summary>Selected settings</summary><pre id="matchedSettings"></pre></details>
+        </section>
+        <details><summary>Methodology and limitations</summary><p id="matchedNote" class="body-copy"></p><p class="body-copy">The recipe library was designed after these historical seasons. Ranking 64 recipes introduces selection optimism; a favorable retrospective result is not prospective validation.</p><p class="body-copy">Charted inputs: <a href="https://nflreadr.nflverse.com/reference/load_ftn_charting.html">FTN Data via nflverse, CC-BY-SA 4.0</a>. Snap counts: Pro Football Reference via nflverse. Raw inputs remain private.</p></details>
+      </section>
       <section id="profilesPanel" role="tabpanel" aria-labelledby="profilesTab" hidden>
         <h2>Team Profile</h2>
         <div class="comparison-controls"><label>Team<select id="profileTeam"></select></label><label>Winner model version<select id="profileVersion"></select></label></div>
@@ -265,6 +287,7 @@
     <script src="./performance.js"></script>
     <script src="./research.js"></script>
     <script src="./insights.js"></script>
+    <script src="./matched.js"></script>
     <script src="./app.js"></script>
   </body>
 </html>
