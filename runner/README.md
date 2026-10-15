@@ -66,6 +66,20 @@ approval and activation. A test is not an authorization for overlapping writers.
 
 ## Persistence and publication
 
+### Verified handoff prerequisites (2026-10-15)
+
+- Fresh Linux dry-run: private Actions run `38800654893`, successful, source
+  `a0d5ed7572ba924029cd53f59b50db187f2fe660`, private baseline
+  `093559f0802b5818ca418fb18b3b7642f26f54bb`.
+- Validation: 272 games, 79 completed/locked forecasts, 192 coverage series,
+  no unexplained coverage drops. Full local regression suite: 144 tests passed.
+- User explicitly approved the scheduler handoff. `python -B -m runner.handoff`
+  reconciles only the three permitted public reports under the refresh lock;
+  all model and forecast hashes remain unchanged. It does not activate scheduling.
+- Live authority is determined by private `config.json` gates and the installed
+  workflow, not this checklist. Keep local writers paused only while completing
+  the handoff; restore them if activation fails.
+
 Actions concurrency serializes runs. A unique content-addressed private release
 is uploaded first; private main advances from the exact parent with force=false.
 A racing writer causes conflict rather than state regression. Failed uploads or
