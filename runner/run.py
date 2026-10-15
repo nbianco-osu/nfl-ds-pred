@@ -1,0 +1,244 @@
+"""Fresh-machine rehearsal, due-window refresh, CAS persistence, restricted publishing."""
+import argparse
+from datetime import datetime, timedelta, timezone
+import json
+import os
+import re
+from pathlib import Path
+import shutil
+import subprocess
+import tempfile
+from contextlib import contextmanager
+from zoneinfo import ZoneInfo
+
+from runner.common import GitHub, PRIVATE, PUBLIC, inventory, pack, unpack
+
+
+def retained(before, after):
+    if isinstance(before, dict):
+        return isinstance(after, dict) and all(k in after and retained(v, after[k]) for k, v in before.items())
+    if isinstance(before, list):
+        return isinstance(after, list) and all(value in after for value in before)
+    return before == after
+
+
+@contextmanager
+def no_training():
+    """The legacy refresh refits a shadow calibrator; keep that learner frozen."""
+    import refresh_predictions
+    original = refresh_predictions.update_learning
+
+    def frozen(rows, root, generation=None):
+        folder = Path(root)/'learning'
+        if generation:
+            if not generation.replace('T', '').replace('Z', '').isdigit():
+                raise ValueError('Invalid learning generation')
+            folder = folder/'generations'/generation
+        path = folder/'summary.json'
+        summary = json.loads(path.read_text()) if path.exists() else {'training_games': 0}
+        return dict(summary, status='Frozen shadow learner: R57 never retrains')
+
+    refresh_predictions.update_learning = frozen
+    try:
+        yield
+    finally:
+        refresh_predictions.update_learning = original
+
+
+def preserve(previous, current):
+    """Never lose private files, immutable model bytes, or prior checkpoint captures."""
+    old, new = inventory(previous), inventory(current)
+    if not set(old) <= set(new):
+        raise ValueError('Private state files removed')
+    for name in old:
+        if (name.startswith('models/') or name.endswith('.joblib')) and old[name] != new[name]:
+            raise ValueError('No retraining or model replacement allowed')
+        if name.startswith(('audit/forecasts/', 'audit/shadow_next/')) and old[name] != new[name]:
+            if not name.endswith('.json') or not retained(json.loads((Path(previous)/name).read_text()),
+                                                         json.loads((Path(current)/name).read_text())):
+                raise ValueError('Immutable audit snapshot changed')
+    if any(name.endswith('.joblib') for name in set(new) - set(old)):
+        raise ValueError('New fitted artifacts forbidden')
+    path = 'audit/checkpoints.json'
+    before = json.loads((Path(previous)/path).read_text()) if (Path(previous)/path).exists() else {}
+    after = json.loads((Path(current)/path).read_text()) if (Path(current)/path).exists() else {}
+    if any(after.get(k) != v for k, v in before.items()):
+        raise ValueError('Checkpoint regression')
+
+
+def schedule_plan(rows, now):
+    """Full-season weekly UTC union, including DST shifts of known kickoffs."""
+    from pregame_inputs import kickoff
+    slots = set()
+    windows = []
+    for row in rows:
+        if row.get('game_type') != 'REG' or not isinstance(row.get('gametime'), str):
+            continue
+        start = kickoff(row).to_pydatetime()
+        for label, minutes, offsets in [('24h', 1440, (-20, 0, 20)), ('90m', 90, (-10, 0, 10))]:
+            target = start - timedelta(minutes=minutes)
+            for offset in offsets:
+                check = target + timedelta(minutes=offset)
+                slots.add(((check.weekday()+1) % 7, check.hour, check.minute))
+            windows.append({'game_id': row['game_id'], 'horizon': label, 'target': target.isoformat()})
+    groups = {}
+    for day, hour, minute in slots:
+        groups.setdefault((day, hour), set()).add(minute)
+    crons = [f'{",".join(map(str, sorted(minutes)))} {hour} * * {day}'
+             for (day, hour), minutes in sorted(groups.items())]
+    crons += ['17 11 * * *', '0 13,14 * * 2']
+    return {'generated_at': now.isoformat(), 'cron_proposal': crons, 'windows': windows,
+            'weekly_checks_upper_bound': len(slots)+9,
+            'monthly_checks_estimate': round((len(slots)+9)*365.25/12/7),
+            'automatic_enabled': False, 'note': 'Static full-season union; daily flex drift proposals only. Tuesday 09:00 America/New_York forced refresh.'}
+
+
+def weekly_due(now):
+    local = now.astimezone(ZoneInfo('America/New_York'))
+    return local.weekday() == 1 and local.hour == 9
+
+
+def guard_live(config):
+    if not all(config.get(k) is True for k in ('automatic_enabled', 'parent_approved', 'dry_run_verified')):
+        raise ValueError('Live run blocked pending fresh dry-run verification and parent switch approval')
+
+
+def publish(root, destination, config):
+    from publication_gate import validate_transition
+    from publication_changes import changes
+    validate_transition(root, destination)
+    exports = list(config['public_exports'])
+    generation = config.get('shadow_generation')
+    if generation and re.fullmatch(r'[A-Za-z0-9_-]+', generation):
+        folder = root/'audit/shadow_next'/generation/'inputs'
+        exports += [p.relative_to(root).as_posix() for p in folder.glob('*.json')
+                    if re.fullmatch(r'[0-9a-f]{64}\.json', p.name)]
+    exports = sorted(set(exports))
+    for name in exports:
+        if (not any(name.startswith(p + '/') for p in ('data', 'audit', 'learning', 'public_site/data'))
+                or Path(name).suffix not in {'.csv', '.json'} or '..' in Path(name).parts
+                or '\\' in name or ':' in name):
+            raise ValueError('Invalid public export allowlist')
+        source, target = root/name, destination/name
+        if source.is_file():
+            target.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copyfile(source, target)
+    substantive = changes(destination)['publication_needed']
+    if not substantive:
+        print('No semantic public changes; timestamp-only snapshot not published.')
+        return
+    if not (destination/'public_site/data/live_snapshot.json').is_file():
+        raise ValueError('Single public dashboard snapshot missing')
+    existing = [name for name in exports if (destination/name).is_file()]
+    subprocess.run(['git', 'add', '--', *existing], cwd=destination, check=True)
+    changed = subprocess.check_output(['git', 'diff', '--cached', '--name-only'], cwd=destination).decode().splitlines()
+    if not set(changed) <= set(exports):
+        raise ValueError('Unapproved staged public paths')
+    if changed:
+        subprocess.run(['git', '-c', 'user.name=Private NFL runner', '-c', 'user.email=runner@users.noreply.github.com',
+                        'commit', '-m', 'Publish validated forecast exports'], cwd=destination, check=True)
+        subprocess.run(['git', 'push', 'origin', 'HEAD:main'], cwd=destination, check=True)
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--mode', choices=['duecheck', 'dry-run', 'run', 'force-run', 'schedule-check', 'publish'], default='duecheck')
+    parser.add_argument('--public-root', type=Path)
+    args = parser.parse_args()
+    if args.mode == 'force-run' and os.environ.get('SCHEDULE_CRON') == '0 13,14 * * 2':
+        if not weekly_due(datetime.now(timezone.utc)):
+            print('Weekly DST guard: not Tuesday 09:00 America/New_York; skipped.')
+            return
+    gh = GitHub(os.environ['GH_TOKEN'])
+    gh.assert_private()
+    parent = gh.head()
+    config = json.loads(gh.read('config.json', parent))
+    state = json.loads(gh.read('state.json', parent))
+    if config['source_repo'] != PUBLIC or config['source_ref'] != 'main':
+        raise ValueError('Unexpected source checkout configuration')
+    if args.mode in ('run', 'force-run', 'publish'):
+        guard_live(config)
+    source = Path(__file__).resolve().parents[1]
+    now = datetime.now(timezone.utc)
+    season = now.year - (now.month <= 2)
+    with tempfile.TemporaryDirectory(prefix='r57-run-') as directory:
+        base = Path(directory)
+        archive, root, previous = base/'runtime.tar.gz', base/'work', base/'previous'
+        gh.download(state, archive)
+        unpack(archive, root, state['files'])
+        unpack(archive, previous, state['files'])
+        if inventory(root) != state['files']:
+            raise ValueError('Restored inventory mismatch')
+        from pregame_refresh import due
+        if args.mode == 'duecheck':
+            from publication_gate import validate_transition
+            validation = validate_transition(root, previous)
+            print(json.dumps({'duecheck': 'passed', 'due': due(root, season, now),
+                              'validation': validation,
+                              'restored_files': len(state['files']), 'state_commit': parent,
+                              'bundle_sha256': state['sha256'], 'refreshed': False, 'published': False}))
+            return
+        from publication_gate import validate_transition
+        validate_transition(root, previous)
+        if args.mode == 'publish':
+            if args.public_root is None:
+                raise ValueError('Public checkout required')
+            publish(root, args.public_root.resolve(), config)
+            return
+        import pandas as pd
+        from staged_refresh import refresh
+        # Lightweight future schedule discovery precedes the expensive staged refresh.
+        import nflreadpy as nfl
+        schedule = nfl.load_schedules([season]).to_pandas()
+        if schedule.empty or schedule.game_id.duplicated().any():
+            raise ValueError('Invalid fresh schedule')
+        schedule.to_csv(root/f'data/schedule_{season}.csv', index=False)
+        plan = schedule_plan(schedule.to_dict('records'), now)
+        windows = due(root, season, now)
+        print(json.dumps({'mode': args.mode, 'due': windows, 'cron_proposal': plan['cron_proposal']}))
+        if args.mode == 'schedule-check':
+            gh.commit(parent, {'schedule-plan.json': json.dumps(plan, indent=2)}, 'Review future kickoff schedule')
+            return
+        prior_schedule = pd.read_csv(previous/f'data/schedule_{season}.csv')
+        score_columns = ['game_id', 'home_score', 'away_score']
+        results_changed = not schedule[score_columns].sort_values('game_id').reset_index(drop=True).equals(
+            prior_schedule[score_columns].sort_values('game_id').reset_index(drop=True))
+        if args.mode == 'run' and not windows and not results_changed:
+            if os.environ.get('SCHEDULE_CRON') == '17 11 * * *':
+                installed = set(config.get('schedule_crons', []))
+                plan['uncovered_crons'] = sorted(set(plan['cron_proposal']) - installed)
+                gh.commit(parent, {'schedule-plan.json': json.dumps(plan, indent=2)}, 'Daily future schedule drift check')
+                if plan['uncovered_crons']:
+                    print('::warning::Known kickoff coverage changed; parent must review schedule-plan.json')
+            print('No due window or changed results; no bundle upload or public publication required.')
+            return
+        if args.mode in ('dry-run', 'force-run') or windows or results_changed:
+            with no_training():
+                refresh(root, season)
+        from research_operations import checkpoints
+        checkpoints(root, season)
+        preserve(previous, root)
+        from forecast_scorecard import export as export_scorecard
+        from iteration_evidence import export as export_iterations
+        export_scorecard(root)
+        export_iterations(root, season, run_research=False)
+        checked = validate_transition(root, previous)
+        from dashboard_snapshot import export as export_snapshot
+        export_snapshot(root)
+        if args.mode == 'dry-run':
+            # A rehearsal intentionally cannot approve itself or advance private/public state.
+            print(json.dumps({'dry_run': 'passed', 'source_commit': subprocess.check_output(
+                ['git', 'rev-parse', 'HEAD'], cwd=source).decode().strip(),
+                'state_commit': parent, 'validation': checked, 'published': False}))
+            return
+        manifest = pack(root, archive)
+        next_state = gh.upload(archive)
+        next_state.update({'files': manifest, 'generation': state['generation'] + 1,
+                           'parent_state': parent, 'source_commit': subprocess.check_output(
+                               ['git', 'rev-parse', 'HEAD'], cwd=source).decode().strip()})
+        gh.commit(parent, {'state.json': json.dumps(next_state, indent=2),
+                           'schedule-plan.json': json.dumps(plan, indent=2)}, 'Persist validated runner state')
+
+
+if __name__ == '__main__':
+    main()

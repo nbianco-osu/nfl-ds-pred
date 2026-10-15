@@ -22,6 +22,9 @@ def changes(root,reference='HEAD'):
     paths=set(tracked)|{p.relative_to(root).as_posix() for p in (root/'public_site/data').glob('*.json')}
     changed=[]
     for name in sorted(paths):
+        # Bundle duplicates the individual datasets; its digest includes receipt times.
+        if name == 'public_site/data/live_snapshot.json':
+            continue
         if not name.endswith('.json'):
             continue
         path=root/name

@@ -4,7 +4,7 @@ window.setupResearch = async function () {
   const pct=n=>n==null?'Unavailable':`${(n*100).toFixed(1)}%`;
   const fixed=n=>n==null?'Unavailable':n.toFixed(3);
   async function get(name) {
-    try { const r=await fetch(`./data/${name}.json`); if (!r.ok) return null; return await r.json(); }
+    try { const r=await window.dashboardFetch(`./data/${name}.json`); if (!r.ok) return null; return await r.json(); }
     catch { return null; }
   }
   const [audit, context, distributions, metrics, backtest, review, health] = await Promise.all(

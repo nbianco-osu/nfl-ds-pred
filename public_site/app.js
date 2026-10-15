@@ -131,15 +131,15 @@ function renderShap(shapRows) {
 
 async function main() {
   const [predictions, shapRows, metrics, simulations, comparison, seasonCharts] = await Promise.all([
-    fetch("./data/predictions.json").then((response) => response.json()),
-    fetch("./data/global_shap.json").then((response) => response.json()),
-    fetch("./data/metrics.json").then((response) => response.json()),
-    fetch("./data/season_simulations.json").then((response) => response.json()),
-    fetch("./data/model_comparison.json").then((response) => {
+    window.dashboardFetch("./data/predictions.json").then((response) => response.json()),
+    window.dashboardFetch("./data/global_shap.json").then((response) => response.json()),
+    window.dashboardFetch("./data/metrics.json").then((response) => response.json()),
+    window.dashboardFetch("./data/season_simulations.json").then((response) => response.json()),
+    window.dashboardFetch("./data/model_comparison.json").then((response) => {
       if (!response.ok) throw new Error("Model comparison data unavailable");
       return response.json();
     }).catch(() => null),
-    fetch('./data/season_charts.json').then(response => {
+    window.dashboardFetch('./data/season_charts.json').then(response => {
       if (!response.ok) throw new Error('Season chart data unavailable');
       return response.json();
     }).catch(() => null),

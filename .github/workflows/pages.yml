@@ -27,6 +27,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
 
       - name: Configure Pages
         if: success()
@@ -34,6 +36,9 @@ jobs:
 
       - name: Validate forecast exports
         run: python validate_dashboard.py
+
+      - name: Reject changed locked picks and unexplained coverage loss
+        run: python publication_gate.py --against HEAD^
 
       - name: Upload static site
         uses: actions/upload-pages-artifact@v3

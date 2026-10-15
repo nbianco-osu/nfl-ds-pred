@@ -5,7 +5,7 @@ window.setupPerformance = async function () {
   const cell = value => `<td>${value}</td>`;
   const card = (label, value) => `<div class="metric"><span>${label}</span><strong>${value}</strong></div>`;
   try {
-    const response = await fetch('./data/performance.json');
+    const response = await window.dashboardFetch('./data/performance.json');
     if (!response.ok) throw new Error('Saved performance unavailable');
     const data = await response.json();
     el('performanceNote').textContent = data.note;
@@ -57,7 +57,7 @@ window.setupPerformance = async function () {
     versions();
   } catch (error) { el('performanceNote').textContent = error.message; }
   try {
-    const response = await fetch('./data/backtest.json');
+    const response = await window.dashboardFetch('./data/backtest.json');
     if (!response.ok) throw new Error('Backtest results unavailable');
     const data = await response.json();
     el('backtestNote').textContent = `${data.start_season}-${data.end_season}; ${data.folds.length} weekly folds, ${data.summary.games} games. ${data.method} ${data.limitations}`;

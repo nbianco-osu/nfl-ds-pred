@@ -112,6 +112,10 @@ def run(root, season) -> None:
     replay_audit(root)
     from shadow_next import export as export_next_shadows
     export_next_shadows(root,season)
+    from forecast_scorecard import export as export_scorecard
+    export_scorecard(root)
+    from iteration_evidence import export as export_iteration_evidence
+    export_iteration_evidence(root,season)
     from warehouse_queue import stage as stage_warehouse
     stage_warehouse(root,season)
     print(f"Active learner: {summary['status']}; {summary['training_games']} training games")

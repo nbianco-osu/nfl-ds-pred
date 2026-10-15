@@ -116,7 +116,7 @@
       chart=new Chart(el('profileChart'),{type:'line',data:{labels:games.map(r=>`W${r.week}`),datasets:[{label:'Prior opponent-adjusted offensive EPA/play',data:games.map(r=>window.researchData?.context?.[r.game_id]?.[r.home_team===team.code?'home':'away']?.opponent_adjusted_epa??null),borderColor:'#1756a9',pointRadius:3,spanGaps:false}]},options:{responsive:true,maintainAspectRatio:false,animation:false,scales:{y:{title:{display:true,text:'EPA per play'}}}}});
     }
     el('profileTeam').addEventListener('change',profile);el('profileVersion').addEventListener('change',profile);el('profilesTab').addEventListener('click',profile);window.addEventListener('researchready',profile);
-    async function get(name){try{const r=await fetch(`./data/${name}.json`);return r.ok?await r.json():null;}catch{return null;}}
+    async function get(name){try{const r=await window.dashboardFetch(`./data/${name}.json`);return r.ok?await r.json():null;}catch{return null;}}
     const [h,s,drift]=await Promise.all(['forecast_history','model_score_predictions','drift_monitor'].map(get));
     history=h?.games||{};historyAvailable=!!h;scores=s||{};update();profile();
     el('driftNote').textContent=drift?.note||'Monitoring data unavailable. No inference about performance can be made.';

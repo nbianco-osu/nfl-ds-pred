@@ -6,6 +6,11 @@ const root = dirname(fileURLToPath(import.meta.url));
 const dist = join(root, "dist");
 
 const assets = {
+  "/matchup_evidence.js": { file: "matchup_evidence.js", type: "text/javascript; charset=utf-8" },
+  "/data/iteration_evidence.json": { file: "data/iteration_evidence.json", type: "application/json; charset=utf-8" },
+  "/data_source.js": { file: "data_source.js", type: "text/javascript; charset=utf-8" },
+  "/evidence49.js": { file: "evidence49.js", type: "text/javascript; charset=utf-8" },
+  "/data/forecast_scorecard.json": { file: "data/forecast_scorecard.json", type: "application/json; charset=utf-8" },
   "/next_models.js": { file: "next_models.js", type: "text/javascript; charset=utf-8" },
   ...Object.fromEntries(['next_evidence','shadow_next','feature_freshness','release_review','checkpoint_schedule'].map(name=>[`/data/${name}.json`,{file:`data/${name}.json`,type:'application/json; charset=utf-8'}])),
   "/retraining.js": { file: "retraining.js", type: "text/javascript; charset=utf-8" },
@@ -80,7 +85,7 @@ function responseFor(pathname) {
   return new Response(asset.content, {
     headers: {
       "content-type": asset.type,
-      "cache-control": pathname.startsWith("/data/")
+      "cache-control": pathname === "/" || pathname === "/index.html" ? "no-cache" : pathname.startsWith("/data/")
         ? "public, max-age=300"
         : "public, max-age=3600",
     },

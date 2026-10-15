@@ -45,7 +45,7 @@ window.setupScoreLines = function (games) {
   el('scoreTeam').addEventListener('change',render);
   el('scoreModel').addEventListener('change',render);
   render();
-  fetch('./data/model_score_predictions.json').then(r => {if (!r.ok) throw new Error(); return r.json();}).then(data => {
+  window.dashboardFetch('./data/model_score_predictions.json').then(r => {if (!r.ok) throw new Error(); return r.json();}).then(data => {
     for (const [name, rows] of Object.entries(data)) {
       if (rows.length !== games.length || new Set(rows.map(r => r.game_id)).size !== games.length || !games.every(g => rows.some(r => r.game_id === g.game_id))) throw new Error('Incomplete model forecasts');
       modelForecasts[name] = new Map(rows.map(r => [r.game_id,r]));
@@ -53,7 +53,7 @@ window.setupScoreLines = function (games) {
     }
     el('scoreModelStatus').textContent = 'Individual score forecasts are archived separately from the ensemble. Win probabilities remain those of the production winner classifier, not the selected score regressor.';
   }).catch(() => {el('scoreModelStatus').textContent = 'Individual score forecasts are unavailable; ensemble forecasts remain available.';});
-  fetch('./data/score_metrics.json').then(r => {if (!r.ok) throw new Error(); return r.json();}).then(m => {
+  window.dashboardFetch('./data/score_metrics.json').then(r => {if (!r.ok) throw new Error(); return r.json();}).then(m => {
     el('scoreEvaluation').textContent = `Score ensemble: ${(m.selected_models || []).map(modelName).join(' + ')}. Trained through ${m.training_through}. Retrospective pre-refit evaluation on ${m.holdout_rows} games in 2026: margin mean absolute error ${points(m.margin_mae)} points; total mean absolute error ${points(m.total_mae)} points. Tuning used 2025 only. This small sample is not live forecast accuracy; historical training excludes ties. No cover probabilities are estimated.`;
     const count = value => value ? `${value.correct} / ${value.graded}` : 'Not available';
     el('scoreModelRows').innerHTML = (m.candidates || []).map(c => `<tr><td>${esc(modelName(c.family))}</td><td>${(m.selected_models || []).includes(c.family) ? 'Yes' : 'No'}</td><td>${points(c.validation_objective)}</td><td>${points(c.holdout.margin_mae)}</td><td>${points(c.holdout.total_mae)}</td><td>${count(c.holdout.markets?.spread)}</td><td>${count(c.holdout.markets?.total)}</td></tr>`).join('') + `<tr><td><strong>Selected ensemble</strong></td><td>Serving score forecasts</td><td>Top-two mean</td><td>${points(m.margin_mae)}</td><td>${points(m.total_mae)}</td><td>${count(m.markets?.spread)}</td><td>${count(m.markets?.total)}</td></tr>`;

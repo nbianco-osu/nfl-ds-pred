@@ -2,7 +2,7 @@ window.setupExperiments = async function () {
   const el=id=>document.getElementById(id);
   const esc=value=>String(value).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const num=value=>Number.isFinite(value)?value.toFixed(3):'Unavailable';
-  async function read(name) {const r=await fetch(`./data/${name}.json`);if(!r.ok)throw Error('Unavailable');return r.json();}
+  async function read(name) {const r=await window.dashboardFetch(`./data/${name}.json`);if(!r.ok)throw Error('Unavailable');return r.json();}
   let chart;
   try {
     const data=await read('score_experiments');

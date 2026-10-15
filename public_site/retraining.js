@@ -22,7 +22,7 @@
     return labels[base] || base.replaceAll('_',' ');
   }
   window.candidateDisplayName = name;
-  fetch('./data/retraining.json').then(r=>{if(!r.ok)throw Error('Unavailable');return r.json();}).then(d=>{
+  window.dashboardFetch('./data/retraining.json').then(r=>{if(!r.ok)throw Error('Unavailable');return r.json();}).then(d=>{
     el('retrainingStatus').textContent=`${d.models.length} saved configurations | Results through ${d.training_through} | ${d.current_season_games} completed 2026 games (${d.winner_holdout_games} decisive).`;
     el('retrainingMethod').textContent=d.note;
     el('retrainingVersion').textContent=`Generation: ${d.version}. Training-source rows: ${d.games}. scikit-learn ${d.sklearn_version}.`;

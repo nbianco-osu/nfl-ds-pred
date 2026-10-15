@@ -2,7 +2,7 @@
 (() => {
  const el=id=>document.getElementById(id),esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  const num=v=>Number.isFinite(v)?v.toFixed(3):'Unavailable';
- async function read(name){const r=await fetch(`./data/${name}.json`);if(!r.ok)throw Error(name);return r.json();}
+ async function read(name){const r=await window.dashboardFetch(`./data/${name}.json`);if(!r.ok)throw Error(name);return r.json();}
  const tab=document.createElement('button');tab.id='labTab';tab.setAttribute('role','tab');tab.setAttribute('aria-selected','false');tab.setAttribute('aria-controls','labPanel');tab.tabIndex=-1;tab.textContent='Evidence Lab';
  document.querySelector('.view-tabs').append(tab);
  const panel=document.createElement('section');panel.id='labPanel';panel.hidden=true;panel.setAttribute('role','tabpanel');panel.setAttribute('aria-labelledby','labTab');

@@ -1,0 +1,54 @@
+name: Private NFL runner (manual until parent approval)
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        type: choice
+        options: [duecheck, dry-run, schedule-check, run, force-run]
+        default: duecheck
+        description: Dry-run cannot publish or approve activation
+permissions:
+  contents: write
+concurrency:
+  group: nfl-private-state
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: nbianco-osu/nfl-ds-pred
+          ref: main
+          path: source
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install source dependencies (no cache or model artifacts)
+        working-directory: source
+        run: pip install -r requirements.txt 'scikit-learn==1.8.0'
+      - name: Check, stage, validate and persist privately
+        working-directory: source
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_MODE: ${{ inputs.mode || 'run' }}
+          SCHEDULE_CRON: ${{ github.event.schedule }}
+        run: |
+          if [ "$SCHEDULE_CRON" = '0 13,14 * * 2' ]; then RUN_MODE=force-run; fi
+          python -B -m runner.run --mode "$RUN_MODE"
+      - name: Separate public writer checkout
+        if: inputs.mode == 'run' || inputs.mode == 'force-run' || github.event_name == 'schedule'
+        uses: actions/checkout@v4
+        with:
+          repository: nbianco-osu/nfl-ds-pred
+          ref: main
+          path: public
+          ssh-key: ${{ secrets.PUBLIC_EXPORT_DEPLOY_KEY }}
+      - name: Publish approved exports only (triggers public Pages workflow)
+        if: inputs.mode == 'run' || inputs.mode == 'force-run' || github.event_name == 'schedule'
+        working-directory: source
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python -B -m runner.run --mode publish --public-root ../public

@@ -33,6 +33,8 @@ def _locked_refresh(root,season):
     export(root,season)
     from research_operations import checkpoints
     checkpoints(root,season)
+    from dashboard_snapshot import export as export_snapshot
+    export_snapshot(root)
 
 
 def _refresh(root,season):
@@ -45,7 +47,8 @@ def _refresh(root,season):
                 shutil.copytree(root/folder,stage/folder,ignore=shutil.ignore_patterns('refresh.lock'))
         from refresh_predictions import run
         run(stage,season)
-        checked=validate(stage)
+        from publication_gate import validate_transition
+        checked=validate_transition(stage,root)
         after={r['game_id']:r for r in json.loads((stage/'public_site/data/predictions.json').read_text())}
         preserved=['home_win_probability','away_win_probability','predicted_winner','model_version',
                    'predicted_home_score','predicted_away_score','score_model_version','score_forecast_at']

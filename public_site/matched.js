@@ -13,7 +13,7 @@ window.setupMatchedEvaluation = async function () {
   };
   let data;
   try {
-    const response = await fetch('./data/matched_comparison.json');
+    const response = await window.dashboardFetch('./data/matched_comparison.json');
     if (!response.ok) throw new Error('Unavailable');
     data = await response.json();
     if (data.model_count !== 64 || data.models.length !== 64) throw new Error('Incomplete');

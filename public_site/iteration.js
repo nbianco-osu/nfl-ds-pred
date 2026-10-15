@@ -21,7 +21,7 @@
     <p><a href="./data/season_replay.json" download>Download all season projections</a></p>
     <h2>Opponent-Adjusted EPA</h2><p id="ratingsNote"></p><div class="table-wrap" tabindex="0" aria-label="Current team efficiency ratings"><table><thead><tr><th>Team</th><th>Games</th><th>Offense EPA</th><th>Defense EPA prevented</th><th>Net EPA</th><th>Sack differential / game</th><th>Big-play differential / game</th></tr></thead><tbody id="ratingsRows"></tbody></table></div>`;
   panel.prepend(section);
-  async function read(name){const r=await fetch(`./data/${name}.json`);if(!r.ok)throw Error(name);return r.json();}
+  async function read(name){const r=await window.dashboardFetch(`./data/${name}.json`);if(!r.ok)throw Error(name);return r.json();}
   read('uncertainty_research').then(data=>{
     el('uncertaintyStatus').textContent='Chronological research only; no model promotion or guaranteed interval coverage.';
     el('uncertaintyNote').textContent=data.note;

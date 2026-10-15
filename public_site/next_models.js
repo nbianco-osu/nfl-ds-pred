@@ -4,7 +4,7 @@
  const n=v=>Number.isFinite(v)?v.toFixed(3):'Unavailable';
  const name=v=>v==='ensemble_score'?'Temporal score ensemble':v==='ensemble_winner'?'Temporal winner ensemble':window.candidateDisplayName(v)+(v.endsWith('_charted_updated')?' - charted inputs':v.endsWith('_core_updated')?' - core inputs':''), pct=v=>Number.isFinite(v)?(100*v).toFixed(1)+'%':'Pending';
  const table=(head,id)=>`<div class="table-wrap" tabindex="0"><table><thead><tr>${head.map(h=>`<th>${h}</th>`).join('')}</tr></thead><tbody id="${id}"></tbody></table></div>`;
- const read=async file=>{const r=await fetch(`./data/${file}.json`);if(!r.ok)throw Error(file);return r.json();};
+ const read=async file=>{const r=await window.dashboardFetch(`./data/${file}.json`);if(!r.ok)throw Error(file);return r.json();};
  const tab=document.createElement('button');tab.id='nextTab';tab.setAttribute('role','tab');tab.setAttribute('aria-selected','false');tab.setAttribute('aria-controls','nextPanel');tab.tabIndex=-1;tab.textContent='Shadow Forecasts';document.querySelector('.view-tabs').append(tab);
  const panel=document.createElement('section');panel.id='nextPanel';panel.hidden=true;panel.setAttribute('role','tabpanel');panel.setAttribute('aria-labelledby','nextTab');
  panel.innerHTML=`<h2>Upcoming Shadow Forecasts</h2><p id="nextStatus" role="status">Loading forecasts.</p><p id="nextNote"></p>

@@ -20,6 +20,8 @@ def validate(root):
             raise ValueError('Invalid winner team')
         if r['status']=='Final':
             h,a=r['home_score'],r['away_score']
+            if not all(type(v) in (int,float) and math.isfinite(v) and v>=0 and v==int(v) for v in (h,a)):
+                raise ValueError('Invalid completed actual score')
             expected='Tie (no winner)' if h==a else 'Yes' if r['predicted_winner']==(r['home_team'] if h>a else r['away_team']) else 'No'
             if r['prediction_result']!=expected:
                 raise ValueError('Incorrect outcome grading')
@@ -162,6 +164,8 @@ def validate(root):
                 if any(not math.isfinite(record[k]) or record[k]<0 for k in ['predicted_home_score','predicted_away_score']):raise ValueError('Invalid shadow score')
                 for lo,hi in record.get('intervals',{}).values():
                     if not math.isfinite(lo+hi) or lo>hi:raise ValueError('Invalid shadow interval')
+    from publication_gate import validate_shadow_provenance
+    validate_shadow_provenance(root)
     return {'games':len(rows),'completed':sum(r['status']=='Final' for r in rows)}
 
 

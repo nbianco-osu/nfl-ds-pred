@@ -133,6 +133,14 @@ results, but never runs backtests or retrains production automatically.
 
 ## Iteration Log
 
+- 2026-10-15, R49-R58: Added strict timestamp-gated accuracy, model disagreement,
+  joint score summaries, complete weekly recaps, source availability, matched
+  baselines, true grouped ablations and publication transition gates. R57 private
+  runner provisioning/verification is tracked separately; R58 is deliberately
+  deferred pending sufficient prospective evidence and human review. Special-teams
+  EPA remains descriptive, and weather ablation is unavailable. See
+  RELEASE_R49_R58.md for exact delivered scope and limitations.
+
 - 2026-10-15, R28-R40: Completed historical coverage and feature ablations, checkpoint capture, sensitivity scenarios, diagnostics, release controls and Evidence Lab. All 84 Python tests and desktop/mobile browser checks passed, including CSV download and keyboard navigation. No production model/pick changes. Historical added-feature differences are inconclusive. Replay audit reports one small mismatch among ten sampled forecasts; future archives preserve full numeric precision.
 
 - 2026-10-15, R23-R27: Added observed-time weather collection, frozen live challenger cohorts, negative-binomial uncertainty research, compact default view, full-season research replay and actionable reliability checks. Production artifacts and pregame picks unchanged. Confirmed starters remain supplied inputs, and prospective challenger outcomes are not yet available. Full implementation notes: RELEASE_R23_R27.md.

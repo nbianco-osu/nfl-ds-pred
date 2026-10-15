@@ -474,3 +474,6 @@ th {
 }
 .season-summary { margin-top: 28px; border-top: 1px solid var(--line); padding-top: 18px; }
 .matchup-uncertainty { margin: 8px 0; font-size: 13px; color: #475467; }
+#evidence49Panel .comparison-controls label, #matchEvidencePanel .comparison-controls label { min-width: 0; }
+#evidence49Panel select, #matchEvidencePanel select { max-width: 100%; }
+#evidence49Panel h2, #matchEvidencePanel h2 { margin-top: 24px; }
