@@ -46,7 +46,7 @@ def checkpoints(root,season=2026,now=None):
             status.append({'game_id':g['game_id'],'horizon':label,'status':value})
     write_json(path,archive)
     report={'observations':list(archive.values()),'windows':status,
-        'note':'Actual captures only: 24h +/-30 minutes or 90m +/-15 minutes before kickoff, after a validated refresh within 30 minutes. No synthetic/backfilled snapshots. First capture is immutable. Weekly refresh invokes capture but cannot guarantee these windows; no additional checkpoint scheduler is configured.'}
+        'note':'Actual captures only: 24h +/-30 minutes or 90m +/-15 minutes before kickoff, after a validated refresh within 30 minutes. No synthetic/backfilled snapshots. First capture is immutable. The pregame scheduler checks every 10 minutes; execution requires the local host and scheduler to be available. Refresh duration can miss a window; capture is not guaranteed.'}
     write_json(root/'public_site/data/checkpoints.json',report)
 
 

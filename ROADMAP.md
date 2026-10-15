@@ -1,9 +1,28 @@
 # NFL Predictor Roadmap
 
-Updated: 2026-10-13. Keep this file current in each iteration. Record evidence,
+Updated: 2026-10-15. Keep this file current in each iteration. Record evidence,
 limitations, and the next acceptance check before marking an item complete.
 
 ## Current Iteration
+
+### R41-R48 and 120 Configurations
+
+See `RELEASE_R41_R48.md` for protocols, results, commands and limitations.
+
+| ID | Status | Delivered scope |
+| --- | --- | --- |
+| R41 | Implemented; inconclusive | Matched production-estimator recipe comparison and prospective production pairing; separate from actual historical live performance. |
+| R42 | Implemented shadow-only | 120 configurations (80 winner, 40 score) plus two temporal ensembles; next-eight-day predictions and exact inputs archived. Added 48 small neural-network configurations. |
+| R43 | Implemented; awaiting outcomes | Immutable model/generation/game/horizon cohorts, ties/pushes/no-edge handling, score errors and interval coverage. No retrospective backfill. |
+| R44 | Implemented research | Early-2025 convex weights, independent 2026 evaluation; score blend selected Ridge alone. No promotion or proven gain. |
+| R45 | Implemented with calibration limits | Late-2025 residual intervals, 2026 coverage and prospective coverage tracking. Not joint guarantees; season drift remains. |
+| R46 | Implemented | Game-level observed ages, stale/missing fields, frozen charting status; starter/weather context remains outside the fitted feature set. |
+| R47 | Active schedule; capture availability limited | Ten-minute due-window heartbeat, shared refresh/model-activation lock, genuine 24h/90m observations only. Host and runtime availability required. |
+| R48 | Review implemented; promotion blocked | Read-only checklist, local approval/rollback controls, explicit incompatible feature contracts and no prospective results yet. No automatic promotion. |
+
+The original 60 artifacts were retained unchanged on identical input hashes;
+60 additional configurations were trained. Generation
+`expanded120-20261015T191351669323Z` is pinned only for shadow inference.
 
 | ID | Priority | Status | Scope and acceptance |
 | --- | --- | --- | --- |
@@ -74,7 +93,7 @@ Completed-game reconstructions never replace archived pregame production picks.
 | --- | --- | --- |
 | R28 | Implemented | Historical opponent-adjusted EPA/sack/big-play features for 2017-2026, franchise aliases, coverage fingerprints and week-frozen inputs. |
 | R29 | Implemented research | Five matched views on 621 decisive holdout games; paired season-week intervals. All differences inconclusive; production unchanged. |
-| R30 | Capture implemented; cadence limited | Immutable 24h/90m snapshots with freshness and window gates. Weekly refresh calls capture; missed windows explicit. No extra scheduler installed. |
+| R30 | Capture implemented; scheduler added in R47 | Immutable 24h/90m snapshots with freshness and window gates. Weekly and due-window refresh invoke capture; missed windows stay explicit. |
 | R31 | Implemented sensitivity tool | User-assumed QB/availability point shifts over archived shadow distributions; not player valuations or confirmations. |
 | R32 | Implemented | Version-separated saved-pick errors by confidence, team, stage and provenance; sample warnings and tie exclusions. |
 | R33 | Implemented local controls | Content-addressed model bundles, human approval, integrity/feature-contract gates, dry run and exception-safe activation/rollback. Baseline snapshot only; no approval or activation performed. |

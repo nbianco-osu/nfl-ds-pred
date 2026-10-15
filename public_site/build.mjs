@@ -6,6 +6,8 @@ const root = dirname(fileURLToPath(import.meta.url));
 const dist = join(root, "dist");
 
 const assets = {
+  "/next_models.js": { file: "next_models.js", type: "text/javascript; charset=utf-8" },
+  ...Object.fromEntries(['next_evidence','shadow_next','feature_freshness','release_review','checkpoint_schedule'].map(name=>[`/data/${name}.json`,{file:`data/${name}.json`,type:'application/json; charset=utf-8'}])),
   "/retraining.js": { file: "retraining.js", type: "text/javascript; charset=utf-8" },
   "/data/retraining.json": { file: "data/retraining.json", type: "application/json; charset=utf-8" },
   "/data/retraining_holdout.csv": { file: "data/retraining_holdout.csv", type: "text/csv; charset=utf-8" },

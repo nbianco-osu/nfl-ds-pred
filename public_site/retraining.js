@@ -15,10 +15,13 @@
   const number = v => Number.isFinite(v) ? v.toFixed(3) : 'Unavailable';
   const labels = {logistic:'Logistic regression',random_forest:'Random forest',extra_trees:'Extra trees',hist_boost:'Histogram gradient boosting',gradient_boost:'Gradient boosting',adaboost:'AdaBoost',sgd_logistic:'SGD logistic regression',gaussian_nb:'Gaussian naive Bayes',shrinkage_lda:'Shrinkage linear discriminant analysis',regularized_qda:'Regularized quadratic discriminant analysis',neighbors:'Nearest neighbors',rbf_svm:'RBF support vector machine',linear_svm:'Linear support vector machine',ridge_classifier:'Ridge classifier',passive_aggressive:'Passive-aggressive classifier',neural_network:'Neural network',bagged_trees:'Bagged decision trees',bagged_logistic:'Bagged logistic regression',elastic_net:'Elastic-net logistic regression',spline_logistic:'Spline logistic regression',rbf_features:'Random RBF features',nystroem_logistic:'Nystroem logistic regression',nearest_centroid:'Nearest centroid',polynomial_svm:'Polynomial support vector machine',RandomForestRegressor:'Random forest',ExtraTreesRegressor:'Extra trees',Ridge:'Ridge regression',HistGradientBoostingRegressor:'Histogram gradient boosting'};
   function name(id) {
+    if(id.startsWith('nn_')) { const p=id.split('_'); return `Small neural network (${p[2].replaceAll('x', ' + ')} units, regularization ${p[3]})`; }
+    if(/^(ridge|poisson)_score_/.test(id)) {const p=id.split('_');return `${p[0]==='ridge'?'Ridge':'Poisson'} regression (regularization ${p[2]})`;}
     if(id.startsWith('gpr_'))return 'Noisy GPR: '+id.slice(4).replaceAll('_',' ').replace('rbf','RBF').replace('matern','Matern');
     const base=id.replace(/_(core|charted)_updated$/,'').replace(/^score_/,'');
     return labels[base] || base.replaceAll('_',' ');
   }
+  window.candidateDisplayName = name;
   fetch('./data/retraining.json').then(r=>{if(!r.ok)throw Error('Unavailable');return r.json();}).then(d=>{
     el('retrainingStatus').textContent=`${d.models.length} saved configurations | Results through ${d.training_through} | ${d.current_season_games} completed 2026 games (${d.winner_holdout_games} decisive).`;
     el('retrainingMethod').textContent=d.note;

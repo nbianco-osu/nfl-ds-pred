@@ -10,6 +10,7 @@ data/research_sources/*
 audit/sources/**/*.parquet
 audit/weather_responses/
 .release_blobs/
+audit/refresh.lock
 !data/historical_opponent_features.csv
 .refresh-stage/
 __pycache__/
@@ -57,3 +58,6 @@ explanations/*
 !data/research_sources/
 data/research_sources/*
 !data/research_sources/manifest.json
+!models/retrained/
+models/retrained/*
+!models/retrained/active_shadow.json

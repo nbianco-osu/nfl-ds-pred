@@ -147,6 +147,21 @@ def validate(root):
             raise ValueError('Feature experiments use different cohorts')
         if any(f['train_through']>=f['test_start'] for f in report['folds']):
             raise ValueError('Feature experiment train/test overlap')
+    shadow=folder/'shadow_next.json'
+    if shadow.exists():
+        report=json.loads(shadow.read_text());seen=set()
+        for record in report['forecasts']:
+            key=(record['generation'],record['model'],record['game_id'],record['horizon'])
+            if key in seen:raise ValueError('Duplicate next-generation forecast')
+            seen.add(key)
+            if record['generation']!=report['generation']:raise ValueError('Mixed shadow generations')
+            if not datetime.fromisoformat(record['forecast_at'])<datetime.fromisoformat(record['kickoff_at_observation']):raise ValueError('Late next-generation forecast')
+            if record['task']=='winner':
+                if not math.isfinite(record['home_probability']) or not 0<=record['home_probability']<=1:raise ValueError('Invalid shadow probability')
+            else:
+                if any(not math.isfinite(record[k]) or record[k]<0 for k in ['predicted_home_score','predicted_away_score']):raise ValueError('Invalid shadow score')
+                for lo,hi in record.get('intervals',{}).values():
+                    if not math.isfinite(lo+hi) or lo>hi:raise ValueError('Invalid shadow interval')
     return {'games':len(rows),'completed':sum(r['status']=='Final' for r in rows)}
 
 

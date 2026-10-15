@@ -11,10 +11,11 @@ from prediction_features import make_prediction_row, fill_latest_team_state
 ALIASES={'LA':'LAR','STL':'LAR','SD':'LAC','OAK':'LV'}
 
 
-def lagged(schedule, stats):
+def lagged(schedule, stats, game_ids=None):
     output=[]
     metrics=[c for c in stats if c not in ['game_id','team']]
-    for game in schedule.to_dict('records'):
+    targets = schedule if game_ids is None else schedule.loc[schedule.game_id.isin(game_ids)]
+    for game in targets.to_dict('records'):
         prior=schedule.loc[(schedule.season.lt(game['season']) | (schedule.season.eq(game['season']) & schedule.week.lt(game['week']))) & schedule.home_score.notna() & schedule.away_score.notna()]
         out={'game_id':game['game_id']}
         for side in ['home','away']:

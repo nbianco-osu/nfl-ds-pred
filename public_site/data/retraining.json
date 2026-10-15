@@ -1,5 +1,5 @@
 {
-  "version": "updated-20261015T185719479420Z",
+  "version": "expanded120-20261015T191351669323Z",
   "status": "completed_shadow_only",
   "production_changed": false,
   "sklearn_version": "1.8.0",
@@ -12,7 +12,7 @@
   "current_season_games": 79,
   "winner_holdout_games": 78,
   "historical_ties_in_source": "Historical research source omits some ties; score evaluation covers available rows only.",
-  "note": "Shadow-only. Revised-source retrospective evaluation, not prospective evidence. Settings selected on 2025, evaluated on 2026 before final refit. Classifiers exclude ties. No weather or confirmed-starter values invented. Prior usage is not a confirmed starter. GPR uses a bounded recent training window and disjoint week-based calibration. Final fitted artifacts are not evaluated on their own training labels.",
+  "note": "Shadow-only. Revised-source retrospective evaluation, not prospective evidence. Settings selected on 2025, evaluated on 2026 before final refit. Classifiers exclude ties. No weather or confirmed-starter values invented. Prior usage is not a confirmed starter. GPR uses a bounded recent training window and disjoint week-based calibration. Final fitted artifacts are not evaluated on their own training labels. 60 retained configurations reuse byte-identical artifacts on identical source hashes. 60 additions include 24 small winner MLPs, 24 target-standardized score MLPs, six Ridge and six Poisson settings. No new distinct algorithm count is claimed. Network settings are predeclared configurations; no random internal validation split. Convergence warnings are reported.",
   "features": {
     "core_updated": [
       "diff_team_win_pct",
@@ -1239,6 +1239,822 @@
       "name": "score_HistGradientBoostingRegressor",
       "task": "score",
       "artifact_sha256": "874fdf51c9975478b939588e171cc605ad467339b985ae73ec8a12136b18cb0a"
+    },
+    {
+      "validation_log_loss": 0.6431419954088755,
+      "holdout": {
+        "log_loss": 0.6855241214126188,
+        "accuracy": 0.5641025641025641,
+        "brier": 0.24422804971790094
+      },
+      "name": "nn_winner_8_1_core_updated",
+      "task": "winner",
+      "selected_configuration": "MLPClassifier(alpha=1.0, hidden_layer_sizes=(8,), learning_rate_init=0.003,\n              max_iter=600, random_state=42)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "5b1695babe675428cc5bef9966ffd913c1231bd86dd55c266524e725bc530d53"
+    },
+    {
+      "validation_team_mae": 7.603086772760069,
+      "holdout": {
+        "home_mae": 8.361656912103792,
+        "away_mae": 7.565221071770023,
+        "margin_mae": 10.803511018109534,
+        "total_mae": 12.665737130399046
+      },
+      "name": "nn_score_8_1_core_updated",
+      "task": "score",
+      "selected_configuration": "TransformedTargetRegressor(regressor=MLPRegressor(alpha=1.0,\n                                                  hidden_layer_sizes=(8,),\n                                                  learning_rate_init=0.003,\n                                                  max_iter=600,\n                                                  random_state=42),\n                           transformer=StandardScaler())",
+      "convergence_warnings": 0,
+      "artifact_sha256": "0f96215045e2433a02c402448e541836c880e50bf5bcff3dd235270f8d01cb34"
+    },
+    {
+      "validation_log_loss": 0.6494234544929837,
+      "holdout": {
+        "log_loss": 0.678175265198015,
+        "accuracy": 0.5897435897435898,
+        "brier": 0.24128378296397562
+      },
+      "name": "nn_winner_8_10_core_updated",
+      "task": "winner",
+      "selected_configuration": "MLPClassifier(alpha=10.0, hidden_layer_sizes=(8,), learning_rate_init=0.003,\n              max_iter=600, random_state=42)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "9205e21a024a865feda4c15eb09780f340c0ecc04b269fcf7e26196c995cfd2d"
+    },
+    {
+      "validation_team_mae": 7.516567055610029,
+      "holdout": {
+        "home_mae": 8.26629879378464,
+        "away_mae": 7.630973718210299,
+        "margin_mae": 10.55327889064032,
+        "total_mae": 12.047004662725316
+      },
+      "name": "nn_score_8_10_core_updated",
+      "task": "score",
+      "selected_configuration": "TransformedTargetRegressor(regressor=MLPRegressor(alpha=10.0,\n                                                  hidden_layer_sizes=(8,),\n                                                  learning_rate_init=0.003,\n                                                  max_iter=600,\n                                                  random_state=42),\n                           transformer=StandardScaler())",
+      "convergence_warnings": 0,
+      "artifact_sha256": "95d1eba50afa985e8fc08c428fde2514b3999b73a497e0239ddb53c76feab96a"
+    },
+    {
+      "validation_log_loss": 0.6429532037097356,
+      "holdout": {
+        "log_loss": 0.6899084430244623,
+        "accuracy": 0.5384615384615384,
+        "brier": 0.2474556346575998
+      },
+      "name": "nn_winner_16_1_core_updated",
+      "task": "winner",
+      "selected_configuration": "MLPClassifier(alpha=1.0, hidden_layer_sizes=(16,), learning_rate_init=0.003,\n              max_iter=600, random_state=42)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "c892d89de38c0158c5447ac121f601f9708af0589a9feeb906bb8dbf68e93557"
+    },
+    {
+      "validation_team_mae": 7.778462969255291,
+      "holdout": {
+        "home_mae": 7.915507735506764,
+        "away_mae": 7.948567371378637,
+        "margin_mae": 10.66142674788642,
+        "total_mae": 11.802353786115521
+      },
+      "name": "nn_score_16_1_core_updated",
+      "task": "score",
+      "selected_configuration": "TransformedTargetRegressor(regressor=MLPRegressor(alpha=1.0,\n                                                  hidden_layer_sizes=(16,),\n                                                  learning_rate_init=0.003,\n                                                  max_iter=600,\n                                                  random_state=42),\n                           transformer=StandardScaler())",
+      "convergence_warnings": 0,
+      "artifact_sha256": "19cbcfe2cbd5ceb9b6ec050006b5b29b387c6e9b4e4fbb7fbecc20dea38cc4ff"
+    },
+    {
+      "validation_log_loss": 0.6551773271979007,
+      "holdout": {
+        "log_loss": 0.6812721514201038,
+        "accuracy": 0.6025641025641025,
+        "brier": 0.24234271557146847
+      },
+      "name": "nn_winner_16_10_core_updated",
+      "task": "winner",
+      "selected_configuration": "MLPClassifier(alpha=10.0, hidden_layer_sizes=(16,), learning_rate_init=0.003,\n              max_iter=600, random_state=42)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "84c1d0704a7588010e72f932708be54de394ec4c200d84eca0705b83e9e1490d"
+    },
+    {
+      "validation_team_mae": 7.526056958929598,
+      "holdout": {
+        "home_mae": 8.317652744804198,
+        "away_mae": 7.617632158070921,
+        "margin_mae": 10.549776429111462,
+        "total_mae": 12.04810527757061
+      },
+      "name": "nn_score_16_10_core_updated",
+      "task": "score",
+      "selected_configuration": "TransformedTargetRegressor(regressor=MLPRegressor(alpha=10.0,\n                                                  hidden_layer_sizes=(16,),\n                                                  learning_rate_init=0.003,\n                                                  max_iter=600,\n                                                  random_state=42),\n                           transformer=StandardScaler())",
+      "convergence_warnings": 0,
+      "artifact_sha256": "387c0b9f4d453dd4d50da4a1fa298394c71d6eb7b54e2e992d34777df0e6dc20"
+    },
+    {
+      "validation_log_loss": 0.6532334633303677,
+      "holdout": {
+        "log_loss": 0.673910412835368,
+        "accuracy": 0.6282051282051282,
+        "brier": 0.23910348752180574
+      },
+      "name": "nn_winner_32_1_core_updated",
+      "task": "winner",
+      "selected_configuration": "MLPClassifier(alpha=1.0, hidden_layer_sizes=(32,), learning_rate_init=0.003,\n              max_iter=600, random_state=42)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "ada1a161c7ad2feec0c053e77289060434091d3548d452cb7387cf35acc6914c"
+    },
+    {
+      "validation_team_mae": 7.83697799584519,
+      "holdout": {
+        "home_mae": 8.220589944068829,
+        "away_mae": 7.729526896639718,
+        "margin_mae": 11.028854915802812,
+        "total_mae": 11.865817152615007
+      },
+      "name": "nn_score_32_1_core_updated",
+      "task": "score",
+      "selected_configuration": "TransformedTargetRegressor(regressor=MLPRegressor(alpha=1.0,\n                                                  hidden_layer_sizes=(32,),\n                                                  learning_rate_init=0.003,\n                                                  max_iter=600,\n                                                  random_state=42),\n                           transformer=StandardScaler())",
+      "convergence_warnings": 0,
+      "artifact_sha256": "07f74c35ea1ae58388b4e5f257a11de1e250c8a5e5615a055b56ed4b6d82519e"
+    },
+    {
+      "validation_log_loss": 0.6441746160812064,
+      "holdout": {
+        "log_loss": 0.6819976088499146,
+        "accuracy": 0.6025641025641025,
+        "brier": 0.24284898442167852
+      },
+      "name": "nn_winner_32_10_core_updated",
+      "task": "winner",
+      "selected_configuration": "MLPClassifier(alpha=10.0, hidden_layer_sizes=(32,), learning_rate_init=0.003,\n              max_iter=600, random_state=42)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "a9dfc31a8c9c730e509a0e61c0819cc1f1b52d9846c8f8d59a2ba3fe061f01c6"
+    },
+    {
+      "validation_team_mae": 7.512638002714386,
+      "holdout": {
+        "home_mae": 8.278181321738682,
+        "away_mae": 7.660913857434123,
+        "margin_mae": 10.552250387171743,
+        "total_mae": 12.036000157449546
+      },
+      "name": "nn_score_32_10_core_updated",
+      "task": "score",
+      "selected_configuration": "TransformedTargetRegressor(regressor=MLPRegressor(alpha=10.0,\n                                                  hidden_layer_sizes=(32,),\n                                                  learning_rate_init=0.003,\n                                                  max_iter=600,\n                                                  random_state=42),\n                           transformer=StandardScaler())",
+      "convergence_warnings": 0,
+      "artifact_sha256": "5ebcc464a6bf313fadf7f452d083e318a3380c2c2a08a8de396c36ceef9cbb85"
+    },
+    {
+      "validation_log_loss": 0.6628514659278052,
+      "holdout": {
+        "log_loss": 0.6772345080453314,
+        "accuracy": 0.6538461538461539,
+        "brier": 0.24022253669776858
+      },
+      "name": "nn_winner_8x4_1_core_updated",
+      "task": "winner",
+      "selected_configuration": "MLPClassifier(alpha=1.0, hidden_layer_sizes=(8, 4), learning_rate_init=0.003,\n              max_iter=600, random_state=42)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "f3086bb725a8c215888f4b413e2310480b873e31fb6efa4f0c25991f25f7933b"
+    },
+    {
+      "validation_team_mae": 7.782171660724568,
+      "holdout": {
+        "home_mae": 8.145031051844443,
+        "away_mae": 7.677593778959353,
+        "margin_mae": 10.665113838922007,
+        "total_mae": 12.054471496463751
+      },
+      "name": "nn_score_8x4_1_core_updated",
+      "task": "score",
+      "selected_configuration": "TransformedTargetRegressor(regressor=MLPRegressor(alpha=1.0,\n                                                  hidden_layer_sizes=(8, 4),\n                                                  learning_rate_init=0.003,\n                                                  max_iter=600,\n                                                  random_state=42),\n                           transformer=StandardScaler())",
+      "convergence_warnings": 0,
+      "artifact_sha256": "37d61bf94b640dcf245543a10b633f5de41e243c21195240cb94184e0218cca6"
+    },
+    {
+      "validation_log_loss": 0.6501210927065821,
+      "holdout": {
+        "log_loss": 0.6828754977029969,
+        "accuracy": 0.6025641025641025,
+        "brier": 0.24329529679194353
+      },
+      "name": "nn_winner_8x4_10_core_updated",
+      "task": "winner",
+      "selected_configuration": "MLPClassifier(alpha=10.0, hidden_layer_sizes=(8, 4), learning_rate_init=0.003,\n              max_iter=600, random_state=42)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "9b68fc3ceb2b0b5c8535be756612554d8fd0c2164f2ac893550ee3ce8e21eec6"
+    },
+    {
+      "validation_team_mae": 7.525101834419579,
+      "holdout": {
+        "home_mae": 8.241962641912297,
+        "away_mae": 7.64155026658413,
+        "margin_mae": 10.464995617072594,
+        "total_mae": 12.11096962020198
+      },
+      "name": "nn_score_8x4_10_core_updated",
+      "task": "score",
+      "selected_configuration": "TransformedTargetRegressor(regressor=MLPRegressor(alpha=10.0,\n                                                  hidden_layer_sizes=(8, 4),\n                                                  learning_rate_init=0.003,\n                                                  max_iter=600,\n                                                  random_state=42),\n                           transformer=StandardScaler())",
+      "convergence_warnings": 0,
+      "artifact_sha256": "e1585e25e38b8076e477e794efa7a501843b6495b07b669400fab91670bec95c"
+    },
+    {
+      "validation_log_loss": 0.6490727024750482,
+      "holdout": {
+        "log_loss": 0.6881535957932032,
+        "accuracy": 0.5769230769230769,
+        "brier": 0.24731388396150641
+      },
+      "name": "nn_winner_16x8_1_core_updated",
+      "task": "winner",
+      "selected_configuration": "MLPClassifier(alpha=1.0, hidden_layer_sizes=(16, 8), learning_rate_init=0.003,\n              max_iter=600, random_state=42)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "938c8aab28edf79c966f8dfff4319fef41ec80218468bc621da75b88b5367fbd"
+    },
+    {
+      "validation_team_mae": 7.773647520676076,
+      "holdout": {
+        "home_mae": 8.681301043745615,
+        "away_mae": 7.645097516283463,
+        "margin_mae": 11.123639086197734,
+        "total_mae": 11.69451865259631
+      },
+      "name": "nn_score_16x8_1_core_updated",
+      "task": "score",
+      "selected_configuration": "TransformedTargetRegressor(regressor=MLPRegressor(alpha=1.0,\n                                                  hidden_layer_sizes=(16, 8),\n                                                  learning_rate_init=0.003,\n                                                  max_iter=600,\n                                                  random_state=42),\n                           transformer=StandardScaler())",
+      "convergence_warnings": 0,
+      "artifact_sha256": "1e9b72d621de28e6891e17878f6f3bde015fef7b06ba07370a4eafc58b431ac1"
+    },
+    {
+      "validation_log_loss": 0.651623832612316,
+      "holdout": {
+        "log_loss": 0.6825190652038363,
+        "accuracy": 0.5769230769230769,
+        "brier": 0.24309468810012042
+      },
+      "name": "nn_winner_16x8_10_core_updated",
+      "task": "winner",
+      "selected_configuration": "MLPClassifier(alpha=10.0, hidden_layer_sizes=(16, 8), learning_rate_init=0.003,\n              max_iter=600, random_state=42)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "e820ad59e6190690565d6455d771760677a20f86e18ef902a6dbc5080786f2fd"
+    },
+    {
+      "validation_team_mae": 7.51625196585244,
+      "holdout": {
+        "home_mae": 8.203173647516298,
+        "away_mae": 7.637312941253647,
+        "margin_mae": 10.446158727790618,
+        "total_mae": 12.049835126598326
+      },
+      "name": "nn_score_16x8_10_core_updated",
+      "task": "score",
+      "selected_configuration": "TransformedTargetRegressor(regressor=MLPRegressor(alpha=10.0,\n                                                  hidden_layer_sizes=(16, 8),\n                                                  learning_rate_init=0.003,\n                                                  max_iter=600,\n                                                  random_state=42),\n                           transformer=StandardScaler())",
+      "convergence_warnings": 0,
+      "artifact_sha256": "31df9b67a9ece6150348d00107ed32a3bd5f8b50e7e1c91ecdfa850a0e9162b4"
+    },
+    {
+      "validation_log_loss": 0.6771365609999874,
+      "holdout": {
+        "log_loss": 0.7031677143874245,
+        "accuracy": 0.5512820512820513,
+        "brier": 0.2545962240271511
+      },
+      "name": "nn_winner_32x16_1_core_updated",
+      "task": "winner",
+      "selected_configuration": "MLPClassifier(alpha=1.0, hidden_layer_sizes=(32, 16), learning_rate_init=0.003,\n              max_iter=600, random_state=42)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "3d6dd24682730a8c9762951e4126b75d3c9985414d192bf602ecd2204a2d0b66"
+    },
+    {
+      "validation_team_mae": 8.25728155726051,
+      "holdout": {
+        "home_mae": 8.53740724188776,
+        "away_mae": 8.104474685836172,
+        "margin_mae": 11.737489495996826,
+        "total_mae": 11.960649844706433
+      },
+      "name": "nn_score_32x16_1_core_updated",
+      "task": "score",
+      "selected_configuration": "TransformedTargetRegressor(regressor=MLPRegressor(alpha=1.0,\n                                                  hidden_layer_sizes=(32, 16),\n                                                  learning_rate_init=0.003,\n                                                  max_iter=600,\n                                                  random_state=42),\n                           transformer=StandardScaler())",
+      "convergence_warnings": 0,
+      "artifact_sha256": "dbf759f0258495a9ef5e3c658b4cf7ac7e48a5132da9d7a932e86f698215a5a3"
+    },
+    {
+      "validation_log_loss": 0.649291185155859,
+      "holdout": {
+        "log_loss": 0.6812268932247529,
+        "accuracy": 0.6282051282051282,
+        "brier": 0.24245024001567259
+      },
+      "name": "nn_winner_32x16_10_core_updated",
+      "task": "winner",
+      "selected_configuration": "MLPClassifier(alpha=10.0, hidden_layer_sizes=(32, 16), learning_rate_init=0.003,\n              max_iter=600, random_state=42)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "1c8b436e2bf6ab5350beb59d481f884926daa3e6e6409b60e6dba0cd3423592b"
+    },
+    {
+      "validation_team_mae": 7.519991965786802,
+      "holdout": {
+        "home_mae": 8.20349230791618,
+        "away_mae": 7.625176423569654,
+        "margin_mae": 10.399972137703546,
+        "total_mae": 12.094012463590559
+      },
+      "name": "nn_score_32x16_10_core_updated",
+      "task": "score",
+      "selected_configuration": "TransformedTargetRegressor(regressor=MLPRegressor(alpha=10.0,\n                                                  hidden_layer_sizes=(32, 16),\n                                                  learning_rate_init=0.003,\n                                                  max_iter=600,\n                                                  random_state=42),\n                           transformer=StandardScaler())",
+      "convergence_warnings": 0,
+      "artifact_sha256": "f2934fd0879ab5b6978730f66058166ee650199ef720e823edfbe6be9e3cea34"
+    },
+    {
+      "validation_log_loss": 0.6487311063005203,
+      "holdout": {
+        "log_loss": 0.6694881715134633,
+        "accuracy": 0.6153846153846154,
+        "brier": 0.23834820754797775
+      },
+      "name": "nn_winner_8_1_charted_updated",
+      "task": "winner",
+      "selected_configuration": "MLPClassifier(alpha=1.0, hidden_layer_sizes=(8,), learning_rate_init=0.003,\n              max_iter=600, random_state=42)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "be2c443498e78c37e418dedbcfcae0c6966408ff5591c0215489eb0d31c845ea"
+    },
+    {
+      "validation_team_mae": 7.8573611258428855,
+      "holdout": {
+        "home_mae": 8.393653937727043,
+        "away_mae": 7.688121557723506,
+        "margin_mae": 10.940097960486018,
+        "total_mae": 12.258179978853802
+      },
+      "name": "nn_score_8_1_charted_updated",
+      "task": "score",
+      "selected_configuration": "TransformedTargetRegressor(regressor=MLPRegressor(alpha=1.0,\n                                                  hidden_layer_sizes=(8,),\n                                                  learning_rate_init=0.003,\n                                                  max_iter=600,\n                                                  random_state=42),\n                           transformer=StandardScaler())",
+      "convergence_warnings": 0,
+      "artifact_sha256": "64bb221d8523798e04d4f3344f9c46b378d54709fc830dbaa17f06285c748c79"
+    },
+    {
+      "validation_log_loss": 0.6539921450506376,
+      "holdout": {
+        "log_loss": 0.6728105575199509,
+        "accuracy": 0.5897435897435898,
+        "brier": 0.2390991251276318
+      },
+      "name": "nn_winner_8_10_charted_updated",
+      "task": "winner",
+      "selected_configuration": "MLPClassifier(alpha=10.0, hidden_layer_sizes=(8,), learning_rate_init=0.003,\n              max_iter=600, random_state=42)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "9f56175f3b2e6199fe909cba24fa8ccc192012eac5315f3524936acd30632efb"
+    },
+    {
+      "validation_team_mae": 7.610141307416362,
+      "holdout": {
+        "home_mae": 8.343120771793187,
+        "away_mae": 7.567015125466541,
+        "margin_mae": 10.47472894650656,
+        "total_mae": 11.980829494596135
+      },
+      "name": "nn_score_8_10_charted_updated",
+      "task": "score",
+      "selected_configuration": "TransformedTargetRegressor(regressor=MLPRegressor(alpha=10.0,\n                                                  hidden_layer_sizes=(8,),\n                                                  learning_rate_init=0.003,\n                                                  max_iter=600,\n                                                  random_state=42),\n                           transformer=StandardScaler())",
+      "convergence_warnings": 0,
+      "artifact_sha256": "aca424814d640cfadd98d2b9cc08161585293a027735aeae7eb7ca63781195a9"
+    },
+    {
+      "validation_log_loss": 0.6599744738414443,
+      "holdout": {
+        "log_loss": 0.6684257861513221,
+        "accuracy": 0.6153846153846154,
+        "brier": 0.23767646453577834
+      },
+      "name": "nn_winner_16_1_charted_updated",
+      "task": "winner",
+      "selected_configuration": "MLPClassifier(alpha=1.0, hidden_layer_sizes=(16,), learning_rate_init=0.003,\n              max_iter=600, random_state=42)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "425a0e2fa85fc0c30235a5a046a447f9e9ab15cf4b9171a9a0e396390fea407a"
+    },
+    {
+      "validation_team_mae": 8.184782645061153,
+      "holdout": {
+        "home_mae": 8.499929693215824,
+        "away_mae": 7.9208382852584664,
+        "margin_mae": 11.192927047213583,
+        "total_mae": 11.814512599057217
+      },
+      "name": "nn_score_16_1_charted_updated",
+      "task": "score",
+      "selected_configuration": "TransformedTargetRegressor(regressor=MLPRegressor(alpha=1.0,\n                                                  hidden_layer_sizes=(16,),\n                                                  learning_rate_init=0.003,\n                                                  max_iter=600,\n                                                  random_state=42),\n                           transformer=StandardScaler())",
+      "convergence_warnings": 0,
+      "artifact_sha256": "c9aa152e78e8cc915e0e138e0482d16e23b0b86128ec2c7a0b2c9563fb4bdaf8"
+    },
+    {
+      "validation_log_loss": 0.6617588708059415,
+      "holdout": {
+        "log_loss": 0.6736217024282388,
+        "accuracy": 0.5897435897435898,
+        "brier": 0.23944281857585606
+      },
+      "name": "nn_winner_16_10_charted_updated",
+      "task": "winner",
+      "selected_configuration": "MLPClassifier(alpha=10.0, hidden_layer_sizes=(16,), learning_rate_init=0.003,\n              max_iter=600, random_state=42)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "08c79ef41c77eae915f790998c38edc9424994275beedf3141b00d07f558fe79"
+    },
+    {
+      "validation_team_mae": 7.616724035033422,
+      "holdout": {
+        "home_mae": 8.188599966989209,
+        "away_mae": 7.5579451004135665,
+        "margin_mae": 10.365991279459514,
+        "total_mae": 12.005564659705833
+      },
+      "name": "nn_score_16_10_charted_updated",
+      "task": "score",
+      "selected_configuration": "TransformedTargetRegressor(regressor=MLPRegressor(alpha=10.0,\n                                                  hidden_layer_sizes=(16,),\n                                                  learning_rate_init=0.003,\n                                                  max_iter=600,\n                                                  random_state=42),\n                           transformer=StandardScaler())",
+      "convergence_warnings": 0,
+      "artifact_sha256": "8889ed2aa136938601e414fd38e0777cdd54a7be38c497aeb09bc5e85df6cdae"
+    },
+    {
+      "validation_log_loss": 0.6637647183290816,
+      "holdout": {
+        "log_loss": 0.6928133378967759,
+        "accuracy": 0.5128205128205128,
+        "brier": 0.2497486984385472
+      },
+      "name": "nn_winner_32_1_charted_updated",
+      "task": "winner",
+      "selected_configuration": "MLPClassifier(alpha=1.0, hidden_layer_sizes=(32,), learning_rate_init=0.003,\n              max_iter=600, random_state=42)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "b9196ccb71f9c776e279050f05f210f017d7ca837da24d23f2ef469eab6e93a9"
+    },
+    {
+      "validation_team_mae": 8.228533911156989,
+      "holdout": {
+        "home_mae": 8.639888630877131,
+        "away_mae": 7.422540576411279,
+        "margin_mae": 11.020886394015214,
+        "total_mae": 12.160331450045106
+      },
+      "name": "nn_score_32_1_charted_updated",
+      "task": "score",
+      "selected_configuration": "TransformedTargetRegressor(regressor=MLPRegressor(alpha=1.0,\n                                                  hidden_layer_sizes=(32,),\n                                                  learning_rate_init=0.003,\n                                                  max_iter=600,\n                                                  random_state=42),\n                           transformer=StandardScaler())",
+      "convergence_warnings": 0,
+      "artifact_sha256": "3e017bab4d633cf2e01a4a9e8b2cae4446ffd5b2c591988255f488a6cf2ea525"
+    },
+    {
+      "validation_log_loss": 0.6589564404712206,
+      "holdout": {
+        "log_loss": 0.6756143257833032,
+        "accuracy": 0.5897435897435898,
+        "brier": 0.2400598051218897
+      },
+      "name": "nn_winner_32_10_charted_updated",
+      "task": "winner",
+      "selected_configuration": "MLPClassifier(alpha=10.0, hidden_layer_sizes=(32,), learning_rate_init=0.003,\n              max_iter=600, random_state=42)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "21c2c0c309568c581381d313a4c93a032bded679e74c65b73b55d19a3633cbce"
+    },
+    {
+      "validation_team_mae": 7.58149863241444,
+      "holdout": {
+        "home_mae": 8.341587755911595,
+        "away_mae": 7.4963457655605215,
+        "margin_mae": 10.50917338073933,
+        "total_mae": 12.054068323131874
+      },
+      "name": "nn_score_32_10_charted_updated",
+      "task": "score",
+      "selected_configuration": "TransformedTargetRegressor(regressor=MLPRegressor(alpha=10.0,\n                                                  hidden_layer_sizes=(32,),\n                                                  learning_rate_init=0.003,\n                                                  max_iter=600,\n                                                  random_state=42),\n                           transformer=StandardScaler())",
+      "convergence_warnings": 0,
+      "artifact_sha256": "233f90fd66f84c876e64e82f58d42d16d2c90b2f57b96db53b0c3c3f56262b99"
+    },
+    {
+      "validation_log_loss": 0.6825829367941875,
+      "holdout": {
+        "log_loss": 0.6941158211102758,
+        "accuracy": 0.5512820512820513,
+        "brier": 0.25049600062549005
+      },
+      "name": "nn_winner_8x4_1_charted_updated",
+      "task": "winner",
+      "selected_configuration": "MLPClassifier(alpha=1.0, hidden_layer_sizes=(8, 4), learning_rate_init=0.003,\n              max_iter=600, random_state=42)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "4a2b548434c55fa7c41269f026ea6671b0e6d69ec8ea9cecbea1bd35222f3f30"
+    },
+    {
+      "validation_team_mae": 7.960944231842482,
+      "holdout": {
+        "home_mae": 8.34684243799644,
+        "away_mae": 7.899383174415137,
+        "margin_mae": 10.315567492122346,
+        "total_mae": 12.653417779414053
+      },
+      "name": "nn_score_8x4_1_charted_updated",
+      "task": "score",
+      "selected_configuration": "TransformedTargetRegressor(regressor=MLPRegressor(alpha=1.0,\n                                                  hidden_layer_sizes=(8, 4),\n                                                  learning_rate_init=0.003,\n                                                  max_iter=600,\n                                                  random_state=42),\n                           transformer=StandardScaler())",
+      "convergence_warnings": 0,
+      "artifact_sha256": "fbcda2184b4001143d111b8fe05e9be604907cd59c5cc98ded207927d997ac71"
+    },
+    {
+      "validation_log_loss": 0.6532888941446011,
+      "holdout": {
+        "log_loss": 0.6782496882567122,
+        "accuracy": 0.5897435897435898,
+        "brier": 0.24120266921207845
+      },
+      "name": "nn_winner_8x4_10_charted_updated",
+      "task": "winner",
+      "selected_configuration": "MLPClassifier(alpha=10.0, hidden_layer_sizes=(8, 4), learning_rate_init=0.003,\n              max_iter=600, random_state=42)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "f19cda41515402b159dec1e54679754d5fe755386bef0ce10e387945fce9da2b"
+    },
+    {
+      "validation_team_mae": 7.5514545020666715,
+      "holdout": {
+        "home_mae": 8.241365186022346,
+        "away_mae": 7.579948187232169,
+        "margin_mae": 10.495360079181337,
+        "total_mae": 12.114310966327228
+      },
+      "name": "nn_score_8x4_10_charted_updated",
+      "task": "score",
+      "selected_configuration": "TransformedTargetRegressor(regressor=MLPRegressor(alpha=10.0,\n                                                  hidden_layer_sizes=(8, 4),\n                                                  learning_rate_init=0.003,\n                                                  max_iter=600,\n                                                  random_state=42),\n                           transformer=StandardScaler())",
+      "convergence_warnings": 0,
+      "artifact_sha256": "972aa9c41df514172258db3a4b1adb294a0a89315c3166d56788fca27235e84c"
+    },
+    {
+      "validation_log_loss": 0.681441997228423,
+      "holdout": {
+        "log_loss": 0.6771005841825241,
+        "accuracy": 0.6153846153846154,
+        "brier": 0.24212560723458446
+      },
+      "name": "nn_winner_16x8_1_charted_updated",
+      "task": "winner",
+      "selected_configuration": "MLPClassifier(alpha=1.0, hidden_layer_sizes=(16, 8), learning_rate_init=0.003,\n              max_iter=600, random_state=42)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "01710cdb49f34319f7e5890f745b3787215e182afbb10b4e5cd8db39c30017dd"
+    },
+    {
+      "validation_team_mae": 8.182007376037733,
+      "holdout": {
+        "home_mae": 8.89987299524234,
+        "away_mae": 8.070154824907197,
+        "margin_mae": 11.348065491496929,
+        "total_mae": 13.124276177259356
+      },
+      "name": "nn_score_16x8_1_charted_updated",
+      "task": "score",
+      "selected_configuration": "TransformedTargetRegressor(regressor=MLPRegressor(alpha=1.0,\n                                                  hidden_layer_sizes=(16, 8),\n                                                  learning_rate_init=0.003,\n                                                  max_iter=600,\n                                                  random_state=42),\n                           transformer=StandardScaler())",
+      "convergence_warnings": 0,
+      "artifact_sha256": "fb7df171cf17ae64b01c46c0b12204abace7debdf6f5081368f125c0bd91ba1d"
+    },
+    {
+      "validation_log_loss": 0.654844709565434,
+      "holdout": {
+        "log_loss": 0.6794245159744025,
+        "accuracy": 0.5897435897435898,
+        "brier": 0.2420281838481676
+      },
+      "name": "nn_winner_16x8_10_charted_updated",
+      "task": "winner",
+      "selected_configuration": "MLPClassifier(alpha=10.0, hidden_layer_sizes=(16, 8), learning_rate_init=0.003,\n              max_iter=600, random_state=42)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "8dce8250d1f8c42162dd4c8122ab342675700b5509410e180064b4196248e904"
+    },
+    {
+      "validation_team_mae": 7.564632785388727,
+      "holdout": {
+        "home_mae": 8.237801366451547,
+        "away_mae": 7.572683469531821,
+        "margin_mae": 10.489727527576955,
+        "total_mae": 12.112969154821783
+      },
+      "name": "nn_score_16x8_10_charted_updated",
+      "task": "score",
+      "selected_configuration": "TransformedTargetRegressor(regressor=MLPRegressor(alpha=10.0,\n                                                  hidden_layer_sizes=(16, 8),\n                                                  learning_rate_init=0.003,\n                                                  max_iter=600,\n                                                  random_state=42),\n                           transformer=StandardScaler())",
+      "convergence_warnings": 0,
+      "artifact_sha256": "d26cc65e4e5cfc91a6dc68bb92a1b5482e8c4828987d9e1a3b1f3ec0edc12a85"
+    },
+    {
+      "validation_log_loss": 0.6828006092385406,
+      "holdout": {
+        "log_loss": 0.7018380591439997,
+        "accuracy": 0.5,
+        "brier": 0.2542940415563169
+      },
+      "name": "nn_winner_32x16_1_charted_updated",
+      "task": "winner",
+      "selected_configuration": "MLPClassifier(alpha=1.0, hidden_layer_sizes=(32, 16), learning_rate_init=0.003,\n              max_iter=600, random_state=42)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "fed8c6bdd37b37cc0e76cdbd10d718e9f2d9c103d1b405f5d6eaee0d777eb8b8"
+    },
+    {
+      "validation_team_mae": 8.717887653933488,
+      "holdout": {
+        "home_mae": 9.68502409910958,
+        "away_mae": 8.463545661867714,
+        "margin_mae": 12.012203895010122,
+        "total_mae": 14.009521572004878
+      },
+      "name": "nn_score_32x16_1_charted_updated",
+      "task": "score",
+      "selected_configuration": "TransformedTargetRegressor(regressor=MLPRegressor(alpha=1.0,\n                                                  hidden_layer_sizes=(32, 16),\n                                                  learning_rate_init=0.003,\n                                                  max_iter=600,\n                                                  random_state=42),\n                           transformer=StandardScaler())",
+      "convergence_warnings": 0,
+      "artifact_sha256": "db3ae8f856cb692a6d72617e98d8fa23bfaf9e1f1214e4621d6bedffab123f7a"
+    },
+    {
+      "validation_log_loss": 0.6536248366559192,
+      "holdout": {
+        "log_loss": 0.6781658654917732,
+        "accuracy": 0.5897435897435898,
+        "brier": 0.24136255559644232
+      },
+      "name": "nn_winner_32x16_10_charted_updated",
+      "task": "winner",
+      "selected_configuration": "MLPClassifier(alpha=10.0, hidden_layer_sizes=(32, 16), learning_rate_init=0.003,\n              max_iter=600, random_state=42)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "f9151641dfef6c4408b8c7e68e6c0e4f58739f7c4a53c4a51b591b395960d8d7"
+    },
+    {
+      "validation_team_mae": 7.573207644196423,
+      "holdout": {
+        "home_mae": 8.279903498765009,
+        "away_mae": 7.582047670047673,
+        "margin_mae": 10.475966038935452,
+        "total_mae": 12.099605134468453
+      },
+      "name": "nn_score_32x16_10_charted_updated",
+      "task": "score",
+      "selected_configuration": "TransformedTargetRegressor(regressor=MLPRegressor(alpha=10.0,\n                                                  hidden_layer_sizes=(32, 16),\n                                                  learning_rate_init=0.003,\n                                                  max_iter=600,\n                                                  random_state=42),\n                           transformer=StandardScaler())",
+      "convergence_warnings": 0,
+      "artifact_sha256": "74aa8598bf691fb91f50bf335c5bae74a01c35a0b528972416588462f8179a29"
+    },
+    {
+      "validation_team_mae": 7.560434397018591,
+      "holdout": {
+        "home_mae": 8.074483995289278,
+        "away_mae": 7.770088253186095,
+        "margin_mae": 10.425873695344041,
+        "total_mae": 12.071735258648744
+      },
+      "name": "ridge_score_0.01",
+      "task": "score",
+      "selected_configuration": "Ridge(alpha=0.01)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "677018a34a911bc62941f7564aa507f7522d79b58f290beb73a450882cbb42b8"
+    },
+    {
+      "validation_team_mae": 7.5616989658086755,
+      "holdout": {
+        "home_mae": 8.111868249640908,
+        "away_mae": 7.774602396407695,
+        "margin_mae": 10.487838882455138,
+        "total_mae": 12.085708918663792
+      },
+      "name": "poisson_score_0.01",
+      "task": "score",
+      "selected_configuration": "MultiOutputRegressor(estimator=PoissonRegressor(alpha=0.01, max_iter=1000))",
+      "convergence_warnings": 0,
+      "artifact_sha256": "50bf27fb3be30203d5beb5d0d6237b222603315a15eaec7bd5eb29642bffbf59"
+    },
+    {
+      "validation_team_mae": 7.560416382647374,
+      "holdout": {
+        "home_mae": 8.074515995011453,
+        "away_mae": 7.770029729077093,
+        "margin_mae": 10.42585879901242,
+        "total_mae": 12.071656491629078
+      },
+      "name": "ridge_score_0.1",
+      "task": "score",
+      "selected_configuration": "Ridge(alpha=0.1)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "f48afec26eb17bade0cee1f0f0e91028375b84abc302c97a46b784862d1aeb47"
+    },
+    {
+      "validation_team_mae": 7.559581258437677,
+      "holdout": {
+        "home_mae": 8.114848921341652,
+        "away_mae": 7.769162589077554,
+        "margin_mae": 10.484908317894707,
+        "total_mae": 12.080956294502503
+      },
+      "name": "poisson_score_0.1",
+      "task": "score",
+      "selected_configuration": "MultiOutputRegressor(estimator=PoissonRegressor(alpha=0.1, max_iter=1000))",
+      "convergence_warnings": 0,
+      "artifact_sha256": "d9b1cb6f9940bc1ba612cb99680b87f9e8f0b7eab79ca43c505a00bb29f5ba6d"
+    },
+    {
+      "validation_team_mae": 7.560236279935056,
+      "holdout": {
+        "home_mae": 8.074834170348494,
+        "away_mae": 7.769450638821846,
+        "margin_mae": 10.425717690091853,
+        "total_mae": 12.070879825216094
+      },
+      "name": "ridge_score_1.0",
+      "task": "score",
+      "selected_configuration": "Ridge()",
+      "convergence_warnings": 0,
+      "artifact_sha256": "accd8485fb2541103298e0144ed1da4660a28b804df6b4c4009e4c7f37a81dd2"
+    },
+    {
+      "validation_team_mae": 7.542526944237478,
+      "holdout": {
+        "home_mae": 8.134054295108964,
+        "away_mae": 7.7431091359716655,
+        "margin_mae": 10.48486260149784,
+        "total_mae": 12.065417273972121
+      },
+      "name": "poisson_score_1.0",
+      "task": "score",
+      "selected_configuration": "MultiOutputRegressor(estimator=PoissonRegressor(max_iter=1000))",
+      "convergence_warnings": 0,
+      "artifact_sha256": "3976568b2cbcaa68c9ad55d8b5cb753c9d90f09238ffca7faa8bdacaa8e5879f"
+    },
+    {
+      "validation_team_mae": 7.558444233047447,
+      "holdout": {
+        "home_mae": 8.07784948551605,
+        "away_mae": 7.764207739429441,
+        "margin_mae": 10.42495917822046,
+        "total_mae": 12.064080979286679
+      },
+      "name": "ridge_score_10.0",
+      "task": "score",
+      "selected_configuration": "Ridge(alpha=10.0)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "327a3370e22f91231c6f2a52860831a86e343612a8f8f5a43bb665ff39f36273"
+    },
+    {
+      "validation_team_mae": 7.506993409766292,
+      "holdout": {
+        "home_mae": 8.165694734326374,
+        "away_mae": 7.719314859315381,
+        "margin_mae": 10.49066961180375,
+        "total_mae": 12.091220715470824
+      },
+      "name": "poisson_score_10.0",
+      "task": "score",
+      "selected_configuration": "MultiOutputRegressor(estimator=PoissonRegressor(alpha=10.0, max_iter=1000))",
+      "convergence_warnings": 0,
+      "artifact_sha256": "b1bd2b1ee1fbc464437a7ae6651be006ec559557cacef398109a817a38a0a791"
+    },
+    {
+      "validation_team_mae": 7.543268672776246,
+      "holdout": {
+        "home_mae": 8.098453938381754,
+        "away_mae": 7.736695656247959,
+        "margin_mae": 10.438340960761789,
+        "total_mae": 12.037007894587141
+      },
+      "name": "ridge_score_100.0",
+      "task": "score",
+      "selected_configuration": "Ridge(alpha=100.0)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "8252271863df8b1753a0919da250db185ded5c0966c59897b15af6b008093da1"
+    },
+    {
+      "validation_team_mae": 7.554976842044702,
+      "holdout": {
+        "home_mae": 8.03425973290684,
+        "away_mae": 7.741492264905102,
+        "margin_mae": 10.28461833866132,
+        "total_mae": 12.150048775186152
+      },
+      "name": "poisson_score_100.0",
+      "task": "score",
+      "selected_configuration": "MultiOutputRegressor(estimator=PoissonRegressor(alpha=100.0, max_iter=1000))",
+      "convergence_warnings": 0,
+      "artifact_sha256": "7c4b3f7df59823509140025211126b0ff49deb0103835d232b05ce475e5aa923"
+    },
+    {
+      "validation_team_mae": 7.56364788321421,
+      "holdout": {
+        "home_mae": 8.028571943524174,
+        "away_mae": 7.723973940414625,
+        "margin_mae": 10.283029804325324,
+        "total_mae": 12.105289580435564
+      },
+      "name": "ridge_score_10000.0",
+      "task": "score",
+      "selected_configuration": "Ridge(alpha=10000.0)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "c7de8e45b93616aa41d72c65e2d911d20435d8c237f1b9ff053523c179d01679"
+    },
+    {
+      "validation_team_mae": 7.754556170301938,
+      "holdout": {
+        "home_mae": 7.86668680466777,
+        "away_mae": 7.800538040236763,
+        "margin_mae": 10.243480101186796,
+        "total_mae": 12.137979149362202
+      },
+      "name": "poisson_score_1000.0",
+      "task": "score",
+      "selected_configuration": "MultiOutputRegressor(estimator=PoissonRegressor(alpha=1000.0, max_iter=1000))",
+      "convergence_warnings": 0,
+      "artifact_sha256": "d2c1be2f62afb48a68e5888557cc60d273f3b2eb298725a96252e4b1c1ad0453"
     }
   ],
   "missing_counts": {
@@ -1278,8 +2094,9 @@
     "diff_research_ol_top5_snap_share": 1306,
     "diff_research_qb_max_snap_share": 1306
   },
+  "parent_generation": "updated-20261015T185719479420Z",
   "validation_selected": {
     "winner": "passive_aggressive_charted_updated",
-    "score": "score_Ridge"
+    "score": "poisson_score_10.0"
   }
 }

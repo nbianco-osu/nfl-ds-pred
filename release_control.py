@@ -81,6 +81,12 @@ def plan(root,version):
 
 
 def activate(root,version):
+    from refresh_lock import refresh_lock
+    with refresh_lock(root):
+        return _activate(root,version)
+
+
+def _activate(root,version):
     proposal=plan(root,version)
     if not proposal['approved']:raise ValueError('Explicit human approval required')
     previous=snapshot(root)

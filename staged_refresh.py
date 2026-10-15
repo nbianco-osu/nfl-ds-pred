@@ -10,6 +10,12 @@ from validate_dashboard import validate
 
 
 def refresh(root,season):
+    from refresh_lock import refresh_lock
+    with refresh_lock(Path(root)):
+        _locked_refresh(root,season)
+
+
+def _locked_refresh(root,season):
     root=Path(root)
     try:
         _refresh(root,season)
@@ -36,7 +42,7 @@ def _refresh(root,season):
         stage=Path(temporary)
         for folder in ['data','models','predictions','learning','backtests','audit','public_site/data']:
             if (root/folder).exists():
-                shutil.copytree(root/folder,stage/folder)
+                shutil.copytree(root/folder,stage/folder,ignore=shutil.ignore_patterns('refresh.lock'))
         from refresh_predictions import run
         run(stage,season)
         checked=validate(stage)
