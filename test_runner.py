@@ -10,10 +10,19 @@ from unittest.mock import Mock, patch
 
 from runner.common import GitHub, SafeSession, allowed, inventory, pack, unpack
 from runner.run import (guard_live, preserve, retained, schedule_plan, weekly_due,
-                        portable_model_pointer, production_input_exports)
+                        portable_model_pointer, production_input_exports, export_cloud_schedule)
 
 
 class RunnerTests(unittest.TestCase):
+    def test_handoff_only_final_reports(self):
+        from runner.handoff import report_changes
+        original = {'models/m.joblib': 'm', 'public_site/data/live_snapshot.json': 'a'}
+        self.assertEqual(report_changes(original, dict(original, **{'public_site/data/live_snapshot.json': 'b'})),
+                         ['public_site/data/live_snapshot.json'])
+        with self.assertRaises(ValueError):
+            report_changes(original, dict(original, **{'models/m.joblib': 'new'}))
+        with self.assertRaises(ValueError):
+            report_changes(original, {})
     def test_archive_allowlist(self):
         for name in ['models/current.joblib', 'audit/sources/schedule/receipt.json', 'public_site/data/predictions.json']:
             self.assertTrue(allowed(name), name)
@@ -52,6 +61,22 @@ class RunnerTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             guard_live({'automatic_enabled': True})
         guard_live(dict.fromkeys(['automatic_enabled', 'parent_approved', 'dry_run_verified'], True))
+
+    def test_cloud_schedule_note_requires_live_gates(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            path = root/'public_site/data/checkpoint_schedule.json'
+            with self.assertRaises(ValueError):
+                export_cloud_schedule(root, {'automatic_enabled': False})
+            self.assertFalse(path.exists())
+            export_cloud_schedule(root, dict.fromkeys(
+                ['automatic_enabled', 'parent_approved', 'dry_run_verified'], True))
+            report = json.loads(path.read_text())
+            self.assertEqual(report['repository'], 'nbianco-osu/nfl-ds-pred-runner')
+            self.assertEqual(report['weekly_refresh'], 'Tuesday 09:00 America/New_York (DST-aware)')
+            self.assertEqual(report['shadow_calibrator'], 'frozen')
+            self.assertIn('never backfilled', report['note'])
+            self.assertNotIn('every 10 minutes', report['note'])
 
     def test_cas_race_refuses_state_update(self):
         gh = GitHub('unit-test-placeholder')

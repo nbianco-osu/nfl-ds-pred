@@ -173,6 +173,23 @@ def guard_live(config):
         raise ValueError('Live run blocked pending fresh dry-run verification and parent switch approval')
 
 
+def export_cloud_schedule(root, config):
+    """Describe cloud authority only for an already-gated live execution."""
+    guard_live(config)
+    from audit_io import write_json
+    write_json(Path(root)/'public_site/data/checkpoint_schedule.json', {
+        'status': 'ACTIVE', 'authority': 'private GitHub Actions',
+        'repository': PRIVATE, 'workflow': 'runner.yml',
+        'schedule': 'Static full-season bounded kickoff triggers plus daily schedule drift checks',
+        'weekly_refresh': 'Tuesday 09:00 America/New_York (DST-aware)',
+        'shadow_calibrator': 'frozen',
+        'note': 'Cloud authority: bounded checks around known 24-hour and 90-minute pregame windows, '
+                'daily future-schedule drift checks, and Tuesday 9 a.m. Eastern results refresh. '
+                'GitHub schedule latency or dropped runs and refresh duration can cause missed windows; '
+                'captures are never backfilled. The legacy shadow calibrator is frozen; no cloud retraining.',
+    })
+
+
 def publish(root, destination, config):
     from publication_gate import validate_transition
     from publication_changes import changes
@@ -294,6 +311,8 @@ def main():
         export_scorecard(root)
         export_iterations(root, season, run_research=False)
         checked = validate_transition(root, previous)
+        if args.mode in ('run', 'force-run'):
+            export_cloud_schedule(root, config)
         from dashboard_snapshot import export as export_snapshot
         export_snapshot(root)
         if args.mode == 'dry-run':
