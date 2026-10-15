@@ -1,5 +1,6 @@
 """R57 safety boundaries, without credentials or network access."""
 import io
+import hashlib
 import json
 from pathlib import Path
 import tarfile
@@ -8,7 +9,8 @@ import unittest
 from unittest.mock import Mock, patch
 
 from runner.common import GitHub, SafeSession, allowed, inventory, pack, unpack
-from runner.run import guard_live, preserve, retained, schedule_plan, weekly_due
+from runner.run import (guard_live, preserve, retained, schedule_plan, weekly_due,
+                        portable_model_pointer, production_input_exports)
 
 
 class RunnerTests(unittest.TestCase):
@@ -121,6 +123,60 @@ class RunnerTests(unittest.TestCase):
         self.assertFalse(weekly_due(datetime(2026, 10, 13, 14, tzinfo=timezone.utc)))
         self.assertTrue(weekly_due(datetime(2026, 12, 15, 14, tzinfo=timezone.utc)))
         self.assertFalse(weekly_due(datetime(2026, 12, 15, 13, tzinfo=timezone.utc)))
+
+    def test_windows_pointer_restored_even_after_failure(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            artifact = root/'models/research/r25-model/models.joblib'
+            artifact.parent.mkdir(parents=True)
+            artifact.write_bytes(b'unchanged model')
+            pointer = root/'models/research/live_challengers.json'
+            original = json.dumps({'artifact': r'models\research\r25-model\models.joblib'}).encode()
+            pointer.write_bytes(original)
+            with self.assertRaisesRegex(RuntimeError, 'test failure'):
+                with portable_model_pointer(root):
+                    self.assertEqual(json.loads(pointer.read_text())['artifact'], 'models/research/r25-model/models.joblib')
+                    raise RuntimeError('test failure')
+            self.assertEqual(pointer.read_bytes(), original)
+            self.assertEqual(artifact.read_bytes(), b'unchanged model')
+            pointer.write_text(json.dumps({'artifact': '../private.joblib'}))
+            with self.assertRaisesRegex(ValueError, 'Unexpected'):
+                with portable_model_pointer(root):
+                    pass
+
+    def test_production_snapshot_export_identity_and_hash(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            payload = {'game_id': '2026_06_NE_NYJ', 'model_version': 'test',
+                       'features': {'x': 1.0, 'home_team': 'NYJ', 'away_team': 'NE',
+                                    'game_type': 'REG', 'roof': 'outdoors', 'surface': 'fieldturf'},
+                       'probability': 0.6, 'source_hashes': {}}
+            sha = hashlib.sha256(json.dumps(payload, sort_keys=True).encode()).hexdigest()
+            record = dict(payload, input_sha256=sha, receipts={}, forecast_at='2026-10-15T12:00:00Z')
+            path = root/'audit/forecasts'/payload['game_id']/(sha+'.json')
+            path.parent.mkdir(parents=True)
+            path.write_text(json.dumps(record))
+            other = root/'audit/sources/secret.json'
+            other.parent.mkdir(parents=True)
+            other.write_text('{}')
+            self.assertEqual(production_input_exports(root), [path.relative_to(root).as_posix()])
+            record['game_id'] = '2026_06_NE_BUF'
+            path.write_text(json.dumps(record))
+            with self.assertRaisesRegex(ValueError, 'identity'):
+                production_input_exports(root)
+            record['game_id'] = payload['game_id']
+            record['features'] = {'x': 2.0}
+            path.write_text(json.dumps(record))
+            with self.assertRaisesRegex(ValueError, 'hash'):
+                production_input_exports(root)
+            baseline = root/'previous'
+            old = baseline/path.relative_to(root)
+            old.parent.mkdir(parents=True)
+            old.write_bytes(path.read_bytes())
+            self.assertEqual(production_input_exports(root, baseline), [path.relative_to(root).as_posix()])
+            path.write_text('{}')
+            with self.assertRaisesRegex(ValueError, 'Existing public'):
+                production_input_exports(root, baseline)
 
 
 if __name__ == '__main__':

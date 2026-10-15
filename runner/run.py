@@ -1,7 +1,9 @@
 """Fresh-machine rehearsal, due-window refresh, CAS persistence, restricted publishing."""
 import argparse
+import hashlib
 from datetime import datetime, timedelta, timezone
 import json
+import math
 import os
 import re
 from pathlib import Path
@@ -12,6 +14,74 @@ from contextlib import contextmanager
 from zoneinfo import ZoneInfo
 
 from runner.common import GitHub, PRIVATE, PUBLIC, inventory, pack, unpack
+
+
+@contextmanager
+def portable_model_pointer(root):
+    """Normalize the legacy Windows pointer only inside the disposable runtime."""
+    pointer = Path(root)/'models/research/live_challengers.json'
+    original = pointer.read_bytes() if pointer.exists() else None
+    try:
+        if original is not None:
+            config = json.loads(original)
+            artifact = config['artifact'].replace('\\', '/')
+            if not re.fullmatch(r'models/research/[A-Za-z0-9_-]+/models\.joblib', artifact):
+                raise ValueError('Unexpected challenger artifact path')
+            path = Path(root)/artifact
+            if not path.is_file() or not path.resolve().is_relative_to(Path(root).resolve()):
+                raise ValueError('Missing or unsafe challenger artifact')
+            config['artifact'] = artifact
+            pointer.write_text(json.dumps(config), encoding='utf-8')
+        yield
+    finally:
+        if original is not None:
+            pointer.write_bytes(original)
+
+
+def production_input_exports(root, previous=None):
+    """Only content-addressed production snapshots, never arbitrary audit sources."""
+    result = []
+    required = {'game_id', 'model_version', 'features', 'probability', 'source_hashes',
+                'receipts', 'forecast_at', 'input_sha256'}
+    for path in sorted((Path(root)/'audit/forecasts').glob('*/*.json')):
+        if not re.fullmatch(r'\d{4}_\d{2}_[A-Z]{2,3}_[A-Z]{2,3}', path.parent.name):
+            continue
+        if not re.fullmatch(r'[0-9a-f]{64}\.json', path.name):
+            continue
+        if path.is_symlink() or not path.resolve().is_relative_to(Path(root).resolve()):
+            raise ValueError('Unsafe production input snapshot')
+        name = path.relative_to(root).as_posix()
+        baseline = Path(previous)/name if previous is not None else None
+        if baseline is not None and baseline.is_file():
+            if path.read_bytes() != baseline.read_bytes():
+                raise ValueError('Existing public production snapshot changed')
+            # Historical snapshots are grandfathered only when byte-identical.
+            result.append(name)
+            continue
+        record = json.loads(path.read_text(encoding='utf-8'))
+        if not required <= set(record) or set(record) - required - {'model_sha256'}:
+            raise ValueError('Unexpected production snapshot schema')
+        if record['game_id'] != path.parent.name or record['input_sha256'] != path.stem:
+            raise ValueError('Production snapshot identity mismatch')
+        features = record['features']
+        categorical = {'game_type', 'home_team', 'away_team', 'surface', 'roof'}
+        if not isinstance(features, dict) or not features:
+            raise ValueError('Invalid production inputs')
+        for key, value in features.items():
+            if value is None:
+                continue
+            if key in categorical and isinstance(value, str) and re.fullmatch(r'[A-Za-z0-9 _/-]{1,40}', value):
+                continue
+            if type(value) not in (int, float) or not math.isfinite(value):
+                raise ValueError('Invalid production input feature')
+        payload = {k: record[k] for k in ('game_id', 'model_version', 'features', 'probability', 'source_hashes')}
+        if 'model_sha256' in record:
+            payload['model_sha256'] = record['model_sha256']
+        digest = hashlib.sha256(json.dumps(payload, sort_keys=True, allow_nan=False).encode()).hexdigest()
+        if digest != path.stem:
+            raise ValueError('Production snapshot content hash mismatch')
+        result.append(path.relative_to(root).as_posix())
+    return result
 
 
 def retained(before, after):
@@ -108,6 +178,7 @@ def publish(root, destination, config):
     from publication_changes import changes
     validate_transition(root, destination)
     exports = list(config['public_exports'])
+    exports += production_input_exports(root, destination)
     generation = config.get('shadow_generation')
     if generation and re.fullmatch(r'[A-Za-z0-9_-]+', generation):
         folder = root/'audit/shadow_next'/generation/'inputs'
@@ -213,7 +284,7 @@ def main():
             print('No due window or changed results; no bundle upload or public publication required.')
             return
         if args.mode in ('dry-run', 'force-run') or windows or results_changed:
-            with no_training():
+            with no_training(), portable_model_pointer(root):
                 refresh(root, season)
         from research_operations import checkpoints
         checkpoints(root, season)
