@@ -8,6 +8,7 @@ data/research_sources/*
 !models/research32_report.json
 !models/research32_holdout.csv
 audit/sources/**/*.parquet
+audit/weather_responses/
 .refresh-stage/
 __pycache__/
 .pytest_cache/
@@ -41,6 +42,9 @@ explanations/*
 !models/home_win_gpr_*.metrics.json
 !data/current_features_2026.csv
 !data/current_features_2026.json
+!data/opponent_features_2026.csv
+!data/opponent_ratings_2026.json
+!data/opponent_rankings_2026.csv
 !models/home_win_advanced_automl_no_market_deep.joblib
 !models/home_win_advanced_automl_no_market_deep.metrics.json
 !predictions/nfl_2026_predictions_advanced_no_market_deep.csv

@@ -53,6 +53,21 @@ Provider coverage and prospective evaluation remain incomplete; no model promoti
 
 ## Evidence and Boundaries
 
+## R23-R27 Iteration
+
+| ID | Status | Scope and remaining limits |
+| --- | --- | --- |
+| R23 | Implemented with explicit source gaps | Automatic non-commercial Open-Meteo forecasts, stadium-ID coordinate matching, immutable response/observation archive and source-backed confirmed-QB import. No fabricated issue timestamps or historical weather; no automatic confirmed-starter provider. Initial 23 weather observations; confirmations still missing. |
+| R24 | Implemented prospectively | Three frozen pre-2026 score challengers, 579 first-observed forecasts for 193 future games, exact feature/version archive and matched production-probability comparisons by cohort. No retrospective scores counted as prospective evidence. Human review required; stacking remains withheld. |
+| R25 | Implemented research | Independent Poisson, NB2 overdispersion and correlated Gaussian-copula NB2; identical 623-game chronological evaluation, calibration only on preceding season, CRPS/coverage/interval scores. Counts are not a football/overtime engine. No production promotion. |
+| R26 | Implemented | Compact weekly matchup default with expected scores and separately labeled research uncertainty. Library/global SHAP moved to research; season bars moved to season view. Detailed views retained, including clearly labeled full-season replay. |
+| R27 | Implemented operational checks | Failed refresh/import, missing predictions/starters/weather, stale refresh/weather, missing shadow forecasts and unverified database queue. Deterministic issue fingerprint for meaningful-change notifications in weekly automation. No external paging service or continuous uptime guarantee. |
+
+Separate season replay covers all 272 scheduled 2026 games for three models.
+Completed-game reconstructions never replace archived pregame production picks.
+
+## Evidence and Boundaries (Continued)
+
 - `rolling_backtest.py` is a research baseline harness, not a refit or evaluation of the deployed Random Forest. Production model files and archived picks are unchanged.
 - Historical CSV inputs are revised snapshots and omit ties. Initial published results describe available source rows, not an independently audited full schedule.
 - Observed performance is computed from saved forecasts. Older winner records lack original creation timestamps; legacy provenance is incomplete. The default view isolates the latest known winner version.
@@ -75,6 +90,10 @@ Backtest outputs: `backtests/weekly_predictions.csv` and
 results, but never runs backtests or retrains production automatically.
 
 ## Iteration Log
+
+- 2026-10-15, R23-R27: Added observed-time weather collection, frozen live challenger cohorts, negative-binomial uncertainty research, compact default view, full-season research replay and actionable reliability checks. Production artifacts and pregame picks unchanged. Confirmed starters remain supplied inputs, and prospective challenger outcomes are not yet available. Full implementation notes: RELEASE_R23_R27.md.
+
+- 2026-10-15, reproducible DVOA alternative: Calculated joint ridge Opponent-Adjusted EPA (not DVOA), sack differentials and explosive-play differentials from the archived 2026 PBP snapshot. Saved 32-team rankings and week-frozen features for 272 matchups using 79 completed games. Week 1 remains missing; no fabricated prior-season data. Added source fingerprints, coverage, methodology and temporal tests; all 73 tests passed. Weekly refresh regenerates research files only. No production refit, dashboard publication or predictive-improvement claim; broader R23-R27 work remains pending.
 
 - 2026-10-14, R19-R22: Added Experiments & Inputs dashboard, four saved score distributions, retrospective temporal stacking, strict supplied-input archive and private normalized warehouse. Browser desktop/mobile checks and 69 Python tests passed. Existing production models, picks and learning cohorts unchanged. Stacking improvement is inconclusive; confirmed starter/weather inputs remain unavailable.
 

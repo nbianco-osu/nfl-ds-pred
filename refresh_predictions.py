@@ -99,6 +99,12 @@ def run(root, season) -> None:
     export_insights(root)
     from pregame_inputs import export as export_pregame_inputs
     export_pregame_inputs(root,season)
+    from opponent_ratings import export as export_opponent_ratings
+    export_opponent_ratings(root,season)
+    from weather_inputs import collect as collect_weather
+    collect_weather(root,season)
+    from live_challengers import export as export_live_challengers
+    export_live_challengers(root,season)
     from warehouse_queue import stage as stage_warehouse
     stage_warehouse(root,season)
     print(f"Active learner: {summary['status']}; {summary['training_games']} training games")

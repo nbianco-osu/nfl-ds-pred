@@ -1,8 +1,8 @@
 # Timestamped Pregame Imports (R20)
 
-No automatic starter or weather provider is configured. Missing inputs remain
-unavailable. Past QB usage and historical schedule QB names are not confirmation.
-No paid service, API key, scraping job or external bucket was added.
+R23 enables the non-commercial Open-Meteo forecast API. Confirmed starters still
+require supplied source-backed imports. Missing inputs remain unavailable; past
+QB usage and schedule QB names are not confirmation. No paid service or key is used.
 
 Import a JSON array or CSV with `python pregame_inputs.py --season 2026 --input PATH`.
 The importer records its own UTC observation time. Supplied `observed_at` values
@@ -27,9 +27,14 @@ Archive: `audit/pregame_inputs.json`. Public summary:
 `public_site/data/pregame_inputs.json`. Weekly refresh exports the archive without
 backfilling history or retraining production. Store source URLs, not credentials.
 Prospective feature-value measurement remains pending until enough independently
-observed games accumulate. Current observations: none at implementation.
+observed games accumulate. R23 initially collected 23 weather observations.
 
 Provider research: [Open-Meteo documentation](https://open-meteo.com/en/docs) and
-[terms](https://open-meteo.com/en/terms). No integration is activated; its free
-endpoint has non-commercial-use and attribution conditions. Venue coordinates
-and a suitable issue-time policy must be established before enabling a provider.
+[terms](https://open-meteo.com/en/terms). The free endpoint has non-commercial-use
+and attribution conditions. `weather_inputs.py` uses stadium-ID coordinate matches
+from greerreNFL/Stadiums. Missing coordinates stay explicit, including international
+venues. Closed/dome games are skipped; forecasts for other roofs describe outdoor
+conditions, not confirmed roof status. Forecasts are limited to the provider horizon.
+API issue time is unavailable: `published_at` is null, and eligibility uses actual
+local `observed_at`. Raw responses are private and content-addressed. No weather
+history is backfilled. Failures preserve prior observations and appear in monitoring.

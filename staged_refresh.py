@@ -11,6 +11,24 @@ from validate_dashboard import validate
 
 def refresh(root,season):
     root=Path(root)
+    try:
+        _refresh(root,season)
+    except Exception as exc:
+        write_json(root/'audit/refresh_attempt.json',{'status':'failed','error_type':type(exc).__name__,
+            'attempted_at':datetime.now(timezone.utc).isoformat()})
+        from reliability import export
+        try:
+            export(root,season)
+        except Exception:
+            pass
+        raise
+    write_json(root/'audit/refresh_attempt.json',{'status':'succeeded','attempted_at':datetime.now(timezone.utc).isoformat()})
+    from reliability import export
+    export(root,season)
+
+
+def _refresh(root,season):
+    root=Path(root)
     before=json.loads((root/'public_site/data/predictions.json').read_text())
     with tempfile.TemporaryDirectory(prefix='nfl-refresh-') as temporary:
         stage=Path(temporary)

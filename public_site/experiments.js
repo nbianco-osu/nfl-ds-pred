@@ -31,7 +31,7 @@ window.setupExperiments = async function () {
   try {
     const data=await read('pregame_inputs');
     el('pregameNote').textContent=data.note;
-    el('pregameStatus').textContent=`${data.observations} timestamped supplied observations. Missing inputs remain unavailable.`;
+    el('pregameStatus').textContent=`${data.observations} archived observations. Starter confirmations require supplied sources; weather is retrieved from Open-Meteo. Missing inputs remain unavailable.`;
     const weeks=[...new Set(data.games.map(g=>g.week))];
     weeks.forEach(w=>el('pregameWeek').add(new Option(`Week ${w}`,String(w))));
     function render(){

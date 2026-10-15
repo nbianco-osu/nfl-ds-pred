@@ -59,6 +59,16 @@ def validate(row, game, now):
 
 
 def import_rows(root, rows, season, now=None):
+    try:
+        count = _import_rows(root, rows, season, now)
+    except Exception as exc:
+        write_json(root/'audit/input_attempt.json',{'status':'failed','error_type':type(exc).__name__})
+        raise
+    write_json(root/'audit/input_attempt.json',{'status':'succeeded','added':count})
+    return count
+
+
+def _import_rows(root, rows, season, now=None):
     now = timestamp(now or datetime.now(timezone.utc))
     schedule = pd.read_csv(root/f'data/schedule_{season}.csv').set_index('game_id',drop=False)
     path = root/'audit/pregame_inputs.json'
@@ -85,9 +95,9 @@ def select(records, game, as_of):
     limit = min(timestamp(as_of),kickoff(game))
     candidates = [r for r in records if r['game_id']==game['game_id'] and
                   timestamp(r['observed_at'])<kickoff(game) and timestamp(r['observed_at'])<=limit and
-                  timestamp(r['published_at'])<=limit and timestamp(r['published_at'])<kickoff(game)]
+                  timestamp(r.get('published_at') or r['observed_at'])<=limit and timestamp(r.get('published_at') or r['observed_at'])<kickoff(game)]
     selected = {}
-    for row in sorted(candidates,key=lambda r:(r['published_at'],r['observed_at'],r['id'])):
+    for row in sorted(candidates,key=lambda r:(r.get('published_at') or r['observed_at'],r['observed_at'],r['id'])):
         key = row['kind'] + (':'+row['team'] if row['kind']=='starter' else '')
         if row['kind']=='weather' and (row['stadium_id']!=game.get('stadium_id') or abs((timestamp(row['valid_at'])-kickoff(game)).total_seconds())>10800):
             continue
@@ -108,7 +118,7 @@ def export(root, season=2026, now=None):
         games.append({'game_id':game['game_id'],'week':int(game['week']), 'home_team':game['home_team'],
                       'away_team':game['away_team'], 'observations':chosen})
     output = {'season':season,'observations':len(records),'games':games,
-              'note':'Timestamped supplied inputs only. observed_at is recorded locally at import, not backfilled. Provider publication times and confirmed-starter claims are supplied assertions, not independently verified. Missing means unavailable, never inferred from past QB usage. No configured automatic provider, no historical backfill, no production-model input changes. Incremental-value evaluation awaits a prospective cohort.'}
+              'note':'Timestamped supplied starters and retrieved Open-Meteo outdoor weather. observed_at is recorded locally, never backfilled. Weather issue time is unavailable and published_at remains null. Supplied confirmation/publication claims are not independently verified. Missing means unavailable, never inferred from past QB usage. No historical weather backfill or production-model input changes. Incremental-value evaluation awaits a prospective cohort.'}
     write_json(root/'public_site/data/pregame_inputs.json',output)
     return output
 

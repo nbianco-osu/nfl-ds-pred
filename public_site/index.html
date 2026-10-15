@@ -12,7 +12,7 @@
         <p class="eyebrow">2026 NFL Predictions</p>
         <h1>NFL Matchup Prediction Dashboard</h1>
         <p class="lede">
-          A public-facing data science dashboard with schedule forecasts, model confidence, and SHAP-style feature impact summaries.
+          Schedule, projected winners and expected scores.
         </p>
       </div>
       <div class="header-badge">
@@ -23,11 +23,11 @@
 
     <main>
       <section class="metrics" id="metrics"></section>
-      <p id="refreshStatus" aria-live="polite"></p>
+      <details class="refresh-detail"><summary>Model and refresh details</summary><p id="refreshStatus" aria-live="polite"></p>
+      <p><a href="#modelComparison" id="libraryLink">Model library: 64 models</a></p></details>
       <p id="healthStatus" aria-live="polite"></p>
-      <p><a href="#modelComparison" id="libraryLink">Model library: 64 models</a></p>
       <div class="view-tabs" role="tablist" aria-label="Dashboard views">
-        <button id="dashboardTab" role="tab" aria-selected="true" aria-controls="dashboardPanel">Matchups &amp; Models</button>
+        <button id="dashboardTab" role="tab" aria-selected="true" aria-controls="dashboardPanel">Weekly Matchups</button>
         <button id="seasonTab" role="tab" aria-selected="false" aria-controls="seasonPanel" tabindex="-1">Team Season Charts</button>
         <button id="scoresTab" role="tab" aria-selected="false" aria-controls="scoresPanel" tabindex="-1">Scores &amp; Lines</button>
         <button id="performanceTab" role="tab" aria-selected="false" aria-controls="performancePanel" tabindex="-1">Performance</button>
@@ -277,6 +277,11 @@
         <div class="table-wrap"><table><thead><tr><th>Week</th><th>Opponent</th><th>Team win chance</th><th>Expected score (team - opponent)</th><th>Actual score</th><th>Pick correct?</th></tr></thead><tbody id="profileGames"></tbody></table></div>
       </section>
       <section id="monitorPanel" role="tabpanel" aria-labelledby="monitorTab" hidden>
+        <h2>Operational Reliability</h2><p id="reliabilityStatus" role="status">Loading operational checks.</p>
+        <div class="table-wrap" tabindex="0" aria-label="Operational alerts"><table><thead><tr><th>Severity</th><th>Issue</th><th>Next action</th></tr></thead><tbody id="reliabilityRows"></tbody></table></div>
+        <h2>Live Shadow Challengers</h2><p id="liveStatus"></p>
+        <div class="table-wrap" tabindex="0" aria-label="Prospective matched challenger results"><table><thead><tr><th>Production cohort</th><th>Challenger</th><th>Decisive games</th><th>Challenger log loss</th><th>Production log loss</th><th>Status</th></tr></thead><tbody id="liveRows"></tbody></table></div>
+        <p><a href="./data/live_challengers.json" download>Download immutable shadow forecasts</a></p>
         <h2>Prospective Forecast Monitor</h2><p id="driftNote" class="body-copy"></p>
         <div class="comparison-controls"><label>Winner version<select id="driftVersion"></select></label><a href="./data/drift_monitor.json" download>Download monitoring results</a><a href="./data/forecast_history.json" download>Download forecast history</a></div>
         <p id="driftStatus" aria-live="polite"></p>
@@ -284,6 +289,7 @@
         <h3>Season Stage</h3><div class="table-wrap"><table><thead><tr><th>Score version / stage</th><th>Graded games</th><th>Log loss</th><th>Brier</th><th>Score games / MAE</th></tr></thead><tbody id="driftStages"></tbody></table></div>
       </section>
       <section class="panel disclaimer">
+        <p>Weather: <a href="https://open-meteo.com/">Open-Meteo</a>, CC BY 4.0. Outdoor forecasts do not describe indoor playing conditions. Stadium coordinate source: <a href="https://github.com/greerreNFL/Stadiums">NFL Stadiums Dataset</a>.</p>
         <p class="eyebrow">Disclaimers And Fair Use</p>
         <h2>Educational Predictive Analytics</h2>
         <p>
@@ -308,6 +314,7 @@
     <script src="./insights.js"></script>
     <script src="./matched.js"></script>
     <script src="./experiments.js"></script>
+    <script src="./iteration.js"></script>
     <script src="./app.js"></script>
   </body>
 </html>

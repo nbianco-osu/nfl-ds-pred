@@ -102,7 +102,7 @@ window.setupSeasonCharts = function (data) {
       tabs[next].focus();
     });
   });
-  document.getElementById('libraryLink').addEventListener('click', () => activate(tabs[0]));
+  document.getElementById('libraryLink').addEventListener('click', () => activate(document.getElementById('researchTab')));
   teamSelect.addEventListener('change', render);
   measure.addEventListener('change', render);
 };

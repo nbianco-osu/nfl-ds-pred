@@ -101,7 +101,9 @@ def validate(root):
         for game in records['games']:
             for record in game['observations'].values():
                 observed=datetime.fromisoformat(record['observed_at'])
-                published=datetime.fromisoformat(record['published_at'])
+                if record.get('published_at') is None and not (record.get('provider')=='Open-Meteo' and record.get('timestamp_basis')):
+                    raise ValueError('Unknown input publication basis')
+                published=datetime.fromisoformat(record.get('published_at') or record['observed_at'])
                 kickoff=datetime.fromisoformat(record['kickoff_at_observation'])
                 if any(t.tzinfo is None for t in [observed,published,kickoff]) or not published<=observed<kickoff:
                     raise ValueError('Invalid pregame input provenance')
@@ -112,6 +114,29 @@ def validate(root):
             raise ValueError('Invalid temporal stacking protocol')
         if report['summary']['n']!=report['baseline']['n']:
             raise ValueError('Stack comparator cohort differs')
+    for name in ['live_challengers','season_replay']:
+        path=folder/(name+'.json')
+        if not path.exists():
+            continue
+        report=json.loads(path.read_text())
+        seen=set()
+        for record in report['forecasts']:
+            key=(record['game_id'],record['kind'],record['model_version'])
+            if key in seen:
+                raise ValueError('Repeated challenger forecast')
+            seen.add(key)
+            if not 0<=record['home_win_probability']<=1 or abs(record['home_win']+record['away_win']+record['tie']-1)>1e-8:
+                raise ValueError('Invalid challenger probabilities')
+            if not record['fit_through']<record['calibration_through']<record['feature_cutoff']:
+                raise ValueError('Invalid challenger chronology')
+            if name=='live_challengers' and not datetime.fromisoformat(record['forecast_at'])<datetime.fromisoformat(record['kickoff_at_observation']):
+                raise ValueError('Late shadow forecast')
+            for target in ['home','away','margin','total']:
+                lo,hi=record[target+'_interval80']
+                if not math.isfinite(lo) or not math.isfinite(hi) or lo>hi:
+                    raise ValueError('Invalid uncertainty interval')
+        if name=='season_replay' and {r['game_id'] for r in report['forecasts']}!={r['game_id'] for r in rows}:
+            raise ValueError('Incomplete season replay')
     return {'games':len(rows),'completed':sum(r['status']=='Final' for r in rows)}
 
 

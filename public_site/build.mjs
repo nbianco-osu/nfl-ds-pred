@@ -6,6 +6,13 @@ const root = dirname(fileURLToPath(import.meta.url));
 const dist = join(root, "dist");
 
 const assets = {
+  "/iteration.js": { file: "iteration.js", type: "text/javascript; charset=utf-8" },
+  "/data/reliability.json": { file: "data/reliability.json", type: "application/json; charset=utf-8" },
+  "/data/live_challengers.json": { file: "data/live_challengers.json", type: "application/json; charset=utf-8" },
+  "/data/season_replay.json": { file: "data/season_replay.json", type: "application/json; charset=utf-8" },
+  "/data/uncertainty_research.json": { file: "data/uncertainty_research.json", type: "application/json; charset=utf-8" },
+  "/data/opponent_ratings.json": { file: "data/opponent_ratings.json", type: "application/json; charset=utf-8" },
+  "/data/input_collection.json": { file: "data/input_collection.json", type: "application/json; charset=utf-8" },
   "/experiments.js": { file: "experiments.js", type: "text/javascript; charset=utf-8" },
   "/data/score_experiments.json": { file: "data/score_experiments.json", type: "application/json; charset=utf-8" },
   "/data/temporal_stack.json": { file: "data/temporal_stack.json", type: "application/json; charset=utf-8" },

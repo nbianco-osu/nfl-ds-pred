@@ -452,3 +452,20 @@ th {
   .toolbar { margin-inline: 0; }
   .panel-heading { flex-wrap: wrap; }
 }
+.section-grid.weekly-only { grid-template-columns: minmax(0, 1fr); }
+#metrics { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0; border-block: 1px solid var(--line); }
+#metrics .metric { background: none; border: 0; border-radius: 0; box-shadow: none; padding: 10px; }
+#metrics .metric strong { font-size: 20px; overflow-wrap: anywhere; }
+.refresh-detail { margin-top: 12px; font-size: 13px; }
+.app-header .lede { margin-bottom: 0; }
+.view-tabs[role="tablist"] { flex-wrap: nowrap; overflow-x: auto; max-width: 100%; gap: 16px; }
+.view-tabs[role="tablist"] button { flex: 0 0 auto; }
+@media (max-width: 600px) {
+  #metrics { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .app-header h1 { font-size: 24px; line-height: 1.15; }
+  .app-header .header-badge { min-width: 0; padding: 0; background: none; border: 0; box-shadow: none; }
+  .app-header .header-badge span { display: inline; margin-right: 8px; }
+  .app-header .header-badge strong { display: inline; }
+}
+.season-summary { margin-top: 28px; border-top: 1px solid var(--line); padding-top: 18px; }
+.matchup-uncertainty { margin: 8px 0; font-size: 13px; color: #475467; }
