@@ -14,7 +14,7 @@ its feature contracts still require an explicit serving adapter and human review
 | R54 | Implemented | Per-game input status, receipt and provider timestamps; absent evidence is explicit. Starter/weather inputs remain context-only for this candidate generation. |
 | R55 | Implemented | Full weekly recap, including wrong picks, missing scores, ties and pending games. Winner/score provenance separate; correct green, wrong red plus text. |
 | R56 | Implemented | Staged and Pages publication gates: valid integer final scores, kickoff-locked picks/archived lines, exact-input hashes/timing, training cutoffs and explained coverage drops. |
-| R57 | Provisioning and verification | Private runner repository, restricted model/data bundles, repository-scoped public deploy key, durable private state and one public data snapshot. Activation status is recorded in runner handoff and dashboard schedule data. |
+| R57 | Active; end-to-end verified | Private runner is the sole refresh writer. Live run 38814252099 saved private generation 2 and published c30fbf3; Pages succeeded. Local pregame writer is paused and Tuesday local automation is a read-only health/readiness monitor. |
 | R58 | Deferred | Existing read-only readiness and manual release controls retained. Sufficient matched prospective evidence, calibration and serving compatibility are required before considering approval. No automatic promotion. |
 
 ## Interpretation

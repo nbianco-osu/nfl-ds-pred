@@ -136,7 +136,7 @@ results, but never runs backtests or retrains production automatically.
 - 2026-10-15, R49-R58: Added strict timestamp-gated accuracy, model disagreement,
   joint score summaries, complete weekly recaps, source availability, matched
   baselines, true grouped ablations and publication transition gates. R57 private
-  runner provisioning/verification is tracked separately; R58 is deliberately
+  runner is active with a successful live refresh/publication; R58 is deliberately
   deferred pending sufficient prospective evidence and human review. Special-teams
   EPA remains descriptive, and weather ablation is unavailable. See
   RELEASE_R49_R58.md for exact delivered scope and limitations.

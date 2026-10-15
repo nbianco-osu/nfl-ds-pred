@@ -80,6 +80,21 @@ approval and activation. A test is not an authorization for overlapping writers.
   workflow, not this checklist. Keep local writers paused only while completing
   the handoff; restore them if activation fails.
 
+### Completed handoff
+
+User-approved activation commit: private `83b4ed89d6e8be2fe45d3680165a484a241119b1`.
+Live Actions run `38814252099` succeeded, persisted private generation 2 and
+published public commit `c30fbf3f4c52548280ca2bdf7cf3fbf51bca4414`. Pages run
+`38815013255` succeeded. The served 51-file snapshot was hash-verified against
+that public commit. Tuesday 09:00 Eastern refreshes are now cloud-owned.
+
+Local pregame automation is PAUSED. The Tuesday local automation is ACTIVE but
+read-only: health, schedule coverage and prospective readiness checks only.
+Do not run local refreshes against the old private runtime. A public git pull
+does not synchronize ignored model/data state: before future training or recovery,
+restore the latest verified private bundle into a separate workspace and reconcile
+it under the single-writer protocol. Never overwrite newer cloud forecast cohorts.
+
 Actions concurrency serializes runs. A unique content-addressed private release
 is uploaded first; private main advances from the exact parent with force=false.
 A racing writer causes conflict rather than state regression. Failed uploads or
