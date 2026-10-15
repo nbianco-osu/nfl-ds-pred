@@ -137,6 +137,16 @@ def validate(root):
                     raise ValueError('Invalid uncertainty interval')
         if name=='season_replay' and {r['game_id'] for r in report['forecasts']}!={r['game_id'] for r in rows}:
             raise ValueError('Incomplete season replay')
+    quality=folder/'data_quality.json'
+    if quality.exists() and not all(c['passed'] for c in json.loads(quality.read_text())['checks']):
+        raise ValueError('Data contract validation failed')
+    feature_value=folder/'feature_value.json'
+    if feature_value.exists():
+        report=json.loads(feature_value.read_text())
+        if len({m['decisive_games'] for m in report['models']})!=1:
+            raise ValueError('Feature experiments use different cohorts')
+        if any(f['train_through']>=f['test_start'] for f in report['folds']):
+            raise ValueError('Feature experiment train/test overlap')
     return {'games':len(rows),'completed':sum(r['status']=='Final' for r in rows)}
 
 

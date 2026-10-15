@@ -105,6 +105,11 @@ def run(root, season) -> None:
     collect_weather(root,season)
     from live_challengers import export as export_live_challengers
     export_live_challengers(root,season)
+    from research_operations import error_analysis, quality_registry, scenario_distributions, replay_audit
+    error_analysis(root)
+    quality_registry(root,season)
+    scenario_distributions(root)
+    replay_audit(root)
     from warehouse_queue import stage as stage_warehouse
     stage_warehouse(root,season)
     print(f"Active learner: {summary['status']}; {summary['training_games']} training games")

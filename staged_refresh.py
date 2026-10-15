@@ -25,6 +25,8 @@ def refresh(root,season):
     write_json(root/'audit/refresh_attempt.json',{'status':'succeeded','attempted_at':datetime.now(timezone.utc).isoformat()})
     from reliability import export
     export(root,season)
+    from research_operations import checkpoints
+    checkpoints(root,season)
 
 
 def _refresh(root,season):

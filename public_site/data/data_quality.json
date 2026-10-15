@@ -1,0 +1,723 @@
+{
+  "checks": [
+    {
+      "check": "Unique schedule keys",
+      "passed": true
+    },
+    {
+      "check": "Unique feature keys",
+      "passed": true
+    },
+    {
+      "check": "Complete feature game coverage",
+      "passed": true
+    },
+    {
+      "check": "No infinite numeric features",
+      "passed": true
+    }
+  ],
+  "missingness": [
+    {
+      "feature": "home_team_injury_report_count",
+      "missing": 193,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_injury_out_count",
+      "missing": 193,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_injury_questionable_count",
+      "missing": 193,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_injury_qb_out",
+      "missing": 193,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_injury_skill_out_count",
+      "missing": 193,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_injury_line_out_count",
+      "missing": 193,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_injury_report_count",
+      "missing": 193,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_injury_out_count",
+      "missing": 193,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_injury_questionable_count",
+      "missing": 193,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_injury_qb_out",
+      "missing": 193,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_injury_skill_out_count",
+      "missing": 193,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_injury_line_out_count",
+      "missing": 193,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_roster_size",
+      "missing": 179,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_roster_active_count",
+      "missing": 179,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_roster_avg_years_exp",
+      "missing": 179,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_roster_rookie_count",
+      "missing": 179,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_roster_qb_count",
+      "missing": 179,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_roster_ol_count",
+      "missing": 179,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_roster_skill_count",
+      "missing": 179,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_roster_size",
+      "missing": 179,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_roster_active_count",
+      "missing": 179,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_roster_avg_years_exp",
+      "missing": 179,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_roster_rookie_count",
+      "missing": 179,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_roster_qb_count",
+      "missing": 179,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_roster_ol_count",
+      "missing": 179,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_roster_skill_count",
+      "missing": 179,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_pbp_off_epa_per_play_avg",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_pbp_off_epa_per_play_last_3",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_pbp_off_epa_per_play_last_5",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_pbp_off_success_rate_avg",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_pbp_off_success_rate_last_3",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_pbp_off_success_rate_last_5",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_pbp_off_explosive_rate_avg",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_pbp_off_explosive_rate_last_3",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_pbp_off_explosive_rate_last_5",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_pbp_off_turnover_rate_avg",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_pbp_off_turnover_rate_last_3",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_pbp_off_turnover_rate_last_5",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_pbp_off_pass_rate_avg",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_pbp_off_pass_rate_last_3",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_pbp_off_pass_rate_last_5",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_pbp_off_pass_epa_avg",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_pbp_off_pass_epa_last_3",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_pbp_off_pass_epa_last_5",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_pbp_off_rush_epa_avg",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_pbp_off_rush_epa_last_3",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_pbp_off_rush_epa_last_5",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_pbp_def_epa_allowed_per_play_avg",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_pbp_def_epa_allowed_per_play_last_3",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_pbp_def_epa_allowed_per_play_last_5",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_pbp_def_success_allowed_rate_avg",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_pbp_def_success_allowed_rate_last_3",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_pbp_def_success_allowed_rate_last_5",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_pbp_def_explosive_allowed_rate_avg",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_pbp_def_explosive_allowed_rate_last_3",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_pbp_def_explosive_allowed_rate_last_5",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_pbp_def_takeaway_rate_avg",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_pbp_def_takeaway_rate_last_3",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_pbp_def_takeaway_rate_last_5",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_pbp_off_epa_per_play_avg",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_pbp_off_epa_per_play_last_3",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_pbp_off_epa_per_play_last_5",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_pbp_off_success_rate_avg",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_pbp_off_success_rate_last_3",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_pbp_off_success_rate_last_5",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_pbp_off_explosive_rate_avg",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_pbp_off_explosive_rate_last_3",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_pbp_off_explosive_rate_last_5",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_pbp_off_turnover_rate_avg",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_pbp_off_turnover_rate_last_3",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_pbp_off_turnover_rate_last_5",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_pbp_off_pass_rate_avg",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_pbp_off_pass_rate_last_3",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_pbp_off_pass_rate_last_5",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_pbp_off_pass_epa_avg",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_pbp_off_pass_epa_last_3",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_pbp_off_pass_epa_last_5",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_pbp_off_rush_epa_avg",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_pbp_off_rush_epa_last_3",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_pbp_off_rush_epa_last_5",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_pbp_def_epa_allowed_per_play_avg",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_pbp_def_epa_allowed_per_play_last_3",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_pbp_def_epa_allowed_per_play_last_5",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_pbp_def_success_allowed_rate_avg",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_pbp_def_success_allowed_rate_last_3",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_pbp_def_success_allowed_rate_last_5",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_pbp_def_explosive_allowed_rate_avg",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_pbp_def_explosive_allowed_rate_last_3",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_pbp_def_explosive_allowed_rate_last_5",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_pbp_def_takeaway_rate_avg",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_pbp_def_takeaway_rate_last_3",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_pbp_def_takeaway_rate_last_5",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_qb_qb_attempts_avg",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_qb_qb_attempts_last_3",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_qb_qb_attempts_last_5",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_qb_qb_passing_yards_avg",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_qb_qb_passing_yards_last_3",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_qb_qb_passing_yards_last_5",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_qb_qb_passing_tds_avg",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_qb_qb_passing_tds_last_3",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_qb_qb_passing_tds_last_5",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_qb_qb_passing_interceptions_avg",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_qb_qb_passing_interceptions_last_3",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_qb_qb_passing_interceptions_last_5",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_qb_qb_sacks_suffered_avg",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_qb_qb_sacks_suffered_last_3",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_qb_qb_sacks_suffered_last_5",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_qb_qb_passing_epa_avg",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_qb_qb_passing_epa_last_3",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_qb_qb_passing_epa_last_5",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_qb_qb_passing_cpoe_avg",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_qb_qb_passing_cpoe_last_3",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_qb_qb_passing_cpoe_last_5",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_qb_qb_attempts_avg",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_qb_qb_attempts_last_3",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_qb_qb_attempts_last_5",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_qb_qb_passing_yards_avg",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_qb_qb_passing_yards_last_3",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_qb_qb_passing_yards_last_5",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_qb_qb_passing_tds_avg",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_qb_qb_passing_tds_last_3",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_qb_qb_passing_tds_last_5",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_qb_qb_passing_interceptions_avg",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_qb_qb_passing_interceptions_last_3",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_qb_qb_passing_interceptions_last_5",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_qb_qb_sacks_suffered_avg",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_qb_qb_sacks_suffered_last_3",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_qb_qb_sacks_suffered_last_5",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_qb_qb_passing_epa_avg",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_qb_qb_passing_epa_last_3",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_qb_qb_passing_epa_last_5",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_qb_qb_passing_cpoe_avg",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_qb_qb_passing_cpoe_last_3",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_qb_qb_passing_cpoe_last_5",
+      "missing": 16,
+      "rows": 272
+    },
+    {
+      "feature": "season",
+      "missing": 0,
+      "rows": 272
+    },
+    {
+      "feature": "week",
+      "missing": 0,
+      "rows": 272
+    },
+    {
+      "feature": "home_team",
+      "missing": 0,
+      "rows": 272
+    },
+    {
+      "feature": "away_team",
+      "missing": 0,
+      "rows": 272
+    },
+    {
+      "feature": "home_team_rest_days",
+      "missing": 0,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_rest_days",
+      "missing": 0,
+      "rows": 272
+    }
+  ],
+  "note": "Schema/key/finite-value checks and observed missingness, not proof of provider correctness. Missing values are not replaced here. No arbitrary healthy-player or neutral-team fill."
+}

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T14:16:08.037498+00:00",
+  "updated_at": "2026-10-15T18:44:27.094099+00:00",
   "status": "attention",
   "issues": [
     {
@@ -7,11 +7,17 @@
       "severity": "warning",
       "message": "28 starting-QB confirmations unavailable for the next seven days.",
       "action": "Import timestamped confirmations; do not infer starters from previous usage."
+    },
+    {
+      "id": "replay_mismatch",
+      "severity": "warning",
+      "message": "1 sampled archived forecasts differ on replay.",
+      "action": "Inspect reproducibility.json; preserve old rounded-input records and use full precision for future archives."
     }
   ],
   "last_successful_refresh": "2026-10-13T15:48:51.253391+00:00",
   "upcoming_games": 14,
   "missing_prediction_ids": [],
   "note": "Operational checks, not model-performance guarantees. Warnings can indicate intentionally unavailable inputs. Notifications should fire only when the issue fingerprint changes or a substantive deployment completes.",
-  "issue_fingerprint": "bede9d1b5ba398d163e069606c3c92c37ede37b6764a4c942e46f2f778e008d3"
+  "issue_fingerprint": "5a1a1987e86ef6036b9be9617e3917daad109b9894dd4e70a10f0890f156c898"
 }

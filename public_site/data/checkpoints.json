@@ -1,0 +1,2726 @@
+{
+  "observations": [],
+  "windows": [
+    {
+      "game_id": "2026_01_NE_SEA",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_01_NE_SEA",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_01_SF_LA",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_01_SF_LA",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_01_CHI_CAR",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_01_CHI_CAR",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_01_TB_CIN",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_01_TB_CIN",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_01_NO_DET",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_01_NO_DET",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_01_BUF_HOU",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_01_BUF_HOU",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_01_BAL_IND",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_01_BAL_IND",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_01_CLE_JAX",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_01_CLE_JAX",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_01_ATL_PIT",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_01_ATL_PIT",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_01_NYJ_TEN",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_01_NYJ_TEN",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_01_ARI_LAC",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_01_ARI_LAC",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_01_MIA_LV",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_01_MIA_LV",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_01_GB_MIN",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_01_GB_MIN",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_01_WAS_PHI",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_01_WAS_PHI",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_01_DAL_NYG",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_01_DAL_NYG",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_01_DEN_KC",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_01_DEN_KC",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_02_DET_BUF",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_02_DET_BUF",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_02_CAR_ATL",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_02_CAR_ATL",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_02_NO_BAL",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_02_NO_BAL",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_02_MIN_CHI",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_02_MIN_CHI",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_02_CIN_HOU",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_02_CIN_HOU",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_02_PIT_NE",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_02_PIT_NE",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_02_GB_NYJ",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_02_GB_NYJ",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_02_CLE_TB",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_02_CLE_TB",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_02_PHI_TEN",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_02_PHI_TEN",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_02_JAX_DEN",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_02_JAX_DEN",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_02_LV_LAC",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_02_LV_LAC",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_02_SEA_ARI",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_02_SEA_ARI",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_02_WAS_DAL",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_02_WAS_DAL",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_02_MIA_SF",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_02_MIA_SF",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_02_IND_KC",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_02_IND_KC",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_02_NYG_LA",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_02_NYG_LA",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_03_ATL_GB",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_03_ATL_GB",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_03_LAC_BUF",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_03_LAC_BUF",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_03_CAR_CLE",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_03_CAR_CLE",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_03_NYJ_DET",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_03_NYJ_DET",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_03_HOU_IND",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_03_HOU_IND",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_03_NE_JAX",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_03_NE_JAX",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_03_KC_MIA",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_03_KC_MIA",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_03_TEN_NYG",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_03_TEN_NYG",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_03_CIN_PIT",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_03_CIN_PIT",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_03_SEA_WAS",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_03_SEA_WAS",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_03_ARI_SF",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_03_ARI_SF",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_03_MIN_TB",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_03_MIN_TB",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_03_BAL_DAL",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_03_BAL_DAL",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_03_LV_NO",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_03_LV_NO",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_03_LA_DEN",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_03_LA_DEN",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_03_PHI_CHI",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_03_PHI_CHI",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_04_PIT_CLE",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_04_PIT_CLE",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_04_IND_WAS",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_04_IND_WAS",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_04_TEN_BAL",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_04_TEN_BAL",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_04_NE_BUF",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_04_NE_BUF",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_04_NYJ_CHI",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_04_NYJ_CHI",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_04_JAX_CIN",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_04_JAX_CIN",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_04_DAL_HOU",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_04_DAL_HOU",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_04_ARI_NYG",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_04_ARI_NYG",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_04_LA_PHI",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_04_LA_PHI",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_04_GB_TB",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_04_GB_TB",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_04_MIA_MIN",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_04_MIA_MIN",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_04_KC_LV",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_04_KC_LV",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_04_LAC_SEA",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_04_LAC_SEA",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_04_DEN_SF",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_04_DEN_SF",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_04_DET_CAR",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_04_DET_CAR",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_04_ATL_NO",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_04_ATL_NO",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_05_TB_DAL",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_05_TB_DAL",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_05_PHI_JAX",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_05_PHI_JAX",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_05_CHI_GB",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_05_CHI_GB",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_05_CIN_MIA",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_05_CIN_MIA",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_05_LV_NE",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_05_LV_NE",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_05_MIN_NO",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_05_MIN_NO",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_05_CLE_NYJ",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_05_CLE_NYJ",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_05_IND_PIT",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_05_IND_PIT",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_05_HOU_TEN",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_05_HOU_TEN",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_05_NYG_WAS",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_05_NYG_WAS",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_05_DEN_LAC",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_05_DEN_LAC",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_05_DET_ARI",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_05_DET_ARI",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_05_SF_SEA",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_05_SF_SEA",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_05_BAL_ATL",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_05_BAL_ATL",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_05_BUF_LA",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_05_BUF_LA",
+      "horizon": "90m",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_06_SEA_DEN",
+      "horizon": "24h",
+      "status": "Missed window"
+    },
+    {
+      "game_id": "2026_06_SEA_DEN",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_06_HOU_JAX",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_06_HOU_JAX",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_06_CHI_ATL",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_06_CHI_ATL",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_06_BAL_CLE",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_06_BAL_CLE",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_06_TEN_IND",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_06_TEN_IND",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_06_NYJ_NE",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_06_NYJ_NE",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_06_NO_NYG",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_06_NO_NYG",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_06_CAR_PHI",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_06_CAR_PHI",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_06_PIT_TB",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_06_PIT_TB",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_06_ARI_LA",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_06_ARI_LA",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_06_LAC_KC",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_06_LAC_KC",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_06_BUF_LV",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_06_BUF_LV",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_06_DAL_GB",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_06_DAL_GB",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_06_WAS_SF",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_06_WAS_SF",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_07_NE_CHI",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_07_NE_CHI",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_07_PIT_NO",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_07_PIT_NO",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_07_SF_ATL",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_07_SF_ATL",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_07_CIN_BAL",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_07_CIN_BAL",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_07_TB_CAR",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_07_TB_CAR",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_07_NYG_HOU",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_07_NYG_HOU",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_07_IND_MIN",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_07_IND_MIN",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_07_MIA_NYJ",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_07_MIA_NYJ",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_07_CLE_TEN",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_07_CLE_TEN",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_07_DEN_ARI",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_07_DEN_ARI",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_07_GB_DET",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_07_GB_DET",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_07_LA_LV",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_07_LA_LV",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_07_KC_SEA",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_07_KC_SEA",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_07_DAL_PHI",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_07_DAL_PHI",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_08_CAR_GB",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_08_CAR_GB",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_08_BAL_BUF",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_08_BAL_BUF",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_08_TEN_CIN",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_08_TEN_CIN",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_08_ARI_DAL",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_08_ARI_DAL",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_08_MIN_DET",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_08_MIN_DET",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_08_IND_JAX",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_08_IND_JAX",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_08_LV_NYJ",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_08_LV_NYJ",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_08_CLE_PIT",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_08_CLE_PIT",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_08_ATL_TB",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_08_ATL_TB",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_08_LAC_LA",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_08_LAC_LA",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_08_KC_DEN",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_08_KC_DEN",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_08_NE_MIA",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_08_NE_MIA",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_08_PHI_WAS",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_08_PHI_WAS",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_08_CHI_SEA",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_08_CHI_SEA",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_09_JAX_BAL",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_09_JAX_BAL",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_09_CIN_ATL",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_09_CIN_ATL",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_09_DEN_CAR",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_09_DEN_CAR",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_09_DAL_IND",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_09_DAL_IND",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_09_NYJ_KC",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_09_NYJ_KC",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_09_DET_MIA",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_09_DET_MIA",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_09_CLE_NO",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_09_CLE_NO",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_09_NYG_PHI",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_09_NYG_PHI",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_09_LA_WAS",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_09_LA_WAS",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_09_HOU_LAC",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_09_HOU_LAC",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_09_LV_SF",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_09_LV_SF",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_09_GB_NE",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_09_GB_NE",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_09_ARI_SEA",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_09_ARI_SEA",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_09_TB_CHI",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_09_TB_CHI",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_09_BUF_MIN",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_09_BUF_MIN",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_10_WAS_NYG",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_10_NE_DET",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_10_NE_DET",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_10_KC_ATL",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_10_KC_ATL",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_10_HOU_CLE",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_10_HOU_CLE",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_10_MIN_GB",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_10_MIN_GB",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_10_MIA_IND",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_10_MIA_IND",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_10_CAR_NO",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_10_CAR_NO",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_10_BUF_NYJ",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_10_BUF_NYJ",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_10_JAX_TEN",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_10_JAX_TEN",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_10_LA_ARI",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_10_LA_ARI",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_10_SEA_LV",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_10_SEA_LV",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_10_SF_DAL",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_10_SF_DAL",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_10_PIT_CIN",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_10_PIT_CIN",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_10_LAC_BAL",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_10_LAC_BAL",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_11_IND_HOU",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_11_IND_HOU",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_11_MIA_BUF",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_11_MIA_BUF",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_11_BAL_CAR",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_11_BAL_CAR",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_11_NO_CHI",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_11_NO_CHI",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_11_TEN_DAL",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_11_TEN_DAL",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_11_TB_DET",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_11_TB_DET",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_11_ARI_KC",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_11_ARI_KC",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_11_JAX_NYG",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_11_JAX_NYG",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_11_NYJ_LAC",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_11_NYJ_LAC",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_11_LV_DEN",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_11_LV_DEN",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_11_PIT_PHI",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_11_PIT_PHI",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_11_MIN_SF",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_11_MIN_SF",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_11_CIN_WAS",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_11_CIN_WAS",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_12_GB_LA",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_12_GB_LA",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_12_CHI_DET",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_12_CHI_DET",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_12_PHI_DAL",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_12_PHI_DAL",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_12_KC_BUF",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_12_KC_BUF",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_12_DEN_PIT",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_12_DEN_PIT",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_12_NO_CIN",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_12_NO_CIN",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_12_LV_CLE",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_12_LV_CLE",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_12_BAL_HOU",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_12_BAL_HOU",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_12_NYG_IND",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_12_NYG_IND",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_12_NYJ_MIA",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_12_NYJ_MIA",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_12_ATL_MIN",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_12_ATL_MIN",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_12_TEN_JAX",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_12_TEN_JAX",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_12_WAS_ARI",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_12_WAS_ARI",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_12_SEA_SF",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_12_SEA_SF",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_12_NE_LAC",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_12_NE_LAC",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_12_CAR_TB",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_12_CAR_TB",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_13_KC_LA",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_13_KC_LA",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_13_DET_ATL",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_13_DET_ATL",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_13_JAX_CHI",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_13_JAX_CHI",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_13_CIN_CLE",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_13_CIN_CLE",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_13_GB_NO",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_13_GB_NO",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_13_SF_NYG",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_13_SF_NYG",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_13_LAC_TB",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_13_LAC_TB",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_13_WAS_TEN",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_13_WAS_TEN",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_13_PHI_ARI",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_13_PHI_ARI",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_13_MIA_DEN",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_13_MIA_DEN",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_13_CAR_MIN",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_13_CAR_MIN",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_13_BUF_NE",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_13_BUF_NE",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_13_HOU_PIT",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_13_HOU_PIT",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_13_DAL_SEA",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_13_DAL_SEA",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_14_MIN_NE",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_14_MIN_NE",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_14_TB_BAL",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_14_TB_BAL",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_14_NO_CAR",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_14_NO_CAR",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_14_ATL_CLE",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_14_ATL_CLE",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_14_TEN_DET",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_14_TEN_DET",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_14_CHI_MIA",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_14_CHI_MIA",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_14_DEN_NYJ",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_14_DEN_NYJ",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_14_IND_PHI",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_14_IND_PHI",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_14_HOU_WAS",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_14_HOU_WAS",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_14_LAC_LV",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_14_LAC_LV",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_14_KC_CIN",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_14_KC_CIN",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_14_NYG_SEA",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_14_NYG_SEA",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_14_LA_SF",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_14_LA_SF",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_14_BUF_GB",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_14_BUF_GB",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_14_PIT_JAX",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_14_PIT_JAX",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_15_SF_LAC",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_15_SF_LAC",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_15_SEA_PHI",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_15_SEA_PHI",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_15_CHI_BUF",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_15_CHI_BUF",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_15_CIN_CAR",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_15_CIN_CAR",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_15_MIA_GB",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_15_MIA_GB",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_15_JAX_HOU",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_15_JAX_HOU",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_15_CLE_NYG",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_15_CLE_NYG",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_15_BAL_PIT",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_15_BAL_PIT",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_15_NO_TB",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_15_NO_TB",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_15_IND_TEN",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_15_IND_TEN",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_15_ATL_WAS",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_15_ATL_WAS",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_15_NYJ_ARI",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_15_NYJ_ARI",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_15_DAL_LA",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_15_DAL_LA",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_15_DEN_LV",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_15_DEN_LV",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_15_DET_MIN",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_15_DET_MIN",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_15_NE_KC",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_15_NE_KC",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_16_HOU_PHI",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_16_HOU_PHI",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_16_GB_CHI",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_16_GB_CHI",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_16_BUF_DEN",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_16_BUF_DEN",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_16_LA_SEA",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_16_LA_SEA",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_16_TB_ATL",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_16_TB_ATL",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_16_CLE_BAL",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_16_CLE_BAL",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_16_CIN_IND",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_16_CIN_IND",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_16_LAC_MIA",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_16_LAC_MIA",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_16_WAS_MIN",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_16_WAS_MIN",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_16_ARI_NO",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_16_ARI_NO",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_16_NE_NYJ",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_16_NE_NYJ",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_16_CAR_PIT",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_16_CAR_PIT",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_16_TEN_LV",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_16_TEN_LV",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_16_SF_KC",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_16_SF_KC",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_16_JAX_DAL",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_16_JAX_DAL",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_16_NYG_DET",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_16_NYG_DET",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_17_BAL_CIN",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_17_BAL_CIN",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_17_NO_ATL",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_17_NO_ATL",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_17_SEA_CAR",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_17_SEA_CAR",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_17_IND_CLE",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_17_IND_CLE",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_17_NYG_DAL",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_17_NYG_DAL",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_17_WAS_JAX",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_17_WAS_JAX",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_17_KC_LAC",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_17_KC_LAC",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_17_BUF_MIA",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_17_BUF_MIA",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_17_DEN_NE",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_17_DEN_NE",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_17_MIN_NYJ",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_17_MIN_NYJ",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_17_LA_TB",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_17_LA_TB",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_17_PIT_TEN",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_17_PIT_TEN",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_17_LV_ARI",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_17_LV_ARI",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_17_DET_CHI",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_17_DET_CHI",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_17_PHI_SF",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_17_PHI_SF",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_17_HOU_GB",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_17_HOU_GB",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_18_SF_ARI",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_18_SF_ARI",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_18_PIT_BAL",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_18_PIT_BAL",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_18_NYJ_BUF",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_18_NYJ_BUF",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_18_ATL_CAR",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_18_ATL_CAR",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_18_CLE_CIN",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_18_CLE_CIN",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_18_LAC_DEN",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_18_LAC_DEN",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_18_DET_GB",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_18_DET_GB",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_18_TEN_HOU",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_18_TEN_HOU",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_18_JAX_IND",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_18_JAX_IND",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_18_LV_KC",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_18_LV_KC",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_18_SEA_LA",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_18_SEA_LA",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_18_CHI_MIN",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_18_CHI_MIN",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_18_MIA_NE",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_18_MIA_NE",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_18_TB_NO",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_18_TB_NO",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_18_PHI_NYG",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_18_PHI_NYG",
+      "horizon": "90m",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_18_DAL_WAS",
+      "horizon": "24h",
+      "status": "Not yet due"
+    },
+    {
+      "game_id": "2026_18_DAL_WAS",
+      "horizon": "90m",
+      "status": "Not yet due"
+    }
+  ],
+  "note": "Actual captures only: 24h +/-30 minutes or 90m +/-15 minutes before kickoff, after a validated refresh within 30 minutes. No synthetic/backfilled snapshots. First capture is immutable. Weekly refresh invokes capture but cannot guarantee these windows; no additional checkpoint scheduler is configured."
+}

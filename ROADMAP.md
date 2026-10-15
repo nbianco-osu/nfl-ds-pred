@@ -68,6 +68,29 @@ Completed-game reconstructions never replace archived pregame production picks.
 
 ## Evidence and Boundaries (Continued)
 
+## R28-R40 Iteration
+
+| ID | Status | Delivered scope |
+| --- | --- | --- |
+| R28 | Implemented | Historical opponent-adjusted EPA/sack/big-play features for 2017-2026, franchise aliases, coverage fingerprints and week-frozen inputs. |
+| R29 | Implemented research | Five matched views on 621 decisive holdout games; paired season-week intervals. All differences inconclusive; production unchanged. |
+| R30 | Capture implemented; cadence limited | Immutable 24h/90m snapshots with freshness and window gates. Weekly refresh calls capture; missed windows explicit. No extra scheduler installed. |
+| R31 | Implemented sensitivity tool | User-assumed QB/availability point shifts over archived shadow distributions; not player valuations or confirmations. |
+| R32 | Implemented | Version-separated saved-pick errors by confidence, team, stage and provenance; sample warnings and tie exclusions. |
+| R33 | Implemented local controls | Content-addressed model bundles, human approval, integrity/feature-contract gates, dry run and exception-safe activation/rollback. Baseline snapshot only; no approval or activation performed. |
+| R34 | Implemented | Feature keys, coverage, finite-value checks and missingness inventory; publication contract gate. |
+| R35 | Implemented | Eastern/local kickoff displays with DST-aware UTC source timestamps. |
+| R36 | Implemented | Filtered CSV export with versions/timestamps and formula-string protection. |
+| R37 | Implemented | Model/source registry with artifact fingerprints and source observation provenance. |
+| R38 | Implemented research | Missing-feature stress tests using trained imputers and identical held-out games. |
+| R39 | Implemented audit | Original archived input replay; one of ten sampled records differs slightly. Old precision limitation preserved; future serialization fixed. |
+| R40 | Implemented | Keyboard-accessible game finder, datalist and game deep links. |
+
+See RELEASE_R28_R40.md for commands, evidence, safety boundaries and release-blob
+backup requirements. No new recurring development task was created.
+
+## Evidence and Boundaries (Research)
+
 - `rolling_backtest.py` is a research baseline harness, not a refit or evaluation of the deployed Random Forest. Production model files and archived picks are unchanged.
 - Historical CSV inputs are revised snapshots and omit ties. Initial published results describe available source rows, not an independently audited full schedule.
 - Observed performance is computed from saved forecasts. Older winner records lack original creation timestamps; legacy provenance is incomplete. The default view isolates the latest known winner version.
@@ -90,6 +113,8 @@ Backtest outputs: `backtests/weekly_predictions.csv` and
 results, but never runs backtests or retrains production automatically.
 
 ## Iteration Log
+
+- 2026-10-15, R28-R40: Completed historical coverage and feature ablations, checkpoint capture, sensitivity scenarios, diagnostics, release controls and Evidence Lab. All 84 Python tests and desktop/mobile browser checks passed, including CSV download and keyboard navigation. No production model/pick changes. Historical added-feature differences are inconclusive. Replay audit reports one small mismatch among ten sampled forecasts; future archives preserve full numeric precision.
 
 - 2026-10-15, R23-R27: Added observed-time weather collection, frozen live challenger cohorts, negative-binomial uncertainty research, compact default view, full-season research replay and actionable reliability checks. Production artifacts and pregame picks unchanged. Confirmed starters remain supplied inputs, and prospective challenger outcomes are not yet available. Full implementation notes: RELEASE_R23_R27.md.
 

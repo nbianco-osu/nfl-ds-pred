@@ -9,6 +9,8 @@ data/research_sources/*
 !models/research32_holdout.csv
 audit/sources/**/*.parquet
 audit/weather_responses/
+.release_blobs/
+!data/historical_opponent_features.csv
 .refresh-stage/
 __pycache__/
 .pytest_cache/
@@ -42,6 +44,7 @@ explanations/*
 !models/home_win_gpr_*.metrics.json
 !data/current_features_2026.csv
 !data/current_features_2026.json
+!data/historical_opponent_features.csv
 !data/opponent_features_2026.csv
 !data/opponent_ratings_2026.json
 !data/opponent_rankings_2026.csv

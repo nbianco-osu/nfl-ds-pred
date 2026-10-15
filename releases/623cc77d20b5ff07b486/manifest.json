@@ -1,0 +1,16 @@
+{
+  "release_id": "623cc77d20b5ff07b486",
+  "files": {
+    "models/home_win_advanced_automl_no_market_deep.joblib": "79b726e0cf80b116f762c7ab9e702e1838423bf34fe122f43a86f7868957e276",
+    "models/home_win_advanced_automl_no_market_deep.metrics.json": "876abab44202e5b68c9a7d1a55745bf4eef5ce6b9bc22b1b0242dbe3e022a56c",
+    "models/score_models/ExtraTreesRegressor.joblib": "6c685d8ccef91cc30bd444d97014dde6bf4e14c611283f26e48fdcc3ed934bdb",
+    "models/score_models/HistGradientBoostingRegressor.joblib": "feff04073cabe3d5ff8fe4d717e7f950b7d8dc93887d0917441afeb9d5a9dfc6",
+    "models/score_models/RandomForestRegressor.joblib": "7e9cca7d171eff7cfda432a2727ea6ad0c4a701c6db86785b56dc6edaf5452d0",
+    "models/score_models/Ridge.joblib": "3fd2ac33a2decbd6caa904cb61bbbeadae0ebf4825eb4ba01e53ad5fb52226c0",
+    "models/score_models/score_ensemble.joblib": "6d22e030ee9d5960af6c4448cd796951b94440e3683a3625745e79a84adfbb3d",
+    "models/score_models/score_ensemble.metrics.json": "7a2f178a4c7e09ccdf3fae91d93cc83a99c3d0b8605e7b13912d9a0ed650776b"
+  },
+  "created_at": "2026-10-15T18:37:08.395631+00:00",
+  "status": "unapproved",
+  "note": "Local model bundle only. Data, archived picks and hosted deployments are never rolled back by this tool."
+}

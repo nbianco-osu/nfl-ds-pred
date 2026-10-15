@@ -6,6 +6,8 @@ const root = dirname(fileURLToPath(import.meta.url));
 const dist = join(root, "dist");
 
 const assets = {
+  "/lab.js": { file: "lab.js", type: "text/javascript; charset=utf-8" },
+  ...Object.fromEntries(['historical_coverage','feature_value','robustness','checkpoints','error_analysis','data_quality','model_registry','kickoffs','qb_scenarios','reproducibility'].map(name=>[`/data/${name}.json`,{file:`data/${name}.json`,type:'application/json; charset=utf-8'}])),
   "/iteration.js": { file: "iteration.js", type: "text/javascript; charset=utf-8" },
   "/data/reliability.json": { file: "data/reliability.json", type: "application/json; charset=utf-8" },
   "/data/live_challengers.json": { file: "data/live_challengers.json", type: "application/json; charset=utf-8" },

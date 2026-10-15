@@ -37,7 +37,8 @@ def archive(root, schedule, metadata, features, artifact, probabilities, old):
         game = schedule.loc[schedule.game_id.eq(row.game_id)].iloc[0]
         if not pregame(game, now):
             raise ValueError('Cannot create provenance after kickoff')
-        raw = json.loads(features.iloc[[i]].to_json(orient='records'))[0]
+        raw = {key: None if pd.isna(value) else value.item() if hasattr(value,'item') else value
+               for key,value in features.iloc[i].items()}
         payload = {'game_id': row.game_id, 'model_version': version, 'model_sha256':model_sha256, 'features': raw,
                    'probability': float(probabilities[i]), 'source_hashes': {k:v['sha256'] for k,v in coverage.get('receipts', {}).items()}}
         digest = hashlib.sha256(json.dumps(payload, sort_keys=True).encode()).hexdigest()

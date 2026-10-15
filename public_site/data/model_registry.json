@@ -1,0 +1,757 @@
+{
+  "models": [
+    {
+      "path": "models/archive/20260922T134855Z/home_win_advanced_automl.joblib",
+      "sha256": "334611b43fcecffda3e257095e95efdef41da3ee8045f000d7e839aa04aa6bfa",
+      "bytes": 2209336,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/archive/20260922T134855Z/home_win_advanced_automl_no_market.joblib",
+      "sha256": "7ce9f7b975b6184630185ef391f6459bd40df2ec20f7e4762f63e480bad804ba",
+      "bytes": 16461136,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/archive/20260922T134855Z/home_win_advanced_automl_no_market_deep.joblib",
+      "sha256": "3f4702f3859fea0dcc20d0e52565a57cf3ad01931c8e07af73f63f683e5b8d12",
+      "bytes": 52475614,
+      "role": "Production classifier"
+    },
+    {
+      "path": "models/archive/20260922T134855Z/home_win_advanced_logreg.joblib",
+      "sha256": "300fed748e18ea3339a2dd061e3d3e7ed7a97f1c02f641903f3e46ac5f4233d9",
+      "bytes": 55264,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/archive/20260922T134855Z/home_win_advanced_logreg_no_market.joblib",
+      "sha256": "66ebd51f847a4ae95d61eaa2e35a9db6520751e4dc265f9b818d928721980766",
+      "bytes": 55078,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/archive/20260922T134855Z/home_win_automl.joblib",
+      "sha256": "e7b69cc17b3768e60c91b87d29cdcf922cb318f1ef4540a0ae76acb8d999083a",
+      "bytes": 234076,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/archive/20260922T134855Z/home_win_automl_no_market.joblib",
+      "sha256": "959423fe0ac89c8d5e176f2d451c04c6eb5836c9c2ff268b89539d145ead093e",
+      "bytes": 10026731,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/archive/20260922T134855Z/home_win_logreg.joblib",
+      "sha256": "f19407bebfacbb1d9e4aa24a0582bc367beafcd4b0787b100da7d5df4fc00245",
+      "bytes": 9091,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/archive/20260922T151906Z/home_win_advanced_automl.joblib",
+      "sha256": "0085d490a8ce0fa6aa2b1c09116eddb729a0a68a3c546b242928744af33cf1b0",
+      "bytes": 748032,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/archive/20260922T151906Z/home_win_advanced_automl_no_market.joblib",
+      "sha256": "e6901f026fb9fb5abc764304c60681ce68df4b366a2a31b5f5042bf61833f5a9",
+      "bytes": 4619933,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/archive/20260922T151906Z/home_win_advanced_automl_no_market_deep.joblib",
+      "sha256": "d1ad4fa543d04f0954088818e851288e89567865d26cbc0b06f66aec7fa585c5",
+      "bytes": 14228149,
+      "role": "Production classifier"
+    },
+    {
+      "path": "models/archive/20260922T151906Z/home_win_advanced_logreg.joblib",
+      "sha256": "806cb9ea4a043d11046a304c3091887c37f173919e51cd0167fadbde1a0b1190",
+      "bytes": 17837,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/archive/20260922T151906Z/home_win_advanced_logreg_no_market.joblib",
+      "sha256": "0c11925c82ec2cb9a08e41be0692f77e8c058550a5af1c428c20174fcc364edc",
+      "bytes": 17845,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/archive/20260922T151906Z/home_win_automl.joblib",
+      "sha256": "75894a7b960aa61fbd2e2c35500c3c0acaab3fb3f944cc47dbba95f676d00a87",
+      "bytes": 91445,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/archive/20260922T151906Z/home_win_automl_no_market.joblib",
+      "sha256": "6d3290fa77a30ffce3bbfbed68f18190b4a2c890afa7ca9cee2ad12fe02ea783",
+      "bytes": 3197111,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/archive/20260922T151906Z/home_win_logreg.joblib",
+      "sha256": "6bee9cf1f8e9949fd7a7f90a19850f097ec7f6f8a304d7b6083b53d7b5cb0d2b",
+      "bytes": 4469,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/archive/20260922T153952Z/home_win_gpr_linear.joblib",
+      "sha256": "d8f294c10f6ef441b63a562904d7660f449d20d03c3d4c6863d41b341189dc8d",
+      "bytes": 4012889,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/archive/20260922T153952Z/home_win_gpr_matern_05.joblib",
+      "sha256": "3ab57fe9c88983e24ef4e7903b1bd74bf4b2f8fb60f861b46793adbeb9120f96",
+      "bytes": 4013670,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/archive/20260922T153952Z/home_win_gpr_matern_15.joblib",
+      "sha256": "dca892893f66ed054d97e7b4c86dea8bff02689b434b0e5cc1c81efaa3c78f0d",
+      "bytes": 4013239,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/archive/20260922T153952Z/home_win_gpr_matern_25.joblib",
+      "sha256": "58333b595a159f4bbce2a120cfc1787ac9d506ba0922085fb08bc44d4fbec132",
+      "bytes": 4012875,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/archive/20260922T153952Z/home_win_gpr_matern_linear.joblib",
+      "sha256": "5d0185534d22a6222abc4d57d42cffa36265fff97b38097eaf29dd216461df2a",
+      "bytes": 4012638,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/archive/20260922T153952Z/home_win_gpr_rational_quadratic.joblib",
+      "sha256": "2f3469bb0dcb575021eec6de70cacc018e509cb68660988012fb709108523123",
+      "bytes": 4012786,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/archive/20260922T153952Z/home_win_gpr_rbf.joblib",
+      "sha256": "ef8f812c29b34ba1b32109bb7415de5f6d31f1beb4ee072b89cf6e0c3a6dc0bf",
+      "bytes": 4012422,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/archive/20260922T153952Z/home_win_gpr_rbf_linear.joblib",
+      "sha256": "587d12850090711d6146f3a5937c26320a03755e1bee36f1aa47e884ebd3cb00",
+      "bytes": 4012857,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/archive/20260929T124531Z/home_win_advanced_automl.joblib",
+      "sha256": "878947bb44ab884eeb608f487e68632b7448b086255dfe64db2cd7a4886d5878",
+      "bytes": 746876,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/archive/20260929T124531Z/home_win_advanced_automl_no_market.joblib",
+      "sha256": "93883a90a6e37036589da6a88889bbf385e53ae12b85eae8e35492ebb3cf2add",
+      "bytes": 4617601,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/archive/20260929T124531Z/home_win_advanced_automl_no_market_deep.joblib",
+      "sha256": "0d23827b3d86fbdb32635f426af25ecc58ed08cf485584097ebe3a3b416044d5",
+      "bytes": 14152003,
+      "role": "Production classifier"
+    },
+    {
+      "path": "models/archive/20260929T124531Z/home_win_advanced_logreg.joblib",
+      "sha256": "9a1bc79818632049f9430b7f90df461a2541156436fd46e4a2703a1d14def5e4",
+      "bytes": 17841,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/archive/20260929T124531Z/home_win_advanced_logreg_no_market.joblib",
+      "sha256": "0279e54aee19c7b4053619ccb92d07b50defbcf4720d101b3e964e9b2d0ff5da",
+      "bytes": 17854,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/archive/20260929T124531Z/home_win_automl.joblib",
+      "sha256": "6bb4d705a957d5f95f4bd0fd76441ee01a043e355ac63d1ca0f1bb80e8ee52bd",
+      "bytes": 91463,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/archive/20260929T124531Z/home_win_automl_no_market.joblib",
+      "sha256": "f9f5f2234974e18ce765940f5ac6418758d0134f2f1915e55d90bfd691006614",
+      "bytes": 3197131,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/archive/20260929T124531Z/home_win_logreg.joblib",
+      "sha256": "e560a218e62ef77893fafa3a5ef5e38b8bfee30f5410e943da5228381fdcf2f8",
+      "bytes": 4486,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/archive/20260929T124637Z/home_win_gpr_linear.joblib",
+      "sha256": "9178e58ad72e4b3aaa41c29e8fc68d994128aadb54a06db3ed23d93abd4205a1",
+      "bytes": 4014920,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/archive/20260929T124637Z/home_win_gpr_matern_05.joblib",
+      "sha256": "270a3df9be99f0642694eebe2a91b38882b71137200bd435251a3b055a3319d2",
+      "bytes": 4015662,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/archive/20260929T124637Z/home_win_gpr_matern_15.joblib",
+      "sha256": "c9a1e18e81ccdc1240b128def482de635dccb5183a46d8570d55d0774aa1adfb",
+      "bytes": 4015241,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/archive/20260929T124637Z/home_win_gpr_matern_25.joblib",
+      "sha256": "0487035fb2e68312afaeef47075724ec6fcee249214e5f0761449c6d70040e9d",
+      "bytes": 4014857,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/archive/20260929T124637Z/home_win_gpr_matern_linear.joblib",
+      "sha256": "dc3d28040ca74ee4e1a9a1f3fc71d56d97124d1bab644cdf0e77fd913909d8c2",
+      "bytes": 4014424,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/archive/20260929T124637Z/home_win_gpr_rational_quadratic.joblib",
+      "sha256": "23567ca87161fdc346836d1ab512b13d2408e426bd664ccbbb275f2ed8f1e669",
+      "bytes": 4014701,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/archive/20260929T124637Z/home_win_gpr_rbf.joblib",
+      "sha256": "09a0933b73cd77d6d2de8cf4bfb164fc4c3b2699311b7012d587f9a284f952b9",
+      "bytes": 4014344,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/archive/20260929T124637Z/home_win_gpr_rbf_linear.joblib",
+      "sha256": "ace064a12818e6e410a67d8b0ce3fa4bab45122dad3671bcab0481e51e3893ed",
+      "bytes": 4014907,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/archive/20260930T205050Z/score_ensemble.joblib",
+      "sha256": "c4ba9e8a3db4ac504c10d6f688f029c2d6518b8b8e3dee3d7a0a508b747540ac",
+      "bytes": 4824591,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/home_win_advanced_automl.joblib",
+      "sha256": "3c7b90877dfa6157fca738c92d9df718d3ac161eaee6ccef9d429642c734f65a",
+      "bytes": 746890,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/home_win_advanced_automl_no_market.joblib",
+      "sha256": "259266d309f012e1fc138d615dc33e2dc173c19de0d4d7aba441e40afb4463c5",
+      "bytes": 4628102,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/home_win_advanced_automl_no_market_deep.joblib",
+      "sha256": "79b726e0cf80b116f762c7ab9e702e1838423bf34fe122f43a86f7868957e276",
+      "bytes": 14153492,
+      "role": "Production classifier"
+    },
+    {
+      "path": "models/home_win_advanced_logreg.joblib",
+      "sha256": "6176eaf248665023238760a869a254f835fc18ead1b0c7b3fb81281850611cb2",
+      "bytes": 17874,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/home_win_advanced_logreg_no_market.joblib",
+      "sha256": "8d67172ab0d8eadbfb4658b0a81e37ce064c80e4c8e649cf5c41613d9eb32ba1",
+      "bytes": 17867,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/home_win_advanced_smoke.joblib",
+      "sha256": "2055fdb4102f0485223e1c8171da88639f35e01d0343238a894b2f572d3fb0b8",
+      "bytes": 53349,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/home_win_automl.joblib",
+      "sha256": "a792d7e8950260d466430db7e18f90c236992578444a2209b1f855d613a3ce96",
+      "bytes": 91622,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/home_win_automl_no_market.joblib",
+      "sha256": "f908095c17df18d73a46372defbe200c929387513f4f967cb252f06aa76f0ab8",
+      "bytes": 3196441,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/home_win_expanded_adaboost_contrasts.joblib",
+      "sha256": "8ab01f9ee13130c6f44039e2ec07e243ea0ab698f57bb333b79c1dd35fffb1e2",
+      "bytes": 19853,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/home_win_expanded_adaboost_full_context.joblib",
+      "sha256": "fc01852d99f8629f74bf97bbadc093ab89712a5ebdb5f08df86648fffbfe1eee",
+      "bytes": 31784,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/home_win_expanded_extra_trees_contrasts.joblib",
+      "sha256": "48bd58d0402aefd2bda073a74ea904c4482ee9edaf56502538f82ef8400019fb",
+      "bytes": 1345768,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/home_win_expanded_extra_trees_full_context.joblib",
+      "sha256": "3e44788ce9566523183df49ed5079ed4cfc273db6d4bb7ce607cd1daba7f26f9",
+      "bytes": 1122002,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/home_win_expanded_gaussian_nb_contrasts.joblib",
+      "sha256": "55f7c49e547938b898510835b101cbd799add30000570dd23c3b7a91df7f9149",
+      "bytes": 7371,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/home_win_expanded_gaussian_nb_full_context.joblib",
+      "sha256": "a2c27be53c9c094a7aa8a5d81c9fb69ec006c4444a2427d0619057d0e85b3641",
+      "bytes": 30843,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/home_win_expanded_gradient_boost_contrasts.joblib",
+      "sha256": "1a27af6c3f5efd83d96b6c7a09be612f316bf1fc8acac31de4532fd45b6156bd",
+      "bytes": 37234,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/home_win_expanded_gradient_boost_full_context.joblib",
+      "sha256": "b8213561fb462e288e360f697bdc4c697d2528d46d1f84609eb89b87d4611416",
+      "bytes": 36067,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/home_win_expanded_hist_boost_contrasts.joblib",
+      "sha256": "38c58dc3af57abd7767c9569973253df3be6a9d3fba1cbabdd441d628d0c29de",
+      "bytes": 121466,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/home_win_expanded_hist_boost_full_context.joblib",
+      "sha256": "222d74f1eb8742783ad7b51f7c8a3f0b2c61fa3dff56f31984c657e9a88b4198",
+      "bytes": 596064,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/home_win_expanded_logistic_contrasts.joblib",
+      "sha256": "b1b8571a587729b480240bab4188924d71bfe4b84f77fdf84633ad3c3a3061a4",
+      "bytes": 6424,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/home_win_expanded_logistic_full_context.joblib",
+      "sha256": "45e29e9aaa716280d38ff7c2d5bde2b4f2fa0703597cdfe2db717e463b81fb74",
+      "bytes": 21760,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/home_win_expanded_random_forest_contrasts.joblib",
+      "sha256": "bd435ca2489bcf6f0c4d1e71a52a63f0adbeb31dad8a84f3414bc537d4beb4a7",
+      "bytes": 279747,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/home_win_expanded_random_forest_full_context.joblib",
+      "sha256": "3ff304c657d11316b2832b2fd361f9c6a2eeab43a3c1ad4b2ef35b74636e99bd",
+      "bytes": 1375937,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/home_win_expanded_sgd_logistic_contrasts.joblib",
+      "sha256": "9015a923de5e632df17e8a02a4045898a898805ee930731dca658104567df168",
+      "bytes": 7060,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/home_win_expanded_sgd_logistic_full_context.joblib",
+      "sha256": "67c90548347caa80899743015cde10060b9ed3a6ab1bdd6e9e6410cc4e478cfa",
+      "bytes": 25532,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/home_win_gpr_linear.joblib",
+      "sha256": "72645d55f669fef03750d8f75e38f53789835b2ab7a6ca0a6f3624c47bcff662",
+      "bytes": 4179285,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/home_win_gpr_matern_05.joblib",
+      "sha256": "ac2b59e93fd86416dff66b131bdc9694e786552fbbf0ec6b929dc5c663c1c15a",
+      "bytes": 4180155,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/home_win_gpr_matern_15.joblib",
+      "sha256": "234341180d1b2abf7838513f26a4a590336a1c0d36cc291880b5a0e5bafff7ab",
+      "bytes": 4180749,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/home_win_gpr_matern_25.joblib",
+      "sha256": "fe81f70aeb4fd3b8c8b6e1a9fda156a9531ee48c74fbf9b90722fa59df0f5297",
+      "bytes": 4181341,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/home_win_gpr_matern_linear.joblib",
+      "sha256": "8292e8d4212fd541c2daa09219b7a2c975d90a0d1a3a0899b2393b74c25ff41e",
+      "bytes": 4179340,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/home_win_gpr_rational_quadratic.joblib",
+      "sha256": "1cf1f8069bac90f3a13f71a29115388b99fced6e9d751d7c2b7b05a3e059fb34",
+      "bytes": 4180117,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/home_win_gpr_rbf.joblib",
+      "sha256": "6215a1b5b8302ee0d6b0babf1dde75efc90d0c039782bf47aee35249b8a75f2e",
+      "bytes": 4179855,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/home_win_gpr_rbf_linear.joblib",
+      "sha256": "107765b674e381ec7475b8bade0ce8d5fda562ef6bee75fd565da8d34e1c6f2b",
+      "bytes": 4180186,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/home_win_logreg.joblib",
+      "sha256": "8f18bcee0d961019f27511d7161cd727e203d28b72ee03a9614bf0b6187d3b52",
+      "bytes": 4495,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/research/r25-5b67fa1c24d1/models.joblib",
+      "sha256": "c4c67baa7c6800fa3c57d7defd7aa8e825036942167a3aa260981103f428c361",
+      "bytes": 2469,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/research/score-r19-b3d4261883f9/poisson.joblib",
+      "sha256": "1e413bdf5420643f5f351118f39b05d1658d265af385e785c8e5c8eab1955991",
+      "bytes": 8087,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/research/score-r19-b3d4261883f9/ridge_residual.joblib",
+      "sha256": "6f4d8716320f11f2c1f6e63a83b3db5b885362ac6e483ecfdc1e00a14d1728cf",
+      "bytes": 7461,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/research/score-r19-b3d4261883f9/scoring_events.joblib",
+      "sha256": "8cad66289c06f23bb111cacccc789ea8c503a4f10c26dcf212b5e186621ebad0",
+      "bytes": 8101,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/research/score-r19-b3d4261883f9/tweedie.joblib",
+      "sha256": "d6becbe7f2dd9d41f7c820c02fa20bf64823b5042b60c0da01adfb01530a04c7",
+      "bytes": 8167,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/research/score_distribution.joblib",
+      "sha256": "d586ed0a81de04c23b5aa7ddc99e6c4d647674dc273f1f9b39fc56279dd949d7",
+      "bytes": 12995,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/research/stack-r21-e4064721f4bf/stack.joblib",
+      "sha256": "ddec0f47e6a6cbb9f4480ff12c25c46527bb648300a923d388b08843391da74a",
+      "bytes": 11133,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/research32/20261013T163253Z/research_bagged_logistic_charted.joblib",
+      "sha256": "226bb4189c2ad46546ca0bd664bd54383cc10f7f4fa7e7b05047bb2fc344c4ca",
+      "bytes": 7583,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/research32/20261013T163253Z/research_bagged_logistic_core.joblib",
+      "sha256": "37fb510f16e7976c0d5e3c757260c66d87859e8210e586e30819b349fd75ce01",
+      "bytes": 5878,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/research32/20261013T163253Z/research_bagged_trees_charted.joblib",
+      "sha256": "57d1f87eabf74333697ae4e813371dc48f622a347595df8bdf3cb74a84aaaef7",
+      "bytes": 46611,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/research32/20261013T163253Z/research_bagged_trees_core.joblib",
+      "sha256": "1832b8de1a5216601ad750ee75185e8f64f356129794a491a9fe5f2509ac8c28",
+      "bytes": 46448,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/research32/20261013T163253Z/research_elastic_net_charted.joblib",
+      "sha256": "27fefe30130e2bcbaf9a01ef65ea48202e7b638694b5f055dc29b71edbda5445",
+      "bytes": 3194,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/research32/20261013T163253Z/research_elastic_net_core.joblib",
+      "sha256": "a76fc732eeabc9fb1d0e8d6e1c2dbc06338e8fe15f91bfb4b933a48bf5d2b73a",
+      "bytes": 2665,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/research32/20261013T163253Z/research_linear_svm_charted.joblib",
+      "sha256": "e7b9fc2a1d64fb71d3d96a24d88a6b5fdf6aa5a103f4ccf065c3e47916f0c8f3",
+      "bytes": 3189,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/research32/20261013T163253Z/research_linear_svm_core.joblib",
+      "sha256": "3ec13386ffd4a1cbb98bdc9ee21913490670dc071965b25ce0a45742df6e1ba5",
+      "bytes": 2638,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/research32/20261013T163253Z/research_nearest_centroid_charted.joblib",
+      "sha256": "6c1e34cc184706f9efa16d7e1d87adc0474d81a88649fde02ee7654cf9b19c79",
+      "bytes": 3904,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/research32/20261013T163253Z/research_nearest_centroid_core.joblib",
+      "sha256": "8247758a27c68efda8e6ad8ba0a2acd24bc13110a5c6e868c249f9460330de65",
+      "bytes": 3144,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/research32/20261013T163253Z/research_neighbors_charted.joblib",
+      "sha256": "9f7dc8b3b350c74d6e569436fae768c67970523c0fa811b1291c1deb688b48ac",
+      "bytes": 356289,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/research32/20261013T163253Z/research_neighbors_core.joblib",
+      "sha256": "2577c9da59a6ee59fb6f7b723517448c51a44718fc028c7f48f2ba36194a7aa2",
+      "bytes": 269368,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/research32/20261013T163253Z/research_neural_network_charted.joblib",
+      "sha256": "edf6951e130bc7a529d225378fd0f6ad59762e9a39df882da87cc32810a31974",
+      "bytes": 15556,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/research32/20261013T163253Z/research_neural_network_core.joblib",
+      "sha256": "555d099be3adc090504c904944e661190257fbc61916b05170977fabbb6b2481",
+      "bytes": 12660,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/research32/20261013T163253Z/research_nystroem_logistic_charted.joblib",
+      "sha256": "0de4e82d25dc6d8b520e981e23e9e25175e9850eca14ac52137d56b98c2eddd6",
+      "bytes": 87529,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/research32/20261013T163253Z/research_nystroem_logistic_core.joblib",
+      "sha256": "76c17175030a8ddb58c2a950746cb8b695b981c337b694d0b9c2e8eea6cb9c9a",
+      "bytes": 84171,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/research32/20261013T163253Z/research_passive_aggressive_charted.joblib",
+      "sha256": "eab3cddd76d42535c7e32c1cfbe2521a42ea33e6a82a565e327c2c4eccd8c8b6",
+      "bytes": 3385,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/research32/20261013T163253Z/research_passive_aggressive_core.joblib",
+      "sha256": "3e85a7ea1a129f968ede3086deb64635b1b9629a7ceadd67e85474db70d714ab",
+      "bytes": 2829,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/research32/20261013T163253Z/research_polynomial_svm_charted.joblib",
+      "sha256": "269975eeb244e0ffe736e114c19a9788bed4769a73c115342ff0a3701acc4b91",
+      "bytes": 293522,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/research32/20261013T163253Z/research_polynomial_svm_core.joblib",
+      "sha256": "d2804e5e9d8f56fb311bc4f119689ffa2ea266e9517262af64161504145935f5",
+      "bytes": 218043,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/research32/20261013T163253Z/research_rbf_features_charted.joblib",
+      "sha256": "73ffe30ec0243ca0fb8cf86a68e81c3925603a0968c903135353d96f72829bba",
+      "bytes": 28091,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/research32/20261013T163253Z/research_rbf_features_core.joblib",
+      "sha256": "5f9f4f8bfac8ff6310b9d47554a8f3849311515850ab17243288e1485a2ba012",
+      "bytes": 19875,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/research32/20261013T163253Z/research_rbf_svm_charted.joblib",
+      "sha256": "2a0f493b10a6bde7e6cb9a8089179cd352a8c128cf440da18030c700be60538a",
+      "bytes": 315079,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/research32/20261013T163253Z/research_rbf_svm_core.joblib",
+      "sha256": "59a40b64d84a694a59b3d06c952c3e3ad3dfb72e737dca2d98973247288d971a",
+      "bytes": 227829,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/research32/20261013T163253Z/research_regularized_qda_charted.joblib",
+      "sha256": "d05c723f1f223d15ee0a41039c06c78cb288f4f43a5ce2d392f577d4ff586e05",
+      "bytes": 17724,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/research32/20261013T163253Z/research_regularized_qda_core.joblib",
+      "sha256": "296ab80be00966f52179e75da249bc91a440f79c581248279b08130e66d7c193",
+      "bytes": 9109,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/research32/20261013T163253Z/research_ridge_classifier_charted.joblib",
+      "sha256": "0fb7f6e9799d699537ea8a5c0a4c838418f7a912f49941813efbd3f1e6fecc9b",
+      "bytes": 3245,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/research32/20261013T163253Z/research_ridge_classifier_core.joblib",
+      "sha256": "41dc27d56159ec16f6b2e8646d0531abae66bc90af6d8611e60e407722ca1b5c",
+      "bytes": 2690,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/research32/20261013T163253Z/research_shrinkage_lda_charted.joblib",
+      "sha256": "260f93fae13dad6fddae3b58a7620acc6112613fa067522a1da7eb7ed01d6a21",
+      "bytes": 8197,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/research32/20261013T163253Z/research_shrinkage_lda_core.joblib",
+      "sha256": "a5ce363b833ef5c2ed71635e2a2d79357ccec2f8116b0143c74ec32f69828f66",
+      "bytes": 4977,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/research32/20261013T163253Z/research_spline_logistic_charted.joblib",
+      "sha256": "2cea460a79c486a1eeed8694774e885cdacac4e5968e848d59f1826b3dc73299",
+      "bytes": 6858,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/research32/20261013T163253Z/research_spline_logistic_core.joblib",
+      "sha256": "7cc0a34f537341bf8cd424dd954a67329eff591bb6422b7c55c1faf5a557cf45",
+      "bytes": 5209,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/score_models/ExtraTreesRegressor.joblib",
+      "sha256": "6c685d8ccef91cc30bd444d97014dde6bf4e14c611283f26e48fdcc3ed934bdb",
+      "bytes": 2802547,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/score_models/HistGradientBoostingRegressor.joblib",
+      "sha256": "feff04073cabe3d5ff8fe4d717e7f950b7d8dc93887d0917441afeb9d5a9dfc6",
+      "bytes": 867283,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/score_models/RandomForestRegressor.joblib",
+      "sha256": "7e9cca7d171eff7cfda432a2727ea6ad0c4a701c6db86785b56dc6edaf5452d0",
+      "bytes": 2048248,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/score_models/Ridge.joblib",
+      "sha256": "3fd2ac33a2decbd6caa904cb61bbbeadae0ebf4825eb4ba01e53ad5fb52226c0",
+      "bytes": 20399,
+      "role": "Separate artifact; role defined by training metadata"
+    },
+    {
+      "path": "models/score_models/score_ensemble.joblib",
+      "sha256": "6d22e030ee9d5960af6c4448cd796951b94440e3683a3625745e79a84adfbb3d",
+      "bytes": 3669450,
+      "role": "Separate artifact; role defined by training metadata"
+    }
+  ],
+  "sources": [
+    {
+      "source": "nflreadpy.backtest_schedules",
+      "sha256": "f1907dc7a445e703b35806b7cb383c65b7aadd87bd7245845f4ad30cecfd3ba6",
+      "rows": 7276,
+      "retrieved_at": "2026-10-13T15:18:28.479449+00:00",
+      "provider_published_at": null
+    },
+    {
+      "source": "nflreadpy.load_injuries",
+      "sha256": "98842bb3ad57c32fdedbdcd73aebd39bcd7a55d14800b9366dee23bb4fca08c6",
+      "rows": 1413,
+      "retrieved_at": "2026-10-13T15:40:34.103342+00:00",
+      "provider_published_at": null
+    },
+    {
+      "source": "nflreadpy.load_pbp",
+      "sha256": "a05af1006ffe9ee35eb7cb54b6fad907d793d16f1ffa1e52daa54828f22c04cf",
+      "rows": 13842,
+      "retrieved_at": "2026-10-13T15:40:27.530522+00:00",
+      "provider_published_at": null
+    },
+    {
+      "source": "nflreadpy.load_player_stats",
+      "sha256": "f0d51bfa2398f9923f880ff70966e1cb241eaf1a1e2ec2aa9eb81fe82c65eb81",
+      "rows": 5506,
+      "retrieved_at": "2026-10-13T15:40:31.821405+00:00",
+      "provider_published_at": null
+    },
+    {
+      "source": "nflreadpy.load_rosters_weekly",
+      "sha256": "9a7cee0ec33e141c0f3e10056028ee7c5b3d1a343931461423c24948401c84cc",
+      "rows": 15293,
+      "retrieved_at": "2026-10-13T15:40:34.717494+00:00",
+      "provider_published_at": null
+    },
+    {
+      "source": "nflreadpy.load_schedules",
+      "sha256": "c6bc5d56f97adcc2efc683963bc66550a0afa287ae822b8ceb0be69fc4c624c3",
+      "rows": 272,
+      "retrieved_at": "2026-10-13T15:40:26.140991+00:00",
+      "provider_published_at": null
+    }
+  ],
+  "note": "Artifact inventory with SHA-256 fingerprints, not a matched performance ranking. Retrieval timestamps are not original publication times. Models are not loaded by the browser; no credentials or raw private sources are exposed."
+}

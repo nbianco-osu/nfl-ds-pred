@@ -1,0 +1,91 @@
+{
+  "models": [
+    {
+      "view": "adjusted",
+      "games": 623,
+      "decisive_games": 621,
+      "log_loss": 0.6377502235535847,
+      "brier": 0.22363571868562832,
+      "delta_log_loss": -0.0017085847550751929,
+      "delta_ci95": [
+        -0.004906114736503989,
+        0.0017959874868618039
+      ],
+      "team_score_mae": 7.427056266883435
+    },
+    {
+      "view": "all",
+      "games": 623,
+      "decisive_games": 621,
+      "log_loss": 0.6381232052898049,
+      "brier": 0.22372036335844062,
+      "delta_log_loss": -0.0013356030188549511,
+      "delta_ci95": [
+        -0.0056862286288710505,
+        0.0029100111899200264
+      ],
+      "team_score_mae": 7.428452845040051
+    },
+    {
+      "view": "baseline",
+      "games": 623,
+      "decisive_games": 621,
+      "log_loss": 0.6394588083086599,
+      "brier": 0.2243123632734568,
+      "delta_log_loss": 0.0,
+      "delta_ci95": [
+        0.0,
+        0.0
+      ],
+      "team_score_mae": 7.444966074473937
+    },
+    {
+      "view": "big_plays",
+      "games": 623,
+      "decisive_games": 621,
+      "log_loss": 0.6395271548907114,
+      "brier": 0.22432834388551032,
+      "delta_log_loss": 6.834658205160837e-05,
+      "delta_ci95": [
+        -0.0003936135908361417,
+        0.0006026171048430187
+      ],
+      "team_score_mae": 7.446334420710487
+    },
+    {
+      "view": "sacks",
+      "games": 623,
+      "decisive_games": 621,
+      "log_loss": 0.6389531781895246,
+      "brier": 0.22401267469840663,
+      "delta_log_loss": -0.0005056301191352517,
+      "delta_ci95": [
+        -0.0040167909596392675,
+        0.0028439327963622717
+      ],
+      "team_score_mae": 7.4363194155432435
+    }
+  ],
+  "folds": [
+    {
+      "season": 2024,
+      "train_through": "2024-01-07",
+      "test_start": "2024-09-05",
+      "games": 272
+    },
+    {
+      "season": 2025,
+      "train_through": "2025-01-05",
+      "test_start": "2025-09-04",
+      "games": 272
+    },
+    {
+      "season": 2026,
+      "train_through": "2026-01-04",
+      "test_start": "2026-09-09",
+      "games": 79
+    }
+  ],
+  "note": "Identical fixed logistic/Ridge pipelines and chronological annual folds; baseline = prior-eight-game score form + raw offensive EPA. Each added view differs only in features. Median imputation/scaling fit only on training. Paired 95% intervals resample season-week clusters (1,000 draws, seed42). No multiple-comparison correction; designed after historical seasons. Retrospective evidence only; no automatic promotion.",
+  "features_sha256": "43afde7696fb95d7e4786f887762ece98ea73449e0002f4546a24bc0e638fffe"
+}

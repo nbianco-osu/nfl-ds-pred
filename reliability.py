@@ -67,6 +67,10 @@ def export(root,season=2026,now=None):
     if queue_hash and queue_hash!=receipt_hash:
         add('warehouse_pending','warning','Database queue is not verified as synced.','Execute and verify pending connector batches, then record the remote receipt.')
     live=read(root,'public_site/data/live_challengers.json',{'forecasts':[]})
+    replay=read(root,'public_site/data/reproducibility.json',{'sample':[]})
+    mismatches=sum(r.get('status')=='Mismatch' for r in replay['sample'])
+    if mismatches:
+        add('replay_mismatch','warning',f'{mismatches} sampled archived forecasts differ on replay.','Inspect reproducibility.json; preserve old rounded-input records and use full precision for future archives.')
     live_ids={r['game_id'] for r in live['forecasts']}
     if any(g['game_id'] not in live_ids for g in upcoming):
         add('missing_challengers','warning','Some upcoming games have no saved shadow forecast.','Run live_challengers.py using the pinned artifacts; do not retrain automatically.')
