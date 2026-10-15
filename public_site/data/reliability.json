@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T18:44:27.094099+00:00",
+  "updated_at": "2026-10-15T22:06:54.448097+00:00",
   "status": "attention",
   "issues": [
     {
@@ -9,15 +9,27 @@
       "action": "Import timestamped confirmations; do not infer starters from previous usage."
     },
     {
+      "id": "weather_collection",
+      "severity": "warning",
+      "message": "Latest weather collection has failures.",
+      "action": "Inspect input_collection.json; archived observations are preserved."
+    },
+    {
+      "id": "warehouse_pending",
+      "severity": "warning",
+      "message": "Database queue is not verified as synced.",
+      "action": "Execute and verify pending connector batches, then record the remote receipt."
+    },
+    {
       "id": "replay_mismatch",
       "severity": "warning",
       "message": "1 sampled archived forecasts differ on replay.",
       "action": "Inspect reproducibility.json; preserve old rounded-input records and use full precision for future archives."
     }
   ],
-  "last_successful_refresh": "2026-10-13T15:48:51.253391+00:00",
+  "last_successful_refresh": "2026-10-15T22:06:54.200065+00:00",
   "upcoming_games": 14,
   "missing_prediction_ids": [],
   "note": "Operational checks, not model-performance guarantees. Warnings can indicate intentionally unavailable inputs. Notifications should fire only when the issue fingerprint changes or a substantive deployment completes.",
-  "issue_fingerprint": "5a1a1987e86ef6036b9be9617e3917daad109b9894dd4e70a10f0890f156c898"
+  "issue_fingerprint": "c2cf361eac0837e52d6d60c3386f34c34db986954fec3e2bb8704c90454aebce"
 }

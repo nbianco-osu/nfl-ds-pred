@@ -1,252 +1,6 @@
 {
   "models": [
     {
-      "path": "models/archive/20260922T134855Z/home_win_advanced_automl.joblib",
-      "sha256": "334611b43fcecffda3e257095e95efdef41da3ee8045f000d7e839aa04aa6bfa",
-      "bytes": 2209336,
-      "role": "Separate artifact; role defined by training metadata"
-    },
-    {
-      "path": "models/archive/20260922T134855Z/home_win_advanced_automl_no_market.joblib",
-      "sha256": "7ce9f7b975b6184630185ef391f6459bd40df2ec20f7e4762f63e480bad804ba",
-      "bytes": 16461136,
-      "role": "Separate artifact; role defined by training metadata"
-    },
-    {
-      "path": "models/archive/20260922T134855Z/home_win_advanced_automl_no_market_deep.joblib",
-      "sha256": "3f4702f3859fea0dcc20d0e52565a57cf3ad01931c8e07af73f63f683e5b8d12",
-      "bytes": 52475614,
-      "role": "Production classifier"
-    },
-    {
-      "path": "models/archive/20260922T134855Z/home_win_advanced_logreg.joblib",
-      "sha256": "300fed748e18ea3339a2dd061e3d3e7ed7a97f1c02f641903f3e46ac5f4233d9",
-      "bytes": 55264,
-      "role": "Separate artifact; role defined by training metadata"
-    },
-    {
-      "path": "models/archive/20260922T134855Z/home_win_advanced_logreg_no_market.joblib",
-      "sha256": "66ebd51f847a4ae95d61eaa2e35a9db6520751e4dc265f9b818d928721980766",
-      "bytes": 55078,
-      "role": "Separate artifact; role defined by training metadata"
-    },
-    {
-      "path": "models/archive/20260922T134855Z/home_win_automl.joblib",
-      "sha256": "e7b69cc17b3768e60c91b87d29cdcf922cb318f1ef4540a0ae76acb8d999083a",
-      "bytes": 234076,
-      "role": "Separate artifact; role defined by training metadata"
-    },
-    {
-      "path": "models/archive/20260922T134855Z/home_win_automl_no_market.joblib",
-      "sha256": "959423fe0ac89c8d5e176f2d451c04c6eb5836c9c2ff268b89539d145ead093e",
-      "bytes": 10026731,
-      "role": "Separate artifact; role defined by training metadata"
-    },
-    {
-      "path": "models/archive/20260922T134855Z/home_win_logreg.joblib",
-      "sha256": "f19407bebfacbb1d9e4aa24a0582bc367beafcd4b0787b100da7d5df4fc00245",
-      "bytes": 9091,
-      "role": "Separate artifact; role defined by training metadata"
-    },
-    {
-      "path": "models/archive/20260922T151906Z/home_win_advanced_automl.joblib",
-      "sha256": "0085d490a8ce0fa6aa2b1c09116eddb729a0a68a3c546b242928744af33cf1b0",
-      "bytes": 748032,
-      "role": "Separate artifact; role defined by training metadata"
-    },
-    {
-      "path": "models/archive/20260922T151906Z/home_win_advanced_automl_no_market.joblib",
-      "sha256": "e6901f026fb9fb5abc764304c60681ce68df4b366a2a31b5f5042bf61833f5a9",
-      "bytes": 4619933,
-      "role": "Separate artifact; role defined by training metadata"
-    },
-    {
-      "path": "models/archive/20260922T151906Z/home_win_advanced_automl_no_market_deep.joblib",
-      "sha256": "d1ad4fa543d04f0954088818e851288e89567865d26cbc0b06f66aec7fa585c5",
-      "bytes": 14228149,
-      "role": "Production classifier"
-    },
-    {
-      "path": "models/archive/20260922T151906Z/home_win_advanced_logreg.joblib",
-      "sha256": "806cb9ea4a043d11046a304c3091887c37f173919e51cd0167fadbde1a0b1190",
-      "bytes": 17837,
-      "role": "Separate artifact; role defined by training metadata"
-    },
-    {
-      "path": "models/archive/20260922T151906Z/home_win_advanced_logreg_no_market.joblib",
-      "sha256": "0c11925c82ec2cb9a08e41be0692f77e8c058550a5af1c428c20174fcc364edc",
-      "bytes": 17845,
-      "role": "Separate artifact; role defined by training metadata"
-    },
-    {
-      "path": "models/archive/20260922T151906Z/home_win_automl.joblib",
-      "sha256": "75894a7b960aa61fbd2e2c35500c3c0acaab3fb3f944cc47dbba95f676d00a87",
-      "bytes": 91445,
-      "role": "Separate artifact; role defined by training metadata"
-    },
-    {
-      "path": "models/archive/20260922T151906Z/home_win_automl_no_market.joblib",
-      "sha256": "6d3290fa77a30ffce3bbfbed68f18190b4a2c890afa7ca9cee2ad12fe02ea783",
-      "bytes": 3197111,
-      "role": "Separate artifact; role defined by training metadata"
-    },
-    {
-      "path": "models/archive/20260922T151906Z/home_win_logreg.joblib",
-      "sha256": "6bee9cf1f8e9949fd7a7f90a19850f097ec7f6f8a304d7b6083b53d7b5cb0d2b",
-      "bytes": 4469,
-      "role": "Separate artifact; role defined by training metadata"
-    },
-    {
-      "path": "models/archive/20260922T153952Z/home_win_gpr_linear.joblib",
-      "sha256": "d8f294c10f6ef441b63a562904d7660f449d20d03c3d4c6863d41b341189dc8d",
-      "bytes": 4012889,
-      "role": "Separate artifact; role defined by training metadata"
-    },
-    {
-      "path": "models/archive/20260922T153952Z/home_win_gpr_matern_05.joblib",
-      "sha256": "3ab57fe9c88983e24ef4e7903b1bd74bf4b2f8fb60f861b46793adbeb9120f96",
-      "bytes": 4013670,
-      "role": "Separate artifact; role defined by training metadata"
-    },
-    {
-      "path": "models/archive/20260922T153952Z/home_win_gpr_matern_15.joblib",
-      "sha256": "dca892893f66ed054d97e7b4c86dea8bff02689b434b0e5cc1c81efaa3c78f0d",
-      "bytes": 4013239,
-      "role": "Separate artifact; role defined by training metadata"
-    },
-    {
-      "path": "models/archive/20260922T153952Z/home_win_gpr_matern_25.joblib",
-      "sha256": "58333b595a159f4bbce2a120cfc1787ac9d506ba0922085fb08bc44d4fbec132",
-      "bytes": 4012875,
-      "role": "Separate artifact; role defined by training metadata"
-    },
-    {
-      "path": "models/archive/20260922T153952Z/home_win_gpr_matern_linear.joblib",
-      "sha256": "5d0185534d22a6222abc4d57d42cffa36265fff97b38097eaf29dd216461df2a",
-      "bytes": 4012638,
-      "role": "Separate artifact; role defined by training metadata"
-    },
-    {
-      "path": "models/archive/20260922T153952Z/home_win_gpr_rational_quadratic.joblib",
-      "sha256": "2f3469bb0dcb575021eec6de70cacc018e509cb68660988012fb709108523123",
-      "bytes": 4012786,
-      "role": "Separate artifact; role defined by training metadata"
-    },
-    {
-      "path": "models/archive/20260922T153952Z/home_win_gpr_rbf.joblib",
-      "sha256": "ef8f812c29b34ba1b32109bb7415de5f6d31f1beb4ee072b89cf6e0c3a6dc0bf",
-      "bytes": 4012422,
-      "role": "Separate artifact; role defined by training metadata"
-    },
-    {
-      "path": "models/archive/20260922T153952Z/home_win_gpr_rbf_linear.joblib",
-      "sha256": "587d12850090711d6146f3a5937c26320a03755e1bee36f1aa47e884ebd3cb00",
-      "bytes": 4012857,
-      "role": "Separate artifact; role defined by training metadata"
-    },
-    {
-      "path": "models/archive/20260929T124531Z/home_win_advanced_automl.joblib",
-      "sha256": "878947bb44ab884eeb608f487e68632b7448b086255dfe64db2cd7a4886d5878",
-      "bytes": 746876,
-      "role": "Separate artifact; role defined by training metadata"
-    },
-    {
-      "path": "models/archive/20260929T124531Z/home_win_advanced_automl_no_market.joblib",
-      "sha256": "93883a90a6e37036589da6a88889bbf385e53ae12b85eae8e35492ebb3cf2add",
-      "bytes": 4617601,
-      "role": "Separate artifact; role defined by training metadata"
-    },
-    {
-      "path": "models/archive/20260929T124531Z/home_win_advanced_automl_no_market_deep.joblib",
-      "sha256": "0d23827b3d86fbdb32635f426af25ecc58ed08cf485584097ebe3a3b416044d5",
-      "bytes": 14152003,
-      "role": "Production classifier"
-    },
-    {
-      "path": "models/archive/20260929T124531Z/home_win_advanced_logreg.joblib",
-      "sha256": "9a1bc79818632049f9430b7f90df461a2541156436fd46e4a2703a1d14def5e4",
-      "bytes": 17841,
-      "role": "Separate artifact; role defined by training metadata"
-    },
-    {
-      "path": "models/archive/20260929T124531Z/home_win_advanced_logreg_no_market.joblib",
-      "sha256": "0279e54aee19c7b4053619ccb92d07b50defbcf4720d101b3e964e9b2d0ff5da",
-      "bytes": 17854,
-      "role": "Separate artifact; role defined by training metadata"
-    },
-    {
-      "path": "models/archive/20260929T124531Z/home_win_automl.joblib",
-      "sha256": "6bb4d705a957d5f95f4bd0fd76441ee01a043e355ac63d1ca0f1bb80e8ee52bd",
-      "bytes": 91463,
-      "role": "Separate artifact; role defined by training metadata"
-    },
-    {
-      "path": "models/archive/20260929T124531Z/home_win_automl_no_market.joblib",
-      "sha256": "f9f5f2234974e18ce765940f5ac6418758d0134f2f1915e55d90bfd691006614",
-      "bytes": 3197131,
-      "role": "Separate artifact; role defined by training metadata"
-    },
-    {
-      "path": "models/archive/20260929T124531Z/home_win_logreg.joblib",
-      "sha256": "e560a218e62ef77893fafa3a5ef5e38b8bfee30f5410e943da5228381fdcf2f8",
-      "bytes": 4486,
-      "role": "Separate artifact; role defined by training metadata"
-    },
-    {
-      "path": "models/archive/20260929T124637Z/home_win_gpr_linear.joblib",
-      "sha256": "9178e58ad72e4b3aaa41c29e8fc68d994128aadb54a06db3ed23d93abd4205a1",
-      "bytes": 4014920,
-      "role": "Separate artifact; role defined by training metadata"
-    },
-    {
-      "path": "models/archive/20260929T124637Z/home_win_gpr_matern_05.joblib",
-      "sha256": "270a3df9be99f0642694eebe2a91b38882b71137200bd435251a3b055a3319d2",
-      "bytes": 4015662,
-      "role": "Separate artifact; role defined by training metadata"
-    },
-    {
-      "path": "models/archive/20260929T124637Z/home_win_gpr_matern_15.joblib",
-      "sha256": "c9a1e18e81ccdc1240b128def482de635dccb5183a46d8570d55d0774aa1adfb",
-      "bytes": 4015241,
-      "role": "Separate artifact; role defined by training metadata"
-    },
-    {
-      "path": "models/archive/20260929T124637Z/home_win_gpr_matern_25.joblib",
-      "sha256": "0487035fb2e68312afaeef47075724ec6fcee249214e5f0761449c6d70040e9d",
-      "bytes": 4014857,
-      "role": "Separate artifact; role defined by training metadata"
-    },
-    {
-      "path": "models/archive/20260929T124637Z/home_win_gpr_matern_linear.joblib",
-      "sha256": "dc3d28040ca74ee4e1a9a1f3fc71d56d97124d1bab644cdf0e77fd913909d8c2",
-      "bytes": 4014424,
-      "role": "Separate artifact; role defined by training metadata"
-    },
-    {
-      "path": "models/archive/20260929T124637Z/home_win_gpr_rational_quadratic.joblib",
-      "sha256": "23567ca87161fdc346836d1ab512b13d2408e426bd664ccbbb275f2ed8f1e669",
-      "bytes": 4014701,
-      "role": "Separate artifact; role defined by training metadata"
-    },
-    {
-      "path": "models/archive/20260929T124637Z/home_win_gpr_rbf.joblib",
-      "sha256": "09a0933b73cd77d6d2de8cf4bfb164fc4c3b2699311b7012d587f9a284f952b9",
-      "bytes": 4014344,
-      "role": "Separate artifact; role defined by training metadata"
-    },
-    {
-      "path": "models/archive/20260929T124637Z/home_win_gpr_rbf_linear.joblib",
-      "sha256": "ace064a12818e6e410a67d8b0ce3fa4bab45122dad3671bcab0481e51e3893ed",
-      "bytes": 4014907,
-      "role": "Separate artifact; role defined by training metadata"
-    },
-    {
-      "path": "models/archive/20260930T205050Z/score_ensemble.joblib",
-      "sha256": "c4ba9e8a3db4ac504c10d6f688f029c2d6518b8b8e3dee3d7a0a508b747540ac",
-      "bytes": 4824591,
-      "role": "Separate artifact; role defined by training metadata"
-    },
-    {
       "path": "models/home_win_advanced_automl.joblib",
       "sha256": "3c7b90877dfa6157fca738c92d9df718d3ac161eaee6ccef9d429642c734f65a",
       "bytes": 746890,
@@ -1805,37 +1559,37 @@
     },
     {
       "source": "nflreadpy.load_injuries",
-      "sha256": "98842bb3ad57c32fdedbdcd73aebd39bcd7a55d14800b9366dee23bb4fca08c6",
-      "rows": 1413,
-      "retrieved_at": "2026-10-13T15:40:34.103342+00:00",
+      "sha256": "c4ec8d3ec6976c1a640bdca618f5fba2d2bc787a66c29c19c1a0e87110ccb0e6",
+      "rows": 1697,
+      "retrieved_at": "2026-10-15T22:03:13.088061+00:00",
       "provider_published_at": null
     },
     {
       "source": "nflreadpy.load_pbp",
-      "sha256": "a05af1006ffe9ee35eb7cb54b6fad907d793d16f1ffa1e52daa54828f22c04cf",
+      "sha256": "cd914b9bdbcd5479b2aeb776c0d0f4bbdf6f39c5b4746566f0985bd1652af685",
       "rows": 13842,
-      "retrieved_at": "2026-10-13T15:40:27.530522+00:00",
+      "retrieved_at": "2026-10-15T22:03:08.636818+00:00",
       "provider_published_at": null
     },
     {
       "source": "nflreadpy.load_player_stats",
-      "sha256": "f0d51bfa2398f9923f880ff70966e1cb241eaf1a1e2ec2aa9eb81fe82c65eb81",
+      "sha256": "6e59f2df3dcf1ed9a265f5483f1128377d9c14fc5a051f8f8e3f9f952fd2bde9",
       "rows": 5506,
-      "retrieved_at": "2026-10-13T15:40:31.821405+00:00",
+      "retrieved_at": "2026-10-15T22:03:11.677444+00:00",
       "provider_published_at": null
     },
     {
       "source": "nflreadpy.load_rosters_weekly",
-      "sha256": "9a7cee0ec33e141c0f3e10056028ee7c5b3d1a343931461423c24948401c84cc",
-      "rows": 15293,
-      "retrieved_at": "2026-10-13T15:40:34.717494+00:00",
+      "sha256": "f71ea5868dfccb9bda2f37d2cef463e91e7f5fb350465d6c2f33a0f4f5dcb5f8",
+      "rows": 15326,
+      "retrieved_at": "2026-10-15T22:03:13.207560+00:00",
       "provider_published_at": null
     },
     {
       "source": "nflreadpy.load_schedules",
-      "sha256": "c6bc5d56f97adcc2efc683963bc66550a0afa287ae822b8ceb0be69fc4c624c3",
+      "sha256": "d0c14137e8c8a11017d4b48c38ea7a808e8a6a6c0acf2d2de1fb68c48ad06ca5",
       "rows": 272,
-      "retrieved_at": "2026-10-13T15:40:26.140991+00:00",
+      "retrieved_at": "2026-10-15T22:03:07.621054+00:00",
       "provider_published_at": null
     }
   ],

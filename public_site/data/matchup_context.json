@@ -2618,7 +2618,7 @@
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Bo Nix",
       "last_qb_attempt_share": 1.0,
-      "ol_out": null,
+      "ol_out": 0,
       "roster_ol_count": 15,
       "active_roster_ol_count": 9
     },
@@ -2630,7 +2630,7 @@
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Sam Darnold",
       "last_qb_attempt_share": 1.0,
-      "ol_out": null,
+      "ol_out": 0,
       "roster_ol_count": 14,
       "active_roster_ol_count": 8
     },
@@ -2651,9 +2651,9 @@
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Trevor Lawrence",
       "last_qb_attempt_share": 1.0,
-      "ol_out": null,
+      "ol_out": 0,
       "roster_ol_count": 17,
-      "active_roster_ol_count": 9
+      "active_roster_ol_count": 8
     },
     "away": {
       "last_performance_week": 5,
@@ -2663,9 +2663,9 @@
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "C.J. Stroud",
       "last_qb_attempt_share": 1.0,
-      "ol_out": null,
+      "ol_out": 0,
       "roster_ol_count": 15,
-      "active_roster_ol_count": 10
+      "active_roster_ol_count": 11
     },
     "weather": {
       "status": "No timestamped forecast source configured"
@@ -2684,7 +2684,7 @@
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Michael Penix Jr.",
       "last_qb_attempt_share": 0.9142857142857143,
-      "ol_out": null,
+      "ol_out": 0,
       "roster_ol_count": 16,
       "active_roster_ol_count": 9
     },
@@ -2696,7 +2696,7 @@
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Tyson Bagent",
       "last_qb_attempt_share": 0.525,
-      "ol_out": null,
+      "ol_out": 0,
       "roster_ol_count": 12,
       "active_roster_ol_count": 9
     },
@@ -2717,8 +2717,8 @@
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Deshaun Watson",
       "last_qb_attempt_share": 1.0,
-      "ol_out": null,
-      "roster_ol_count": 12,
+      "ol_out": 0,
+      "roster_ol_count": 13,
       "active_roster_ol_count": 10
     },
     "away": {
@@ -2729,7 +2729,7 @@
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Tyler Huntley",
       "last_qb_attempt_share": 1.0,
-      "ol_out": null,
+      "ol_out": 0,
       "roster_ol_count": 18,
       "active_roster_ol_count": 8
     },
@@ -2750,7 +2750,7 @@
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Daniel Jones",
       "last_qb_attempt_share": 1.0,
-      "ol_out": null,
+      "ol_out": 0,
       "roster_ol_count": 13,
       "active_roster_ol_count": 9
     },
@@ -2762,7 +2762,7 @@
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Cam Ward",
       "last_qb_attempt_share": 1.0,
-      "ol_out": null,
+      "ol_out": 0,
       "roster_ol_count": 14,
       "active_roster_ol_count": 9
     },
@@ -2783,7 +2783,7 @@
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Drake Maye",
       "last_qb_attempt_share": 1.0,
-      "ol_out": null,
+      "ol_out": 0,
       "roster_ol_count": 15,
       "active_roster_ol_count": 9
     },
@@ -2795,7 +2795,7 @@
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Geno Smith",
       "last_qb_attempt_share": 1.0,
-      "ol_out": null,
+      "ol_out": 0,
       "roster_ol_count": 13,
       "active_roster_ol_count": 9
     },
@@ -2816,8 +2816,8 @@
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Jameis Winston",
       "last_qb_attempt_share": 1.0,
-      "ol_out": null,
-      "roster_ol_count": 13,
+      "ol_out": 0,
+      "roster_ol_count": 14,
       "active_roster_ol_count": 9
     },
     "away": {
@@ -2828,7 +2828,7 @@
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Tyler Shough",
       "last_qb_attempt_share": 1.0,
-      "ol_out": null,
+      "ol_out": 0,
       "roster_ol_count": 14,
       "active_roster_ol_count": 8
     },
@@ -2849,8 +2849,8 @@
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Jalen Hurts",
       "last_qb_attempt_share": 1.0,
-      "ol_out": null,
-      "roster_ol_count": 13,
+      "ol_out": 0,
+      "roster_ol_count": 14,
       "active_roster_ol_count": 9
     },
     "away": {
@@ -2861,7 +2861,7 @@
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Bryce Young",
       "last_qb_attempt_share": 1.0,
-      "ol_out": null,
+      "ol_out": 0,
       "roster_ol_count": 15,
       "active_roster_ol_count": 10
     },
@@ -2882,7 +2882,7 @@
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Jalon Daniels",
       "last_qb_attempt_share": 1.0,
-      "ol_out": null,
+      "ol_out": 0,
       "roster_ol_count": 13,
       "active_roster_ol_count": 10
     },
@@ -2894,7 +2894,7 @@
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Aaron Rodgers",
       "last_qb_attempt_share": 1.0,
-      "ol_out": null,
+      "ol_out": 0,
       "roster_ol_count": 12,
       "active_roster_ol_count": 8
     },
@@ -2915,9 +2915,9 @@
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Matthew Stafford",
       "last_qb_attempt_share": 1.0,
-      "ol_out": null,
+      "ol_out": 0,
       "roster_ol_count": 13,
-      "active_roster_ol_count": 9
+      "active_roster_ol_count": 8
     },
     "away": {
       "last_performance_week": 5,
@@ -2927,7 +2927,7 @@
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Jacoby Brissett",
       "last_qb_attempt_share": 1.0,
-      "ol_out": null,
+      "ol_out": 0,
       "roster_ol_count": 15,
       "active_roster_ol_count": 8
     },
@@ -2948,7 +2948,7 @@
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Patrick Mahomes",
       "last_qb_attempt_share": 1.0,
-      "ol_out": null,
+      "ol_out": 0,
       "roster_ol_count": 13,
       "active_roster_ol_count": 10
     },
@@ -2960,7 +2960,7 @@
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Justin Herbert",
       "last_qb_attempt_share": 1.0,
-      "ol_out": null,
+      "ol_out": 0,
       "roster_ol_count": 17,
       "active_roster_ol_count": 9
     },
@@ -2981,7 +2981,7 @@
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Kirk Cousins",
       "last_qb_attempt_share": 0.7777777777777778,
-      "ol_out": null,
+      "ol_out": 0,
       "roster_ol_count": 14,
       "active_roster_ol_count": 9
     },
@@ -3014,8 +3014,8 @@
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Jordan Love",
       "last_qb_attempt_share": 1.0,
-      "ol_out": null,
-      "roster_ol_count": 16,
+      "ol_out": 0,
+      "roster_ol_count": 15,
       "active_roster_ol_count": 11
     },
     "away": {
@@ -3026,8 +3026,8 @@
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Dak Prescott",
       "last_qb_attempt_share": 1.0,
-      "ol_out": null,
-      "roster_ol_count": 12,
+      "ol_out": 0,
+      "roster_ol_count": 13,
       "active_roster_ol_count": 9
     },
     "weather": {

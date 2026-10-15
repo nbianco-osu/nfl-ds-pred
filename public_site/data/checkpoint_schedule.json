@@ -1,6 +1,10 @@
 {
-  "automation_id": "nfl-pregame-checkpoint-refresh",
   "status": "ACTIVE",
-  "interval_minutes": 10,
-  "note": "Active: checks every 10 minutes and refreshes only uncaptured 24-hour (+/-30 minutes) or 90-minute (+/-15 minutes) pregame windows. The Tuesday 9 a.m. Eastern update remains active. A shared process lock prevents concurrent refreshes. Local host/scheduler availability and refresh duration can cause missed windows; captures are never backfilled."
+  "authority": "private GitHub Actions",
+  "repository": "nbianco-osu/nfl-ds-pred-runner",
+  "workflow": "runner.yml",
+  "schedule": "Static full-season bounded kickoff triggers plus daily schedule drift checks",
+  "weekly_refresh": "Tuesday 09:00 America/New_York (DST-aware)",
+  "shadow_calibrator": "frozen",
+  "note": "Cloud authority: bounded checks around known 24-hour and 90-minute pregame windows, daily future-schedule drift checks, and Tuesday 9 a.m. Eastern results refresh. GitHub schedule latency or dropped runs and refresh duration can cause missed windows; captures are never backfilled. The legacy shadow calibrator is frozen; no cloud retraining."
 }

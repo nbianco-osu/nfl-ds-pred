@@ -50,8 +50,6 @@
       ]
     }
   ],
-  "rollback_bundles": [
-    "623cc77d20b5ff07b486"
-  ],
+  "rollback_bundles": [],
   "note": "Read-only public review. No browser approval or activation endpoint. Use the existing local release_control.py snapshot/plan/approve/activate/rollback workflow after evidence review and compatible serving integration. A clone does not include private rollback blobs. No approval has been granted and no live model changed."
 }

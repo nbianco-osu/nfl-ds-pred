@@ -4,7 +4,7 @@
     {
       "game_id": "2026_06_ARI_LA",
       "status": "Reproduced",
-      "absolute_difference": 1.1102230246251565e-16
+      "absolute_difference": 0.0
     },
     {
       "game_id": "2026_06_BAL_CLE",
@@ -14,7 +14,7 @@
     {
       "game_id": "2026_06_BUF_LV",
       "status": "Reproduced",
-      "absolute_difference": 1.1102230246251565e-16
+      "absolute_difference": 0.0
     },
     {
       "game_id": "2026_06_CAR_PHI",
@@ -34,17 +34,17 @@
     {
       "game_id": "2026_06_HOU_JAX",
       "status": "Reproduced",
-      "absolute_difference": 1.1102230246251565e-16
+      "absolute_difference": 0.0
     },
     {
       "game_id": "2026_06_LAC_KC",
       "status": "Reproduced",
-      "absolute_difference": 3.3306690738754696e-16
+      "absolute_difference": 0.0
     },
     {
       "game_id": "2026_06_NO_NYG",
       "status": "Reproduced",
-      "absolute_difference": 1.1102230246251565e-16
+      "absolute_difference": 0.0
     },
     {
       "game_id": "2026_06_NYJ_NE",

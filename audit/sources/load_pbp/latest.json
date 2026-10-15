@@ -1,8 +1,8 @@
 {
   "source": "nflreadpy.load_pbp",
-  "sha256": "a05af1006ffe9ee35eb7cb54b6fad907d793d16f1ffa1e52daa54828f22c04cf",
+  "sha256": "cd914b9bdbcd5479b2aeb776c0d0f4bbdf6f39c5b4746566f0985bd1652af685",
   "rows": 13842,
-  "retrieved_at": "2026-10-13T15:40:27.530522+00:00",
+  "retrieved_at": "2026-10-15T22:03:08.636818+00:00",
   "provider_published_at": null,
   "cache_may_be_used": true,
   "note": "Local observation time, not proof of original publication or freshness."
