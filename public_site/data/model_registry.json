@@ -1561,35 +1561,35 @@
       "source": "nflreadpy.load_injuries",
       "sha256": "c4ec8d3ec6976c1a640bdca618f5fba2d2bc787a66c29c19c1a0e87110ccb0e6",
       "rows": 1697,
-      "retrieved_at": "2026-10-15T22:03:13.088061+00:00",
+      "retrieved_at": "2026-10-16T03:39:48.468422+00:00",
       "provider_published_at": null
     },
     {
       "source": "nflreadpy.load_pbp",
       "sha256": "cd914b9bdbcd5479b2aeb776c0d0f4bbdf6f39c5b4746566f0985bd1652af685",
       "rows": 13842,
-      "retrieved_at": "2026-10-15T22:03:08.636818+00:00",
+      "retrieved_at": "2026-10-16T03:39:43.476079+00:00",
       "provider_published_at": null
     },
     {
       "source": "nflreadpy.load_player_stats",
       "sha256": "6e59f2df3dcf1ed9a265f5483f1128377d9c14fc5a051f8f8e3f9f952fd2bde9",
       "rows": 5506,
-      "retrieved_at": "2026-10-15T22:03:11.677444+00:00",
+      "retrieved_at": "2026-10-16T03:39:46.644433+00:00",
       "provider_published_at": null
     },
     {
       "source": "nflreadpy.load_rosters_weekly",
       "sha256": "f71ea5868dfccb9bda2f37d2cef463e91e7f5fb350465d6c2f33a0f4f5dcb5f8",
       "rows": 15326,
-      "retrieved_at": "2026-10-15T22:03:13.207560+00:00",
+      "retrieved_at": "2026-10-16T03:39:49.131812+00:00",
       "provider_published_at": null
     },
     {
       "source": "nflreadpy.load_schedules",
-      "sha256": "d0c14137e8c8a11017d4b48c38ea7a808e8a6a6c0acf2d2de1fb68c48ad06ca5",
+      "sha256": "202f341ba1b7b1a4fe50ff4f9c4a4345faa14c6e5ced0efc8af56e8cf9051dc7",
       "rows": 272,
-      "retrieved_at": "2026-10-15T22:03:07.621054+00:00",
+      "retrieved_at": "2026-10-16T03:39:42.884723+00:00",
       "provider_published_at": null
     }
   ],

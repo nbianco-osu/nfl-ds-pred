@@ -1,7 +1,9 @@
 {
   "season": 2026,
   "status": "research_only",
-  "missing_completed_game_ids": [],
+  "missing_completed_game_ids": [
+    "2026_06_SEA_DEN"
+  ],
   "shrinkage_plays": 200.0,
   "source_games": 79,
   "source_plays": 9693,
@@ -8671,11 +8673,11 @@
     "source": "nflreadpy.load_pbp",
     "sha256": "cd914b9bdbcd5479b2aeb776c0d0f4bbdf6f39c5b4746566f0985bd1652af685",
     "rows": 13842,
-    "retrieved_at": "2026-10-15T22:03:08.636818+00:00",
+    "retrieved_at": "2026-10-16T03:39:43.476079+00:00",
     "provider_published_at": null,
     "cache_may_be_used": true,
     "note": "Local observation time, not proof of original publication or freshness."
   },
-  "schedule_sha256": "80d780487437b4a7349bbca29a6d0a3e1ff12fb179cd6b64fb32ae72ffafad98",
+  "schedule_sha256": "ce25fccf25d678fcb0b02bc6552468d6955663e9cf604bea6b336cb341c33022",
   "implementation_sha256": "9bd49d86b07d0d93931f5534be2ac755ccb366dba6a28b45603cd1421978c9ee"
 }

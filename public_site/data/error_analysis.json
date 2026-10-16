@@ -374,10 +374,10 @@
       "version": "20260929T124531Z",
       "dimension": "confidence",
       "group": "50-59%",
-      "games": 19,
-      "accuracy": 0.5263157894736842,
-      "log_loss": 0.6808900987997939,
-      "brier": 0.24394287822364424,
+      "games": 20,
+      "accuracy": 0.5,
+      "log_loss": 0.6883329320462053,
+      "brier": 0.24764152716572668,
       "status": "Descriptive; overlapping groups"
     },
     {
@@ -412,12 +412,22 @@
     },
     {
       "version": "20260929T124531Z",
+      "dimension": "provenance",
+      "group": "Timestamped archive",
+      "games": 1,
+      "accuracy": 0.0,
+      "log_loss": 0.8297467637280216,
+      "brier": 0.3179158570652923,
+      "status": "Small sample; descriptive only"
+    },
+    {
+      "version": "20260929T124531Z",
       "dimension": "stage",
       "group": "Weeks 1-6",
-      "games": 30,
-      "accuracy": 0.6,
-      "log_loss": 0.6455492644701265,
-      "brier": 0.2266850816873519,
+      "games": 31,
+      "accuracy": 0.5806451612903226,
+      "log_loss": 0.6514911192848973,
+      "brier": 0.22962800992535,
       "status": "Descriptive; overlapping groups"
     },
     {
@@ -514,10 +524,10 @@
       "version": "20260929T124531Z",
       "dimension": "team",
       "group": "DEN",
-      "games": 2,
-      "accuracy": 1.0,
-      "log_loss": 0.3727833497288453,
-      "brier": 0.10277877520284587,
+      "games": 3,
+      "accuracy": 0.6666666666666666,
+      "log_loss": 0.5251044877285708,
+      "brier": 0.17449113582366135,
       "status": "Small sample; descriptive only"
     },
     {
@@ -694,10 +704,10 @@
       "version": "20260929T124531Z",
       "dimension": "team",
       "group": "SEA",
-      "games": 2,
-      "accuracy": 1.0,
-      "log_loss": 0.3928574890903108,
-      "brier": 0.11409497505621105,
+      "games": 3,
+      "accuracy": 0.6666666666666666,
+      "log_loss": 0.5384872473028811,
+      "brier": 0.18203526905923814,
       "status": "Small sample; descriptive only"
     },
     {

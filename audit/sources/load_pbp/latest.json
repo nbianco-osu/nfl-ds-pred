@@ -2,7 +2,7 @@
   "source": "nflreadpy.load_pbp",
   "sha256": "cd914b9bdbcd5479b2aeb776c0d0f4bbdf6f39c5b4746566f0985bd1652af685",
   "rows": 13842,
-  "retrieved_at": "2026-10-15T22:03:08.636818+00:00",
+  "retrieved_at": "2026-10-16T03:39:43.476079+00:00",
   "provider_published_at": null,
   "cache_may_be_used": true,
   "note": "Local observation time, not proof of original publication or freshness."

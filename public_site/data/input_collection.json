@@ -1,11 +1,7 @@
 {
-  "updated_at": "2026-10-15T22:05:24.509106+00:00",
+  "updated_at": "2026-10-16T03:42:20.490195+00:00",
   "provider": "Open-Meteo",
   "games": [
-    {
-      "game_id": "2026_06_SEA_DEN",
-      "status": "Forecast archived"
-    },
     {
       "game_id": "2026_06_HOU_JAX",
       "status": "Forecast archived"
@@ -60,7 +56,12 @@
     },
     {
       "game_id": "2026_07_NE_CHI",
-      "status": "Forecast archived"
+      "status": "Outside 16-day horizon"
+    },
+    {
+      "game_id": "2026_07_NE_CHI",
+      "status": "Forecast unavailable",
+      "error": "URLError"
     },
     {
       "game_id": "2026_07_PIT_NO",
@@ -72,12 +73,7 @@
     },
     {
       "game_id": "2026_07_CIN_BAL",
-      "status": "Outside 16-day horizon"
-    },
-    {
-      "game_id": "2026_07_CIN_BAL",
-      "status": "Forecast unavailable",
-      "error": "URLError"
+      "status": "Forecast archived"
     },
     {
       "game_id": "2026_07_TB_CAR",
@@ -780,7 +776,7 @@
       "status": "Outside 16-day horizon"
     }
   ],
-  "added": 22,
+  "added": 21,
   "note": "Non-commercial Open-Meteo forecast API; CC BY 4.0 attribution. Outdoor grid-cell weather only. Provider issue time unavailable: locally observed time is retained, never called publication time. Confirmed QB inputs remain manual imports with source URLs; previous usage is not confirmation.",
   "venue_source": "https://raw.githubusercontent.com/greerreNFL/Stadiums/main/data/stadiums.csv",
   "venue_sha256": "8de55868f633112f1d29672155ad67e59555e67c2b8dafce34800313df45098b"

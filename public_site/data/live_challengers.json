@@ -25483,18 +25483,30 @@
     "20260929T124531Z": [
       {
         "kind": "poisson",
-        "games": 0,
-        "status": "Awaiting prospective outcomes"
+        "games": 1,
+        "status": "Shadow only; human review required",
+        "challenger_log_loss": 0.9976686150043194,
+        "production_log_loss": 0.8368965740020449,
+        "challenger_brier": 0.39849157334206164,
+        "production_brier": 0.32142959679351396
       },
       {
         "kind": "negative_binomial",
-        "games": 0,
-        "status": "Awaiting prospective outcomes"
+        "games": 1,
+        "status": "Shadow only; human review required",
+        "challenger_log_loss": 0.8270337078434238,
+        "production_log_loss": 0.8368965740020449,
+        "challenger_brier": 0.3165810359378357,
+        "production_brier": 0.32142959679351396
       },
       {
         "kind": "correlated_negative_binomial",
-        "games": 0,
-        "status": "Awaiting prospective outcomes"
+        "games": 1,
+        "status": "Shadow only; human review required",
+        "challenger_log_loss": 0.8324009006132055,
+        "production_log_loss": 0.8368965740020449,
+        "challenger_brier": 0.31922089689045424,
+        "production_brier": 0.32142959679351396
       }
     ]
   },

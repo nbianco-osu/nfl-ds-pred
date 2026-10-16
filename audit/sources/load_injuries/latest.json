@@ -2,7 +2,7 @@
   "source": "nflreadpy.load_injuries",
   "sha256": "c4ec8d3ec6976c1a640bdca618f5fba2d2bc787a66c29c19c1a0e87110ccb0e6",
   "rows": 1697,
-  "retrieved_at": "2026-10-15T22:03:13.088061+00:00",
+  "retrieved_at": "2026-10-16T03:39:48.468422+00:00",
   "provider_published_at": null,
   "cache_may_be_used": true,
   "note": "Local observation time, not proof of original publication or freshness."

@@ -9520,7 +9520,7 @@
       "spread": null,
       "total": null,
       "home_win_probability": 0.3687381103360811,
-      "basis": "Current future projection"
+      "basis": "Retrospective; not an archived pregame pick"
     },
     {
       "game_id": "2026_06_SEA_DEN",
@@ -9560,7 +9560,7 @@
       "spread": null,
       "total": null,
       "home_win_probability": 0.4373446561723281,
-      "basis": "Current future projection"
+      "basis": "Retrospective; not an archived pregame pick"
     },
     {
       "game_id": "2026_06_SEA_DEN",
@@ -9600,7 +9600,7 @@
       "spread": null,
       "total": null,
       "home_win_probability": 0.43500363108206247,
-      "basis": "Current future projection"
+      "basis": "Retrospective; not an archived pregame pick"
     },
     {
       "game_id": "2026_06_HOU_JAX",
@@ -12253,14 +12253,14 @@
       "features": {
         "home_for": 20.125,
         "home_against": 32.75,
-        "away_for": 19.5,
-        "away_against": 20.125
+        "away_for": 19.125,
+        "away_against": 17.625
       },
-      "expected_home": 20.0767,
-      "expected_away": 23.4018,
+      "expected_home": 19.63,
+      "expected_away": 23.3581,
       "home_interval80": [
         14.0,
-        26.0
+        25.0
       ],
       "away_interval80": [
         17.0,
@@ -12274,12 +12274,12 @@
         35.0,
         52.0
       ],
-      "home_win": 0.281,
-      "away_win": 0.6626,
-      "tie": 0.0564,
+      "home_win": 0.2544,
+      "away_win": 0.6929,
+      "tie": 0.0527,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.2977956761339551,
+      "home_win_probability": 0.2685527288081917,
       "basis": "Current future projection"
     },
     {
@@ -12293,14 +12293,14 @@
       "features": {
         "home_for": 20.125,
         "home_against": 32.75,
-        "away_for": 19.5,
-        "away_against": 20.125
+        "away_for": 19.125,
+        "away_against": 17.625
       },
-      "expected_home": 20.0762,
-      "expected_away": 23.5391,
+      "expected_home": 19.5851,
+      "expected_away": 23.5764,
       "home_interval80": [
-        11.0,
-        31.0
+        10.0,
+        30.0
       ],
       "away_interval80": [
         12.0,
@@ -12312,14 +12312,14 @@
       ],
       "total_interval80": [
         28.0,
-        61.0
+        60.0
       ],
-      "home_win": 0.3853,
-      "away_win": 0.5807,
-      "tie": 0.034,
+      "home_win": 0.3689,
+      "away_win": 0.599,
+      "tie": 0.0321,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.39886128364389234,
+      "home_win_probability": 0.38113441471226367,
       "basis": "Current future projection"
     },
     {
@@ -12333,33 +12333,33 @@
       "features": {
         "home_for": 20.125,
         "home_against": 32.75,
-        "away_for": 19.5,
-        "away_against": 20.125
+        "away_for": 19.125,
+        "away_against": 17.625
       },
-      "expected_home": 20.0692,
-      "expected_away": 23.4655,
+      "expected_home": 19.5844,
+      "expected_away": 23.5038,
       "home_interval80": [
-        11.0,
-        31.0
+        10.0,
+        30.0
       ],
       "away_interval80": [
         12.0,
         37.0
       ],
       "margin_interval80": [
-        -20.0,
-        13.0
+        -21.0,
+        12.0
       ],
       "total_interval80": [
         28.0,
         60.0
       ],
-      "home_win": 0.381,
-      "away_win": 0.5854,
-      "tie": 0.0336,
+      "home_win": 0.3658,
+      "away_win": 0.6031,
+      "tie": 0.0311,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.39424668874172186,
+      "home_win_probability": 0.3775415419547941,
       "basis": "Current future projection"
     },
     {
@@ -12611,35 +12611,35 @@
       "calibration_through": "2026-01-04",
       "feature_cutoff": "2026-10-22",
       "features": {
-        "home_for": 26.5,
-        "home_against": 19.375,
+        "home_for": 23.5,
+        "home_against": 16.875,
         "away_for": 20.625,
         "away_against": 19.125
       },
-      "expected_home": 25.5362,
-      "expected_away": 20.0675,
+      "expected_home": 24.4518,
+      "expected_away": 19.6179,
       "home_interval80": [
-        19.0,
-        32.0
+        18.0,
+        31.0
       ],
       "away_interval80": [
         14.0,
-        26.0
+        25.0
       ],
       "margin_interval80": [
-        -3.0,
-        14.0
+        -4.0,
+        13.0
       ],
       "total_interval80": [
-        37.0,
-        54.0
+        36.0,
+        53.0
       ],
-      "home_win": 0.7741,
-      "away_win": 0.1851,
-      "tie": 0.0408,
+      "home_win": 0.7449,
+      "away_win": 0.2085,
+      "tie": 0.0466,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.8070266889074228,
+      "home_win_probability": 0.7813089993706733,
       "basis": "Current future projection"
     },
     {
@@ -12651,35 +12651,35 @@
       "calibration_through": "2026-01-04",
       "feature_cutoff": "2026-10-22",
       "features": {
-        "home_for": 26.5,
-        "home_against": 19.375,
+        "home_for": 23.5,
+        "home_against": 16.875,
         "away_for": 20.625,
         "away_against": 19.125
       },
-      "expected_home": 25.4973,
-      "expected_away": 20.2267,
+      "expected_home": 24.4827,
+      "expected_away": 19.7432,
       "home_interval80": [
-        14.0,
-        38.0
+        13.0,
+        37.0
       ],
       "away_interval80": [
-        10.0,
+        9.0,
         32.0
       ],
       "margin_interval80": [
         -11.0,
-        22.0
+        21.0
       ],
       "total_interval80": [
-        30.0,
-        63.0
+        29.0,
+        61.0
       ],
-      "home_win": 0.6494,
-      "away_win": 0.3226,
-      "tie": 0.028,
+      "home_win": 0.6366,
+      "away_win": 0.3335,
+      "tie": 0.0299,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.6681069958847736,
+      "home_win_probability": 0.6562210081434904,
       "basis": "Current future projection"
     },
     {
@@ -12691,35 +12691,35 @@
       "calibration_through": "2026-01-04",
       "feature_cutoff": "2026-10-22",
       "features": {
-        "home_for": 26.5,
-        "home_against": 19.375,
+        "home_for": 23.5,
+        "home_against": 16.875,
         "away_for": 20.625,
         "away_against": 19.125
       },
-      "expected_home": 25.497,
-      "expected_away": 20.1594,
+      "expected_home": 24.4771,
+      "expected_away": 19.6807,
       "home_interval80": [
-        14.0,
-        39.0
+        13.0,
+        37.0
       ],
       "away_interval80": [
         10.0,
-        32.0
+        31.0
       ],
       "margin_interval80": [
-        -11.0,
-        22.0
+        -12.0,
+        21.0
       ],
       "total_interval80": [
-        30.0,
-        63.0
+        29.0,
+        61.0
       ],
-      "home_win": 0.6457,
-      "away_win": 0.3235,
-      "tie": 0.0308,
+      "home_win": 0.6333,
+      "away_win": 0.3357,
+      "tie": 0.031,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.6662195625257945,
+      "home_win_probability": 0.6535603715170278,
       "basis": "Current future projection"
     },
     {
@@ -14051,35 +14051,35 @@
       "calibration_through": "2026-01-04",
       "feature_cutoff": "2026-10-29",
       "features": {
-        "home_for": 19.5,
-        "home_against": 20.125,
+        "home_for": 19.125,
+        "home_against": 17.625,
         "away_for": 20.625,
         "away_against": 19.125
       },
-      "expected_home": 21.8544,
-      "expected_away": 20.5888,
+      "expected_home": 22.1822,
+      "expected_away": 19.9837,
       "home_interval80": [
         16.0,
         28.0
       ],
       "away_interval80": [
-        15.0,
+        14.0,
         26.0
       ],
       "margin_interval80": [
-        -7.0,
-        9.0
+        -6.0,
+        10.0
       ],
       "total_interval80": [
         34.0,
         51.0
       ],
-      "home_win": 0.5452,
-      "away_win": 0.3946,
-      "tie": 0.0602,
+      "home_win": 0.6099,
+      "away_win": 0.3303,
+      "tie": 0.0598,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.5801234305171313,
+      "home_win_probability": 0.6486917677089982,
       "basis": "Current future projection"
     },
     {
@@ -14091,35 +14091,35 @@
       "calibration_through": "2026-01-04",
       "feature_cutoff": "2026-10-29",
       "features": {
-        "home_for": 19.5,
-        "home_against": 20.125,
+        "home_for": 19.125,
+        "home_against": 17.625,
         "away_for": 20.625,
         "away_against": 19.125
       },
-      "expected_home": 21.8291,
-      "expected_away": 20.7245,
+      "expected_home": 22.1628,
+      "expected_away": 20.1116,
       "home_interval80": [
         12.0,
-        33.0
+        34.0
       ],
       "away_interval80": [
         10.0,
-        33.0
+        32.0
       ],
       "margin_interval80": [
-        -15.0,
-        16.0
+        -13.0,
+        17.0
       ],
       "total_interval80": [
         27.0,
         59.0
       ],
-      "home_win": 0.5286,
-      "away_win": 0.4384,
-      "tie": 0.033,
+      "home_win": 0.5597,
+      "away_win": 0.4087,
+      "tie": 0.0316,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.5466390899689761,
+      "home_win_probability": 0.5779636513837257,
       "basis": "Current future projection"
     },
     {
@@ -14131,35 +14131,35 @@
       "calibration_through": "2026-01-04",
       "feature_cutoff": "2026-10-29",
       "features": {
-        "home_for": 19.5,
-        "home_against": 20.125,
+        "home_for": 19.125,
+        "home_against": 17.625,
         "away_for": 20.625,
         "away_against": 19.125
       },
-      "expected_home": 21.832,
-      "expected_away": 20.6567,
+      "expected_home": 22.1509,
+      "expected_away": 20.0507,
       "home_interval80": [
         12.0,
-        33.0
+        34.0
       ],
       "away_interval80": [
         10.0,
-        33.0
+        32.0
       ],
       "margin_interval80": [
-        -15.0,
-        17.0
+        -14.0,
+        18.0
       ],
       "total_interval80": [
         27.0,
-        59.0
+        58.0
       ],
-      "home_win": 0.5257,
-      "away_win": 0.4387,
-      "tie": 0.0356,
+      "home_win": 0.558,
+      "away_win": 0.4093,
+      "tie": 0.0327,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.5451057652426379,
+      "home_win_probability": 0.5768634343016644,
       "basis": "Current future projection"
     },
     {
@@ -14411,35 +14411,35 @@
       "calibration_through": "2026-01-04",
       "feature_cutoff": "2026-10-29",
       "features": {
-        "home_for": 26.5,
-        "home_against": 19.375,
+        "home_for": 23.5,
+        "home_against": 16.875,
         "away_for": 24.375,
         "away_against": 21.625
       },
-      "expected_home": 25.5382,
-      "expected_away": 21.534,
+      "expected_home": 24.5488,
+      "expected_away": 20.9845,
       "home_interval80": [
-        19.0,
-        32.0
+        18.0,
+        31.0
       ],
       "away_interval80": [
-        16.0,
-        28.0
+        15.0,
+        27.0
       ],
       "margin_interval80": [
         -5.0,
-        13.0
+        12.0
       ],
       "total_interval80": [
-        38.0,
-        56.0
+        37.0,
+        54.0
       ],
-      "home_win": 0.7,
-      "away_win": 0.2538,
-      "tie": 0.0462,
+      "home_win": 0.6822,
+      "away_win": 0.2688,
+      "tie": 0.049,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.7339064793457748,
+      "home_win_probability": 0.7173501577287066,
       "basis": "Current future projection"
     },
     {
@@ -14451,16 +14451,16 @@
       "calibration_through": "2026-01-04",
       "feature_cutoff": "2026-10-29",
       "features": {
-        "home_for": 26.5,
-        "home_against": 19.375,
+        "home_for": 23.5,
+        "home_against": 16.875,
         "away_for": 24.375,
         "away_against": 21.625
       },
-      "expected_home": 25.5518,
-      "expected_away": 21.6399,
+      "expected_home": 24.5367,
+      "expected_away": 21.1125,
       "home_interval80": [
-        14.0,
-        39.0
+        13.0,
+        37.0
       ],
       "away_interval80": [
         10.0,
@@ -14468,18 +14468,18 @@
       ],
       "margin_interval80": [
         -13.0,
-        21.0
+        20.0
       ],
       "total_interval80": [
-        31.0,
-        65.0
+        30.0,
+        63.0
       ],
-      "home_win": 0.6066,
-      "away_win": 0.3641,
-      "tie": 0.0293,
+      "home_win": 0.5953,
+      "away_win": 0.375,
+      "tie": 0.0297,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.6249098588647368,
+      "home_win_probability": 0.6135215912604349,
       "basis": "Current future projection"
     },
     {
@@ -14491,35 +14491,35 @@
       "calibration_through": "2026-01-04",
       "feature_cutoff": "2026-10-29",
       "features": {
-        "home_for": 26.5,
-        "home_against": 19.375,
+        "home_for": 23.5,
+        "home_against": 16.875,
         "away_for": 24.375,
         "away_against": 21.625
       },
-      "expected_home": 25.5561,
-      "expected_away": 21.5694,
+      "expected_home": 24.5285,
+      "expected_away": 21.0518,
       "home_interval80": [
-        14.0,
-        39.0
+        13.0,
+        37.0
       ],
       "away_interval80": [
-        11.0,
-        34.0
+        10.0,
+        33.0
       ],
       "margin_interval80": [
         -13.0,
-        21.0
+        20.0
       ],
       "total_interval80": [
-        31.0,
-        65.0
+        30.0,
+        63.0
       ],
-      "home_win": 0.6035,
-      "away_win": 0.3664,
-      "tie": 0.0301,
+      "home_win": 0.5925,
+      "away_win": 0.3796,
+      "tie": 0.0279,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.6222290957830705,
+      "home_win_probability": 0.6095051949387924,
       "basis": "Current future projection"
     },
     {
@@ -14773,11 +14773,11 @@
       "features": {
         "home_for": 23.125,
         "home_against": 24.0,
-        "away_for": 19.5,
-        "away_against": 20.125
+        "away_for": 19.125,
+        "away_against": 17.625
       },
-      "expected_home": 23.2438,
-      "expected_away": 20.8345,
+      "expected_home": 22.613,
+      "expected_away": 20.9202,
       "home_interval80": [
         17.0,
         29.0
@@ -14787,19 +14787,19 @@
         27.0
       ],
       "margin_interval80": [
-        -6.0,
-        11.0
+        -7.0,
+        10.0
       ],
       "total_interval80": [
-        36.0,
-        53.0
+        35.0,
+        52.0
       ],
-      "home_win": 0.6184,
-      "away_win": 0.3215,
-      "tie": 0.0601,
+      "home_win": 0.5733,
+      "away_win": 0.3683,
+      "tie": 0.0584,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.657942334290882,
+      "home_win_probability": 0.6088572642310961,
       "basis": "Current future projection"
     },
     {
@@ -14813,33 +14813,33 @@
       "features": {
         "home_for": 23.125,
         "home_against": 24.0,
-        "away_for": 19.5,
-        "away_against": 20.125
+        "away_for": 19.125,
+        "away_against": 17.625
       },
-      "expected_home": 23.1678,
-      "expected_away": 20.9905,
+      "expected_home": 22.6173,
+      "expected_away": 21.0279,
       "home_interval80": [
-        13.0,
-        35.0
+        12.0,
+        34.0
       ],
       "away_interval80": [
         10.0,
-        33.0
+        34.0
       ],
       "margin_interval80": [
         -14.0,
-        18.0
+        17.0
       ],
       "total_interval80": [
-        29.0,
-        61.0
+        28.0,
+        60.0
       ],
-      "home_win": 0.5627,
-      "away_win": 0.4067,
-      "tie": 0.0306,
+      "home_win": 0.5435,
+      "away_win": 0.4227,
+      "tie": 0.0338,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.5804621415308437,
+      "home_win_probability": 0.5625129372800662,
       "basis": "Current future projection"
     },
     {
@@ -14853,33 +14853,33 @@
       "features": {
         "home_for": 23.125,
         "home_against": 24.0,
-        "away_for": 19.5,
-        "away_against": 20.125
+        "away_for": 19.125,
+        "away_against": 17.625
       },
-      "expected_home": 23.1704,
-      "expected_away": 20.9322,
+      "expected_home": 22.6088,
+      "expected_away": 20.9673,
       "home_interval80": [
         12.0,
-        35.0
+        34.0
       ],
       "away_interval80": [
         10.0,
         33.0
       ],
       "margin_interval80": [
-        -14.0,
+        -15.0,
         18.0
       ],
       "total_interval80": [
-        29.0,
-        61.0
+        28.0,
+        60.0
       ],
-      "home_win": 0.5595,
-      "away_win": 0.4106,
-      "tie": 0.0299,
+      "home_win": 0.54,
+      "away_win": 0.427,
+      "tie": 0.033,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.5767446654984022,
+      "home_win_probability": 0.5584281282316442,
       "basis": "Current future projection"
     },
     {
@@ -15971,35 +15971,35 @@
       "calibration_through": "2026-01-04",
       "feature_cutoff": "2026-11-05",
       "features": {
-        "home_for": 26.5,
-        "home_against": 19.375,
+        "home_for": 23.5,
+        "home_against": 16.875,
         "away_for": 20.125,
         "away_against": 32.75
       },
-      "expected_home": 29.6855,
-      "expected_away": 18.868,
+      "expected_home": 28.4568,
+      "expected_away": 18.4658,
       "home_interval80": [
-        23.0,
-        37.0
+        22.0,
+        35.0
       ],
       "away_interval80": [
         13.0,
         24.0
       ],
       "margin_interval80": [
-        2.0,
-        20.0
+        1.0,
+        19.0
       ],
       "total_interval80": [
-        40.0,
-        57.0
+        38.0,
+        56.0
       ],
-      "home_win": 0.9329,
-      "away_win": 0.051,
-      "tie": 0.0161,
+      "home_win": 0.919,
+      "away_win": 0.0601,
+      "tie": 0.0209,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.9481654639699156,
+      "home_win_probability": 0.9386170973342866,
       "basis": "Current future projection"
     },
     {
@@ -16011,16 +16011,16 @@
       "calibration_through": "2026-01-04",
       "feature_cutoff": "2026-11-05",
       "features": {
-        "home_for": 26.5,
-        "home_against": 19.375,
+        "home_for": 23.5,
+        "home_against": 16.875,
         "away_for": 20.125,
         "away_against": 32.75
       },
-      "expected_home": 29.6269,
-      "expected_away": 19.026,
+      "expected_home": 28.4439,
+      "expected_away": 18.5706,
       "home_interval80": [
         16.0,
-        44.0
+        43.0
       ],
       "away_interval80": [
         9.0,
@@ -16028,18 +16028,18 @@
       ],
       "margin_interval80": [
         -7.0,
-        28.0
+        27.0
       ],
       "total_interval80": [
-        32.0,
-        67.0
+        31.0,
+        65.0
       ],
-      "home_win": 0.7721,
-      "away_win": 0.2054,
-      "tie": 0.0225,
+      "home_win": 0.7618,
+      "away_win": 0.2145,
+      "tie": 0.0237,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.7898721227621484,
+      "home_win_probability": 0.7802929427430093,
       "basis": "Current future projection"
     },
     {
@@ -16051,35 +16051,35 @@
       "calibration_through": "2026-01-04",
       "feature_cutoff": "2026-11-05",
       "features": {
-        "home_for": 26.5,
-        "home_against": 19.375,
+        "home_for": 23.5,
+        "home_against": 16.875,
         "away_for": 20.125,
         "away_against": 32.75
       },
-      "expected_home": 29.622,
-      "expected_away": 18.9627,
+      "expected_home": 28.4399,
+      "expected_away": 18.5142,
       "home_interval80": [
         16.0,
-        44.0
+        43.0
       ],
       "away_interval80": [
         9.0,
-        30.0
+        29.0
       ],
       "margin_interval80": [
         -7.0,
-        29.0
+        27.0
       ],
       "total_interval80": [
-        32.0,
-        67.0
+        30.0,
+        65.0
       ],
-      "home_win": 0.771,
-      "away_win": 0.2063,
-      "tie": 0.0227,
+      "home_win": 0.7612,
+      "away_win": 0.2163,
+      "tie": 0.0225,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.788908216514888,
+      "home_win_probability": 0.7787212276214833,
       "basis": "Current future projection"
     },
     {
@@ -17533,33 +17533,33 @@
       "features": {
         "home_for": 22.125,
         "home_against": 24.75,
-        "away_for": 26.5,
-        "away_against": 19.375
+        "away_for": 23.5,
+        "away_against": 16.875
       },
-      "expected_home": 21.3949,
-      "expected_away": 24.3853,
+      "expected_home": 21.155,
+      "expected_away": 23.2454,
       "home_interval80": [
-        16.0,
+        15.0,
         27.0
       ],
       "away_interval80": [
-        18.0,
-        31.0
+        17.0,
+        29.0
       ],
       "margin_interval80": [
-        -12.0,
+        -11.0,
         6.0
       ],
       "total_interval80": [
-        37.0,
-        54.0
+        36.0,
+        53.0
       ],
-      "home_win": 0.3012,
-      "away_win": 0.6443,
-      "tie": 0.0545,
+      "home_win": 0.3522,
+      "away_win": 0.5954,
+      "tie": 0.0524,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.3185616076150185,
+      "home_win_probability": 0.37167581257914734,
       "basis": "Current future projection"
     },
     {
@@ -17573,33 +17573,33 @@
       "features": {
         "home_for": 22.125,
         "home_against": 24.75,
-        "away_for": 26.5,
-        "away_against": 19.375
+        "away_for": 23.5,
+        "away_against": 16.875
       },
-      "expected_home": 21.3444,
-      "expected_away": 24.5808,
+      "expected_home": 21.1927,
+      "expected_away": 23.3325,
       "home_interval80": [
         11.0,
         32.0
       ],
       "away_interval80": [
-        12.0,
-        39.0
+        11.0,
+        37.0
       ],
       "margin_interval80": [
-        -20.0,
-        13.0
+        -19.0,
+        14.0
       ],
       "total_interval80": [
         29.0,
-        64.0
+        62.0
       ],
-      "home_win": 0.3971,
-      "away_win": 0.5713,
-      "tie": 0.0316,
+      "home_win": 0.4273,
+      "away_win": 0.5381,
+      "tie": 0.0346,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.4100578273440727,
+      "home_win_probability": 0.44261446032732543,
       "basis": "Current future projection"
     },
     {
@@ -17613,33 +17613,33 @@
       "features": {
         "home_for": 22.125,
         "home_against": 24.75,
-        "away_for": 26.5,
-        "away_against": 19.375
+        "away_for": 23.5,
+        "away_against": 16.875
       },
-      "expected_home": 21.3374,
-      "expected_away": 24.5066,
+      "expected_home": 21.1856,
+      "expected_away": 23.2556,
       "home_interval80": [
         11.0,
-        33.0
+        32.0
       ],
       "away_interval80": [
         12.0,
-        38.100000000000364
+        37.0
       ],
       "margin_interval80": [
-        -21.0,
+        -19.0,
         14.0
       ],
       "total_interval80": [
-        30.0,
-        63.0
+        29.0,
+        61.0
       ],
-      "home_win": 0.3924,
-      "away_win": 0.5739,
-      "tie": 0.0337,
+      "home_win": 0.424,
+      "away_win": 0.5395,
+      "tie": 0.0365,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.40608506674945677,
+      "home_win_probability": 0.44006227296315514,
       "basis": "Current future projection"
     },
     {
@@ -19091,35 +19091,35 @@
       "calibration_through": "2026-01-04",
       "feature_cutoff": "2026-11-19",
       "features": {
-        "home_for": 19.5,
-        "home_against": 20.125,
+        "home_for": 19.125,
+        "home_against": 17.625,
         "away_for": 22.125,
         "away_against": 24.75
       },
-      "expected_home": 22.9718,
-      "expected_away": 20.8213,
+      "expected_home": 23.3542,
+      "expected_away": 20.1666,
       "home_interval80": [
         17.0,
         29.0
       ],
       "away_interval80": [
         15.0,
-        27.0
+        26.0
       ],
       "margin_interval80": [
-        -6.0,
-        10.0
+        -5.0,
+        11.0
       ],
       "total_interval80": [
-        36.0,
+        35.0,
         52.0
       ],
-      "home_win": 0.6012,
-      "away_win": 0.336,
-      "tie": 0.0628,
+      "home_win": 0.6675,
+      "away_win": 0.2786,
+      "tie": 0.0539,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.6414852752880921,
+      "home_win_probability": 0.7055279568755946,
       "basis": "Current future projection"
     },
     {
@@ -19131,35 +19131,35 @@
       "calibration_through": "2026-01-04",
       "feature_cutoff": "2026-11-19",
       "features": {
-        "home_for": 19.5,
-        "home_against": 20.125,
+        "home_for": 19.125,
+        "home_against": 17.625,
         "away_for": 22.125,
         "away_against": 24.75
       },
-      "expected_home": 22.9658,
-      "expected_away": 20.9231,
+      "expected_home": 23.3144,
+      "expected_away": 20.3058,
       "home_interval80": [
-        12.0,
+        13.0,
         35.0
       ],
       "away_interval80": [
         10.0,
-        33.0
+        32.0
       ],
       "margin_interval80": [
-        -14.0,
-        18.0
+        -13.0,
+        19.0
       ],
       "total_interval80": [
         28.0,
-        61.0
+        60.0
       ],
-      "home_win": 0.5582,
-      "away_win": 0.41,
-      "tie": 0.0318,
+      "home_win": 0.5863,
+      "away_win": 0.3826,
+      "tie": 0.0311,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.5765337740136336,
+      "home_win_probability": 0.6051192073485395,
       "basis": "Current future projection"
     },
     {
@@ -19171,35 +19171,35 @@
       "calibration_through": "2026-01-04",
       "feature_cutoff": "2026-11-19",
       "features": {
-        "home_for": 19.5,
-        "home_against": 20.125,
+        "home_for": 19.125,
+        "home_against": 17.625,
         "away_for": 22.125,
         "away_against": 24.75
       },
-      "expected_home": 22.9638,
-      "expected_away": 20.8616,
+      "expected_home": 23.3034,
+      "expected_away": 20.2432,
       "home_interval80": [
-        12.0,
+        13.0,
         35.0
       ],
       "away_interval80": [
         10.0,
-        33.0
+        32.0
       ],
       "margin_interval80": [
-        -14.0,
-        18.0
+        -13.0,
+        19.0
       ],
       "total_interval80": [
         28.0,
         60.0
       ],
-      "home_win": 0.5556,
-      "away_win": 0.4144,
-      "tie": 0.03,
+      "home_win": 0.5859,
+      "away_win": 0.385,
+      "tie": 0.0291,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.5727835051546392,
+      "home_win_probability": 0.6034607065609229,
       "basis": "Current future projection"
     },
     {
@@ -20053,11 +20053,11 @@
       "features": {
         "home_for": 21.5,
         "home_against": 21.25,
-        "away_for": 19.5,
-        "away_against": 20.125
+        "away_for": 19.125,
+        "away_against": 17.625
       },
-      "expected_home": 22.9365,
-      "expected_away": 20.2523,
+      "expected_home": 22.4818,
+      "expected_away": 20.2174,
       "home_interval80": [
         17.0,
         29.0
@@ -20068,18 +20068,18 @@
       ],
       "margin_interval80": [
         -6.0,
-        11.0
+        10.0
       ],
       "total_interval80": [
-        35.0,
-        52.0
+        34.0,
+        51.0
       ],
-      "home_win": 0.638,
-      "away_win": 0.3061,
-      "tie": 0.0559,
+      "home_win": 0.6111,
+      "away_win": 0.3283,
+      "tie": 0.0606,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.6757758712000848,
+      "home_win_probability": 0.650521609538003,
       "basis": "Current future projection"
     },
     {
@@ -20093,33 +20093,33 @@
       "features": {
         "home_for": 21.5,
         "home_against": 21.25,
-        "away_for": 19.5,
-        "away_against": 20.125
+        "away_for": 19.125,
+        "away_against": 17.625
       },
-      "expected_home": 22.9582,
-      "expected_away": 20.3676,
+      "expected_home": 22.4087,
+      "expected_away": 20.3997,
       "home_interval80": [
         12.0,
-        35.0
+        34.0
       ],
       "away_interval80": [
         10.0,
         33.0
       ],
       "margin_interval80": [
-        -13.0,
-        18.0
+        -14.0,
+        17.0
       ],
       "total_interval80": [
         28.0,
-        60.0
+        59.0
       ],
-      "home_win": 0.575,
-      "away_win": 0.3948,
-      "tie": 0.0302,
+      "home_win": 0.5584,
+      "away_win": 0.4096,
+      "tie": 0.032,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.5929057537636626,
+      "home_win_probability": 0.5768595041322314,
       "basis": "Current future projection"
     },
     {
@@ -20133,14 +20133,14 @@
       "features": {
         "home_for": 21.5,
         "home_against": 21.25,
-        "away_for": 19.5,
-        "away_against": 20.125
+        "away_for": 19.125,
+        "away_against": 17.625
       },
-      "expected_home": 22.9559,
-      "expected_away": 20.3047,
+      "expected_home": 22.3995,
+      "expected_away": 20.3368,
       "home_interval80": [
         12.0,
-        35.0
+        34.0
       ],
       "away_interval80": [
         10.0,
@@ -20148,18 +20148,18 @@
       ],
       "margin_interval80": [
         -14.0,
-        19.0
+        18.0
       ],
       "total_interval80": [
         28.0,
-        60.0
+        59.0
       ],
-      "home_win": 0.5729,
-      "away_win": 0.3963,
-      "tie": 0.0308,
+      "home_win": 0.5531,
+      "away_win": 0.4105,
+      "tie": 0.0364,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.5911060668592654,
+      "home_win_probability": 0.5739933582399336,
       "basis": "Current future projection"
     },
     {
@@ -21133,33 +21133,33 @@
       "features": {
         "home_for": 30.875,
         "home_against": 21.375,
-        "away_for": 26.5,
-        "away_against": 19.375
+        "away_for": 23.5,
+        "away_against": 16.875
       },
-      "expected_home": 26.5211,
-      "expected_away": 22.9901,
+      "expected_home": 26.3671,
+      "expected_away": 21.7929,
       "home_interval80": [
         20.0,
         33.0
       ],
       "away_interval80": [
-        17.0,
-        29.0
+        16.0,
+        28.0
       ],
       "margin_interval80": [
-        -5.0,
-        12.0
+        -4.0,
+        13.0
       ],
       "total_interval80": [
-        41.0,
-        59.0
+        40.0,
+        57.0
       ],
-      "home_win": 0.6728,
-      "away_win": 0.2814,
-      "tie": 0.0458,
+      "home_win": 0.7247,
+      "away_win": 0.2314,
+      "tie": 0.0439,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.7050932718507651,
+      "home_win_probability": 0.7579751072063592,
       "basis": "Current future projection"
     },
     {
@@ -21173,33 +21173,33 @@
       "features": {
         "home_for": 30.875,
         "home_against": 21.375,
-        "away_for": 26.5,
-        "away_against": 19.375
+        "away_for": 23.5,
+        "away_against": 16.875
       },
-      "expected_home": 26.4941,
-      "expected_away": 23.1366,
+      "expected_home": 26.3107,
+      "expected_away": 21.9665,
       "home_interval80": [
-        15.0,
+        14.0,
         40.0
       ],
       "away_interval80": [
         11.0,
-        37.0
+        35.0
       ],
       "margin_interval80": [
-        -14.0,
+        -13.0,
         21.0
       ],
       "total_interval80": [
-        32.0,
-        68.0
+        31.0,
+        66.0
       ],
-      "home_win": 0.5873,
-      "away_win": 0.3851,
-      "tie": 0.0276,
+      "home_win": 0.6153,
+      "away_win": 0.3543,
+      "tie": 0.0304,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.6039695598519128,
+      "home_win_probability": 0.6345915841584158,
       "basis": "Current future projection"
     },
     {
@@ -21213,33 +21213,33 @@
       "features": {
         "home_for": 30.875,
         "home_against": 21.375,
-        "away_for": 26.5,
-        "away_against": 19.375
+        "away_for": 23.5,
+        "away_against": 16.875
       },
-      "expected_home": 26.4932,
-      "expected_away": 23.0685,
+      "expected_home": 26.3052,
+      "expected_away": 21.894,
       "home_interval80": [
         14.0,
         40.0
       ],
       "away_interval80": [
-        12.0,
-        36.0
+        11.0,
+        35.0
       ],
       "margin_interval80": [
-        -15.0,
+        -13.0,
         22.0
       ],
       "total_interval80": [
-        32.0,
-        68.0
+        31.0,
+        66.0
       ],
-      "home_win": 0.5867,
-      "away_win": 0.3867,
-      "tie": 0.0266,
+      "home_win": 0.612,
+      "away_win": 0.3577,
+      "tie": 0.0303,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.6027326895418121,
+      "home_win_probability": 0.6311230277405383,
       "basis": "Current future projection"
     },
     {
@@ -22571,13 +22571,13 @@
       "calibration_through": "2026-01-04",
       "feature_cutoff": "2026-12-03",
       "features": {
-        "home_for": 19.5,
-        "home_against": 20.125,
+        "home_for": 19.125,
+        "home_against": 17.625,
         "away_for": 15.125,
         "away_against": 29.0
       },
-      "expected_home": 25.2041,
-      "expected_away": 17.7438,
+      "expected_home": 25.5592,
+      "expected_away": 17.2328,
       "home_interval80": [
         19.0,
         32.0
@@ -22587,19 +22587,19 @@
         23.0
       ],
       "margin_interval80": [
-        -1.0,
-        16.0
+        0.0,
+        17.0
       ],
       "total_interval80": [
         35.0,
         51.0
       ],
-      "home_win": 0.8574,
-      "away_win": 0.1114,
-      "tie": 0.0312,
+      "home_win": 0.8852,
+      "away_win": 0.0868,
+      "tie": 0.028,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.8850123864574732,
+      "home_win_probability": 0.9106995884773663,
       "basis": "Current future projection"
     },
     {
@@ -22611,35 +22611,35 @@
       "calibration_through": "2026-01-04",
       "feature_cutoff": "2026-12-03",
       "features": {
-        "home_for": 19.5,
-        "home_against": 20.125,
+        "home_for": 19.125,
+        "home_against": 17.625,
         "away_for": 15.125,
         "away_against": 29.0
       },
-      "expected_home": 25.1769,
-      "expected_away": 17.8428,
+      "expected_home": 25.5509,
+      "expected_away": 17.3216,
       "home_interval80": [
         14.0,
-        38.0
+        39.0
       ],
       "away_interval80": [
         8.0,
-        29.0
+        28.0
       ],
       "margin_interval80": [
-        -8.0,
-        23.0
+        -7.0,
+        24.0
       ],
       "total_interval80": [
         28.0,
-        60.0
+        59.0
       ],
-      "home_win": 0.7118,
-      "away_win": 0.2596,
-      "tie": 0.0286,
+      "home_win": 0.7375,
+      "away_win": 0.2355,
+      "tie": 0.027,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.732756845789582,
+      "home_win_probability": 0.7579650565262076,
       "basis": "Current future projection"
     },
     {
@@ -22651,19 +22651,19 @@
       "calibration_through": "2026-01-04",
       "feature_cutoff": "2026-12-03",
       "features": {
-        "home_for": 19.5,
-        "home_against": 20.125,
+        "home_for": 19.125,
+        "home_against": 17.625,
         "away_for": 15.125,
         "away_against": 29.0
       },
-      "expected_home": 25.1635,
-      "expected_away": 17.7916,
+      "expected_home": 25.5556,
+      "expected_away": 17.2628,
       "home_interval80": [
         14.0,
-        38.0
+        39.0
       ],
       "away_interval80": [
-        9.0,
+        8.0,
         28.0
       ],
       "margin_interval80": [
@@ -22674,12 +22674,12 @@
         28.0,
         59.0
       ],
-      "home_win": 0.7126,
-      "away_win": 0.2595,
-      "tie": 0.0279,
+      "home_win": 0.7393,
+      "away_win": 0.2359,
+      "tie": 0.0248,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.7330521551280733,
+      "home_win_probability": 0.7581009023789992,
       "basis": "Current future projection"
     },
     {
@@ -23051,35 +23051,35 @@
       "calibration_through": "2026-01-04",
       "feature_cutoff": "2026-12-03",
       "features": {
-        "home_for": 26.5,
-        "home_against": 19.375,
+        "home_for": 23.5,
+        "home_against": 16.875,
         "away_for": 25.25,
         "away_against": 28.375
       },
-      "expected_home": 27.3413,
-      "expected_away": 21.342,
+      "expected_home": 26.2451,
+      "expected_away": 20.8281,
       "home_interval80": [
-        21.0,
-        34.0
+        20.0,
+        33.0
       ],
       "away_interval80": [
-        16.0,
+        15.0,
         27.0
       ],
       "margin_interval80": [
         -3.0,
-        15.0
+        14.0
       ],
       "total_interval80": [
-        40.0,
-        58.0
+        39.0,
+        56.0
       ],
-      "home_win": 0.7883,
-      "away_win": 0.1741,
-      "tie": 0.0376,
+      "home_win": 0.7629,
+      "away_win": 0.1946,
+      "tie": 0.0425,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.8190980881130506,
+      "home_win_probability": 0.7967624020887728,
       "basis": "Current future projection"
     },
     {
@@ -23091,35 +23091,35 @@
       "calibration_through": "2026-01-04",
       "feature_cutoff": "2026-12-03",
       "features": {
-        "home_for": 26.5,
-        "home_against": 19.375,
+        "home_for": 23.5,
+        "home_against": 16.875,
         "away_for": 25.25,
         "away_against": 28.375
       },
-      "expected_home": 27.3219,
-      "expected_away": 21.4761,
+      "expected_home": 26.2295,
+      "expected_away": 20.9584,
       "home_interval80": [
-        15.0,
-        41.0
+        14.0,
+        40.0
       ],
       "away_interval80": [
         10.0,
-        34.0
+        33.0
       ],
       "margin_interval80": [
         -12.0,
-        23.0
+        22.0
       ],
       "total_interval80": [
-        32.0,
-        67.0
+        31.0,
+        65.0
       ],
-      "home_win": 0.6579,
-      "away_win": 0.3165,
-      "tie": 0.0256,
+      "home_win": 0.6454,
+      "away_win": 0.3276,
+      "tie": 0.027,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.6751847290640394,
+      "home_win_probability": 0.6633093525179856,
       "basis": "Current future projection"
     },
     {
@@ -23131,35 +23131,35 @@
       "calibration_through": "2026-01-04",
       "feature_cutoff": "2026-12-03",
       "features": {
-        "home_for": 26.5,
-        "home_against": 19.375,
+        "home_for": 23.5,
+        "home_against": 16.875,
         "away_for": 25.25,
         "away_against": 28.375
       },
-      "expected_home": 27.314,
-      "expected_away": 21.4076,
+      "expected_home": 26.2251,
+      "expected_away": 20.8979,
       "home_interval80": [
-        15.0,
-        41.0
+        14.0,
+        40.0
       ],
       "away_interval80": [
-        11.0,
-        34.0
+        10.0,
+        33.0
       ],
       "margin_interval80": [
         -12.0,
-        24.0
+        23.0
       ],
       "total_interval80": [
-        32.0,
-        67.0
+        31.0,
+        65.0
       ],
-      "home_win": 0.653,
-      "away_win": 0.3169,
-      "tie": 0.0301,
+      "home_win": 0.6407,
+      "away_win": 0.3287,
+      "tie": 0.0306,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.6732652850809362,
+      "home_win_probability": 0.6609242830616877,
       "basis": "Current future projection"
     },
     {
@@ -23893,33 +23893,33 @@
       "features": {
         "home_for": 14.625,
         "home_against": 25.25,
-        "away_for": 19.5,
-        "away_against": 20.125
+        "away_for": 19.125,
+        "away_against": 17.625
       },
-      "expected_home": 19.1592,
-      "expected_away": 21.5879,
+      "expected_home": 18.734,
+      "expected_away": 21.5875,
       "home_interval80": [
-        14.0,
-        25.0
+        13.0,
+        24.0
       ],
       "away_interval80": [
         16.0,
         28.0
       ],
       "margin_interval80": [
-        -10.0,
-        6.0
+        -11.0,
+        5.0
       ],
       "total_interval80": [
-        33.0,
+        32.0,
         49.0
       ],
-      "home_win": 0.3213,
-      "away_win": 0.6179,
-      "tie": 0.0608,
+      "home_win": 0.2964,
+      "away_win": 0.6422,
+      "tie": 0.0614,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.3420996592844974,
+      "home_win_probability": 0.3157894736842105,
       "basis": "Current future projection"
     },
     {
@@ -23933,11 +23933,11 @@
       "features": {
         "home_for": 14.625,
         "home_against": 25.25,
-        "away_for": 19.5,
-        "away_against": 20.125
+        "away_for": 19.125,
+        "away_against": 17.625
       },
-      "expected_home": 19.1315,
-      "expected_away": 21.7234,
+      "expected_home": 18.6724,
+      "expected_away": 21.7572,
       "home_interval80": [
         10.0,
         29.0
@@ -23952,14 +23952,14 @@
       ],
       "total_interval80": [
         26.0,
-        57.0
+        56.0
       ],
-      "home_win": 0.4066,
-      "away_win": 0.5577,
-      "tie": 0.0357,
+      "home_win": 0.389,
+      "away_win": 0.5756,
+      "tie": 0.0354,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.4216530125479623,
+      "home_win_probability": 0.4032759693137052,
       "basis": "Current future projection"
     },
     {
@@ -23973,11 +23973,11 @@
       "features": {
         "home_for": 14.625,
         "home_against": 25.25,
-        "away_for": 19.5,
-        "away_against": 20.125
+        "away_for": 19.125,
+        "away_against": 17.625
       },
-      "expected_home": 19.128,
-      "expected_away": 21.6539,
+      "expected_home": 18.6655,
+      "expected_away": 21.6862,
       "home_interval80": [
         10.0,
         29.0
@@ -23987,19 +23987,19 @@
         34.0
       ],
       "margin_interval80": [
-        -18.0,
-        13.0
+        -19.0,
+        12.0
       ],
       "total_interval80": [
         26.0,
         56.0
       ],
-      "home_win": 0.4033,
-      "away_win": 0.5601,
-      "tie": 0.0366,
+      "home_win": 0.3845,
+      "away_win": 0.5791,
+      "tie": 0.0364,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.4186215486817521,
+      "home_win_probability": 0.39902449149024494,
       "basis": "Current future projection"
     },
     {
@@ -24491,35 +24491,35 @@
       "calibration_through": "2026-01-04",
       "feature_cutoff": "2026-12-10",
       "features": {
-        "home_for": 26.5,
-        "home_against": 19.375,
+        "home_for": 23.5,
+        "home_against": 16.875,
         "away_for": 23.75,
         "away_against": 18.625
       },
-      "expected_home": 24.8625,
-      "expected_away": 21.4611,
+      "expected_home": 23.9347,
+      "expected_away": 20.9125,
       "home_interval80": [
-        19.0,
-        31.0
+        18.0,
+        30.0
       ],
       "away_interval80": [
-        16.0,
+        15.0,
         27.0
       ],
       "margin_interval80": [
-        -5.0,
-        12.0
+        -6.0,
+        11.0
       ],
       "total_interval80": [
-        38.0,
-        55.0
+        37.0,
+        54.0
       ],
-      "home_win": 0.6744,
-      "away_win": 0.2763,
-      "tie": 0.0493,
+      "home_win": 0.6549,
+      "away_win": 0.2886,
+      "tie": 0.0565,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.7093720416535184,
+      "home_win_probability": 0.6941176470588236,
       "basis": "Current future projection"
     },
     {
@@ -24531,35 +24531,35 @@
       "calibration_through": "2026-01-04",
       "feature_cutoff": "2026-12-10",
       "features": {
-        "home_for": 26.5,
-        "home_against": 19.375,
+        "home_for": 23.5,
+        "home_against": 16.875,
         "away_for": 23.75,
         "away_against": 18.625
       },
-      "expected_home": 24.8435,
-      "expected_away": 21.6013,
+      "expected_home": 23.8521,
+      "expected_away": 21.08,
       "home_interval80": [
-        14.0,
-        38.0
+        13.0,
+        36.0
       ],
       "away_interval80": [
         10.0,
         34.0
       ],
       "margin_interval80": [
-        -14.0,
-        20.0
+        -13.099999999999909,
+        19.0
       ],
       "total_interval80": [
-        30.0,
-        64.0
+        29.0,
+        62.0
       ],
-      "home_win": 0.5894,
-      "away_win": 0.3815,
-      "tie": 0.0291,
+      "home_win": 0.5774,
+      "away_win": 0.3914,
+      "tie": 0.0312,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.6070656092285508,
+      "home_win_probability": 0.5959950454170106,
       "basis": "Current future projection"
     },
     {
@@ -24571,35 +24571,35 @@
       "calibration_through": "2026-01-04",
       "feature_cutoff": "2026-12-10",
       "features": {
-        "home_for": 26.5,
-        "home_against": 19.375,
+        "home_for": 23.5,
+        "home_against": 16.875,
         "away_for": 23.75,
         "away_against": 18.625
       },
-      "expected_home": 24.8411,
-      "expected_away": 21.5353,
+      "expected_home": 23.8482,
+      "expected_away": 21.0169,
       "home_interval80": [
         13.0,
-        38.0
+        36.0
       ],
       "away_interval80": [
-        11.0,
-        34.0
+        10.0,
+        33.0
       ],
       "margin_interval80": [
         -14.0,
-        20.0
+        19.0
       ],
       "total_interval80": [
-        30.0,
-        64.0
+        29.0,
+        62.0
       ],
-      "home_win": 0.5883,
-      "away_win": 0.3842,
-      "tie": 0.0275,
+      "home_win": 0.5753,
+      "away_win": 0.3945,
+      "tie": 0.0302,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.604935732647815,
+      "home_win_probability": 0.593215095896061,
       "basis": "Current future projection"
     },
     {
@@ -25093,33 +25093,33 @@
       "features": {
         "home_for": 18.875,
         "home_against": 20.75,
-        "away_for": 26.5,
-        "away_against": 19.375
+        "away_for": 23.5,
+        "away_against": 16.875
       },
-      "expected_home": 20.7285,
-      "expected_away": 23.3828,
+      "expected_home": 20.6264,
+      "expected_away": 22.142,
       "home_interval80": [
         15.0,
-        27.0
+        26.100000000000364
       ],
       "away_interval80": [
-        17.0,
-        30.0
+        16.0,
+        28.0
       ],
       "margin_interval80": [
-        -11.0,
-        6.0
+        -10.0,
+        7.0
       ],
       "total_interval80": [
-        36.0,
-        53.0
+        35.0,
+        51.0
       ],
-      "home_win": 0.3123,
-      "away_win": 0.6316,
-      "tie": 0.0561,
+      "home_win": 0.3795,
+      "away_win": 0.5632,
+      "tie": 0.0573,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.33086132005509056,
+      "home_win_probability": 0.40256709451575257,
       "basis": "Current future projection"
     },
     {
@@ -25133,33 +25133,33 @@
       "features": {
         "home_for": 18.875,
         "home_against": 20.75,
-        "away_for": 26.5,
-        "away_against": 19.375
+        "away_for": 23.5,
+        "away_against": 16.875
       },
-      "expected_home": 20.6651,
-      "expected_away": 23.563,
+      "expected_home": 20.516,
+      "expected_away": 22.3602,
       "home_interval80": [
         11.0,
-        32.0
+        31.0
       ],
       "away_interval80": [
-        12.0,
-        37.0
+        11.0,
+        36.0
       ],
       "margin_interval80": [
-        -20.0,
+        -18.0,
         13.0
       ],
       "total_interval80": [
-        28.0,
-        61.0
+        27.0,
+        60.0
       ],
-      "home_win": 0.4046,
-      "away_win": 0.5625,
-      "tie": 0.0329,
+      "home_win": 0.4336,
+      "away_win": 0.5311,
+      "tie": 0.0353,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.41836418157377725,
+      "home_win_probability": 0.44946615528143463,
       "basis": "Current future projection"
     },
     {
@@ -25173,33 +25173,33 @@
       "features": {
         "home_for": 18.875,
         "home_against": 20.75,
-        "away_for": 26.5,
-        "away_against": 19.375
+        "away_for": 23.5,
+        "away_against": 16.875
       },
-      "expected_home": 20.6575,
-      "expected_away": 23.4886,
+      "expected_home": 20.5143,
+      "expected_away": 22.2939,
       "home_interval80": [
         11.0,
-        32.0
+        31.0
       ],
       "away_interval80": [
-        12.0,
-        37.0
+        11.0,
+        35.0
       ],
       "margin_interval80": [
-        -20.0,
-        13.0
+        -18.0,
+        14.0
       ],
       "total_interval80": [
         28.0,
-        61.0
+        59.0
       ],
-      "home_win": 0.4005,
-      "away_win": 0.566,
-      "tie": 0.0335,
+      "home_win": 0.4316,
+      "away_win": 0.5334,
+      "tie": 0.035,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.41438178996378694,
+      "home_win_probability": 0.4472538860103627,
       "basis": "Current future projection"
     },
     {
@@ -26533,14 +26533,14 @@
       "features": {
         "home_for": 22.125,
         "home_against": 24.75,
-        "away_for": 19.5,
-        "away_against": 20.125
+        "away_for": 19.125,
+        "away_against": 17.625
       },
-      "expected_home": 22.5998,
-      "expected_away": 21.0663,
+      "expected_home": 22.0018,
+      "expected_away": 21.1408,
       "home_interval80": [
-        17.0,
-        29.0
+        16.0,
+        28.0
       ],
       "away_interval80": [
         15.0,
@@ -26548,18 +26548,18 @@
       ],
       "margin_interval80": [
         -7.0,
-        10.0
+        9.0
       ],
       "total_interval80": [
         35.0,
         52.0
       ],
-      "home_win": 0.5609,
-      "away_win": 0.376,
-      "tie": 0.0631,
+      "home_win": 0.5235,
+      "away_win": 0.4164,
+      "tie": 0.0601,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.5986764862845554,
+      "home_win_probability": 0.5569741461857645,
       "basis": "Current future projection"
     },
     {
@@ -26573,14 +26573,14 @@
       "features": {
         "home_for": 22.125,
         "home_against": 24.75,
-        "away_for": 19.5,
-        "away_against": 20.125
+        "away_for": 19.125,
+        "away_against": 17.625
       },
-      "expected_home": 22.534,
-      "expected_away": 21.2339,
+      "expected_home": 21.9915,
+      "expected_away": 21.2714,
       "home_interval80": [
         12.0,
-        34.0
+        33.0
       ],
       "away_interval80": [
         10.0,
@@ -26588,18 +26588,18 @@
       ],
       "margin_interval80": [
         -15.0,
-        17.0
+        16.0
       ],
       "total_interval80": [
         28.0,
-        61.0
+        60.0
       ],
-      "home_win": 0.5361,
-      "away_win": 0.4316,
-      "tie": 0.0323,
+      "home_win": 0.5153,
+      "away_win": 0.4497,
+      "tie": 0.035,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.5539940064069443,
+      "home_win_probability": 0.5339896373056995,
       "basis": "Current future projection"
     },
     {
@@ -26613,18 +26613,18 @@
       "features": {
         "home_for": 22.125,
         "home_against": 24.75,
-        "away_for": 19.5,
-        "away_against": 20.125
+        "away_for": 19.125,
+        "away_against": 17.625
       },
-      "expected_home": 22.5302,
-      "expected_away": 21.1759,
+      "expected_home": 21.983,
+      "expected_away": 21.2082,
       "home_interval80": [
         12.0,
-        34.0
+        33.0
       ],
       "away_interval80": [
         11.0,
-        33.0
+        34.0
       ],
       "margin_interval80": [
         -15.0,
@@ -26634,12 +26634,12 @@
         28.0,
         60.0
       ],
-      "home_win": 0.5327,
-      "away_win": 0.4356,
-      "tie": 0.0317,
+      "home_win": 0.5143,
+      "away_win": 0.4524,
+      "tie": 0.0333,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.5501394196013631,
+      "home_win_probability": 0.5320161373745733,
       "basis": "Current future projection"
     },
     {
@@ -27131,35 +27131,35 @@
       "calibration_through": "2026-01-04",
       "feature_cutoff": "2026-12-24",
       "features": {
-        "home_for": 19.5,
-        "home_against": 20.125,
+        "home_for": 19.125,
+        "home_against": 17.625,
         "away_for": 29.25,
         "away_against": 22.75
       },
-      "expected_home": 21.4952,
-      "expected_away": 24.2259,
+      "expected_home": 21.7707,
+      "expected_away": 23.5201,
       "home_interval80": [
         16.0,
-        27.0
+        28.0
       ],
       "away_interval80": [
-        18.0,
-        31.0
+        17.0,
+        30.0
       ],
       "margin_interval80": [
-        -11.0,
-        6.0
+        -10.0,
+        7.0
       ],
       "total_interval80": [
         37.0,
-        55.0
+        54.0
       ],
-      "home_win": 0.3145,
-      "away_win": 0.6327,
-      "tie": 0.0528,
+      "home_win": 0.3685,
+      "away_win": 0.5724,
+      "tie": 0.0591,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.33203125,
+      "home_win_probability": 0.3916462960994792,
       "basis": "Current future projection"
     },
     {
@@ -27171,35 +27171,35 @@
       "calibration_through": "2026-01-04",
       "feature_cutoff": "2026-12-24",
       "features": {
-        "home_for": 19.5,
-        "home_against": 20.125,
+        "home_for": 19.125,
+        "home_against": 17.625,
         "away_for": 29.25,
         "away_against": 22.75
       },
-      "expected_home": 21.4449,
-      "expected_away": 24.3916,
+      "expected_home": 21.767,
+      "expected_away": 23.6705,
       "home_interval80": [
         12.0,
         33.0
       ],
       "away_interval80": [
         12.0,
-        39.0
+        38.0
       ],
       "margin_interval80": [
-        -20.0,
-        13.0
+        -19.0,
+        14.0
       ],
       "total_interval80": [
         29.0,
-        64.0
+        63.0
       ],
-      "home_win": 0.4054,
-      "away_win": 0.562,
-      "tie": 0.0326,
+      "home_win": 0.4361,
+      "away_win": 0.5302,
+      "tie": 0.0337,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.4190614016952656,
+      "home_win_probability": 0.45130911725137124,
       "basis": "Current future projection"
     },
     {
@@ -27211,35 +27211,35 @@
       "calibration_through": "2026-01-04",
       "feature_cutoff": "2026-12-24",
       "features": {
-        "home_for": 19.5,
-        "home_against": 20.125,
+        "home_for": 19.125,
+        "home_against": 17.625,
         "away_for": 29.25,
         "away_against": 22.75
       },
-      "expected_home": 21.4384,
-      "expected_away": 24.3227,
+      "expected_home": 21.7676,
+      "expected_away": 23.6018,
       "home_interval80": [
-        11.0,
+        12.0,
         33.0
       ],
       "away_interval80": [
         12.0,
-        38.0
+        37.0
       ],
       "margin_interval80": [
-        -20.0,
-        14.0
+        -19.0,
+        15.0
       ],
       "total_interval80": [
-        30.0,
+        29.0,
         63.0
       ],
-      "home_win": 0.4012,
-      "away_win": 0.5658,
-      "tie": 0.033,
+      "home_win": 0.4344,
+      "away_win": 0.532,
+      "tie": 0.0336,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.41489141675284386,
+      "home_win_probability": 0.44950331125827814,
       "basis": "Current future projection"
     },
     {
@@ -27251,19 +27251,19 @@
       "calibration_through": "2026-01-04",
       "feature_cutoff": "2026-12-24",
       "features": {
-        "home_for": 26.5,
-        "home_against": 19.375,
+        "home_for": 23.5,
+        "home_against": 16.875,
         "away_for": 27.125,
         "away_against": 25.625
       },
-      "expected_home": 26.1762,
-      "expected_away": 22.4377,
+      "expected_home": 25.1734,
+      "expected_away": 21.8662,
       "home_interval80": [
-        20.0,
-        33.0
+        19.0,
+        32.0
       ],
       "away_interval80": [
-        17.0,
+        16.0,
         28.0
       ],
       "margin_interval80": [
@@ -27271,15 +27271,15 @@
         12.0
       ],
       "total_interval80": [
-        40.0,
-        58.0
+        38.0,
+        56.0
       ],
-      "home_win": 0.6819,
-      "away_win": 0.2687,
-      "tie": 0.0494,
+      "home_win": 0.6642,
+      "away_win": 0.2872,
+      "tie": 0.0486,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.717336419103724,
+      "home_win_probability": 0.6981290729451335,
       "basis": "Current future projection"
     },
     {
@@ -27291,35 +27291,35 @@
       "calibration_through": "2026-01-04",
       "feature_cutoff": "2026-12-24",
       "features": {
-        "home_for": 26.5,
-        "home_against": 19.375,
+        "home_for": 23.5,
+        "home_against": 16.875,
         "away_for": 27.125,
         "away_against": 25.625
       },
-      "expected_home": 26.1987,
-      "expected_away": 22.5461,
+      "expected_home": 25.1544,
+      "expected_away": 22.0115,
       "home_interval80": [
         14.0,
-        39.0
+        38.0
       ],
       "away_interval80": [
         11.0,
-        36.0
+        35.0
       ],
       "margin_interval80": [
         -14.0,
-        21.0
+        20.0
       ],
       "total_interval80": [
-        32.0,
-        67.0
+        31.0,
+        65.0
       ],
-      "home_win": 0.597,
-      "away_win": 0.3754,
-      "tie": 0.0276,
+      "home_win": 0.5845,
+      "away_win": 0.3856,
+      "tie": 0.0299,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.613944878650761,
+      "home_win_probability": 0.6025152046180806,
       "basis": "Current future projection"
     },
     {
@@ -27331,16 +27331,16 @@
       "calibration_through": "2026-01-04",
       "feature_cutoff": "2026-12-24",
       "features": {
-        "home_for": 26.5,
-        "home_against": 19.375,
+        "home_for": 23.5,
+        "home_against": 16.875,
         "away_for": 27.125,
         "away_against": 25.625
       },
-      "expected_home": 26.1936,
-      "expected_away": 22.4809,
+      "expected_home": 25.1416,
+      "expected_away": 21.9378,
       "home_interval80": [
         14.0,
-        40.0
+        38.0
       ],
       "away_interval80": [
         11.0,
@@ -27348,18 +27348,18 @@
       ],
       "margin_interval80": [
         -14.0,
-        21.100000000000364
+        20.0
       ],
       "total_interval80": [
-        32.0,
-        67.0
+        31.0,
+        65.0
       ],
-      "home_win": 0.5963,
-      "away_win": 0.3786,
-      "tie": 0.0251,
+      "home_win": 0.5824,
+      "away_win": 0.3889,
+      "tie": 0.0287,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.6116524771771463,
+      "home_win_probability": 0.5996087717492021,
       "basis": "Current future projection"
     },
     {
@@ -29053,33 +29053,33 @@
       "features": {
         "home_for": 23.125,
         "home_against": 24.0,
-        "away_for": 26.5,
-        "away_against": 19.375
+        "away_for": 23.5,
+        "away_against": 16.875
       },
-      "expected_home": 21.9839,
-      "expected_away": 24.1374,
+      "expected_home": 21.844,
+      "expected_away": 22.8919,
       "home_interval80": [
         16.0,
         28.0
       ],
       "away_interval80": [
-        18.0,
-        30.0
+        17.0,
+        29.0
       ],
       "margin_interval80": [
-        -11.0,
-        6.0
+        -9.0,
+        7.0
       ],
       "total_interval80": [
-        38.0,
-        55.0
+        36.0,
+        53.0
       ],
-      "home_win": 0.3514,
-      "away_win": 0.5918,
-      "tie": 0.0568,
+      "home_win": 0.4069,
+      "away_win": 0.5354,
+      "tie": 0.0577,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.3725614927905004,
+      "home_win_probability": 0.4318157699246525,
       "basis": "Current future projection"
     },
     {
@@ -29093,33 +29093,33 @@
       "features": {
         "home_for": 23.125,
         "home_against": 24.0,
-        "away_for": 26.5,
-        "away_against": 19.375
+        "away_for": 23.5,
+        "away_against": 16.875
       },
-      "expected_home": 21.9512,
-      "expected_away": 24.3002,
+      "expected_home": 21.7929,
+      "expected_away": 23.0692,
       "home_interval80": [
         12.0,
         33.0
       ],
       "away_interval80": [
-        12.0,
-        38.0
+        11.0,
+        37.0
       ],
       "margin_interval80": [
-        -20.0,
-        14.0
+        -18.0,
+        15.0
       ],
       "total_interval80": [
-        30.0,
-        64.0
+        29.0,
+        62.0
       ],
-      "home_win": 0.4229,
-      "away_win": 0.5429,
-      "tie": 0.0342,
+      "home_win": 0.4554,
+      "away_win": 0.5138,
+      "tie": 0.0308,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.4378753365085939,
+      "home_win_probability": 0.4698720594304581,
       "basis": "Current future projection"
     },
     {
@@ -29133,33 +29133,33 @@
       "features": {
         "home_for": 23.125,
         "home_against": 24.0,
-        "away_for": 26.5,
-        "away_against": 19.375
+        "away_for": 23.5,
+        "away_against": 16.875
       },
-      "expected_home": 21.9475,
-      "expected_away": 24.2291,
+      "expected_home": 21.7947,
+      "expected_away": 23.0002,
       "home_interval80": [
         12.0,
         33.0
       ],
       "away_interval80": [
         12.0,
-        38.0
+        36.0
       ],
       "margin_interval80": [
-        -20.0,
+        -18.0,
         15.0
       ],
       "total_interval80": [
-        30.0,
-        64.0
+        29.0,
+        62.0
       ],
-      "home_win": 0.4203,
-      "away_win": 0.5436,
-      "tie": 0.0361,
+      "home_win": 0.4539,
+      "away_win": 0.5135,
+      "tie": 0.0326,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.43604108309990663,
+      "home_win_probability": 0.46919578250982014,
       "basis": "Current future projection"
     },
     {
@@ -29773,14 +29773,14 @@
       "features": {
         "home_for": 27.25,
         "home_against": 17.25,
-        "away_for": 19.5,
-        "away_against": 20.125
+        "away_for": 19.125,
+        "away_against": 17.625
       },
-      "expected_home": 26.9213,
-      "expected_away": 19.0422,
+      "expected_home": 26.2882,
+      "expected_away": 19.0315,
       "home_interval80": [
         20.0,
-        34.0
+        33.0
       ],
       "away_interval80": [
         14.0,
@@ -29791,15 +29791,15 @@
         16.0
       ],
       "total_interval80": [
-        38.0,
-        55.0
+        37.0,
+        54.0
       ],
-      "home_win": 0.8633,
-      "away_win": 0.1081,
-      "tie": 0.0286,
+      "home_win": 0.8431,
+      "away_win": 0.1231,
+      "tie": 0.0338,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.8887173152151534,
+      "home_win_probability": 0.8725936659076796,
       "basis": "Current future projection"
     },
     {
@@ -29813,13 +29813,13 @@
       "features": {
         "home_for": 27.25,
         "home_against": 17.25,
-        "away_for": 19.5,
-        "away_against": 20.125
+        "away_for": 19.125,
+        "away_against": 17.625
       },
-      "expected_home": 26.9036,
-      "expected_away": 19.1563,
+      "expected_home": 26.2486,
+      "expected_away": 19.1847,
       "home_interval80": [
-        15.0,
+        14.0,
         40.0
       ],
       "away_interval80": [
@@ -29828,18 +29828,18 @@
       ],
       "margin_interval80": [
         -9.0,
-        24.0
+        23.0
       ],
       "total_interval80": [
         30.0,
-        64.0
+        63.0
       ],
-      "home_win": 0.7137,
-      "away_win": 0.2609,
-      "tie": 0.0254,
+      "home_win": 0.6983,
+      "away_win": 0.2772,
+      "tie": 0.0245,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.7323004309460291,
+      "home_win_probability": 0.7158380317785751,
       "basis": "Current future projection"
     },
     {
@@ -29853,14 +29853,14 @@
       "features": {
         "home_for": 27.25,
         "home_against": 17.25,
-        "away_for": 19.5,
-        "away_against": 20.125
+        "away_for": 19.125,
+        "away_against": 17.625
       },
-      "expected_home": 26.892,
-      "expected_away": 19.0926,
+      "expected_home": 26.2459,
+      "expected_away": 19.1241,
       "home_interval80": [
-        15.0,
-        41.0
+        14.0,
+        40.0
       ],
       "away_interval80": [
         9.0,
@@ -29868,18 +29868,18 @@
       ],
       "margin_interval80": [
         -9.0,
-        25.0
+        24.0
       ],
       "total_interval80": [
-        30.0,
+        29.0,
         63.0
       ],
-      "home_win": 0.7134,
-      "away_win": 0.2593,
-      "tie": 0.0273,
+      "home_win": 0.6973,
+      "away_win": 0.2744,
+      "tie": 0.0283,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.7334224324046469,
+      "home_win_probability": 0.7176083153236595,
       "basis": "Current future projection"
     },
     {
@@ -31331,35 +31331,35 @@
       "calibration_through": "2026-01-04",
       "feature_cutoff": "2027-01-10",
       "features": {
-        "home_for": 19.5,
-        "home_against": 20.125,
+        "home_for": 19.125,
+        "home_against": 17.625,
         "away_for": 17.125,
         "away_against": 23.125
       },
-      "expected_home": 23.3165,
-      "expected_away": 18.8937,
+      "expected_home": 23.6964,
+      "expected_away": 18.3278,
       "home_interval80": [
-        17.0,
-        29.0
+        18.0,
+        30.0
       ],
       "away_interval80": [
         13.0,
-        25.0
+        24.0
       ],
       "margin_interval80": [
-        -4.0,
+        -3.0,
         13.0
       ],
       "total_interval80": [
         34.0,
         51.0
       ],
-      "home_win": 0.7328,
-      "away_win": 0.2197,
-      "tie": 0.0475,
+      "home_win": 0.7833,
+      "away_win": 0.1736,
+      "tie": 0.0431,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.7693438320209973,
+      "home_win_probability": 0.8185808339429408,
       "basis": "Current future projection"
     },
     {
@@ -31371,35 +31371,35 @@
       "calibration_through": "2026-01-04",
       "feature_cutoff": "2027-01-10",
       "features": {
-        "home_for": 19.5,
-        "home_against": 20.125,
+        "home_for": 19.125,
+        "home_against": 17.625,
         "away_for": 17.125,
         "away_against": 23.125
       },
-      "expected_home": 23.3309,
-      "expected_away": 19.004,
+      "expected_home": 23.6785,
+      "expected_away": 18.4469,
       "home_interval80": [
         13.0,
-        35.0
+        36.0
       ],
       "away_interval80": [
         9.0,
         30.0
       ],
       "margin_interval80": [
-        -11.0,
+        -10.0,
         20.0
       ],
       "total_interval80": [
         27.0,
-        59.0
+        58.0
       ],
-      "home_win": 0.6282,
-      "away_win": 0.3373,
-      "tie": 0.0345,
+      "home_win": 0.6582,
+      "away_win": 0.3127,
+      "tie": 0.0291,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.6506473329880891,
+      "home_win_probability": 0.6779276959522093,
       "basis": "Current future projection"
     },
     {
@@ -31411,35 +31411,35 @@
       "calibration_through": "2026-01-04",
       "feature_cutoff": "2027-01-10",
       "features": {
-        "home_for": 19.5,
-        "home_against": 20.125,
+        "home_for": 19.125,
+        "home_against": 17.625,
         "away_for": 17.125,
         "away_against": 23.125
       },
-      "expected_home": 23.3162,
-      "expected_away": 18.94,
+      "expected_home": 23.6705,
+      "expected_away": 18.3818,
       "home_interval80": [
         13.0,
-        35.0
+        36.0
       ],
       "away_interval80": [
         9.0,
-        30.0
+        29.0
       ],
       "margin_interval80": [
-        -11.0,
-        20.0
+        -10.0,
+        21.0
       ],
       "total_interval80": [
         27.0,
         58.0
       ],
-      "home_win": 0.6259,
-      "away_win": 0.3421,
-      "tie": 0.032,
+      "home_win": 0.6534,
+      "away_win": 0.3141,
+      "tie": 0.0325,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.6465909090909091,
+      "home_win_probability": 0.6753488372093023,
       "basis": "Current future projection"
     },
     {
@@ -31933,33 +31933,33 @@
       "features": {
         "home_for": 27.125,
         "home_against": 25.625,
-        "away_for": 26.5,
-        "away_against": 19.375
+        "away_for": 23.5,
+        "away_against": 16.875
       },
-      "expected_home": 23.5369,
-      "expected_away": 24.4301,
+      "expected_home": 23.3663,
+      "expected_away": 23.2131,
       "home_interval80": [
-        18.0,
+        17.0,
         30.0
       ],
       "away_interval80": [
-        18.0,
-        31.0
+        17.0,
+        29.0
       ],
       "margin_interval80": [
-        -10.0,
-        8.0
+        -9.0,
+        9.0
       ],
       "total_interval80": [
-        39.0,
-        57.0
+        38.0,
+        55.0
       ],
-      "home_win": 0.4178,
-      "away_win": 0.5225,
-      "tie": 0.0597,
+      "home_win": 0.4808,
+      "away_win": 0.4619,
+      "tie": 0.0573,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.44432627884717646,
+      "home_win_probability": 0.5100243980057283,
       "basis": "Current future projection"
     },
     {
@@ -31973,33 +31973,33 @@
       "features": {
         "home_for": 27.125,
         "home_against": 25.625,
-        "away_for": 26.5,
-        "away_against": 19.375
+        "away_for": 23.5,
+        "away_against": 16.875
       },
-      "expected_home": 23.5456,
-      "expected_away": 24.5802,
+      "expected_home": 23.3779,
+      "expected_away": 23.3317,
       "home_interval80": [
         13.0,
-        36.0
+        35.0
       ],
       "away_interval80": [
-        12.0,
-        39.0
+        11.0,
+        37.0
       ],
       "margin_interval80": [
-        -19.0,
+        -17.0,
         16.0
       ],
       "total_interval80": [
-        31.0,
-        67.0
+        30.0,
+        65.0
       ],
-      "home_win": 0.4663,
-      "away_win": 0.5053,
-      "tie": 0.0284,
+      "home_win": 0.4956,
+      "away_win": 0.4732,
+      "tie": 0.0312,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.4799300123507616,
+      "home_win_probability": 0.5115606936416185,
       "basis": "Current future projection"
     },
     {
@@ -32013,33 +32013,33 @@
       "features": {
         "home_for": 27.125,
         "home_against": 25.625,
-        "away_for": 26.5,
-        "away_against": 19.375
+        "away_for": 23.5,
+        "away_against": 16.875
       },
-      "expected_home": 23.5338,
-      "expected_away": 24.506,
+      "expected_home": 23.3624,
+      "expected_away": 23.2551,
       "home_interval80": [
         13.0,
-        36.0
+        35.0
       ],
       "away_interval80": [
         12.0,
-        38.100000000000364
+        37.0
       ],
       "margin_interval80": [
-        -19.0,
+        -17.0,
         17.0
       ],
       "total_interval80": [
-        31.0,
-        66.0
+        30.0,
+        64.0
       ],
-      "home_win": 0.4638,
-      "away_win": 0.5048,
-      "tie": 0.0314,
+      "home_win": 0.4952,
+      "away_win": 0.4747,
+      "tie": 0.0301,
       "spread": null,
       "total": null,
-      "home_win_probability": 0.4788354325831096,
+      "home_win_probability": 0.5105680998041034,
       "basis": "Current future projection"
     },
     {

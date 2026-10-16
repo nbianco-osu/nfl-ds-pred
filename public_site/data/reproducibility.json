@@ -9,7 +9,7 @@
     {
       "game_id": "2026_06_BAL_CLE",
       "status": "Reproduced",
-      "absolute_difference": 5.551115123125783e-17
+      "absolute_difference": 0.0
     },
     {
       "game_id": "2026_06_BUF_LV",
@@ -39,7 +39,7 @@
     {
       "game_id": "2026_06_LAC_KC",
       "status": "Reproduced",
-      "absolute_difference": 0.0
+      "absolute_difference": 2.220446049250313e-16
     },
     {
       "game_id": "2026_06_NO_NYG",
@@ -49,7 +49,7 @@
     {
       "game_id": "2026_06_NYJ_NE",
       "status": "Reproduced",
-      "absolute_difference": 1.1102230246251565e-16
+      "absolute_difference": 0.0
     }
   ],
   "note": "Deterministic replay of up to ten original archived input records with the matching local production artifact. Older archives used 10-decimal JSON precision, which can affect tree thresholds; mismatches remain visible and records are not rewritten. Future archives preserve full numeric precision. No reconstruction of missing legacy inputs. Sampling is not an exhaustive audit; passing does not establish predictive skill."
