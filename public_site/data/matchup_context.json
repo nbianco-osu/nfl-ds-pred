@@ -2620,7 +2620,7 @@
       "last_qb_attempt_share": 1.0,
       "ol_out": 0,
       "roster_ol_count": 15,
-      "active_roster_ol_count": 9
+      "active_roster_ol_count": 8
     },
     "away": {
       "last_performance_week": 5,
@@ -2717,7 +2717,7 @@
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Deshaun Watson",
       "last_qb_attempt_share": 1.0,
-      "ol_out": 0,
+      "ol_out": 1,
       "roster_ol_count": 13,
       "active_roster_ol_count": 10
     },
@@ -2729,7 +2729,7 @@
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Tyler Huntley",
       "last_qb_attempt_share": 1.0,
-      "ol_out": 0,
+      "ol_out": 1,
       "roster_ol_count": 18,
       "active_roster_ol_count": 8
     },
@@ -2795,7 +2795,7 @@
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Geno Smith",
       "last_qb_attempt_share": 1.0,
-      "ol_out": 0,
+      "ol_out": 1,
       "roster_ol_count": 13,
       "active_roster_ol_count": 9
     },
@@ -2861,7 +2861,7 @@
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Bryce Young",
       "last_qb_attempt_share": 1.0,
-      "ol_out": 0,
+      "ol_out": 1,
       "roster_ol_count": 15,
       "active_roster_ol_count": 10
     },
@@ -2948,7 +2948,7 @@
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Patrick Mahomes",
       "last_qb_attempt_share": 1.0,
-      "ol_out": 0,
+      "ol_out": 1,
       "roster_ol_count": 13,
       "active_roster_ol_count": 10
     },
@@ -2960,7 +2960,7 @@
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Justin Herbert",
       "last_qb_attempt_share": 1.0,
-      "ol_out": 0,
+      "ol_out": 2,
       "roster_ol_count": 17,
       "active_roster_ol_count": 9
     },
@@ -2993,7 +2993,7 @@
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Josh Allen",
       "last_qb_attempt_share": 1.0,
-      "ol_out": null,
+      "ol_out": 0,
       "roster_ol_count": 11,
       "active_roster_ol_count": 10
     },
@@ -3026,7 +3026,7 @@
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Dak Prescott",
       "last_qb_attempt_share": 1.0,
-      "ol_out": 0,
+      "ol_out": 1,
       "roster_ol_count": 13,
       "active_roster_ol_count": 9
     },
@@ -3047,7 +3047,7 @@
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Brock Purdy",
       "last_qb_attempt_share": 1.0,
-      "ol_out": null,
+      "ol_out": 0,
       "roster_ol_count": 15,
       "active_roster_ol_count": 9
     },
@@ -3059,7 +3059,7 @@
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Jayden Daniels",
       "last_qb_attempt_share": 1.0,
-      "ol_out": null,
+      "ol_out": 0,
       "roster_ol_count": 13,
       "active_roster_ol_count": 9
     },
@@ -3382,9 +3382,9 @@
       "active_roster_ol_count": null
     },
     "away": {
-      "last_performance_week": 5,
-      "plays_per_game": 57.2,
-      "opponent_adjusted_epa": 0.07293082766934675,
+      "last_performance_week": 6,
+      "plays_per_game": 59.2,
+      "opponent_adjusted_epa": 0.058305582929309874,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Bo Nix",
@@ -3469,9 +3469,9 @@
     "week": 7,
     "sources": {},
     "home": {
-      "last_performance_week": 5,
-      "plays_per_game": 58.8,
-      "opponent_adjusted_epa": -0.08452298780063033,
+      "last_performance_week": 6,
+      "plays_per_game": 65.6,
+      "opponent_adjusted_epa": -0.07917864035491333,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Sam Darnold",
@@ -3865,9 +3865,9 @@
     "week": 8,
     "sources": {},
     "home": {
-      "last_performance_week": 5,
-      "plays_per_game": 57.2,
-      "opponent_adjusted_epa": 0.07293082766934675,
+      "last_performance_week": 6,
+      "plays_per_game": 59.2,
+      "opponent_adjusted_epa": 0.058305582929309874,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Bo Nix",
@@ -3964,9 +3964,9 @@
     "week": 8,
     "sources": {},
     "home": {
-      "last_performance_week": 5,
-      "plays_per_game": 58.8,
-      "opponent_adjusted_epa": -0.08452298780063033,
+      "last_performance_week": 6,
+      "plays_per_game": 65.6,
+      "opponent_adjusted_epa": -0.07917864035491333,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Sam Darnold",
@@ -4075,9 +4075,9 @@
       "active_roster_ol_count": null
     },
     "away": {
-      "last_performance_week": 5,
-      "plays_per_game": 57.2,
-      "opponent_adjusted_epa": 0.07293082766934675,
+      "last_performance_week": 6,
+      "plays_per_game": 59.2,
+      "opponent_adjusted_epa": 0.058305582929309874,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Bo Nix",
@@ -4393,9 +4393,9 @@
     "week": 9,
     "sources": {},
     "home": {
-      "last_performance_week": 5,
-      "plays_per_game": 58.8,
-      "opponent_adjusted_epa": -0.08452298780063033,
+      "last_performance_week": 6,
+      "plays_per_game": 65.6,
+      "opponent_adjusted_epa": -0.07917864035491333,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Sam Darnold",
@@ -4834,9 +4834,9 @@
       "active_roster_ol_count": null
     },
     "away": {
-      "last_performance_week": 5,
-      "plays_per_game": 58.8,
-      "opponent_adjusted_epa": -0.08452298780063033,
+      "last_performance_week": 6,
+      "plays_per_game": 65.6,
+      "opponent_adjusted_epa": -0.07917864035491333,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Sam Darnold",
@@ -5251,9 +5251,9 @@
     "week": 11,
     "sources": {},
     "home": {
-      "last_performance_week": 5,
-      "plays_per_game": 57.2,
-      "opponent_adjusted_epa": 0.07293082766934675,
+      "last_performance_week": 6,
+      "plays_per_game": 59.2,
+      "opponent_adjusted_epa": 0.058305582929309874,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Bo Nix",
@@ -5527,9 +5527,9 @@
       "active_roster_ol_count": null
     },
     "away": {
-      "last_performance_week": 5,
-      "plays_per_game": 57.2,
-      "opponent_adjusted_epa": 0.07293082766934675,
+      "last_performance_week": 6,
+      "plays_per_game": 59.2,
+      "opponent_adjusted_epa": 0.058305582929309874,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Bo Nix",
@@ -5824,9 +5824,9 @@
       "active_roster_ol_count": null
     },
     "away": {
-      "last_performance_week": 5,
-      "plays_per_game": 58.8,
-      "opponent_adjusted_epa": -0.08452298780063033,
+      "last_performance_week": 6,
+      "plays_per_game": 65.6,
+      "opponent_adjusted_epa": -0.07917864035491333,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Sam Darnold",
@@ -6208,9 +6208,9 @@
     "week": 13,
     "sources": {},
     "home": {
-      "last_performance_week": 5,
-      "plays_per_game": 57.2,
-      "opponent_adjusted_epa": 0.07293082766934675,
+      "last_performance_week": 6,
+      "plays_per_game": 59.2,
+      "opponent_adjusted_epa": 0.058305582929309874,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Bo Nix",
@@ -6340,9 +6340,9 @@
     "week": 13,
     "sources": {},
     "home": {
-      "last_performance_week": 5,
-      "plays_per_game": 58.8,
-      "opponent_adjusted_epa": -0.08452298780063033,
+      "last_performance_week": 6,
+      "plays_per_game": 65.6,
+      "opponent_adjusted_epa": -0.07917864035491333,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Sam Darnold",
@@ -6583,9 +6583,9 @@
       "active_roster_ol_count": null
     },
     "away": {
-      "last_performance_week": 5,
-      "plays_per_game": 57.2,
-      "opponent_adjusted_epa": 0.07293082766934675,
+      "last_performance_week": 6,
+      "plays_per_game": 59.2,
+      "opponent_adjusted_epa": 0.058305582929309874,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Bo Nix",
@@ -6736,9 +6736,9 @@
     "week": 14,
     "sources": {},
     "home": {
-      "last_performance_week": 5,
-      "plays_per_game": 58.8,
-      "opponent_adjusted_epa": -0.08452298780063033,
+      "last_performance_week": 6,
+      "plays_per_game": 65.6,
+      "opponent_adjusted_epa": -0.07917864035491333,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Sam Darnold",
@@ -6913,9 +6913,9 @@
       "active_roster_ol_count": null
     },
     "away": {
-      "last_performance_week": 5,
-      "plays_per_game": 58.8,
-      "opponent_adjusted_epa": -0.08452298780063033,
+      "last_performance_week": 6,
+      "plays_per_game": 65.6,
+      "opponent_adjusted_epa": -0.07917864035491333,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Sam Darnold",
@@ -7309,9 +7309,9 @@
       "active_roster_ol_count": null
     },
     "away": {
-      "last_performance_week": 5,
-      "plays_per_game": 57.2,
-      "opponent_adjusted_epa": 0.07293082766934675,
+      "last_performance_week": 6,
+      "plays_per_game": 59.2,
+      "opponent_adjusted_epa": 0.058305582929309874,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Bo Nix",
@@ -7462,9 +7462,9 @@
     "week": 16,
     "sources": {},
     "home": {
-      "last_performance_week": 5,
-      "plays_per_game": 57.2,
-      "opponent_adjusted_epa": 0.07293082766934675,
+      "last_performance_week": 6,
+      "plays_per_game": 59.2,
+      "opponent_adjusted_epa": 0.058305582929309874,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Bo Nix",
@@ -7495,9 +7495,9 @@
     "week": 16,
     "sources": {},
     "home": {
-      "last_performance_week": 5,
-      "plays_per_game": 58.8,
-      "opponent_adjusted_epa": -0.08452298780063033,
+      "last_performance_week": 6,
+      "plays_per_game": 65.6,
+      "opponent_adjusted_epa": -0.07917864035491333,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Sam Darnold",
@@ -8002,9 +8002,9 @@
       "active_roster_ol_count": null
     },
     "away": {
-      "last_performance_week": 5,
-      "plays_per_game": 58.8,
-      "opponent_adjusted_epa": -0.08452298780063033,
+      "last_performance_week": 6,
+      "plays_per_game": 65.6,
+      "opponent_adjusted_epa": -0.07917864035491333,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Sam Darnold",
@@ -8200,9 +8200,9 @@
       "active_roster_ol_count": null
     },
     "away": {
-      "last_performance_week": 5,
-      "plays_per_game": 57.2,
-      "opponent_adjusted_epa": 0.07293082766934675,
+      "last_performance_week": 6,
+      "plays_per_game": 59.2,
+      "opponent_adjusted_epa": 0.058305582929309874,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Bo Nix",
@@ -8617,9 +8617,9 @@
     "week": 18,
     "sources": {},
     "home": {
-      "last_performance_week": 5,
-      "plays_per_game": 57.2,
-      "opponent_adjusted_epa": 0.07293082766934675,
+      "last_performance_week": 6,
+      "plays_per_game": 59.2,
+      "opponent_adjusted_epa": 0.058305582929309874,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Bo Nix",
@@ -8794,9 +8794,9 @@
       "active_roster_ol_count": null
     },
     "away": {
-      "last_performance_week": 5,
-      "plays_per_game": 58.8,
-      "opponent_adjusted_epa": -0.08452298780063033,
+      "last_performance_week": 6,
+      "plays_per_game": 65.6,
+      "opponent_adjusted_epa": -0.07917864035491333,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Sam Darnold",

@@ -19,63 +19,63 @@
   ],
   "missingness": [
     {
-      "feature": "away_team_injury_report_count",
-      "missing": 181,
-      "rows": 272
-    },
-    {
-      "feature": "away_team_injury_out_count",
-      "missing": 181,
-      "rows": 272
-    },
-    {
-      "feature": "away_team_injury_questionable_count",
-      "missing": 181,
-      "rows": 272
-    },
-    {
-      "feature": "away_team_injury_qb_out",
-      "missing": 181,
-      "rows": 272
-    },
-    {
-      "feature": "away_team_injury_skill_out_count",
-      "missing": 181,
-      "rows": 272
-    },
-    {
-      "feature": "away_team_injury_line_out_count",
-      "missing": 181,
-      "rows": 272
-    },
-    {
       "feature": "home_team_injury_report_count",
-      "missing": 180,
+      "missing": 179,
       "rows": 272
     },
     {
       "feature": "home_team_injury_out_count",
-      "missing": 180,
+      "missing": 179,
       "rows": 272
     },
     {
       "feature": "home_team_injury_questionable_count",
-      "missing": 180,
+      "missing": 179,
       "rows": 272
     },
     {
       "feature": "home_team_injury_qb_out",
-      "missing": 180,
+      "missing": 179,
       "rows": 272
     },
     {
       "feature": "home_team_injury_skill_out_count",
-      "missing": 180,
+      "missing": 179,
       "rows": 272
     },
     {
       "feature": "home_team_injury_line_out_count",
-      "missing": 180,
+      "missing": 179,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_injury_report_count",
+      "missing": 179,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_injury_out_count",
+      "missing": 179,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_injury_questionable_count",
+      "missing": 179,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_injury_qb_out",
+      "missing": 179,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_injury_skill_out_count",
+      "missing": 179,
+      "rows": 272
+    },
+    {
+      "feature": "away_team_injury_line_out_count",
+      "missing": 179,
       "rows": 272
     },
     {
