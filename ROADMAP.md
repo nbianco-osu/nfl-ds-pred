@@ -133,6 +133,13 @@ results, but never runs backtests or retrains production automatically.
 
 ## Iteration Log
 
+- 2026-10-17, R67-R70: Added a pinned, hash-verified public data manifest and
+  independent dataset delivery (R67), read-only Release Evidence view (R68),
+  compact immutable exports and static Sites packaging (R69), and corruption,
+  fallback, revision-consistency and publication checks (R70). Existing forecasts,
+  production artifacts and private writer authority are unchanged. The legacy
+  full snapshot remains for compatibility. See RELEASE_R67_R70.md.
+
 - 2026-10-17, R61-R66: Installed the corrected 240-model cohort and robust ensemble
   in the private shadow runner with all old model/forecast files preserved and no
   production promotion. Added immutable core training vintages, fixed prospective

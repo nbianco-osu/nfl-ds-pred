@@ -202,6 +202,13 @@ def publish(root, destination, config):
     from publication_changes import changes
     validate_transition(root, destination)
     exports = list(config['public_exports'])
+    manifest_path = root/'public_site/data/dashboard_manifest.json'
+    if manifest_path.exists():
+        from validate_delivery import validate as validate_delivery
+        validate_delivery(root/'public_site')
+        manifest = json.loads(manifest_path.read_text())
+        exports += ['public_site/data/dashboard_manifest.json']
+        exports += ['public_site/data/' + entry['path'] for entry in manifest['files'].values()]
     exports += production_input_exports(root, destination)
     generation = config.get('shadow_generation')
     if generation and re.fullmatch(r'[A-Za-z0-9_-]+', generation):

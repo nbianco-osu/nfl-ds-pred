@@ -20,7 +20,9 @@ jobs:
       - run: pip install -r requirements.txt
       - run: python -B -m unittest discover -p 'test*.py'
       - run: python validate_dashboard.py
+      - run: python validate_delivery.py
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
       - run: node public_site/build.mjs
+      - run: node --test public_site/test_delivery.mjs

@@ -105,4 +105,5 @@ window.setupSeasonCharts = function (data) {
   document.getElementById('libraryLink').addEventListener('click', () => activate(document.getElementById('researchTab')));
   teamSelect.addEventListener('change', render);
   measure.addEventListener('change', render);
+  window.dashboardTabsReady = true;
 };

@@ -37,6 +37,9 @@ jobs:
       - name: Validate forecast exports
         run: python validate_dashboard.py
 
+      - name: Verify immutable data revisions
+        run: python validate_delivery.py
+
       - name: Reject changed locked picks and unexplained coverage loss
         run: python publication_gate.py --against HEAD^
 

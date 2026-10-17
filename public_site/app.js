@@ -132,7 +132,7 @@ function renderShap(shapRows) {
 async function main() {
   const [predictions, shapRows, metrics, simulations, comparison, seasonCharts] = await Promise.all([
     window.dashboardFetch("./data/predictions.json").then((response) => response.json()),
-    window.dashboardFetch("./data/global_shap.json").then((response) => response.json()),
+    window.dashboardFetch("./data/global_shap.json").then((response) => response.json()).catch(() => []),
     window.dashboardFetch("./data/metrics.json").then((response) => response.json()),
     window.dashboardFetch("./data/season_simulations.json").then((response) => response.json()),
     window.dashboardFetch("./data/model_comparison.json").then((response) => {
@@ -201,5 +201,11 @@ function renderModelComparison(comparison) {
 }
 
 main().catch((error) => {
-  document.body.innerHTML = `<main><section class="panel"><h1>Unable to load dashboard</h1><p>${error.message}</p></section></main>`;
+  if (!window.dashboardTabsReady) window.setupSeasonCharts({teams: []});
+  const message = document.createElement('p');
+  message.setAttribute('role', 'alert');
+  message.textContent = 'Schedule data is unavailable. Other views may still load. No forecasts have been substituted.';
+  const retry = document.createElement('button');
+  retry.textContent = 'Retry data'; retry.addEventListener('click', () => location.reload());
+  byId('dashboardPanel').prepend(message, retry);
 });

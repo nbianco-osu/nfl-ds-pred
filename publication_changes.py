@@ -23,7 +23,7 @@ def changes(root,reference='HEAD'):
     changed=[]
     for name in sorted(paths):
         # Bundle duplicates the individual datasets; its digest includes receipt times.
-        if name == 'public_site/data/live_snapshot.json':
+        if name in {'public_site/data/live_snapshot.json', 'public_site/data/dashboard_manifest.json'} or name.startswith('public_site/data/revisions/'):
             continue
         if not name.endswith('.json'):
             continue
