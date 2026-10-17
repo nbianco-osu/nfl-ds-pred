@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T17:08:41.103744+00:00",
+  "updated_at": "2026-10-17T20:19:44.419966+00:00",
   "provider": "Open-Meteo",
   "games": [
     {
@@ -72,7 +72,12 @@
     },
     {
       "game_id": "2026_07_TB_CAR",
-      "status": "Forecast archived"
+      "status": "Outside 16-day horizon"
+    },
+    {
+      "game_id": "2026_07_TB_CAR",
+      "status": "Forecast unavailable",
+      "error": "URLError"
     },
     {
       "game_id": "2026_07_NYG_HOU",
@@ -116,35 +121,35 @@
     },
     {
       "game_id": "2026_08_BAL_BUF",
-      "status": "Outside 16-day horizon"
+      "status": "Forecast archived"
     },
     {
       "game_id": "2026_08_TEN_CIN",
-      "status": "Outside 16-day horizon"
+      "status": "Forecast archived"
     },
     {
       "game_id": "2026_08_ARI_DAL",
-      "status": "Outside 16-day horizon"
+      "status": "Forecast archived"
     },
     {
       "game_id": "2026_08_MIN_DET",
-      "status": "Outside 16-day horizon"
+      "status": "Indoor; outdoor forecast not used"
     },
     {
       "game_id": "2026_08_IND_JAX",
-      "status": "Outside 16-day horizon"
+      "status": "Forecast archived"
     },
     {
       "game_id": "2026_08_LV_NYJ",
-      "status": "Outside 16-day horizon"
+      "status": "Forecast archived"
     },
     {
       "game_id": "2026_08_CLE_PIT",
-      "status": "Outside 16-day horizon"
+      "status": "Forecast archived"
     },
     {
       "game_id": "2026_08_ATL_TB",
-      "status": "Outside 16-day horizon"
+      "status": "Forecast archived"
     },
     {
       "game_id": "2026_08_LAC_LA",
@@ -771,7 +776,7 @@
       "status": "Outside 16-day horizon"
     }
   ],
-  "added": 22,
+  "added": 28,
   "note": "Non-commercial Open-Meteo forecast API; CC BY 4.0 attribution. Outdoor grid-cell weather only. Provider issue time unavailable: locally observed time is retained, never called publication time. Confirmed QB inputs remain manual imports with source URLs; previous usage is not confirmation.",
   "venue_source": "https://raw.githubusercontent.com/greerreNFL/Stadiums/main/data/stadiums.csv",
   "venue_sha256": "8de55868f633112f1d29672155ad67e59555e67c2b8dafce34800313df45098b"
