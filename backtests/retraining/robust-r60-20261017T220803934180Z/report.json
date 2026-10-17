@@ -1,0 +1,217 @@
+{
+  "version": "robust-r60-20261017T220803934180Z",
+  "parent_generation": "expanded240-20261017T220233813195Z",
+  "status": "completed_shadow_only",
+  "production_changed": false,
+  "source_hashes": {
+    "research_matchups.csv": "19e4691c2c9fc0cbb82d7377d137d223534648672104bdd48ecf0456b48333ed",
+    "historical_opponent_features.csv": "43afde7696fb95d7e4786f887762ece98ea73449e0002f4546a24bc0e638fffe"
+  },
+  "sklearn_version": "1.8.0",
+  "training_through": "2026-10-12",
+  "feature_cols": [
+    "diff_team_win_pct",
+    "diff_team_point_diff_per_game",
+    "diff_team_last_5_point_diff",
+    "diff_team_rest_days",
+    "diff_team_pbp_off_epa_per_play_avg",
+    "diff_team_pbp_off_success_rate_avg",
+    "diff_team_pbp_off_explosive_rate_avg",
+    "diff_team_pbp_off_turnover_rate_avg",
+    "diff_team_pbp_def_epa_allowed_per_play_avg",
+    "diff_team_pbp_def_takeaway_rate_avg",
+    "diff_team_pbp_prev_season_off_epa_per_play",
+    "diff_team_pbp_prev_season_def_epa_allowed_per_play",
+    "diff_team_qb_qb_passing_epa_avg",
+    "diff_team_qb_qb_passing_cpoe_avg",
+    "diff_team_qb_prev_season_qb_passing_epa",
+    "diff_team_injury_out_count",
+    "diff_team_injury_questionable_count",
+    "diff_team_injury_qb_out",
+    "diff_team_roster_active_count",
+    "diff_team_roster_avg_years_exp",
+    "home_raw_epa",
+    "away_raw_epa",
+    "diff_net_epa",
+    "diff_sack_rate_differential",
+    "diff_big_play_rate_differential"
+  ],
+  "folds": [
+    {
+      "task": "winner",
+      "year": 2022,
+      "train_rows": 1291,
+      "test_rows": 269,
+      "train_end": "2022-01-09",
+      "test_start": "2022-09-08"
+    },
+    {
+      "task": "score",
+      "year": 2022,
+      "train_rows": 1291,
+      "test_rows": 269,
+      "train_end": "2022-01-09",
+      "test_start": "2022-09-08"
+    },
+    {
+      "task": "winner",
+      "year": 2023,
+      "train_rows": 1560,
+      "test_rows": 272,
+      "train_end": "2023-01-08",
+      "test_start": "2023-09-07"
+    },
+    {
+      "task": "score",
+      "year": 2023,
+      "train_rows": 1560,
+      "test_rows": 272,
+      "train_end": "2023-01-08",
+      "test_start": "2023-09-07"
+    },
+    {
+      "task": "winner",
+      "year": 2024,
+      "train_rows": 1832,
+      "test_rows": 272,
+      "train_end": "2024-01-07",
+      "test_start": "2024-09-05"
+    },
+    {
+      "task": "score",
+      "year": 2024,
+      "train_rows": 1832,
+      "test_rows": 272,
+      "train_end": "2024-01-07",
+      "test_start": "2024-09-05"
+    }
+  ],
+  "winner_members": [
+    "r59_winner_logistic_1_core_updated",
+    "r59_winner_extra_1_core_updated",
+    "r59_winner_forest_1_core_updated",
+    "r59_winner_hist_1_core_updated",
+    "r59_winner_mlp_1_core_updated",
+    "r59_winner_rbf_1_core_updated"
+  ],
+  "score_members": [
+    "r59_score_ridge_1_core_updated",
+    "r59_score_extra_1_core_updated",
+    "r59_score_forest_1_core_updated",
+    "r59_score_hist_1_core_updated",
+    "r59_score_mlp_1_core_updated",
+    "r59_score_poisson_1_core_updated"
+  ],
+  "winner_weights": [
+    0.2050378772076959,
+    0.15903574192506983,
+    0.20285463621580507,
+    0.19466973557819556,
+    0.11718452411684699,
+    0.12121748495638678
+  ],
+  "score_weights": [
+    0.15966758681510354,
+    0.16280580158252436,
+    0.17489827455585488,
+    0.18471649313486765,
+    0.14257959329154038,
+    0.17533225062010904
+  ],
+  "maximum_member_weight": 0.35,
+  "weight_fit_seasons": [
+    2022,
+    2023,
+    2024
+  ],
+  "calibration_season": 2025,
+  "evaluation_season": 2026,
+  "winner_metrics": {
+    "log_loss": 0.6794971360278437,
+    "accuracy": 0.5897435897435898,
+    "brier": 0.24304925100575175
+  },
+  "score_metrics": {
+    "home_mae": 8.175535110758101,
+    "away_mae": 7.619727356325596,
+    "margin_mae": 10.546863032863731,
+    "total_mae": 11.843575829827861
+  },
+  "winner_evaluation_games": 78,
+  "score_evaluation_games": 79,
+  "baselines": {
+    "equal_weight": {
+      "metrics": {
+        "log_loss": 0.6799225741419523,
+        "accuracy": 0.5769230769230769,
+        "brier": 0.24317757088027692
+      },
+      "delta_log_loss": -0.00042543811410861095,
+      "paired_week_ci95": [
+        -0.0023989230826019395,
+        0.0021601172101666706
+      ]
+    },
+    "best_oof_individual": {
+      "metrics": {
+        "log_loss": 0.6846141714298853,
+        "accuracy": 0.5769230769230769,
+        "brier": 0.24579344146609783
+      },
+      "delta_log_loss": -0.005117035402041583,
+      "paired_week_ci95": [
+        -0.02486337016389986,
+        0.017893533157744963
+      ]
+    }
+  },
+  "score_baselines": {
+    "equal_weight": {
+      "metrics": {
+        "home_mae": 8.170600983938293,
+        "away_mae": 7.625998414581578,
+        "margin_mae": 10.540065086872497,
+        "total_mae": 11.856448053240861
+      },
+      "delta_team_mae": -0.0006684657180880608,
+      "paired_week_ci95": [
+        -0.007962466790103285,
+        0.006213281909195846
+      ]
+    },
+    "best_oof_individual": {
+      "metrics": {
+        "home_mae": 8.362954564556064,
+        "away_mae": 7.757731142381032,
+        "margin_mae": 10.852762006038585,
+        "total_mae": 11.78706495017185
+      },
+      "delta_team_mae": -0.1627116199267001,
+      "paired_week_ci95": [
+        -0.2127593805032155,
+        -0.11365127405908104
+      ]
+    }
+  },
+  "historical_ties_in_source": "Historical research source omits some ties; score evaluation covers available rows only.",
+  "score_marginal_80pct_coverage": [
+    0.8227848101265823,
+    0.8227848101265823
+  ],
+  "final_base_through_season": 2025,
+  "final_calibration_games": 79,
+  "final_calibration_season": 2026,
+  "convergence_warnings": 0,
+  "release_gate": {
+    "approved": false,
+    "prospective_games": 0,
+    "reasons": [
+      "New generation needs separately recorded prospective forecasts and evaluation.",
+      "Serving adapter and fallback behavior require integration/release review.",
+      "Retrospective 2026 results were inspected in prior research; not a fresh test."
+    ]
+  },
+  "note": "Six diverse members per task, fixed independently of 2026 results. Convex weights capped at 35%, shrunk toward uniform, with correlated-error penalty. Separate chronological calibration. Reported metrics belong to pre-refit evaluation artifact; final candidate uses 2026 only for calibration. Paired residuals preserve score dependence, but ranges are not coverage guarantees. No production state, scheduler, historical pick or shadow cohort changed.",
+  "evaluation_sha256": "c9ce7d993bc44b77e5aefa04e1cb411e4d9d7f7d6afb67e7881822bc411497d8",
+  "candidate_sha256": "3b8b20a74007305173ac994d516842bf9f6979d9c0a0d49d71a2585a27b07aa3"
+}

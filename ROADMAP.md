@@ -133,6 +133,15 @@ results, but never runs backtests or retrains production automatically.
 
 ## Iteration Log
 
+- 2026-10-17, R59-R60: Trained a 240-configuration library (140 winner, 100 score),
+  preserving the original 120 artifacts. Built and saved a six-member-per-task
+  constrained/calibrated ensemble with chronological OOF fitting, paired-residual
+  ranges and fail-closed inference. Historical advantage over equal weighting is
+  inconclusive; production and the cloud's existing 120-model shadow generation
+  remain unchanged. New model binaries are local, pending private-runner migration.
+  Training inputs end October 12. See RELEASE_R59_R60.md for evidence, reproduction
+  commands and proposed R61-R66; R58 remains deferred.
+
 - 2026-10-15, R49-R58: Added strict timestamp-gated accuracy, model disagreement,
   joint score summaries, complete weekly recaps, source availability, matched
   baselines, true grouped ablations and publication transition gates. R57 private
