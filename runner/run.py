@@ -190,6 +190,13 @@ def export_cloud_schedule(root, config):
     })
 
 
+def valid_public_export(name):
+    research = re.fullmatch(r'backtests/retraining/[A-Za-z0-9_-]+/[A-Za-z0-9_.-]+\.(?:csv|json)', name)
+    return bool((research or any(name.startswith(p + '/') for p in ('data', 'audit', 'learning', 'public_site/data')))
+                and Path(name).suffix in {'.csv', '.json'} and '..' not in Path(name).parts
+                and '\\' not in name and ':' not in name)
+
+
 def publish(root, destination, config):
     from publication_gate import validate_transition
     from publication_changes import changes
@@ -203,9 +210,7 @@ def publish(root, destination, config):
                     if re.fullmatch(r'[0-9a-f]{64}\.json', p.name)]
     exports = sorted(set(exports))
     for name in exports:
-        if (not any(name.startswith(p + '/') for p in ('data', 'audit', 'learning', 'public_site/data'))
-                or Path(name).suffix not in {'.csv', '.json'} or '..' in Path(name).parts
-                or '\\' in name or ':' in name):
+        if not valid_public_export(name):
             raise ValueError('Invalid public export allowlist')
         source, target = root/name, destination/name
         if source.is_file():

@@ -59,6 +59,8 @@ def review(root,version,schedule):
     records=list(archive.values());games=schedule.set_index('game_id').to_dict('index');pairs=[]
     for candidate in records:
         if candidate.get('model')!=policy['candidate'] or candidate.get('horizon')!=policy['horizon']:continue
+        if candidate.get('generation')!=version:raise ValueError('Mixed candidate generation')
+        if policy.get('declared_at') and pd.Timestamp(candidate['forecast_at'])<pd.Timestamp(policy['declared_at']):raise ValueError('Forecast predates review policy')
         game=games.get(candidate['game_id'],{})
         if pd.isna(game.get('home_score')) or pd.isna(game.get('away_score')) or game.get('home_score')==game.get('away_score'):continue
         refs=[r for r in records if r['game_id']==candidate['game_id'] and r['horizon']==candidate['horizon'] and r['generation']==version and r['model'].startswith('production_')]
@@ -69,6 +71,7 @@ def review(root,version,schedule):
         def loss(p):
             p=np.clip(p,1e-6,1-1e-6);return -y*np.log(p)-(1-y)*np.log(1-p)
         pairs.append(dict(game_id=candidate['game_id'],week=int(game['week']),delta=float(loss(candidate['home_probability'])-loss(reference['home_probability'])),reference=reference['model']))
+    if len({p['game_id'] for p in pairs})!=len(pairs):raise ValueError('Repeated review label')
     looks=[]
     for week,minimum in zip(policy['review_weeks'],policy['minimum_games']):
         path=root/'audit/fixed_reviews'/version/f'week_{week}.json'
@@ -117,13 +120,21 @@ def prune_oof(frame,task,threshold=.98,max_members=4):
 def rehearsal(candidate,frame,production,version):
     before=hashlib.sha256(json.dumps(production,sort_keys=True).encode()).hexdigest()
     start=time.perf_counter();details=candidate.predict_details(frame);elapsed=(time.perf_counter()-start)*1000
+    timings=[]
+    for _ in range(10):
+        start=time.perf_counter();candidate.predict_details(frame.head(1));timings.append((time.perf_counter()-start)*1000)
+    champion={r['game_id']:r for r in production}
+    shifts=[abs(float(details['home_probability'][i])-float(champion[game]['home_win_probability'])) for i,game in enumerate(frame.index) if game in champion]
     with tempfile.TemporaryDirectory(prefix='nfl-selector-rehearsal-') as directory:
         path=Path(directory)/'selector.json';write_json(path,{'active':'champion'})
         saved=path.read_bytes();write_json(path,{'active':version,'mode':'canary_simulation'})
         path.write_bytes(saved)
         restored=read(path)=={'active':'champion'}
     after=hashlib.sha256(json.dumps(production,sort_keys=True).encode()).hexdigest()
-    return dict(status='Dry-run only',games=len(frame),batch_latency_ms=elapsed,per_game_ms=elapsed/max(len(frame),1),
+    return dict(protocol_version=2,status='Dry-run only',games=len(frame),batch_latency_ms=elapsed,per_game_ms=elapsed/max(len(frame),1),
+        single_game_p50_ms=float(np.median(timings)),single_game_p95_ms=float(np.quantile(timings,.95)),latency_samples=10,
+        proposed_latency_budget_ms=250,within_proposed_latency_budget=bool(np.quantile(timings,.95)<=250),
+        matched_champion_games=len(shifts),max_probability_shift=max(shifts) if shifts else None,
         selector_rollback_passed=restored,production_input_unchanged=before==after,
         finite_outputs=bool(np.isfinite(details['scores']).all() and np.isfinite(details['home_probability']).all()),
         production_activation=False,note='Disposable selector switch/rollback rehearsal, not a live production cutover. Explicit approval and prospective evidence remain required.')
@@ -152,7 +163,7 @@ def export(root,season=2026,run_research=False):
     previous_vintage=output.get('training_vintage',{}).get('vintage')
     output.update(generation=version,training_vintage=manifest,fixed_review=review(root,version,schedule))
     now=datetime.now(timezone.utc);upcoming=schedule.loc[schedule.apply(lambda g:pregame(g,now),axis=1)].head(16)
-    if len(upcoming) and (run_research or previous_vintage!=manifest['vintage'] or 'canary' not in output):
+    if len(upcoming) and (run_research or previous_vintage!=manifest['vintage'] or output.get('canary',{}).get('protocol_version')!=2):
         live=build_live_features(root,schedule,upcoming,cols,season)
         output['canary']=rehearsal(artifact['model'],live,read(root/'public_site/data/predictions.json',[]),version)
         output['canary']['max_missing_fraction']=float(live.isna().mean(axis=1).max())

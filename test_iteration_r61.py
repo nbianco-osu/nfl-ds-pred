@@ -13,6 +13,13 @@ from runner.migrate_candidates import allowed_additions
 
 
 class IterationTests(unittest.TestCase):
+    def test_public_research_allowlist(self):
+        from runner.run import valid_public_export
+        self.assertTrue(valid_public_export('backtests/retraining/expanded240-test/report.json'))
+        for name in ['backtests/retraining/x/model.joblib', 'backtests/retraining/../secret.json',
+                     'models/retrained/x/report.json', 'backtests/private.json']:
+            self.assertFalse(valid_public_export(name))
+
     def test_migration_scope(self):
         self.assertTrue(allowed_additions({'models/retrained/new/a.joblib':'x'},'new','ens'))
         self.assertFalse(allowed_additions({'models/production.joblib':'x'},'new','ens'))
