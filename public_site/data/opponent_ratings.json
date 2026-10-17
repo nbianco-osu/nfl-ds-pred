@@ -8671,11 +8671,11 @@
     "source": "nflreadpy.load_pbp",
     "sha256": "897adee8acfbe7745783bc77ad1fad49275802ab29baa54ac72c98a3beb8da11",
     "rows": 14031,
-    "retrieved_at": "2026-10-17T20:16:50.580932+00:00",
+    "retrieved_at": "2026-10-17T22:50:27.056471+00:00",
     "provider_published_at": null,
     "cache_may_be_used": true,
     "note": "Local observation time, not proof of original publication or freshness."
   },
-  "schedule_sha256": "291500acdb1933cf4aadc649f118d8ce4c5206c0b382a690f529c12a8d2111ca",
+  "schedule_sha256": "a733d6e0931591a2857be1001625908aaac88b35f0478a285508f56da686a713",
   "implementation_sha256": "9bd49d86b07d0d93931f5534be2ac755ccb366dba6a28b45603cd1421978c9ee"
 }

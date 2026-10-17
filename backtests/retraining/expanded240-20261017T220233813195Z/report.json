@@ -3715,5 +3715,9 @@
     "diff_research_qb_max_snap_share": 1306
   },
   "parent_generation": "expanded120-20261015T191351669323Z",
-  "created_at": "2026-10-17T22:02:33.815279+00:00"
+  "created_at": "2026-10-17T22:02:33.815279+00:00",
+  "feature_adapter": "expanded_differentials_v1",
+  "ensemble_kind": "robust_r60",
+  "ensemble_generation": "robust-r60-20261017T220803934180Z",
+  "ensemble_sha256": "3b8b20a74007305173ac994d516842bf9f6979d9c0a0d49d71a2585a27b07aa3"
 }

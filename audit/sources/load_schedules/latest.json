@@ -1,8 +1,8 @@
 {
   "source": "nflreadpy.load_schedules",
-  "sha256": "9ab53f202caa6a445320efd0574d9b570417a016856d0476785659ac257dfcc9",
+  "sha256": "d438aa8fc4db1b7295a6293881c61d2b14269b08a110f4bc67b9ded1e9e5f37a",
   "rows": 272,
-  "retrieved_at": "2026-10-17T20:16:49.419295+00:00",
+  "retrieved_at": "2026-10-17T22:50:25.711609+00:00",
   "provider_published_at": null,
   "cache_may_be_used": true,
   "note": "Local observation time, not proof of original publication or freshness."

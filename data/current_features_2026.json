@@ -10,9 +10,9 @@
   "receipts": {
     "load_schedules": {
       "source": "nflreadpy.load_schedules",
-      "sha256": "9ab53f202caa6a445320efd0574d9b570417a016856d0476785659ac257dfcc9",
+      "sha256": "d438aa8fc4db1b7295a6293881c61d2b14269b08a110f4bc67b9ded1e9e5f37a",
       "rows": 272,
-      "retrieved_at": "2026-10-17T20:16:49.419295+00:00",
+      "retrieved_at": "2026-10-17T22:50:25.711609+00:00",
       "provider_published_at": null,
       "cache_may_be_used": true,
       "note": "Local observation time, not proof of original publication or freshness."
@@ -21,7 +21,7 @@
       "source": "nflreadpy.load_pbp",
       "sha256": "897adee8acfbe7745783bc77ad1fad49275802ab29baa54ac72c98a3beb8da11",
       "rows": 14031,
-      "retrieved_at": "2026-10-17T20:16:50.580932+00:00",
+      "retrieved_at": "2026-10-17T22:50:27.056471+00:00",
       "provider_published_at": null,
       "cache_may_be_used": true,
       "note": "Local observation time, not proof of original publication or freshness."
@@ -30,7 +30,7 @@
       "source": "nflreadpy.load_player_stats",
       "sha256": "a3329e0c9897b5cd05b0fd4822c06e073bd6da94bf79e03e87afefdf5300c373",
       "rows": 5575,
-      "retrieved_at": "2026-10-17T20:16:54.085790+00:00",
+      "retrieved_at": "2026-10-17T22:50:30.803913+00:00",
       "provider_published_at": null,
       "cache_may_be_used": true,
       "note": "Local observation time, not proof of original publication or freshness."
@@ -39,7 +39,7 @@
       "source": "nflreadpy.load_injuries",
       "sha256": "fec73f4774d11740e129aadff138ce23c4a671fb0d4b42c8cae0f64ab797abef",
       "rows": 1787,
-      "retrieved_at": "2026-10-17T20:16:56.178312+00:00",
+      "retrieved_at": "2026-10-17T22:50:33.046334+00:00",
       "provider_published_at": null,
       "cache_may_be_used": true,
       "note": "Local observation time, not proof of original publication or freshness."
@@ -48,7 +48,7 @@
       "source": "nflreadpy.load_rosters_weekly",
       "sha256": "40c55761b89a9882ad7307661d269cd698346a007c72f42996c2174e461ef345",
       "rows": 15327,
-      "retrieved_at": "2026-10-17T20:16:56.340371+00:00",
+      "retrieved_at": "2026-10-17T22:50:33.302081+00:00",
       "provider_published_at": null,
       "cache_may_be_used": true,
       "note": "Local observation time, not proof of original publication or freshness."

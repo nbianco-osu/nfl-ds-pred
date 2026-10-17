@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T20:21:26.652210+00:00",
+  "updated_at": "2026-10-17T22:55:37.379599+00:00",
   "status": "attention",
   "issues": [
     {
@@ -27,7 +27,7 @@
       "action": "Inspect reproducibility.json; preserve old rounded-input records and use full precision for future archives."
     }
   ],
-  "last_successful_refresh": "2026-10-17T20:21:26.417860+00:00",
+  "last_successful_refresh": "2026-10-17T22:55:37.076130+00:00",
   "upcoming_games": 14,
   "missing_prediction_ids": [],
   "note": "Operational checks, not model-performance guarantees. Warnings can indicate intentionally unavailable inputs. Notifications should fire only when the issue fingerprint changes or a substantive deployment completes.",

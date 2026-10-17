@@ -1,5 +1,5 @@
 {
-  "version": "expanded120-20261015T191351669323Z",
+  "version": "expanded240-20261017T220233813195Z",
   "status": "completed_shadow_only",
   "production_changed": false,
   "sklearn_version": "1.8.0",
@@ -12,7 +12,7 @@
   "current_season_games": 79,
   "winner_holdout_games": 78,
   "historical_ties_in_source": "Historical research source omits some ties; score evaluation covers available rows only.",
-  "note": "Shadow-only. Revised-source retrospective evaluation, not prospective evidence. Settings selected on 2025, evaluated on 2026 before final refit. Classifiers exclude ties. No weather or confirmed-starter values invented. Prior usage is not a confirmed starter. GPR uses a bounded recent training window and disjoint week-based calibration. Final fitted artifacts are not evaluated on their own training labels. 60 retained configurations reuse byte-identical artifacts on identical source hashes. 60 additions include 24 small winner MLPs, 24 target-standardized score MLPs, six Ridge and six Poisson settings. No new distinct algorithm count is claimed. Network settings are predeclared configurations; no random internal validation split. Convergence warnings are reported.",
+  "note": "120 byte-identical retained configurations plus 120 newly fitted configurations; not 240 distinct algorithms. Historical 2026 evaluation is repeatedly inspected research, not an untouched or prospective test. All final artifacts are shadow-only. No automatic production promotion. Shadow-only. Revised-source retrospective evaluation, not prospective evidence. Settings selected on 2025, evaluated on 2026 before final refit. Classifiers exclude ties. No weather or confirmed-starter values invented. Prior usage is not a confirmed starter. GPR uses a bounded recent training window and disjoint week-based calibration. Final fitted artifacts are not evaluated on their own training labels. 60 retained configurations reuse byte-identical artifacts on identical source hashes. 60 additions include 24 small winner MLPs, 24 target-standardized score MLPs, six Ridge and six Poisson settings. No new distinct algorithm count is claimed. Network settings are predeclared configurations; no random internal validation split. Convergence warnings are reported.",
   "features": {
     "core_updated": [
       "diff_team_win_pct",
@@ -2055,6 +2055,1626 @@
       "selected_configuration": "MultiOutputRegressor(estimator=PoissonRegressor(alpha=1000.0, max_iter=1000))",
       "convergence_warnings": 0,
       "artifact_sha256": "d2c1be2f62afb48a68e5888557cc60d273f3b2eb298725a96252e4b1c1ad0453"
+    },
+    {
+      "validation_log_loss": 0.6512859946252177,
+      "holdout": {
+        "log_loss": 0.6859039571808693,
+        "accuracy": 0.5641025641025641,
+        "brier": 0.2438879549642261
+      },
+      "name": "r59_winner_logistic_0_core_updated",
+      "task": "winner",
+      "selected_configuration": "LogisticRegression(C=0.003, max_iter=1500)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "23a14a783bf113227f266c29b6dac59065d046c377d450621b5ce00297491367"
+    },
+    {
+      "validation_log_loss": 0.6500780814709095,
+      "holdout": {
+        "log_loss": 0.6737030050845194,
+        "accuracy": 0.5897435897435898,
+        "brier": 0.2399676674566232
+      },
+      "name": "r59_winner_extra_0_core_updated",
+      "task": "winner",
+      "selected_configuration": "ExtraTreesClassifier(max_depth=3, min_samples_leaf=30, n_jobs=2,\n                     random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "3fdfaa56844be82e9855f762ed3ec900e4b38dc863521e8a58504b16eced9a48"
+    },
+    {
+      "validation_log_loss": 0.6634263736432113,
+      "holdout": {
+        "log_loss": 0.6800037099904173,
+        "accuracy": 0.6025641025641025,
+        "brier": 0.24345245829562293
+      },
+      "name": "r59_winner_forest_0_core_updated",
+      "task": "winner",
+      "selected_configuration": "RandomForestClassifier(max_depth=3, min_samples_leaf=30, n_jobs=2,\n                       random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "0666f54cfd837967ef2b993939ba58adaf1c9a829eb6c78535a2b3e9547ec90d"
+    },
+    {
+      "validation_log_loss": 0.6545678809279004,
+      "holdout": {
+        "log_loss": 0.6926930748635816,
+        "accuracy": 0.5512820512820513,
+        "brier": 0.24999367451761473
+      },
+      "name": "r59_winner_hist_0_core_updated",
+      "task": "winner",
+      "selected_configuration": "HistGradientBoostingClassifier(early_stopping=False, l2_regularization=1,\n                               learning_rate=0.04, max_leaf_nodes=5,\n                               random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "c8e6beb1439b4179f8e71efd0e696a1349f5411d1c7c60e6aa043211642658c0"
+    },
+    {
+      "validation_log_loss": 0.648465574400469,
+      "holdout": {
+        "log_loss": 0.6833368289264542,
+        "accuracy": 0.5897435897435898,
+        "brier": 0.2433148360841001
+      },
+      "name": "r59_winner_mlp_0_core_updated",
+      "task": "winner",
+      "selected_configuration": "MLPClassifier(alpha=30, hidden_layer_sizes=(6,), max_iter=400, random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "622c76bae3fcadb310839b369e9d4979e47a277ecf4d244315d025594da0c119"
+    },
+    {
+      "validation_log_loss": 0.6469583191279661,
+      "holdout": {
+        "log_loss": 0.7055556157431685,
+        "accuracy": 0.6410256410256411,
+        "brier": 0.25014872746118116
+      },
+      "name": "r59_winner_rbf_0_core_updated",
+      "task": "winner",
+      "selected_configuration": "Pipeline(steps=[('nystroem',\n                 Nystroem(gamma=0.0003, n_components=64, random_state=71)),\n                ('logisticregression',\n                 LogisticRegression(C=0.1, max_iter=1500))])",
+      "convergence_warnings": 0,
+      "artifact_sha256": "3bf5f54078d3ac6c8d2f1d91646b1ba91800bf1aaff6b6429be1cb297df7c101"
+    },
+    {
+      "validation_team_mae": 7.559836425209425,
+      "holdout": {
+        "home_mae": 8.075529702035757,
+        "away_mae": 7.768202392251756,
+        "margin_mae": 10.42545237080009,
+        "total_mae": 12.069222706096697
+      },
+      "name": "r59_score_ridge_0_core_updated",
+      "task": "score",
+      "selected_configuration": "Ridge(alpha=3)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "ca61afc29b2c77438740dbbd524c68436a12223a99e4b3ec57fe9b8836210768"
+    },
+    {
+      "validation_team_mae": 7.5566014792536595,
+      "holdout": {
+        "home_mae": 8.117623914562278,
+        "away_mae": 7.677748837899908,
+        "margin_mae": 10.365495763081933,
+        "total_mae": 12.095263951098035
+      },
+      "name": "r59_score_extra_0_core_updated",
+      "task": "score",
+      "selected_configuration": "ExtraTreesRegressor(max_depth=3, min_samples_leaf=30, n_jobs=2, random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "cc90c3ac669b020c04a63ac33f8384554f0b5d805b986ba0f0a827044c301105"
+    },
+    {
+      "validation_team_mae": 7.576343536496619,
+      "holdout": {
+        "home_mae": 8.291934052864079,
+        "away_mae": 7.7088421477433835,
+        "margin_mae": 10.750494103922955,
+        "total_mae": 11.98873135406273
+      },
+      "name": "r59_score_forest_0_core_updated",
+      "task": "score",
+      "selected_configuration": "RandomForestRegressor(max_depth=3, min_samples_leaf=30, n_jobs=2,\n                      random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "ec16ffc3681240ec54259fddc47b3668e045fbe61f4859d5bfe73ab77ecaca81"
+    },
+    {
+      "validation_team_mae": 7.580575684493744,
+      "holdout": {
+        "home_mae": 8.28149743996178,
+        "away_mae": 7.469597264078908,
+        "margin_mae": 10.686093164762683,
+        "total_mae": 11.78815468314783
+      },
+      "name": "r59_score_hist_0_core_updated",
+      "task": "score",
+      "selected_configuration": "MultiOutputRegressor(estimator=HistGradientBoostingRegressor(early_stopping=False,\n                                                             l2_regularization=1,\n                                                             learning_rate=0.04,\n                                                             max_leaf_nodes=5,\n                                                             random_state=71))",
+      "convergence_warnings": 0,
+      "artifact_sha256": "138694eb9fbbe572e644fa3004bcade919afe2e52dd22179ba75e9eee27ca8d1"
+    },
+    {
+      "validation_team_mae": 7.529312575853729,
+      "holdout": {
+        "home_mae": 8.138664417675098,
+        "away_mae": 7.643593900357463,
+        "margin_mae": 10.363037415689089,
+        "total_mae": 12.040571916262122
+      },
+      "name": "r59_score_mlp_0_core_updated",
+      "task": "score",
+      "selected_configuration": "TransformedTargetRegressor(regressor=MLPRegressor(alpha=30,\n                                                  hidden_layer_sizes=(6,),\n                                                  max_iter=400,\n                                                  random_state=71),\n                           transformer=StandardScaler())",
+      "convergence_warnings": 0,
+      "artifact_sha256": "b5ae142e60431120f9bd1021dd655dc89d8d75859ec0f4569522c6e1add7bee7"
+    },
+    {
+      "validation_team_mae": 7.561248653022593,
+      "holdout": {
+        "home_mae": 8.112539008870927,
+        "away_mae": 7.7732983452129565,
+        "margin_mae": 10.48705711406396,
+        "total_mae": 12.084432994656417
+      },
+      "name": "r59_score_poisson_0_core_updated",
+      "task": "score",
+      "selected_configuration": "MultiOutputRegressor(estimator=PoissonRegressor(alpha=0.03, max_iter=1000))",
+      "convergence_warnings": 0,
+      "artifact_sha256": "cf066a13bb92a74199d340a11340efc5264867160ed6b40ff46543eda39a8573"
+    },
+    {
+      "validation_log_loss": 0.6522041451651206,
+      "holdout": {
+        "log_loss": 0.6772877492160065,
+        "accuracy": 0.6025641025641025,
+        "brier": 0.2408320310198023
+      },
+      "name": "r59_winner_logistic_1_core_updated",
+      "task": "winner",
+      "selected_configuration": "LogisticRegression(C=0.01, max_iter=1500)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "e1fefd6cedf1a64244eb353e2b3159d77c0c7644d8e0b26d7949edc42a5c3d86"
+    },
+    {
+      "validation_log_loss": 0.6518363535755597,
+      "holdout": {
+        "log_loss": 0.6790712498972999,
+        "accuracy": 0.6153846153846154,
+        "brier": 0.24230194120183107
+      },
+      "name": "r59_winner_extra_1_core_updated",
+      "task": "winner",
+      "selected_configuration": "ExtraTreesClassifier(max_depth=5, min_samples_leaf=24, n_jobs=2,\n                     random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "793df75f15bc0efc79e5685ab02934f57ab8544d628902ce832f1252ea81d805"
+    },
+    {
+      "validation_log_loss": 0.6666116146401313,
+      "holdout": {
+        "log_loss": 0.6858004582948781,
+        "accuracy": 0.5769230769230769,
+        "brier": 0.24634789218225536
+      },
+      "name": "r59_winner_forest_1_core_updated",
+      "task": "winner",
+      "selected_configuration": "RandomForestClassifier(max_depth=5, min_samples_leaf=24, n_jobs=2,\n                       random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "72be3c4a0e519e45ebcbdbbce2fcb08a1fb3e4370402c821d7a5b1236c1b23c1"
+    },
+    {
+      "validation_log_loss": 0.6598757162386599,
+      "holdout": {
+        "log_loss": 0.6828366630094446,
+        "accuracy": 0.5384615384615384,
+        "brier": 0.2456550728649424
+      },
+      "name": "r59_winner_hist_1_core_updated",
+      "task": "winner",
+      "selected_configuration": "HistGradientBoostingClassifier(early_stopping=False, l2_regularization=3,\n                               learning_rate=0.04, max_leaf_nodes=9,\n                               random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "cea8e1acb6b4d35a3f42bbb42da0497cc0ec06e2743c4650a9fb8e4761d0b63c"
+    },
+    {
+      "validation_log_loss": 0.6456805902434314,
+      "holdout": {
+        "log_loss": 0.6910295622512008,
+        "accuracy": 0.6025641025641025,
+        "brier": 0.2462054415678455
+      },
+      "name": "r59_winner_mlp_1_core_updated",
+      "task": "winner",
+      "selected_configuration": "MLPClassifier(alpha=30, hidden_layer_sizes=(12,), max_iter=400, random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "cd9f640c81cf2f7655661a9cc402cdabfa6335419a0c3f1868dc0f992041d27d"
+    },
+    {
+      "validation_log_loss": 0.6480758125914128,
+      "holdout": {
+        "log_loss": 0.6979856225625022,
+        "accuracy": 0.6282051282051282,
+        "brier": 0.24818522568171472
+      },
+      "name": "r59_winner_rbf_1_core_updated",
+      "task": "winner",
+      "selected_configuration": "Pipeline(steps=[('nystroem',\n                 Nystroem(gamma=0.001, n_components=64, random_state=71)),\n                ('logisticregression',\n                 LogisticRegression(C=0.1, max_iter=1500))])",
+      "convergence_warnings": 0,
+      "artifact_sha256": "23989ba40c874f3a694a86c83b7bd46da1a9e1a2ce1aa5dd582722c91b96e390"
+    },
+    {
+      "validation_team_mae": 7.554580102738707,
+      "holdout": {
+        "home_mae": 8.083687020651144,
+        "away_mae": 7.755174826094831,
+        "margin_mae": 10.425799105036774,
+        "total_mae": 12.053445921220549
+      },
+      "name": "r59_score_ridge_1_core_updated",
+      "task": "score",
+      "selected_configuration": "Ridge(alpha=30)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "efe4aa54df75079a82e96ce9127d9596350c75b8acae08c6edcc89492c15eb08"
+    },
+    {
+      "validation_team_mae": 7.540644418673415,
+      "holdout": {
+        "home_mae": 8.220662213806403,
+        "away_mae": 7.647174939675865,
+        "margin_mae": 10.567417648193015,
+        "total_mae": 11.995272171843983
+      },
+      "name": "r59_score_extra_1_core_updated",
+      "task": "score",
+      "selected_configuration": "ExtraTreesRegressor(max_depth=5, min_samples_leaf=24, n_jobs=2, random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "dddd125a4ae7c2d914b55e57b3254e4b236b8802e04c71be4ef3ba2dde5c61e4"
+    },
+    {
+      "validation_team_mae": 7.56011755274549,
+      "holdout": {
+        "home_mae": 8.422297595920343,
+        "away_mae": 7.741599829820581,
+        "margin_mae": 10.943126614457297,
+        "total_mae": 11.980266874858323
+      },
+      "name": "r59_score_forest_1_core_updated",
+      "task": "score",
+      "selected_configuration": "RandomForestRegressor(max_depth=5, min_samples_leaf=24, n_jobs=2,\n                      random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "01be8116a09b5459af090446468dc8431cbee952a1ff28ebd2ab5bf9695fcbe0"
+    },
+    {
+      "validation_team_mae": 7.6823464677399445,
+      "holdout": {
+        "home_mae": 8.331349940595446,
+        "away_mae": 7.537839185003696,
+        "margin_mae": 10.82823763166081,
+        "total_mae": 11.871440847252662
+      },
+      "name": "r59_score_hist_1_core_updated",
+      "task": "score",
+      "selected_configuration": "MultiOutputRegressor(estimator=HistGradientBoostingRegressor(early_stopping=False,\n                                                             l2_regularization=3,\n                                                             learning_rate=0.04,\n                                                             max_leaf_nodes=9,\n                                                             random_state=71))",
+      "convergence_warnings": 0,
+      "artifact_sha256": "b0555e9ab1cd53df499b0c8a5247fc3ded71e776750dbe2d2c20e28818872800"
+    },
+    {
+      "validation_team_mae": 7.518580651241414,
+      "holdout": {
+        "home_mae": 8.159048680275028,
+        "away_mae": 7.696125787910398,
+        "margin_mae": 10.403990620275152,
+        "total_mae": 12.130119971102307
+      },
+      "name": "r59_score_mlp_1_core_updated",
+      "task": "score",
+      "selected_configuration": "TransformedTargetRegressor(regressor=MLPRegressor(alpha=30,\n                                                  hidden_layer_sizes=(12,),\n                                                  max_iter=400,\n                                                  random_state=71),\n                           transformer=StandardScaler())",
+      "convergence_warnings": 0,
+      "artifact_sha256": "7b8e095fb954294de6a1986c8d78338f98b17ec161b5b6c6d51df9fe7b3fe4d6"
+    },
+    {
+      "validation_team_mae": 7.555150691153962,
+      "holdout": {
+        "home_mae": 8.120372319526835,
+        "away_mae": 7.760196883708209,
+        "margin_mae": 10.482215171589955,
+        "total_mae": 12.073908114040888
+      },
+      "name": "r59_score_poisson_1_core_updated",
+      "task": "score",
+      "selected_configuration": "MultiOutputRegressor(estimator=PoissonRegressor(alpha=0.3, max_iter=1000))",
+      "convergence_warnings": 0,
+      "artifact_sha256": "14d5b7b8a44045c78628b88bdbae81e5e4d15b9a6f6cb0557d92b4229c8192b9"
+    },
+    {
+      "validation_log_loss": 0.651709186814051,
+      "holdout": {
+        "log_loss": 0.6721302815607695,
+        "accuracy": 0.5769230769230769,
+        "brier": 0.23889811734554584
+      },
+      "name": "r59_winner_logistic_2_core_updated",
+      "task": "winner",
+      "selected_configuration": "LogisticRegression(C=0.03, max_iter=1500)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "e3d483a8ff91108fbf7596dd8fa709315460599c3ac964a116be38ea3f30cd4d"
+    },
+    {
+      "validation_log_loss": 0.6541179654685518,
+      "holdout": {
+        "log_loss": 0.6769884937783461,
+        "accuracy": 0.6153846153846154,
+        "brier": 0.2414097493242936
+      },
+      "name": "r59_winner_extra_2_core_updated",
+      "task": "winner",
+      "selected_configuration": "ExtraTreesClassifier(max_depth=7, min_samples_leaf=18, n_jobs=2,\n                     random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "29605661fa726f50d65c7b88d96e43f07bcc95c13185f16bfa5256bc7ce297df"
+    },
+    {
+      "validation_log_loss": 0.6700142845247121,
+      "holdout": {
+        "log_loss": 0.6809231310705522,
+        "accuracy": 0.5641025641025641,
+        "brier": 0.2442116321828181
+      },
+      "name": "r59_winner_forest_2_core_updated",
+      "task": "winner",
+      "selected_configuration": "RandomForestClassifier(max_depth=7, min_samples_leaf=18, n_jobs=2,\n                       random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "190f9ab9bbc5913efdc9aacc53e1087b3e410855c93f9f860b2281540ed768ec"
+    },
+    {
+      "validation_log_loss": 0.6566343421781943,
+      "holdout": {
+        "log_loss": 0.6802191387186537,
+        "accuracy": 0.5897435897435898,
+        "brier": 0.24453151929308475
+      },
+      "name": "r59_winner_hist_2_core_updated",
+      "task": "winner",
+      "selected_configuration": "HistGradientBoostingClassifier(early_stopping=False, l2_regularization=10,\n                               learning_rate=0.04, max_leaf_nodes=13,\n                               random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "becfd5746899499af2820d3005e1cdb54340a523de4cb41b95034444f24e4449"
+    },
+    {
+      "validation_log_loss": 0.6484216578222788,
+      "holdout": {
+        "log_loss": 0.6897737795465033,
+        "accuracy": 0.6153846153846154,
+        "brier": 0.24578251637560647
+      },
+      "name": "r59_winner_mlp_2_core_updated",
+      "task": "winner",
+      "selected_configuration": "MLPClassifier(alpha=30, hidden_layer_sizes=(24,), max_iter=400, random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "c66732b744c3d5b4a2b81c27f94e9ad61b4d541bfbb9ca171df375d126551ae8"
+    },
+    {
+      "validation_log_loss": 0.6502182273428564,
+      "holdout": {
+        "log_loss": 0.6858549641983757,
+        "accuracy": 0.6025641025641025,
+        "brier": 0.24435585732776102
+      },
+      "name": "r59_winner_rbf_2_core_updated",
+      "task": "winner",
+      "selected_configuration": "Pipeline(steps=[('nystroem',\n                 Nystroem(gamma=0.003, n_components=64, random_state=71)),\n                ('logisticregression',\n                 LogisticRegression(C=0.1, max_iter=1500))])",
+      "convergence_warnings": 0,
+      "artifact_sha256": "f89cab9bb0d1cee0be51299ecb23dc2a5491c8f1431143a7b5edf34dca10596a"
+    },
+    {
+      "validation_team_mae": 7.5265410532284625,
+      "holdout": {
+        "home_mae": 8.119527667815923,
+        "away_mae": 7.714140626453574,
+        "margin_mae": 10.463108549198004,
+        "total_mae": 12.028001556501673
+      },
+      "name": "r59_score_ridge_2_core_updated",
+      "task": "score",
+      "selected_configuration": "Ridge(alpha=300)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "2fc862a9f22ccb67dffda364fc0f00443f945c8dfa2efbc748a5559750e33a5e"
+    },
+    {
+      "validation_team_mae": 7.529419799598801,
+      "holdout": {
+        "home_mae": 8.247791063873139,
+        "away_mae": 7.638156924202927,
+        "margin_mae": 10.644499665769743,
+        "total_mae": 11.856743030009406
+      },
+      "name": "r59_score_extra_2_core_updated",
+      "task": "score",
+      "selected_configuration": "ExtraTreesRegressor(max_depth=7, min_samples_leaf=18, n_jobs=2, random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "30aa8dd99936210d1b4302e16a18c594ba17dc861f803cf0db75616d1284885c"
+    },
+    {
+      "validation_team_mae": 7.577400932688061,
+      "holdout": {
+        "home_mae": 8.447234873309908,
+        "away_mae": 7.762737623163818,
+        "margin_mae": 11.023384178720832,
+        "total_mae": 11.958195344020911
+      },
+      "name": "r59_score_forest_2_core_updated",
+      "task": "score",
+      "selected_configuration": "RandomForestRegressor(max_depth=7, min_samples_leaf=18, n_jobs=2,\n                      random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "2ab9be069e9566df8e48a725e0b5e5477ae5bcbecfce72889bfbfb030753b544"
+    },
+    {
+      "validation_team_mae": 7.7146956222339975,
+      "holdout": {
+        "home_mae": 8.354778205823074,
+        "away_mae": 7.530887018974218,
+        "margin_mae": 10.75613207254374,
+        "total_mae": 11.721739967057168
+      },
+      "name": "r59_score_hist_2_core_updated",
+      "task": "score",
+      "selected_configuration": "MultiOutputRegressor(estimator=HistGradientBoostingRegressor(early_stopping=False,\n                                                             l2_regularization=10,\n                                                             learning_rate=0.04,\n                                                             max_leaf_nodes=13,\n                                                             random_state=71))",
+      "convergence_warnings": 0,
+      "artifact_sha256": "22a20c399a2f586571b901aad9d250ce65340128f7871272976bd78540dded3b"
+    },
+    {
+      "validation_team_mae": 7.527852644900543,
+      "holdout": {
+        "home_mae": 8.17198553056961,
+        "away_mae": 7.691595991317041,
+        "margin_mae": 10.402852188138016,
+        "total_mae": 12.114491401058581
+      },
+      "name": "r59_score_mlp_2_core_updated",
+      "task": "score",
+      "selected_configuration": "TransformedTargetRegressor(regressor=MLPRegressor(alpha=30,\n                                                  hidden_layer_sizes=(24,),\n                                                  max_iter=400,\n                                                  random_state=71),\n                           transformer=StandardScaler())",
+      "convergence_warnings": 0,
+      "artifact_sha256": "988292b69021aedffa284ff5e5081200453abd4a3722dd26e27403952ca5f9b3"
+    },
+    {
+      "validation_team_mae": 7.522542389483389,
+      "holdout": {
+        "home_mae": 8.153105096678377,
+        "away_mae": 7.726172968952857,
+        "margin_mae": 10.497297720464973,
+        "total_mae": 12.06631660962758
+      },
+      "name": "r59_score_poisson_2_core_updated",
+      "task": "score",
+      "selected_configuration": "MultiOutputRegressor(estimator=PoissonRegressor(alpha=3, max_iter=1000))",
+      "convergence_warnings": 0,
+      "artifact_sha256": "7547c910d20db4ce882c5bf09c6de1e2cf45c747a57d456e7821318a269be322"
+    },
+    {
+      "validation_log_loss": 0.64932004738758,
+      "holdout": {
+        "log_loss": 0.6690449946183161,
+        "accuracy": 0.5897435897435898,
+        "brier": 0.23775766854016303
+      },
+      "name": "r59_winner_logistic_3_core_updated",
+      "task": "winner",
+      "selected_configuration": "LogisticRegression(C=0.3, max_iter=1500)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "dcac118dbeeb642531fb42e8966d05000598d5207728b18a8dc14827637dfe40"
+    },
+    {
+      "validation_log_loss": 0.6548295824484855,
+      "holdout": {
+        "log_loss": 0.672381571110485,
+        "accuracy": 0.5769230769230769,
+        "brier": 0.2392683698481975
+      },
+      "name": "r59_winner_extra_3_core_updated",
+      "task": "winner",
+      "selected_configuration": "ExtraTreesClassifier(max_depth=9, min_samples_leaf=12, n_jobs=2,\n                     random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "cc2806d56304340cb364f594852d60ba81d90e552c0276532d8c1b6c8b4b5ed8"
+    },
+    {
+      "validation_log_loss": 0.6637898466144189,
+      "holdout": {
+        "log_loss": 0.6762798052127525,
+        "accuracy": 0.5641025641025641,
+        "brier": 0.24181715434231899
+      },
+      "name": "r59_winner_forest_3_core_updated",
+      "task": "winner",
+      "selected_configuration": "RandomForestClassifier(max_depth=9, min_samples_leaf=12, n_jobs=2,\n                       random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "1f9250b42ba4804a4a33b6dbb6e7839567a7dd551b24d24edb858a56d3d7b5d3"
+    },
+    {
+      "validation_log_loss": 0.6626250376340972,
+      "holdout": {
+        "log_loss": 0.6682227886512733,
+        "accuracy": 0.5769230769230769,
+        "brier": 0.23826608643031122
+      },
+      "name": "r59_winner_hist_3_core_updated",
+      "task": "winner",
+      "selected_configuration": "HistGradientBoostingClassifier(early_stopping=False, l2_regularization=30,\n                               learning_rate=0.04, max_leaf_nodes=17,\n                               random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "27723f136071c4b764a5308a11f7ae6c0d45adc9018ceeba53f8c56c8c273e3d"
+    },
+    {
+      "validation_log_loss": 0.7207147754021135,
+      "holdout": {
+        "log_loss": 0.6850077834542445,
+        "accuracy": 0.5897435897435898,
+        "brier": 0.24574688577260376
+      },
+      "name": "r59_winner_mlp_3_core_updated",
+      "task": "winner",
+      "selected_configuration": "MLPClassifier(alpha=30, hidden_layer_sizes=(12, 6), max_iter=400,\n              random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "4a5f12b9ce82b797a7da949a2f953df4e6457be5f36e3ed99b372ab23883c567"
+    },
+    {
+      "validation_log_loss": 0.6557170943868177,
+      "holdout": {
+        "log_loss": 0.6702041232751851,
+        "accuracy": 0.5897435897435898,
+        "brier": 0.2379479351103214
+      },
+      "name": "r59_winner_rbf_3_core_updated",
+      "task": "winner",
+      "selected_configuration": "Pipeline(steps=[('nystroem',\n                 Nystroem(gamma=0.01, n_components=64, random_state=71)),\n                ('logisticregression',\n                 LogisticRegression(C=0.1, max_iter=1500))])",
+      "convergence_warnings": 0,
+      "artifact_sha256": "1f59607fac073496e63603201837a9448454628731135b21cff9a260dae96604"
+    },
+    {
+      "validation_team_mae": 7.519617706372574,
+      "holdout": {
+        "home_mae": 8.119167024184646,
+        "away_mae": 7.726350890370587,
+        "margin_mae": 10.429810371899537,
+        "total_mae": 12.064288268809056
+      },
+      "name": "r59_score_ridge_3_core_updated",
+      "task": "score",
+      "selected_configuration": "Ridge(alpha=3000)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "4133ea31a5459dbf379a016d4d63679bb848c60723f664475947d52c8b2549f3"
+    },
+    {
+      "validation_team_mae": 7.537799215426763,
+      "holdout": {
+        "home_mae": 8.302958736041479,
+        "away_mae": 7.578286010414596,
+        "margin_mae": 10.665782404482892,
+        "total_mae": 11.752635109101686
+      },
+      "name": "r59_score_extra_3_core_updated",
+      "task": "score",
+      "selected_configuration": "ExtraTreesRegressor(max_depth=9, min_samples_leaf=12, n_jobs=2, random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "fb8323426c5ffdec12ff7a81c0b5819711292fdceda5014c1042b0ad5195fe4b"
+    },
+    {
+      "validation_team_mae": 7.588311139258012,
+      "holdout": {
+        "home_mae": 8.435056016664483,
+        "away_mae": 7.765014313293287,
+        "margin_mae": 11.001732292054061,
+        "total_mae": 11.942776406547507
+      },
+      "name": "r59_score_forest_3_core_updated",
+      "task": "score",
+      "selected_configuration": "RandomForestRegressor(max_depth=9, min_samples_leaf=12, n_jobs=2,\n                      random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "1f7d96b099256cdd991111ca19818ddbb6a0f497b39b87eaa34cb79fd221b793"
+    },
+    {
+      "validation_team_mae": 7.7111544253335165,
+      "holdout": {
+        "home_mae": 8.383402821265763,
+        "away_mae": 7.522833849933386,
+        "margin_mae": 10.600205265541549,
+        "total_mae": 11.863987229822559
+      },
+      "name": "r59_score_hist_3_core_updated",
+      "task": "score",
+      "selected_configuration": "MultiOutputRegressor(estimator=HistGradientBoostingRegressor(early_stopping=False,\n                                                             l2_regularization=30,\n                                                             learning_rate=0.04,\n                                                             max_leaf_nodes=17,\n                                                             random_state=71))",
+      "convergence_warnings": 0,
+      "artifact_sha256": "e5a6f86a4a2b5fa2d9a4579578c41d8e45b43c367545f72a1ac803dc1414819c"
+    },
+    {
+      "validation_team_mae": 7.583315130349906,
+      "holdout": {
+        "home_mae": 8.069119594915957,
+        "away_mae": 7.695588479407615,
+        "margin_mae": 10.197551757860344,
+        "total_mae": 12.141332311444774
+      },
+      "name": "r59_score_mlp_3_core_updated",
+      "task": "score",
+      "selected_configuration": "TransformedTargetRegressor(regressor=MLPRegressor(alpha=30,\n                                                  hidden_layer_sizes=(12, 6),\n                                                  max_iter=400,\n                                                  random_state=71),\n                           transformer=StandardScaler())",
+      "convergence_warnings": 0,
+      "artifact_sha256": "376b097fba3fffc0523465e93a8a12c77958132216c15ecbe121cb19b86c9b86"
+    },
+    {
+      "validation_team_mae": 7.509584834058061,
+      "holdout": {
+        "home_mae": 8.133315514776669,
+        "away_mae": 7.7501236223269325,
+        "margin_mae": 10.437677420496936,
+        "total_mae": 12.12792130321057
+      },
+      "name": "r59_score_poisson_3_core_updated",
+      "task": "score",
+      "selected_configuration": "MultiOutputRegressor(estimator=PoissonRegressor(alpha=30, max_iter=1000))",
+      "convergence_warnings": 0,
+      "artifact_sha256": "b236e40944e730d02cbfa1cf204d28311bf1d3da8d46588b245a9191002a2e07"
+    },
+    {
+      "validation_log_loss": 0.6486885524232857,
+      "holdout": {
+        "log_loss": 0.6688419711002789,
+        "accuracy": 0.5897435897435898,
+        "brier": 0.237701428341403
+      },
+      "name": "r59_winner_logistic_4_core_updated",
+      "task": "winner",
+      "selected_configuration": "LogisticRegression(C=3, max_iter=1500)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "1567ee5ee6a9807bc49b6b28995580e8b551458759aaf2ddb1945568f94e8a02"
+    },
+    {
+      "validation_log_loss": 0.6560660788259607,
+      "holdout": {
+        "log_loss": 0.6750381889082759,
+        "accuracy": 0.6282051282051282,
+        "brier": 0.24055902695052767
+      },
+      "name": "r59_winner_extra_4_core_updated",
+      "task": "winner",
+      "selected_configuration": "ExtraTreesClassifier(min_samples_leaf=20, n_jobs=2, random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "d235979c4903c649424dacea14397080fc6025311489260530912a36f02f2e59"
+    },
+    {
+      "validation_log_loss": 0.6718653974698614,
+      "holdout": {
+        "log_loss": 0.6769473470115369,
+        "accuracy": 0.5897435897435898,
+        "brier": 0.2423028729070616
+      },
+      "name": "r59_winner_forest_4_core_updated",
+      "task": "winner",
+      "selected_configuration": "RandomForestClassifier(min_samples_leaf=20, n_jobs=2, random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "3c71a5fd312e38e8ba9f6997e4adc25da0059049903bd44aaf0fc9bcfa62aec9"
+    },
+    {
+      "validation_log_loss": 0.6748619757970112,
+      "holdout": {
+        "log_loss": 0.671499252830232,
+        "accuracy": 0.5897435897435898,
+        "brier": 0.23920635199267912
+      },
+      "name": "r59_winner_hist_4_core_updated",
+      "task": "winner",
+      "selected_configuration": "HistGradientBoostingClassifier(early_stopping=False, l2_regularization=100,\n                               learning_rate=0.04, max_leaf_nodes=21,\n                               random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "adf8f53732ed537082b0f555259f8f7358dbdf06b25dcaafc807cf4797b51118"
+    },
+    {
+      "validation_log_loss": 0.6422851780515889,
+      "holdout": {
+        "log_loss": 0.7061305568346288,
+        "accuracy": 0.6153846153846154,
+        "brier": 0.25171664068977734
+      },
+      "name": "r59_winner_mlp_4_core_updated",
+      "task": "winner",
+      "selected_configuration": "MLPClassifier(alpha=30, hidden_layer_sizes=(24, 12), max_iter=400,\n              random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "3e27add3e7773bb8c672facd3d3a8083945ce50a7bd4b2f7b145d1a58b4a2ca7"
+    },
+    {
+      "validation_log_loss": 0.6686955954665909,
+      "holdout": {
+        "log_loss": 0.6603506796788453,
+        "accuracy": 0.6025641025641025,
+        "brier": 0.233938080219664
+      },
+      "name": "r59_winner_rbf_4_core_updated",
+      "task": "winner",
+      "selected_configuration": "Pipeline(steps=[('nystroem',\n                 Nystroem(gamma=0.03, n_components=64, random_state=71)),\n                ('logisticregression',\n                 LogisticRegression(C=0.1, max_iter=1500))])",
+      "convergence_warnings": 0,
+      "artifact_sha256": "840bab57d1fdeda2612ec9f0415a1e41448c63383fdfaa2c6032c800e1df31a3"
+    },
+    {
+      "validation_team_mae": 7.6627197078237375,
+      "holdout": {
+        "home_mae": 7.902865462321083,
+        "away_mae": 7.730083464019036,
+        "margin_mae": 10.16851524067093,
+        "total_mae": 12.125690244921396
+      },
+      "name": "r59_score_ridge_4_core_updated",
+      "task": "score",
+      "selected_configuration": "Ridge(alpha=30000)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "8be1383dfbae3b380529d815ba4ccf5c9ca8e2f40fe71de032b8ac07dca77494"
+    },
+    {
+      "validation_team_mae": 7.548933359589891,
+      "holdout": {
+        "home_mae": 8.31205304481314,
+        "away_mae": 7.650602789897943,
+        "margin_mae": 10.713599345122224,
+        "total_mae": 11.924086744936451
+      },
+      "name": "r59_score_extra_4_core_updated",
+      "task": "score",
+      "selected_configuration": "ExtraTreesRegressor(min_samples_leaf=20, n_jobs=2, random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "222124ee9f745556bc2a847eac6fb46c6305d7c5077efc985baefb7c11fcfadd"
+    },
+    {
+      "validation_team_mae": 7.588622026078733,
+      "holdout": {
+        "home_mae": 8.42180959529943,
+        "away_mae": 7.800977358618146,
+        "margin_mae": 10.952429594642444,
+        "total_mae": 11.928290440514267
+      },
+      "name": "r59_score_forest_4_core_updated",
+      "task": "score",
+      "selected_configuration": "RandomForestRegressor(min_samples_leaf=20, n_jobs=2, random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "a0fd74680ae1b59b154b6fc90bcf17493569894ad47b53ae103e6b4e8b664b6e"
+    },
+    {
+      "validation_team_mae": 7.687586411450121,
+      "holdout": {
+        "home_mae": 8.29583276703934,
+        "away_mae": 7.603115551695008,
+        "margin_mae": 10.444887705047512,
+        "total_mae": 11.856548897325885
+      },
+      "name": "r59_score_hist_4_core_updated",
+      "task": "score",
+      "selected_configuration": "MultiOutputRegressor(estimator=HistGradientBoostingRegressor(early_stopping=False,\n                                                             l2_regularization=100,\n                                                             learning_rate=0.04,\n                                                             max_leaf_nodes=21,\n                                                             random_state=71))",
+      "convergence_warnings": 0,
+      "artifact_sha256": "639df797c1fcc3d13eb974542d7b0ef09e1b3a78354aa09d6adc13f22bb5cdbc"
+    },
+    {
+      "validation_team_mae": 7.570176898050434,
+      "holdout": {
+        "home_mae": 8.086572003642553,
+        "away_mae": 7.69344387760739,
+        "margin_mae": 10.246767985767175,
+        "total_mae": 12.158461456434242
+      },
+      "name": "r59_score_mlp_4_core_updated",
+      "task": "score",
+      "selected_configuration": "TransformedTargetRegressor(regressor=MLPRegressor(alpha=30,\n                                                  hidden_layer_sizes=(24, 12),\n                                                  max_iter=400,\n                                                  random_state=71),\n                           transformer=StandardScaler())",
+      "convergence_warnings": 0,
+      "artifact_sha256": "a427dacc5b6a3374d6182748d35dcbc2b82b8c2ec22c20c9015d727f139489fd"
+    },
+    {
+      "validation_team_mae": 7.65426422690701,
+      "holdout": {
+        "home_mae": 7.902148279580012,
+        "away_mae": 7.740472690887818,
+        "margin_mae": 10.17011454697289,
+        "total_mae": 12.142548800285489
+      },
+      "name": "r59_score_poisson_4_core_updated",
+      "task": "score",
+      "selected_configuration": "MultiOutputRegressor(estimator=PoissonRegressor(alpha=300, max_iter=1000))",
+      "convergence_warnings": 0,
+      "artifact_sha256": "31bd7e2849bd3ab91afee4f4eeca44944e2b9fd33d452825a9ce173f05146b31"
+    },
+    {
+      "validation_log_loss": 0.6573775973148865,
+      "holdout": {
+        "log_loss": 0.6837082147567661,
+        "accuracy": 0.5641025641025641,
+        "brier": 0.24320170544694514
+      },
+      "name": "r59_winner_logistic_0_charted_updated",
+      "task": "winner",
+      "selected_configuration": "LogisticRegression(C=0.003, max_iter=1500)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "98e5f611c55891def857bec1bfdd6d5c0e329db2f18d4100a72ea9fc761a2958"
+    },
+    {
+      "validation_log_loss": 0.6559871854788228,
+      "holdout": {
+        "log_loss": 0.6763452437202903,
+        "accuracy": 0.6025641025641025,
+        "brier": 0.24086085686064698
+      },
+      "name": "r59_winner_extra_0_charted_updated",
+      "task": "winner",
+      "selected_configuration": "ExtraTreesClassifier(max_depth=3, min_samples_leaf=30, n_jobs=2,\n                     random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "06ff7e98e7d4457c5a811c836c2ea97cd75d567992c837438b476b62d0216a79"
+    },
+    {
+      "validation_log_loss": 0.6577336448016912,
+      "holdout": {
+        "log_loss": 0.6770096822035058,
+        "accuracy": 0.6025641025641025,
+        "brier": 0.2419090025747346
+      },
+      "name": "r59_winner_forest_0_charted_updated",
+      "task": "winner",
+      "selected_configuration": "RandomForestClassifier(max_depth=3, min_samples_leaf=30, n_jobs=2,\n                       random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "cd5349a02dd9521b4e8f326a56cd74c21b142c33a340ae23bf4572cf792e84c9"
+    },
+    {
+      "validation_log_loss": 0.6524341308400218,
+      "holdout": {
+        "log_loss": 0.6833561728170604,
+        "accuracy": 0.5384615384615384,
+        "brier": 0.24538893139463433
+      },
+      "name": "r59_winner_hist_0_charted_updated",
+      "task": "winner",
+      "selected_configuration": "HistGradientBoostingClassifier(early_stopping=False, l2_regularization=1,\n                               learning_rate=0.04, max_leaf_nodes=5,\n                               random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "2151ad1cad6f422920116e6c54b3f6cb2bb8052c266ce92ee62a1ec0a762f018"
+    },
+    {
+      "validation_log_loss": 0.6517592021654594,
+      "holdout": {
+        "log_loss": 0.6831292668650589,
+        "accuracy": 0.5897435897435898,
+        "brier": 0.24307257307357816
+      },
+      "name": "r59_winner_mlp_0_charted_updated",
+      "task": "winner",
+      "selected_configuration": "MLPClassifier(alpha=30, hidden_layer_sizes=(6,), max_iter=400, random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "b5c69aba78f9560b7710731c6f1a0c9dbfb565923a2f1cc72a338bf91266f8d4"
+    },
+    {
+      "validation_log_loss": 0.6511621089839853,
+      "holdout": {
+        "log_loss": 0.704147924495422,
+        "accuracy": 0.6410256410256411,
+        "brier": 0.250175441530838
+      },
+      "name": "r59_winner_rbf_0_charted_updated",
+      "task": "winner",
+      "selected_configuration": "Pipeline(steps=[('nystroem',\n                 Nystroem(gamma=0.0003, n_components=64, random_state=71)),\n                ('logisticregression',\n                 LogisticRegression(C=0.1, max_iter=1500))])",
+      "convergence_warnings": 0,
+      "artifact_sha256": "1c2475cc68e0752923c77010978c8f5f3c6faf6e309321bc2375597ba483115c"
+    },
+    {
+      "validation_team_mae": 7.663187236722264,
+      "holdout": {
+        "home_mae": 8.093995940976287,
+        "away_mae": 7.703001570841454,
+        "margin_mae": 10.370231611867217,
+        "total_mae": 12.095659648744299
+      },
+      "name": "r59_score_ridge_0_charted_updated",
+      "task": "score",
+      "selected_configuration": "Ridge(alpha=3)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "7eb4415e3cd18e7194f37245e3b233e861b1ecb5ad195380d42e7416f978b71e"
+    },
+    {
+      "validation_team_mae": 7.571588194124677,
+      "holdout": {
+        "home_mae": 8.141892793815195,
+        "away_mae": 7.663574478070487,
+        "margin_mae": 10.382183294620615,
+        "total_mae": 12.08965800018525
+      },
+      "name": "r59_score_extra_0_charted_updated",
+      "task": "score",
+      "selected_configuration": "ExtraTreesRegressor(max_depth=3, min_samples_leaf=30, n_jobs=2, random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "1367807e1611b365c12d2f33688a66033cde1340620e0491c2a173ec7cd55759"
+    },
+    {
+      "validation_team_mae": 7.57628309455071,
+      "holdout": {
+        "home_mae": 8.279820326038562,
+        "away_mae": 7.716754486982235,
+        "margin_mae": 10.743148701975704,
+        "total_mae": 11.982832348595727
+      },
+      "name": "r59_score_forest_0_charted_updated",
+      "task": "score",
+      "selected_configuration": "RandomForestRegressor(max_depth=3, min_samples_leaf=30, n_jobs=2,\n                      random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "a5b0d717d58f2765d8e74057a0f6c95cd5b6437296622c6b2a4403a25ad8a637"
+    },
+    {
+      "validation_team_mae": 7.604999465679093,
+      "holdout": {
+        "home_mae": 8.307036276523677,
+        "away_mae": 7.5640808235793555,
+        "margin_mae": 10.776468161473671,
+        "total_mae": 11.85648280666172
+      },
+      "name": "r59_score_hist_0_charted_updated",
+      "task": "score",
+      "selected_configuration": "MultiOutputRegressor(estimator=HistGradientBoostingRegressor(early_stopping=False,\n                                                             l2_regularization=1,\n                                                             learning_rate=0.04,\n                                                             max_leaf_nodes=5,\n                                                             random_state=71))",
+      "convergence_warnings": 0,
+      "artifact_sha256": "b537fe8b02676a7a0b8d24e730a11a6196de51c843d42ccafd687e7cd4310b3f"
+    },
+    {
+      "validation_team_mae": 7.562175946864109,
+      "holdout": {
+        "home_mae": 8.231442608911292,
+        "away_mae": 7.60395691906824,
+        "margin_mae": 10.286734384162154,
+        "total_mae": 12.148269773634587
+      },
+      "name": "r59_score_mlp_0_charted_updated",
+      "task": "score",
+      "selected_configuration": "TransformedTargetRegressor(regressor=MLPRegressor(alpha=30,\n                                                  hidden_layer_sizes=(6,),\n                                                  max_iter=400,\n                                                  random_state=71),\n                           transformer=StandardScaler())",
+      "convergence_warnings": 0,
+      "artifact_sha256": "b71d5c38e69774bf39b4246289dca247982173ae96a870e27e6d5590ea5e0ba7"
+    },
+    {
+      "validation_team_mae": 7.6687737555451,
+      "holdout": {
+        "home_mae": 8.137941056391037,
+        "away_mae": 7.707494544564606,
+        "margin_mae": 10.471067947685873,
+        "total_mae": 12.083016652510345
+      },
+      "name": "r59_score_poisson_0_charted_updated",
+      "task": "score",
+      "selected_configuration": "MultiOutputRegressor(estimator=PoissonRegressor(alpha=0.03, max_iter=1000))",
+      "convergence_warnings": 0,
+      "artifact_sha256": "ed6a865ea8143d5905ca29f0a9d1b8b4cd0b2a4a96a045e2f45c4384e8494ad6"
+    },
+    {
+      "validation_log_loss": 0.6578458023541897,
+      "holdout": {
+        "log_loss": 0.6742951230250592,
+        "accuracy": 0.6025641025641025,
+        "brier": 0.23922579558846804
+      },
+      "name": "r59_winner_logistic_1_charted_updated",
+      "task": "winner",
+      "selected_configuration": "LogisticRegression(C=0.01, max_iter=1500)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "76382c4084ef55bc02b8533157ce8aa6e25df90b762a277adb24e10c9296ad68"
+    },
+    {
+      "validation_log_loss": 0.6512703857062268,
+      "holdout": {
+        "log_loss": 0.673093705857132,
+        "accuracy": 0.6153846153846154,
+        "brier": 0.23976689924886785
+      },
+      "name": "r59_winner_extra_1_charted_updated",
+      "task": "winner",
+      "selected_configuration": "ExtraTreesClassifier(max_depth=5, min_samples_leaf=24, n_jobs=2,\n                     random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "594e6c753aa24bdb8c9128f07443717bd4a708f04a38e63bc57e065793c527e8"
+    },
+    {
+      "validation_log_loss": 0.6596822847921486,
+      "holdout": {
+        "log_loss": 0.6730824552971959,
+        "accuracy": 0.6025641025641025,
+        "brier": 0.24021503287927035
+      },
+      "name": "r59_winner_forest_1_charted_updated",
+      "task": "winner",
+      "selected_configuration": "RandomForestClassifier(max_depth=5, min_samples_leaf=24, n_jobs=2,\n                       random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "df664add1058944ab20d7e097155f09d5bc0be483556b1bd1717854281dd2693"
+    },
+    {
+      "validation_log_loss": 0.6507066930362204,
+      "holdout": {
+        "log_loss": 0.6820339520572011,
+        "accuracy": 0.5512820512820513,
+        "brier": 0.2448590565132067
+      },
+      "name": "r59_winner_hist_1_charted_updated",
+      "task": "winner",
+      "selected_configuration": "HistGradientBoostingClassifier(early_stopping=False, l2_regularization=3,\n                               learning_rate=0.04, max_leaf_nodes=9,\n                               random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "8586cfa8cf8016ce58e42819c2168aa78fde63d037c2a28b1fa9e284594305b8"
+    },
+    {
+      "validation_log_loss": 0.650622473478547,
+      "holdout": {
+        "log_loss": 0.6879373073221674,
+        "accuracy": 0.5897435897435898,
+        "brier": 0.24526719062309718
+      },
+      "name": "r59_winner_mlp_1_charted_updated",
+      "task": "winner",
+      "selected_configuration": "MLPClassifier(alpha=30, hidden_layer_sizes=(12,), max_iter=400, random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "9237ad98a1b7944fe1be0abb3405d6c1f0f271640dc247490fadce0939988c02"
+    },
+    {
+      "validation_log_loss": 0.6536419751307265,
+      "holdout": {
+        "log_loss": 0.696083201463973,
+        "accuracy": 0.6153846153846154,
+        "brier": 0.24796393505990522
+      },
+      "name": "r59_winner_rbf_1_charted_updated",
+      "task": "winner",
+      "selected_configuration": "Pipeline(steps=[('nystroem',\n                 Nystroem(gamma=0.001, n_components=64, random_state=71)),\n                ('logisticregression',\n                 LogisticRegression(C=0.1, max_iter=1500))])",
+      "convergence_warnings": 0,
+      "artifact_sha256": "2f6e17a51250ca4d96cad4697aef4fbfccb4f35151120948a41406245e731de3"
+    },
+    {
+      "validation_team_mae": 7.654028468637121,
+      "holdout": {
+        "home_mae": 8.099974450279376,
+        "away_mae": 7.693401091944505,
+        "margin_mae": 10.381029905095792,
+        "total_mae": 12.082736285836289
+      },
+      "name": "r59_score_ridge_1_charted_updated",
+      "task": "score",
+      "selected_configuration": "Ridge(alpha=30)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "a7393846a6d4efcc54f56dde9d0f58604db1e732f0942c915c19c39c2073d25d"
+    },
+    {
+      "validation_team_mae": 7.55724157590279,
+      "holdout": {
+        "home_mae": 8.23918293437996,
+        "away_mae": 7.646997976429423,
+        "margin_mae": 10.532356910773062,
+        "total_mae": 12.0250039767481
+      },
+      "name": "r59_score_extra_1_charted_updated",
+      "task": "score",
+      "selected_configuration": "ExtraTreesRegressor(max_depth=5, min_samples_leaf=24, n_jobs=2, random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "877804610e8412012c3b4fa019e22292e7f188c220e6c61cbeaf00f3f11d2a4b"
+    },
+    {
+      "validation_team_mae": 7.562284451303642,
+      "holdout": {
+        "home_mae": 8.407756379401198,
+        "away_mae": 7.749639430500519,
+        "margin_mae": 10.943068070224182,
+        "total_mae": 11.927658467353446
+      },
+      "name": "r59_score_forest_1_charted_updated",
+      "task": "score",
+      "selected_configuration": "RandomForestRegressor(max_depth=5, min_samples_leaf=24, n_jobs=2,\n                      random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "c9d8f8fbd04012e447de285a27bc5564612d177f1f3a922c28b621ba860332ee"
+    },
+    {
+      "validation_team_mae": 7.70794452050485,
+      "holdout": {
+        "home_mae": 8.398937396722763,
+        "away_mae": 7.56891801798148,
+        "margin_mae": 10.823663005728871,
+        "total_mae": 11.829031352065348
+      },
+      "name": "r59_score_hist_1_charted_updated",
+      "task": "score",
+      "selected_configuration": "MultiOutputRegressor(estimator=HistGradientBoostingRegressor(early_stopping=False,\n                                                             l2_regularization=3,\n                                                             learning_rate=0.04,\n                                                             max_leaf_nodes=9,\n                                                             random_state=71))",
+      "convergence_warnings": 0,
+      "artifact_sha256": "8e16af8861a885bde4083898c3ad9528a9382913eb99f28130d91900c139f8bf"
+    },
+    {
+      "validation_team_mae": 7.576047001622112,
+      "holdout": {
+        "home_mae": 8.189623897204974,
+        "away_mae": 7.629876654745917,
+        "margin_mae": 10.336840090850531,
+        "total_mae": 12.084891791006317
+      },
+      "name": "r59_score_mlp_1_charted_updated",
+      "task": "score",
+      "selected_configuration": "TransformedTargetRegressor(regressor=MLPRegressor(alpha=30,\n                                                  hidden_layer_sizes=(12,),\n                                                  max_iter=400,\n                                                  random_state=71),\n                           transformer=StandardScaler())",
+      "convergence_warnings": 0,
+      "artifact_sha256": "317a233f2525b3c92d816c8bdf3391686297fec4d266c398b8c9370d28c73770"
+    },
+    {
+      "validation_team_mae": 7.657397802208515,
+      "holdout": {
+        "home_mae": 8.146070371826506,
+        "away_mae": 7.696993397579135,
+        "margin_mae": 10.4770678922998,
+        "total_mae": 12.078610438469093
+      },
+      "name": "r59_score_poisson_1_charted_updated",
+      "task": "score",
+      "selected_configuration": "MultiOutputRegressor(estimator=PoissonRegressor(alpha=0.3, max_iter=1000))",
+      "convergence_warnings": 0,
+      "artifact_sha256": "4c031c455a223c18a877c72140d7a0fdfcd0d8dee39b70494833fe0377e0cc6c"
+    },
+    {
+      "validation_log_loss": 0.6586486904541952,
+      "holdout": {
+        "log_loss": 0.668472704148181,
+        "accuracy": 0.6025641025641025,
+        "brier": 0.23668508069997118
+      },
+      "name": "r59_winner_logistic_2_charted_updated",
+      "task": "winner",
+      "selected_configuration": "LogisticRegression(C=0.03, max_iter=1500)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "b803c31b70022e187e0be7eb093280118751b87256ffa05b7420188198b9549d"
+    },
+    {
+      "validation_log_loss": 0.6530736511102119,
+      "holdout": {
+        "log_loss": 0.6701067867355368,
+        "accuracy": 0.6282051282051282,
+        "brier": 0.23832901426110725
+      },
+      "name": "r59_winner_extra_2_charted_updated",
+      "task": "winner",
+      "selected_configuration": "ExtraTreesClassifier(max_depth=7, min_samples_leaf=18, n_jobs=2,\n                     random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "bc8776ee138c3a6fe224f6da2284c18f4c771a2b01ba8836bd496b6e4b131144"
+    },
+    {
+      "validation_log_loss": 0.6659189458086985,
+      "holdout": {
+        "log_loss": 0.6811166345115258,
+        "accuracy": 0.5641025641025641,
+        "brier": 0.2442501461788706
+      },
+      "name": "r59_winner_forest_2_charted_updated",
+      "task": "winner",
+      "selected_configuration": "RandomForestClassifier(max_depth=7, min_samples_leaf=18, n_jobs=2,\n                       random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "eb471f4901f4e159348476f997a517043ed0d5583a6345f5c056d97e1d6a3338"
+    },
+    {
+      "validation_log_loss": 0.6564284754975781,
+      "holdout": {
+        "log_loss": 0.6785702116070478,
+        "accuracy": 0.5897435897435898,
+        "brier": 0.2431360245531957
+      },
+      "name": "r59_winner_hist_2_charted_updated",
+      "task": "winner",
+      "selected_configuration": "HistGradientBoostingClassifier(early_stopping=False, l2_regularization=10,\n                               learning_rate=0.04, max_leaf_nodes=13,\n                               random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "8c8f9ef7e4bf3b2a5926dd2c965cbc002dcb4f2653c3b4de37e615dd939fbed7"
+    },
+    {
+      "validation_log_loss": 0.6544707958051172,
+      "holdout": {
+        "log_loss": 0.6838592128471004,
+        "accuracy": 0.6025641025641025,
+        "brier": 0.24381740846789052
+      },
+      "name": "r59_winner_mlp_2_charted_updated",
+      "task": "winner",
+      "selected_configuration": "MLPClassifier(alpha=30, hidden_layer_sizes=(24,), max_iter=400, random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "0d02e7a3ac651ac6e08004015e4a7febcd0118d048b365bccd37848c38f7ff5d"
+    },
+    {
+      "validation_log_loss": 0.6585462823364041,
+      "holdout": {
+        "log_loss": 0.6826099097517996,
+        "accuracy": 0.5897435897435898,
+        "brier": 0.24346722223943965
+      },
+      "name": "r59_winner_rbf_2_charted_updated",
+      "task": "winner",
+      "selected_configuration": "Pipeline(steps=[('nystroem',\n                 Nystroem(gamma=0.003, n_components=64, random_state=71)),\n                ('logisticregression',\n                 LogisticRegression(C=0.1, max_iter=1500))])",
+      "convergence_warnings": 0,
+      "artifact_sha256": "65797f5b01504b93bfbf2e9171eb171f95f27026827869024aa58258f40a45ed"
+    },
+    {
+      "validation_team_mae": 7.610029927587864,
+      "holdout": {
+        "home_mae": 8.15040924840296,
+        "away_mae": 7.6675886497343075,
+        "margin_mae": 10.440977350724063,
+        "total_mae": 12.066436195680474
+      },
+      "name": "r59_score_ridge_2_charted_updated",
+      "task": "score",
+      "selected_configuration": "Ridge(alpha=300)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "e2fb6efd2629aaaac5be231ab7d3e9b74057f4c8327db30a82440f976e11412e"
+    },
+    {
+      "validation_team_mae": 7.551130296317064,
+      "holdout": {
+        "home_mae": 8.258947480885931,
+        "away_mae": 7.637499397676796,
+        "margin_mae": 10.678229978350858,
+        "total_mae": 11.879809675930888
+      },
+      "name": "r59_score_extra_2_charted_updated",
+      "task": "score",
+      "selected_configuration": "ExtraTreesRegressor(max_depth=7, min_samples_leaf=18, n_jobs=2, random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "f28cc594ad2adaf9d6252dffe6e8b4fdb02b74c1e9521e983a614bc0de1b1691"
+    },
+    {
+      "validation_team_mae": 7.58361926413896,
+      "holdout": {
+        "home_mae": 8.406021820627316,
+        "away_mae": 7.7890436608184235,
+        "margin_mae": 11.006910416461828,
+        "total_mae": 11.938199685256128
+      },
+      "name": "r59_score_forest_2_charted_updated",
+      "task": "score",
+      "selected_configuration": "RandomForestRegressor(max_depth=7, min_samples_leaf=18, n_jobs=2,\n                      random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "c8f6319f123c33ea9e856b9355ec1733e6f34d52c3cbd8814856a80f908f2666"
+    },
+    {
+      "validation_team_mae": 7.718100560427919,
+      "holdout": {
+        "home_mae": 8.543700600561317,
+        "away_mae": 7.618595560662404,
+        "margin_mae": 10.903093163424824,
+        "total_mae": 12.057605586115429
+      },
+      "name": "r59_score_hist_2_charted_updated",
+      "task": "score",
+      "selected_configuration": "MultiOutputRegressor(estimator=HistGradientBoostingRegressor(early_stopping=False,\n                                                             l2_regularization=10,\n                                                             learning_rate=0.04,\n                                                             max_leaf_nodes=13,\n                                                             random_state=71))",
+      "convergence_warnings": 0,
+      "artifact_sha256": "ae06d81265142583efd218259e175779a3d50596b4d9b5ca9858f72df4b3cded"
+    },
+    {
+      "validation_team_mae": 7.549788750408302,
+      "holdout": {
+        "home_mae": 8.223165322268393,
+        "away_mae": 7.654583777542077,
+        "margin_mae": 10.386518576634879,
+        "total_mae": 12.13829998746448
+      },
+      "name": "r59_score_mlp_2_charted_updated",
+      "task": "score",
+      "selected_configuration": "TransformedTargetRegressor(regressor=MLPRegressor(alpha=30,\n                                                  hidden_layer_sizes=(24,),\n                                                  max_iter=400,\n                                                  random_state=71),\n                           transformer=StandardScaler())",
+      "convergence_warnings": 0,
+      "artifact_sha256": "c8d9ebe62c97d3baa3acb244bb1f9562e7377c7148b0ae463f142d892202e53d"
+    },
+    {
+      "validation_team_mae": 7.60774112778757,
+      "holdout": {
+        "home_mae": 8.193108922362484,
+        "away_mae": 7.677073193134651,
+        "margin_mae": 10.510739463236343,
+        "total_mae": 12.088295655305876
+      },
+      "name": "r59_score_poisson_2_charted_updated",
+      "task": "score",
+      "selected_configuration": "MultiOutputRegressor(estimator=PoissonRegressor(alpha=3, max_iter=1000))",
+      "convergence_warnings": 0,
+      "artifact_sha256": "9cab76064eb5818d8285b9844511c1252110c58cab349ffa226beae5b8f181b1"
+    },
+    {
+      "validation_log_loss": 0.6594940643548867,
+      "holdout": {
+        "log_loss": 0.6646042055216477,
+        "accuracy": 0.6025641025641025,
+        "brier": 0.23501908159778578
+      },
+      "name": "r59_winner_logistic_3_charted_updated",
+      "task": "winner",
+      "selected_configuration": "LogisticRegression(C=0.3, max_iter=1500)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "64033e733ea7350daa4ff9410984a7bb3add92ace59c2f9c5ecd9f54486dbc3f"
+    },
+    {
+      "validation_log_loss": 0.6557055384543928,
+      "holdout": {
+        "log_loss": 0.6693793914168582,
+        "accuracy": 0.6153846153846154,
+        "brier": 0.2380043538463034
+      },
+      "name": "r59_winner_extra_3_charted_updated",
+      "task": "winner",
+      "selected_configuration": "ExtraTreesClassifier(max_depth=9, min_samples_leaf=12, n_jobs=2,\n                     random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "f8eb1b2f3768d767a1d0179a23f86c3cf4a919f6ac6a4ef525d0afe0611b886b"
+    },
+    {
+      "validation_log_loss": 0.6671040418866012,
+      "holdout": {
+        "log_loss": 0.6705594984343424,
+        "accuracy": 0.6153846153846154,
+        "brier": 0.23926770813608308
+      },
+      "name": "r59_winner_forest_3_charted_updated",
+      "task": "winner",
+      "selected_configuration": "RandomForestClassifier(max_depth=9, min_samples_leaf=12, n_jobs=2,\n                       random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "93ef0fc02532525f8f554961512235622041cf11d84ba789837b7d56b9d6cc7f"
+    },
+    {
+      "validation_log_loss": 0.6673301400027535,
+      "holdout": {
+        "log_loss": 0.6640612818471366,
+        "accuracy": 0.5897435897435898,
+        "brier": 0.23603065118061906
+      },
+      "name": "r59_winner_hist_3_charted_updated",
+      "task": "winner",
+      "selected_configuration": "HistGradientBoostingClassifier(early_stopping=False, l2_regularization=30,\n                               learning_rate=0.04, max_leaf_nodes=17,\n                               random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "88ca5d1c6e9b4f3abf7b15a63706e860291eb20048ecd6ec6dc569ef70dc4aeb"
+    },
+    {
+      "validation_log_loss": 0.6490532320809992,
+      "holdout": {
+        "log_loss": 0.7107190094242785,
+        "accuracy": 0.6538461538461539,
+        "brier": 0.2522819834391737
+      },
+      "name": "r59_winner_mlp_3_charted_updated",
+      "task": "winner",
+      "selected_configuration": "MLPClassifier(alpha=30, hidden_layer_sizes=(12, 6), max_iter=400,\n              random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "6924bae78ac93b9bfcd4422fbeacb41c8cda909712a95b0532ef3c2afd2f40dc"
+    },
+    {
+      "validation_log_loss": 0.6702342757319171,
+      "holdout": {
+        "log_loss": 0.6621600235085539,
+        "accuracy": 0.5897435897435898,
+        "brier": 0.23501224723014233
+      },
+      "name": "r59_winner_rbf_3_charted_updated",
+      "task": "winner",
+      "selected_configuration": "Pipeline(steps=[('nystroem',\n                 Nystroem(gamma=0.01, n_components=64, random_state=71)),\n                ('logisticregression',\n                 LogisticRegression(C=0.1, max_iter=1500))])",
+      "convergence_warnings": 0,
+      "artifact_sha256": "16d3e6e190b450bfc5a84a10a948fcc18089c9d57035b385d4af3e971ed08c83"
+    },
+    {
+      "validation_team_mae": 7.556285723129221,
+      "holdout": {
+        "home_mae": 8.159691617920581,
+        "away_mae": 7.696242345947533,
+        "margin_mae": 10.430133867615261,
+        "total_mae": 12.070384941954615
+      },
+      "name": "r59_score_ridge_3_charted_updated",
+      "task": "score",
+      "selected_configuration": "Ridge(alpha=3000)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "1235ecf159647205152e712b5d26e68624b8a35d90b6b31d6fcd6be15401b582"
+    },
+    {
+      "validation_team_mae": 7.575651010365732,
+      "holdout": {
+        "home_mae": 8.269296157103831,
+        "away_mae": 7.631751110066106,
+        "margin_mae": 10.732553164671046,
+        "total_mae": 11.790739628638397
+      },
+      "name": "r59_score_extra_3_charted_updated",
+      "task": "score",
+      "selected_configuration": "ExtraTreesRegressor(max_depth=9, min_samples_leaf=12, n_jobs=2, random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "a180103dbfa7cc6505859319ba0344a084b01d8e126653acccf037d5f575a667"
+    },
+    {
+      "validation_team_mae": 7.593442796163702,
+      "holdout": {
+        "home_mae": 8.41698823215076,
+        "away_mae": 7.824971479902174,
+        "margin_mae": 11.041510054509274,
+        "total_mae": 11.975087255589091
+      },
+      "name": "r59_score_forest_3_charted_updated",
+      "task": "score",
+      "selected_configuration": "RandomForestRegressor(max_depth=9, min_samples_leaf=12, n_jobs=2,\n                      random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "ae6b39ad6caf1757f80f591f6265547c3029aa882307d00d3ac17a24dcd24cae"
+    },
+    {
+      "validation_team_mae": 7.743841161576181,
+      "holdout": {
+        "home_mae": 8.4340325422996,
+        "away_mae": 7.683929686101573,
+        "margin_mae": 10.86236601233523,
+        "total_mae": 11.856203019880692
+      },
+      "name": "r59_score_hist_3_charted_updated",
+      "task": "score",
+      "selected_configuration": "MultiOutputRegressor(estimator=HistGradientBoostingRegressor(early_stopping=False,\n                                                             l2_regularization=30,\n                                                             learning_rate=0.04,\n                                                             max_leaf_nodes=17,\n                                                             random_state=71))",
+      "convergence_warnings": 0,
+      "artifact_sha256": "a5cedba656c77d12d904c83a17767f5b6614f5b5b0f2d29a027365f95296dc0e"
+    },
+    {
+      "validation_team_mae": 7.579744506913314,
+      "holdout": {
+        "home_mae": 8.074429944283597,
+        "away_mae": 7.701349154468125,
+        "margin_mae": 10.200938817990174,
+        "total_mae": 12.138640978744627
+      },
+      "name": "r59_score_mlp_3_charted_updated",
+      "task": "score",
+      "selected_configuration": "TransformedTargetRegressor(regressor=MLPRegressor(alpha=30,\n                                                  hidden_layer_sizes=(12, 6),\n                                                  max_iter=400,\n                                                  random_state=71),\n                           transformer=StandardScaler())",
+      "convergence_warnings": 0,
+      "artifact_sha256": "d26db261edf659ee54e41049b3e07f0bc7522045a07c74bcd20cb8cee8a0689a"
+    },
+    {
+      "validation_team_mae": 7.54695626432141,
+      "holdout": {
+        "home_mae": 8.176429986176263,
+        "away_mae": 7.719602012287542,
+        "margin_mae": 10.442401070594483,
+        "total_mae": 12.124652192006467
+      },
+      "name": "r59_score_poisson_3_charted_updated",
+      "task": "score",
+      "selected_configuration": "MultiOutputRegressor(estimator=PoissonRegressor(alpha=30, max_iter=1000))",
+      "convergence_warnings": 0,
+      "artifact_sha256": "30c7a362ecede8661b60e1f0e330060bc6b28308f5f2d93073f9ace3225b46d3"
+    },
+    {
+      "validation_log_loss": 0.6593372801169639,
+      "holdout": {
+        "log_loss": 0.6641023172851455,
+        "accuracy": 0.6025641025641025,
+        "brier": 0.23480371448496393
+      },
+      "name": "r59_winner_logistic_4_charted_updated",
+      "task": "winner",
+      "selected_configuration": "LogisticRegression(C=3, max_iter=1500)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "0a4a56ccff1354089f27332d3ec0b3a44bd5b582581ed3cb0e3ba40e81f9820a"
+    },
+    {
+      "validation_log_loss": 0.6534246525331271,
+      "holdout": {
+        "log_loss": 0.667733272200816,
+        "accuracy": 0.6153846153846154,
+        "brier": 0.2370582671063658
+      },
+      "name": "r59_winner_extra_4_charted_updated",
+      "task": "winner",
+      "selected_configuration": "ExtraTreesClassifier(min_samples_leaf=20, n_jobs=2, random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "95e91ab68e576d0d3758b9c71ebd1bf1724e4b9184c0c17c546d26a4e00d508f"
+    },
+    {
+      "validation_log_loss": 0.6666100107384115,
+      "holdout": {
+        "log_loss": 0.6791158111752162,
+        "accuracy": 0.5897435897435898,
+        "brier": 0.24312692175084913
+      },
+      "name": "r59_winner_forest_4_charted_updated",
+      "task": "winner",
+      "selected_configuration": "RandomForestClassifier(min_samples_leaf=20, n_jobs=2, random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "a447fefcca17cb3616e5fdf4ba45899b2316d23137d86a8f87d16ac5f207b5c5"
+    },
+    {
+      "validation_log_loss": 0.6675159225703738,
+      "holdout": {
+        "log_loss": 0.675902094604647,
+        "accuracy": 0.5641025641025641,
+        "brier": 0.24129132166645226
+      },
+      "name": "r59_winner_hist_4_charted_updated",
+      "task": "winner",
+      "selected_configuration": "HistGradientBoostingClassifier(early_stopping=False, l2_regularization=100,\n                               learning_rate=0.04, max_leaf_nodes=21,\n                               random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "a9f133d4cecbcc927f695e25d8924e81676cf3a596d0b5ddd3d222de81da71a2"
+    },
+    {
+      "validation_log_loss": 0.6465972859589871,
+      "holdout": {
+        "log_loss": 0.708037131075264,
+        "accuracy": 0.6410256410256411,
+        "brier": 0.2513262085245311
+      },
+      "name": "r59_winner_mlp_4_charted_updated",
+      "task": "winner",
+      "selected_configuration": "MLPClassifier(alpha=30, hidden_layer_sizes=(24, 12), max_iter=400,\n              random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "38bb122267a28ee8cd40f888e3212b135170599bc94d9023ac881fe66c08ae49"
+    },
+    {
+      "validation_log_loss": 0.6842421981795865,
+      "holdout": {
+        "log_loss": 0.650565436781557,
+        "accuracy": 0.6410256410256411,
+        "brier": 0.2297047787686435
+      },
+      "name": "r59_winner_rbf_4_charted_updated",
+      "task": "winner",
+      "selected_configuration": "Pipeline(steps=[('nystroem',\n                 Nystroem(gamma=0.03, n_components=64, random_state=71)),\n                ('logisticregression',\n                 LogisticRegression(C=0.1, max_iter=1500))])",
+      "convergence_warnings": 0,
+      "artifact_sha256": "5b708cebde5bd56625f29ca26538020621a88758d457059e23d0d1a03fb53622"
+    },
+    {
+      "validation_team_mae": 7.663285038791936,
+      "holdout": {
+        "home_mae": 7.910568530806275,
+        "away_mae": 7.720104125482956,
+        "margin_mae": 10.159475562421262,
+        "total_mae": 12.12588465909526
+      },
+      "name": "r59_score_ridge_4_charted_updated",
+      "task": "score",
+      "selected_configuration": "Ridge(alpha=30000)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "130e67e5a1d998d08c2ab4e9d2ebc079226cd645291cfda7cd4a59cffbb1f8fe"
+    },
+    {
+      "validation_team_mae": 7.551851176980581,
+      "holdout": {
+        "home_mae": 8.315069826276826,
+        "away_mae": 7.683999657593095,
+        "margin_mae": 10.696886774254997,
+        "total_mae": 11.919078814537158
+      },
+      "name": "r59_score_extra_4_charted_updated",
+      "task": "score",
+      "selected_configuration": "ExtraTreesRegressor(min_samples_leaf=20, n_jobs=2, random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "ced85981fa7296f95aeb60a1abcbe8d6b05a515fb25e537610889dc503891473"
+    },
+    {
+      "validation_team_mae": 7.590685795944349,
+      "holdout": {
+        "home_mae": 8.404891773409672,
+        "away_mae": 7.807789838239914,
+        "margin_mae": 10.974721516480184,
+        "total_mae": 11.870699491715737
+      },
+      "name": "r59_score_forest_4_charted_updated",
+      "task": "score",
+      "selected_configuration": "RandomForestRegressor(min_samples_leaf=20, n_jobs=2, random_state=71)",
+      "convergence_warnings": 0,
+      "artifact_sha256": "9bd1d821b6f671e905fe85ec8fe4121f3f74926bf254130056f91fb641c07044"
+    },
+    {
+      "validation_team_mae": 7.763520383019804,
+      "holdout": {
+        "home_mae": 8.322037568188263,
+        "away_mae": 7.50936974014208,
+        "margin_mae": 10.440423956643928,
+        "total_mae": 11.924275785608065
+      },
+      "name": "r59_score_hist_4_charted_updated",
+      "task": "score",
+      "selected_configuration": "MultiOutputRegressor(estimator=HistGradientBoostingRegressor(early_stopping=False,\n                                                             l2_regularization=100,\n                                                             learning_rate=0.04,\n                                                             max_leaf_nodes=21,\n                                                             random_state=71))",
+      "convergence_warnings": 0,
+      "artifact_sha256": "88dec1275d4b5ca0653300aaea7be6a3f527060e2cffd41967ca237a2058c38b"
+    },
+    {
+      "validation_team_mae": 7.58115014186362,
+      "holdout": {
+        "home_mae": 8.085760258994982,
+        "away_mae": 7.668986644844218,
+        "margin_mae": 10.200257726506308,
+        "total_mae": 12.152605789352055
+      },
+      "name": "r59_score_mlp_4_charted_updated",
+      "task": "score",
+      "selected_configuration": "TransformedTargetRegressor(regressor=MLPRegressor(alpha=30,\n                                                  hidden_layer_sizes=(24, 12),\n                                                  max_iter=400,\n                                                  random_state=71),\n                           transformer=StandardScaler())",
+      "convergence_warnings": 0,
+      "artifact_sha256": "9057f1e5b5516ae893afe463f008b0c24c0ce35f668e0cebec8e974c186966a6"
+    },
+    {
+      "validation_team_mae": 7.65508384103734,
+      "holdout": {
+        "home_mae": 7.909841933920215,
+        "away_mae": 7.731010441329633,
+        "margin_mae": 10.159817192570598,
+        "total_mae": 12.143487170745956
+      },
+      "name": "r59_score_poisson_4_charted_updated",
+      "task": "score",
+      "selected_configuration": "MultiOutputRegressor(estimator=PoissonRegressor(alpha=300, max_iter=1000))",
+      "convergence_warnings": 0,
+      "artifact_sha256": "a5039ec267fda92ff250d1a34bc95bd050cc488825eaa44c8fe55ea1961f3457"
     }
   ],
   "missing_counts": {
@@ -2094,9 +3714,14 @@
     "diff_research_ol_top5_snap_share": 1306,
     "diff_research_qb_max_snap_share": 1306
   },
-  "parent_generation": "updated-20261015T185719479420Z",
+  "parent_generation": "expanded120-20261015T191351669323Z",
+  "created_at": "2026-10-17T22:02:33.815279+00:00",
+  "feature_adapter": "expanded_differentials_v1",
+  "ensemble_kind": "robust_r60",
+  "ensemble_generation": "robust-r60-20261017T220803934180Z",
+  "ensemble_sha256": "3b8b20a74007305173ac994d516842bf9f6979d9c0a0d49d71a2585a27b07aa3",
   "validation_selected": {
-    "winner": "passive_aggressive_charted_updated",
+    "winner": "r59_winner_mlp_4_core_updated",
     "score": "poisson_score_10.0"
   }
 }
