@@ -50,3 +50,27 @@ coverage without refitting. Possession/pruning research runs only during explici
 migration; later source changes mark its results stale rather than silently rerunning it.
 Older shadow inputs with missing differential fields remain unchanged and must
 not be treated as corrected prospective evidence. R58 remains deferred.
+
+## Verified Run: October 17, 2026
+
+- Private migration preserved all previous artifacts and 80 completed production
+  forecasts. Initial publication stopped at an overly narrow research-export
+  allowlist; the repaired normal cloud refresh succeeded (run 39076598607).
+- Public validation and Pages deployment succeeded for data commit `89f028e`.
+  All 164 Python regression tests passed; dashboard validation reports 272 games,
+  including 80 completed games.
+- The new vintage reconciles the October 15 SEA-DEN game and has no missing
+  completed-game rows. Five opponent metrics remain missing for the 16 first-week
+  games. Existing fallback-filled features are not evidence of source availability.
+- Canary core inputs were complete for 16 upcoming games. Finite-output and
+  disposable rollback checks passed. Single-game p95 was 287 ms across ten samples,
+  exceeding the proposed 250 ms budget; maximum matched champion probability
+  difference was 17.6 percentage points. No activation occurred.
+- Possession research covered 48 matched games: total CRPS 7.687 versus 8.255 for
+  independent Poisson; margin CRPS 6.682 versus 6.711 (lower is better). These are
+  retrospective, revised-source results without a prospective superiority claim.
+  The subsequent normal refresh produced a different vintage, so the saved research
+  is explicitly marked stale relative to it rather than silently refitted.
+- The prospective fixed-review cohort has zero completed matched games and is not
+  ready for promotion review. Pruning recommends two winner members and one score
+  member out of the six representative members per task; weights remain unchanged.
