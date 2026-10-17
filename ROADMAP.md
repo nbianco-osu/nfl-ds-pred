@@ -133,6 +133,15 @@ results, but never runs backtests or retrains production automatically.
 
 ## Iteration Log
 
+- 2026-10-17, R61-R66: Installed the corrected 240-model cohort and robust ensemble
+  in the private shadow runner with all old model/forecast files preserved and no
+  production promotion. Added immutable core training vintages, fixed prospective
+  review looks, training-only representative-member pruning, a possession-event
+  simulator with matched Poisson comparisons, and approval-bound fallback/rollback
+  rehearsal. These are research and operational safeguards, not evidence of improved
+  prospective accuracy. See RELEASE_R61_R66.md for delivered scope and limitations.
+  R58 remains deferred pending sufficient prospective evidence.
+
 - 2026-10-17, R59-R60: Trained a 240-configuration library (140 winner, 100 score),
   preserving the original 120 artifacts. Built and saved a six-member-per-task
   constrained/calibrated ensemble with chronological OOF fitting, paired-residual
