@@ -54,6 +54,9 @@ def features(root,schedule,upcoming,report,season):
     history=pd.read_csv(root/'data/nfl_matchups_1999_2025_advanced.csv')
     history=pd.concat([history,schedule.loc[schedule.home_score.notna()&schedule.away_score.notna()]],ignore_index=True)
     core=list(dict.fromkeys(['season','week']+report['features']['charted_updated']))
+    if report.get('feature_adapter') == 'expanded_differentials_v1':
+        from robust_features import dependency_columns
+        core=dependency_columns(core)
     snapshots=pd.read_csv(root/f'data/current_features_{season}.csv').set_index('game_id')
     _,x=build_schedule_features(upcoming,history,{'feature_cols':core},snapshots)
     x.index=upcoming.game_id
@@ -190,8 +193,13 @@ def export(root,season=2026,now=None):
             result=a['model'].predict_proba(x[cols])[:,1] if m['task']=='winner' else np.maximum(0,a['model'].predict(x[cols]))
             predictions.append((m['name'],m['task'],result,m['artifact_sha256']))
         cols=ensemble['feature_cols']
-        wp=np.column_stack([m.predict_proba(x[cols])[:,1] for m in ensemble['winner_models']])@ensemble['winner_weights']
-        sp=np.stack([np.maximum(0,m.predict(x[cols])) for m in ensemble['score_models']],axis=-1)@ensemble['score_weights']
+        robust_details=None
+        if report.get('ensemble_kind') == 'robust_r60':
+            robust_details=ensemble['model'].predict_details(x[cols])
+            wp=robust_details['home_probability'];sp=robust_details['scores']
+        else:
+            wp=np.column_stack([m.predict_proba(x[cols])[:,1] for m in ensemble['winner_models']])@ensemble['winner_weights']
+            sp=np.stack([np.maximum(0,m.predict(x[cols])) for m in ensemble['score_models']],axis=-1)@ensemble['score_weights']
         predictions.extend([('ensemble_winner','winner',wp,sha(folder/'temporal_ensemble.joblib')),('ensemble_score','score',sp,sha(folder/'temporal_ensemble.joblib'))])
         for name,task,values,digest in predictions:
             if not np.isfinite(values).all():raise ValueError('Nonfinite shadow prediction')
@@ -209,7 +217,12 @@ def export(root,season=2026,now=None):
                              market_home_spread=-float(g['spread_line']) if pd.notna(g.get('spread_line')) else None,
                              market_total=number(g.get('total_line')),line_observed_at=now.isoformat())
                     if name=='ensemble_score':
-                        r['intervals']={k:[max(0,float(v[0]-ensemble['radii'][k])) if k!='margin' else float(v[0]-ensemble['radii'][k]),float(v[0]+ensemble['radii'][k])] for k,v in score_values(values[i:i+1]).items()}
+                        if robust_details is not None:
+                            r['intervals']={k:[float(robust_details['score_lower'][i,j]),float(robust_details['score_upper'][i,j])] for j,k in enumerate(['home','away'])}
+                            r['intervals'].update({k:[float(robust_details[k+'_lower'][i]),float(robust_details[k+'_upper'][i])] for k in ['total','margin']})
+                            r['interval_note']=robust_details['note']
+                        else:
+                            r['intervals']={k:[max(0,float(v[0]-ensemble['radii'][k])) if k!='margin' else float(v[0]-ensemble['radii'][k]),float(v[0]+ensemble['radii'][k])] for k,v in score_values(values[i:i+1]).items()}
                 key=append_forecast(archive,r,g,observed);live.append(archive[key])
         # Freeze contemporaneous production picks for genuinely prospective pairing.
         production_picks={p['game_id']:p for p in read(root,'public_site/data/predictions.json',[])}

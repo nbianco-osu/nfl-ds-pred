@@ -1,0 +1,52 @@
+name: Explicit shadow candidate migration
+on:
+  workflow_dispatch:
+    inputs:
+      manifest_asset_id:
+        required: true
+        type: string
+      manifest_sha256:
+        required: true
+        type: string
+      source_sha:
+        required: true
+        type: string
+permissions:
+  contents: write
+concurrency:
+  group: nfl-private-state
+  cancel-in-progress: false
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: nbianco-osu/nfl-ds-pred
+          ref: ${{ inputs.source_sha }}
+          path: source
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - working-directory: source
+        run: pip install -r requirements.txt 'scikit-learn==1.8.0'
+      - name: Install and validate separate shadow cohort
+        working-directory: source
+        env:
+          GH_TOKEN: ${{ github.token }}
+          MANIFEST_ASSET_ID: ${{ inputs.manifest_asset_id }}
+          MANIFEST_SHA256: ${{ inputs.manifest_sha256 }}
+        run: python -B -m runner.migrate_candidates migrate
+      - uses: actions/checkout@v4
+        with:
+          repository: nbianco-osu/nfl-ds-pred
+          ref: main
+          path: public
+          ssh-key: ${{ secrets.PUBLIC_EXPORT_DEPLOY_KEY }}
+      - name: Publish validated shadow evidence
+        working-directory: source
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python -B -m runner.run --mode publish --public-root ../public

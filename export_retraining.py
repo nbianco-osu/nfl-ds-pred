@@ -14,7 +14,7 @@ def export(root, version):
     if report['status'] != 'completed_shadow_only' or report['production_changed']:
         raise ValueError('Only completed shadow evidence is supported')
     models = report['models']
-    if len(models) not in {60,120} or len({m['name'] for m in models}) != len(models):
+    if len(models) not in {60,120,240} or len({m['name'] for m in models}) != len(models):
         raise ValueError('Incomplete or duplicate models')
     report['validation_selected'] = {
         'winner': min((m for m in models if m['task'] == 'winner'), key=lambda m:m['validation_log_loss'])['name'],
