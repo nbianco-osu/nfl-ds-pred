@@ -25,3 +25,9 @@ site versions; it is no longer a startup dependency for this version.
 
 Validation: 167 Python tests and four JavaScript loader tests passed. Production
 forecasts, model versions and completed results were not retrained or rewritten.
+
+Deployment: GitHub validation and Pages passed. Public Sites version 32 deployed
+successfully from source `f1865f2271e09b5a5d03ca89957c71da572012c4` and its matching
+built archive. The live site displayed cloud revision `7cb68f7469df`, populated
+weekly matchups and the new evidence tab. Local desktop (1440px) and mobile (390px)
+checks found no page-level horizontal overflow; wide tables scroll internally.
