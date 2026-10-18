@@ -48,4 +48,4 @@ window.setupExperiments = async function () {
     el('warehouseVerified').textContent=`Verified ${data.verified_at}. Private tables; no browser database credentials.`;
   }catch{el('warehouseStatus').textContent='Warehouse verification summary unavailable.';}
 };
-window.setupExperiments();
+window.registerDashboardView({panelId:'experimentsPanel', files:['score_experiments','temporal_stack','pregame_inputs','warehouse_status'], initialize:window.setupExperiments});

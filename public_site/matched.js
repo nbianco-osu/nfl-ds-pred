@@ -20,7 +20,7 @@ window.setupMatchedEvaluation = async function () {
   } catch {
     el('matchedStatus').textContent = 'Matched evaluation unavailable. Schedule forecasts are unaffected.';
     el('matchedControls').hidden = true;
-    return;
+    throw Error('Matched evaluation could not initialize');
   }
   el('matchedNote').textContent = data.note;
   for (const year of data.seasons) el('matchedSeason').add(new Option(String(year), String(year)));
@@ -82,4 +82,4 @@ window.setupMatchedEvaluation = async function () {
   el('matchedTab').addEventListener('click',()=>requestAnimationFrame(()=>{comparisonChart?.resize();seasonChart?.resize();}));
   render();
 };
-window.setupMatchedEvaluation();
+window.registerDashboardView({panelId:'matchedPanel', files:['matched_comparison'], initialize:window.setupMatchedEvaluation});

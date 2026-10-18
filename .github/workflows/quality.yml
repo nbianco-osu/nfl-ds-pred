@@ -25,4 +25,4 @@ jobs:
         with:
           node-version: '22'
       - run: node public_site/build.mjs
-      - run: node --test public_site/test_delivery.mjs public_site/test_navigation.mjs
+      - run: node --test public_site/test_delivery.mjs public_site/test_navigation.mjs public_site/test_lazy_view.mjs

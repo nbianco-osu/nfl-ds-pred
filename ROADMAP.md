@@ -5,6 +5,14 @@ limitations, and the next acceptance check before marking an item complete.
 
 ## Current Iteration
 
+### R75-R77: On-Demand Research
+
+Implemented deferred Matched Evaluation and Experiments inputs (R75), accessible
+loading/retry states (R76), and CI regression coverage (R77). Ten Node tests and
+desktop/mobile browser fault-injection checks pass. Production unchanged.
+Publication remains blocked by the Windows credential helper; see
+`RELEASE_R75_R77.md` for exact scope, evidence and next candidates.
+
 ### R71-R74: Navigation and Delivery
 
 Implemented schedule-first rendering and on-demand season charts (R71), grouped
