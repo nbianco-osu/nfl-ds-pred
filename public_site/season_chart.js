@@ -1,15 +1,38 @@
 /* Shared, self-hosted Chart.js views over immutable exported trajectory data. */
 window.setupSeasonCharts = function (data) {
+  if (window.dashboardTabsReady) return;
   const teamSelect = document.getElementById('chartTeam');
   const measure = document.getElementById('chartMeasure');
   const container = document.getElementById('teamCharts');
   const tabs = [...document.querySelectorAll('.view-tabs [role="tab"]')];
   let charts = [];
+  function populate() {
   for (const team of [...data.teams].sort((a, b) => a.name.localeCompare(b.name))) {
     const option = document.createElement('option');
     option.value = team.team;
     option.textContent = team.name;
     teamSelect.append(option);
+  }
+  }
+  let loaded = data.teams.length > 0, loading = false;
+  populate();
+  async function loadCharts() {
+    if (loaded) { render(); return; }
+    if (loading) return;
+    loading = true;
+    container.textContent = 'Loading season charts...';
+    try {
+      const response = await window.dashboardFetch('./data/season_charts.json');
+      const result = await response.json();
+      if (!Array.isArray(result.teams)) throw Error('Invalid chart data');
+      data = result; populate(); loaded = true;
+      if (!document.getElementById('seasonPanel').hidden) render();
+    } catch {
+      container.textContent = 'Season charts unavailable. ';
+      const retry = document.createElement('button');
+      retry.textContent = 'Retry charts'; retry.addEventListener('click', loadCharts);
+      container.append(retry);
+    } finally { loading = false; }
   }
   function render() {
     charts.forEach(chart => chart.destroy());
@@ -83,27 +106,44 @@ window.setupSeasonCharts = function (data) {
       }));
     }
   }
+  const groupFor = tab => {
+    if (['dashboardTab','scoresTab','matchEvidenceTab'].includes(tab.id)) return 'Games';
+    if (['seasonTab','profilesTab'].includes(tab.id)) return 'Teams';
+    if (['monitorTab','releaseEvidenceTab'].includes(tab.id)) return 'Operations';
+    return 'Evaluation';
+  };
+  const group = document.createElement('select');
+  group.id = 'viewGroup'; group.setAttribute('aria-label', 'View category');
+  for (const name of ['Games','Teams','Evaluation','Operations']) {
+    const option = document.createElement('option'); option.value = name; option.textContent = name; group.append(option);
+  }
+  document.querySelector('.view-tabs').before(group);
   function activate(tab) {
+    group.value = groupFor(tab);
     tabs.forEach(item => {
+      item.hidden = groupFor(item) !== group.value;
       const active = item === tab;
       item.setAttribute('aria-selected', String(active));
       item.tabIndex = active ? 0 : -1;
       document.getElementById(item.getAttribute('aria-controls')).hidden = !active;
     });
-    if (tab.id === 'seasonTab') render();
+    if (tab.id === 'seasonTab') loadCharts();
   }
+  group.addEventListener('change', () => activate(tabs.find(tab => groupFor(tab) === group.value)));
   tabs.forEach((tab, index) => {
     tab.addEventListener('click', () => activate(tab));
     tab.addEventListener('keydown', event => {
       if (!['ArrowLeft', 'ArrowRight', 'Home', 'End'].includes(event.key)) return;
       event.preventDefault();
-      const next = event.key === 'Home' ? 0 : event.key === 'End' ? tabs.length - 1 : (index + (event.key === 'ArrowRight' ? 1 : -1) + tabs.length) % tabs.length;
-      activate(tabs[next]);
-      tabs[next].focus();
+      const visible = tabs.filter(item => !item.hidden), current = visible.indexOf(tab);
+      const next = event.key === 'Home' ? 0 : event.key === 'End' ? visible.length - 1 : (current + (event.key === 'ArrowRight' ? 1 : -1) + visible.length) % visible.length;
+      activate(visible[next]);
+      visible[next].focus();
     });
   });
   document.getElementById('libraryLink').addEventListener('click', () => activate(document.getElementById('researchTab')));
   teamSelect.addEventListener('change', render);
   measure.addEventListener('change', render);
   window.dashboardTabsReady = true;
+  activate(tabs.find(tab => tab.getAttribute('aria-selected') === 'true') || tabs[0]);
 };

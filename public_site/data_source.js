@@ -34,10 +34,14 @@
       const sha=Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',bytes)),b=>b.toString(16).padStart(2,'0')).join('');
       if(bytes.byteLength!==e.bytes||sha!==e.sha256)throw Error('Dataset integrity check failed');
       const content=new TextDecoder().decode(bytes);if(name.endsWith('.json'))JSON.parse(content);
-      state.loaded++;state.bytes+=bytes.byteLength;announce();return content;
+      state.failures=state.failures.filter(item=>item!==name);
+      state.loaded++;state.bytes+=bytes.byteLength;
+      status.textContent=state.failures.length?`${state.source} data incomplete: ${state.failures.join(', ')}.`:`${state.source} revision ${state.revision.slice(0,12)}. Forecast timestamps remain authoritative.`;
+      announce();return content;
     })().catch(error=>{
       if(!state.failures.includes(name))state.failures.push(name);
-      status.textContent=`${state.source||'Dashboard'} data incomplete: ${state.failures.join(', ')}. Reload to retry. Other panels retain their pinned revision.`;
+      requests.delete(name);
+      status.textContent=`${state.source||'Dashboard'} data incomplete: ${state.failures.join(', ')}. Reopen the view or reload to retry. Other panels retain their pinned revision.`;
       announce();throw error;
     }));
     return requests.get(name);

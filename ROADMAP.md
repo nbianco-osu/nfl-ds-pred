@@ -1,9 +1,17 @@
 # NFL Predictor Roadmap
 
-Updated: 2026-10-15. Keep this file current in each iteration. Record evidence,
+Updated: 2026-10-18. Keep this file current in each iteration. Record evidence,
 limitations, and the next acceptance check before marking an item complete.
 
 ## Current Iteration
+
+### R71-R74: Navigation and Delivery
+
+Implemented schedule-first rendering and on-demand season charts (R71), grouped
+accessible tabs (R72), retryable pinned dataset requests (R73), and delivery /
+navigation regression tests (R74). Seven Node tests and desktop/mobile browser
+checks pass. See `RELEASE_R71_R74.md` for scope and remaining eager research
+loads. No model, forecast, or scheduler changes. Publication tracked separately.
 
 ### R41-R48 and 120 Configurations
 

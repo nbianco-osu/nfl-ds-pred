@@ -130,29 +130,34 @@ function renderShap(shapRows) {
 }
 
 async function main() {
-  const [predictions, shapRows, metrics, simulations, comparison, seasonCharts] = await Promise.all([
-    window.dashboardFetch("./data/predictions.json").then((response) => response.json()),
+  window.setupSeasonCharts({teams: []});
+  const predictions = await window.dashboardFetch('./data/predictions.json').then(response => response.json());
+  renderMetrics(predictions);
+  renderFilters(predictions);
+  renderRows(filterPredictions(predictions));
+  let simulations = null;
+  function update() {
+    renderRows(filterPredictions(predictions));
+    if (simulations) renderWinnerBars(simulations);
+  }
+  for (const id of ['weekFilter', 'teamFilter', 'confidenceFilter']) byId(id).addEventListener('input', update);
+  window.setupScoreLines(predictions);
+  window.setupPerformance();
+  window.setupResearch();
+  window.setupInsights(predictions, update);
+  window.addEventListener('researchready',update);
+  const [shapRows, metrics, savedSimulations, comparison] = await Promise.all([
     window.dashboardFetch("./data/global_shap.json").then((response) => response.json()).catch(() => []),
-    window.dashboardFetch("./data/metrics.json").then((response) => response.json()),
-    window.dashboardFetch("./data/season_simulations.json").then((response) => response.json()),
+    window.dashboardFetch("./data/metrics.json").then((response) => response.json()).catch(() => null),
+    window.dashboardFetch("./data/season_simulations.json").then((response) => response.json()).catch(() => null),
     window.dashboardFetch("./data/model_comparison.json").then((response) => {
       if (!response.ok) throw new Error("Model comparison data unavailable");
       return response.json();
     }).catch(() => null),
-    window.dashboardFetch('./data/season_charts.json').then(response => {
-      if (!response.ok) throw new Error('Season chart data unavailable');
-      return response.json();
-    }).catch(() => null),
   ]);
 
-  renderMetrics(predictions, metrics);
-  renderFilters(predictions);
-  window.setupScoreLines(predictions);
-  window.setupPerformance();
-  window.setupResearch();
+  simulations = savedSimulations;
   renderShap(shapRows);
-  window.setupSeasonCharts(seasonCharts || {teams: []});
-  if (!seasonCharts) byId('seasonTab').textContent = 'Team Season Charts (unavailable)';
   if (comparison) {
     byId('comparisonHeading').textContent = `${comparison.models.length}-Model Comparison`;
     byId('libraryLink').textContent = `Model library: ${comparison.models.length} models`;
@@ -164,18 +169,7 @@ async function main() {
     byId("modelRows").innerHTML = '<tr><td colspan="9">Model comparison is temporarily unavailable. Schedule forecasts are unaffected.</td></tr>';
   }
 
-  function update() {
-    const visible = filterPredictions(predictions);
-    renderRows(visible);
-    renderWinnerBars(simulations);
-  }
-
-  for (const id of ["weekFilter", "teamFilter", "confidenceFilter"]) {
-    byId(id).addEventListener("input", update);
-  }
   update();
-  window.setupInsights(predictions, update);
-  window.addEventListener('researchready',update);
 }
 
 function renderModelComparison(comparison) {
