@@ -502,12 +502,12 @@
         {
           "week": 9,
           "opponent": "Jacksonville Jaguars",
-          "win_probability": 0.5733078367,
+          "win_probability": 0.5799060124,
           "status": "Scheduled",
           "actual_win": null,
           "home": true,
           "game_id": "2026_09_JAX_BAL",
-          "projected_wins": 6.380303,
+          "projected_wins": 6.386901,
           "actual_wins": null
         },
         {
@@ -518,7 +518,7 @@
           "actual_win": null,
           "home": true,
           "game_id": "2026_10_LAC_BAL",
-          "projected_wins": 7.175142,
+          "projected_wins": 7.18174,
           "actual_wins": null
         },
         {
@@ -529,18 +529,18 @@
           "actual_win": null,
           "home": false,
           "game_id": "2026_11_BAL_CAR",
-          "projected_wins": 7.748691,
+          "projected_wins": 7.755289,
           "actual_wins": null
         },
         {
           "week": 12,
           "opponent": "Houston Texans",
-          "win_probability": 0.6189140685,
+          "win_probability": 0.6192539926,
           "status": "Scheduled",
           "actual_win": null,
           "home": false,
           "game_id": "2026_12_BAL_HOU",
-          "projected_wins": 8.367605,
+          "projected_wins": 8.374543,
           "actual_wins": null
         },
         {
@@ -549,7 +549,7 @@
           "win_probability": null,
           "status": "Bye",
           "actual_win": null,
-          "projected_wins": 8.367605,
+          "projected_wins": 8.374543,
           "actual_wins": null
         },
         {
@@ -560,7 +560,7 @@
           "actual_win": null,
           "home": true,
           "game_id": "2026_14_TB_BAL",
-          "projected_wins": 9.119557,
+          "projected_wins": 9.126495,
           "actual_wins": null
         },
         {
@@ -571,7 +571,7 @@
           "actual_win": null,
           "home": false,
           "game_id": "2026_15_BAL_PIT",
-          "projected_wins": 9.73119,
+          "projected_wins": 9.738128,
           "actual_wins": null
         },
         {
@@ -582,7 +582,7 @@
           "actual_win": null,
           "home": true,
           "game_id": "2026_16_CLE_BAL",
-          "projected_wins": 10.488367,
+          "projected_wins": 10.495305,
           "actual_wins": null
         },
         {
@@ -593,7 +593,7 @@
           "actual_win": null,
           "home": false,
           "game_id": "2026_17_BAL_CIN",
-          "projected_wins": 11.026347,
+          "projected_wins": 11.033285,
           "actual_wins": null
         },
         {
@@ -604,7 +604,7 @@
           "actual_win": null,
           "home": true,
           "game_id": "2026_18_PIT_BAL",
-          "projected_wins": 11.675817,
+          "projected_wins": 11.682755,
           "actual_wins": null
         }
       ]
@@ -1153,12 +1153,12 @@
         {
           "week": 13,
           "opponent": "Jacksonville Jaguars",
-          "win_probability": 0.441924922,
+          "win_probability": 0.479811277,
           "status": "Scheduled",
           "actual_win": null,
           "home": true,
           "game_id": "2026_13_JAX_CHI",
-          "projected_wins": 6.642442,
+          "projected_wins": 6.680329,
           "actual_wins": null
         },
         {
@@ -1169,7 +1169,7 @@
           "actual_win": null,
           "home": false,
           "game_id": "2026_14_CHI_MIA",
-          "projected_wins": 7.284661,
+          "projected_wins": 7.322547,
           "actual_wins": null
         },
         {
@@ -1180,7 +1180,7 @@
           "actual_win": null,
           "home": false,
           "game_id": "2026_15_CHI_BUF",
-          "projected_wins": 7.64703,
+          "projected_wins": 7.684916,
           "actual_wins": null
         },
         {
@@ -1191,7 +1191,7 @@
           "actual_win": null,
           "home": true,
           "game_id": "2026_16_GB_CHI",
-          "projected_wins": 8.204035,
+          "projected_wins": 8.241922,
           "actual_wins": null
         },
         {
@@ -1202,7 +1202,7 @@
           "actual_win": null,
           "home": true,
           "game_id": "2026_17_DET_CHI",
-          "projected_wins": 8.648396,
+          "projected_wins": 8.686282,
           "actual_wins": null
         },
         {
@@ -1213,7 +1213,7 @@
           "actual_win": null,
           "home": false,
           "game_id": "2026_18_CHI_MIN",
-          "projected_wins": 9.018974,
+          "projected_wins": 9.05686,
           "actual_wins": null
         }
       ]
@@ -1528,12 +1528,12 @@
         {
           "week": 10,
           "opponent": "Houston Texans",
-          "win_probability": 0.3883356559,
+          "win_probability": 0.3840531728,
           "status": "Scheduled",
           "actual_win": null,
           "home": true,
           "game_id": "2026_10_HOU_CLE",
-          "projected_wins": 4.977724,
+          "projected_wins": 4.973441,
           "actual_wins": null
         },
         {
@@ -1542,7 +1542,7 @@
           "win_probability": null,
           "status": "Bye",
           "actual_win": null,
-          "projected_wins": 4.977724,
+          "projected_wins": 4.973441,
           "actual_wins": null
         },
         {
@@ -1553,7 +1553,7 @@
           "actual_win": null,
           "home": true,
           "game_id": "2026_12_LV_CLE",
-          "projected_wins": 5.399802,
+          "projected_wins": 5.39552,
           "actual_wins": null
         },
         {
@@ -1564,7 +1564,7 @@
           "actual_win": null,
           "home": true,
           "game_id": "2026_13_CIN_CLE",
-          "projected_wins": 5.746716,
+          "projected_wins": 5.742434,
           "actual_wins": null
         },
         {
@@ -1575,7 +1575,7 @@
           "actual_win": null,
           "home": true,
           "game_id": "2026_14_ATL_CLE",
-          "projected_wins": 6.144822,
+          "projected_wins": 6.140539,
           "actual_wins": null
         },
         {
@@ -1586,7 +1586,7 @@
           "actual_win": null,
           "home": false,
           "game_id": "2026_15_CLE_NYG",
-          "projected_wins": 6.469276,
+          "projected_wins": 6.464993,
           "actual_wins": null
         },
         {
@@ -1597,7 +1597,7 @@
           "actual_win": null,
           "home": false,
           "game_id": "2026_16_CLE_BAL",
-          "projected_wins": 6.712098,
+          "projected_wins": 6.707816,
           "actual_wins": null
         },
         {
@@ -1608,7 +1608,7 @@
           "actual_win": null,
           "home": true,
           "game_id": "2026_17_IND_CLE",
-          "projected_wins": 7.210022,
+          "projected_wins": 7.205739,
           "actual_wins": null
         },
         {
@@ -1619,7 +1619,7 @@
           "actual_win": null,
           "home": false,
           "game_id": "2026_18_CLE_CIN",
-          "projected_wins": 7.447616,
+          "projected_wins": 7.443333,
           "actual_wins": null
         }
       ]
@@ -1687,12 +1687,12 @@
         {
           "week": 6,
           "opponent": "Green Bay Packers",
-          "win_probability": 0.434819185,
+          "win_probability": 0.4342629267,
           "status": "Scheduled",
           "actual_win": null,
           "home": false,
           "game_id": "2026_06_DAL_GB",
-          "projected_wins": 2.434819,
+          "projected_wins": 2.434263,
           "actual_wins": null
         },
         {
@@ -1703,7 +1703,7 @@
           "actual_win": null,
           "home": false,
           "game_id": "2026_07_DAL_PHI",
-          "projected_wins": 2.927704,
+          "projected_wins": 2.927148,
           "actual_wins": null
         },
         {
@@ -1714,7 +1714,7 @@
           "actual_win": null,
           "home": true,
           "game_id": "2026_08_ARI_DAL",
-          "projected_wins": 3.568283,
+          "projected_wins": 3.567727,
           "actual_wins": null
         },
         {
@@ -1725,7 +1725,7 @@
           "actual_win": null,
           "home": false,
           "game_id": "2026_09_DAL_IND",
-          "projected_wins": 4.10002,
+          "projected_wins": 4.099463,
           "actual_wins": null
         },
         {
@@ -1736,7 +1736,7 @@
           "actual_win": null,
           "home": true,
           "game_id": "2026_10_SF_DAL",
-          "projected_wins": 4.47364,
+          "projected_wins": 4.473084,
           "actual_wins": null
         },
         {
@@ -1747,7 +1747,7 @@
           "actual_win": null,
           "home": true,
           "game_id": "2026_11_TEN_DAL",
-          "projected_wins": 5.270032,
+          "projected_wins": 5.269475,
           "actual_wins": null
         },
         {
@@ -1758,7 +1758,7 @@
           "actual_win": null,
           "home": true,
           "game_id": "2026_12_PHI_DAL",
-          "projected_wins": 5.850124,
+          "projected_wins": 5.849568,
           "actual_wins": null
         },
         {
@@ -1769,7 +1769,7 @@
           "actual_win": null,
           "home": false,
           "game_id": "2026_13_DAL_SEA",
-          "projected_wins": 6.267956,
+          "projected_wins": 6.2674,
           "actual_wins": null
         },
         {
@@ -1778,7 +1778,7 @@
           "win_probability": null,
           "status": "Bye",
           "actual_win": null,
-          "projected_wins": 6.267956,
+          "projected_wins": 6.2674,
           "actual_wins": null
         },
         {
@@ -1789,18 +1789,18 @@
           "actual_win": null,
           "home": false,
           "game_id": "2026_15_DAL_LA",
-          "projected_wins": 6.704939,
+          "projected_wins": 6.704383,
           "actual_wins": null
         },
         {
           "week": 16,
           "opponent": "Jacksonville Jaguars",
-          "win_probability": 0.454412721,
+          "win_probability": 0.458840571,
           "status": "Scheduled",
           "actual_win": null,
           "home": true,
           "game_id": "2026_16_JAX_DAL",
-          "projected_wins": 7.159352,
+          "projected_wins": 7.163223,
           "actual_wins": null
         },
         {
@@ -1811,7 +1811,7 @@
           "actual_win": null,
           "home": true,
           "game_id": "2026_17_NYG_DAL",
-          "projected_wins": 7.772922,
+          "projected_wins": 7.776794,
           "actual_wins": null
         },
         {
@@ -1822,7 +1822,7 @@
           "actual_win": null,
           "home": false,
           "game_id": "2026_18_DAL_WAS",
-          "projected_wins": 8.360446,
+          "projected_wins": 8.364318,
           "actual_wins": null
         }
       ]
@@ -2296,12 +2296,12 @@
         {
           "week": 6,
           "opponent": "Dallas Cowboys",
-          "win_probability": 0.565180815,
+          "win_probability": 0.5657370733,
           "status": "Scheduled",
           "actual_win": null,
           "home": true,
           "game_id": "2026_06_DAL_GB",
-          "projected_wins": 3.565181,
+          "projected_wins": 3.565737,
           "actual_wins": null
         },
         {
@@ -2312,7 +2312,7 @@
           "actual_win": null,
           "home": false,
           "game_id": "2026_07_GB_DET",
-          "projected_wins": 3.890503,
+          "projected_wins": 3.891059,
           "actual_wins": null
         },
         {
@@ -2323,7 +2323,7 @@
           "actual_win": null,
           "home": true,
           "game_id": "2026_08_CAR_GB",
-          "projected_wins": 4.457639,
+          "projected_wins": 4.458196,
           "actual_wins": null
         },
         {
@@ -2334,7 +2334,7 @@
           "actual_win": null,
           "home": false,
           "game_id": "2026_09_GB_NE",
-          "projected_wins": 4.892079,
+          "projected_wins": 4.892636,
           "actual_wins": null
         },
         {
@@ -2345,7 +2345,7 @@
           "actual_win": null,
           "home": true,
           "game_id": "2026_10_MIN_GB",
-          "projected_wins": 5.399479,
+          "projected_wins": 5.400035,
           "actual_wins": null
         },
         {
@@ -2354,7 +2354,7 @@
           "win_probability": null,
           "status": "Bye",
           "actual_win": null,
-          "projected_wins": 5.399479,
+          "projected_wins": 5.400035,
           "actual_wins": null
         },
         {
@@ -2365,7 +2365,7 @@
           "actual_win": null,
           "home": false,
           "game_id": "2026_12_GB_LA",
-          "projected_wins": 5.83547,
+          "projected_wins": 5.836026,
           "actual_wins": null
         },
         {
@@ -2376,7 +2376,7 @@
           "actual_win": null,
           "home": false,
           "game_id": "2026_13_GB_NO",
-          "projected_wins": 6.467205,
+          "projected_wins": 6.467761,
           "actual_wins": null
         },
         {
@@ -2387,7 +2387,7 @@
           "actual_win": null,
           "home": true,
           "game_id": "2026_14_BUF_GB",
-          "projected_wins": 6.960391,
+          "projected_wins": 6.960948,
           "actual_wins": null
         },
         {
@@ -2398,7 +2398,7 @@
           "actual_win": null,
           "home": true,
           "game_id": "2026_15_MIA_GB",
-          "projected_wins": 7.711697,
+          "projected_wins": 7.712253,
           "actual_wins": null
         },
         {
@@ -2409,18 +2409,18 @@
           "actual_win": null,
           "home": false,
           "game_id": "2026_16_GB_CHI",
-          "projected_wins": 8.154691,
+          "projected_wins": 8.155248,
           "actual_wins": null
         },
         {
           "week": 17,
           "opponent": "Houston Texans",
-          "win_probability": 0.5588192552,
+          "win_probability": 0.556324225,
           "status": "Scheduled",
           "actual_win": null,
           "home": true,
           "game_id": "2026_17_HOU_GB",
-          "projected_wins": 8.713511,
+          "projected_wins": 8.711572,
           "actual_wins": null
         },
         {
@@ -2431,7 +2431,7 @@
           "actual_win": null,
           "home": true,
           "game_id": "2026_18_DET_GB",
-          "projected_wins": 9.133575,
+          "projected_wins": 9.131636,
           "actual_wins": null
         }
       ]
@@ -2500,22 +2500,22 @@
           "week": 6,
           "opponent": "Jacksonville Jaguars",
           "win_probability": 0.2828691639,
-          "status": "Scheduled",
-          "actual_win": null,
+          "status": "Final",
+          "actual_win": 1,
           "home": false,
           "game_id": "2026_06_HOU_JAX",
-          "projected_wins": 1.282869,
-          "actual_wins": null
+          "projected_wins": 2.0,
+          "actual_wins": 2
         },
         {
           "week": 7,
           "opponent": "New York Giants",
-          "win_probability": 0.5889361714,
+          "win_probability": 0.5928732863,
           "status": "Scheduled",
           "actual_win": null,
           "home": true,
           "game_id": "2026_07_NYG_HOU",
-          "projected_wins": 1.871805,
+          "projected_wins": 2.592873,
           "actual_wins": null
         },
         {
@@ -2524,117 +2524,117 @@
           "win_probability": null,
           "status": "Bye",
           "actual_win": null,
-          "projected_wins": 1.871805,
+          "projected_wins": 2.592873,
           "actual_wins": null
         },
         {
           "week": 9,
           "opponent": "Los Angeles Chargers",
-          "win_probability": 0.5603167081,
+          "win_probability": 0.5715392589,
           "status": "Scheduled",
           "actual_win": null,
           "home": false,
           "game_id": "2026_09_HOU_LAC",
-          "projected_wins": 2.432122,
+          "projected_wins": 3.164413,
           "actual_wins": null
         },
         {
           "week": 10,
           "opponent": "Cleveland Browns",
-          "win_probability": 0.6116643441,
+          "win_probability": 0.6159468272,
           "status": "Scheduled",
           "actual_win": null,
           "home": false,
           "game_id": "2026_10_HOU_CLE",
-          "projected_wins": 3.043786,
+          "projected_wins": 3.780359,
           "actual_wins": null
         },
         {
           "week": 11,
           "opponent": "Indianapolis Colts",
-          "win_probability": 0.6166064214,
+          "win_probability": 0.6646468456,
           "status": "Scheduled",
           "actual_win": null,
           "home": true,
           "game_id": "2026_11_IND_HOU",
-          "projected_wins": 3.660393,
+          "projected_wins": 4.445006,
           "actual_wins": null
         },
         {
           "week": 12,
           "opponent": "Baltimore Ravens",
-          "win_probability": 0.3810859315,
+          "win_probability": 0.3807460074,
           "status": "Scheduled",
           "actual_win": null,
           "home": true,
           "game_id": "2026_12_BAL_HOU",
-          "projected_wins": 4.041479,
+          "projected_wins": 4.825752,
           "actual_wins": null
         },
         {
           "week": 13,
           "opponent": "Pittsburgh Steelers",
-          "win_probability": 0.4587409169,
+          "win_probability": 0.4706076349,
           "status": "Scheduled",
           "actual_win": null,
           "home": false,
           "game_id": "2026_13_HOU_PIT",
-          "projected_wins": 4.50022,
+          "projected_wins": 5.29636,
           "actual_wins": null
         },
         {
           "week": 14,
           "opponent": "Washington Commanders",
-          "win_probability": 0.5438488024,
+          "win_probability": 0.5594876683,
           "status": "Scheduled",
           "actual_win": null,
           "home": false,
           "game_id": "2026_14_HOU_WAS",
-          "projected_wins": 5.044068,
+          "projected_wins": 5.855848,
           "actual_wins": null
         },
         {
           "week": 15,
           "opponent": "Jacksonville Jaguars",
-          "win_probability": 0.447729159,
+          "win_probability": 0.457117729,
           "status": "Scheduled",
           "actual_win": null,
           "home": true,
           "game_id": "2026_15_JAX_HOU",
-          "projected_wins": 5.491798,
+          "projected_wins": 6.312965,
           "actual_wins": null
         },
         {
           "week": 16,
           "opponent": "Philadelphia Eagles",
-          "win_probability": 0.4892492981,
+          "win_probability": 0.4890795465,
           "status": "Scheduled",
           "actual_win": null,
           "home": false,
           "game_id": "2026_16_HOU_PHI",
-          "projected_wins": 5.981047,
+          "projected_wins": 6.802045,
           "actual_wins": null
         },
         {
           "week": 17,
           "opponent": "Green Bay Packers",
-          "win_probability": 0.4411807448,
+          "win_probability": 0.443675775,
           "status": "Scheduled",
           "actual_win": null,
           "home": false,
           "game_id": "2026_17_HOU_GB",
-          "projected_wins": 6.422228,
+          "projected_wins": 7.245721,
           "actual_wins": null
         },
         {
           "week": 18,
           "opponent": "Tennessee Titans",
-          "win_probability": 0.7998032433,
+          "win_probability": 0.8044916648,
           "status": "Scheduled",
           "actual_win": null,
           "home": true,
           "game_id": "2026_18_TEN_HOU",
-          "projected_wins": 7.222031,
+          "projected_wins": 8.050212,
           "actual_wins": null
         }
       ]
@@ -2724,12 +2724,12 @@
         {
           "week": 8,
           "opponent": "Jacksonville Jaguars",
-          "win_probability": 0.2214092046,
+          "win_probability": 0.2291174376,
           "status": "Scheduled",
           "actual_win": null,
           "home": false,
           "game_id": "2026_08_IND_JAX",
-          "projected_wins": 3.221197,
+          "projected_wins": 3.228906,
           "actual_wins": null
         },
         {
@@ -2740,7 +2740,7 @@
           "actual_win": null,
           "home": true,
           "game_id": "2026_09_DAL_IND",
-          "projected_wins": 3.689461,
+          "projected_wins": 3.697169,
           "actual_wins": null
         },
         {
@@ -2751,18 +2751,18 @@
           "actual_win": null,
           "home": true,
           "game_id": "2026_10_MIA_IND",
-          "projected_wins": 4.353064,
+          "projected_wins": 4.360772,
           "actual_wins": null
         },
         {
           "week": 11,
           "opponent": "Houston Texans",
-          "win_probability": 0.3833935786,
+          "win_probability": 0.3353531544,
           "status": "Scheduled",
           "actual_win": null,
           "home": false,
           "game_id": "2026_11_IND_HOU",
-          "projected_wins": 4.736458,
+          "projected_wins": 4.696126,
           "actual_wins": null
         },
         {
@@ -2773,7 +2773,7 @@
           "actual_win": null,
           "home": true,
           "game_id": "2026_12_NYG_IND",
-          "projected_wins": 5.285118,
+          "projected_wins": 5.244786,
           "actual_wins": null
         },
         {
@@ -2782,7 +2782,7 @@
           "win_probability": null,
           "status": "Bye",
           "actual_win": null,
-          "projected_wins": 5.285118,
+          "projected_wins": 5.244786,
           "actual_wins": null
         },
         {
@@ -2793,7 +2793,7 @@
           "actual_win": null,
           "home": false,
           "game_id": "2026_14_IND_PHI",
-          "projected_wins": 5.732141,
+          "projected_wins": 5.691809,
           "actual_wins": null
         },
         {
@@ -2804,7 +2804,7 @@
           "actual_win": null,
           "home": false,
           "game_id": "2026_15_IND_TEN",
-          "projected_wins": 6.291309,
+          "projected_wins": 6.250977,
           "actual_wins": null
         },
         {
@@ -2815,7 +2815,7 @@
           "actual_win": null,
           "home": true,
           "game_id": "2026_16_CIN_IND",
-          "projected_wins": 6.693069,
+          "projected_wins": 6.652737,
           "actual_wins": null
         },
         {
@@ -2826,18 +2826,18 @@
           "actual_win": null,
           "home": false,
           "game_id": "2026_17_IND_CLE",
-          "projected_wins": 7.195146,
+          "projected_wins": 7.154813,
           "actual_wins": null
         },
         {
           "week": 18,
           "opponent": "Jacksonville Jaguars",
-          "win_probability": 0.3410661304,
+          "win_probability": 0.3539128876,
           "status": "Scheduled",
           "actual_win": null,
           "home": true,
           "game_id": "2026_18_JAX_IND",
-          "projected_wins": 7.536212,
+          "projected_wins": 7.508726,
           "actual_wins": null
         }
       ]
@@ -2906,12 +2906,12 @@
           "week": 6,
           "opponent": "Houston Texans",
           "win_probability": 0.7171308361,
-          "status": "Scheduled",
-          "actual_win": null,
+          "status": "Final",
+          "actual_win": 0,
           "home": true,
           "game_id": "2026_06_HOU_JAX",
-          "projected_wins": 4.717131,
-          "actual_wins": null
+          "projected_wins": 4.0,
+          "actual_wins": 4
         },
         {
           "week": 7,
@@ -2919,128 +2919,128 @@
           "win_probability": null,
           "status": "Bye",
           "actual_win": null,
-          "projected_wins": 4.717131,
+          "projected_wins": 4.0,
           "actual_wins": null
         },
         {
           "week": 8,
           "opponent": "Indianapolis Colts",
-          "win_probability": 0.7785907954,
+          "win_probability": 0.7708825624,
           "status": "Scheduled",
           "actual_win": null,
           "home": true,
           "game_id": "2026_08_IND_JAX",
-          "projected_wins": 5.495722,
+          "projected_wins": 4.770883,
           "actual_wins": null
         },
         {
           "week": 9,
           "opponent": "Baltimore Ravens",
-          "win_probability": 0.4266921633,
+          "win_probability": 0.4200939876,
           "status": "Scheduled",
           "actual_win": null,
           "home": false,
           "game_id": "2026_09_JAX_BAL",
-          "projected_wins": 5.922414,
+          "projected_wins": 5.190977,
           "actual_wins": null
         },
         {
           "week": 10,
           "opponent": "Tennessee Titans",
-          "win_probability": 0.6930552763,
+          "win_probability": 0.6879651245,
           "status": "Scheduled",
           "actual_win": null,
           "home": false,
           "game_id": "2026_10_JAX_TEN",
-          "projected_wins": 6.615469,
+          "projected_wins": 5.878942,
           "actual_wins": null
         },
         {
           "week": 11,
           "opponent": "New York Giants",
-          "win_probability": 0.6568107873,
+          "win_probability": 0.6307620364,
           "status": "Scheduled",
           "actual_win": null,
           "home": false,
           "game_id": "2026_11_JAX_NYG",
-          "projected_wins": 7.27228,
+          "projected_wins": 6.509704,
           "actual_wins": null
         },
         {
           "week": 12,
           "opponent": "Tennessee Titans",
-          "win_probability": 0.8947450247,
+          "win_probability": 0.8913785729,
           "status": "Scheduled",
           "actual_win": null,
           "home": true,
           "game_id": "2026_12_TEN_JAX",
-          "projected_wins": 8.167025,
+          "projected_wins": 7.401082,
           "actual_wins": null
         },
         {
           "week": 13,
           "opponent": "Chicago Bears",
-          "win_probability": 0.558075078,
+          "win_probability": 0.520188723,
           "status": "Scheduled",
           "actual_win": null,
           "home": false,
           "game_id": "2026_13_JAX_CHI",
-          "projected_wins": 8.7251,
+          "projected_wins": 7.921271,
           "actual_wins": null
         },
         {
           "week": 14,
           "opponent": "Pittsburgh Steelers",
-          "win_probability": 0.7019573477,
+          "win_probability": 0.6929896055,
           "status": "Scheduled",
           "actual_win": null,
           "home": true,
           "game_id": "2026_14_PIT_JAX",
-          "projected_wins": 9.427057,
+          "projected_wins": 8.614261,
           "actual_wins": null
         },
         {
           "week": 15,
           "opponent": "Houston Texans",
-          "win_probability": 0.552270841,
+          "win_probability": 0.542882271,
           "status": "Scheduled",
           "actual_win": null,
           "home": false,
           "game_id": "2026_15_JAX_HOU",
-          "projected_wins": 9.979328,
+          "projected_wins": 9.157143,
           "actual_wins": null
         },
         {
           "week": 16,
           "opponent": "Dallas Cowboys",
-          "win_probability": 0.545587279,
+          "win_probability": 0.541159429,
           "status": "Scheduled",
           "actual_win": null,
           "home": false,
           "game_id": "2026_16_JAX_DAL",
-          "projected_wins": 10.524915,
+          "projected_wins": 9.698302,
           "actual_wins": null
         },
         {
           "week": 17,
           "opponent": "Washington Commanders",
-          "win_probability": 0.7208173853,
+          "win_probability": 0.7215047048,
           "status": "Scheduled",
           "actual_win": null,
           "home": true,
           "game_id": "2026_17_WAS_JAX",
-          "projected_wins": 11.245733,
+          "projected_wins": 10.419807,
           "actual_wins": null
         },
         {
           "week": 18,
           "opponent": "Indianapolis Colts",
-          "win_probability": 0.6589338696,
+          "win_probability": 0.6460871124,
           "status": "Scheduled",
           "actual_win": null,
           "home": false,
           "game_id": "2026_18_JAX_IND",
-          "projected_wins": 11.904667,
+          "projected_wins": 11.065894,
           "actual_wins": null
         }
       ]
@@ -3545,12 +3545,12 @@
         {
           "week": 9,
           "opponent": "Houston Texans",
-          "win_probability": 0.4396832919,
+          "win_probability": 0.4284607411,
           "status": "Scheduled",
           "actual_win": null,
           "home": true,
           "game_id": "2026_09_HOU_LAC",
-          "projected_wins": 0.835556,
+          "projected_wins": 0.824334,
           "actual_wins": null
         },
         {
@@ -3561,7 +3561,7 @@
           "actual_win": null,
           "home": false,
           "game_id": "2026_10_LAC_BAL",
-          "projected_wins": 1.040717,
+          "projected_wins": 1.029495,
           "actual_wins": null
         },
         {
@@ -3572,7 +3572,7 @@
           "actual_win": null,
           "home": true,
           "game_id": "2026_11_NYJ_LAC",
-          "projected_wins": 1.46876,
+          "projected_wins": 1.457537,
           "actual_wins": null
         },
         {
@@ -3583,7 +3583,7 @@
           "actual_win": null,
           "home": true,
           "game_id": "2026_12_NE_LAC",
-          "projected_wins": 1.822402,
+          "projected_wins": 1.81118,
           "actual_wins": null
         },
         {
@@ -3594,7 +3594,7 @@
           "actual_win": null,
           "home": false,
           "game_id": "2026_13_LAC_TB",
-          "projected_wins": 2.143807,
+          "projected_wins": 2.132584,
           "actual_wins": null
         },
         {
@@ -3605,7 +3605,7 @@
           "actual_win": null,
           "home": false,
           "game_id": "2026_14_LAC_LV",
-          "projected_wins": 2.483501,
+          "projected_wins": 2.472278,
           "actual_wins": null
         },
         {
@@ -3616,7 +3616,7 @@
           "actual_win": null,
           "home": true,
           "game_id": "2026_15_SF_LAC",
-          "projected_wins": 2.82696,
+          "projected_wins": 2.815737,
           "actual_wins": null
         },
         {
@@ -3627,7 +3627,7 @@
           "actual_win": null,
           "home": false,
           "game_id": "2026_16_LAC_MIA",
-          "projected_wins": 3.336684,
+          "projected_wins": 3.325461,
           "actual_wins": null
         },
         {
@@ -3638,7 +3638,7 @@
           "actual_win": null,
           "home": true,
           "game_id": "2026_17_KC_LAC",
-          "projected_wins": 3.658654,
+          "projected_wins": 3.647431,
           "actual_wins": null
         },
         {
@@ -3649,7 +3649,7 @@
           "actual_win": null,
           "home": false,
           "game_id": "2026_18_LAC_DEN",
-          "projected_wins": 3.933129,
+          "projected_wins": 3.921907,
           "actual_wins": null
         }
       ]
@@ -4743,12 +4743,12 @@
         {
           "week": 7,
           "opponent": "Houston Texans",
-          "win_probability": 0.4110638286,
+          "win_probability": 0.4071267137,
           "status": "Scheduled",
           "actual_win": null,
           "home": false,
           "game_id": "2026_07_NYG_HOU",
-          "projected_wins": 4.102526,
+          "projected_wins": 4.098589,
           "actual_wins": null
         },
         {
@@ -4757,7 +4757,7 @@
           "win_probability": null,
           "status": "Bye",
           "actual_win": null,
-          "projected_wins": 4.102526,
+          "projected_wins": 4.098589,
           "actual_wins": null
         },
         {
@@ -4768,7 +4768,7 @@
           "actual_win": null,
           "home": false,
           "game_id": "2026_09_NYG_PHI",
-          "projected_wins": 4.580624,
+          "projected_wins": 4.576687,
           "actual_wins": null
         },
         {
@@ -4779,18 +4779,18 @@
           "actual_win": null,
           "home": true,
           "game_id": "2026_10_WAS_NYG",
-          "projected_wins": 5.158505,
+          "projected_wins": 5.154568,
           "actual_wins": null
         },
         {
           "week": 11,
           "opponent": "Jacksonville Jaguars",
-          "win_probability": 0.3431892127,
+          "win_probability": 0.3692379636,
           "status": "Scheduled",
           "actual_win": null,
           "home": true,
           "game_id": "2026_11_JAX_NYG",
-          "projected_wins": 5.501694,
+          "projected_wins": 5.523806,
           "actual_wins": null
         },
         {
@@ -4801,7 +4801,7 @@
           "actual_win": null,
           "home": false,
           "game_id": "2026_12_NYG_IND",
-          "projected_wins": 5.953034,
+          "projected_wins": 5.975145,
           "actual_wins": null
         },
         {
@@ -4812,7 +4812,7 @@
           "actual_win": null,
           "home": true,
           "game_id": "2026_13_SF_NYG",
-          "projected_wins": 6.260944,
+          "projected_wins": 6.283056,
           "actual_wins": null
         },
         {
@@ -4823,7 +4823,7 @@
           "actual_win": null,
           "home": false,
           "game_id": "2026_14_NYG_SEA",
-          "projected_wins": 6.597244,
+          "projected_wins": 6.619356,
           "actual_wins": null
         },
         {
@@ -4834,7 +4834,7 @@
           "actual_win": null,
           "home": true,
           "game_id": "2026_15_CLE_NYG",
-          "projected_wins": 7.27279,
+          "projected_wins": 7.294902,
           "actual_wins": null
         },
         {
@@ -4845,7 +4845,7 @@
           "actual_win": null,
           "home": false,
           "game_id": "2026_16_NYG_DET",
-          "projected_wins": 7.519955,
+          "projected_wins": 7.542066,
           "actual_wins": null
         },
         {
@@ -4856,7 +4856,7 @@
           "actual_win": null,
           "home": false,
           "game_id": "2026_17_NYG_DAL",
-          "projected_wins": 7.906384,
+          "projected_wins": 7.928496,
           "actual_wins": null
         },
         {
@@ -4867,7 +4867,7 @@
           "actual_win": null,
           "home": true,
           "game_id": "2026_18_PHI_NYG",
-          "projected_wins": 8.525452,
+          "projected_wins": 8.547563,
           "actual_wins": null
         }
       ]
@@ -5246,12 +5246,12 @@
         {
           "week": 16,
           "opponent": "Houston Texans",
-          "win_probability": 0.5107507019,
+          "win_probability": 0.5109204535,
           "status": "Scheduled",
           "actual_win": null,
           "home": true,
           "game_id": "2026_16_HOU_PHI",
-          "projected_wins": 6.853592,
+          "projected_wins": 6.853761,
           "actual_wins": null
         },
         {
@@ -5262,7 +5262,7 @@
           "actual_win": null,
           "home": false,
           "game_id": "2026_17_PHI_SF",
-          "projected_wins": 7.073877,
+          "projected_wins": 7.074046,
           "actual_wins": null
         },
         {
@@ -5273,7 +5273,7 @@
           "actual_win": null,
           "home": false,
           "game_id": "2026_18_PHI_NYG",
-          "projected_wins": 7.454809,
+          "projected_wins": 7.454979,
           "actual_wins": null
         }
       ]
@@ -5416,23 +5416,23 @@
         {
           "week": 13,
           "opponent": "Houston Texans",
-          "win_probability": 0.5412590831,
+          "win_probability": 0.5293923651,
           "status": "Scheduled",
           "actual_win": null,
           "home": true,
           "game_id": "2026_13_HOU_PIT",
-          "projected_wins": 6.86383,
+          "projected_wins": 6.851963,
           "actual_wins": null
         },
         {
           "week": 14,
           "opponent": "Jacksonville Jaguars",
-          "win_probability": 0.2980426523,
+          "win_probability": 0.3070103945,
           "status": "Scheduled",
           "actual_win": null,
           "home": false,
           "game_id": "2026_14_PIT_JAX",
-          "projected_wins": 7.161873,
+          "projected_wins": 7.158974,
           "actual_wins": null
         },
         {
@@ -5443,7 +5443,7 @@
           "actual_win": null,
           "home": true,
           "game_id": "2026_15_BAL_PIT",
-          "projected_wins": 7.55024,
+          "projected_wins": 7.547341,
           "actual_wins": null
         },
         {
@@ -5454,7 +5454,7 @@
           "actual_win": null,
           "home": true,
           "game_id": "2026_16_CAR_PIT",
-          "projected_wins": 8.082175,
+          "projected_wins": 8.079276,
           "actual_wins": null
         },
         {
@@ -5465,7 +5465,7 @@
           "actual_win": null,
           "home": false,
           "game_id": "2026_17_PIT_TEN",
-          "projected_wins": 8.717807,
+          "projected_wins": 8.714908,
           "actual_wins": null
         },
         {
@@ -5476,7 +5476,7 @@
           "actual_win": null,
           "home": false,
           "game_id": "2026_18_PIT_BAL",
-          "projected_wins": 9.068338,
+          "projected_wins": 9.065439,
           "actual_wins": null
         }
       ]
@@ -5747,12 +5747,12 @@
         {
           "week": 6,
           "opponent": "Washington Commanders",
-          "win_probability": 0.7387425407,
+          "win_probability": 0.7467984849,
           "status": "Scheduled",
           "actual_win": null,
           "home": true,
           "game_id": "2026_06_WAS_SF",
-          "projected_wins": 5.738743,
+          "projected_wins": 5.746798,
           "actual_wins": null
         },
         {
@@ -5763,7 +5763,7 @@
           "actual_win": null,
           "home": false,
           "game_id": "2026_07_SF_ATL",
-          "projected_wins": 6.33727,
+          "projected_wins": 6.345326,
           "actual_wins": null
         },
         {
@@ -5772,7 +5772,7 @@
           "win_probability": null,
           "status": "Bye",
           "actual_win": null,
-          "projected_wins": 6.33727,
+          "projected_wins": 6.345326,
           "actual_wins": null
         },
         {
@@ -5783,7 +5783,7 @@
           "actual_win": null,
           "home": true,
           "game_id": "2026_09_LV_SF",
-          "projected_wins": 7.090723,
+          "projected_wins": 7.098779,
           "actual_wins": null
         },
         {
@@ -5794,7 +5794,7 @@
           "actual_win": null,
           "home": false,
           "game_id": "2026_10_SF_DAL",
-          "projected_wins": 7.717103,
+          "projected_wins": 7.725159,
           "actual_wins": null
         },
         {
@@ -5805,7 +5805,7 @@
           "actual_win": null,
           "home": true,
           "game_id": "2026_11_MIN_SF",
-          "projected_wins": 8.405855,
+          "projected_wins": 8.413911,
           "actual_wins": null
         },
         {
@@ -5816,7 +5816,7 @@
           "actual_win": null,
           "home": true,
           "game_id": "2026_12_SEA_SF",
-          "projected_wins": 9.154777,
+          "projected_wins": 9.162833,
           "actual_wins": null
         },
         {
@@ -5827,7 +5827,7 @@
           "actual_win": null,
           "home": false,
           "game_id": "2026_13_SF_NYG",
-          "projected_wins": 9.846867,
+          "projected_wins": 9.854922,
           "actual_wins": null
         },
         {
@@ -5838,7 +5838,7 @@
           "actual_win": null,
           "home": true,
           "game_id": "2026_14_LA_SF",
-          "projected_wins": 10.522862,
+          "projected_wins": 10.530918,
           "actual_wins": null
         },
         {
@@ -5849,7 +5849,7 @@
           "actual_win": null,
           "home": false,
           "game_id": "2026_15_SF_LAC",
-          "projected_wins": 11.179403,
+          "projected_wins": 11.187459,
           "actual_wins": null
         },
         {
@@ -5860,7 +5860,7 @@
           "actual_win": null,
           "home": false,
           "game_id": "2026_16_SF_KC",
-          "projected_wins": 11.615806,
+          "projected_wins": 11.623862,
           "actual_wins": null
         },
         {
@@ -5871,7 +5871,7 @@
           "actual_win": null,
           "home": true,
           "game_id": "2026_17_PHI_SF",
-          "projected_wins": 12.395521,
+          "projected_wins": 12.403577,
           "actual_wins": null
         },
         {
@@ -5882,7 +5882,7 @@
           "actual_win": null,
           "home": false,
           "game_id": "2026_18_SF_ARI",
-          "projected_wins": 13.05324,
+          "projected_wins": 13.061296,
           "actual_wins": null
         }
       ]
@@ -6195,12 +6195,12 @@
         {
           "week": 10,
           "opponent": "Jacksonville Jaguars",
-          "win_probability": 0.3069447237,
+          "win_probability": 0.3120348755,
           "status": "Scheduled",
           "actual_win": null,
           "home": true,
           "game_id": "2026_10_JAX_TEN",
-          "projected_wins": 1.290691,
+          "projected_wins": 1.295781,
           "actual_wins": null
         },
         {
@@ -6211,18 +6211,18 @@
           "actual_win": null,
           "home": false,
           "game_id": "2026_11_TEN_DAL",
-          "projected_wins": 1.494299,
+          "projected_wins": 1.499389,
           "actual_wins": null
         },
         {
           "week": 12,
           "opponent": "Jacksonville Jaguars",
-          "win_probability": 0.1052549753,
+          "win_probability": 0.1086214271,
           "status": "Scheduled",
           "actual_win": null,
           "home": false,
           "game_id": "2026_12_TEN_JAX",
-          "projected_wins": 1.599554,
+          "projected_wins": 1.608011,
           "actual_wins": null
         },
         {
@@ -6233,7 +6233,7 @@
           "actual_win": null,
           "home": true,
           "game_id": "2026_13_WAS_TEN",
-          "projected_wins": 2.036787,
+          "projected_wins": 2.045244,
           "actual_wins": null
         },
         {
@@ -6244,7 +6244,7 @@
           "actual_win": null,
           "home": false,
           "game_id": "2026_14_TEN_DET",
-          "projected_wins": 2.1982,
+          "projected_wins": 2.206656,
           "actual_wins": null
         },
         {
@@ -6255,7 +6255,7 @@
           "actual_win": null,
           "home": true,
           "game_id": "2026_15_IND_TEN",
-          "projected_wins": 2.639031,
+          "projected_wins": 2.647488,
           "actual_wins": null
         },
         {
@@ -6266,7 +6266,7 @@
           "actual_win": null,
           "home": false,
           "game_id": "2026_16_TEN_LV",
-          "projected_wins": 2.857587,
+          "projected_wins": 2.866043,
           "actual_wins": null
         },
         {
@@ -6277,18 +6277,18 @@
           "actual_win": null,
           "home": true,
           "game_id": "2026_17_PIT_TEN",
-          "projected_wins": 3.221954,
+          "projected_wins": 3.23041,
           "actual_wins": null
         },
         {
           "week": 18,
           "opponent": "Houston Texans",
-          "win_probability": 0.2001967567,
+          "win_probability": 0.1955083352,
           "status": "Scheduled",
           "actual_win": null,
           "home": false,
           "game_id": "2026_18_TEN_HOU",
-          "projected_wins": 3.422151,
+          "projected_wins": 3.425919,
           "actual_wins": null
         }
       ]
@@ -6356,12 +6356,12 @@
         {
           "week": 6,
           "opponent": "San Francisco 49ers",
-          "win_probability": 0.2612574593,
+          "win_probability": 0.2532015151,
           "status": "Scheduled",
           "actual_win": null,
           "home": false,
           "game_id": "2026_06_WAS_SF",
-          "projected_wins": 1.261257,
+          "projected_wins": 1.253202,
           "actual_wins": null
         },
         {
@@ -6370,7 +6370,7 @@
           "win_probability": null,
           "status": "Bye",
           "actual_win": null,
-          "projected_wins": 1.261257,
+          "projected_wins": 1.253202,
           "actual_wins": null
         },
         {
@@ -6381,7 +6381,7 @@
           "actual_win": null,
           "home": true,
           "game_id": "2026_08_PHI_WAS",
-          "projected_wins": 1.821242,
+          "projected_wins": 1.813186,
           "actual_wins": null
         },
         {
@@ -6392,7 +6392,7 @@
           "actual_win": null,
           "home": true,
           "game_id": "2026_09_LA_WAS",
-          "projected_wins": 2.223197,
+          "projected_wins": 2.215141,
           "actual_wins": null
         },
         {
@@ -6403,7 +6403,7 @@
           "actual_win": null,
           "home": false,
           "game_id": "2026_10_WAS_NYG",
-          "projected_wins": 2.645316,
+          "projected_wins": 2.63726,
           "actual_wins": null
         },
         {
@@ -6414,7 +6414,7 @@
           "actual_win": null,
           "home": true,
           "game_id": "2026_11_CIN_WAS",
-          "projected_wins": 3.026093,
+          "projected_wins": 3.018037,
           "actual_wins": null
         },
         {
@@ -6425,7 +6425,7 @@
           "actual_win": null,
           "home": false,
           "game_id": "2026_12_WAS_ARI",
-          "projected_wins": 3.548465,
+          "projected_wins": 3.540409,
           "actual_wins": null
         },
         {
@@ -6436,18 +6436,18 @@
           "actual_win": null,
           "home": false,
           "game_id": "2026_13_WAS_TEN",
-          "projected_wins": 4.111232,
+          "projected_wins": 4.103176,
           "actual_wins": null
         },
         {
           "week": 14,
           "opponent": "Houston Texans",
-          "win_probability": 0.4561511976,
+          "win_probability": 0.4405123317,
           "status": "Scheduled",
           "actual_win": null,
           "home": true,
           "game_id": "2026_14_HOU_WAS",
-          "projected_wins": 4.567383,
+          "projected_wins": 4.543688,
           "actual_wins": null
         },
         {
@@ -6458,7 +6458,7 @@
           "actual_win": null,
           "home": true,
           "game_id": "2026_15_ATL_WAS",
-          "projected_wins": 5.014092,
+          "projected_wins": 4.990397,
           "actual_wins": null
         },
         {
@@ -6469,18 +6469,18 @@
           "actual_win": null,
           "home": false,
           "game_id": "2026_16_WAS_MIN",
-          "projected_wins": 5.403994,
+          "projected_wins": 5.380299,
           "actual_wins": null
         },
         {
           "week": 17,
           "opponent": "Jacksonville Jaguars",
-          "win_probability": 0.2791826147,
+          "win_probability": 0.2784952952,
           "status": "Scheduled",
           "actual_win": null,
           "home": false,
           "game_id": "2026_17_WAS_JAX",
-          "projected_wins": 5.683177,
+          "projected_wins": 5.658795,
           "actual_wins": null
         },
         {
@@ -6491,7 +6491,7 @@
           "actual_win": null,
           "home": true,
           "game_id": "2026_18_DAL_WAS",
-          "projected_wins": 6.095653,
+          "projected_wins": 6.071271,
           "actual_wins": null
         }
       ]

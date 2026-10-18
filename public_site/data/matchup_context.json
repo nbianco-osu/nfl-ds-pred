@@ -2665,7 +2665,7 @@
       "last_qb_attempt_share": 1.0,
       "ol_out": 0,
       "roster_ol_count": 15,
-      "active_roster_ol_count": 11
+      "active_roster_ol_count": 8
     },
     "weather": {
       "status": "No timestamped forecast source configured"
@@ -2731,7 +2731,7 @@
       "last_qb_attempt_share": 1.0,
       "ol_out": 1,
       "roster_ol_count": 18,
-      "active_roster_ol_count": 8
+      "active_roster_ol_count": 10
     },
     "weather": {
       "status": "No timestamped forecast source configured"
@@ -2849,7 +2849,7 @@
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Jalen Hurts",
       "last_qb_attempt_share": 1.0,
-      "ol_out": 0,
+      "ol_out": 1,
       "roster_ol_count": 14,
       "active_roster_ol_count": 9
     },
@@ -2863,7 +2863,7 @@
       "last_qb_attempt_share": 1.0,
       "ol_out": 1,
       "roster_ol_count": 15,
-      "active_roster_ol_count": 10
+      "active_roster_ol_count": 11
     },
     "weather": {
       "status": "No timestamped forecast source configured"
@@ -2917,7 +2917,7 @@
       "last_qb_attempt_share": 1.0,
       "ol_out": 0,
       "roster_ol_count": 13,
-      "active_roster_ol_count": 8
+      "active_roster_ol_count": 9
     },
     "away": {
       "last_performance_week": 5,
@@ -2962,7 +2962,7 @@
       "last_qb_attempt_share": 1.0,
       "ol_out": 2,
       "roster_ol_count": 17,
-      "active_roster_ol_count": 9
+      "active_roster_ol_count": 10
     },
     "weather": {
       "status": "No timestamped forecast source configured"

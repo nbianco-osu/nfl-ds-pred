@@ -1,39 +1,7 @@
 {
-  "updated_at": "2026-10-17T22:53:42.808389+00:00",
+  "updated_at": "2026-10-18T18:12:38.204278+00:00",
   "provider": "Open-Meteo",
   "games": [
-    {
-      "game_id": "2026_06_HOU_JAX",
-      "status": "Forecast archived"
-    },
-    {
-      "game_id": "2026_06_CHI_ATL",
-      "status": "Forecast archived"
-    },
-    {
-      "game_id": "2026_06_BAL_CLE",
-      "status": "Forecast archived"
-    },
-    {
-      "game_id": "2026_06_TEN_IND",
-      "status": "Forecast archived"
-    },
-    {
-      "game_id": "2026_06_NYJ_NE",
-      "status": "Forecast archived"
-    },
-    {
-      "game_id": "2026_06_NO_NYG",
-      "status": "Forecast archived"
-    },
-    {
-      "game_id": "2026_06_CAR_PHI",
-      "status": "Forecast archived"
-    },
-    {
-      "game_id": "2026_06_PIT_TB",
-      "status": "Forecast archived"
-    },
     {
       "game_id": "2026_06_ARI_LA",
       "status": "Indoor; outdoor forecast not used"
@@ -52,12 +20,7 @@
     },
     {
       "game_id": "2026_06_WAS_SF",
-      "status": "Outside 16-day horizon"
-    },
-    {
-      "game_id": "2026_06_WAS_SF",
-      "status": "Forecast unavailable",
-      "error": "URLError"
+      "status": "Forecast archived"
     },
     {
       "game_id": "2026_07_NE_CHI",
@@ -165,7 +128,7 @@
     },
     {
       "game_id": "2026_08_PHI_WAS",
-      "status": "Outside 16-day horizon"
+      "status": "Forecast archived"
     },
     {
       "game_id": "2026_08_CHI_SEA",
@@ -776,7 +739,7 @@
       "status": "Outside 16-day horizon"
     }
   ],
-  "added": 30,
+  "added": 24,
   "note": "Non-commercial Open-Meteo forecast API; CC BY 4.0 attribution. Outdoor grid-cell weather only. Provider issue time unavailable: locally observed time is retained, never called publication time. Confirmed QB inputs remain manual imports with source URLs; previous usage is not confirmation.",
   "venue_source": "https://raw.githubusercontent.com/greerreNFL/Stadiums/main/data/stadiums.csv",
   "venue_sha256": "8de55868f633112f1d29672155ad67e59555e67c2b8dafce34800313df45098b"

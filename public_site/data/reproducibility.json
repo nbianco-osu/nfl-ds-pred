@@ -4,12 +4,12 @@
     {
       "game_id": "2026_06_ARI_LA",
       "status": "Reproduced",
-      "absolute_difference": 0.0
+      "absolute_difference": 1.1102230246251565e-16
     },
     {
       "game_id": "2026_06_BAL_CLE",
       "status": "Reproduced",
-      "absolute_difference": 0.0
+      "absolute_difference": 5.551115123125783e-17
     },
     {
       "game_id": "2026_06_BUF_LV",

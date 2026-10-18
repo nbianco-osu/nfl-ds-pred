@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "completed_games": 80,
+  "completed_games": 81,
   "sources": {
     "pbp_games": 80,
     "qb_team_games": 160,
@@ -10,9 +10,9 @@
   "receipts": {
     "load_schedules": {
       "source": "nflreadpy.load_schedules",
-      "sha256": "d438aa8fc4db1b7295a6293881c61d2b14269b08a110f4bc67b9ded1e9e5f37a",
+      "sha256": "8a3c249e317e08a016a9235baa197bbb3e56803c16ddca8d5f665fb0316959c8",
       "rows": 272,
-      "retrieved_at": "2026-10-17T22:50:25.711609+00:00",
+      "retrieved_at": "2026-10-18T18:11:01.563926+00:00",
       "provider_published_at": null,
       "cache_may_be_used": true,
       "note": "Local observation time, not proof of original publication or freshness."
@@ -21,7 +21,7 @@
       "source": "nflreadpy.load_pbp",
       "sha256": "897adee8acfbe7745783bc77ad1fad49275802ab29baa54ac72c98a3beb8da11",
       "rows": 14031,
-      "retrieved_at": "2026-10-17T22:50:27.056471+00:00",
+      "retrieved_at": "2026-10-18T18:11:02.445158+00:00",
       "provider_published_at": null,
       "cache_may_be_used": true,
       "note": "Local observation time, not proof of original publication or freshness."
@@ -30,25 +30,25 @@
       "source": "nflreadpy.load_player_stats",
       "sha256": "a3329e0c9897b5cd05b0fd4822c06e073bd6da94bf79e03e87afefdf5300c373",
       "rows": 5575,
-      "retrieved_at": "2026-10-17T22:50:30.803913+00:00",
+      "retrieved_at": "2026-10-18T18:11:04.721746+00:00",
       "provider_published_at": null,
       "cache_may_be_used": true,
       "note": "Local observation time, not proof of original publication or freshness."
     },
     "load_injuries": {
       "source": "nflreadpy.load_injuries",
-      "sha256": "fec73f4774d11740e129aadff138ce23c4a671fb0d4b42c8cae0f64ab797abef",
-      "rows": 1787,
-      "retrieved_at": "2026-10-17T22:50:33.046334+00:00",
+      "sha256": "06e4109ee9d22001875ea1f0d939a0a73127fa1610bfc8dfbcafcf0a28edb5dd",
+      "rows": 1789,
+      "retrieved_at": "2026-10-18T18:11:06.377139+00:00",
       "provider_published_at": null,
       "cache_may_be_used": true,
       "note": "Local observation time, not proof of original publication or freshness."
     },
     "load_rosters_weekly": {
       "source": "nflreadpy.load_rosters_weekly",
-      "sha256": "40c55761b89a9882ad7307661d269cd698346a007c72f42996c2174e461ef345",
+      "sha256": "b8038d1112dc27eca44f399a09cb15791c49c1214169ac9ee9ac3c0b15a05776",
       "rows": 15327,
-      "retrieved_at": "2026-10-17T22:50:33.302081+00:00",
+      "retrieved_at": "2026-10-18T18:11:06.786398+00:00",
       "provider_published_at": null,
       "cache_may_be_used": true,
       "note": "Local observation time, not proof of original publication or freshness."

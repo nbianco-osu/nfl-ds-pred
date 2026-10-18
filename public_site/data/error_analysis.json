@@ -394,10 +394,10 @@
       "version": "20260929T124531Z",
       "dimension": "confidence",
       "group": "70%+",
-      "games": 6,
-      "accuracy": 0.8333333333333334,
-      "log_loss": 0.5055844626064357,
-      "brier": 0.15848385026443404,
+      "games": 7,
+      "accuracy": 0.7142857142857143,
+      "log_loss": 0.613753940322023,
+      "brier": 0.20931139109601274,
       "status": "Small sample; descriptive only"
     },
     {
@@ -414,20 +414,20 @@
       "version": "20260929T124531Z",
       "dimension": "provenance",
       "group": "Timestamped archive",
-      "games": 1,
+      "games": 2,
       "accuracy": 0.0,
-      "log_loss": 0.8297467637280216,
-      "brier": 0.3179158570652923,
+      "log_loss": 1.0462587851717844,
+      "brier": 0.4160962465753887,
       "status": "Small sample; descriptive only"
     },
     {
       "version": "20260929T124531Z",
       "dimension": "stage",
       "group": "Weeks 1-6",
-      "games": 31,
-      "accuracy": 0.5806451612903226,
-      "log_loss": 0.6514911192848973,
-      "brier": 0.22962800992535,
+      "games": 32,
+      "accuracy": 0.5625,
+      "log_loss": 0.6705936095139802,
+      "brier": 0.2385232794928542,
       "status": "Descriptive; overlapping groups"
     },
     {
@@ -554,10 +554,10 @@
       "version": "20260929T124531Z",
       "dimension": "team",
       "group": "HOU",
-      "games": 2,
-      "accuracy": 1.0,
-      "log_loss": 0.5827160190572387,
-      "brier": 0.19507977584509933,
+      "games": 3,
+      "accuracy": 0.6666666666666666,
+      "log_loss": 0.8094009482433414,
+      "brier": 0.30147872925856123,
       "status": "Small sample; descriptive only"
     },
     {
@@ -574,10 +574,10 @@
       "version": "20260929T124531Z",
       "dimension": "team",
       "group": "JAX",
-      "games": 2,
-      "accuracy": 0.5,
-      "log_loss": 0.5308672616044079,
-      "brier": 0.17355091935150918,
+      "games": 3,
+      "accuracy": 0.3333333333333333,
+      "log_loss": 0.7748351099414542,
+      "brier": 0.28712615826283444,
       "status": "Small sample; descriptive only"
     },
     {
