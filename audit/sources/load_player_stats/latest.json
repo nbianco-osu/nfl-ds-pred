@@ -2,7 +2,7 @@
   "source": "nflreadpy.load_player_stats",
   "sha256": "a3329e0c9897b5cd05b0fd4822c06e073bd6da94bf79e03e87afefdf5300c373",
   "rows": 5575,
-  "retrieved_at": "2026-10-18T18:44:07.311003+00:00",
+  "retrieved_at": "2026-10-18T20:56:13.479255+00:00",
   "provider_published_at": null,
   "cache_may_be_used": true,
   "note": "Local observation time, not proof of original publication or freshness."

@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "completed_games": 81,
+  "completed_games": 88,
   "sources": {
     "pbp_games": 80,
     "qb_team_games": 160,
@@ -10,9 +10,9 @@
   "receipts": {
     "load_schedules": {
       "source": "nflreadpy.load_schedules",
-      "sha256": "b5c727cd52678e96eb65d09b7994ee33e6313eb44da7ce53e969acd25d3f88de",
+      "sha256": "c6f87dcea6857ded97a5f4bec1de7fe8b14b7a7150bd3bd4114904dd1f1a1b03",
       "rows": 272,
-      "retrieved_at": "2026-10-18T18:44:02.180933+00:00",
+      "retrieved_at": "2026-10-18T20:56:09.035134+00:00",
       "provider_published_at": null,
       "cache_may_be_used": true,
       "note": "Local observation time, not proof of original publication or freshness."
@@ -21,7 +21,7 @@
       "source": "nflreadpy.load_pbp",
       "sha256": "897adee8acfbe7745783bc77ad1fad49275802ab29baa54ac72c98a3beb8da11",
       "rows": 14031,
-      "retrieved_at": "2026-10-18T18:44:02.944744+00:00",
+      "retrieved_at": "2026-10-18T20:56:09.626609+00:00",
       "provider_published_at": null,
       "cache_may_be_used": true,
       "note": "Local observation time, not proof of original publication or freshness."
@@ -30,7 +30,7 @@
       "source": "nflreadpy.load_player_stats",
       "sha256": "a3329e0c9897b5cd05b0fd4822c06e073bd6da94bf79e03e87afefdf5300c373",
       "rows": 5575,
-      "retrieved_at": "2026-10-18T18:44:07.311003+00:00",
+      "retrieved_at": "2026-10-18T20:56:13.479255+00:00",
       "provider_published_at": null,
       "cache_may_be_used": true,
       "note": "Local observation time, not proof of original publication or freshness."
@@ -39,7 +39,7 @@
       "source": "nflreadpy.load_injuries",
       "sha256": "06e4109ee9d22001875ea1f0d939a0a73127fa1610bfc8dfbcafcf0a28edb5dd",
       "rows": 1789,
-      "retrieved_at": "2026-10-18T18:44:09.568404+00:00",
+      "retrieved_at": "2026-10-18T20:56:15.689787+00:00",
       "provider_published_at": null,
       "cache_may_be_used": true,
       "note": "Local observation time, not proof of original publication or freshness."
@@ -48,7 +48,7 @@
       "source": "nflreadpy.load_rosters_weekly",
       "sha256": "b8038d1112dc27eca44f399a09cb15791c49c1214169ac9ee9ac3c0b15a05776",
       "rows": 15327,
-      "retrieved_at": "2026-10-18T18:44:10.079122+00:00",
+      "retrieved_at": "2026-10-18T20:56:15.859761+00:00",
       "provider_published_at": null,
       "cache_may_be_used": true,
       "note": "Local observation time, not proof of original publication or freshness."

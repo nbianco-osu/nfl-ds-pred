@@ -1,10 +1,10 @@
 {
-  "last_successful_refresh": "2026-10-18T18:48:58.534586+00:00",
+  "last_successful_refresh": "2026-10-18T21:00:15.942868+00:00",
   "validation": "passed",
   "season": 2026,
   "games": 272,
-  "completed": 81,
-  "locked_forecasts": 88,
+  "completed": 88,
+  "locked_forecasts": 91,
   "coverage_series": 192,
   "explained_coverage_drops": 0,
   "note": "Validated staged refresh; individual files replaced atomically. Production publishing uses a single built archive."

@@ -1,19 +1,7 @@
 {
-  "updated_at": "2026-10-18T18:47:05.240403+00:00",
+  "updated_at": "2026-10-18T20:59:06.667066+00:00",
   "provider": "Open-Meteo",
   "games": [
-    {
-      "game_id": "2026_06_ARI_LA",
-      "status": "Indoor; outdoor forecast not used"
-    },
-    {
-      "game_id": "2026_06_LAC_KC",
-      "status": "Forecast archived"
-    },
-    {
-      "game_id": "2026_06_BUF_LV",
-      "status": "Indoor; outdoor forecast not used"
-    },
     {
       "game_id": "2026_06_DAL_GB",
       "status": "Forecast archived"
@@ -76,12 +64,7 @@
     },
     {
       "game_id": "2026_07_DAL_PHI",
-      "status": "Outside 16-day horizon"
-    },
-    {
-      "game_id": "2026_07_DAL_PHI",
-      "status": "Forecast unavailable",
-      "error": "URLError"
+      "status": "Forecast archived"
     },
     {
       "game_id": "2026_08_CAR_GB",

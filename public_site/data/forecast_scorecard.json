@@ -6,18 +6,18 @@
       "provenance": "pregame",
       "version": "20260929T124531Z",
       "summary": {
-        "completed": 2,
+        "completed": 9,
         "ties": 0,
-        "winner_n": 2,
-        "correct": 0,
-        "accuracy": 0.0,
+        "winner_n": 9,
+        "correct": 2,
+        "accuracy": 0.2222222222222222,
         "accuracy_ci95": [
-          0.0,
-          0.6576280471103807
+          0.06322376231222723,
+          0.5474166563271946
         ],
-        "timestamped_winner_n": 2,
-        "log_loss": 1.0462587851717844,
-        "brier": 0.4160962465753887,
+        "timestamped_winner_n": 9,
+        "log_loss": 0.903681056718902,
+        "brier": 0.348343753444604,
         "calibration": [
           {
             "lower": 0.0,
@@ -44,12 +44,12 @@
           {
             "lower": 0.2,
             "upper": 0.3,
-            "n": 0,
-            "predicted": null,
-            "observed": null,
+            "n": 1,
+            "predicted": 0.27346246890000003,
+            "observed": 1.0,
             "observed_ci95": [
-              null,
-              null
+              0.20654329147389294,
+              1.0
             ]
           },
           {
@@ -66,34 +66,34 @@
           {
             "lower": 0.4,
             "upper": 0.5,
-            "n": 1,
-            "predicted": 0.4361597238,
-            "observed": 1.0,
+            "n": 2,
+            "predicted": 0.45092098985,
+            "observed": 0.5,
             "observed_ci95": [
-              0.20654329147389294,
-              1.0
+              0.09452865480086614,
+              0.9054713451991339
             ]
           },
           {
             "lower": 0.5,
             "upper": 0.6,
-            "n": 0,
-            "predicted": null,
-            "observed": null,
+            "n": 2,
+            "predicted": 0.50851152885,
+            "observed": 0.0,
             "observed_ci95": [
-              null,
-              null
+              0.0,
+              0.6576280471103807
             ]
           },
           {
             "lower": 0.6,
             "upper": 0.7,
-            "n": 0,
-            "predicted": null,
-            "observed": null,
+            "n": 3,
+            "predicted": 0.6792932429,
+            "observed": 0.3333333333333333,
             "observed_ci95": [
-              null,
-              null
+              0.0614903152761605,
+              0.7923450448735121
             ]
           },
           {
@@ -138,31 +138,31 @@
           "correct": 0,
           "n": 0,
           "pushes": 0,
-          "excluded": 2
+          "excluded": 9
         },
         "total": {
           "correct": 0,
           "n": 0,
           "pushes": 0,
-          "excluded": 2
+          "excluded": 9
         }
       },
       "weeks": [
         {
           "season": 2026,
           "week": 6,
-          "completed": 2,
+          "completed": 9,
           "ties": 0,
-          "winner_n": 2,
-          "correct": 0,
-          "accuracy": 0.0,
+          "winner_n": 9,
+          "correct": 2,
+          "accuracy": 0.2222222222222222,
           "accuracy_ci95": [
-            0.0,
-            0.6576280471103807
+            0.06322376231222723,
+            0.5474166563271946
           ],
-          "timestamped_winner_n": 2,
-          "log_loss": 1.0462587851717844,
-          "brier": 0.4160962465753887,
+          "timestamped_winner_n": 9,
+          "log_loss": 0.903681056718902,
+          "brier": 0.348343753444604,
           "calibration": [
             {
               "lower": 0.0,
@@ -189,12 +189,12 @@
             {
               "lower": 0.2,
               "upper": 0.3,
-              "n": 0,
-              "predicted": null,
-              "observed": null,
+              "n": 1,
+              "predicted": 0.27346246890000003,
+              "observed": 1.0,
               "observed_ci95": [
-                null,
-                null
+                0.20654329147389294,
+                1.0
               ]
             },
             {
@@ -211,34 +211,34 @@
             {
               "lower": 0.4,
               "upper": 0.5,
-              "n": 1,
-              "predicted": 0.4361597238,
-              "observed": 1.0,
+              "n": 2,
+              "predicted": 0.45092098985,
+              "observed": 0.5,
               "observed_ci95": [
-                0.20654329147389294,
-                1.0
+                0.09452865480086614,
+                0.9054713451991339
               ]
             },
             {
               "lower": 0.5,
               "upper": 0.6,
-              "n": 0,
-              "predicted": null,
-              "observed": null,
+              "n": 2,
+              "predicted": 0.50851152885,
+              "observed": 0.0,
               "observed_ci95": [
-                null,
-                null
+                0.0,
+                0.6576280471103807
               ]
             },
             {
               "lower": 0.6,
               "upper": 0.7,
-              "n": 0,
-              "predicted": null,
-              "observed": null,
+              "n": 3,
+              "predicted": 0.6792932429,
+              "observed": 0.3333333333333333,
               "observed_ci95": [
-                null,
-                null
+                0.0614903152761605,
+                0.7923450448735121
               ]
             },
             {
@@ -283,13 +283,13 @@
             "correct": 0,
             "n": 0,
             "pushes": 0,
-            "excluded": 2
+            "excluded": 9
           },
           "total": {
             "correct": 0,
             "n": 0,
             "pushes": 0,
-            "excluded": 2
+            "excluded": 9
           }
         }
       ]
@@ -1466,7 +1466,7 @@
       "provenance": "pregame",
       "version": "scores_20260930T205050Z",
       "summary": {
-        "completed": 33,
+        "completed": 40,
         "ties": 1,
         "winner_n": 0,
         "correct": 0,
@@ -1590,19 +1590,19 @@
             ]
           }
         ],
-        "score_n": 33,
-        "team_score_mae": 6.871212121212121,
-        "margin_mae": 8.68787878787879,
-        "total_mae": 11.160606060606058,
+        "score_n": 40,
+        "team_score_mae": 6.65875,
+        "margin_mae": 8.7325,
+        "total_mae": 10.7225,
         "spread": {
-          "correct": 16,
-          "n": 31,
+          "correct": 18,
+          "n": 38,
           "pushes": 2,
           "excluded": 0
         },
         "total": {
-          "correct": 16,
-          "n": 32,
+          "correct": 17,
+          "n": 39,
           "pushes": 0,
           "excluded": 1
         }
@@ -1899,7 +1899,7 @@
         {
           "season": 2026,
           "week": 6,
-          "completed": 2,
+          "completed": 9,
           "ties": 0,
           "winner_n": 0,
           "correct": 0,
@@ -2023,19 +2023,19 @@
               ]
             }
           ],
-          "score_n": 2,
-          "team_score_mae": 8.1,
-          "margin_mae": 7.0,
-          "total_mae": 16.2,
+          "score_n": 9,
+          "team_score_mae": 6.199999999999999,
+          "margin_mae": 8.511111111111113,
+          "total_mae": 10.333333333333334,
           "spread": {
-            "correct": 1,
-            "n": 2,
+            "correct": 3,
+            "n": 9,
             "pushes": 0,
             "excluded": 0
           },
           "total": {
-            "correct": 1,
-            "n": 2,
+            "correct": 2,
+            "n": 9,
             "pushes": 0,
             "excluded": 0
           }

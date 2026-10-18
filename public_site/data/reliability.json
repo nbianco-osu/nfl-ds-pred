@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T18:48:58.931892+00:00",
+  "updated_at": "2026-10-18T21:00:16.330508+00:00",
   "status": "attention",
   "issues": [
     {
@@ -7,12 +7,6 @@
       "severity": "warning",
       "message": "28 starting-QB confirmations unavailable for the next seven days.",
       "action": "Import timestamped confirmations; do not infer starters from previous usage."
-    },
-    {
-      "id": "weather_collection",
-      "severity": "warning",
-      "message": "Latest weather collection has failures.",
-      "action": "Inspect input_collection.json; archived observations are preserved."
     },
     {
       "id": "warehouse_pending",
@@ -27,9 +21,9 @@
       "action": "Inspect reproducibility.json; preserve old rounded-input records and use full precision for future archives."
     }
   ],
-  "last_successful_refresh": "2026-10-18T18:48:58.534586+00:00",
+  "last_successful_refresh": "2026-10-18T21:00:15.942868+00:00",
   "upcoming_games": 14,
   "missing_prediction_ids": [],
   "note": "Operational checks, not model-performance guarantees. Warnings can indicate intentionally unavailable inputs. Notifications should fire only when the issue fingerprint changes or a substantive deployment completes.",
-  "issue_fingerprint": "c2cf361eac0837e52d6d60c3386f34c34db986954fec3e2bb8704c90454aebce"
+  "issue_fingerprint": "8fd49d2050cd943b3111c339b74b03aa5d4246abe95ae718ed0a12489795d7b2"
 }
