@@ -5,22 +5,22 @@
       "score_model_version": "scores_20260930T205050Z",
       "horizon": "1-7 days",
       "overall": {
-        "n": 9,
+        "n": 12,
         "ties": 0,
-        "log_loss": 0.9090535794450341,
-        "brier": 0.3505686141032549,
-        "calibration_bias": 0.21346946306666664,
-        "score_n": 9,
-        "score_mae": 6.316666666666666
+        "log_loss": 0.8394133378672618,
+        "brier": 0.31940945848720026,
+        "calibration_bias": 0.2391279875583333,
+        "score_n": 12,
+        "score_mae": 6.516666666666667
       },
       "recent": {
-        "n": 9,
+        "n": 12,
         "ties": 0,
-        "log_loss": 0.9090535794450341,
-        "brier": 0.3505686141032549,
-        "calibration_bias": 0.21346946306666664,
-        "score_n": 9,
-        "score_mae": 6.316666666666666
+        "log_loss": 0.8394133378672618,
+        "brier": 0.31940945848720026,
+        "calibration_bias": 0.2391279875583333,
+        "score_n": 12,
+        "score_mae": 6.516666666666667
       },
       "baseline": {
         "n": 0,
@@ -34,13 +34,13 @@
       "status": "Insufficient prospective sample",
       "stages": {
         "Early (1-6)": {
-          "n": 9,
+          "n": 12,
           "ties": 0,
-          "log_loss": 0.9090535794450341,
-          "brier": 0.3505686141032549,
-          "calibration_bias": 0.21346946306666664,
-          "score_n": 9,
-          "score_mae": 6.316666666666666
+          "log_loss": 0.8394133378672618,
+          "brier": 0.31940945848720026,
+          "calibration_bias": 0.2391279875583333,
+          "score_n": 12,
+          "score_mae": 6.516666666666667
         },
         "Middle (7-12)": {
           "n": 0,
@@ -67,22 +67,22 @@
       "score_model_version": "scores_20260930T205050Z",
       "horizon": "<24h",
       "overall": {
-        "n": 9,
+        "n": 12,
         "ties": 0,
-        "log_loss": 0.9036810567189018,
-        "brier": 0.3483437534446039,
-        "calibration_bias": 0.21637089678888888,
-        "score_n": 9,
-        "score_mae": 6.199999999999999
+        "log_loss": 0.8353839458226627,
+        "brier": 0.317740812993212,
+        "calibration_bias": 0.24130406284999997,
+        "score_n": 12,
+        "score_mae": 6.429166666666666
       },
       "recent": {
-        "n": 9,
+        "n": 12,
         "ties": 0,
-        "log_loss": 0.9036810567189018,
-        "brier": 0.3483437534446039,
-        "calibration_bias": 0.21637089678888888,
-        "score_n": 9,
-        "score_mae": 6.199999999999999
+        "log_loss": 0.8353839458226627,
+        "brier": 0.317740812993212,
+        "calibration_bias": 0.24130406284999997,
+        "score_n": 12,
+        "score_mae": 6.429166666666666
       },
       "baseline": {
         "n": 0,
@@ -96,13 +96,13 @@
       "status": "Insufficient prospective sample",
       "stages": {
         "Early (1-6)": {
-          "n": 9,
+          "n": 12,
           "ties": 0,
-          "log_loss": 0.9036810567189018,
-          "brier": 0.3483437534446039,
-          "calibration_bias": 0.21637089678888888,
-          "score_n": 9,
-          "score_mae": 6.199999999999999
+          "log_loss": 0.8353839458226627,
+          "brier": 0.317740812993212,
+          "calibration_bias": 0.24130406284999997,
+          "score_n": 12,
+          "score_mae": 6.429166666666666
         },
         "Middle (7-12)": {
           "n": 0,
@@ -129,22 +129,22 @@
       "score_model_version": "scores_20260930T205050Z",
       "horizon": "Latest pregame",
       "overall": {
-        "n": 9,
+        "n": 12,
         "ties": 0,
-        "log_loss": 0.9036810567189018,
-        "brier": 0.3483437534446039,
-        "calibration_bias": 0.21637089678888888,
-        "score_n": 9,
-        "score_mae": 6.199999999999999
+        "log_loss": 0.8353839458226627,
+        "brier": 0.317740812993212,
+        "calibration_bias": 0.24130406284999997,
+        "score_n": 12,
+        "score_mae": 6.429166666666666
       },
       "recent": {
-        "n": 9,
+        "n": 12,
         "ties": 0,
-        "log_loss": 0.9036810567189018,
-        "brier": 0.3483437534446039,
-        "calibration_bias": 0.21637089678888888,
-        "score_n": 9,
-        "score_mae": 6.199999999999999
+        "log_loss": 0.8353839458226627,
+        "brier": 0.317740812993212,
+        "calibration_bias": 0.24130406284999997,
+        "score_n": 12,
+        "score_mae": 6.429166666666666
       },
       "baseline": {
         "n": 0,
@@ -158,13 +158,13 @@
       "status": "Insufficient prospective sample",
       "stages": {
         "Early (1-6)": {
-          "n": 9,
+          "n": 12,
           "ties": 0,
-          "log_loss": 0.9036810567189018,
-          "brier": 0.3483437534446039,
-          "calibration_bias": 0.21637089678888888,
-          "score_n": 9,
-          "score_mae": 6.199999999999999
+          "log_loss": 0.8353839458226627,
+          "brier": 0.317740812993212,
+          "calibration_bias": 0.24130406284999997,
+          "score_n": 12,
+          "score_mae": 6.429166666666666
         },
         "Middle (7-12)": {
           "n": 0,
@@ -191,20 +191,20 @@
       "score_model_version": null,
       "horizon": "1-7 days",
       "overall": {
-        "n": 9,
+        "n": 12,
         "ties": 0,
-        "log_loss": 0.9090535794729813,
-        "brier": 0.3505686141150715,
-        "calibration_bias": 0.2134694630637496,
+        "log_loss": 0.8394133378851518,
+        "brier": 0.3194094584947047,
+        "calibration_bias": 0.2391279875549983,
         "score_n": 0,
         "score_mae": null
       },
       "recent": {
-        "n": 9,
+        "n": 12,
         "ties": 0,
-        "log_loss": 0.9090535794729813,
-        "brier": 0.3505686141150715,
-        "calibration_bias": 0.2134694630637496,
+        "log_loss": 0.8394133378851518,
+        "brier": 0.3194094584947047,
+        "calibration_bias": 0.2391279875549983,
         "score_n": 0,
         "score_mae": null
       },
@@ -220,11 +220,11 @@
       "status": "Insufficient prospective sample",
       "stages": {
         "Early (1-6)": {
-          "n": 9,
+          "n": 12,
           "ties": 0,
-          "log_loss": 0.9090535794729813,
-          "brier": 0.3505686141150715,
-          "calibration_bias": 0.2134694630637496,
+          "log_loss": 0.8394133378851518,
+          "brier": 0.3194094584947047,
+          "calibration_bias": 0.2391279875549983,
           "score_n": 0,
           "score_mae": null
         },
@@ -253,20 +253,20 @@
       "score_model_version": null,
       "horizon": "<24h",
       "overall": {
-        "n": 9,
+        "n": 12,
         "ties": 0,
-        "log_loss": 0.9036810567403464,
-        "brier": 0.3483437534537154,
-        "calibration_bias": 0.21637089679399799,
+        "log_loss": 0.8353839458356757,
+        "brier": 0.31774081299868756,
+        "calibration_bias": 0.24130406285268458,
         "score_n": 0,
         "score_mae": null
       },
       "recent": {
-        "n": 9,
+        "n": 12,
         "ties": 0,
-        "log_loss": 0.9036810567403464,
-        "brier": 0.3483437534537154,
-        "calibration_bias": 0.21637089679399799,
+        "log_loss": 0.8353839458356757,
+        "brier": 0.31774081299868756,
+        "calibration_bias": 0.24130406285268458,
         "score_n": 0,
         "score_mae": null
       },
@@ -282,11 +282,11 @@
       "status": "Insufficient prospective sample",
       "stages": {
         "Early (1-6)": {
-          "n": 9,
+          "n": 12,
           "ties": 0,
-          "log_loss": 0.9036810567403464,
-          "brier": 0.3483437534537154,
-          "calibration_bias": 0.21637089679399799,
+          "log_loss": 0.8353839458356757,
+          "brier": 0.31774081299868756,
+          "calibration_bias": 0.24130406285268458,
           "score_n": 0,
           "score_mae": null
         },
@@ -315,20 +315,20 @@
       "score_model_version": null,
       "horizon": "Latest pregame",
       "overall": {
-        "n": 9,
+        "n": 12,
         "ties": 0,
-        "log_loss": 0.9036810567403464,
-        "brier": 0.3483437534537154,
-        "calibration_bias": 0.21637089679399799,
+        "log_loss": 0.8353839458356757,
+        "brier": 0.31774081299868756,
+        "calibration_bias": 0.24130406285268458,
         "score_n": 0,
         "score_mae": null
       },
       "recent": {
-        "n": 9,
+        "n": 12,
         "ties": 0,
-        "log_loss": 0.9036810567403464,
-        "brier": 0.3483437534537154,
-        "calibration_bias": 0.21637089679399799,
+        "log_loss": 0.8353839458356757,
+        "brier": 0.31774081299868756,
+        "calibration_bias": 0.24130406285268458,
         "score_n": 0,
         "score_mae": null
       },
@@ -344,11 +344,11 @@
       "status": "Insufficient prospective sample",
       "stages": {
         "Early (1-6)": {
-          "n": 9,
+          "n": 12,
           "ties": 0,
-          "log_loss": 0.9036810567403464,
-          "brier": 0.3483437534537154,
-          "calibration_bias": 0.21637089679399799,
+          "log_loss": 0.8353839458356757,
+          "brier": 0.31774081299868756,
+          "calibration_bias": 0.24130406285268458,
           "score_n": 0,
           "score_mae": null
         },
