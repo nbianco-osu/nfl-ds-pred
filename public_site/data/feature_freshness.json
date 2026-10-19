@@ -5,9 +5,9 @@
       "inputs": [
         {
           "input": "EPA",
-          "observed_at": "2026-10-19T00:27:42.586134+00:00",
+          "observed_at": "2026-10-19T06:15:52.616396+00:00",
           "provider_published_at": null,
-          "age_hours": 0.07254494,
+          "age_hours": 0.07610994305555555,
           "status": "Recently retrieved; publication unknown",
           "missing_fields": 0,
           "fields": 66,
@@ -15,9 +15,9 @@
         },
         {
           "input": "QB usage",
-          "observed_at": "2026-10-19T00:27:46.428083+00:00",
+          "observed_at": "2026-10-19T06:15:56.909163+00:00",
           "provider_published_at": null,
-          "age_hours": 0.07147773194444444,
+          "age_hours": 0.07491750777777778,
           "status": "Recently retrieved; publication unknown",
           "missing_fields": 0,
           "fields": 46,
@@ -25,9 +25,9 @@
         },
         {
           "input": "Injuries",
-          "observed_at": "2026-10-19T00:27:48.614208+00:00",
+          "observed_at": "2026-10-19T06:15:59.209963+00:00",
           "provider_published_at": null,
-          "age_hours": 0.070870475,
+          "age_hours": 0.07427839666666666,
           "status": "Recently retrieved; publication unknown",
           "missing_fields": 0,
           "fields": 12,
@@ -35,9 +35,9 @@
         },
         {
           "input": "Roster",
-          "observed_at": "2026-10-19T00:27:48.921343+00:00",
+          "observed_at": "2026-10-19T06:15:59.353084+00:00",
           "provider_published_at": null,
-          "age_hours": 0.07078515972222221,
+          "age_hours": 0.07423864083333333,
           "status": "Recently retrieved; publication unknown",
           "missing_fields": 0,
           "fields": 14,
@@ -61,8 +61,8 @@
         },
         {
           "input": "weather",
-          "observed_at": "2026-10-19T00:30:34.632786+00:00",
-          "age_hours": 0.024754203333333336,
+          "observed_at": "2026-10-19T06:18:56.757807+00:00",
+          "age_hours": 0.02495955111111111,
           "provider_published_at": null,
           "status": "Observed",
           "used_by_candidate": false
@@ -82,9 +82,9 @@
       "inputs": [
         {
           "input": "EPA",
-          "observed_at": "2026-10-19T00:27:42.586134+00:00",
+          "observed_at": "2026-10-19T06:15:52.616396+00:00",
           "provider_published_at": null,
-          "age_hours": 0.07254494,
+          "age_hours": 0.07610994305555555,
           "status": "Recently retrieved; publication unknown",
           "missing_fields": 0,
           "fields": 66,
@@ -92,9 +92,9 @@
         },
         {
           "input": "QB usage",
-          "observed_at": "2026-10-19T00:27:46.428083+00:00",
+          "observed_at": "2026-10-19T06:15:56.909163+00:00",
           "provider_published_at": null,
-          "age_hours": 0.07147773194444444,
+          "age_hours": 0.07491750777777778,
           "status": "Recently retrieved; publication unknown",
           "missing_fields": 4,
           "fields": 46,
@@ -102,9 +102,9 @@
         },
         {
           "input": "Injuries",
-          "observed_at": "2026-10-19T00:27:48.614208+00:00",
+          "observed_at": "2026-10-19T06:15:59.209963+00:00",
           "provider_published_at": null,
-          "age_hours": 0.070870475,
+          "age_hours": 0.07427839666666666,
           "status": "Missing",
           "missing_fields": 12,
           "fields": 12,
@@ -112,9 +112,9 @@
         },
         {
           "input": "Roster",
-          "observed_at": "2026-10-19T00:27:48.921343+00:00",
+          "observed_at": "2026-10-19T06:15:59.353084+00:00",
           "provider_published_at": null,
-          "age_hours": 0.07078515972222221,
+          "age_hours": 0.07423864083333333,
           "status": "Missing",
           "missing_fields": 14,
           "fields": 14,
@@ -138,8 +138,8 @@
         },
         {
           "input": "weather",
-          "observed_at": "2026-10-19T00:30:35.078472+00:00",
-          "age_hours": 0.024630401666666666,
+          "observed_at": "2026-10-19T06:18:57.166577+00:00",
+          "age_hours": 0.02484600388888889,
           "provider_published_at": null,
           "status": "Observed",
           "used_by_candidate": false
@@ -159,9 +159,9 @@
       "inputs": [
         {
           "input": "EPA",
-          "observed_at": "2026-10-19T00:27:42.586134+00:00",
+          "observed_at": "2026-10-19T06:15:52.616396+00:00",
           "provider_published_at": null,
-          "age_hours": 0.07254494,
+          "age_hours": 0.07610994305555555,
           "status": "Recently retrieved; publication unknown",
           "missing_fields": 0,
           "fields": 66,
@@ -169,9 +169,9 @@
         },
         {
           "input": "QB usage",
-          "observed_at": "2026-10-19T00:27:46.428083+00:00",
+          "observed_at": "2026-10-19T06:15:56.909163+00:00",
           "provider_published_at": null,
-          "age_hours": 0.07147773194444444,
+          "age_hours": 0.07491750777777778,
           "status": "Recently retrieved; publication unknown",
           "missing_fields": 4,
           "fields": 46,
@@ -179,9 +179,9 @@
         },
         {
           "input": "Injuries",
-          "observed_at": "2026-10-19T00:27:48.614208+00:00",
+          "observed_at": "2026-10-19T06:15:59.209963+00:00",
           "provider_published_at": null,
-          "age_hours": 0.070870475,
+          "age_hours": 0.07427839666666666,
           "status": "Missing",
           "missing_fields": 12,
           "fields": 12,
@@ -189,9 +189,9 @@
         },
         {
           "input": "Roster",
-          "observed_at": "2026-10-19T00:27:48.921343+00:00",
+          "observed_at": "2026-10-19T06:15:59.353084+00:00",
           "provider_published_at": null,
-          "age_hours": 0.07078515972222221,
+          "age_hours": 0.07423864083333333,
           "status": "Missing",
           "missing_fields": 14,
           "fields": 14,
@@ -236,9 +236,9 @@
       "inputs": [
         {
           "input": "EPA",
-          "observed_at": "2026-10-19T00:27:42.586134+00:00",
+          "observed_at": "2026-10-19T06:15:52.616396+00:00",
           "provider_published_at": null,
-          "age_hours": 0.07254494,
+          "age_hours": 0.07610994305555555,
           "status": "Recently retrieved; publication unknown",
           "missing_fields": 0,
           "fields": 66,
@@ -246,9 +246,9 @@
         },
         {
           "input": "QB usage",
-          "observed_at": "2026-10-19T00:27:46.428083+00:00",
+          "observed_at": "2026-10-19T06:15:56.909163+00:00",
           "provider_published_at": null,
-          "age_hours": 0.07147773194444444,
+          "age_hours": 0.07491750777777778,
           "status": "Recently retrieved; publication unknown",
           "missing_fields": 4,
           "fields": 46,
@@ -256,9 +256,9 @@
         },
         {
           "input": "Injuries",
-          "observed_at": "2026-10-19T00:27:48.614208+00:00",
+          "observed_at": "2026-10-19T06:15:59.209963+00:00",
           "provider_published_at": null,
-          "age_hours": 0.070870475,
+          "age_hours": 0.07427839666666666,
           "status": "Missing",
           "missing_fields": 12,
           "fields": 12,
@@ -266,9 +266,9 @@
         },
         {
           "input": "Roster",
-          "observed_at": "2026-10-19T00:27:48.921343+00:00",
+          "observed_at": "2026-10-19T06:15:59.353084+00:00",
           "provider_published_at": null,
-          "age_hours": 0.07078515972222221,
+          "age_hours": 0.07423864083333333,
           "status": "Missing",
           "missing_fields": 14,
           "fields": 14,
@@ -292,8 +292,8 @@
         },
         {
           "input": "weather",
-          "observed_at": "2026-10-19T00:30:35.542201+00:00",
-          "age_hours": 0.024501588055555558,
+          "observed_at": "2026-10-19T06:18:57.549748+00:00",
+          "age_hours": 0.0247395675,
           "provider_published_at": null,
           "status": "Observed",
           "used_by_candidate": false
@@ -313,9 +313,9 @@
       "inputs": [
         {
           "input": "EPA",
-          "observed_at": "2026-10-19T00:27:42.586134+00:00",
+          "observed_at": "2026-10-19T06:15:52.616396+00:00",
           "provider_published_at": null,
-          "age_hours": 0.07254494,
+          "age_hours": 0.07610994305555555,
           "status": "Recently retrieved; publication unknown",
           "missing_fields": 0,
           "fields": 66,
@@ -323,9 +323,9 @@
         },
         {
           "input": "QB usage",
-          "observed_at": "2026-10-19T00:27:46.428083+00:00",
+          "observed_at": "2026-10-19T06:15:56.909163+00:00",
           "provider_published_at": null,
-          "age_hours": 0.07147773194444444,
+          "age_hours": 0.07491750777777778,
           "status": "Recently retrieved; publication unknown",
           "missing_fields": 4,
           "fields": 46,
@@ -333,9 +333,9 @@
         },
         {
           "input": "Injuries",
-          "observed_at": "2026-10-19T00:27:48.614208+00:00",
+          "observed_at": "2026-10-19T06:15:59.209963+00:00",
           "provider_published_at": null,
-          "age_hours": 0.070870475,
+          "age_hours": 0.07427839666666666,
           "status": "Missing",
           "missing_fields": 12,
           "fields": 12,
@@ -343,9 +343,9 @@
         },
         {
           "input": "Roster",
-          "observed_at": "2026-10-19T00:27:48.921343+00:00",
+          "observed_at": "2026-10-19T06:15:59.353084+00:00",
           "provider_published_at": null,
-          "age_hours": 0.07078515972222221,
+          "age_hours": 0.07423864083333333,
           "status": "Missing",
           "missing_fields": 14,
           "fields": 14,
@@ -369,8 +369,8 @@
         },
         {
           "input": "weather",
-          "observed_at": "2026-10-19T00:30:36.039597+00:00",
-          "age_hours": 0.0243634225,
+          "observed_at": "2026-10-19T06:18:57.953945+00:00",
+          "age_hours": 0.024627290555555556,
           "provider_published_at": null,
           "status": "Observed",
           "used_by_candidate": false
@@ -390,9 +390,9 @@
       "inputs": [
         {
           "input": "EPA",
-          "observed_at": "2026-10-19T00:27:42.586134+00:00",
+          "observed_at": "2026-10-19T06:15:52.616396+00:00",
           "provider_published_at": null,
-          "age_hours": 0.07254494,
+          "age_hours": 0.07610994305555555,
           "status": "Recently retrieved; publication unknown",
           "missing_fields": 0,
           "fields": 66,
@@ -400,9 +400,9 @@
         },
         {
           "input": "QB usage",
-          "observed_at": "2026-10-19T00:27:46.428083+00:00",
+          "observed_at": "2026-10-19T06:15:56.909163+00:00",
           "provider_published_at": null,
-          "age_hours": 0.07147773194444444,
+          "age_hours": 0.07491750777777778,
           "status": "Recently retrieved; publication unknown",
           "missing_fields": 4,
           "fields": 46,
@@ -410,9 +410,9 @@
         },
         {
           "input": "Injuries",
-          "observed_at": "2026-10-19T00:27:48.614208+00:00",
+          "observed_at": "2026-10-19T06:15:59.209963+00:00",
           "provider_published_at": null,
-          "age_hours": 0.070870475,
+          "age_hours": 0.07427839666666666,
           "status": "Missing",
           "missing_fields": 12,
           "fields": 12,
@@ -420,9 +420,9 @@
         },
         {
           "input": "Roster",
-          "observed_at": "2026-10-19T00:27:48.921343+00:00",
+          "observed_at": "2026-10-19T06:15:59.353084+00:00",
           "provider_published_at": null,
-          "age_hours": 0.07078515972222221,
+          "age_hours": 0.07423864083333333,
           "status": "Missing",
           "missing_fields": 14,
           "fields": 14,
@@ -446,8 +446,8 @@
         },
         {
           "input": "weather",
-          "observed_at": "2026-10-19T00:30:36.543923+00:00",
-          "age_hours": 0.024223331944444447,
+          "observed_at": "2026-10-19T06:18:58.464016+00:00",
+          "age_hours": 0.024485604166666664,
           "provider_published_at": null,
           "status": "Observed",
           "used_by_candidate": false
@@ -467,9 +467,9 @@
       "inputs": [
         {
           "input": "EPA",
-          "observed_at": "2026-10-19T00:27:42.586134+00:00",
+          "observed_at": "2026-10-19T06:15:52.616396+00:00",
           "provider_published_at": null,
-          "age_hours": 0.07254494,
+          "age_hours": 0.07610994305555555,
           "status": "Recently retrieved; publication unknown",
           "missing_fields": 0,
           "fields": 66,
@@ -477,9 +477,9 @@
         },
         {
           "input": "QB usage",
-          "observed_at": "2026-10-19T00:27:46.428083+00:00",
+          "observed_at": "2026-10-19T06:15:56.909163+00:00",
           "provider_published_at": null,
-          "age_hours": 0.07147773194444444,
+          "age_hours": 0.07491750777777778,
           "status": "Recently retrieved; publication unknown",
           "missing_fields": 4,
           "fields": 46,
@@ -487,9 +487,9 @@
         },
         {
           "input": "Injuries",
-          "observed_at": "2026-10-19T00:27:48.614208+00:00",
+          "observed_at": "2026-10-19T06:15:59.209963+00:00",
           "provider_published_at": null,
-          "age_hours": 0.070870475,
+          "age_hours": 0.07427839666666666,
           "status": "Missing",
           "missing_fields": 12,
           "fields": 12,
@@ -497,9 +497,9 @@
         },
         {
           "input": "Roster",
-          "observed_at": "2026-10-19T00:27:48.921343+00:00",
+          "observed_at": "2026-10-19T06:15:59.353084+00:00",
           "provider_published_at": null,
-          "age_hours": 0.07078515972222221,
+          "age_hours": 0.07423864083333333,
           "status": "Missing",
           "missing_fields": 14,
           "fields": 14,
@@ -523,8 +523,8 @@
         },
         {
           "input": "weather",
-          "observed_at": "2026-10-19T00:30:37.004799+00:00",
-          "age_hours": 0.02409531083333333,
+          "observed_at": "2026-10-19T06:18:58.965224+00:00",
+          "age_hours": 0.024346379722222224,
           "provider_published_at": null,
           "status": "Observed",
           "used_by_candidate": false
@@ -544,9 +544,9 @@
       "inputs": [
         {
           "input": "EPA",
-          "observed_at": "2026-10-19T00:27:42.586134+00:00",
+          "observed_at": "2026-10-19T06:15:52.616396+00:00",
           "provider_published_at": null,
-          "age_hours": 0.07254494,
+          "age_hours": 0.07610994305555555,
           "status": "Recently retrieved; publication unknown",
           "missing_fields": 0,
           "fields": 66,
@@ -554,9 +554,9 @@
         },
         {
           "input": "QB usage",
-          "observed_at": "2026-10-19T00:27:46.428083+00:00",
+          "observed_at": "2026-10-19T06:15:56.909163+00:00",
           "provider_published_at": null,
-          "age_hours": 0.07147773194444444,
+          "age_hours": 0.07491750777777778,
           "status": "Recently retrieved; publication unknown",
           "missing_fields": 4,
           "fields": 46,
@@ -564,9 +564,9 @@
         },
         {
           "input": "Injuries",
-          "observed_at": "2026-10-19T00:27:48.614208+00:00",
+          "observed_at": "2026-10-19T06:15:59.209963+00:00",
           "provider_published_at": null,
-          "age_hours": 0.070870475,
+          "age_hours": 0.07427839666666666,
           "status": "Missing",
           "missing_fields": 12,
           "fields": 12,
@@ -574,9 +574,9 @@
         },
         {
           "input": "Roster",
-          "observed_at": "2026-10-19T00:27:48.921343+00:00",
+          "observed_at": "2026-10-19T06:15:59.353084+00:00",
           "provider_published_at": null,
-          "age_hours": 0.07078515972222221,
+          "age_hours": 0.07423864083333333,
           "status": "Missing",
           "missing_fields": 14,
           "fields": 14,
@@ -621,9 +621,9 @@
       "inputs": [
         {
           "input": "EPA",
-          "observed_at": "2026-10-19T00:27:42.586134+00:00",
+          "observed_at": "2026-10-19T06:15:52.616396+00:00",
           "provider_published_at": null,
-          "age_hours": 0.07254494,
+          "age_hours": 0.07610994305555555,
           "status": "Recently retrieved; publication unknown",
           "missing_fields": 0,
           "fields": 66,
@@ -631,9 +631,9 @@
         },
         {
           "input": "QB usage",
-          "observed_at": "2026-10-19T00:27:46.428083+00:00",
+          "observed_at": "2026-10-19T06:15:56.909163+00:00",
           "provider_published_at": null,
-          "age_hours": 0.07147773194444444,
+          "age_hours": 0.07491750777777778,
           "status": "Recently retrieved; publication unknown",
           "missing_fields": 4,
           "fields": 46,
@@ -641,9 +641,9 @@
         },
         {
           "input": "Injuries",
-          "observed_at": "2026-10-19T00:27:48.614208+00:00",
+          "observed_at": "2026-10-19T06:15:59.209963+00:00",
           "provider_published_at": null,
-          "age_hours": 0.070870475,
+          "age_hours": 0.07427839666666666,
           "status": "Missing",
           "missing_fields": 12,
           "fields": 12,
@@ -651,9 +651,9 @@
         },
         {
           "input": "Roster",
-          "observed_at": "2026-10-19T00:27:48.921343+00:00",
+          "observed_at": "2026-10-19T06:15:59.353084+00:00",
           "provider_published_at": null,
-          "age_hours": 0.07078515972222221,
+          "age_hours": 0.07423864083333333,
           "status": "Missing",
           "missing_fields": 14,
           "fields": 14,
@@ -677,8 +677,8 @@
         },
         {
           "input": "weather",
-          "observed_at": "2026-10-19T00:30:37.466063+00:00",
-          "age_hours": 0.023967181944444443,
+          "observed_at": "2026-10-19T06:18:59.365578+00:00",
+          "age_hours": 0.024235170277777777,
           "provider_published_at": null,
           "status": "Observed",
           "used_by_candidate": false
@@ -698,9 +698,9 @@
       "inputs": [
         {
           "input": "EPA",
-          "observed_at": "2026-10-19T00:27:42.586134+00:00",
+          "observed_at": "2026-10-19T06:15:52.616396+00:00",
           "provider_published_at": null,
-          "age_hours": 0.07254494,
+          "age_hours": 0.07610994305555555,
           "status": "Recently retrieved; publication unknown",
           "missing_fields": 0,
           "fields": 66,
@@ -708,9 +708,9 @@
         },
         {
           "input": "QB usage",
-          "observed_at": "2026-10-19T00:27:46.428083+00:00",
+          "observed_at": "2026-10-19T06:15:56.909163+00:00",
           "provider_published_at": null,
-          "age_hours": 0.07147773194444444,
+          "age_hours": 0.07491750777777778,
           "status": "Recently retrieved; publication unknown",
           "missing_fields": 4,
           "fields": 46,
@@ -718,9 +718,9 @@
         },
         {
           "input": "Injuries",
-          "observed_at": "2026-10-19T00:27:48.614208+00:00",
+          "observed_at": "2026-10-19T06:15:59.209963+00:00",
           "provider_published_at": null,
-          "age_hours": 0.070870475,
+          "age_hours": 0.07427839666666666,
           "status": "Missing",
           "missing_fields": 12,
           "fields": 12,
@@ -728,9 +728,9 @@
         },
         {
           "input": "Roster",
-          "observed_at": "2026-10-19T00:27:48.921343+00:00",
+          "observed_at": "2026-10-19T06:15:59.353084+00:00",
           "provider_published_at": null,
-          "age_hours": 0.07078515972222221,
+          "age_hours": 0.07423864083333333,
           "status": "Missing",
           "missing_fields": 14,
           "fields": 14,
@@ -754,8 +754,8 @@
         },
         {
           "input": "weather",
-          "observed_at": "2026-10-19T00:30:37.909207+00:00",
-          "age_hours": 0.02384408638888889,
+          "observed_at": "2026-10-19T06:18:59.741645+00:00",
+          "age_hours": 0.024130707222222225,
           "provider_published_at": null,
           "status": "Observed",
           "used_by_candidate": false
@@ -775,9 +775,9 @@
       "inputs": [
         {
           "input": "EPA",
-          "observed_at": "2026-10-19T00:27:42.586134+00:00",
+          "observed_at": "2026-10-19T06:15:52.616396+00:00",
           "provider_published_at": null,
-          "age_hours": 0.07254494,
+          "age_hours": 0.07610994305555555,
           "status": "Recently retrieved; publication unknown",
           "missing_fields": 0,
           "fields": 66,
@@ -785,9 +785,9 @@
         },
         {
           "input": "QB usage",
-          "observed_at": "2026-10-19T00:27:46.428083+00:00",
+          "observed_at": "2026-10-19T06:15:56.909163+00:00",
           "provider_published_at": null,
-          "age_hours": 0.07147773194444444,
+          "age_hours": 0.07491750777777778,
           "status": "Recently retrieved; publication unknown",
           "missing_fields": 4,
           "fields": 46,
@@ -795,9 +795,9 @@
         },
         {
           "input": "Injuries",
-          "observed_at": "2026-10-19T00:27:48.614208+00:00",
+          "observed_at": "2026-10-19T06:15:59.209963+00:00",
           "provider_published_at": null,
-          "age_hours": 0.070870475,
+          "age_hours": 0.07427839666666666,
           "status": "Missing",
           "missing_fields": 12,
           "fields": 12,
@@ -805,9 +805,9 @@
         },
         {
           "input": "Roster",
-          "observed_at": "2026-10-19T00:27:48.921343+00:00",
+          "observed_at": "2026-10-19T06:15:59.353084+00:00",
           "provider_published_at": null,
-          "age_hours": 0.07078515972222221,
+          "age_hours": 0.07423864083333333,
           "status": "Missing",
           "missing_fields": 14,
           "fields": 14,
@@ -831,8 +831,8 @@
         },
         {
           "input": "weather",
-          "observed_at": "2026-10-19T00:30:38.472369+00:00",
-          "age_hours": 0.0236876525,
+          "observed_at": "2026-10-19T06:19:00.143408+00:00",
+          "age_hours": 0.024019106388888888,
           "provider_published_at": null,
           "status": "Observed",
           "used_by_candidate": false
@@ -852,9 +852,9 @@
       "inputs": [
         {
           "input": "EPA",
-          "observed_at": "2026-10-19T00:27:42.586134+00:00",
+          "observed_at": "2026-10-19T06:15:52.616396+00:00",
           "provider_published_at": null,
-          "age_hours": 0.07254494,
+          "age_hours": 0.07610994305555555,
           "status": "Recently retrieved; publication unknown",
           "missing_fields": 0,
           "fields": 66,
@@ -862,9 +862,9 @@
         },
         {
           "input": "QB usage",
-          "observed_at": "2026-10-19T00:27:46.428083+00:00",
+          "observed_at": "2026-10-19T06:15:56.909163+00:00",
           "provider_published_at": null,
-          "age_hours": 0.07147773194444444,
+          "age_hours": 0.07491750777777778,
           "status": "Recently retrieved; publication unknown",
           "missing_fields": 4,
           "fields": 46,
@@ -872,9 +872,9 @@
         },
         {
           "input": "Injuries",
-          "observed_at": "2026-10-19T00:27:48.614208+00:00",
+          "observed_at": "2026-10-19T06:15:59.209963+00:00",
           "provider_published_at": null,
-          "age_hours": 0.070870475,
+          "age_hours": 0.07427839666666666,
           "status": "Missing",
           "missing_fields": 12,
           "fields": 12,
@@ -882,9 +882,9 @@
         },
         {
           "input": "Roster",
-          "observed_at": "2026-10-19T00:27:48.921343+00:00",
+          "observed_at": "2026-10-19T06:15:59.353084+00:00",
           "provider_published_at": null,
-          "age_hours": 0.07078515972222221,
+          "age_hours": 0.07423864083333333,
           "status": "Missing",
           "missing_fields": 14,
           "fields": 14,
@@ -929,9 +929,9 @@
       "inputs": [
         {
           "input": "EPA",
-          "observed_at": "2026-10-19T00:27:42.586134+00:00",
+          "observed_at": "2026-10-19T06:15:52.616396+00:00",
           "provider_published_at": null,
-          "age_hours": 0.07254494,
+          "age_hours": 0.07610994305555555,
           "status": "Recently retrieved; publication unknown",
           "missing_fields": 0,
           "fields": 66,
@@ -939,9 +939,9 @@
         },
         {
           "input": "QB usage",
-          "observed_at": "2026-10-19T00:27:46.428083+00:00",
+          "observed_at": "2026-10-19T06:15:56.909163+00:00",
           "provider_published_at": null,
-          "age_hours": 0.07147773194444444,
+          "age_hours": 0.07491750777777778,
           "status": "Recently retrieved; publication unknown",
           "missing_fields": 4,
           "fields": 46,
@@ -949,9 +949,9 @@
         },
         {
           "input": "Injuries",
-          "observed_at": "2026-10-19T00:27:48.614208+00:00",
+          "observed_at": "2026-10-19T06:15:59.209963+00:00",
           "provider_published_at": null,
-          "age_hours": 0.070870475,
+          "age_hours": 0.07427839666666666,
           "status": "Missing",
           "missing_fields": 12,
           "fields": 12,
@@ -959,9 +959,9 @@
         },
         {
           "input": "Roster",
-          "observed_at": "2026-10-19T00:27:48.921343+00:00",
+          "observed_at": "2026-10-19T06:15:59.353084+00:00",
           "provider_published_at": null,
-          "age_hours": 0.07078515972222221,
+          "age_hours": 0.07423864083333333,
           "status": "Missing",
           "missing_fields": 14,
           "fields": 14,
@@ -1006,9 +1006,9 @@
       "inputs": [
         {
           "input": "EPA",
-          "observed_at": "2026-10-19T00:27:42.586134+00:00",
+          "observed_at": "2026-10-19T06:15:52.616396+00:00",
           "provider_published_at": null,
-          "age_hours": 0.07254494,
+          "age_hours": 0.07610994305555555,
           "status": "Recently retrieved; publication unknown",
           "missing_fields": 0,
           "fields": 66,
@@ -1016,9 +1016,9 @@
         },
         {
           "input": "QB usage",
-          "observed_at": "2026-10-19T00:27:46.428083+00:00",
+          "observed_at": "2026-10-19T06:15:56.909163+00:00",
           "provider_published_at": null,
-          "age_hours": 0.07147773194444444,
+          "age_hours": 0.07491750777777778,
           "status": "Recently retrieved; publication unknown",
           "missing_fields": 4,
           "fields": 46,
@@ -1026,9 +1026,9 @@
         },
         {
           "input": "Injuries",
-          "observed_at": "2026-10-19T00:27:48.614208+00:00",
+          "observed_at": "2026-10-19T06:15:59.209963+00:00",
           "provider_published_at": null,
-          "age_hours": 0.070870475,
+          "age_hours": 0.07427839666666666,
           "status": "Missing",
           "missing_fields": 12,
           "fields": 12,
@@ -1036,9 +1036,9 @@
         },
         {
           "input": "Roster",
-          "observed_at": "2026-10-19T00:27:48.921343+00:00",
+          "observed_at": "2026-10-19T06:15:59.353084+00:00",
           "provider_published_at": null,
-          "age_hours": 0.07078515972222221,
+          "age_hours": 0.07423864083333333,
           "status": "Missing",
           "missing_fields": 14,
           "fields": 14,
@@ -1062,8 +1062,8 @@
         },
         {
           "input": "weather",
-          "observed_at": "2026-10-19T00:30:38.897410+00:00",
-          "age_hours": 0.023569585555555557,
+          "observed_at": "2026-10-19T06:19:00.519115+00:00",
+          "age_hours": 0.023914743333333332,
           "provider_published_at": null,
           "status": "Observed",
           "used_by_candidate": false
@@ -1083,9 +1083,9 @@
       "inputs": [
         {
           "input": "EPA",
-          "observed_at": "2026-10-19T00:27:42.586134+00:00",
+          "observed_at": "2026-10-19T06:15:52.616396+00:00",
           "provider_published_at": null,
-          "age_hours": 0.07254494,
+          "age_hours": 0.07610994305555555,
           "status": "Recently retrieved; publication unknown",
           "missing_fields": 0,
           "fields": 66,
@@ -1093,9 +1093,9 @@
         },
         {
           "input": "QB usage",
-          "observed_at": "2026-10-19T00:27:46.428083+00:00",
+          "observed_at": "2026-10-19T06:15:56.909163+00:00",
           "provider_published_at": null,
-          "age_hours": 0.07147773194444444,
+          "age_hours": 0.07491750777777778,
           "status": "Recently retrieved; publication unknown",
           "missing_fields": 4,
           "fields": 46,
@@ -1103,9 +1103,9 @@
         },
         {
           "input": "Injuries",
-          "observed_at": "2026-10-19T00:27:48.614208+00:00",
+          "observed_at": "2026-10-19T06:15:59.209963+00:00",
           "provider_published_at": null,
-          "age_hours": 0.070870475,
+          "age_hours": 0.07427839666666666,
           "status": "Missing",
           "missing_fields": 12,
           "fields": 12,
@@ -1113,9 +1113,9 @@
         },
         {
           "input": "Roster",
-          "observed_at": "2026-10-19T00:27:48.921343+00:00",
+          "observed_at": "2026-10-19T06:15:59.353084+00:00",
           "provider_published_at": null,
-          "age_hours": 0.07078515972222221,
+          "age_hours": 0.07423864083333333,
           "status": "Missing",
           "missing_fields": 14,
           "fields": 14,
@@ -1139,8 +1139,8 @@
         },
         {
           "input": "weather",
-          "observed_at": "2026-10-19T00:30:39.311260+00:00",
-          "age_hours": 0.023454627222222222,
+          "observed_at": "2026-10-19T06:19:00.896149+00:00",
+          "age_hours": 0.02381001166666667,
           "provider_published_at": null,
           "status": "Observed",
           "used_by_candidate": false

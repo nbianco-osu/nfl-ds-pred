@@ -612,16 +612,16 @@
       "push": 0.0
     },
     "total": {
-      "above": 0.565,
-      "below": 0.435,
+      "above": 0.5911,
+      "below": 0.4089,
       "push": 0.0
     },
     "model_version": "shadow-ridge-20261013T153114Z",
     "training_through": "2026-10-12",
     "market_home_spread": 2.5,
-    "market_total": 44.5,
+    "market_total": 43.5,
     "game_id": "2026_07_PIT_NO",
-    "forecast_at": "2026-10-19T00:30:07.365916+00:00"
+    "forecast_at": "2026-10-19T06:18:26.591622+00:00"
   },
   "2026_07_SF_ATL": {
     "expected_home": 23.0902,
@@ -725,20 +725,20 @@
     "tie": 0.0218,
     "spread": {
       "above": 0.538,
-      "below": 0.4422,
-      "push": 0.0198
+      "below": 0.462,
+      "push": 0.0
     },
     "total": {
-      "above": 0.5319,
-      "below": 0.4681,
+      "above": 0.4926,
+      "below": 0.5074,
       "push": 0.0
     },
     "model_version": "shadow-ridge-20261013T153114Z",
     "training_through": "2026-10-12",
-    "market_home_spread": -3.0,
-    "market_total": 43.5,
+    "market_home_spread": -3.5,
+    "market_total": 44.5,
     "game_id": "2026_07_TB_CAR",
-    "forecast_at": "2026-10-19T00:30:07.365916+00:00"
+    "forecast_at": "2026-10-19T06:18:26.591622+00:00"
   },
   "2026_07_NYG_HOU": {
     "expected_home": 24.3363,
@@ -802,21 +802,21 @@
     "away_win": 0.2626,
     "tie": 0.0291,
     "spread": {
-      "above": 0.54,
+      "above": 0.5561,
       "below": 0.4439,
-      "push": 0.0161
+      "push": 0.0
     },
     "total": {
-      "above": 0.5451,
-      "below": 0.4549,
+      "above": 0.5712,
+      "below": 0.4288,
       "push": 0.0
     },
     "model_version": "shadow-ridge-20261013T153114Z",
     "training_through": "2026-10-12",
-    "market_home_spread": -6.0,
-    "market_total": 42.5,
+    "market_home_spread": -5.5,
+    "market_total": 41.5,
     "game_id": "2026_07_IND_MIN",
-    "forecast_at": "2026-10-19T00:30:07.365916+00:00"
+    "forecast_at": "2026-10-19T06:18:26.591622+00:00"
   },
   "2026_07_MIA_NYJ": {
     "expected_home": 22.7972,
@@ -924,47 +924,47 @@
       "push": 0.0
     },
     "total": {
-      "above": 0.5,
-      "below": 0.5,
+      "above": 0.5313,
+      "below": 0.4687,
       "push": 0.0
     },
     "model_version": "shadow-ridge-20261013T153114Z",
     "training_through": "2026-10-12",
     "market_home_spread": 4.5,
-    "market_total": 43.5,
+    "market_total": 42.5,
     "game_id": "2026_07_DEN_ARI",
-    "forecast_at": "2026-10-19T00:30:07.365916+00:00"
+    "forecast_at": "2026-10-19T06:18:26.591622+00:00"
   },
   "2026_07_GB_DET": {
-    "expected_home": 26.3148,
-    "expected_away": 21.0439,
+    "expected_home": 25.9223,
+    "expected_away": 21.5288,
     "home_interval80": [
       14.0,
       39.0
     ],
     "away_interval80": [
-      8.0,
+      9.0,
       34.0
     ],
     "margin_interval80": [
-      -11.0,
-      23.0
+      -12.0,
+      22.0
     ],
     "total_interval80": [
       31.0,
       65.0
     ],
-    "home_win": 0.6487,
-    "away_win": 0.3252,
-    "tie": 0.0261,
+    "home_win": 0.6203,
+    "away_win": 0.3545,
+    "tie": 0.0252,
     "spread": {
-      "above": 0.5568,
-      "below": 0.4141,
-      "push": 0.0291
+      "above": 0.5442,
+      "below": 0.4396,
+      "push": 0.0162
     },
     "total": {
-      "above": 0.315,
-      "below": 0.685,
+      "above": 0.3202,
+      "below": 0.6798,
       "push": 0.0
     },
     "model_version": "shadow-ridge-20261013T153114Z",
@@ -972,7 +972,7 @@
     "market_home_spread": -3.0,
     "market_total": 52.5,
     "game_id": "2026_07_GB_DET",
-    "forecast_at": "2026-10-19T00:30:07.365916+00:00"
+    "forecast_at": "2026-10-19T06:18:26.591622+00:00"
   },
   "2026_07_LA_LV": {
     "expected_home": 23.7403,
@@ -998,20 +998,20 @@
     "tie": 0.0351,
     "spread": {
       "above": 0.6547,
-      "below": 0.3092,
-      "push": 0.0361
+      "below": 0.3453,
+      "push": 0.0
     },
     "total": {
-      "above": 0.4931,
-      "below": 0.5069,
+      "above": 0.5219,
+      "below": 0.4781,
       "push": 0.0
     },
     "model_version": "shadow-ridge-20261013T153114Z",
     "training_through": "2026-10-12",
-    "market_home_spread": 6.0,
-    "market_total": 47.5,
+    "market_home_spread": 5.5,
+    "market_total": 46.5,
     "game_id": "2026_07_LA_LV",
-    "forecast_at": "2026-10-19T00:30:07.365916+00:00"
+    "forecast_at": "2026-10-19T06:18:26.591622+00:00"
   },
   "2026_07_KC_SEA": {
     "expected_home": 23.7707,
@@ -1036,8 +1036,8 @@
     "away_win": 0.3591,
     "tie": 0.027,
     "spread": {
-      "above": 0.5761,
-      "below": 0.4239,
+      "above": 0.5525,
+      "below": 0.4475,
       "push": 0.0
     },
     "total": {
@@ -1047,14 +1047,53 @@
     },
     "model_version": "shadow-ridge-20261013T153114Z",
     "training_through": "2026-10-12",
-    "market_home_spread": -1.5,
+    "market_home_spread": -2.5,
     "market_total": 42.5,
     "game_id": "2026_07_KC_SEA",
-    "forecast_at": "2026-10-19T00:30:07.365916+00:00"
+    "forecast_at": "2026-10-19T06:18:26.591622+00:00"
   },
   "2026_07_DAL_PHI": {
-    "expected_home": 22.5634,
-    "expected_away": 23.0394,
+    "expected_home": 22.2304,
+    "expected_away": 22.831,
+    "home_interval80": [
+      10.0,
+      35.0
+    ],
+    "away_interval80": [
+      10.0,
+      36.0
+    ],
+    "margin_interval80": [
+      -17.0,
+      17.0
+    ],
+    "total_interval80": [
+      28.0,
+      63.0
+    ],
+    "home_win": 0.4491,
+    "away_win": 0.5006,
+    "tie": 0.0503,
+    "spread": {
+      "above": 0.6166,
+      "below": 0.3834,
+      "push": 0.0
+    },
+    "total": {
+      "above": 0.5009,
+      "below": 0.4991,
+      "push": 0.0
+    },
+    "model_version": "shadow-ridge-20261013T153114Z",
+    "training_through": "2026-10-12",
+    "market_home_spread": 4.5,
+    "market_total": 44.5,
+    "game_id": "2026_07_DAL_PHI",
+    "forecast_at": "2026-10-19T06:18:26.591622+00:00"
+  },
+  "2026_08_CAR_GB": {
+    "expected_home": 22.2199,
+    "expected_away": 22.9378,
     "home_interval80": [
       10.0,
       35.0
@@ -1069,50 +1108,11 @@
     ],
     "total_interval80": [
       29.0,
-      64.0
-    ],
-    "home_win": 0.461,
-    "away_win": 0.5012,
-    "tie": 0.0378,
-    "spread": {
-      "above": 0.6531,
-      "below": 0.3469,
-      "push": 0.0
-    },
-    "total": {
-      "above": 0.5175,
-      "below": 0.4825,
-      "push": 0.0
-    },
-    "model_version": "shadow-ridge-20261013T153114Z",
-    "training_through": "2026-10-12",
-    "market_home_spread": 5.5,
-    "market_total": 44.5,
-    "game_id": "2026_07_DAL_PHI",
-    "forecast_at": "2026-10-19T00:30:07.365916+00:00"
-  },
-  "2026_08_CAR_GB": {
-    "expected_home": 21.6131,
-    "expected_away": 23.396,
-    "home_interval80": [
-      9.0,
-      34.0
-    ],
-    "away_interval80": [
-      10.0,
-      36.0
-    ],
-    "margin_interval80": [
-      -18.0,
-      16.0
-    ],
-    "total_interval80": [
-      29.0,
       63.0
     ],
-    "home_win": 0.4076,
-    "away_win": 0.549,
-    "tie": 0.0434,
+    "home_win": 0.4473,
+    "away_win": 0.5047,
+    "tie": 0.048,
     "spread": null,
     "total": null,
     "model_version": "shadow-ridge-20261013T153114Z",
@@ -1120,7 +1120,7 @@
     "market_home_spread": null,
     "market_total": null,
     "game_id": "2026_08_CAR_GB",
-    "forecast_at": "2026-10-18T20:58:39.100445+00:00"
+    "forecast_at": "2026-10-19T06:18:26.591622+00:00"
   },
   "2026_08_BAL_BUF": {
     "expected_home": 27.3208,
@@ -1185,27 +1185,27 @@
     "forecast_at": "2026-10-18T20:58:39.100445+00:00"
   },
   "2026_08_ARI_DAL": {
-    "expected_home": 27.2374,
-    "expected_away": 22.1488,
+    "expected_home": 27.1705,
+    "expected_away": 21.6988,
     "home_interval80": [
       15.0,
       40.0
     ],
     "away_interval80": [
       9.0,
-      35.0
+      34.0
     ],
     "margin_interval80": [
-      -12.0,
+      -11.0,
       23.0
     ],
     "total_interval80": [
-      33.0,
+      32.0,
       67.0
     ],
-    "home_win": 0.6356,
-    "away_win": 0.331,
-    "tie": 0.0334,
+    "home_win": 0.6432,
+    "away_win": 0.3161,
+    "tie": 0.0407,
     "spread": null,
     "total": null,
     "model_version": "shadow-ridge-20261013T153114Z",
@@ -1213,7 +1213,7 @@
     "market_home_spread": null,
     "market_total": null,
     "game_id": "2026_08_ARI_DAL",
-    "forecast_at": "2026-10-19T00:30:07.365916+00:00"
+    "forecast_at": "2026-10-19T06:18:26.591622+00:00"
   },
   "2026_08_MIN_DET": {
     "expected_home": 22.5148,
@@ -1619,27 +1619,27 @@
     "forecast_at": "2026-10-18T20:58:39.100445+00:00"
   },
   "2026_09_DAL_IND": {
-    "expected_home": 25.2374,
-    "expected_away": 24.8194,
+    "expected_home": 24.8749,
+    "expected_away": 24.6577,
     "home_interval80": [
       13.0,
-      38.0
+      37.0
     ],
     "away_interval80": [
       12.0,
-      38.0
+      37.0
     ],
     "margin_interval80": [
       -16.0,
-      18.0
+      17.0
     ],
     "total_interval80": [
       33.0,
       68.0
     ],
-    "home_win": 0.5011,
-    "away_win": 0.4653,
-    "tie": 0.0336,
+    "home_win": 0.4915,
+    "away_win": 0.4732,
+    "tie": 0.0353,
     "spread": null,
     "total": null,
     "model_version": "shadow-ridge-20261013T153114Z",
@@ -1647,7 +1647,7 @@
     "market_home_spread": null,
     "market_total": null,
     "game_id": "2026_09_DAL_IND",
-    "forecast_at": "2026-10-18T20:58:39.100445+00:00"
+    "forecast_at": "2026-10-19T06:18:26.591622+00:00"
   },
   "2026_09_NYJ_KC": {
     "expected_home": 25.2185,
@@ -1867,27 +1867,27 @@
     "forecast_at": "2026-10-19T00:30:07.365916+00:00"
   },
   "2026_09_GB_NE": {
-    "expected_home": 27.5675,
-    "expected_away": 17.4709,
+    "expected_home": 27.1995,
+    "expected_away": 17.9165,
     "home_interval80": [
       15.0,
       40.0
     ],
     "away_interval80": [
       5.0,
-      30.0
+      31.0
     ],
     "margin_interval80": [
-      -7.0,
-      28.0
+      -8.0,
+      27.0
     ],
     "total_interval80": [
-      29.0,
+      28.0,
       63.0
     ],
-    "home_win": 0.7872,
-    "away_win": 0.1863,
-    "tie": 0.0265,
+    "home_win": 0.7715,
+    "away_win": 0.2024,
+    "tie": 0.0261,
     "spread": null,
     "total": null,
     "model_version": "shadow-ridge-20261013T153114Z",
@@ -1895,7 +1895,7 @@
     "market_home_spread": null,
     "market_total": null,
     "game_id": "2026_09_GB_NE",
-    "forecast_at": "2026-10-18T20:58:39.100445+00:00"
+    "forecast_at": "2026-10-19T06:18:26.591622+00:00"
   },
   "2026_09_ARI_SEA": {
     "expected_home": 27.8088,
@@ -2115,27 +2115,27 @@
     "forecast_at": "2026-10-18T20:58:39.100445+00:00"
   },
   "2026_10_MIN_GB": {
-    "expected_home": 18.5234,
-    "expected_away": 22.0756,
+    "expected_home": 19.1421,
+    "expected_away": 21.6503,
     "home_interval80": [
-      6.0,
-      31.0
+      7.0,
+      32.0
     ],
     "away_interval80": [
       9.0,
-      35.0
+      34.0
     ],
     "margin_interval80": [
-      -20.0,
-      14.0
+      -19.0,
+      15.0
     ],
     "total_interval80": [
       24.0,
-      58.0
+      59.0
     ],
-    "home_win": 0.3351,
-    "away_win": 0.6185,
-    "tie": 0.0464,
+    "home_win": 0.3828,
+    "away_win": 0.5865,
+    "tie": 0.0307,
     "spread": null,
     "total": null,
     "model_version": "shadow-ridge-20261013T153114Z",
@@ -2143,7 +2143,7 @@
     "market_home_spread": null,
     "market_total": null,
     "game_id": "2026_10_MIN_GB",
-    "forecast_at": "2026-10-13T15:31:14.486776+00:00"
+    "forecast_at": "2026-10-19T06:18:26.591622+00:00"
   },
   "2026_10_MIA_IND": {
     "expected_home": 26.2594,
@@ -2332,27 +2332,27 @@
     "forecast_at": "2026-10-19T00:30:07.365916+00:00"
   },
   "2026_10_SF_DAL": {
-    "expected_home": 23.4259,
-    "expected_away": 27.8483,
+    "expected_home": 23.3419,
+    "expected_away": 27.4328,
     "home_interval80": [
       11.0,
       36.0
     ],
     "away_interval80": [
       15.0,
-      41.0
+      40.0
     ],
     "margin_interval80": [
       -21.0,
       13.0
     ],
     "total_interval80": [
-      35.0,
+      34.0,
       69.0
     ],
-    "home_win": 0.3112,
-    "away_win": 0.6517,
-    "tie": 0.0371,
+    "home_win": 0.3253,
+    "away_win": 0.6438,
+    "tie": 0.0309,
     "spread": null,
     "total": null,
     "model_version": "shadow-ridge-20261013T153114Z",
@@ -2360,7 +2360,7 @@
     "market_home_spread": null,
     "market_total": null,
     "game_id": "2026_10_SF_DAL",
-    "forecast_at": "2026-10-13T15:31:14.486776+00:00"
+    "forecast_at": "2026-10-19T06:18:26.591622+00:00"
   },
   "2026_10_PIT_CIN": {
     "expected_home": 26.6815,
@@ -2549,14 +2549,14 @@
     "forecast_at": "2026-10-18T20:58:39.100445+00:00"
   },
   "2026_11_TEN_DAL": {
-    "expected_home": 25.9632,
-    "expected_away": 19.7431,
+    "expected_home": 25.8829,
+    "expected_away": 19.3335,
     "home_interval80": [
       14.0,
-      39.0
+      38.0
     ],
     "away_interval80": [
-      7.0,
+      6.0,
       32.0
     ],
     "margin_interval80": [
@@ -2565,11 +2565,11 @@
     ],
     "total_interval80": [
       29.0,
-      64.0
+      63.0
     ],
-    "home_win": 0.6667,
-    "away_win": 0.2811,
-    "tie": 0.0522,
+    "home_win": 0.6751,
+    "away_win": 0.279,
+    "tie": 0.0459,
     "spread": null,
     "total": null,
     "model_version": "shadow-ridge-20261013T153114Z",
@@ -2577,7 +2577,7 @@
     "market_home_spread": null,
     "market_total": null,
     "game_id": "2026_11_TEN_DAL",
-    "forecast_at": "2026-10-18T20:58:39.100445+00:00"
+    "forecast_at": "2026-10-19T06:18:26.591622+00:00"
   },
   "2026_11_TB_DET": {
     "expected_home": 25.5725,
@@ -2828,8 +2828,8 @@
     "forecast_at": "2026-10-13T15:31:14.486776+00:00"
   },
   "2026_12_GB_LA": {
-    "expected_home": 25.4607,
-    "expected_away": 19.8594,
+    "expected_home": 25.0994,
+    "expected_away": 20.3499,
     "home_interval80": [
       13.0,
       38.0
@@ -2839,16 +2839,16 @@
       33.0
     ],
     "margin_interval80": [
-      -11.0,
-      23.0
+      -12.0,
+      22.0
     ],
     "total_interval80": [
       29.0,
-      63.0
+      64.0
     ],
-    "home_win": 0.6531,
-    "away_win": 0.3128,
-    "tie": 0.0341,
+    "home_win": 0.6273,
+    "away_win": 0.3488,
+    "tie": 0.0239,
     "spread": null,
     "total": null,
     "model_version": "shadow-ridge-20261013T153114Z",
@@ -2856,7 +2856,7 @@
     "market_home_spread": null,
     "market_total": null,
     "game_id": "2026_12_GB_LA",
-    "forecast_at": "2026-10-19T00:30:07.365916+00:00"
+    "forecast_at": "2026-10-19T06:18:26.591622+00:00"
   },
   "2026_12_CHI_DET": {
     "expected_home": 25.3225,
@@ -2890,15 +2890,15 @@
     "forecast_at": "2026-10-18T20:58:39.100445+00:00"
   },
   "2026_12_PHI_DAL": {
-    "expected_home": 24.6472,
-    "expected_away": 21.0632,
+    "expected_home": 24.5675,
+    "expected_away": 20.6282,
     "home_interval80": [
       12.0,
       37.0
     ],
     "away_interval80": [
       8.0,
-      34.0
+      33.0
     ],
     "margin_interval80": [
       -13.0,
@@ -2906,11 +2906,11 @@
     ],
     "total_interval80": [
       29.0,
-      64.0
+      63.0
     ],
-    "home_win": 0.5921,
-    "away_win": 0.3735,
-    "tie": 0.0344,
+    "home_win": 0.6093,
+    "away_win": 0.3643,
+    "tie": 0.0264,
     "spread": null,
     "total": null,
     "model_version": "shadow-ridge-20261013T153114Z",
@@ -2918,7 +2918,7 @@
     "market_home_spread": null,
     "market_total": null,
     "game_id": "2026_12_PHI_DAL",
-    "forecast_at": "2026-10-18T20:58:39.100445+00:00"
+    "forecast_at": "2026-10-19T06:18:26.591622+00:00"
   },
   "2026_12_KC_BUF": {
     "expected_home": 26.4149,
@@ -3448,27 +3448,27 @@
     "forecast_at": "2026-10-18T20:58:39.100445+00:00"
   },
   "2026_13_GB_NO": {
-    "expected_home": 25.3112,
-    "expected_away": 21.4831,
+    "expected_home": 24.9202,
+    "expected_away": 21.9472,
     "home_interval80": [
       13.0,
       38.0
     ],
     "away_interval80": [
       9.0,
-      34.0
+      35.0
     ],
     "margin_interval80": [
-      -13.0,
+      -14.0,
       21.0
     ],
     "total_interval80": [
       30.0,
       65.0
     ],
-    "home_win": 0.6015,
-    "away_win": 0.3641,
-    "tie": 0.0344,
+    "home_win": 0.5775,
+    "away_win": 0.395,
+    "tie": 0.0275,
     "spread": null,
     "total": null,
     "model_version": "shadow-ridge-20261013T153114Z",
@@ -3476,7 +3476,7 @@
     "market_home_spread": null,
     "market_total": null,
     "game_id": "2026_13_GB_NO",
-    "forecast_at": "2026-10-18T20:58:39.100445+00:00"
+    "forecast_at": "2026-10-19T06:18:26.591622+00:00"
   },
   "2026_13_SF_NYG": {
     "expected_home": 24.4907,
@@ -3727,27 +3727,27 @@
     "forecast_at": "2026-10-18T20:58:39.100445+00:00"
   },
   "2026_13_DAL_SEA": {
-    "expected_home": 26.4646,
-    "expected_away": 20.9379,
+    "expected_home": 26.1483,
+    "expected_away": 20.7288,
     "home_interval80": [
       14.0,
       39.0
     ],
     "away_interval80": [
       8.0,
-      34.0
+      33.0
     ],
     "margin_interval80": [
       -11.0,
       23.0
     ],
     "total_interval80": [
-      31.0,
+      30.0,
       65.0
     ],
-    "home_win": 0.652,
-    "away_win": 0.3128,
-    "tie": 0.0352,
+    "home_win": 0.6419,
+    "away_win": 0.3182,
+    "tie": 0.0399,
     "spread": null,
     "total": null,
     "model_version": "shadow-ridge-20261013T153114Z",
@@ -3755,7 +3755,7 @@
     "market_home_spread": null,
     "market_total": null,
     "game_id": "2026_13_DAL_SEA",
-    "forecast_at": "2026-10-16T03:42:01.196953+00:00"
+    "forecast_at": "2026-10-19T06:18:26.591622+00:00"
   },
   "2026_14_MIN_NE": {
     "expected_home": 23.7943,
@@ -4161,27 +4161,27 @@
     "forecast_at": "2026-10-19T00:30:07.365916+00:00"
   },
   "2026_14_BUF_GB": {
-    "expected_home": 21.293,
-    "expected_away": 26.4964,
+    "expected_home": 21.8814,
+    "expected_away": 26.0223,
     "home_interval80": [
-      9.0,
+      10.0,
       34.0
     ],
     "away_interval80": [
-      14.0,
+      13.0,
       39.0
     ],
     "margin_interval80": [
-      -22.0,
-      12.0
+      -21.0,
+      13.0
     ],
     "total_interval80": [
       31.0,
       66.0
     ],
-    "home_win": 0.2905,
-    "away_win": 0.6747,
-    "tie": 0.0348,
+    "home_win": 0.3156,
+    "away_win": 0.6429,
+    "tie": 0.0415,
     "spread": null,
     "total": null,
     "model_version": "shadow-ridge-20261013T153114Z",
@@ -4189,7 +4189,7 @@
     "market_home_spread": null,
     "market_total": null,
     "game_id": "2026_14_BUF_GB",
-    "forecast_at": "2026-10-19T00:30:07.365916+00:00"
+    "forecast_at": "2026-10-19T06:18:26.591622+00:00"
   },
   "2026_14_PIT_JAX": {
     "expected_home": 26.626,
@@ -4347,27 +4347,27 @@
     "forecast_at": "2026-10-18T20:58:39.100445+00:00"
   },
   "2026_15_MIA_GB": {
-    "expected_home": 24.0147,
-    "expected_away": 18.7537,
+    "expected_home": 24.5735,
+    "expected_away": 18.3377,
     "home_interval80": [
       12.0,
       37.0
     ],
     "away_interval80": [
-      6.0,
+      5.0,
       31.0
     ],
     "margin_interval80": [
       -11.0,
-      23.0
+      24.0
     ],
     "total_interval80": [
-      26.0,
+      27.0,
       61.0
     ],
-    "home_win": 0.6396,
-    "away_win": 0.3315,
-    "tie": 0.0289,
+    "home_win": 0.6649,
+    "away_win": 0.2928,
+    "tie": 0.0423,
     "spread": null,
     "total": null,
     "model_version": "shadow-ridge-20261013T153114Z",
@@ -4375,7 +4375,7 @@
     "market_home_spread": null,
     "market_total": null,
     "game_id": "2026_15_MIA_GB",
-    "forecast_at": "2026-10-13T15:31:14.486776+00:00"
+    "forecast_at": "2026-10-19T06:18:26.591622+00:00"
   },
   "2026_15_JAX_HOU": {
     "expected_home": 22.8053,
@@ -4595,11 +4595,11 @@
     "forecast_at": "2026-10-19T00:30:07.365916+00:00"
   },
   "2026_15_DAL_LA": {
-    "expected_home": 26.2081,
-    "expected_away": 23.0462,
+    "expected_home": 25.8306,
+    "expected_away": 22.8424,
     "home_interval80": [
       14.0,
-      39.0
+      38.0
     ],
     "away_interval80": [
       10.0,
@@ -4607,15 +4607,15 @@
     ],
     "margin_interval80": [
       -14.0,
-      21.0
+      20.0
     ],
     "total_interval80": [
-      33.0,
+      32.0,
       67.0
     ],
-    "home_win": 0.5859,
-    "away_win": 0.3873,
-    "tie": 0.0268,
+    "home_win": 0.5761,
+    "away_win": 0.3962,
+    "tie": 0.0277,
     "spread": null,
     "total": null,
     "model_version": "shadow-ridge-20261013T153114Z",
@@ -4623,7 +4623,7 @@
     "market_home_spread": null,
     "market_total": null,
     "game_id": "2026_15_DAL_LA",
-    "forecast_at": "2026-10-19T00:30:07.365916+00:00"
+    "forecast_at": "2026-10-19T06:18:26.591622+00:00"
   },
   "2026_15_DEN_LV": {
     "expected_home": 22.6318,
@@ -4750,27 +4750,27 @@
     "forecast_at": "2026-10-18T20:58:39.100445+00:00"
   },
   "2026_16_GB_CHI": {
-    "expected_home": 26.0851,
-    "expected_away": 19.5864,
+    "expected_home": 25.6659,
+    "expected_away": 20.0523,
     "home_interval80": [
-      14.0,
-      39.0
+      13.0,
+      38.0
     ],
     "away_interval80": [
       7.0,
-      32.0
+      33.0
     ],
     "margin_interval80": [
-      -10.0,
-      24.0
+      -11.0,
+      23.0
     ],
     "total_interval80": [
       29.0,
       64.0
     ],
-    "home_win": 0.684,
-    "away_win": 0.2731,
-    "tie": 0.0429,
+    "home_win": 0.6531,
+    "away_win": 0.3133,
+    "tie": 0.0336,
     "spread": null,
     "total": null,
     "model_version": "shadow-ridge-20261013T153114Z",
@@ -4778,7 +4778,7 @@
     "market_home_spread": null,
     "market_total": null,
     "game_id": "2026_16_GB_CHI",
-    "forecast_at": "2026-10-18T20:58:39.100445+00:00"
+    "forecast_at": "2026-10-19T06:18:26.591622+00:00"
   },
   "2026_16_BUF_DEN": {
     "expected_home": 22.4583,
@@ -5153,8 +5153,8 @@
     "forecast_at": "2026-10-19T00:30:07.365916+00:00"
   },
   "2026_16_JAX_DAL": {
-    "expected_home": 22.2199,
-    "expected_away": 26.3167,
+    "expected_home": 22.1502,
+    "expected_away": 25.8411,
     "home_interval80": [
       10.0,
       35.0
@@ -5164,16 +5164,16 @@
       39.0
     ],
     "margin_interval80": [
-      -21.0,
-      13.0
+      -20.0,
+      14.0
     ],
     "total_interval80": [
-      32.0,
-      67.0
+      31.0,
+      66.0
     ],
-    "home_win": 0.3259,
-    "away_win": 0.6457,
-    "tie": 0.0284,
+    "home_win": 0.3373,
+    "away_win": 0.6256,
+    "tie": 0.0371,
     "spread": null,
     "total": null,
     "model_version": "shadow-ridge-20261013T153114Z",
@@ -5181,7 +5181,7 @@
     "market_home_spread": null,
     "market_total": null,
     "game_id": "2026_16_JAX_DAL",
-    "forecast_at": "2026-10-18T18:12:26.725215+00:00"
+    "forecast_at": "2026-10-19T06:18:26.591622+00:00"
   },
   "2026_16_NYG_DET": {
     "expected_home": 24.848,
@@ -5339,10 +5339,10 @@
     "forecast_at": "2026-10-18T20:58:39.100445+00:00"
   },
   "2026_17_NYG_DAL": {
-    "expected_home": 23.7204,
-    "expected_away": 25.2719,
+    "expected_home": 23.6506,
+    "expected_away": 24.7775,
     "home_interval80": [
-      12.0,
+      11.0,
       36.0
     ],
     "away_interval80": [
@@ -5350,16 +5350,16 @@
       38.0
     ],
     "margin_interval80": [
-      -19.0,
+      -18.0,
       16.0
     ],
     "total_interval80": [
-      33.0,
-      67.0
+      32.0,
+      66.0
     ],
-    "home_win": 0.4173,
-    "away_win": 0.5385,
-    "tie": 0.0442,
+    "home_win": 0.4403,
+    "away_win": 0.5263,
+    "tie": 0.0334,
     "spread": null,
     "total": null,
     "model_version": "shadow-ridge-20261013T153114Z",
@@ -5367,7 +5367,7 @@
     "market_home_spread": null,
     "market_total": null,
     "game_id": "2026_17_NYG_DAL",
-    "forecast_at": "2026-10-18T20:58:39.100445+00:00"
+    "forecast_at": "2026-10-19T06:18:26.591622+00:00"
   },
   "2026_17_WAS_JAX": {
     "expected_home": 28.6492,
@@ -5680,27 +5680,27 @@
     "forecast_at": "2026-10-18T20:58:39.100445+00:00"
   },
   "2026_17_HOU_GB": {
-    "expected_home": 21.6314,
-    "expected_away": 23.9299,
+    "expected_home": 22.227,
+    "expected_away": 23.4803,
     "home_interval80": [
-      9.0,
-      34.0
+      10.0,
+      35.0
     ],
     "away_interval80": [
       11.0,
-      37.0
+      36.0
     ],
     "margin_interval80": [
-      -19.0,
-      15.0
+      -18.0,
+      16.0
     ],
     "total_interval80": [
       29.0,
-      63.0
+      64.0
     ],
-    "home_win": 0.383,
-    "away_win": 0.5694,
-    "tie": 0.0476,
+    "home_win": 0.4295,
+    "away_win": 0.5382,
+    "tie": 0.0323,
     "spread": null,
     "total": null,
     "model_version": "shadow-ridge-20261013T153114Z",
@@ -5708,7 +5708,7 @@
     "market_home_spread": null,
     "market_total": null,
     "game_id": "2026_17_HOU_GB",
-    "forecast_at": "2026-10-18T18:12:26.725215+00:00"
+    "forecast_at": "2026-10-19T06:18:26.591622+00:00"
   },
   "2026_18_SF_ARI": {
     "expected_home": 20.3782,
@@ -5897,27 +5897,27 @@
     "forecast_at": "2026-10-19T00:30:07.365916+00:00"
   },
   "2026_18_DET_GB": {
-    "expected_home": 22.4293,
-    "expected_away": 24.7069,
+    "expected_home": 23.0404,
+    "expected_away": 24.2692,
     "home_interval80": [
-      10.0,
-      35.0
+      11.0,
+      36.0
     ],
     "away_interval80": [
-      12.0,
+      11.0,
       37.0
     ],
     "margin_interval80": [
-      -19.0,
-      15.0
+      -18.0,
+      16.0
     ],
     "total_interval80": [
       31.0,
       65.0
     ],
-    "home_win": 0.3905,
-    "away_win": 0.5701,
-    "tie": 0.0394,
+    "home_win": 0.4299,
+    "away_win": 0.517,
+    "tie": 0.0531,
     "spread": null,
     "total": null,
     "model_version": "shadow-ridge-20261013T153114Z",
@@ -5925,7 +5925,7 @@
     "market_home_spread": null,
     "market_total": null,
     "game_id": "2026_18_DET_GB",
-    "forecast_at": "2026-10-13T15:31:14.486776+00:00"
+    "forecast_at": "2026-10-19T06:18:26.591622+00:00"
   },
   "2026_18_TEN_HOU": {
     "expected_home": 26.5636,
@@ -6176,27 +6176,27 @@
     "forecast_at": "2026-10-18T20:58:39.100445+00:00"
   },
   "2026_18_DAL_WAS": {
-    "expected_home": 24.5125,
-    "expected_away": 24.943,
+    "expected_home": 24.1995,
+    "expected_away": 24.7239,
     "home_interval80": [
       12.0,
       37.0
     ],
     "away_interval80": [
       12.0,
-      38.0
+      37.0
     ],
     "margin_interval80": [
       -17.0,
       17.0
     ],
     "total_interval80": [
-      33.0,
+      32.0,
       67.0
     ],
-    "home_win": 0.4642,
-    "away_win": 0.5014,
-    "tie": 0.0344,
+    "home_win": 0.4537,
+    "away_win": 0.492,
+    "tie": 0.0543,
     "spread": null,
     "total": null,
     "model_version": "shadow-ridge-20261013T153114Z",
@@ -6204,6 +6204,6 @@
     "market_home_spread": null,
     "market_total": null,
     "game_id": "2026_18_DAL_WAS",
-    "forecast_at": "2026-10-13T15:31:14.486776+00:00"
+    "forecast_at": "2026-10-19T06:18:26.591622+00:00"
   }
 }

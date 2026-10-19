@@ -374,10 +374,10 @@
       "version": "20260929T124531Z",
       "dimension": "confidence",
       "group": "50-59%",
-      "games": 24,
-      "accuracy": 0.5,
-      "log_loss": 0.6805900516565874,
-      "brier": 0.24380510010882375,
+      "games": 25,
+      "accuracy": 0.52,
+      "log_loss": 0.6761514833308969,
+      "brier": 0.24159626768471282,
       "status": "Descriptive; overlapping groups"
     },
     {
@@ -414,20 +414,20 @@
       "version": "20260929T124531Z",
       "dimension": "provenance",
       "group": "Timestamped archive",
-      "games": 12,
-      "accuracy": 0.3333333333333333,
-      "log_loss": 0.8353839458226627,
-      "brier": 0.31774081299321194,
+      "games": 13,
+      "accuracy": 0.38461538461538464,
+      "log_loss": 0.8149410148758676,
+      "brier": 0.3078056958018918,
       "status": "Descriptive; overlapping groups"
     },
     {
       "version": "20260929T124531Z",
       "dimension": "stage",
       "group": "Weeks 1-6",
-      "games": 42,
-      "accuracy": 0.5238095238095238,
-      "log_loss": 0.6997877448565655,
-      "brier": 0.25270100491759767,
+      "games": 43,
+      "accuracy": 0.5348837209302325,
+      "log_loss": 0.696760723895118,
+      "brier": 0.251209918512678,
       "status": "Descriptive; overlapping groups"
     },
     {
@@ -514,10 +514,10 @@
       "version": "20260929T124531Z",
       "dimension": "team",
       "group": "DAL",
-      "games": 2,
-      "accuracy": 0.5,
-      "log_loss": 0.7249730723825196,
-      "brier": 0.2655657976016831,
+      "games": 3,
+      "accuracy": 0.6666666666666666,
+      "log_loss": 0.6731906627597887,
+      "brier": 0.23990529490313858,
       "status": "Small sample; descriptive only"
     },
     {
@@ -544,10 +544,10 @@
       "version": "20260929T124531Z",
       "dimension": "team",
       "group": "GB",
-      "games": 2,
-      "accuracy": 0.0,
-      "log_loss": 0.8028651495938691,
-      "brier": 0.30465216079196356,
+      "games": 3,
+      "accuracy": 0.3333333333333333,
+      "log_loss": 0.7251187142340217,
+      "brier": 0.26596287036332555,
       "status": "Small sample; descriptive only"
     },
     {

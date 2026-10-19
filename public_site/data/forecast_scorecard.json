@@ -6,18 +6,18 @@
       "provenance": "pregame",
       "version": "20260929T124531Z",
       "summary": {
-        "completed": 12,
+        "completed": 13,
         "ties": 0,
-        "winner_n": 12,
-        "correct": 4,
-        "accuracy": 0.3333333333333333,
+        "winner_n": 13,
+        "correct": 5,
+        "accuracy": 0.38461538461538464,
         "accuracy_ci95": [
-          0.13811783989736134,
-          0.609382412602386
+          0.17709446581236818,
+          0.6447751902773146
         ],
-        "timestamped_winner_n": 12,
-        "log_loss": 0.8353839458226627,
-        "brier": 0.317740812993212,
+        "timestamped_winner_n": 13,
+        "log_loss": 0.8149410148758676,
+        "brier": 0.3078056958018918,
         "calibration": [
           {
             "lower": 0.0,
@@ -77,12 +77,12 @@
           {
             "lower": 0.5,
             "upper": 0.6,
-            "n": 2,
-            "predicted": 0.50851152885,
-            "observed": 0.0,
+            "n": 3,
+            "predicted": 0.5275867103333333,
+            "observed": 0.3333333333333333,
             "observed_ci95": [
-              0.0,
-              0.6576280471103807
+              0.0614903152761605,
+              0.7923450448735121
             ]
           },
           {
@@ -138,31 +138,31 @@
           "correct": 0,
           "n": 0,
           "pushes": 0,
-          "excluded": 12
+          "excluded": 13
         },
         "total": {
           "correct": 0,
           "n": 0,
           "pushes": 0,
-          "excluded": 12
+          "excluded": 13
         }
       },
       "weeks": [
         {
           "season": 2026,
           "week": 6,
-          "completed": 12,
+          "completed": 13,
           "ties": 0,
-          "winner_n": 12,
-          "correct": 4,
-          "accuracy": 0.3333333333333333,
+          "winner_n": 13,
+          "correct": 5,
+          "accuracy": 0.38461538461538464,
           "accuracy_ci95": [
-            0.13811783989736134,
-            0.609382412602386
+            0.17709446581236818,
+            0.6447751902773146
           ],
-          "timestamped_winner_n": 12,
-          "log_loss": 0.8353839458226627,
-          "brier": 0.317740812993212,
+          "timestamped_winner_n": 13,
+          "log_loss": 0.8149410148758676,
+          "brier": 0.3078056958018918,
           "calibration": [
             {
               "lower": 0.0,
@@ -222,12 +222,12 @@
             {
               "lower": 0.5,
               "upper": 0.6,
-              "n": 2,
-              "predicted": 0.50851152885,
-              "observed": 0.0,
+              "n": 3,
+              "predicted": 0.5275867103333333,
+              "observed": 0.3333333333333333,
               "observed_ci95": [
-                0.0,
-                0.6576280471103807
+                0.0614903152761605,
+                0.7923450448735121
               ]
             },
             {
@@ -283,13 +283,13 @@
             "correct": 0,
             "n": 0,
             "pushes": 0,
-            "excluded": 12
+            "excluded": 13
           },
           "total": {
             "correct": 0,
             "n": 0,
             "pushes": 0,
-            "excluded": 12
+            "excluded": 13
           }
         }
       ]
@@ -1466,7 +1466,7 @@
       "provenance": "pregame",
       "version": "scores_20260930T205050Z",
       "summary": {
-        "completed": 43,
+        "completed": 44,
         "ties": 1,
         "winner_n": 0,
         "correct": 0,
@@ -1590,19 +1590,19 @@
             ]
           }
         ],
-        "score_n": 43,
-        "team_score_mae": 6.6906976744186055,
-        "margin_mae": 8.399999999999999,
-        "total_mae": 10.967441860465115,
+        "score_n": 44,
+        "team_score_mae": 6.682954545454544,
+        "margin_mae": 8.384090909090908,
+        "total_mae": 11.006818181818181,
         "spread": {
-          "correct": 21,
-          "n": 41,
+          "correct": 22,
+          "n": 42,
           "pushes": 2,
           "excluded": 0
         },
         "total": {
-          "correct": 18,
-          "n": 42,
+          "correct": 19,
+          "n": 43,
           "pushes": 0,
           "excluded": 1
         }
@@ -1899,7 +1899,7 @@
         {
           "season": 2026,
           "week": 6,
-          "completed": 12,
+          "completed": 13,
           "ties": 0,
           "winner_n": 0,
           "correct": 0,
@@ -2023,19 +2023,19 @@
               ]
             }
           ],
-          "score_n": 12,
-          "team_score_mae": 6.429166666666666,
-          "margin_mae": 7.375,
-          "total_mae": 11.308333333333332,
+          "score_n": 13,
+          "team_score_mae": 6.423076923076923,
+          "margin_mae": 7.400000000000001,
+          "total_mae": 11.415384615384616,
           "spread": {
-            "correct": 6,
-            "n": 12,
+            "correct": 7,
+            "n": 13,
             "pushes": 0,
             "excluded": 0
           },
           "total": {
-            "correct": 3,
-            "n": 12,
+            "correct": 4,
+            "n": 13,
             "pushes": 0,
             "excluded": 0
           }

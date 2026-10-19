@@ -25483,30 +25483,30 @@
     "20260929T124531Z": [
       {
         "kind": "poisson",
-        "games": 12,
+        "games": 13,
         "status": "Shadow only; human review required",
-        "challenger_log_loss": 1.01100992821231,
-        "production_log_loss": 0.8384887887043209,
-        "challenger_brier": 0.37822683453682204,
-        "production_brier": 0.3192132693823912
+        "challenger_log_loss": 0.9942237907482758,
+        "production_log_loss": 0.8186505210053506,
+        "challenger_brier": 0.37218387508939244,
+        "production_brier": 0.3095800088494335
       },
       {
         "kind": "negative_binomial",
-        "games": 12,
+        "games": 13,
         "status": "Shadow only; human review required",
-        "challenger_log_loss": 0.7990821823858352,
-        "production_log_loss": 0.8384887887043209,
-        "challenger_brier": 0.3019002841970395,
-        "production_brier": 0.3192132693823912
+        "challenger_log_loss": 0.7943108308996654,
+        "production_log_loss": 0.8186505210053506,
+        "challenger_brier": 0.299595651839288,
+        "production_brier": 0.3095800088494335
       },
       {
         "kind": "correlated_negative_binomial",
-        "games": 12,
+        "games": 13,
         "status": "Shadow only; human review required",
-        "challenger_log_loss": 0.7982612936891084,
-        "production_log_loss": 0.8384887887043209,
-        "challenger_brier": 0.3013295875354149,
-        "production_brier": 0.3192132693823912
+        "challenger_log_loss": 0.7938022130421616,
+        "production_log_loss": 0.8186505210053506,
+        "challenger_brier": 0.29919317087205266,
+        "production_brier": 0.3095800088494335
       }
     ]
   },

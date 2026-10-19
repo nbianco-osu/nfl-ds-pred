@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "observations": 237,
+  "observations": 259,
   "games": [
     {
       "game_id": "2026_01_NE_SEA",
@@ -870,14 +870,14 @@
           "source_url": "https://api.open-meteo.com/v1/forecast?latitude=37.4031837&longitude=-121.9698094&hourly=temperature_2m%2Cwind_speed_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&timezone=UTC&forecast_days=16",
           "published_at": null,
           "timestamp_basis": "observed_at; provider issue time unavailable",
-          "observed_at": "2026-10-19T00:30:34.632786+00:00",
+          "observed_at": "2026-10-19T06:18:56.757807+00:00",
           "kickoff_at_observation": "2026-10-20T00:15:00+00:00",
           "valid_at": "2026-10-20T00:00:00+00:00",
-          "temperature_f": 62.0,
-          "wind_mph": 10.8,
-          "response_sha256": "6b3b95e823151c4d5d2a1e880c161ac82a1b77e229256b3436a6e9b2964c5bbc",
+          "temperature_f": 59.9,
+          "wind_mph": 12.5,
+          "response_sha256": "21a46a5059ed42025be29eb9fa3c71896ce6a69ba9aaef25a22c455cb7eaae5f",
           "verification": "Retrieved public forecast; outdoor stadium conditions, not indoor playing conditions",
-          "id": "ea03373138108a36c7a70e3f33986c6cc70f5b6b0a7fbbf9110f8849ff2c417f"
+          "id": "e0bdcc60a9fead980e0f607c2737ce13ded97825c47a30b1c56168396a3873f7"
         }
       }
     },
@@ -896,14 +896,14 @@
           "source_url": "https://api.open-meteo.com/v1/forecast?latitude=41.8624598&longitude=-87.6167762&hourly=temperature_2m%2Cwind_speed_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&timezone=UTC&forecast_days=16",
           "published_at": null,
           "timestamp_basis": "observed_at; provider issue time unavailable",
-          "observed_at": "2026-10-19T00:30:35.078472+00:00",
+          "observed_at": "2026-10-19T06:18:57.166577+00:00",
           "kickoff_at_observation": "2026-10-23T00:15:00+00:00",
           "valid_at": "2026-10-23T00:00:00+00:00",
-          "temperature_f": 63.0,
-          "wind_mph": 4.1,
-          "response_sha256": "0746fc5222187adb8a3a86a3584809b87a41ffb7d0d4ba6c6358a4ab8de64a38",
+          "temperature_f": 63.4,
+          "wind_mph": 4.3,
+          "response_sha256": "4a0f594a1cfd94120de851e1cb73f297396cc4b485affa483bc2946da3fe9f8f",
           "verification": "Retrieved public forecast; outdoor stadium conditions, not indoor playing conditions",
-          "id": "87dfcbfe0d2cbc030f6647456bc899ef4a8c498f4299b2f8a5f0a7d82c9bcb39"
+          "id": "626902f312fb93a42a567d11825aa6e1c9014ea23ff27cf4e3eb0b9648a6bd69"
         }
       }
     },
@@ -929,14 +929,14 @@
           "source_url": "https://api.open-meteo.com/v1/forecast?latitude=33.7555052&longitude=-84.4008484&hourly=temperature_2m%2Cwind_speed_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&timezone=UTC&forecast_days=16",
           "published_at": null,
           "timestamp_basis": "observed_at; provider issue time unavailable",
-          "observed_at": "2026-10-19T00:30:35.542201+00:00",
+          "observed_at": "2026-10-19T06:18:57.549748+00:00",
           "kickoff_at_observation": "2026-10-25T17:00:00+00:00",
           "valid_at": "2026-10-25T17:00:00+00:00",
-          "temperature_f": 65.9,
-          "wind_mph": 7.4,
-          "response_sha256": "d8791def09ecdbec895c6fe0195e606bf42ff58a0f4feb5256c9d132e88570fd",
+          "temperature_f": 65.8,
+          "wind_mph": 9.8,
+          "response_sha256": "2cafa57d91d4ad9c14f064534af44f6f0f0b5ba9ce47ecbc073664181f8efec6",
           "verification": "Retrieved public forecast; outdoor stadium conditions, not indoor playing conditions",
-          "id": "0913984869712c9739da2e1f9c67f62bfaca0c13b6363c4e05224c5642d8bc58"
+          "id": "0ef224224a4f4facde7f058139b0f44d86e24c93b760216223697fbd82a3e4f9"
         }
       }
     },
@@ -955,14 +955,14 @@
           "source_url": "https://api.open-meteo.com/v1/forecast?latitude=39.277958&longitude=-76.6227221&hourly=temperature_2m%2Cwind_speed_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&timezone=UTC&forecast_days=16",
           "published_at": null,
           "timestamp_basis": "observed_at; provider issue time unavailable",
-          "observed_at": "2026-10-19T00:30:36.039597+00:00",
+          "observed_at": "2026-10-19T06:18:57.953945+00:00",
           "kickoff_at_observation": "2026-10-25T17:00:00+00:00",
           "valid_at": "2026-10-25T17:00:00+00:00",
-          "temperature_f": 62.1,
-          "wind_mph": 5.0,
-          "response_sha256": "32807b9b0b988446b44689a8a77da633186de3b1c33b758645af68a33feab3dc",
+          "temperature_f": 61.0,
+          "wind_mph": 5.9,
+          "response_sha256": "f20a8c40fd1a4b74dd0ca1d1c47a296faa4e62cc589d3f9042db5aa88854d052",
           "verification": "Retrieved public forecast; outdoor stadium conditions, not indoor playing conditions",
-          "id": "74871e08dfc6391abf7d1792d2b31ee13811088404a7925f01bffdb75f2d5e22"
+          "id": "cbd9a72936881bab1944037875864d54e68180355c362bef037d5f91379b4d7d"
         }
       }
     },
@@ -981,14 +981,14 @@
           "source_url": "https://api.open-meteo.com/v1/forecast?latitude=35.2258152&longitude=-80.8528376&hourly=temperature_2m%2Cwind_speed_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&timezone=UTC&forecast_days=16",
           "published_at": null,
           "timestamp_basis": "observed_at; provider issue time unavailable",
-          "observed_at": "2026-10-19T00:30:36.543923+00:00",
+          "observed_at": "2026-10-19T06:18:58.464016+00:00",
           "kickoff_at_observation": "2026-10-25T17:00:00+00:00",
           "valid_at": "2026-10-25T17:00:00+00:00",
-          "temperature_f": 63.7,
-          "wind_mph": 5.5,
-          "response_sha256": "f5349c67fd0fed2a3e25e7aa82f22041acac21fc14e610cd852796c9ac1516c2",
+          "temperature_f": 64.0,
+          "wind_mph": 7.1,
+          "response_sha256": "ff66e2bcf1b12a58529de12ae31ebfdae4aa221a2ab072587f97c421791441ea",
           "verification": "Retrieved public forecast; outdoor stadium conditions, not indoor playing conditions",
-          "id": "8ed75ce2216eb68e1f54edf2d9973cf6e70e29447171bd1e3096c046f0bbdfb8"
+          "id": "44de307c34c6031d5d49ad0d2a367bae8626492ecd6631b24dc8712069eef17a"
         }
       }
     },
@@ -1007,14 +1007,14 @@
           "source_url": "https://api.open-meteo.com/v1/forecast?latitude=29.6849239&longitude=-95.41082&hourly=temperature_2m%2Cwind_speed_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&timezone=UTC&forecast_days=16",
           "published_at": null,
           "timestamp_basis": "observed_at; provider issue time unavailable",
-          "observed_at": "2026-10-19T00:30:37.004799+00:00",
+          "observed_at": "2026-10-19T06:18:58.965224+00:00",
           "kickoff_at_observation": "2026-10-25T17:00:00+00:00",
           "valid_at": "2026-10-25T17:00:00+00:00",
-          "temperature_f": 78.3,
-          "wind_mph": 9.1,
-          "response_sha256": "9b5ce5f20907eb97d65cb73765d9b300ff4c4447d8d53595be46641ad5bc74c3",
+          "temperature_f": 76.8,
+          "wind_mph": 8.5,
+          "response_sha256": "9128a1158b68cfafc7459880678905d04f15bf390cae1d0175d29f8f6212e4e9",
           "verification": "Retrieved public forecast; outdoor stadium conditions, not indoor playing conditions",
-          "id": "6f79e52b06a71c25a615abbb894c458796549714aeea63df8bac745309541639"
+          "id": "8efe28f7e9a5e4bade92d739ad64c7671684f5593e34eb2e85f777d80c98878b"
         }
       }
     },
@@ -1040,14 +1040,14 @@
           "source_url": "https://api.open-meteo.com/v1/forecast?latitude=40.813507465&longitude=-74.074342406&hourly=temperature_2m%2Cwind_speed_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&timezone=UTC&forecast_days=16",
           "published_at": null,
           "timestamp_basis": "observed_at; provider issue time unavailable",
-          "observed_at": "2026-10-19T00:30:37.466063+00:00",
+          "observed_at": "2026-10-19T06:18:59.365578+00:00",
           "kickoff_at_observation": "2026-10-25T17:00:00+00:00",
           "valid_at": "2026-10-25T17:00:00+00:00",
-          "temperature_f": 59.5,
-          "wind_mph": 7.9,
-          "response_sha256": "17e0c853e82317481c0c4210fec72e26a54fc3ec96c812f471e9cd0fbab96680",
+          "temperature_f": 59.8,
+          "wind_mph": 6.4,
+          "response_sha256": "f55893510923e3e1b0667e4a54198936e22de94e7ea87fc03d2cdbb0d71d2ea3",
           "verification": "Retrieved public forecast; outdoor stadium conditions, not indoor playing conditions",
-          "id": "011051b363cbdb174974b0aba73533c4b7ce40bf6ca80b4003e10dbdcec97d92"
+          "id": "2a5fa9ce7872479483a25d775b61f7fcfea7cdb23a3740ca3e131a0cb057dbfa"
         }
       }
     },
@@ -1066,14 +1066,14 @@
           "source_url": "https://api.open-meteo.com/v1/forecast?latitude=36.1664774&longitude=-86.7712938&hourly=temperature_2m%2Cwind_speed_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&timezone=UTC&forecast_days=16",
           "published_at": null,
           "timestamp_basis": "observed_at; provider issue time unavailable",
-          "observed_at": "2026-10-19T00:30:37.909207+00:00",
+          "observed_at": "2026-10-19T06:18:59.741645+00:00",
           "kickoff_at_observation": "2026-10-25T17:00:00+00:00",
           "valid_at": "2026-10-25T17:00:00+00:00",
-          "temperature_f": 69.4,
-          "wind_mph": 5.1,
-          "response_sha256": "3a96facfe6de43fc8ba696aa3c4f52905a994d52c05627bc9a0d69a8e0b3a311",
+          "temperature_f": 68.1,
+          "wind_mph": 5.0,
+          "response_sha256": "762d467833b76e83c8d02c104197c43a59db0b07b9404bfee9dc7c79f4e6c461",
           "verification": "Retrieved public forecast; outdoor stadium conditions, not indoor playing conditions",
-          "id": "c9df169e4d65419939ab5771a673696b60f83a85de68473319851757849e795e"
+          "id": "b4cc88edaca57df1c01fe5d754f29cf0142f4050d56aac1cb2398b5076fa4288"
         }
       }
     },
@@ -1092,14 +1092,14 @@
           "source_url": "https://api.open-meteo.com/v1/forecast?latitude=33.5277555&longitude=-112.2625948&hourly=temperature_2m%2Cwind_speed_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&timezone=UTC&forecast_days=16",
           "published_at": null,
           "timestamp_basis": "observed_at; provider issue time unavailable",
-          "observed_at": "2026-10-19T00:30:38.472369+00:00",
+          "observed_at": "2026-10-19T06:19:00.143408+00:00",
           "kickoff_at_observation": "2026-10-25T20:05:00+00:00",
           "valid_at": "2026-10-25T20:00:00+00:00",
-          "temperature_f": 80.6,
-          "wind_mph": 15.5,
-          "response_sha256": "7349cdeaf14e6bd408f4fb80e549fa6ae45c5e92194405dee80bfeb712c7b303",
+          "temperature_f": 88.2,
+          "wind_mph": 13.9,
+          "response_sha256": "032851202cdce28a2fe8fbece2921042c7aaceb3326500a87446cebc34346061",
           "verification": "Retrieved public forecast; outdoor stadium conditions, not indoor playing conditions",
-          "id": "5811d36fa4197d35b9a67f5e68ff69ee9124a99d25c5daaed5fb817219406445"
+          "id": "60829d9173183a21d71db12df819b7473b15ce446d4c02b41fdaca4e90ce8051"
         }
       }
     },
@@ -1132,14 +1132,14 @@
           "source_url": "https://api.open-meteo.com/v1/forecast?latitude=47.5951513&longitude=-122.3316259&hourly=temperature_2m%2Cwind_speed_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&timezone=UTC&forecast_days=16",
           "published_at": null,
           "timestamp_basis": "observed_at; provider issue time unavailable",
-          "observed_at": "2026-10-19T00:30:38.897410+00:00",
+          "observed_at": "2026-10-19T06:19:00.519115+00:00",
           "kickoff_at_observation": "2026-10-26T00:20:00+00:00",
           "valid_at": "2026-10-26T00:00:00+00:00",
-          "temperature_f": 54.4,
-          "wind_mph": 2.3,
-          "response_sha256": "3ed034545470998f8beac84da60c99b958720afad7004ba3a44fcfcb52e2af5c",
+          "temperature_f": 51.8,
+          "wind_mph": 2.1,
+          "response_sha256": "a2181a631f4280c1c3b9c0b6fdb9e988441557bf2312703e1e9403c6d0806023",
           "verification": "Retrieved public forecast; outdoor stadium conditions, not indoor playing conditions",
-          "id": "47974a703de2f57b9b0f1408a2ad75f7301af92243d1c270a26c3cfc23a5e8e1"
+          "id": "ddd4c4ea7649ee7be3e43fb12f750a30ba222708a36d3e0fb898858a75895c4b"
         }
       }
     },
@@ -1158,14 +1158,14 @@
           "source_url": "https://api.open-meteo.com/v1/forecast?latitude=39.9007914&longitude=-75.1674645&hourly=temperature_2m%2Cwind_speed_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&timezone=UTC&forecast_days=16",
           "published_at": null,
           "timestamp_basis": "observed_at; provider issue time unavailable",
-          "observed_at": "2026-10-19T00:30:39.311260+00:00",
+          "observed_at": "2026-10-19T06:19:00.896149+00:00",
           "kickoff_at_observation": "2026-10-27T00:15:00+00:00",
           "valid_at": "2026-10-27T00:00:00+00:00",
-          "temperature_f": 60.3,
-          "wind_mph": 3.9,
-          "response_sha256": "bbb75e34d9d4fa43d396d9d77d081d1fc3a8e28457f63be1ff5035f004e35ce2",
+          "temperature_f": 60.6,
+          "wind_mph": 4.8,
+          "response_sha256": "6ca459a11be8341b9fb09c3de87ecc8bbc10758c82971a1dc2a1e7bd12a69217",
           "verification": "Retrieved public forecast; outdoor stadium conditions, not indoor playing conditions",
-          "id": "542149d64440dd89b856b3247bdfa4cf773ccc91987e3809cf6076180f159b0a"
+          "id": "7fec000a11d62ddb0ab2ad6746c8c9b9be15301b5670692eda9b122bf554f361"
         }
       }
     },
@@ -1184,14 +1184,14 @@
           "source_url": "https://api.open-meteo.com/v1/forecast?latitude=44.5014769&longitude=-88.0621617&hourly=temperature_2m%2Cwind_speed_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&timezone=UTC&forecast_days=16",
           "published_at": null,
           "timestamp_basis": "observed_at; provider issue time unavailable",
-          "observed_at": "2026-10-19T00:30:39.712481+00:00",
+          "observed_at": "2026-10-19T06:19:01.277646+00:00",
           "kickoff_at_observation": "2026-10-30T00:15:00+00:00",
           "valid_at": "2026-10-30T00:00:00+00:00",
-          "temperature_f": 54.4,
-          "wind_mph": 14.3,
-          "response_sha256": "b0df3c8bbafbcc4aa864adbfdb3b83ef92220c9a003d389294701db9c245247d",
+          "temperature_f": 34.6,
+          "wind_mph": 4.9,
+          "response_sha256": "596d7833d617626c152dee7f8d6b852eb92d3a2736f5377ed2cbfdefc2f626c1",
           "verification": "Retrieved public forecast; outdoor stadium conditions, not indoor playing conditions",
-          "id": "24c19bfc18b2ce88661250de41c9000b3534157297164340fc68b8b7bcd99ebe"
+          "id": "9bff134b735eb83e6329583d899889a597cd2f83a8dd4ced0d7edc74a415e47a"
         }
       }
     },
@@ -1210,14 +1210,14 @@
           "source_url": "https://api.open-meteo.com/v1/forecast?latitude=42.7737531&longitude=-78.786954&hourly=temperature_2m%2Cwind_speed_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&timezone=UTC&forecast_days=16",
           "published_at": null,
           "timestamp_basis": "observed_at; provider issue time unavailable",
-          "observed_at": "2026-10-19T00:30:40.126149+00:00",
+          "observed_at": "2026-10-19T06:19:01.679252+00:00",
           "kickoff_at_observation": "2026-11-01T18:00:00+00:00",
           "valid_at": "2026-11-01T18:00:00+00:00",
-          "temperature_f": 56.8,
-          "wind_mph": 13.3,
-          "response_sha256": "ef5a93bde1b1cf4ee6f618b5c227360dab272425ee1e2191b1c4b66a7823672c",
+          "temperature_f": 56.1,
+          "wind_mph": 6.4,
+          "response_sha256": "8aeb417ebfb64ec577ca22fab69ef0095e9f673f88aeba3a4c04debc21750c58",
           "verification": "Retrieved public forecast; outdoor stadium conditions, not indoor playing conditions",
-          "id": "7353bbaedb0cc15aad17ab28e93ad4a9907b9df6cdc7784673874eb6f47fce96"
+          "id": "ecd986e115f5fd86c2749af45194db255912721e08f84f699bd391ef8dfd9c1c"
         }
       }
     },
@@ -1236,14 +1236,14 @@
           "source_url": "https://api.open-meteo.com/v1/forecast?latitude=39.0954306&longitude=-84.5160435&hourly=temperature_2m%2Cwind_speed_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&timezone=UTC&forecast_days=16",
           "published_at": null,
           "timestamp_basis": "observed_at; provider issue time unavailable",
-          "observed_at": "2026-10-19T00:30:40.520644+00:00",
+          "observed_at": "2026-10-19T06:19:02.068752+00:00",
           "kickoff_at_observation": "2026-11-01T18:00:00+00:00",
           "valid_at": "2026-11-01T18:00:00+00:00",
-          "temperature_f": 60.1,
-          "wind_mph": 17.9,
-          "response_sha256": "82f286f7c522645a32a12a2a12e29b845c0efce6e3b133ceb36e4421bbe8bad3",
+          "temperature_f": 61.2,
+          "wind_mph": 4.7,
+          "response_sha256": "c9f0444e7f198450630b69928b4ab866479248412512c6cb7ed43f19830d967a",
           "verification": "Retrieved public forecast; outdoor stadium conditions, not indoor playing conditions",
-          "id": "4e7bbb8cd1ecd86b7d2f4459a92009d9903aa98ebc2552f3d294d854e18c8e7c"
+          "id": "ffe53af8519d639389a22edc37fbd641409234d6ded641af36684348dd51cb89"
         }
       }
     },
@@ -1262,14 +1262,14 @@
           "source_url": "https://api.open-meteo.com/v1/forecast?latitude=32.7479723&longitude=-97.0928461&hourly=temperature_2m%2Cwind_speed_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&timezone=UTC&forecast_days=16",
           "published_at": null,
           "timestamp_basis": "observed_at; provider issue time unavailable",
-          "observed_at": "2026-10-19T00:30:40.914833+00:00",
+          "observed_at": "2026-10-19T06:19:02.497717+00:00",
           "kickoff_at_observation": "2026-11-01T18:00:00+00:00",
           "valid_at": "2026-11-01T18:00:00+00:00",
-          "temperature_f": 68.8,
-          "wind_mph": 5.3,
-          "response_sha256": "e8782f48195ca6a335ee35bf92aa634700a55edf1d155923b0ac2d565700c48d",
+          "temperature_f": 69.8,
+          "wind_mph": 11.3,
+          "response_sha256": "9a6ffbbc267c0c309bb2077bf3fa514de2bfa635fd38bb645328d98320095b56",
           "verification": "Retrieved public forecast; outdoor stadium conditions, not indoor playing conditions",
-          "id": "e8809851449a2c63be5543893458792228e77f111ade1284ae54ff465d182de9"
+          "id": "17b75b407c922df704b0dfea3cc8ac047fabb11b54c130901c3f11e488835109"
         }
       }
     },
@@ -1295,14 +1295,14 @@
           "source_url": "https://api.open-meteo.com/v1/forecast?latitude=30.3239164&longitude=-81.6373486&hourly=temperature_2m%2Cwind_speed_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&timezone=UTC&forecast_days=16",
           "published_at": null,
           "timestamp_basis": "observed_at; provider issue time unavailable",
-          "observed_at": "2026-10-19T00:30:41.311337+00:00",
+          "observed_at": "2026-10-19T06:19:02.874182+00:00",
           "kickoff_at_observation": "2026-11-01T18:00:00+00:00",
           "valid_at": "2026-11-01T18:00:00+00:00",
-          "temperature_f": 89.9,
-          "wind_mph": 1.3,
-          "response_sha256": "5ec8e878b11826456a519c15e0ebebb86ff84c5b896627c25c9548eb9f34edf0",
+          "temperature_f": 66.1,
+          "wind_mph": 14.6,
+          "response_sha256": "27204ec3ebc8396108e924efcdeab6e95ab86c889973f548dbff40e1a1ee16d7",
           "verification": "Retrieved public forecast; outdoor stadium conditions, not indoor playing conditions",
-          "id": "05e2c462051db39229c6f8d9fc971299a7f0e21a4fcf987c9e7b60166667901b"
+          "id": "181facd99d6c6b76973a292c82902644847021feb5e716037562fc51d0187346"
         }
       }
     },
@@ -1321,14 +1321,14 @@
           "source_url": "https://api.open-meteo.com/v1/forecast?latitude=40.813507465&longitude=-74.074342406&hourly=temperature_2m%2Cwind_speed_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&timezone=UTC&forecast_days=16",
           "published_at": null,
           "timestamp_basis": "observed_at; provider issue time unavailable",
-          "observed_at": "2026-10-19T00:30:37.466063+00:00",
+          "observed_at": "2026-10-19T06:18:59.365578+00:00",
           "kickoff_at_observation": "2026-11-01T18:00:00+00:00",
           "valid_at": "2026-11-01T18:00:00+00:00",
-          "temperature_f": 68.6,
-          "wind_mph": 8.8,
-          "response_sha256": "17e0c853e82317481c0c4210fec72e26a54fc3ec96c812f471e9cd0fbab96680",
+          "temperature_f": 55.1,
+          "wind_mph": 2.7,
+          "response_sha256": "f55893510923e3e1b0667e4a54198936e22de94e7ea87fc03d2cdbb0d71d2ea3",
           "verification": "Retrieved public forecast; outdoor stadium conditions, not indoor playing conditions",
-          "id": "46508daa8f58905ea7ac7988f949d377756f24ef98e8636bb09a6440383927be"
+          "id": "5e0e08b1368e4c0886523266b4f056c8cd193bd3d2dda049fd7a3a38fe099c8f"
         }
       }
     },
@@ -1347,14 +1347,14 @@
           "source_url": "https://api.open-meteo.com/v1/forecast?latitude=40.4467883&longitude=-80.0157692&hourly=temperature_2m%2Cwind_speed_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&timezone=UTC&forecast_days=16",
           "published_at": null,
           "timestamp_basis": "observed_at; provider issue time unavailable",
-          "observed_at": "2026-10-18T20:59:08.844229+00:00",
+          "observed_at": "2026-10-19T06:19:03.250929+00:00",
           "kickoff_at_observation": "2026-11-01T18:00:00+00:00",
           "valid_at": "2026-11-01T18:00:00+00:00",
-          "temperature_f": 68.6,
-          "wind_mph": 4.7,
-          "response_sha256": "094b740939172b6bc4bce6637f67c61bb773e56546809ced340a5604cf13c03d",
+          "temperature_f": 55.6,
+          "wind_mph": 2.9,
+          "response_sha256": "d89bdbb7e001fd0952d3d781a439da70b049c07ad6732fee6a3adcb49cbedda4",
           "verification": "Retrieved public forecast; outdoor stadium conditions, not indoor playing conditions",
-          "id": "3b0e66d1385096adea0ba68cabe02ae228c0ad8503c58303a727c8e6d41697b0"
+          "id": "ec646abc1ed92471d2289ab322e5922915de77fb3e3dcc91d9d1e2cb7ec3e886"
         }
       }
     },
@@ -1373,14 +1373,14 @@
           "source_url": "https://api.open-meteo.com/v1/forecast?latitude=27.9759691&longitude=-82.503356&hourly=temperature_2m%2Cwind_speed_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&timezone=UTC&forecast_days=16",
           "published_at": null,
           "timestamp_basis": "observed_at; provider issue time unavailable",
-          "observed_at": "2026-10-19T00:31:12.076264+00:00",
+          "observed_at": "2026-10-19T06:19:03.672502+00:00",
           "kickoff_at_observation": "2026-11-01T18:00:00+00:00",
           "valid_at": "2026-11-01T18:00:00+00:00",
-          "temperature_f": 86.3,
-          "wind_mph": 6.4,
-          "response_sha256": "4907971a41d4f9e00a5ccdfeed135dbd46919c4d8947b654c7517156a693a69f",
+          "temperature_f": 76.6,
+          "wind_mph": 16.6,
+          "response_sha256": "7d5610b983c4ab83e4b8167377bc87995ee1a95d5e95cf2ca2ebc0c3a122e1a6",
           "verification": "Retrieved public forecast; outdoor stadium conditions, not indoor playing conditions",
-          "id": "8c4fd1e9df4c66f01e1f47dce365f3f18ba3cd9b7997e149b3430ab6af2ebeef"
+          "id": "f0d519d336df073f4165120134db7000e1f4affc40872ea4d005c611d1b49e65"
         }
       }
     },
@@ -1406,14 +1406,14 @@
           "source_url": "https://api.open-meteo.com/v1/forecast?latitude=39.7439402&longitude=-105.0201065&hourly=temperature_2m%2Cwind_speed_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&timezone=UTC&forecast_days=16",
           "published_at": null,
           "timestamp_basis": "observed_at; provider issue time unavailable",
-          "observed_at": "2026-10-19T00:31:12.473217+00:00",
+          "observed_at": "2026-10-19T06:19:04.097449+00:00",
           "kickoff_at_observation": "2026-11-01T21:25:00+00:00",
           "valid_at": "2026-11-01T21:00:00+00:00",
-          "temperature_f": 62.6,
-          "wind_mph": 13.5,
-          "response_sha256": "44661746383a0e204fb00e6ea9b012fee161e663bd55cdc0faf5503f549fa26a",
+          "temperature_f": 68.3,
+          "wind_mph": 2.4,
+          "response_sha256": "6757dca5af4defc16ed17a9ee5103af953c818307e0a3c1ab03daf427631e8dc",
           "verification": "Retrieved public forecast; outdoor stadium conditions, not indoor playing conditions",
-          "id": "9e909d2fe9a68fe6818cd0cb6f07c2ba60123f69fcc8894b1bf43a1d10df96ab"
+          "id": "aaafba8036e2d2f9ecc76ad2768db6ed35734013a1614b57cad9fc54cae1b811"
         }
       }
     },
@@ -1458,14 +1458,14 @@
           "source_url": "https://api.open-meteo.com/v1/forecast?latitude=38.907703&longitude=-76.8645083&hourly=temperature_2m%2Cwind_speed_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&timezone=UTC&forecast_days=16",
           "published_at": null,
           "timestamp_basis": "observed_at; provider issue time unavailable",
-          "observed_at": "2026-10-19T00:31:13.278849+00:00",
+          "observed_at": "2026-10-19T06:19:34.623478+00:00",
           "kickoff_at_observation": "2026-11-02T01:20:00+00:00",
           "valid_at": "2026-11-02T01:00:00+00:00",
-          "temperature_f": 70.4,
-          "wind_mph": 14.9,
-          "response_sha256": "47a8afffc0f48fe31392cb3c66191bd7411784a939388896bfdef72881e60839",
+          "temperature_f": 44.8,
+          "wind_mph": 1.7,
+          "response_sha256": "59169bf102b38387b294391c2ffc1d02b45fc110e55be145b932e6394dde8c12",
           "verification": "Retrieved public forecast; outdoor stadium conditions, not indoor playing conditions",
-          "id": "3fd6c273ad6951fd392570d78ef2dccbd996b6d179b016a1e050f958d5dcc692"
+          "id": "cfb65a0c6c22aac1d82ddeccb1ca478f3ccd3ecf9967ce722b474e62a0d64551"
         }
       }
     },
@@ -1474,7 +1474,26 @@
       "week": 8,
       "home_team": "SEA",
       "away_team": "CHI",
-      "observations": {}
+      "observations": {
+        "weather": {
+          "kind": "weather",
+          "game_id": "2026_08_CHI_SEA",
+          "season": 2026,
+          "stadium_id": "SEA00",
+          "provider": "Open-Meteo",
+          "source_url": "https://api.open-meteo.com/v1/forecast?latitude=47.5951513&longitude=-122.3316259&hourly=temperature_2m%2Cwind_speed_10m&temperature_unit=fahrenheit&wind_speed_unit=mph&timezone=UTC&forecast_days=16",
+          "published_at": null,
+          "timestamp_basis": "observed_at; provider issue time unavailable",
+          "observed_at": "2026-10-19T06:19:00.519115+00:00",
+          "kickoff_at_observation": "2026-11-03T01:15:00+00:00",
+          "valid_at": "2026-11-03T01:00:00+00:00",
+          "temperature_f": 52.3,
+          "wind_mph": 4.8,
+          "response_sha256": "a2181a631f4280c1c3b9c0b6fdb9e988441557bf2312703e1e9403c6d0806023",
+          "verification": "Retrieved public forecast; outdoor stadium conditions, not indoor playing conditions",
+          "id": "9cda8e37000c72743043f8db7b2634955ef2f939e2c14876731944711d51500c"
+        }
+      }
     },
     {
       "game_id": "2026_09_JAX_BAL",

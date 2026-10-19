@@ -54074,9 +54074,9 @@
           "offense_plays": 277,
           "defense_plays": 317,
           "epa_plays": 594,
-          "offense_epa": 0.1305969347362353,
-          "defense_epa_prevented": 0.02722521677485181,
-          "net_epa": 0.1578221515110871,
+          "offense_epa": 0.1313021961367969,
+          "defense_epa_prevented": 0.026446811011977114,
+          "net_epa": 0.157749007148774,
           "sack_differential_per_game": 1.6,
           "sack_rate_differential": 0.03909277794628113,
           "big_play_differential_per_game": 4.8,
@@ -54088,9 +54088,9 @@
           "offense_plays": 355,
           "defense_plays": 354,
           "epa_plays": 709,
-          "offense_epa": 0.10789218249063602,
-          "defense_epa_prevented": 0.017585127980942587,
-          "net_epa": 0.12547731047157862,
+          "offense_epa": 0.10838380662990538,
+          "defense_epa_prevented": 0.016822714053399378,
+          "net_epa": 0.12520652068330476,
           "sack_differential_per_game": 0.16666666666666666,
           "sack_rate_differential": -0.0025409433519099772,
           "big_play_differential_per_game": 1.6666666666666667,
@@ -54102,9 +54102,9 @@
           "offense_plays": 304,
           "defense_plays": 315,
           "epa_plays": 619,
-          "offense_epa": 0.08989494131370318,
-          "defense_epa_prevented": 0.031435343009426915,
-          "net_epa": 0.12133028432313009,
+          "offense_epa": 0.09062025300582204,
+          "defense_epa_prevented": 0.030662608922296695,
+          "net_epa": 0.12128286192811873,
           "sack_differential_per_game": 0.4,
           "sack_rate_differential": 0.005318246110325317,
           "big_play_differential_per_game": 3.2,
@@ -54116,9 +54116,9 @@
           "offense_plays": 338,
           "defense_plays": 328,
           "epa_plays": 666,
-          "offense_epa": 0.06451607078255432,
-          "defense_epa_prevented": 0.003033489540192345,
-          "net_epa": 0.06754956032274667,
+          "offense_epa": 0.06519255519227224,
+          "defense_epa_prevented": 0.0028698846008459126,
+          "net_epa": 0.06806243979311816,
           "sack_differential_per_game": -0.2,
           "sack_rate_differential": -0.003854210305823204,
           "big_play_differential_per_game": 2.6,
@@ -54130,9 +54130,9 @@
           "offense_plays": 308,
           "defense_plays": 300,
           "epa_plays": 608,
-          "offense_epa": 0.05336297129410207,
-          "defense_epa_prevented": 0.010893161982565909,
-          "net_epa": 0.06425613327666799,
+          "offense_epa": 0.05329448729123697,
+          "defense_epa_prevented": 0.010760003078100513,
+          "net_epa": 0.06405449036933748,
           "sack_differential_per_game": 1.6,
           "sack_rate_differential": 0.04306184012066364,
           "big_play_differential_per_game": -2.4,
@@ -54144,9 +54144,9 @@
           "offense_plays": 361,
           "defense_plays": 372,
           "epa_plays": 733,
-          "offense_epa": 0.051830106529853946,
-          "defense_epa_prevented": 0.005916851321914474,
-          "net_epa": 0.05774695785176842,
+          "offense_epa": 0.05403356941989318,
+          "defense_epa_prevented": 0.0020490329300357464,
+          "net_epa": 0.05608260234992893,
           "sack_differential_per_game": 0.16666666666666666,
           "sack_rate_differential": -0.006329388303637232,
           "big_play_differential_per_game": 2.6666666666666665,
@@ -54158,9 +54158,9 @@
           "offense_plays": 380,
           "defense_plays": 344,
           "epa_plays": 724,
-          "offense_epa": 0.030618205045488938,
-          "defense_epa_prevented": 0.023236667710692136,
-          "net_epa": 0.053854872756181074,
+          "offense_epa": 0.03130242513581708,
+          "defense_epa_prevented": 0.022771107333256217,
+          "net_epa": 0.0540735324690733,
           "sack_differential_per_game": 0.5,
           "sack_rate_differential": 0.016178149980966887,
           "big_play_differential_per_game": 2.0,
@@ -54172,9 +54172,9 @@
           "offense_plays": 298,
           "defense_plays": 280,
           "epa_plays": 578,
-          "offense_epa": -0.06350830666415397,
-          "defense_epa_prevented": 0.11207319972505635,
-          "net_epa": 0.04856489306090238,
+          "offense_epa": -0.06037274239685178,
+          "defense_epa_prevented": 0.1103929228366878,
+          "net_epa": 0.050020180439836026,
           "sack_differential_per_game": 0.4,
           "sack_rate_differential": 0.006736772921459078,
           "big_play_differential_per_game": 0.2,
@@ -54186,27 +54186,13 @@
           "offense_plays": 404,
           "defense_plays": 367,
           "epa_plays": 771,
-          "offense_epa": 0.011333700383696306,
-          "defense_epa_prevented": 0.035376313444010966,
-          "net_epa": 0.04671001382770727,
+          "offense_epa": 0.011906927827095149,
+          "defense_epa_prevented": 0.03469753216205106,
+          "net_epa": 0.04660445998914621,
           "sack_differential_per_game": -0.3333333333333333,
           "sack_rate_differential": 0.0018148820326678791,
           "big_play_differential_per_game": 1.1666666666666667,
           "big_play_rate_differential": 0.009840289206032318
-        },
-        {
-          "team": "BUF",
-          "games": 6,
-          "offense_plays": 354,
-          "defense_plays": 411,
-          "epa_plays": 765,
-          "offense_epa": 0.1307987548507774,
-          "defense_epa_prevented": -0.0861314681280684,
-          "net_epa": 0.044667286722709004,
-          "sack_differential_per_game": -0.16666666666666666,
-          "sack_rate_differential": -0.01744663382594417,
-          "big_play_differential_per_game": 2.0,
-          "big_play_rate_differential": 0.051136129324920634
         },
         {
           "team": "CHI",
@@ -54214,13 +54200,41 @@
           "offense_plays": 432,
           "defense_plays": 302,
           "epa_plays": 734,
-          "offense_epa": 0.034068224925622156,
-          "defense_epa_prevented": 0.009500678035060222,
-          "net_epa": 0.04356890296068238,
+          "offense_epa": 0.03710985378005451,
+          "defense_epa_prevented": 0.008004013831916746,
+          "net_epa": 0.04511386761197126,
           "sack_differential_per_game": 0.3333333333333333,
           "sack_rate_differential": 0.02551645658263306,
           "big_play_differential_per_game": 1.5,
           "big_play_rate_differential": -0.012049300956585726
+        },
+        {
+          "team": "BUF",
+          "games": 6,
+          "offense_plays": 354,
+          "defense_plays": 411,
+          "epa_plays": 765,
+          "offense_epa": 0.13122423070467565,
+          "defense_epa_prevented": -0.08672576504922865,
+          "net_epa": 0.044498465655447,
+          "sack_differential_per_game": -0.16666666666666666,
+          "sack_rate_differential": -0.01744663382594417,
+          "big_play_differential_per_game": 2.0,
+          "big_play_rate_differential": 0.051136129324920634
+        },
+        {
+          "team": "GB",
+          "games": 6,
+          "offense_plays": 358,
+          "defense_plays": 395,
+          "epa_plays": 753,
+          "offense_epa": 0.0048602670272933765,
+          "defense_epa_prevented": 0.027586418731249115,
+          "net_epa": 0.03244668575854249,
+          "sack_differential_per_game": 0.3333333333333333,
+          "sack_rate_differential": 0.007282581082225417,
+          "big_play_differential_per_game": 1.6666666666666667,
+          "big_play_rate_differential": 0.03395092284845485
         },
         {
           "team": "SEA",
@@ -54228,9 +54242,9 @@
           "offense_plays": 375,
           "defense_plays": 356,
           "epa_plays": 731,
-          "offense_epa": -0.04668841931986964,
-          "defense_epa_prevented": 0.07909293190410172,
-          "net_epa": 0.032404512584232076,
+          "offense_epa": -0.04622196125535417,
+          "defense_epa_prevented": 0.07851743095967788,
+          "net_epa": 0.03229546970432371,
           "sack_differential_per_game": 0.0,
           "sack_rate_differential": 0.001706994409593307,
           "big_play_differential_per_game": 2.1666666666666665,
@@ -54242,27 +54256,13 @@
           "offense_plays": 370,
           "defense_plays": 379,
           "epa_plays": 749,
-          "offense_epa": -0.0020934036745211683,
-          "defense_epa_prevented": 0.028914543849773017,
-          "net_epa": 0.026821140175251848,
+          "offense_epa": -3.147906244296494e-05,
+          "defense_epa_prevented": 0.024760647852740736,
+          "net_epa": 0.02472916879029777,
           "sack_differential_per_game": 0.6666666666666666,
           "sack_rate_differential": 0.014946962391513982,
           "big_play_differential_per_game": 0.5,
           "big_play_rate_differential": 0.010290237467018473
-        },
-        {
-          "team": "GB",
-          "games": 5,
-          "offense_plays": 290,
-          "defense_plays": 324,
-          "epa_plays": 614,
-          "offense_epa": 0.01720667585394647,
-          "defense_epa_prevented": 0.00467969247259451,
-          "net_epa": 0.021886368326540978,
-          "sack_differential_per_game": 0.8,
-          "sack_rate_differential": 0.02370666378658602,
-          "big_play_differential_per_game": 1.0,
-          "big_play_rate_differential": 0.025202213707960844
         },
         {
           "team": "NYJ",
@@ -54270,27 +54270,13 @@
           "offense_plays": 349,
           "defense_plays": 379,
           "epa_plays": 728,
-          "offense_epa": -0.02471695535993035,
-          "defense_epa_prevented": 0.04025454657713557,
-          "net_epa": 0.015537591217205219,
+          "offense_epa": -0.02077644631280347,
+          "defense_epa_prevented": 0.03856855163517251,
+          "net_epa": 0.01779210532236904,
           "sack_differential_per_game": -0.3333333333333333,
           "sack_rate_differential": -0.015656433132161293,
           "big_play_differential_per_game": -0.16666666666666666,
           "big_play_rate_differential": 0.0046193043070665435
-        },
-        {
-          "team": "DEN",
-          "games": 6,
-          "offense_plays": 342,
-          "defense_plays": 404,
-          "epa_plays": 746,
-          "offense_epa": -0.026304192800684644,
-          "defense_epa_prevented": 0.038706936053104754,
-          "net_epa": 0.01240274325242011,
-          "sack_differential_per_game": 1.6666666666666667,
-          "sack_rate_differential": 0.03485838779956427,
-          "big_play_differential_per_game": -3.1666666666666665,
-          "big_play_rate_differential": -0.03805512130160385
         },
         {
           "team": "DET",
@@ -54298,27 +54284,27 @@
           "offense_plays": 330,
           "defense_plays": 355,
           "epa_plays": 685,
-          "offense_epa": 0.09467670048367774,
-          "defense_epa_prevented": -0.08252297631060534,
-          "net_epa": 0.012153724173072394,
+          "offense_epa": 0.09547638619585753,
+          "defense_epa_prevented": -0.08305984763161829,
+          "net_epa": 0.012416538564239243,
           "sack_differential_per_game": 1.8,
           "sack_rate_differential": 0.028492556442866995,
           "big_play_differential_per_game": -1.0,
           "big_play_rate_differential": -0.006615450277422108
         },
         {
-          "team": "CLE",
+          "team": "DEN",
           "games": 6,
-          "offense_plays": 349,
-          "defense_plays": 376,
-          "epa_plays": 725,
-          "offense_epa": -0.040143024033355686,
-          "defense_epa_prevented": 0.030089256259992394,
-          "net_epa": -0.010053767773363292,
-          "sack_differential_per_game": -0.8333333333333334,
-          "sack_rate_differential": -0.026563043730425714,
-          "big_play_differential_per_game": -3.0,
-          "big_play_rate_differential": -0.04272846430531001
+          "offense_plays": 342,
+          "defense_plays": 404,
+          "epa_plays": 746,
+          "offense_epa": -0.02559653251845038,
+          "defense_epa_prevented": 0.037880026615516205,
+          "net_epa": 0.012283494097065823,
+          "sack_differential_per_game": 1.6666666666666667,
+          "sack_rate_differential": 0.03485838779956427,
+          "big_play_differential_per_game": -3.1666666666666665,
+          "big_play_rate_differential": -0.03805512130160385
         },
         {
           "team": "ATL",
@@ -54326,13 +54312,27 @@
           "offense_plays": 359,
           "defense_plays": 396,
           "epa_plays": 755,
-          "offense_epa": -0.0361694395385445,
-          "defense_epa_prevented": 0.025594494827244716,
-          "net_epa": -0.010574944711299782,
+          "offense_epa": -0.032933700855656244,
+          "defense_epa_prevented": 0.023797233908797257,
+          "net_epa": -0.009136466946858986,
           "sack_differential_per_game": -0.16666666666666666,
           "sack_rate_differential": -0.026721779123246206,
           "big_play_differential_per_game": 1.5,
           "big_play_rate_differential": 0.032617258940378716
+        },
+        {
+          "team": "CLE",
+          "games": 6,
+          "offense_plays": 349,
+          "defense_plays": 376,
+          "epa_plays": 725,
+          "offense_epa": -0.040124381421822196,
+          "defense_epa_prevented": 0.030228933347114174,
+          "net_epa": -0.009895448074708022,
+          "sack_differential_per_game": -0.8333333333333334,
+          "sack_rate_differential": -0.026563043730425714,
+          "big_play_differential_per_game": -3.0,
+          "big_play_rate_differential": -0.04272846430531001
         },
         {
           "team": "PIT",
@@ -54340,9 +54340,9 @@
           "offense_plays": 375,
           "defense_plays": 366,
           "epa_plays": 741,
-          "offense_epa": -0.03626708193476578,
-          "defense_epa_prevented": 0.024435978704608,
-          "net_epa": -0.011831103230157777,
+          "offense_epa": -0.03589680041848466,
+          "defense_epa_prevented": 0.024232552323710074,
+          "net_epa": -0.01166424809477459,
           "sack_differential_per_game": -0.5,
           "sack_rate_differential": -0.0037341685022026366,
           "big_play_differential_per_game": -1.1666666666666667,
@@ -54354,9 +54354,9 @@
           "offense_plays": 378,
           "defense_plays": 366,
           "epa_plays": 744,
-          "offense_epa": 0.003412378644150374,
-          "defense_epa_prevented": -0.019474982153340595,
-          "net_epa": -0.016062603509190223,
+          "offense_epa": 0.004297030913724358,
+          "defense_epa_prevented": -0.020340530213454226,
+          "net_epa": -0.01604349929972987,
           "sack_differential_per_game": 1.1666666666666667,
           "sack_rate_differential": 0.033538539218922955,
           "big_play_differential_per_game": -1.8333333333333333,
@@ -54368,27 +54368,13 @@
           "offense_plays": 374,
           "defense_plays": 351,
           "epa_plays": 725,
-          "offense_epa": -0.07903814309162253,
-          "defense_epa_prevented": 0.05655609712430552,
-          "net_epa": -0.022482045967317017,
+          "offense_epa": -0.0742554259752366,
+          "defense_epa_prevented": 0.05216076128424416,
+          "net_epa": -0.022094664690992437,
           "sack_differential_per_game": -1.8333333333333333,
           "sack_rate_differential": -0.04366725943489429,
           "big_play_differential_per_game": 0.6666666666666666,
           "big_play_rate_differential": 0.0061398296692414395
-        },
-        {
-          "team": "DAL",
-          "games": 5,
-          "offense_plays": 307,
-          "defense_plays": 303,
-          "epa_plays": 610,
-          "offense_epa": 0.08077224964221164,
-          "defense_epa_prevented": -0.13001526248017106,
-          "net_epa": -0.04924301283795943,
-          "sack_differential_per_game": -0.2,
-          "sack_rate_differential": 0.002619881663772042,
-          "big_play_differential_per_game": -2.8,
-          "big_play_rate_differential": -0.047193644445877814
         },
         {
           "team": "ARI",
@@ -54396,13 +54382,27 @@
           "offense_plays": 399,
           "defense_plays": 352,
           "epa_plays": 751,
-          "offense_epa": -0.006620249132168499,
-          "defense_epa_prevented": -0.050493809429755586,
-          "net_epa": -0.057114058561924086,
+          "offense_epa": -0.006096767738506727,
+          "defense_epa_prevented": -0.05110207761569701,
+          "net_epa": -0.057198845354203734,
           "sack_differential_per_game": 0.3333333333333333,
           "sack_rate_differential": 0.02416494845360824,
           "big_play_differential_per_game": -3.3333333333333335,
           "big_play_rate_differential": -0.06284176349965824
+        },
+        {
+          "team": "DAL",
+          "games": 6,
+          "offense_plays": 378,
+          "defense_plays": 371,
+          "epa_plays": 749,
+          "offense_epa": 0.057061571655280315,
+          "defense_epa_prevented": -0.11766981670933159,
+          "net_epa": -0.060608245054051275,
+          "sack_differential_per_game": 0.16666666666666666,
+          "sack_rate_differential": 0.012904987258827813,
+          "big_play_differential_per_game": -3.1666666666666665,
+          "big_play_rate_differential": -0.05241090146750524
         },
         {
           "team": "NYG",
@@ -54410,9 +54410,9 @@
           "offense_plays": 392,
           "defense_plays": 355,
           "epa_plays": 747,
-          "offense_epa": -0.04870445635341878,
-          "defense_epa_prevented": -0.023418777119422172,
-          "net_epa": -0.07212323347284096,
+          "offense_epa": -0.04670207247327297,
+          "defense_epa_prevented": -0.026506601047615617,
+          "net_epa": -0.07320867352088858,
           "sack_differential_per_game": -1.6666666666666667,
           "sack_rate_differential": -0.03807156665483094,
           "big_play_differential_per_game": -1.0,
@@ -54424,9 +54424,9 @@
           "offense_plays": 319,
           "defense_plays": 316,
           "epa_plays": 635,
-          "offense_epa": -0.029327563967411027,
-          "defense_epa_prevented": -0.04351265466378526,
-          "net_epa": -0.07284021863119629,
+          "offense_epa": -0.027131525490784635,
+          "defense_epa_prevented": -0.04669864634421689,
+          "net_epa": -0.07383017183500153,
           "sack_differential_per_game": -0.2,
           "sack_rate_differential": -0.008829221093372037,
           "big_play_differential_per_game": 0.4,
@@ -54438,9 +54438,9 @@
           "offense_plays": 397,
           "defense_plays": 346,
           "epa_plays": 743,
-          "offense_epa": -0.041900692663477734,
-          "defense_epa_prevented": -0.03825294188297994,
-          "net_epa": -0.08015363454645767,
+          "offense_epa": -0.04197233212892214,
+          "defense_epa_prevented": -0.038632499754228916,
+          "net_epa": -0.08060483188315105,
           "sack_differential_per_game": -0.8333333333333334,
           "sack_rate_differential": -0.014684583199227545,
           "big_play_differential_per_game": 1.0,
@@ -54452,9 +54452,9 @@
           "offense_plays": 401,
           "defense_plays": 378,
           "epa_plays": 779,
-          "offense_epa": -0.03930716952110527,
-          "defense_epa_prevented": -0.0424812001176952,
-          "net_epa": -0.08178836963880047,
+          "offense_epa": -0.03933809711495961,
+          "defense_epa_prevented": -0.04239338272604199,
+          "net_epa": -0.0817314798410016,
           "sack_differential_per_game": 0.3333333333333333,
           "sack_rate_differential": 0.015298045154185022,
           "big_play_differential_per_game": -2.1666666666666665,
@@ -54466,9 +54466,9 @@
           "offense_plays": 274,
           "defense_plays": 290,
           "epa_plays": 564,
-          "offense_epa": -0.05137894127257886,
-          "defense_epa_prevented": -0.043803326547930385,
-          "net_epa": -0.09518226782050924,
+          "offense_epa": -0.05075298008844879,
+          "defense_epa_prevented": -0.0442076272682899,
+          "net_epa": -0.0949606073567387,
           "sack_differential_per_game": -2.0,
           "sack_rate_differential": -0.061478814732761004,
           "big_play_differential_per_game": 0.8,
@@ -54480,9 +54480,9 @@
           "offense_plays": 370,
           "defense_plays": 356,
           "epa_plays": 726,
-          "offense_epa": -0.14560753590638628,
-          "defense_epa_prevented": 0.039136938521597504,
-          "net_epa": -0.10647059738478878,
+          "offense_epa": -0.14486800534772468,
+          "defense_epa_prevented": 0.03834879747435038,
+          "net_epa": -0.1065192078733743,
           "sack_differential_per_game": -1.6666666666666667,
           "sack_rate_differential": -0.03725348725348726,
           "big_play_differential_per_game": -1.1666666666666667,
@@ -54494,9 +54494,9 @@
           "offense_plays": 348,
           "defense_plays": 403,
           "epa_plays": 751,
-          "offense_epa": -0.08937073356120968,
-          "defense_epa_prevented": -0.037870409464919604,
-          "net_epa": -0.1272411430261293,
+          "offense_epa": -0.08881100710624297,
+          "defense_epa_prevented": -0.03833908366937072,
+          "net_epa": -0.12715009077561368,
           "sack_differential_per_game": -1.3333333333333333,
           "sack_rate_differential": -0.03670263524921089,
           "big_play_differential_per_game": -2.8333333333333335,
@@ -54508,17 +54508,17 @@
           "offense_plays": 318,
           "defense_plays": 386,
           "epa_plays": 704,
-          "offense_epa": -0.09383378818145006,
-          "defense_epa_prevented": -0.04575965752049784,
-          "net_epa": -0.1395934457019479,
+          "offense_epa": -0.09418330320975968,
+          "defense_epa_prevented": -0.045882106864045966,
+          "net_epa": -0.14006541007380563,
           "sack_differential_per_game": 1.0,
           "sack_rate_differential": 0.025117370892018778,
           "big_play_differential_per_game": -2.6666666666666665,
           "big_play_rate_differential": -0.03037116694365692
         }
       ],
-      "source_games": 91,
-      "source_plays": 11227,
+      "source_games": 92,
+      "source_plays": 11366,
       "note": "Opponent-Adjusted EPA, not DVOA. Joint ridge offense/defense effects on nflverse EPA, which already accounts for situation. Positive defense means EPA prevented; positive net is better. Fixed 200-play ridge penalty is an assumption, not tuned evidence. Matchup features freeze before each week; no same-week results. Week 1 and absent teams remain missing. Revised historical EPA is not proof of original availability. Latest rankings include all completed source games and must not be used for historical predictions. Big plays: pass >=20 yards or rush >=10 yards. Sack differential: made minus allowed. Rates use dropbacks for sacks, scrimmage plays for big plays. No production-model change or proven predictive improvement."
     },
     "matched_feature_evaluation": {
@@ -55441,13 +55441,13 @@
         },
         {
           "team": "DAL",
-          "games": 5,
-          "plays": 131,
-          "posteam_plays": 63,
-          "defteam_plays": 68,
+          "games": 6,
+          "plays": 152,
+          "posteam_plays": 73,
+          "defteam_plays": 79,
           "status": "Descriptive",
-          "epa_total": 0.8004531591438283,
-          "epa_per_play": 0.006110329459113193
+          "epa_total": 0.5981746755522033,
+          "epa_per_play": 0.0039353597075802845
         },
         {
           "team": "DEN",
@@ -55471,13 +55471,13 @@
         },
         {
           "team": "GB",
-          "games": 5,
-          "plays": 127,
-          "posteam_plays": 66,
-          "defteam_plays": 61,
+          "games": 6,
+          "plays": 148,
+          "posteam_plays": 77,
+          "defteam_plays": 71,
           "status": "Descriptive",
-          "epa_total": 0.29195544986293775,
-          "epa_per_play": 0.0022988618099443916
+          "epa_total": 0.4942339334545629,
+          "epa_per_play": 0.0033394184692875873
         },
         {
           "team": "HOU",
@@ -55680,11 +55680,11 @@
           "epa_per_play": -0.09548867713500386
         }
       ],
-      "completed_games": 91,
-      "source_games": 91,
+      "completed_games": 92,
+      "source_games": 92,
       "missing_completed_game_ids": [],
-      "candidate_plays": 2458,
-      "valid_plays": 2458,
+      "candidate_plays": 2479,
+      "valid_plays": 2479,
       "excluded_plays": 0,
       "note": "Descriptive raw special-teams EPA only; NOT opponent-adjusted, DVOA, a fitted rating, or predictive evaluation. Selection is special_teams_play==1 OR kickoff/punt/field-goal/extra-point attempt flags, excluding no_play. EPA is credited as recorded to posteam and negated for defteam. On kickoffs posteam may be the receiving side; these are possession-side credits, not kicker/offense attribution. No player or causal claim. Only completed regular-season games with finite EPA and both teams matching the schedule are used. Minimum display coverage is 20 valid plays across 2 games per team, a reporting rule not statistical validation. Latest revised snapshot, not pregame availability evidence; missing plays are not zero."
     },
@@ -56317,8 +56317,8 @@
         "forecast_at": "2026-10-19T00:30:07.365916+00:00"
       },
       {
-        "expected_home": 22.5634,
-        "expected_away": 23.0394,
+        "expected_home": 22.2304,
+        "expected_away": 22.831,
         "home_interval80": [
           10.0,
           35.0
@@ -56332,28 +56332,28 @@
           17.0
         ],
         "total_interval80": [
-          29.0,
-          64.0
+          28.0,
+          63.0
         ],
-        "home_win": 0.461,
-        "away_win": 0.5012,
-        "tie": 0.0378,
+        "home_win": 0.4491,
+        "away_win": 0.5006,
+        "tie": 0.0503,
         "spread": {
-          "above": 0.6531,
-          "below": 0.3469,
+          "above": 0.6166,
+          "below": 0.3834,
           "push": 0.0
         },
         "total": {
-          "above": 0.5175,
-          "below": 0.4825,
+          "above": 0.5009,
+          "below": 0.4991,
           "push": 0.0
         },
         "model_version": "shadow-ridge-20261013T153114Z",
         "training_through": "2026-10-12",
-        "market_home_spread": 5.5,
+        "market_home_spread": 4.5,
         "market_total": 44.5,
         "game_id": "2026_07_DAL_PHI",
-        "forecast_at": "2026-10-19T00:30:07.365916+00:00"
+        "forecast_at": "2026-10-19T06:18:26.591622+00:00"
       },
       {
         "expected_home": 20.2994,
@@ -56383,47 +56383,47 @@
           "push": 0.0
         },
         "total": {
-          "above": 0.5,
-          "below": 0.5,
+          "above": 0.5313,
+          "below": 0.4687,
           "push": 0.0
         },
         "model_version": "shadow-ridge-20261013T153114Z",
         "training_through": "2026-10-12",
         "market_home_spread": 4.5,
-        "market_total": 43.5,
+        "market_total": 42.5,
         "game_id": "2026_07_DEN_ARI",
-        "forecast_at": "2026-10-19T00:30:07.365916+00:00"
+        "forecast_at": "2026-10-19T06:18:26.591622+00:00"
       },
       {
-        "expected_home": 26.3148,
-        "expected_away": 21.0439,
+        "expected_home": 25.9223,
+        "expected_away": 21.5288,
         "home_interval80": [
           14.0,
           39.0
         ],
         "away_interval80": [
-          8.0,
+          9.0,
           34.0
         ],
         "margin_interval80": [
-          -11.0,
-          23.0
+          -12.0,
+          22.0
         ],
         "total_interval80": [
           31.0,
           65.0
         ],
-        "home_win": 0.6487,
-        "away_win": 0.3252,
-        "tie": 0.0261,
+        "home_win": 0.6203,
+        "away_win": 0.3545,
+        "tie": 0.0252,
         "spread": {
-          "above": 0.5568,
-          "below": 0.4141,
-          "push": 0.0291
+          "above": 0.5442,
+          "below": 0.4396,
+          "push": 0.0162
         },
         "total": {
-          "above": 0.315,
-          "below": 0.685,
+          "above": 0.3202,
+          "below": 0.6798,
           "push": 0.0
         },
         "model_version": "shadow-ridge-20261013T153114Z",
@@ -56431,7 +56431,7 @@
         "market_home_spread": -3.0,
         "market_total": 52.5,
         "game_id": "2026_07_GB_DET",
-        "forecast_at": "2026-10-19T00:30:07.365916+00:00"
+        "forecast_at": "2026-10-19T06:18:26.591622+00:00"
       },
       {
         "expected_home": 25.695,
@@ -56456,21 +56456,21 @@
         "away_win": 0.2626,
         "tie": 0.0291,
         "spread": {
-          "above": 0.54,
+          "above": 0.5561,
           "below": 0.4439,
-          "push": 0.0161
+          "push": 0.0
         },
         "total": {
-          "above": 0.5451,
-          "below": 0.4549,
+          "above": 0.5712,
+          "below": 0.4288,
           "push": 0.0
         },
         "model_version": "shadow-ridge-20261013T153114Z",
         "training_through": "2026-10-12",
-        "market_home_spread": -6.0,
-        "market_total": 42.5,
+        "market_home_spread": -5.5,
+        "market_total": 41.5,
         "game_id": "2026_07_IND_MIN",
-        "forecast_at": "2026-10-19T00:30:07.365916+00:00"
+        "forecast_at": "2026-10-19T06:18:26.591622+00:00"
       },
       {
         "expected_home": 23.7707,
@@ -56495,8 +56495,8 @@
         "away_win": 0.3591,
         "tie": 0.027,
         "spread": {
-          "above": 0.5761,
-          "below": 0.4239,
+          "above": 0.5525,
+          "below": 0.4475,
           "push": 0.0
         },
         "total": {
@@ -56506,10 +56506,10 @@
         },
         "model_version": "shadow-ridge-20261013T153114Z",
         "training_through": "2026-10-12",
-        "market_home_spread": -1.5,
+        "market_home_spread": -2.5,
         "market_total": 42.5,
         "game_id": "2026_07_KC_SEA",
-        "forecast_at": "2026-10-19T00:30:07.365916+00:00"
+        "forecast_at": "2026-10-19T06:18:26.591622+00:00"
       },
       {
         "expected_home": 23.7403,
@@ -56535,20 +56535,20 @@
         "tie": 0.0351,
         "spread": {
           "above": 0.6547,
-          "below": 0.3092,
-          "push": 0.0361
+          "below": 0.3453,
+          "push": 0.0
         },
         "total": {
-          "above": 0.4931,
-          "below": 0.5069,
+          "above": 0.5219,
+          "below": 0.4781,
           "push": 0.0
         },
         "model_version": "shadow-ridge-20261013T153114Z",
         "training_through": "2026-10-12",
-        "market_home_spread": 6.0,
-        "market_total": 47.5,
+        "market_home_spread": 5.5,
+        "market_total": 46.5,
         "game_id": "2026_07_LA_LV",
-        "forecast_at": "2026-10-19T00:30:07.365916+00:00"
+        "forecast_at": "2026-10-19T06:18:26.591622+00:00"
       },
       {
         "expected_home": 22.7972,
@@ -56695,16 +56695,16 @@
           "push": 0.0
         },
         "total": {
-          "above": 0.565,
-          "below": 0.435,
+          "above": 0.5911,
+          "below": 0.4089,
           "push": 0.0
         },
         "model_version": "shadow-ridge-20261013T153114Z",
         "training_through": "2026-10-12",
         "market_home_spread": 2.5,
-        "market_total": 44.5,
+        "market_total": 43.5,
         "game_id": "2026_07_PIT_NO",
-        "forecast_at": "2026-10-19T00:30:07.365916+00:00"
+        "forecast_at": "2026-10-19T06:18:26.591622+00:00"
       },
       {
         "expected_home": 23.0902,
@@ -56769,43 +56769,43 @@
         "tie": 0.0218,
         "spread": {
           "above": 0.538,
-          "below": 0.4422,
-          "push": 0.0198
+          "below": 0.462,
+          "push": 0.0
         },
         "total": {
-          "above": 0.5319,
-          "below": 0.4681,
+          "above": 0.4926,
+          "below": 0.5074,
           "push": 0.0
         },
         "model_version": "shadow-ridge-20261013T153114Z",
         "training_through": "2026-10-12",
-        "market_home_spread": -3.0,
-        "market_total": 43.5,
+        "market_home_spread": -3.5,
+        "market_total": 44.5,
         "game_id": "2026_07_TB_CAR",
-        "forecast_at": "2026-10-19T00:30:07.365916+00:00"
+        "forecast_at": "2026-10-19T06:18:26.591622+00:00"
       },
       {
-        "expected_home": 27.2374,
-        "expected_away": 22.1488,
+        "expected_home": 27.1705,
+        "expected_away": 21.6988,
         "home_interval80": [
           15.0,
           40.0
         ],
         "away_interval80": [
           9.0,
-          35.0
+          34.0
         ],
         "margin_interval80": [
-          -12.0,
+          -11.0,
           23.0
         ],
         "total_interval80": [
-          33.0,
+          32.0,
           67.0
         ],
-        "home_win": 0.6356,
-        "away_win": 0.331,
-        "tie": 0.0334,
+        "home_win": 0.6432,
+        "away_win": 0.3161,
+        "tie": 0.0407,
         "spread": null,
         "total": null,
         "model_version": "shadow-ridge-20261013T153114Z",
@@ -56813,7 +56813,7 @@
         "market_home_spread": null,
         "market_total": null,
         "game_id": "2026_08_ARI_DAL",
-        "forecast_at": "2026-10-19T00:30:07.365916+00:00"
+        "forecast_at": "2026-10-19T06:18:26.591622+00:00"
       },
       {
         "expected_home": 22.5634,
@@ -56878,27 +56878,27 @@
         "forecast_at": "2026-10-19T00:30:07.365916+00:00"
       },
       {
-        "expected_home": 21.6131,
-        "expected_away": 23.396,
+        "expected_home": 22.2199,
+        "expected_away": 22.9378,
         "home_interval80": [
-          9.0,
-          34.0
+          10.0,
+          35.0
         ],
         "away_interval80": [
           10.0,
           36.0
         ],
         "margin_interval80": [
-          -18.0,
-          16.0
+          -17.0,
+          17.0
         ],
         "total_interval80": [
           29.0,
           63.0
         ],
-        "home_win": 0.4076,
-        "away_win": 0.549,
-        "tie": 0.0434,
+        "home_win": 0.4473,
+        "away_win": 0.5047,
+        "tie": 0.048,
         "spread": null,
         "total": null,
         "model_version": "shadow-ridge-20261013T153114Z",
@@ -56906,7 +56906,7 @@
         "market_home_spread": null,
         "market_total": null,
         "game_id": "2026_08_CAR_GB",
-        "forecast_at": "2026-10-18T20:58:39.100445+00:00"
+        "forecast_at": "2026-10-19T06:18:26.591622+00:00"
       },
       {
         "expected_home": 24.7752,
@@ -57343,27 +57343,27 @@
         "forecast_at": "2026-10-18T20:58:39.100445+00:00"
       },
       {
-        "expected_home": 25.2374,
-        "expected_away": 24.8194,
+        "expected_home": 24.8749,
+        "expected_away": 24.6577,
         "home_interval80": [
           13.0,
-          38.0
+          37.0
         ],
         "away_interval80": [
           12.0,
-          38.0
+          37.0
         ],
         "margin_interval80": [
           -16.0,
-          18.0
+          17.0
         ],
         "total_interval80": [
           33.0,
           68.0
         ],
-        "home_win": 0.5011,
-        "away_win": 0.4653,
-        "tie": 0.0336,
+        "home_win": 0.4915,
+        "away_win": 0.4732,
+        "tie": 0.0353,
         "spread": null,
         "total": null,
         "model_version": "shadow-ridge-20261013T153114Z",
@@ -57371,7 +57371,7 @@
         "market_home_spread": null,
         "market_total": null,
         "game_id": "2026_09_DAL_IND",
-        "forecast_at": "2026-10-18T20:58:39.100445+00:00"
+        "forecast_at": "2026-10-19T06:18:26.591622+00:00"
       },
       {
         "expected_home": 23.417,
@@ -57436,27 +57436,27 @@
         "forecast_at": "2026-10-13T15:31:14.486776+00:00"
       },
       {
-        "expected_home": 27.5675,
-        "expected_away": 17.4709,
+        "expected_home": 27.1995,
+        "expected_away": 17.9165,
         "home_interval80": [
           15.0,
           40.0
         ],
         "away_interval80": [
           5.0,
-          30.0
+          31.0
         ],
         "margin_interval80": [
-          -7.0,
-          28.0
+          -8.0,
+          27.0
         ],
         "total_interval80": [
-          29.0,
+          28.0,
           63.0
         ],
-        "home_win": 0.7872,
-        "away_win": 0.1863,
-        "tie": 0.0265,
+        "home_win": 0.7715,
+        "away_win": 0.2024,
+        "tie": 0.0261,
         "spread": null,
         "total": null,
         "model_version": "shadow-ridge-20261013T153114Z",
@@ -57464,7 +57464,7 @@
         "market_home_spread": null,
         "market_total": null,
         "game_id": "2026_09_GB_NE",
-        "forecast_at": "2026-10-18T20:58:39.100445+00:00"
+        "forecast_at": "2026-10-19T06:18:26.591622+00:00"
       },
       {
         "expected_home": 19.2732,
@@ -57932,27 +57932,27 @@
         "forecast_at": "2026-10-18T20:58:39.100445+00:00"
       },
       {
-        "expected_home": 18.5234,
-        "expected_away": 22.0756,
+        "expected_home": 19.1421,
+        "expected_away": 21.6503,
         "home_interval80": [
-          6.0,
-          31.0
+          7.0,
+          32.0
         ],
         "away_interval80": [
           9.0,
-          35.0
+          34.0
         ],
         "margin_interval80": [
-          -20.0,
-          14.0
+          -19.0,
+          15.0
         ],
         "total_interval80": [
           24.0,
-          58.0
+          59.0
         ],
-        "home_win": 0.3351,
-        "away_win": 0.6185,
-        "tie": 0.0464,
+        "home_win": 0.3828,
+        "away_win": 0.5865,
+        "tie": 0.0307,
         "spread": null,
         "total": null,
         "model_version": "shadow-ridge-20261013T153114Z",
@@ -57960,7 +57960,7 @@
         "market_home_spread": null,
         "market_total": null,
         "game_id": "2026_10_MIN_GB",
-        "forecast_at": "2026-10-13T15:31:14.486776+00:00"
+        "forecast_at": "2026-10-19T06:18:26.591622+00:00"
       },
       {
         "expected_home": 23.5062,
@@ -58056,27 +58056,27 @@
         "forecast_at": "2026-10-19T00:30:07.365916+00:00"
       },
       {
-        "expected_home": 23.4259,
-        "expected_away": 27.8483,
+        "expected_home": 23.3419,
+        "expected_away": 27.4328,
         "home_interval80": [
           11.0,
           36.0
         ],
         "away_interval80": [
           15.0,
-          41.0
+          40.0
         ],
         "margin_interval80": [
           -21.0,
           13.0
         ],
         "total_interval80": [
-          35.0,
+          34.0,
           69.0
         ],
-        "home_win": 0.3112,
-        "away_win": 0.6517,
-        "tie": 0.0371,
+        "home_win": 0.3253,
+        "away_win": 0.6438,
+        "tie": 0.0309,
         "spread": null,
         "total": null,
         "model_version": "shadow-ridge-20261013T153114Z",
@@ -58084,7 +58084,7 @@
         "market_home_spread": null,
         "market_total": null,
         "game_id": "2026_10_SF_DAL",
-        "forecast_at": "2026-10-13T15:31:14.486776+00:00"
+        "forecast_at": "2026-10-19T06:18:26.591622+00:00"
       },
       {
         "expected_home": 27.1691,
@@ -58490,14 +58490,14 @@
         "forecast_at": "2026-10-18T20:58:39.100445+00:00"
       },
       {
-        "expected_home": 25.9632,
-        "expected_away": 19.7431,
+        "expected_home": 25.8829,
+        "expected_away": 19.3335,
         "home_interval80": [
           14.0,
-          39.0
+          38.0
         ],
         "away_interval80": [
-          7.0,
+          6.0,
           32.0
         ],
         "margin_interval80": [
@@ -58506,11 +58506,11 @@
         ],
         "total_interval80": [
           29.0,
-          64.0
+          63.0
         ],
-        "home_win": 0.6667,
-        "away_win": 0.2811,
-        "tie": 0.0522,
+        "home_win": 0.6751,
+        "away_win": 0.279,
+        "tie": 0.0459,
         "spread": null,
         "total": null,
         "model_version": "shadow-ridge-20261013T153114Z",
@@ -58518,7 +58518,7 @@
         "market_home_spread": null,
         "market_total": null,
         "game_id": "2026_11_TEN_DAL",
-        "forecast_at": "2026-10-18T20:58:39.100445+00:00"
+        "forecast_at": "2026-10-19T06:18:26.591622+00:00"
       },
       {
         "expected_home": 24.6342,
@@ -58676,8 +58676,8 @@
         "forecast_at": "2026-10-18T20:58:39.100445+00:00"
       },
       {
-        "expected_home": 25.4607,
-        "expected_away": 19.8594,
+        "expected_home": 25.0994,
+        "expected_away": 20.3499,
         "home_interval80": [
           13.0,
           38.0
@@ -58687,16 +58687,16 @@
           33.0
         ],
         "margin_interval80": [
-          -11.0,
-          23.0
+          -12.0,
+          22.0
         ],
         "total_interval80": [
           29.0,
-          63.0
+          64.0
         ],
-        "home_win": 0.6531,
-        "away_win": 0.3128,
-        "tie": 0.0341,
+        "home_win": 0.6273,
+        "away_win": 0.3488,
+        "tie": 0.0239,
         "spread": null,
         "total": null,
         "model_version": "shadow-ridge-20261013T153114Z",
@@ -58704,7 +58704,7 @@
         "market_home_spread": null,
         "market_total": null,
         "game_id": "2026_12_GB_LA",
-        "forecast_at": "2026-10-19T00:30:07.365916+00:00"
+        "forecast_at": "2026-10-19T06:18:26.591622+00:00"
       },
       {
         "expected_home": 26.4149,
@@ -58893,15 +58893,15 @@
         "forecast_at": "2026-10-18T20:58:39.100445+00:00"
       },
       {
-        "expected_home": 24.6472,
-        "expected_away": 21.0632,
+        "expected_home": 24.5675,
+        "expected_away": 20.6282,
         "home_interval80": [
           12.0,
           37.0
         ],
         "away_interval80": [
           8.0,
-          34.0
+          33.0
         ],
         "margin_interval80": [
           -13.0,
@@ -58909,11 +58909,11 @@
         ],
         "total_interval80": [
           29.0,
-          64.0
+          63.0
         ],
-        "home_win": 0.5921,
-        "away_win": 0.3735,
-        "tie": 0.0344,
+        "home_win": 0.6093,
+        "away_win": 0.3643,
+        "tie": 0.0264,
         "spread": null,
         "total": null,
         "model_version": "shadow-ridge-20261013T153114Z",
@@ -58921,7 +58921,7 @@
         "market_home_spread": null,
         "market_total": null,
         "game_id": "2026_12_PHI_DAL",
-        "forecast_at": "2026-10-18T20:58:39.100445+00:00"
+        "forecast_at": "2026-10-19T06:18:26.591622+00:00"
       },
       {
         "expected_home": 26.4907,
@@ -59110,27 +59110,27 @@
         "forecast_at": "2026-10-18T20:58:39.100445+00:00"
       },
       {
-        "expected_home": 26.4646,
-        "expected_away": 20.9379,
+        "expected_home": 26.1483,
+        "expected_away": 20.7288,
         "home_interval80": [
           14.0,
           39.0
         ],
         "away_interval80": [
           8.0,
-          34.0
+          33.0
         ],
         "margin_interval80": [
           -11.0,
           23.0
         ],
         "total_interval80": [
-          31.0,
+          30.0,
           65.0
         ],
-        "home_win": 0.652,
-        "away_win": 0.3128,
-        "tie": 0.0352,
+        "home_win": 0.6419,
+        "away_win": 0.3182,
+        "tie": 0.0399,
         "spread": null,
         "total": null,
         "model_version": "shadow-ridge-20261013T153114Z",
@@ -59138,7 +59138,7 @@
         "market_home_spread": null,
         "market_total": null,
         "game_id": "2026_13_DAL_SEA",
-        "forecast_at": "2026-10-16T03:42:01.196953+00:00"
+        "forecast_at": "2026-10-19T06:18:26.591622+00:00"
       },
       {
         "expected_home": 24.9916,
@@ -59172,27 +59172,27 @@
         "forecast_at": "2026-10-18T20:58:39.100445+00:00"
       },
       {
-        "expected_home": 25.3112,
-        "expected_away": 21.4831,
+        "expected_home": 24.9202,
+        "expected_away": 21.9472,
         "home_interval80": [
           13.0,
           38.0
         ],
         "away_interval80": [
           9.0,
-          34.0
+          35.0
         ],
         "margin_interval80": [
-          -13.0,
+          -14.0,
           21.0
         ],
         "total_interval80": [
           30.0,
           65.0
         ],
-        "home_win": 0.6015,
-        "away_win": 0.3641,
-        "tie": 0.0344,
+        "home_win": 0.5775,
+        "away_win": 0.395,
+        "tie": 0.0275,
         "spread": null,
         "total": null,
         "model_version": "shadow-ridge-20261013T153114Z",
@@ -59200,7 +59200,7 @@
         "market_home_spread": null,
         "market_total": null,
         "game_id": "2026_13_GB_NO",
-        "forecast_at": "2026-10-18T20:58:39.100445+00:00"
+        "forecast_at": "2026-10-19T06:18:26.591622+00:00"
       },
       {
         "expected_home": 23.4273,
@@ -59482,27 +59482,27 @@
         "forecast_at": "2026-10-18T20:58:39.100445+00:00"
       },
       {
-        "expected_home": 21.293,
-        "expected_away": 26.4964,
+        "expected_home": 21.8814,
+        "expected_away": 26.0223,
         "home_interval80": [
-          9.0,
+          10.0,
           34.0
         ],
         "away_interval80": [
-          14.0,
+          13.0,
           39.0
         ],
         "margin_interval80": [
-          -22.0,
-          12.0
+          -21.0,
+          13.0
         ],
         "total_interval80": [
           31.0,
           66.0
         ],
-        "home_win": 0.2905,
-        "away_win": 0.6747,
-        "tie": 0.0348,
+        "home_win": 0.3156,
+        "away_win": 0.6429,
+        "tie": 0.0415,
         "spread": null,
         "total": null,
         "model_version": "shadow-ridge-20261013T153114Z",
@@ -59510,7 +59510,7 @@
         "market_home_spread": null,
         "market_total": null,
         "game_id": "2026_14_BUF_GB",
-        "forecast_at": "2026-10-19T00:30:07.365916+00:00"
+        "forecast_at": "2026-10-19T06:18:26.591622+00:00"
       },
       {
         "expected_home": 19.0184,
@@ -60071,11 +60071,11 @@
         "forecast_at": "2026-10-18T20:58:39.100445+00:00"
       },
       {
-        "expected_home": 26.2081,
-        "expected_away": 23.0462,
+        "expected_home": 25.8306,
+        "expected_away": 22.8424,
         "home_interval80": [
           14.0,
-          39.0
+          38.0
         ],
         "away_interval80": [
           10.0,
@@ -60083,15 +60083,15 @@
         ],
         "margin_interval80": [
           -14.0,
-          21.0
+          20.0
         ],
         "total_interval80": [
-          33.0,
+          32.0,
           67.0
         ],
-        "home_win": 0.5859,
-        "away_win": 0.3873,
-        "tie": 0.0268,
+        "home_win": 0.5761,
+        "away_win": 0.3962,
+        "tie": 0.0277,
         "spread": null,
         "total": null,
         "model_version": "shadow-ridge-20261013T153114Z",
@@ -60099,7 +60099,7 @@
         "market_home_spread": null,
         "market_total": null,
         "game_id": "2026_15_DAL_LA",
-        "forecast_at": "2026-10-19T00:30:07.365916+00:00"
+        "forecast_at": "2026-10-19T06:18:26.591622+00:00"
       },
       {
         "expected_home": 22.6318,
@@ -60226,27 +60226,27 @@
         "forecast_at": "2026-10-18T18:12:26.725215+00:00"
       },
       {
-        "expected_home": 24.0147,
-        "expected_away": 18.7537,
+        "expected_home": 24.5735,
+        "expected_away": 18.3377,
         "home_interval80": [
           12.0,
           37.0
         ],
         "away_interval80": [
-          6.0,
+          5.0,
           31.0
         ],
         "margin_interval80": [
           -11.0,
-          23.0
+          24.0
         ],
         "total_interval80": [
-          26.0,
+          27.0,
           61.0
         ],
-        "home_win": 0.6396,
-        "away_win": 0.3315,
-        "tie": 0.0289,
+        "home_win": 0.6649,
+        "away_win": 0.2928,
+        "tie": 0.0423,
         "spread": null,
         "total": null,
         "model_version": "shadow-ridge-20261013T153114Z",
@@ -60254,7 +60254,7 @@
         "market_home_spread": null,
         "market_total": null,
         "game_id": "2026_15_MIA_GB",
-        "forecast_at": "2026-10-13T15:31:14.486776+00:00"
+        "forecast_at": "2026-10-19T06:18:26.591622+00:00"
       },
       {
         "expected_home": 21.9618,
@@ -60567,27 +60567,27 @@
         "forecast_at": "2026-10-18T20:58:39.100445+00:00"
       },
       {
-        "expected_home": 26.0851,
-        "expected_away": 19.5864,
+        "expected_home": 25.6659,
+        "expected_away": 20.0523,
         "home_interval80": [
-          14.0,
-          39.0
+          13.0,
+          38.0
         ],
         "away_interval80": [
           7.0,
-          32.0
+          33.0
         ],
         "margin_interval80": [
-          -10.0,
-          24.0
+          -11.0,
+          23.0
         ],
         "total_interval80": [
           29.0,
           64.0
         ],
-        "home_win": 0.684,
-        "away_win": 0.2731,
-        "tie": 0.0429,
+        "home_win": 0.6531,
+        "away_win": 0.3133,
+        "tie": 0.0336,
         "spread": null,
         "total": null,
         "model_version": "shadow-ridge-20261013T153114Z",
@@ -60595,7 +60595,7 @@
         "market_home_spread": null,
         "market_total": null,
         "game_id": "2026_16_GB_CHI",
-        "forecast_at": "2026-10-18T20:58:39.100445+00:00"
+        "forecast_at": "2026-10-19T06:18:26.591622+00:00"
       },
       {
         "expected_home": 21.2317,
@@ -60629,8 +60629,8 @@
         "forecast_at": "2026-10-18T20:58:39.100445+00:00"
       },
       {
-        "expected_home": 22.2199,
-        "expected_away": 26.3167,
+        "expected_home": 22.1502,
+        "expected_away": 25.8411,
         "home_interval80": [
           10.0,
           35.0
@@ -60640,16 +60640,16 @@
           39.0
         ],
         "margin_interval80": [
-          -21.0,
-          13.0
+          -20.0,
+          14.0
         ],
         "total_interval80": [
-          32.0,
-          67.0
+          31.0,
+          66.0
         ],
-        "home_win": 0.3259,
-        "away_win": 0.6457,
-        "tie": 0.0284,
+        "home_win": 0.3373,
+        "away_win": 0.6256,
+        "tie": 0.0371,
         "spread": null,
         "total": null,
         "model_version": "shadow-ridge-20261013T153114Z",
@@ -60657,7 +60657,7 @@
         "market_home_spread": null,
         "market_total": null,
         "game_id": "2026_16_JAX_DAL",
-        "forecast_at": "2026-10-18T18:12:26.725215+00:00"
+        "forecast_at": "2026-10-19T06:18:26.591622+00:00"
       },
       {
         "expected_home": 20.3347,
@@ -61032,27 +61032,27 @@
         "forecast_at": "2026-10-18T20:58:39.100445+00:00"
       },
       {
-        "expected_home": 21.6314,
-        "expected_away": 23.9299,
+        "expected_home": 22.227,
+        "expected_away": 23.4803,
         "home_interval80": [
-          9.0,
-          34.0
+          10.0,
+          35.0
         ],
         "away_interval80": [
           11.0,
-          37.0
+          36.0
         ],
         "margin_interval80": [
-          -19.0,
-          15.0
+          -18.0,
+          16.0
         ],
         "total_interval80": [
           29.0,
-          63.0
+          64.0
         ],
-        "home_win": 0.383,
-        "away_win": 0.5694,
-        "tie": 0.0476,
+        "home_win": 0.4295,
+        "away_win": 0.5382,
+        "tie": 0.0323,
         "spread": null,
         "total": null,
         "model_version": "shadow-ridge-20261013T153114Z",
@@ -61060,7 +61060,7 @@
         "market_home_spread": null,
         "market_total": null,
         "game_id": "2026_17_HOU_GB",
-        "forecast_at": "2026-10-18T18:12:26.725215+00:00"
+        "forecast_at": "2026-10-19T06:18:26.591622+00:00"
       },
       {
         "expected_home": 23.2374,
@@ -61249,10 +61249,10 @@
         "forecast_at": "2026-10-18T20:58:39.100445+00:00"
       },
       {
-        "expected_home": 23.7204,
-        "expected_away": 25.2719,
+        "expected_home": 23.6506,
+        "expected_away": 24.7775,
         "home_interval80": [
-          12.0,
+          11.0,
           36.0
         ],
         "away_interval80": [
@@ -61260,16 +61260,16 @@
           38.0
         ],
         "margin_interval80": [
-          -19.0,
+          -18.0,
           16.0
         ],
         "total_interval80": [
-          33.0,
-          67.0
+          32.0,
+          66.0
         ],
-        "home_win": 0.4173,
-        "away_win": 0.5385,
-        "tie": 0.0442,
+        "home_win": 0.4403,
+        "away_win": 0.5263,
+        "tie": 0.0334,
         "spread": null,
         "total": null,
         "model_version": "shadow-ridge-20261013T153114Z",
@@ -61277,7 +61277,7 @@
         "market_home_spread": null,
         "market_total": null,
         "game_id": "2026_17_NYG_DAL",
-        "forecast_at": "2026-10-18T20:58:39.100445+00:00"
+        "forecast_at": "2026-10-19T06:18:26.591622+00:00"
       },
       {
         "expected_home": 28.412,
@@ -61497,27 +61497,27 @@
         "forecast_at": "2026-10-18T20:58:39.100445+00:00"
       },
       {
-        "expected_home": 24.5125,
-        "expected_away": 24.943,
+        "expected_home": 24.1995,
+        "expected_away": 24.7239,
         "home_interval80": [
           12.0,
           37.0
         ],
         "away_interval80": [
           12.0,
-          38.0
+          37.0
         ],
         "margin_interval80": [
           -17.0,
           17.0
         ],
         "total_interval80": [
-          33.0,
+          32.0,
           67.0
         ],
-        "home_win": 0.4642,
-        "away_win": 0.5014,
-        "tie": 0.0344,
+        "home_win": 0.4537,
+        "away_win": 0.492,
+        "tie": 0.0543,
         "spread": null,
         "total": null,
         "model_version": "shadow-ridge-20261013T153114Z",
@@ -61525,30 +61525,30 @@
         "market_home_spread": null,
         "market_total": null,
         "game_id": "2026_18_DAL_WAS",
-        "forecast_at": "2026-10-13T15:31:14.486776+00:00"
+        "forecast_at": "2026-10-19T06:18:26.591622+00:00"
       },
       {
-        "expected_home": 22.4293,
-        "expected_away": 24.7069,
+        "expected_home": 23.0404,
+        "expected_away": 24.2692,
         "home_interval80": [
-          10.0,
-          35.0
+          11.0,
+          36.0
         ],
         "away_interval80": [
-          12.0,
+          11.0,
           37.0
         ],
         "margin_interval80": [
-          -19.0,
-          15.0
+          -18.0,
+          16.0
         ],
         "total_interval80": [
           31.0,
           65.0
         ],
-        "home_win": 0.3905,
-        "away_win": 0.5701,
-        "tie": 0.0394,
+        "home_win": 0.4299,
+        "away_win": 0.517,
+        "tie": 0.0531,
         "spread": null,
         "total": null,
         "model_version": "shadow-ridge-20261013T153114Z",
@@ -61556,7 +61556,7 @@
         "market_home_spread": null,
         "market_total": null,
         "game_id": "2026_18_DET_GB",
-        "forecast_at": "2026-10-13T15:31:14.486776+00:00"
+        "forecast_at": "2026-10-19T06:18:26.591622+00:00"
       },
       {
         "expected_home": 21.521,
@@ -62795,9 +62795,9 @@
         "inputs": [
           {
             "input": "EPA",
-            "observed_at": "2026-10-19T00:27:42.586134+00:00",
+            "observed_at": "2026-10-19T06:15:52.616396+00:00",
             "provider_published_at": null,
-            "age_hours": 0.07254494,
+            "age_hours": 0.07610994305555555,
             "status": "Recently retrieved; publication unknown",
             "missing_fields": 0,
             "fields": 66,
@@ -62805,9 +62805,9 @@
           },
           {
             "input": "QB usage",
-            "observed_at": "2026-10-19T00:27:46.428083+00:00",
+            "observed_at": "2026-10-19T06:15:56.909163+00:00",
             "provider_published_at": null,
-            "age_hours": 0.07147773194444444,
+            "age_hours": 0.07491750777777778,
             "status": "Recently retrieved; publication unknown",
             "missing_fields": 0,
             "fields": 46,
@@ -62815,9 +62815,9 @@
           },
           {
             "input": "Injuries",
-            "observed_at": "2026-10-19T00:27:48.614208+00:00",
+            "observed_at": "2026-10-19T06:15:59.209963+00:00",
             "provider_published_at": null,
-            "age_hours": 0.070870475,
+            "age_hours": 0.07427839666666666,
             "status": "Recently retrieved; publication unknown",
             "missing_fields": 0,
             "fields": 12,
@@ -62825,9 +62825,9 @@
           },
           {
             "input": "Roster",
-            "observed_at": "2026-10-19T00:27:48.921343+00:00",
+            "observed_at": "2026-10-19T06:15:59.353084+00:00",
             "provider_published_at": null,
-            "age_hours": 0.07078515972222221,
+            "age_hours": 0.07423864083333333,
             "status": "Recently retrieved; publication unknown",
             "missing_fields": 0,
             "fields": 14,
@@ -62851,8 +62851,8 @@
           },
           {
             "input": "weather",
-            "observed_at": "2026-10-19T00:30:34.632786+00:00",
-            "age_hours": 0.024754203333333336,
+            "observed_at": "2026-10-19T06:18:56.757807+00:00",
+            "age_hours": 0.02495955111111111,
             "provider_published_at": null,
             "status": "Observed",
             "used_by_candidate": false
@@ -62872,9 +62872,9 @@
         "inputs": [
           {
             "input": "EPA",
-            "observed_at": "2026-10-19T00:27:42.586134+00:00",
+            "observed_at": "2026-10-19T06:15:52.616396+00:00",
             "provider_published_at": null,
-            "age_hours": 0.07254494,
+            "age_hours": 0.07610994305555555,
             "status": "Recently retrieved; publication unknown",
             "missing_fields": 0,
             "fields": 66,
@@ -62882,9 +62882,9 @@
           },
           {
             "input": "QB usage",
-            "observed_at": "2026-10-19T00:27:46.428083+00:00",
+            "observed_at": "2026-10-19T06:15:56.909163+00:00",
             "provider_published_at": null,
-            "age_hours": 0.07147773194444444,
+            "age_hours": 0.07491750777777778,
             "status": "Recently retrieved; publication unknown",
             "missing_fields": 4,
             "fields": 46,
@@ -62892,9 +62892,9 @@
           },
           {
             "input": "Injuries",
-            "observed_at": "2026-10-19T00:27:48.614208+00:00",
+            "observed_at": "2026-10-19T06:15:59.209963+00:00",
             "provider_published_at": null,
-            "age_hours": 0.070870475,
+            "age_hours": 0.07427839666666666,
             "status": "Missing",
             "missing_fields": 12,
             "fields": 12,
@@ -62902,9 +62902,9 @@
           },
           {
             "input": "Roster",
-            "observed_at": "2026-10-19T00:27:48.921343+00:00",
+            "observed_at": "2026-10-19T06:15:59.353084+00:00",
             "provider_published_at": null,
-            "age_hours": 0.07078515972222221,
+            "age_hours": 0.07423864083333333,
             "status": "Missing",
             "missing_fields": 14,
             "fields": 14,
@@ -62928,8 +62928,8 @@
           },
           {
             "input": "weather",
-            "observed_at": "2026-10-19T00:30:35.078472+00:00",
-            "age_hours": 0.024630401666666666,
+            "observed_at": "2026-10-19T06:18:57.166577+00:00",
+            "age_hours": 0.02484600388888889,
             "provider_published_at": null,
             "status": "Observed",
             "used_by_candidate": false
@@ -62949,9 +62949,9 @@
         "inputs": [
           {
             "input": "EPA",
-            "observed_at": "2026-10-19T00:27:42.586134+00:00",
+            "observed_at": "2026-10-19T06:15:52.616396+00:00",
             "provider_published_at": null,
-            "age_hours": 0.07254494,
+            "age_hours": 0.07610994305555555,
             "status": "Recently retrieved; publication unknown",
             "missing_fields": 0,
             "fields": 66,
@@ -62959,9 +62959,9 @@
           },
           {
             "input": "QB usage",
-            "observed_at": "2026-10-19T00:27:46.428083+00:00",
+            "observed_at": "2026-10-19T06:15:56.909163+00:00",
             "provider_published_at": null,
-            "age_hours": 0.07147773194444444,
+            "age_hours": 0.07491750777777778,
             "status": "Recently retrieved; publication unknown",
             "missing_fields": 4,
             "fields": 46,
@@ -62969,9 +62969,9 @@
           },
           {
             "input": "Injuries",
-            "observed_at": "2026-10-19T00:27:48.614208+00:00",
+            "observed_at": "2026-10-19T06:15:59.209963+00:00",
             "provider_published_at": null,
-            "age_hours": 0.070870475,
+            "age_hours": 0.07427839666666666,
             "status": "Missing",
             "missing_fields": 12,
             "fields": 12,
@@ -62979,9 +62979,9 @@
           },
           {
             "input": "Roster",
-            "observed_at": "2026-10-19T00:27:48.921343+00:00",
+            "observed_at": "2026-10-19T06:15:59.353084+00:00",
             "provider_published_at": null,
-            "age_hours": 0.07078515972222221,
+            "age_hours": 0.07423864083333333,
             "status": "Missing",
             "missing_fields": 14,
             "fields": 14,
@@ -63026,9 +63026,9 @@
         "inputs": [
           {
             "input": "EPA",
-            "observed_at": "2026-10-19T00:27:42.586134+00:00",
+            "observed_at": "2026-10-19T06:15:52.616396+00:00",
             "provider_published_at": null,
-            "age_hours": 0.07254494,
+            "age_hours": 0.07610994305555555,
             "status": "Recently retrieved; publication unknown",
             "missing_fields": 0,
             "fields": 66,
@@ -63036,9 +63036,9 @@
           },
           {
             "input": "QB usage",
-            "observed_at": "2026-10-19T00:27:46.428083+00:00",
+            "observed_at": "2026-10-19T06:15:56.909163+00:00",
             "provider_published_at": null,
-            "age_hours": 0.07147773194444444,
+            "age_hours": 0.07491750777777778,
             "status": "Recently retrieved; publication unknown",
             "missing_fields": 4,
             "fields": 46,
@@ -63046,9 +63046,9 @@
           },
           {
             "input": "Injuries",
-            "observed_at": "2026-10-19T00:27:48.614208+00:00",
+            "observed_at": "2026-10-19T06:15:59.209963+00:00",
             "provider_published_at": null,
-            "age_hours": 0.070870475,
+            "age_hours": 0.07427839666666666,
             "status": "Missing",
             "missing_fields": 12,
             "fields": 12,
@@ -63056,9 +63056,9 @@
           },
           {
             "input": "Roster",
-            "observed_at": "2026-10-19T00:27:48.921343+00:00",
+            "observed_at": "2026-10-19T06:15:59.353084+00:00",
             "provider_published_at": null,
-            "age_hours": 0.07078515972222221,
+            "age_hours": 0.07423864083333333,
             "status": "Missing",
             "missing_fields": 14,
             "fields": 14,
@@ -63082,8 +63082,8 @@
           },
           {
             "input": "weather",
-            "observed_at": "2026-10-19T00:30:35.542201+00:00",
-            "age_hours": 0.024501588055555558,
+            "observed_at": "2026-10-19T06:18:57.549748+00:00",
+            "age_hours": 0.0247395675,
             "provider_published_at": null,
             "status": "Observed",
             "used_by_candidate": false
@@ -63103,9 +63103,9 @@
         "inputs": [
           {
             "input": "EPA",
-            "observed_at": "2026-10-19T00:27:42.586134+00:00",
+            "observed_at": "2026-10-19T06:15:52.616396+00:00",
             "provider_published_at": null,
-            "age_hours": 0.07254494,
+            "age_hours": 0.07610994305555555,
             "status": "Recently retrieved; publication unknown",
             "missing_fields": 0,
             "fields": 66,
@@ -63113,9 +63113,9 @@
           },
           {
             "input": "QB usage",
-            "observed_at": "2026-10-19T00:27:46.428083+00:00",
+            "observed_at": "2026-10-19T06:15:56.909163+00:00",
             "provider_published_at": null,
-            "age_hours": 0.07147773194444444,
+            "age_hours": 0.07491750777777778,
             "status": "Recently retrieved; publication unknown",
             "missing_fields": 4,
             "fields": 46,
@@ -63123,9 +63123,9 @@
           },
           {
             "input": "Injuries",
-            "observed_at": "2026-10-19T00:27:48.614208+00:00",
+            "observed_at": "2026-10-19T06:15:59.209963+00:00",
             "provider_published_at": null,
-            "age_hours": 0.070870475,
+            "age_hours": 0.07427839666666666,
             "status": "Missing",
             "missing_fields": 12,
             "fields": 12,
@@ -63133,9 +63133,9 @@
           },
           {
             "input": "Roster",
-            "observed_at": "2026-10-19T00:27:48.921343+00:00",
+            "observed_at": "2026-10-19T06:15:59.353084+00:00",
             "provider_published_at": null,
-            "age_hours": 0.07078515972222221,
+            "age_hours": 0.07423864083333333,
             "status": "Missing",
             "missing_fields": 14,
             "fields": 14,
@@ -63159,8 +63159,8 @@
           },
           {
             "input": "weather",
-            "observed_at": "2026-10-19T00:30:36.039597+00:00",
-            "age_hours": 0.0243634225,
+            "observed_at": "2026-10-19T06:18:57.953945+00:00",
+            "age_hours": 0.024627290555555556,
             "provider_published_at": null,
             "status": "Observed",
             "used_by_candidate": false
@@ -63180,9 +63180,9 @@
         "inputs": [
           {
             "input": "EPA",
-            "observed_at": "2026-10-19T00:27:42.586134+00:00",
+            "observed_at": "2026-10-19T06:15:52.616396+00:00",
             "provider_published_at": null,
-            "age_hours": 0.07254494,
+            "age_hours": 0.07610994305555555,
             "status": "Recently retrieved; publication unknown",
             "missing_fields": 0,
             "fields": 66,
@@ -63190,9 +63190,9 @@
           },
           {
             "input": "QB usage",
-            "observed_at": "2026-10-19T00:27:46.428083+00:00",
+            "observed_at": "2026-10-19T06:15:56.909163+00:00",
             "provider_published_at": null,
-            "age_hours": 0.07147773194444444,
+            "age_hours": 0.07491750777777778,
             "status": "Recently retrieved; publication unknown",
             "missing_fields": 4,
             "fields": 46,
@@ -63200,9 +63200,9 @@
           },
           {
             "input": "Injuries",
-            "observed_at": "2026-10-19T00:27:48.614208+00:00",
+            "observed_at": "2026-10-19T06:15:59.209963+00:00",
             "provider_published_at": null,
-            "age_hours": 0.070870475,
+            "age_hours": 0.07427839666666666,
             "status": "Missing",
             "missing_fields": 12,
             "fields": 12,
@@ -63210,9 +63210,9 @@
           },
           {
             "input": "Roster",
-            "observed_at": "2026-10-19T00:27:48.921343+00:00",
+            "observed_at": "2026-10-19T06:15:59.353084+00:00",
             "provider_published_at": null,
-            "age_hours": 0.07078515972222221,
+            "age_hours": 0.07423864083333333,
             "status": "Missing",
             "missing_fields": 14,
             "fields": 14,
@@ -63236,8 +63236,8 @@
           },
           {
             "input": "weather",
-            "observed_at": "2026-10-19T00:30:36.543923+00:00",
-            "age_hours": 0.024223331944444447,
+            "observed_at": "2026-10-19T06:18:58.464016+00:00",
+            "age_hours": 0.024485604166666664,
             "provider_published_at": null,
             "status": "Observed",
             "used_by_candidate": false
@@ -63257,9 +63257,9 @@
         "inputs": [
           {
             "input": "EPA",
-            "observed_at": "2026-10-19T00:27:42.586134+00:00",
+            "observed_at": "2026-10-19T06:15:52.616396+00:00",
             "provider_published_at": null,
-            "age_hours": 0.07254494,
+            "age_hours": 0.07610994305555555,
             "status": "Recently retrieved; publication unknown",
             "missing_fields": 0,
             "fields": 66,
@@ -63267,9 +63267,9 @@
           },
           {
             "input": "QB usage",
-            "observed_at": "2026-10-19T00:27:46.428083+00:00",
+            "observed_at": "2026-10-19T06:15:56.909163+00:00",
             "provider_published_at": null,
-            "age_hours": 0.07147773194444444,
+            "age_hours": 0.07491750777777778,
             "status": "Recently retrieved; publication unknown",
             "missing_fields": 4,
             "fields": 46,
@@ -63277,9 +63277,9 @@
           },
           {
             "input": "Injuries",
-            "observed_at": "2026-10-19T00:27:48.614208+00:00",
+            "observed_at": "2026-10-19T06:15:59.209963+00:00",
             "provider_published_at": null,
-            "age_hours": 0.070870475,
+            "age_hours": 0.07427839666666666,
             "status": "Missing",
             "missing_fields": 12,
             "fields": 12,
@@ -63287,9 +63287,9 @@
           },
           {
             "input": "Roster",
-            "observed_at": "2026-10-19T00:27:48.921343+00:00",
+            "observed_at": "2026-10-19T06:15:59.353084+00:00",
             "provider_published_at": null,
-            "age_hours": 0.07078515972222221,
+            "age_hours": 0.07423864083333333,
             "status": "Missing",
             "missing_fields": 14,
             "fields": 14,
@@ -63313,8 +63313,8 @@
           },
           {
             "input": "weather",
-            "observed_at": "2026-10-19T00:30:37.004799+00:00",
-            "age_hours": 0.02409531083333333,
+            "observed_at": "2026-10-19T06:18:58.965224+00:00",
+            "age_hours": 0.024346379722222224,
             "provider_published_at": null,
             "status": "Observed",
             "used_by_candidate": false
@@ -63334,9 +63334,9 @@
         "inputs": [
           {
             "input": "EPA",
-            "observed_at": "2026-10-19T00:27:42.586134+00:00",
+            "observed_at": "2026-10-19T06:15:52.616396+00:00",
             "provider_published_at": null,
-            "age_hours": 0.07254494,
+            "age_hours": 0.07610994305555555,
             "status": "Recently retrieved; publication unknown",
             "missing_fields": 0,
             "fields": 66,
@@ -63344,9 +63344,9 @@
           },
           {
             "input": "QB usage",
-            "observed_at": "2026-10-19T00:27:46.428083+00:00",
+            "observed_at": "2026-10-19T06:15:56.909163+00:00",
             "provider_published_at": null,
-            "age_hours": 0.07147773194444444,
+            "age_hours": 0.07491750777777778,
             "status": "Recently retrieved; publication unknown",
             "missing_fields": 4,
             "fields": 46,
@@ -63354,9 +63354,9 @@
           },
           {
             "input": "Injuries",
-            "observed_at": "2026-10-19T00:27:48.614208+00:00",
+            "observed_at": "2026-10-19T06:15:59.209963+00:00",
             "provider_published_at": null,
-            "age_hours": 0.070870475,
+            "age_hours": 0.07427839666666666,
             "status": "Missing",
             "missing_fields": 12,
             "fields": 12,
@@ -63364,9 +63364,9 @@
           },
           {
             "input": "Roster",
-            "observed_at": "2026-10-19T00:27:48.921343+00:00",
+            "observed_at": "2026-10-19T06:15:59.353084+00:00",
             "provider_published_at": null,
-            "age_hours": 0.07078515972222221,
+            "age_hours": 0.07423864083333333,
             "status": "Missing",
             "missing_fields": 14,
             "fields": 14,
@@ -63411,9 +63411,9 @@
         "inputs": [
           {
             "input": "EPA",
-            "observed_at": "2026-10-19T00:27:42.586134+00:00",
+            "observed_at": "2026-10-19T06:15:52.616396+00:00",
             "provider_published_at": null,
-            "age_hours": 0.07254494,
+            "age_hours": 0.07610994305555555,
             "status": "Recently retrieved; publication unknown",
             "missing_fields": 0,
             "fields": 66,
@@ -63421,9 +63421,9 @@
           },
           {
             "input": "QB usage",
-            "observed_at": "2026-10-19T00:27:46.428083+00:00",
+            "observed_at": "2026-10-19T06:15:56.909163+00:00",
             "provider_published_at": null,
-            "age_hours": 0.07147773194444444,
+            "age_hours": 0.07491750777777778,
             "status": "Recently retrieved; publication unknown",
             "missing_fields": 4,
             "fields": 46,
@@ -63431,9 +63431,9 @@
           },
           {
             "input": "Injuries",
-            "observed_at": "2026-10-19T00:27:48.614208+00:00",
+            "observed_at": "2026-10-19T06:15:59.209963+00:00",
             "provider_published_at": null,
-            "age_hours": 0.070870475,
+            "age_hours": 0.07427839666666666,
             "status": "Missing",
             "missing_fields": 12,
             "fields": 12,
@@ -63441,9 +63441,9 @@
           },
           {
             "input": "Roster",
-            "observed_at": "2026-10-19T00:27:48.921343+00:00",
+            "observed_at": "2026-10-19T06:15:59.353084+00:00",
             "provider_published_at": null,
-            "age_hours": 0.07078515972222221,
+            "age_hours": 0.07423864083333333,
             "status": "Missing",
             "missing_fields": 14,
             "fields": 14,
@@ -63467,8 +63467,8 @@
           },
           {
             "input": "weather",
-            "observed_at": "2026-10-19T00:30:37.466063+00:00",
-            "age_hours": 0.023967181944444443,
+            "observed_at": "2026-10-19T06:18:59.365578+00:00",
+            "age_hours": 0.024235170277777777,
             "provider_published_at": null,
             "status": "Observed",
             "used_by_candidate": false
@@ -63488,9 +63488,9 @@
         "inputs": [
           {
             "input": "EPA",
-            "observed_at": "2026-10-19T00:27:42.586134+00:00",
+            "observed_at": "2026-10-19T06:15:52.616396+00:00",
             "provider_published_at": null,
-            "age_hours": 0.07254494,
+            "age_hours": 0.07610994305555555,
             "status": "Recently retrieved; publication unknown",
             "missing_fields": 0,
             "fields": 66,
@@ -63498,9 +63498,9 @@
           },
           {
             "input": "QB usage",
-            "observed_at": "2026-10-19T00:27:46.428083+00:00",
+            "observed_at": "2026-10-19T06:15:56.909163+00:00",
             "provider_published_at": null,
-            "age_hours": 0.07147773194444444,
+            "age_hours": 0.07491750777777778,
             "status": "Recently retrieved; publication unknown",
             "missing_fields": 4,
             "fields": 46,
@@ -63508,9 +63508,9 @@
           },
           {
             "input": "Injuries",
-            "observed_at": "2026-10-19T00:27:48.614208+00:00",
+            "observed_at": "2026-10-19T06:15:59.209963+00:00",
             "provider_published_at": null,
-            "age_hours": 0.070870475,
+            "age_hours": 0.07427839666666666,
             "status": "Missing",
             "missing_fields": 12,
             "fields": 12,
@@ -63518,9 +63518,9 @@
           },
           {
             "input": "Roster",
-            "observed_at": "2026-10-19T00:27:48.921343+00:00",
+            "observed_at": "2026-10-19T06:15:59.353084+00:00",
             "provider_published_at": null,
-            "age_hours": 0.07078515972222221,
+            "age_hours": 0.07423864083333333,
             "status": "Missing",
             "missing_fields": 14,
             "fields": 14,
@@ -63544,8 +63544,8 @@
           },
           {
             "input": "weather",
-            "observed_at": "2026-10-19T00:30:37.909207+00:00",
-            "age_hours": 0.02384408638888889,
+            "observed_at": "2026-10-19T06:18:59.741645+00:00",
+            "age_hours": 0.024130707222222225,
             "provider_published_at": null,
             "status": "Observed",
             "used_by_candidate": false
@@ -63565,9 +63565,9 @@
         "inputs": [
           {
             "input": "EPA",
-            "observed_at": "2026-10-19T00:27:42.586134+00:00",
+            "observed_at": "2026-10-19T06:15:52.616396+00:00",
             "provider_published_at": null,
-            "age_hours": 0.07254494,
+            "age_hours": 0.07610994305555555,
             "status": "Recently retrieved; publication unknown",
             "missing_fields": 0,
             "fields": 66,
@@ -63575,9 +63575,9 @@
           },
           {
             "input": "QB usage",
-            "observed_at": "2026-10-19T00:27:46.428083+00:00",
+            "observed_at": "2026-10-19T06:15:56.909163+00:00",
             "provider_published_at": null,
-            "age_hours": 0.07147773194444444,
+            "age_hours": 0.07491750777777778,
             "status": "Recently retrieved; publication unknown",
             "missing_fields": 4,
             "fields": 46,
@@ -63585,9 +63585,9 @@
           },
           {
             "input": "Injuries",
-            "observed_at": "2026-10-19T00:27:48.614208+00:00",
+            "observed_at": "2026-10-19T06:15:59.209963+00:00",
             "provider_published_at": null,
-            "age_hours": 0.070870475,
+            "age_hours": 0.07427839666666666,
             "status": "Missing",
             "missing_fields": 12,
             "fields": 12,
@@ -63595,9 +63595,9 @@
           },
           {
             "input": "Roster",
-            "observed_at": "2026-10-19T00:27:48.921343+00:00",
+            "observed_at": "2026-10-19T06:15:59.353084+00:00",
             "provider_published_at": null,
-            "age_hours": 0.07078515972222221,
+            "age_hours": 0.07423864083333333,
             "status": "Missing",
             "missing_fields": 14,
             "fields": 14,
@@ -63621,8 +63621,8 @@
           },
           {
             "input": "weather",
-            "observed_at": "2026-10-19T00:30:38.472369+00:00",
-            "age_hours": 0.0236876525,
+            "observed_at": "2026-10-19T06:19:00.143408+00:00",
+            "age_hours": 0.024019106388888888,
             "provider_published_at": null,
             "status": "Observed",
             "used_by_candidate": false
@@ -63642,9 +63642,9 @@
         "inputs": [
           {
             "input": "EPA",
-            "observed_at": "2026-10-19T00:27:42.586134+00:00",
+            "observed_at": "2026-10-19T06:15:52.616396+00:00",
             "provider_published_at": null,
-            "age_hours": 0.07254494,
+            "age_hours": 0.07610994305555555,
             "status": "Recently retrieved; publication unknown",
             "missing_fields": 0,
             "fields": 66,
@@ -63652,9 +63652,9 @@
           },
           {
             "input": "QB usage",
-            "observed_at": "2026-10-19T00:27:46.428083+00:00",
+            "observed_at": "2026-10-19T06:15:56.909163+00:00",
             "provider_published_at": null,
-            "age_hours": 0.07147773194444444,
+            "age_hours": 0.07491750777777778,
             "status": "Recently retrieved; publication unknown",
             "missing_fields": 4,
             "fields": 46,
@@ -63662,9 +63662,9 @@
           },
           {
             "input": "Injuries",
-            "observed_at": "2026-10-19T00:27:48.614208+00:00",
+            "observed_at": "2026-10-19T06:15:59.209963+00:00",
             "provider_published_at": null,
-            "age_hours": 0.070870475,
+            "age_hours": 0.07427839666666666,
             "status": "Missing",
             "missing_fields": 12,
             "fields": 12,
@@ -63672,9 +63672,9 @@
           },
           {
             "input": "Roster",
-            "observed_at": "2026-10-19T00:27:48.921343+00:00",
+            "observed_at": "2026-10-19T06:15:59.353084+00:00",
             "provider_published_at": null,
-            "age_hours": 0.07078515972222221,
+            "age_hours": 0.07423864083333333,
             "status": "Missing",
             "missing_fields": 14,
             "fields": 14,
@@ -63719,9 +63719,9 @@
         "inputs": [
           {
             "input": "EPA",
-            "observed_at": "2026-10-19T00:27:42.586134+00:00",
+            "observed_at": "2026-10-19T06:15:52.616396+00:00",
             "provider_published_at": null,
-            "age_hours": 0.07254494,
+            "age_hours": 0.07610994305555555,
             "status": "Recently retrieved; publication unknown",
             "missing_fields": 0,
             "fields": 66,
@@ -63729,9 +63729,9 @@
           },
           {
             "input": "QB usage",
-            "observed_at": "2026-10-19T00:27:46.428083+00:00",
+            "observed_at": "2026-10-19T06:15:56.909163+00:00",
             "provider_published_at": null,
-            "age_hours": 0.07147773194444444,
+            "age_hours": 0.07491750777777778,
             "status": "Recently retrieved; publication unknown",
             "missing_fields": 4,
             "fields": 46,
@@ -63739,9 +63739,9 @@
           },
           {
             "input": "Injuries",
-            "observed_at": "2026-10-19T00:27:48.614208+00:00",
+            "observed_at": "2026-10-19T06:15:59.209963+00:00",
             "provider_published_at": null,
-            "age_hours": 0.070870475,
+            "age_hours": 0.07427839666666666,
             "status": "Missing",
             "missing_fields": 12,
             "fields": 12,
@@ -63749,9 +63749,9 @@
           },
           {
             "input": "Roster",
-            "observed_at": "2026-10-19T00:27:48.921343+00:00",
+            "observed_at": "2026-10-19T06:15:59.353084+00:00",
             "provider_published_at": null,
-            "age_hours": 0.07078515972222221,
+            "age_hours": 0.07423864083333333,
             "status": "Missing",
             "missing_fields": 14,
             "fields": 14,
@@ -63796,9 +63796,9 @@
         "inputs": [
           {
             "input": "EPA",
-            "observed_at": "2026-10-19T00:27:42.586134+00:00",
+            "observed_at": "2026-10-19T06:15:52.616396+00:00",
             "provider_published_at": null,
-            "age_hours": 0.07254494,
+            "age_hours": 0.07610994305555555,
             "status": "Recently retrieved; publication unknown",
             "missing_fields": 0,
             "fields": 66,
@@ -63806,9 +63806,9 @@
           },
           {
             "input": "QB usage",
-            "observed_at": "2026-10-19T00:27:46.428083+00:00",
+            "observed_at": "2026-10-19T06:15:56.909163+00:00",
             "provider_published_at": null,
-            "age_hours": 0.07147773194444444,
+            "age_hours": 0.07491750777777778,
             "status": "Recently retrieved; publication unknown",
             "missing_fields": 4,
             "fields": 46,
@@ -63816,9 +63816,9 @@
           },
           {
             "input": "Injuries",
-            "observed_at": "2026-10-19T00:27:48.614208+00:00",
+            "observed_at": "2026-10-19T06:15:59.209963+00:00",
             "provider_published_at": null,
-            "age_hours": 0.070870475,
+            "age_hours": 0.07427839666666666,
             "status": "Missing",
             "missing_fields": 12,
             "fields": 12,
@@ -63826,9 +63826,9 @@
           },
           {
             "input": "Roster",
-            "observed_at": "2026-10-19T00:27:48.921343+00:00",
+            "observed_at": "2026-10-19T06:15:59.353084+00:00",
             "provider_published_at": null,
-            "age_hours": 0.07078515972222221,
+            "age_hours": 0.07423864083333333,
             "status": "Missing",
             "missing_fields": 14,
             "fields": 14,
@@ -63852,8 +63852,8 @@
           },
           {
             "input": "weather",
-            "observed_at": "2026-10-19T00:30:38.897410+00:00",
-            "age_hours": 0.023569585555555557,
+            "observed_at": "2026-10-19T06:19:00.519115+00:00",
+            "age_hours": 0.023914743333333332,
             "provider_published_at": null,
             "status": "Observed",
             "used_by_candidate": false
@@ -63873,9 +63873,9 @@
         "inputs": [
           {
             "input": "EPA",
-            "observed_at": "2026-10-19T00:27:42.586134+00:00",
+            "observed_at": "2026-10-19T06:15:52.616396+00:00",
             "provider_published_at": null,
-            "age_hours": 0.07254494,
+            "age_hours": 0.07610994305555555,
             "status": "Recently retrieved; publication unknown",
             "missing_fields": 0,
             "fields": 66,
@@ -63883,9 +63883,9 @@
           },
           {
             "input": "QB usage",
-            "observed_at": "2026-10-19T00:27:46.428083+00:00",
+            "observed_at": "2026-10-19T06:15:56.909163+00:00",
             "provider_published_at": null,
-            "age_hours": 0.07147773194444444,
+            "age_hours": 0.07491750777777778,
             "status": "Recently retrieved; publication unknown",
             "missing_fields": 4,
             "fields": 46,
@@ -63893,9 +63893,9 @@
           },
           {
             "input": "Injuries",
-            "observed_at": "2026-10-19T00:27:48.614208+00:00",
+            "observed_at": "2026-10-19T06:15:59.209963+00:00",
             "provider_published_at": null,
-            "age_hours": 0.070870475,
+            "age_hours": 0.07427839666666666,
             "status": "Missing",
             "missing_fields": 12,
             "fields": 12,
@@ -63903,9 +63903,9 @@
           },
           {
             "input": "Roster",
-            "observed_at": "2026-10-19T00:27:48.921343+00:00",
+            "observed_at": "2026-10-19T06:15:59.353084+00:00",
             "provider_published_at": null,
-            "age_hours": 0.07078515972222221,
+            "age_hours": 0.07423864083333333,
             "status": "Missing",
             "missing_fields": 14,
             "fields": 14,
@@ -63929,8 +63929,8 @@
           },
           {
             "input": "weather",
-            "observed_at": "2026-10-19T00:30:39.311260+00:00",
-            "age_hours": 0.023454627222222222,
+            "observed_at": "2026-10-19T06:19:00.896149+00:00",
+            "age_hours": 0.02381001166666667,
             "provider_published_at": null,
             "status": "Observed",
             "used_by_candidate": false
@@ -67033,7 +67033,7 @@
       {
         "week": 6,
         "scheduled_games": 14,
-        "completed_games": 12,
+        "completed_games": 13,
         "games": [
           {
             "game_id": "2026_06_SEA_DEN",
@@ -67387,16 +67387,17 @@
             "game_id": "2026_06_DAL_GB",
             "home_team": "GB",
             "away_team": "DAL",
-            "status": "Pending",
-            "home_score": null,
-            "away_score": null,
+            "status": "Final",
+            "home_score": 23.0,
+            "away_score": 13.0,
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
                 "forecast_at": "2026-10-18T20:56:35.002383+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.5657370733,
-                "grade": "Pending"
+                "grade": "Correct",
+                "log_loss": 0.5696258435143267
               },
               "score": {
                 "cohort": "genuine_pregame",
@@ -67404,7 +67405,10 @@
                 "generation": "scores_20260930T205050Z",
                 "predicted_home_score": 25.5,
                 "predicted_away_score": 23.2,
-                "grade": "Pending"
+                "grade": "Graded",
+                "team_mae": 6.35,
+                "margin_error": -7.699999999999999,
+                "total_error": 12.700000000000003
               }
             }
           },
@@ -67418,7 +67422,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.7467984849,
                 "grade": "Pending"
@@ -67439,18 +67443,18 @@
             "task": "score",
             "generation": "scores_20260930T205050Z",
             "cohort": "genuine_pregame",
-            "games": 12,
-            "team_mae": 6.429166666666667
+            "games": 13,
+            "team_mae": 6.423076923076923
           },
           {
             "task": "winner",
             "generation": "20260929T124531Z",
             "cohort": "genuine_pregame",
-            "games": 12,
-            "graded": 12,
+            "games": 13,
+            "graded": 13,
             "ties_excluded": 0,
-            "correct": 4,
-            "log_loss": 0.8353839458226626
+            "correct": 5,
+            "log_loss": 0.8149410148758676
           }
         ]
       },
@@ -67469,7 +67473,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.5265781102,
                 "grade": "Pending"
@@ -67494,7 +67498,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.3845834759,
                 "grade": "Pending"
@@ -67519,7 +67523,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.3432809871,
                 "grade": "Pending"
@@ -67544,7 +67548,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.5492351605,
                 "grade": "Pending"
@@ -67569,7 +67573,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.6726452731,
                 "grade": "Pending"
@@ -67594,7 +67598,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.6857848251,
                 "grade": "Pending"
@@ -67619,7 +67623,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.6627379197,
                 "grade": "Pending"
@@ -67644,7 +67648,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.7269458097,
                 "grade": "Pending"
@@ -67669,7 +67673,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.4756654623,
                 "grade": "Pending"
@@ -67694,7 +67698,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.4395980129,
                 "grade": "Pending"
@@ -67719,17 +67723,17 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
-                "home_win_probability": 0.6746779883,
+                "home_win_probability": 0.6415093888,
                 "grade": "Pending"
               },
               "score": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-13T13:24:56.145579+00:00",
+                "forecast_at": "2026-10-19T06:16:49.950312+00:00",
                 "generation": "scores_20260930T205050Z",
-                "predicted_home_score": 29.3,
-                "predicted_away_score": 22.1,
+                "predicted_home_score": 28.4,
+                "predicted_away_score": 22.5,
                 "grade": "Pending"
               }
             }
@@ -67744,7 +67748,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.4765633567,
                 "grade": "Pending"
@@ -67769,7 +67773,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.4232609817,
                 "grade": "Pending"
@@ -67794,17 +67798,17 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
-                "home_win_probability": 0.4959746042,
+                "home_win_probability": 0.5235705126,
                 "grade": "Pending"
               },
               "score": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:38.251816+00:00",
+                "forecast_at": "2026-10-19T06:16:49.950312+00:00",
                 "generation": "scores_20260930T205050Z",
-                "predicted_home_score": 23.4,
-                "predicted_away_score": 23.6,
+                "predicted_home_score": 23.2,
+                "predicted_away_score": 22.0,
                 "grade": "Pending"
               }
             }
@@ -67827,17 +67831,17 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
-                "home_win_probability": 0.5506558126,
+                "home_win_probability": 0.5615149621,
                 "grade": "Pending"
               },
               "score": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:38.251816+00:00",
+                "forecast_at": "2026-10-19T06:16:49.950312+00:00",
                 "generation": "scores_20260930T205050Z",
-                "predicted_home_score": 24.1,
-                "predicted_away_score": 23.3,
+                "predicted_home_score": 24.6,
+                "predicted_away_score": 22.8,
                 "grade": "Pending"
               }
             }
@@ -67852,7 +67856,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.5417382534,
                 "grade": "Pending"
@@ -67877,7 +67881,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.8301150127,
                 "grade": "Pending"
@@ -67902,17 +67906,17 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
-                "home_win_probability": 0.6265318323,
+                "home_win_probability": 0.6359686808,
                 "grade": "Pending"
               },
               "score": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:38.251816+00:00",
+                "forecast_at": "2026-10-19T06:16:49.950312+00:00",
                 "generation": "scores_20260930T205050Z",
-                "predicted_home_score": 26.2,
-                "predicted_away_score": 20.3,
+                "predicted_home_score": 25.4,
+                "predicted_away_score": 19.6,
                 "grade": "Pending"
               }
             }
@@ -67927,7 +67931,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.6411441581,
                 "grade": "Pending"
@@ -67952,7 +67956,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.8010972507,
                 "grade": "Pending"
@@ -67977,7 +67981,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.50265556,
                 "grade": "Pending"
@@ -68002,7 +68006,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.6452853313,
                 "grade": "Pending"
@@ -68027,7 +68031,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.5426802381,
                 "grade": "Pending"
@@ -68052,7 +68056,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.7885417578,
                 "grade": "Pending"
@@ -68077,7 +68081,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.4011023393,
                 "grade": "Pending"
@@ -68102,7 +68106,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.306790477,
                 "grade": "Pending"
@@ -68127,7 +68131,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.5829575754,
                 "grade": "Pending"
@@ -68152,7 +68156,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.5630616303,
                 "grade": "Pending"
@@ -68185,7 +68189,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.5515292503,
                 "grade": "Pending"
@@ -68210,7 +68214,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.3971092928,
                 "grade": "Pending"
@@ -68235,7 +68239,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.6784748726,
                 "grade": "Pending"
@@ -68260,17 +68264,17 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
-                "home_win_probability": 0.4833720174,
+                "home_win_probability": 0.4935266999,
                 "grade": "Pending"
               },
               "score": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:38.251816+00:00",
+                "forecast_at": "2026-10-19T06:16:49.950312+00:00",
                 "generation": "scores_20260930T205050Z",
-                "predicted_home_score": 23.4,
-                "predicted_away_score": 24.4,
+                "predicted_home_score": 23.5,
+                "predicted_away_score": 23.8,
                 "grade": "Pending"
               }
             }
@@ -68285,7 +68289,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.8144454632,
                 "grade": "Pending"
@@ -68310,7 +68314,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.315386358,
                 "grade": "Pending"
@@ -68335,7 +68339,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.5231519826,
                 "grade": "Pending"
@@ -68360,7 +68364,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.5399099808,
                 "grade": "Pending"
@@ -68385,7 +68389,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.3898531662,
                 "grade": "Pending"
@@ -68410,7 +68414,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.3814369779,
                 "grade": "Pending"
@@ -68435,7 +68439,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.7319901017,
                 "grade": "Pending"
@@ -68460,17 +68464,17 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
-                "home_win_probability": 0.6041774772,
+                "home_win_probability": 0.5864156831,
                 "grade": "Pending"
               },
               "score": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:38.251816+00:00",
+                "forecast_at": "2026-10-19T06:16:49.950312+00:00",
                 "generation": "scores_20260930T205050Z",
-                "predicted_home_score": 25.8,
-                "predicted_away_score": 20.7,
+                "predicted_home_score": 24.9,
+                "predicted_away_score": 20.8,
                 "grade": "Pending"
               }
             }
@@ -68485,7 +68489,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.6764911476,
                 "grade": "Pending"
@@ -68510,7 +68514,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.6599717485,
                 "grade": "Pending"
@@ -68535,7 +68539,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.5150604817,
                 "grade": "Pending"
@@ -68568,7 +68572,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.5294620135,
                 "grade": "Pending"
@@ -68593,7 +68597,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.6339790569,
                 "grade": "Pending"
@@ -68618,7 +68622,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.3402611189,
                 "grade": "Pending"
@@ -68643,7 +68647,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.3929078218,
                 "grade": "Pending"
@@ -68668,17 +68672,17 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
-                "home_win_probability": 0.5073996381,
+                "home_win_probability": 0.5740011809,
                 "grade": "Pending"
               },
               "score": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-13T13:24:56.145579+00:00",
+                "forecast_at": "2026-10-19T06:16:49.950312+00:00",
                 "generation": "scores_20260930T205050Z",
-                "predicted_home_score": 20.8,
-                "predicted_away_score": 20.4,
+                "predicted_home_score": 21.4,
+                "predicted_away_score": 20.2,
                 "grade": "Pending"
               }
             }
@@ -68693,7 +68697,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.6586119524,
                 "grade": "Pending"
@@ -68718,7 +68722,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.344640213,
                 "grade": "Pending"
@@ -68743,7 +68747,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.3964217252,
                 "grade": "Pending"
@@ -68768,7 +68772,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.3118564182,
                 "grade": "Pending"
@@ -68793,7 +68797,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.4007030793,
                 "grade": "Pending"
@@ -68818,7 +68822,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.4519619128,
                 "grade": "Pending"
@@ -68843,17 +68847,17 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
-                "home_win_probability": 0.3736202682,
+                "home_win_probability": 0.3671525966,
                 "grade": "Pending"
               },
               "score": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-13T13:24:56.145579+00:00",
+                "forecast_at": "2026-10-19T06:16:49.950312+00:00",
                 "generation": "scores_20260930T205050Z",
-                "predicted_home_score": 24.2,
-                "predicted_away_score": 27.0,
+                "predicted_home_score": 23.1,
+                "predicted_away_score": 25.4,
                 "grade": "Pending"
               }
             }
@@ -68868,7 +68872,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.639002847,
                 "grade": "Pending"
@@ -68893,7 +68897,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.8029341768,
                 "grade": "Pending"
@@ -68926,7 +68930,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.7013063413,
                 "grade": "Pending"
@@ -68951,7 +68955,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.8578159302,
                 "grade": "Pending"
@@ -68976,7 +68980,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.4825379603,
                 "grade": "Pending"
@@ -69001,7 +69005,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.736154741,
                 "grade": "Pending"
@@ -69026,17 +69030,17 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
-                "home_win_probability": 0.7727890219,
+                "home_win_probability": 0.7531487264,
                 "grade": "Pending"
               },
               "score": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:38.251816+00:00",
+                "forecast_at": "2026-10-19T06:16:49.950312+00:00",
                 "generation": "scores_20260930T205050Z",
-                "predicted_home_score": 26.9,
-                "predicted_away_score": 17.7,
+                "predicted_home_score": 25.4,
+                "predicted_away_score": 17.5,
                 "grade": "Pending"
               }
             }
@@ -69051,7 +69055,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.7562489126,
                 "grade": "Pending"
@@ -69076,7 +69080,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.813589767,
                 "grade": "Pending"
@@ -69101,7 +69105,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.3516923322,
                 "grade": "Pending"
@@ -69126,7 +69130,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.4237595212,
                 "grade": "Pending"
@@ -69151,7 +69155,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.5771695583,
                 "grade": "Pending"
@@ -69176,7 +69180,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.4512877541,
                 "grade": "Pending"
@@ -69201,7 +69205,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.6887517819,
                 "grade": "Pending"
@@ -69226,7 +69230,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.3807774742,
                 "grade": "Pending"
@@ -69259,17 +69263,17 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
-                "home_win_probability": 0.5457807918,
+                "home_win_probability": 0.5108976028,
                 "grade": "Pending"
               },
               "score": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:38.251816+00:00",
+                "forecast_at": "2026-10-19T06:16:49.950312+00:00",
                 "generation": "scores_20260930T205050Z",
-                "predicted_home_score": 24.3,
-                "predicted_away_score": 22.4,
+                "predicted_home_score": 23.9,
+                "predicted_away_score": 22.5,
                 "grade": "Pending"
               }
             }
@@ -69284,7 +69288,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.6984545107,
                 "grade": "Pending"
@@ -69309,17 +69313,17 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
-                "home_win_probability": 0.5956935829,
+                "home_win_probability": 0.5777290235,
                 "grade": "Pending"
               },
               "score": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:38.251816+00:00",
+                "forecast_at": "2026-10-19T06:16:49.950312+00:00",
                 "generation": "scores_20260930T205050Z",
-                "predicted_home_score": 24.9,
-                "predicted_away_score": 18.9,
+                "predicted_home_score": 23.5,
+                "predicted_away_score": 19.0,
                 "grade": "Pending"
               }
             }
@@ -69334,7 +69338,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.5295809111,
                 "grade": "Pending"
@@ -69359,7 +69363,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.5825646132,
                 "grade": "Pending"
@@ -69384,7 +69388,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.780040074,
                 "grade": "Pending"
@@ -69409,7 +69413,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.4847972778,
                 "grade": "Pending"
@@ -69434,7 +69438,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.4193027977,
                 "grade": "Pending"
@@ -69459,7 +69463,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.5727537177,
                 "grade": "Pending"
@@ -69484,7 +69488,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.4053466281,
                 "grade": "Pending"
@@ -69509,7 +69513,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.6810569219,
                 "grade": "Pending"
@@ -69534,7 +69538,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.8926221554,
                 "grade": "Pending"
@@ -69559,7 +69563,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.5092980575,
                 "grade": "Pending"
@@ -69584,7 +69588,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.7489222978,
                 "grade": "Pending"
@@ -69609,7 +69613,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.3276525829,
                 "grade": "Pending"
@@ -69634,7 +69638,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.4819528316,
                 "grade": "Pending"
@@ -69667,7 +69671,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.3953529286,
                 "grade": "Pending"
@@ -69692,7 +69696,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.3726934809,
                 "grade": "Pending"
@@ -69717,7 +69721,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.4873078963,
                 "grade": "Pending"
@@ -69742,7 +69746,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.3645490549,
                 "grade": "Pending"
@@ -69767,17 +69771,17 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
-                "home_win_probability": 0.3719435774,
+                "home_win_probability": 0.3568941349,
                 "grade": "Pending"
               },
               "score": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:38.251816+00:00",
+                "forecast_at": "2026-10-19T06:16:49.950312+00:00",
                 "generation": "scores_20260930T205050Z",
-                "predicted_home_score": 21.7,
-                "predicted_away_score": 24.3,
+                "predicted_home_score": 21.2,
+                "predicted_away_score": 24.0,
                 "grade": "Pending"
               }
             }
@@ -69792,7 +69796,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.3147433374,
                 "grade": "Pending"
@@ -69817,7 +69821,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.6605003224,
                 "grade": "Pending"
@@ -69842,7 +69846,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.447689469,
                 "grade": "Pending"
@@ -69867,7 +69871,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.538332165,
                 "grade": "Pending"
@@ -69892,7 +69896,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.7289019326,
                 "grade": "Pending"
@@ -69917,7 +69921,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.6019778533,
                 "grade": "Pending"
@@ -69942,7 +69946,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.4534471515,
                 "grade": "Pending"
@@ -69967,7 +69971,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.5105974679,
                 "grade": "Pending"
@@ -69992,17 +69996,17 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
-                "home_win_probability": 0.5821682547,
+                "home_win_probability": 0.5924992405,
                 "grade": "Pending"
               },
               "score": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-17T17:07:40.285209+00:00",
+                "forecast_at": "2026-10-19T06:16:49.950312+00:00",
                 "generation": "scores_20260930T205050Z",
-                "predicted_home_score": 25.7,
-                "predicted_away_score": 23.2,
+                "predicted_home_score": 25.6,
+                "predicted_away_score": 22.6,
                 "grade": "Pending"
               }
             }
@@ -70025,7 +70029,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.5589323567,
                 "grade": "Pending"
@@ -70050,7 +70054,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.7366737381,
                 "grade": "Pending"
@@ -70075,7 +70079,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.7730774317,
                 "grade": "Pending"
@@ -70100,7 +70104,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.4550382438,
                 "grade": "Pending"
@@ -70125,7 +70129,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.8306974001,
                 "grade": "Pending"
@@ -70150,7 +70154,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.3640218565,
                 "grade": "Pending"
@@ -70175,7 +70179,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.516423351,
                 "grade": "Pending"
@@ -70200,7 +70204,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.5275111249,
                 "grade": "Pending"
@@ -70225,7 +70229,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.4200364949,
                 "grade": "Pending"
@@ -70250,7 +70254,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.654397372,
                 "grade": "Pending"
@@ -70275,7 +70279,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.4732852158,
                 "grade": "Pending"
@@ -70300,7 +70304,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.7298435923,
                 "grade": "Pending"
@@ -70325,7 +70329,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.6873565348,
                 "grade": "Pending"
@@ -70350,17 +70354,17 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
-                "home_win_probability": 0.4816328729,
+                "home_win_probability": 0.4960287075,
                 "grade": "Pending"
               },
               "score": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:38.251816+00:00",
+                "forecast_at": "2026-10-19T06:16:49.950312+00:00",
                 "generation": "scores_20260930T205050Z",
-                "predicted_home_score": 23.0,
-                "predicted_away_score": 26.1,
+                "predicted_home_score": 23.6,
+                "predicted_away_score": 25.2,
                 "grade": "Pending"
               }
             }
@@ -70375,7 +70379,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.7025735581,
                 "grade": "Pending"
@@ -70408,7 +70412,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.3313870254,
                 "grade": "Pending"
@@ -70433,7 +70437,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.4262270166,
                 "grade": "Pending"
@@ -70458,7 +70462,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.6491361312,
                 "grade": "Pending"
@@ -70483,7 +70487,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.5110875398,
                 "grade": "Pending"
@@ -70508,17 +70512,17 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
-                "home_win_probability": 0.7513051351,
+                "home_win_probability": 0.7673988655,
                 "grade": "Pending"
               },
               "score": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-13T13:24:56.145579+00:00",
+                "forecast_at": "2026-10-19T06:16:49.950312+00:00",
                 "generation": "scores_20260930T205050Z",
-                "predicted_home_score": 26.1,
-                "predicted_away_score": 17.1,
+                "predicted_home_score": 26.9,
+                "predicted_away_score": 16.8,
                 "grade": "Pending"
               }
             }
@@ -70533,7 +70537,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.4765763685,
                 "grade": "Pending"
@@ -70558,7 +70562,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.6147122695,
                 "grade": "Pending"
@@ -70583,7 +70587,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.3944084045,
                 "grade": "Pending"
@@ -70608,7 +70612,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.6081291534,
                 "grade": "Pending"
@@ -70633,7 +70637,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.4463843676,
                 "grade": "Pending"
@@ -70658,7 +70662,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.4866511799,
                 "grade": "Pending"
@@ -70683,7 +70687,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.5132144181,
                 "grade": "Pending"
@@ -70708,17 +70712,17 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
-                "home_win_probability": 0.5776142587,
+                "home_win_probability": 0.6145800788,
                 "grade": "Pending"
               },
               "score": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:38.251816+00:00",
+                "forecast_at": "2026-10-19T06:16:49.950312+00:00",
                 "generation": "scores_20260930T205050Z",
-                "predicted_home_score": 26.3,
-                "predicted_away_score": 23.8,
+                "predicted_home_score": 26.4,
+                "predicted_away_score": 23.0,
                 "grade": "Pending"
               }
             }
@@ -70733,7 +70737,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.4848950854,
                 "grade": "Pending"
@@ -70758,7 +70762,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.4531238835,
                 "grade": "Pending"
@@ -70783,7 +70787,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.7025074818,
                 "grade": "Pending"
@@ -70816,7 +70820,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.4885951295,
                 "grade": "Pending"
@@ -70841,17 +70845,17 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
-                "home_win_probability": 0.5428906554,
+                "home_win_probability": 0.5196689414,
                 "grade": "Pending"
               },
               "score": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:38.251816+00:00",
+                "forecast_at": "2026-10-19T06:16:49.950312+00:00",
                 "generation": "scores_20260930T205050Z",
-                "predicted_home_score": 23.7,
-                "predicted_away_score": 20.5,
+                "predicted_home_score": 23.1,
+                "predicted_away_score": 21.1,
                 "grade": "Pending"
               }
             }
@@ -70866,7 +70870,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.429355879,
                 "grade": "Pending"
@@ -70891,7 +70895,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.5561877989,
                 "grade": "Pending"
@@ -70916,7 +70920,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.6091340191,
                 "grade": "Pending"
@@ -70941,7 +70945,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.700126242,
                 "grade": "Pending"
@@ -70966,7 +70970,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.41348641,
                 "grade": "Pending"
@@ -70991,7 +70995,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.5267897435,
                 "grade": "Pending"
@@ -71016,7 +71020,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.6100978322,
                 "grade": "Pending"
@@ -71041,7 +71045,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.5062397832,
                 "grade": "Pending"
@@ -71066,7 +71070,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.3937849981,
                 "grade": "Pending"
@@ -71091,7 +71095,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.5183667882,
                 "grade": "Pending"
@@ -71116,7 +71120,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.7092232535,
                 "grade": "Pending"
@@ -71141,7 +71145,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.5559052283,
                 "grade": "Pending"
@@ -71166,16 +71170,16 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
-                "home_win_probability": 0.4586549478,
+                "home_win_probability": 0.447985733,
                 "grade": "Pending"
               },
               "score": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:38.251816+00:00",
+                "forecast_at": "2026-10-19T06:16:49.950312+00:00",
                 "generation": "scores_20260930T205050Z",
-                "predicted_home_score": 25.0,
+                "predicted_home_score": 24.1,
                 "predicted_away_score": 25.0,
                 "grade": "Pending"
               }
@@ -71191,7 +71195,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.7904550653,
                 "grade": "Pending"
@@ -71224,7 +71228,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.4959423425,
                 "grade": "Pending"
@@ -71249,7 +71253,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.6072061032,
                 "grade": "Pending"
@@ -71274,7 +71278,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.6111143902,
                 "grade": "Pending"
@@ -71299,7 +71303,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.5134774795,
                 "grade": "Pending"
@@ -71324,17 +71328,17 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
-                "home_win_probability": 0.635444341,
+                "home_win_probability": 0.5912105685,
                 "grade": "Pending"
               },
               "score": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:38.251816+00:00",
+                "forecast_at": "2026-10-19T06:16:49.950312+00:00",
                 "generation": "scores_20260930T205050Z",
-                "predicted_home_score": 25.5,
-                "predicted_away_score": 20.8,
+                "predicted_home_score": 24.4,
+                "predicted_away_score": 20.0,
                 "grade": "Pending"
               }
             }
@@ -71349,7 +71353,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.7191582718,
                 "grade": "Pending"
@@ -71374,7 +71378,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.2835714273,
                 "grade": "Pending"
@@ -71399,7 +71403,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.315514918,
                 "grade": "Pending"
@@ -71424,7 +71428,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.6635151926,
                 "grade": "Pending"
@@ -71449,7 +71453,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.4470446596,
                 "grade": "Pending"
@@ -71474,7 +71478,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.4598213049,
                 "grade": "Pending"
@@ -71499,7 +71503,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.3694369927,
                 "grade": "Pending"
@@ -71524,7 +71528,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.4593965912,
                 "grade": "Pending"
@@ -71549,7 +71553,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.4128011709,
                 "grade": "Pending"
@@ -71574,7 +71578,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.7868779585,
                 "grade": "Pending"
@@ -71599,17 +71603,17 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
-                "home_win_probability": 0.5427464674,
+                "home_win_probability": 0.5473168911,
                 "grade": "Pending"
               },
               "score": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:38.251816+00:00",
+                "forecast_at": "2026-10-19T06:16:49.950312+00:00",
                 "generation": "scores_20260930T205050Z",
-                "predicted_home_score": 25.3,
-                "predicted_away_score": 23.2,
+                "predicted_home_score": 25.9,
+                "predicted_away_score": 22.8,
                 "grade": "Pending"
               }
             }
@@ -71632,7 +71636,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.3373704376,
                 "grade": "Pending"
@@ -71657,7 +71661,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.6088623454,
                 "grade": "Pending"
@@ -71682,7 +71686,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.7228953597,
                 "grade": "Pending"
@@ -71707,7 +71711,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.7360718943,
                 "grade": "Pending"
@@ -71732,7 +71736,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.7340411771,
                 "grade": "Pending"
@@ -71757,7 +71761,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.725752298,
                 "grade": "Pending"
@@ -71782,17 +71786,17 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
-                "home_win_probability": 0.4200641907,
+                "home_win_probability": 0.4417734731,
                 "grade": "Pending"
               },
               "score": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-13T13:24:56.145579+00:00",
+                "forecast_at": "2026-10-19T06:16:49.950312+00:00",
                 "generation": "scores_20260930T205050Z",
-                "predicted_home_score": 23.3,
-                "predicted_away_score": 26.5,
+                "predicted_home_score": 23.7,
+                "predicted_away_score": 26.0,
                 "grade": "Pending"
               }
             }
@@ -71807,7 +71811,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.8274089574,
                 "grade": "Pending"
@@ -71832,7 +71836,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.3785827545,
                 "grade": "Pending"
@@ -71857,7 +71861,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.7000129432,
                 "grade": "Pending"
@@ -71882,7 +71886,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.522474766,
                 "grade": "Pending"
@@ -71907,7 +71911,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.6185273574,
                 "grade": "Pending"
@@ -71932,7 +71936,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.8283850983,
                 "grade": "Pending"
@@ -71957,7 +71961,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.4869723795,
                 "grade": "Pending"
@@ -71982,7 +71986,7 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
                 "home_win_probability": 0.5717375404,
                 "grade": "Pending"
@@ -72007,17 +72011,17 @@
             "tasks": {
               "winner": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-19T00:28:07.598038+00:00",
+                "forecast_at": "2026-10-19T06:16:19.120164+00:00",
                 "generation": "20260929T124531Z",
-                "home_win_probability": 0.4124762497,
+                "home_win_probability": 0.4517151992,
                 "grade": "Pending"
               },
               "score": {
                 "cohort": "genuine_pregame",
-                "forecast_at": "2026-10-13T13:24:56.145579+00:00",
+                "forecast_at": "2026-10-19T06:16:49.950312+00:00",
                 "generation": "scores_20260930T205050Z",
                 "predicted_home_score": 23.6,
-                "predicted_away_score": 25.4,
+                "predicted_away_score": 25.1,
                 "grade": "Pending"
               }
             }
@@ -72031,7 +72035,7 @@
   "sources": [
     {
       "path": "public_site/data/shadow_next.json",
-      "sha256": "b221bdcabbe06b1e97f189d87a3d7905e96def86b0524a6a875dc850b2058113",
+      "sha256": "13c91924c118573046b7a621cd4d3e80c3d7f4dda60d5b9853c3781ea5ed819b",
       "hash_basis": "canonical_json_without_operational_timestamps_v1",
       "excluded_keys": [
         "generated_at",
@@ -72043,7 +72047,7 @@
     },
     {
       "path": "public_site/data/opponent_ratings.json",
-      "sha256": "4363ef6cbd08456a3c4f2f267a2618b054874635f69292565e578539cf2a4b6f",
+      "sha256": "cdea5bb22beb6e7acde70e68d9c3fe98fd895fbb6375aaceb0e432177eb836ef",
       "hash_basis": "canonical_json_without_operational_timestamps_v1",
       "excluded_keys": [
         "generated_at",
@@ -72079,7 +72083,7 @@
     },
     {
       "path": "public_site/data/score_distributions.json",
-      "sha256": "a8e9c08db3a1156968ad157e5a09a4209f1661ce3547ea3c2406e18c7150306b",
+      "sha256": "5cd260435dbdcc9069c2ab57192a125ceb990d7680fdf6c286547019aea4b874",
       "hash_basis": "canonical_json_without_operational_timestamps_v1",
       "excluded_keys": [
         "generated_at",
@@ -72103,7 +72107,7 @@
     },
     {
       "path": "public_site/data/feature_freshness.json",
-      "sha256": "a7d0ca707cca9f63efbc8dc32f56b790254d19c024f2592da9a151b97f857847",
+      "sha256": "c96747a95c4e6a6b871030d6fbcb83bf2794fccdb9d572e2507c2191d52ab7e9",
       "hash_basis": "canonical_json_without_operational_timestamps_v1",
       "excluded_keys": [
         "generated_at",
@@ -72115,7 +72119,7 @@
     },
     {
       "path": "public_site/data/predictions.json",
-      "sha256": "63fa9f7f3e1ed6aa99bbd44fa35108092cae9165ddd2fdc0a7b82c4f2c44b70f",
+      "sha256": "a35391e641791499dc43df2a73bcf463f5d40d517da46639e8b72540df4fb174",
       "hash_basis": "canonical_json_without_operational_timestamps_v1",
       "excluded_keys": [
         "generated_at",
@@ -72127,7 +72131,7 @@
     },
     {
       "path": "data/schedule_2026.csv",
-      "sha256": "c0e458f5948027ccf94ac1f9b3676d276f7fca5f044127586325908ce8932236",
+      "sha256": "d04ffe01fe33f9b06331f746359e7c9f3d89656f22351033d0ad77ec1fa2e8bd",
       "hash_basis": "file_bytes"
     },
     {
@@ -72142,7 +72146,7 @@
     },
     {
       "path": "audit/sources/load_pbp/latest.json",
-      "sha256": "31c40bcd0c22f143dd05e6d269871f6abac8e5c6a747d10c8a0af2d3749819d9",
+      "sha256": "3d5654c8ce0260388b1d177df3c7d8892f9adf65660699e65a06dbb6c23a8430",
       "hash_basis": "canonical_json_without_operational_timestamps_v1",
       "excluded_keys": [
         "generated_at",

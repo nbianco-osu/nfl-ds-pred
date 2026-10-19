@@ -49,7 +49,7 @@
     {
       "game_id": "2026_06_NYJ_NE",
       "status": "Reproduced",
-      "absolute_difference": 0.0
+      "absolute_difference": 1.1102230246251565e-16
     }
   ],
   "note": "Deterministic replay of up to ten original archived input records with the matching local production artifact. Older archives used 10-decimal JSON precision, which can affect tree thresholds; mismatches remain visible and records are not rewritten. Future archives preserve full numeric precision. No reconstruction of missing legacy inputs. Sampling is not an exhaustive audit; passing does not establish predictive skill."
