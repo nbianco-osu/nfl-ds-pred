@@ -1,11 +1,7 @@
 {
-  "updated_at": "2026-10-19T06:18:56.258436+00:00",
+  "updated_at": "2026-10-20T15:43:04.007712+00:00",
   "provider": "Open-Meteo",
   "games": [
-    {
-      "game_id": "2026_06_WAS_SF",
-      "status": "Forecast archived"
-    },
     {
       "game_id": "2026_07_NE_CHI",
       "status": "Forecast archived"
@@ -108,12 +104,7 @@
     },
     {
       "game_id": "2026_08_NE_MIA",
-      "status": "Outside 16-day horizon"
-    },
-    {
-      "game_id": "2026_08_NE_MIA",
-      "status": "Forecast unavailable",
-      "error": "URLError"
+      "status": "Forecast archived"
     },
     {
       "game_id": "2026_08_PHI_WAS",
@@ -731,5 +722,5 @@
   "added": 22,
   "note": "Non-commercial Open-Meteo forecast API; CC BY 4.0 attribution. Outdoor grid-cell weather only. Provider issue time unavailable: locally observed time is retained, never called publication time. Confirmed QB inputs remain manual imports with source URLs; previous usage is not confirmation.",
   "venue_source": "https://raw.githubusercontent.com/greerreNFL/Stadiums/main/data/stadiums.csv",
-  "venue_sha256": "8de55868f633112f1d29672155ad67e59555e67c2b8dafce34800313df45098b"
+  "venue_sha256": "c73bc82fdcb5abe9018227a61bfe91a562d7bf1f10214ee34f1a480d5bcd519c"
 }

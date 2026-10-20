@@ -1206,7 +1206,7 @@
     "away": {
       "last_performance_week": 2,
       "plays_per_game": 74.5,
-      "opponent_adjusted_epa": -0.062124360289939645,
+      "opponent_adjusted_epa": -0.0621243602899397,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "C.J. Stroud",
@@ -1293,7 +1293,7 @@
     "home": {
       "last_performance_week": 2,
       "plays_per_game": 60.0,
-      "opponent_adjusted_epa": -0.6079659481412497,
+      "opponent_adjusted_epa": -0.6079659481412496,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Jameis Winston",
@@ -1602,7 +1602,7 @@
     "away": {
       "last_performance_week": 3,
       "plays_per_game": 61.333333333333336,
-      "opponent_adjusted_epa": -0.0022221915850737795,
+      "opponent_adjusted_epa": -0.0022221915850737517,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Aaron Rodgers",
@@ -1635,7 +1635,7 @@
     "away": {
       "last_performance_week": 3,
       "plays_per_game": 62.333333333333336,
-      "opponent_adjusted_epa": 0.1579768031426326,
+      "opponent_adjusted_epa": 0.15797680314263257,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Daniel Jones",
@@ -1821,7 +1821,7 @@
     "home": {
       "last_performance_week": 3,
       "plays_per_game": 59.0,
-      "opponent_adjusted_epa": -0.41387728190401246,
+      "opponent_adjusted_epa": -0.4138772819040124,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Jameis Winston",
@@ -2118,7 +2118,7 @@
     "home": {
       "last_performance_week": 4,
       "plays_per_game": 62.75,
-      "opponent_adjusted_epa": 0.14709584256549466,
+      "opponent_adjusted_epa": 0.14709584256549468,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Dak Prescott",
@@ -2151,7 +2151,7 @@
     "home": {
       "last_performance_week": 4,
       "plays_per_game": 55.0,
-      "opponent_adjusted_epa": 0.1448806506878301,
+      "opponent_adjusted_epa": 0.14488065068783013,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Trevor Lawrence",
@@ -2349,7 +2349,7 @@
     "home": {
       "last_performance_week": 4,
       "plays_per_game": 62.5,
-      "opponent_adjusted_epa": 0.0148403688467685,
+      "opponent_adjusted_epa": 0.014840368846768518,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Aaron Rodgers",
@@ -2361,7 +2361,7 @@
     "away": {
       "last_performance_week": 4,
       "plays_per_game": 62.75,
-      "opponent_adjusted_epa": 0.04878449491804345,
+      "opponent_adjusted_epa": 0.04878449491804343,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Daniel Jones",
@@ -2646,7 +2646,7 @@
     "home": {
       "last_performance_week": 5,
       "plays_per_game": 57.6,
-      "opponent_adjusted_epa": 0.10645224188112933,
+      "opponent_adjusted_epa": 0.10645224188112934,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Trevor Lawrence",
@@ -2745,7 +2745,7 @@
     "home": {
       "last_performance_week": 5,
       "plays_per_game": 64.0,
-      "opponent_adjusted_epa": 0.03811254657179562,
+      "opponent_adjusted_epa": 0.03811254657179561,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Daniel Jones",
@@ -2889,7 +2889,7 @@
     "away": {
       "last_performance_week": 5,
       "plays_per_game": 60.4,
-      "opponent_adjusted_epa": 0.05888955694084419,
+      "opponent_adjusted_epa": 0.058889556940844204,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Aaron Rodgers",
@@ -3021,7 +3021,7 @@
     "away": {
       "last_performance_week": 5,
       "plays_per_game": 61.4,
-      "opponent_adjusted_epa": 0.1134721664541684,
+      "opponent_adjusted_epa": 0.11347216645416841,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Dak Prescott",
@@ -3049,7 +3049,7 @@
       "last_qb_attempt_share": 1.0,
       "ol_out": 0,
       "roster_ol_count": 15,
-      "active_roster_ol_count": 9
+      "active_roster_ol_count": 8
     },
     "away": {
       "last_performance_week": 5,
@@ -3061,7 +3061,7 @@
       "last_qb_attempt_share": 1.0,
       "ol_out": 0,
       "roster_ol_count": 13,
-      "active_roster_ol_count": 9
+      "active_roster_ol_count": 8
     },
     "weather": {
       "status": "No timestamped forecast source configured"
@@ -3081,8 +3081,8 @@
       "last_qb": "Caleb Williams",
       "last_qb_attempt_share": 1.0,
       "ol_out": null,
-      "roster_ol_count": null,
-      "active_roster_ol_count": null
+      "roster_ol_count": 12,
+      "active_roster_ol_count": 9
     },
     "away": {
       "last_performance_week": 6,
@@ -3093,8 +3093,8 @@
       "last_qb": "Drake Maye",
       "last_qb_attempt_share": 1.0,
       "ol_out": null,
-      "roster_ol_count": null,
-      "active_roster_ol_count": null
+      "roster_ol_count": 17,
+      "active_roster_ol_count": 9
     },
     "weather": {
       "status": "No timestamped forecast source configured"
@@ -3114,20 +3114,20 @@
       "last_qb": "Tyler Shough",
       "last_qb_attempt_share": 1.0,
       "ol_out": null,
-      "roster_ol_count": null,
-      "active_roster_ol_count": null
+      "roster_ol_count": 13,
+      "active_roster_ol_count": 8
     },
     "away": {
       "last_performance_week": 6,
       "plays_per_game": 62.8,
-      "opponent_adjusted_epa": 0.01832686951227911,
+      "opponent_adjusted_epa": 0.01832686951227912,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Aaron Rodgers",
       "last_qb_attempt_share": 1.0,
       "ol_out": null,
-      "roster_ol_count": null,
-      "active_roster_ol_count": null
+      "roster_ol_count": 12,
+      "active_roster_ol_count": 8
     },
     "weather": {
       "status": "No timestamped forecast source configured"
@@ -3147,20 +3147,20 @@
       "last_qb": "Michael Penix Jr.",
       "last_qb_attempt_share": 1.0,
       "ol_out": null,
-      "roster_ol_count": null,
-      "active_roster_ol_count": null
+      "roster_ol_count": 16,
+      "active_roster_ol_count": 9
     },
     "away": {
-      "last_performance_week": 5,
-      "plays_per_game": 55.4,
-      "opponent_adjusted_epa": 0.28819771901597335,
+      "last_performance_week": 6,
+      "plays_per_game": 54.6,
+      "opponent_adjusted_epa": 0.2628870042096319,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Brock Purdy",
       "last_qb_attempt_share": 1.0,
       "ol_out": null,
-      "roster_ol_count": null,
-      "active_roster_ol_count": null
+      "roster_ol_count": 14,
+      "active_roster_ol_count": 9
     },
     "weather": {
       "status": "No timestamped forecast source configured"
@@ -3180,8 +3180,8 @@
       "last_qb": "Tyler Huntley",
       "last_qb_attempt_share": 1.0,
       "ol_out": null,
-      "roster_ol_count": null,
-      "active_roster_ol_count": null
+      "roster_ol_count": 18,
+      "active_roster_ol_count": 8
     },
     "away": {
       "last_performance_week": 5,
@@ -3192,8 +3192,8 @@
       "last_qb": "Joe Burrow",
       "last_qb_attempt_share": 1.0,
       "ol_out": null,
-      "roster_ol_count": null,
-      "active_roster_ol_count": null
+      "roster_ol_count": 12,
+      "active_roster_ol_count": 10
     },
     "weather": {
       "status": "No timestamped forecast source configured"
@@ -3213,8 +3213,8 @@
       "last_qb": "Bryce Young",
       "last_qb_attempt_share": 1.0,
       "ol_out": null,
-      "roster_ol_count": null,
-      "active_roster_ol_count": null
+      "roster_ol_count": 15,
+      "active_roster_ol_count": 11
     },
     "away": {
       "last_performance_week": 6,
@@ -3225,8 +3225,8 @@
       "last_qb": "Jalon Daniels",
       "last_qb_attempt_share": 1.0,
       "ol_out": null,
-      "roster_ol_count": null,
-      "active_roster_ol_count": null
+      "roster_ol_count": 13,
+      "active_roster_ol_count": 10
     },
     "weather": {
       "status": "No timestamped forecast source configured"
@@ -3246,8 +3246,8 @@
       "last_qb": "C.J. Stroud",
       "last_qb_attempt_share": 1.0,
       "ol_out": null,
-      "roster_ol_count": null,
-      "active_roster_ol_count": null
+      "roster_ol_count": 14,
+      "active_roster_ol_count": 11
     },
     "away": {
       "last_performance_week": 6,
@@ -3258,8 +3258,8 @@
       "last_qb": "Jameis Winston",
       "last_qb_attempt_share": 0.5531914893617021,
       "ol_out": null,
-      "roster_ol_count": null,
-      "active_roster_ol_count": null
+      "roster_ol_count": 14,
+      "active_roster_ol_count": 9
     },
     "weather": {
       "status": "No timestamped forecast source configured"
@@ -3279,20 +3279,20 @@
       "last_qb": "Kyler Murray",
       "last_qb_attempt_share": 1.0,
       "ol_out": null,
-      "roster_ol_count": null,
-      "active_roster_ol_count": null
+      "roster_ol_count": 15,
+      "active_roster_ol_count": 9
     },
     "away": {
       "last_performance_week": 6,
       "plays_per_game": 68.8,
-      "opponent_adjusted_epa": -0.0060052399119027156,
+      "opponent_adjusted_epa": -0.006005239911902727,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Daniel Jones",
       "last_qb_attempt_share": 1.0,
       "ol_out": null,
-      "roster_ol_count": null,
-      "active_roster_ol_count": null
+      "roster_ol_count": 13,
+      "active_roster_ol_count": 9
     },
     "weather": {
       "status": "No timestamped forecast source configured"
@@ -3312,20 +3312,20 @@
       "last_qb": "Geno Smith",
       "last_qb_attempt_share": 1.0,
       "ol_out": null,
-      "roster_ol_count": null,
-      "active_roster_ol_count": null
+      "roster_ol_count": 13,
+      "active_roster_ol_count": 9
     },
     "away": {
       "last_performance_week": 5,
       "plays_per_game": 54.8,
-      "opponent_adjusted_epa": 0.0405915943726376,
+      "opponent_adjusted_epa": 0.04059159437263761,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Malik Willis",
       "last_qb_attempt_share": 1.0,
       "ol_out": null,
-      "roster_ol_count": null,
-      "active_roster_ol_count": null
+      "roster_ol_count": 12,
+      "active_roster_ol_count": 10
     },
     "weather": {
       "status": "No timestamped forecast source configured"
@@ -3345,8 +3345,8 @@
       "last_qb": "Cam Ward",
       "last_qb_attempt_share": 1.0,
       "ol_out": null,
-      "roster_ol_count": null,
-      "active_roster_ol_count": null
+      "roster_ol_count": 14,
+      "active_roster_ol_count": 9
     },
     "away": {
       "last_performance_week": 6,
@@ -3357,8 +3357,8 @@
       "last_qb": "Deshaun Watson",
       "last_qb_attempt_share": 1.0,
       "ol_out": null,
-      "roster_ol_count": null,
-      "active_roster_ol_count": null
+      "roster_ol_count": 13,
+      "active_roster_ol_count": 10
     },
     "weather": {
       "status": "No timestamped forecast source configured"
@@ -3378,8 +3378,8 @@
       "last_qb": "Jacoby Brissett",
       "last_qb_attempt_share": 1.0,
       "ol_out": null,
-      "roster_ol_count": null,
-      "active_roster_ol_count": null
+      "roster_ol_count": 15,
+      "active_roster_ol_count": 8
     },
     "away": {
       "last_performance_week": 6,
@@ -3390,8 +3390,8 @@
       "last_qb": "Bo Nix",
       "last_qb_attempt_share": 1.0,
       "ol_out": null,
-      "roster_ol_count": null,
-      "active_roster_ol_count": null
+      "roster_ol_count": 15,
+      "active_roster_ol_count": 9
     },
     "weather": {
       "status": "No timestamped forecast source configured"
@@ -3411,8 +3411,8 @@
       "last_qb": "Jared Goff",
       "last_qb_attempt_share": 1.0,
       "ol_out": null,
-      "roster_ol_count": null,
-      "active_roster_ol_count": null
+      "roster_ol_count": 14,
+      "active_roster_ol_count": 8
     },
     "away": {
       "last_performance_week": 6,
@@ -3423,8 +3423,8 @@
       "last_qb": "Jordan Love",
       "last_qb_attempt_share": 1.0,
       "ol_out": null,
-      "roster_ol_count": null,
-      "active_roster_ol_count": null
+      "roster_ol_count": 15,
+      "active_roster_ol_count": 11
     },
     "weather": {
       "status": "No timestamped forecast source configured"
@@ -3444,8 +3444,8 @@
       "last_qb": "Kirk Cousins",
       "last_qb_attempt_share": 1.0,
       "ol_out": null,
-      "roster_ol_count": null,
-      "active_roster_ol_count": null
+      "roster_ol_count": 15,
+      "active_roster_ol_count": 9
     },
     "away": {
       "last_performance_week": 6,
@@ -3456,8 +3456,8 @@
       "last_qb": "Matthew Stafford",
       "last_qb_attempt_share": 1.0,
       "ol_out": null,
-      "roster_ol_count": null,
-      "active_roster_ol_count": null
+      "roster_ol_count": 13,
+      "active_roster_ol_count": 9
     },
     "weather": {
       "status": "No timestamped forecast source configured"
@@ -3477,8 +3477,8 @@
       "last_qb": "Sam Darnold",
       "last_qb_attempt_share": 1.0,
       "ol_out": null,
-      "roster_ol_count": null,
-      "active_roster_ol_count": null
+      "roster_ol_count": 14,
+      "active_roster_ol_count": 8
     },
     "away": {
       "last_performance_week": 6,
@@ -3489,8 +3489,8 @@
       "last_qb": "Patrick Mahomes",
       "last_qb_attempt_share": 1.0,
       "ol_out": null,
-      "roster_ol_count": null,
-      "active_roster_ol_count": null
+      "roster_ol_count": 13,
+      "active_roster_ol_count": 10
     },
     "weather": {
       "status": "No timestamped forecast source configured"
@@ -3510,20 +3510,20 @@
       "last_qb": "Tanner McKee",
       "last_qb_attempt_share": 1.0,
       "ol_out": null,
-      "roster_ol_count": null,
-      "active_roster_ol_count": null
+      "roster_ol_count": 14,
+      "active_roster_ol_count": 9
     },
     "away": {
       "last_performance_week": 6,
       "plays_per_game": 65.2,
-      "opponent_adjusted_epa": 0.07114111571591519,
+      "opponent_adjusted_epa": 0.0711411157159152,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Dak Prescott",
       "last_qb_attempt_share": 1.0,
       "ol_out": null,
-      "roster_ol_count": null,
-      "active_roster_ol_count": null
+      "roster_ol_count": 13,
+      "active_roster_ol_count": 9
     },
     "weather": {
       "status": "No timestamped forecast source configured"
@@ -3636,7 +3636,7 @@
     "home": {
       "last_performance_week": 6,
       "plays_per_game": 65.2,
-      "opponent_adjusted_epa": 0.07114111571591519,
+      "opponent_adjusted_epa": 0.0711411157159152,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Dak Prescott",
@@ -3714,7 +3714,7 @@
     "away": {
       "last_performance_week": 6,
       "plays_per_game": 68.8,
-      "opponent_adjusted_epa": -0.0060052399119027156,
+      "opponent_adjusted_epa": -0.006005239911902727,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Daniel Jones",
@@ -3768,7 +3768,7 @@
     "home": {
       "last_performance_week": 6,
       "plays_per_game": 62.8,
-      "opponent_adjusted_epa": 0.01832686951227911,
+      "opponent_adjusted_epa": 0.01832686951227912,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Aaron Rodgers",
@@ -3900,7 +3900,7 @@
     "home": {
       "last_performance_week": 5,
       "plays_per_game": 54.8,
-      "opponent_adjusted_epa": 0.0405915943726376,
+      "opponent_adjusted_epa": 0.04059159437263761,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Malik Willis",
@@ -3931,9 +3931,9 @@
     "week": 8,
     "sources": {},
     "home": {
-      "last_performance_week": 5,
-      "plays_per_game": 63.8,
-      "opponent_adjusted_epa": -0.12065834597496775,
+      "last_performance_week": 6,
+      "plays_per_game": 61.8,
+      "opponent_adjusted_epa": -0.08037214748908886,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Jayden Daniels",
@@ -4098,7 +4098,7 @@
     "home": {
       "last_performance_week": 6,
       "plays_per_game": 68.8,
-      "opponent_adjusted_epa": -0.0060052399119027156,
+      "opponent_adjusted_epa": -0.006005239911902727,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Daniel Jones",
@@ -4110,7 +4110,7 @@
     "away": {
       "last_performance_week": 6,
       "plays_per_game": 65.2,
-      "opponent_adjusted_epa": 0.07114111571591519,
+      "opponent_adjusted_epa": 0.0711411157159152,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Dak Prescott",
@@ -4164,7 +4164,7 @@
     "home": {
       "last_performance_week": 5,
       "plays_per_game": 54.8,
-      "opponent_adjusted_epa": 0.0405915943726376,
+      "opponent_adjusted_epa": 0.04059159437263761,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Malik Willis",
@@ -4261,9 +4261,9 @@
     "week": 9,
     "sources": {},
     "home": {
-      "last_performance_week": 5,
-      "plays_per_game": 63.8,
-      "opponent_adjusted_epa": -0.12065834597496775,
+      "last_performance_week": 6,
+      "plays_per_game": 61.8,
+      "opponent_adjusted_epa": -0.08037214748908886,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Jayden Daniels",
@@ -4327,9 +4327,9 @@
     "week": 9,
     "sources": {},
     "home": {
-      "last_performance_week": 5,
-      "plays_per_game": 55.4,
-      "opponent_adjusted_epa": 0.28819771901597335,
+      "last_performance_week": 6,
+      "plays_per_game": 54.6,
+      "opponent_adjusted_epa": 0.2628870042096319,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Brock Purdy",
@@ -4504,9 +4504,9 @@
       "active_roster_ol_count": null
     },
     "away": {
-      "last_performance_week": 5,
-      "plays_per_game": 63.8,
-      "opponent_adjusted_epa": -0.12065834597496775,
+      "last_performance_week": 6,
+      "plays_per_game": 61.8,
+      "opponent_adjusted_epa": -0.08037214748908886,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Jayden Daniels",
@@ -4659,7 +4659,7 @@
     "home": {
       "last_performance_week": 6,
       "plays_per_game": 68.8,
-      "opponent_adjusted_epa": -0.0060052399119027156,
+      "opponent_adjusted_epa": -0.006005239911902727,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Daniel Jones",
@@ -4671,7 +4671,7 @@
     "away": {
       "last_performance_week": 5,
       "plays_per_game": 54.8,
-      "opponent_adjusted_epa": 0.0405915943726376,
+      "opponent_adjusted_epa": 0.04059159437263761,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Malik Willis",
@@ -4857,7 +4857,7 @@
     "home": {
       "last_performance_week": 6,
       "plays_per_game": 65.2,
-      "opponent_adjusted_epa": 0.07114111571591519,
+      "opponent_adjusted_epa": 0.0711411157159152,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Dak Prescott",
@@ -4867,9 +4867,9 @@
       "active_roster_ol_count": null
     },
     "away": {
-      "last_performance_week": 5,
-      "plays_per_game": 55.4,
-      "opponent_adjusted_epa": 0.28819771901597335,
+      "last_performance_week": 6,
+      "plays_per_game": 54.6,
+      "opponent_adjusted_epa": 0.2628870042096319,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Brock Purdy",
@@ -4902,7 +4902,7 @@
     "away": {
       "last_performance_week": 6,
       "plays_per_game": 62.8,
-      "opponent_adjusted_epa": 0.01832686951227911,
+      "opponent_adjusted_epa": 0.01832686951227912,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Aaron Rodgers",
@@ -4968,7 +4968,7 @@
     "away": {
       "last_performance_week": 6,
       "plays_per_game": 68.8,
-      "opponent_adjusted_epa": -0.0060052399119027156,
+      "opponent_adjusted_epa": -0.006005239911902727,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Daniel Jones",
@@ -5001,7 +5001,7 @@
     "away": {
       "last_performance_week": 5,
       "plays_per_game": 54.8,
-      "opponent_adjusted_epa": 0.0405915943726376,
+      "opponent_adjusted_epa": 0.04059159437263761,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Malik Willis",
@@ -5088,7 +5088,7 @@
     "home": {
       "last_performance_week": 6,
       "plays_per_game": 65.2,
-      "opponent_adjusted_epa": 0.07114111571591519,
+      "opponent_adjusted_epa": 0.0711411157159152,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Dak Prescott",
@@ -5298,7 +5298,7 @@
     "away": {
       "last_performance_week": 6,
       "plays_per_game": 62.8,
-      "opponent_adjusted_epa": 0.01832686951227911,
+      "opponent_adjusted_epa": 0.01832686951227912,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Aaron Rodgers",
@@ -5317,9 +5317,9 @@
     "week": 11,
     "sources": {},
     "home": {
-      "last_performance_week": 5,
-      "plays_per_game": 55.4,
-      "opponent_adjusted_epa": 0.28819771901597335,
+      "last_performance_week": 6,
+      "plays_per_game": 54.6,
+      "opponent_adjusted_epa": 0.2628870042096319,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Brock Purdy",
@@ -5350,9 +5350,9 @@
     "week": 11,
     "sources": {},
     "home": {
-      "last_performance_week": 5,
-      "plays_per_game": 63.8,
-      "opponent_adjusted_epa": -0.12065834597496775,
+      "last_performance_week": 6,
+      "plays_per_game": 61.8,
+      "opponent_adjusted_epa": -0.08037214748908886,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Jayden Daniels",
@@ -5451,7 +5451,7 @@
     "home": {
       "last_performance_week": 6,
       "plays_per_game": 65.2,
-      "opponent_adjusted_epa": 0.07114111571591519,
+      "opponent_adjusted_epa": 0.0711411157159152,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Dak Prescott",
@@ -5517,7 +5517,7 @@
     "home": {
       "last_performance_week": 6,
       "plays_per_game": 62.8,
-      "opponent_adjusted_epa": 0.01832686951227911,
+      "opponent_adjusted_epa": 0.01832686951227912,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Aaron Rodgers",
@@ -5649,7 +5649,7 @@
     "home": {
       "last_performance_week": 6,
       "plays_per_game": 68.8,
-      "opponent_adjusted_epa": -0.0060052399119027156,
+      "opponent_adjusted_epa": -0.006005239911902727,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Daniel Jones",
@@ -5682,7 +5682,7 @@
     "home": {
       "last_performance_week": 5,
       "plays_per_game": 54.8,
-      "opponent_adjusted_epa": 0.0405915943726376,
+      "opponent_adjusted_epa": 0.04059159437263761,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Malik Willis",
@@ -5791,9 +5791,9 @@
       "active_roster_ol_count": null
     },
     "away": {
-      "last_performance_week": 5,
-      "plays_per_game": 63.8,
-      "opponent_adjusted_epa": -0.12065834597496775,
+      "last_performance_week": 6,
+      "plays_per_game": 61.8,
+      "opponent_adjusted_epa": -0.08037214748908886,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Jayden Daniels",
@@ -5812,9 +5812,9 @@
     "week": 12,
     "sources": {},
     "home": {
-      "last_performance_week": 5,
-      "plays_per_game": 55.4,
-      "opponent_adjusted_epa": 0.28819771901597335,
+      "last_performance_week": 6,
+      "plays_per_game": 54.6,
+      "opponent_adjusted_epa": 0.2628870042096319,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Brock Purdy",
@@ -6088,9 +6088,9 @@
       "active_roster_ol_count": null
     },
     "away": {
-      "last_performance_week": 5,
-      "plays_per_game": 55.4,
-      "opponent_adjusted_epa": 0.28819771901597335,
+      "last_performance_week": 6,
+      "plays_per_game": 54.6,
+      "opponent_adjusted_epa": 0.2628870042096319,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Brock Purdy",
@@ -6154,9 +6154,9 @@
       "active_roster_ol_count": null
     },
     "away": {
-      "last_performance_week": 5,
-      "plays_per_game": 63.8,
-      "opponent_adjusted_epa": -0.12065834597496775,
+      "last_performance_week": 6,
+      "plays_per_game": 61.8,
+      "opponent_adjusted_epa": -0.08037214748908886,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Jayden Daniels",
@@ -6222,7 +6222,7 @@
     "away": {
       "last_performance_week": 5,
       "plays_per_game": 54.8,
-      "opponent_adjusted_epa": 0.0405915943726376,
+      "opponent_adjusted_epa": 0.04059159437263761,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Malik Willis",
@@ -6309,7 +6309,7 @@
     "home": {
       "last_performance_week": 6,
       "plays_per_game": 62.8,
-      "opponent_adjusted_epa": 0.01832686951227911,
+      "opponent_adjusted_epa": 0.01832686951227912,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Aaron Rodgers",
@@ -6354,7 +6354,7 @@
     "away": {
       "last_performance_week": 6,
       "plays_per_game": 65.2,
-      "opponent_adjusted_epa": 0.07114111571591519,
+      "opponent_adjusted_epa": 0.0711411157159152,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Dak Prescott",
@@ -6540,7 +6540,7 @@
     "home": {
       "last_performance_week": 5,
       "plays_per_game": 54.8,
-      "opponent_adjusted_epa": 0.0405915943726376,
+      "opponent_adjusted_epa": 0.04059159437263761,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Malik Willis",
@@ -6618,7 +6618,7 @@
     "away": {
       "last_performance_week": 6,
       "plays_per_game": 68.8,
-      "opponent_adjusted_epa": -0.0060052399119027156,
+      "opponent_adjusted_epa": -0.006005239911902727,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Daniel Jones",
@@ -6637,9 +6637,9 @@
     "week": 14,
     "sources": {},
     "home": {
-      "last_performance_week": 5,
-      "plays_per_game": 63.8,
-      "opponent_adjusted_epa": -0.12065834597496775,
+      "last_performance_week": 6,
+      "plays_per_game": 61.8,
+      "opponent_adjusted_epa": -0.08037214748908886,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Jayden Daniels",
@@ -6769,9 +6769,9 @@
     "week": 14,
     "sources": {},
     "home": {
-      "last_performance_week": 5,
-      "plays_per_game": 55.4,
-      "opponent_adjusted_epa": 0.28819771901597335,
+      "last_performance_week": 6,
+      "plays_per_game": 54.6,
+      "opponent_adjusted_epa": 0.2628870042096319,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Brock Purdy",
@@ -6849,7 +6849,7 @@
     "away": {
       "last_performance_week": 6,
       "plays_per_game": 62.8,
-      "opponent_adjusted_epa": 0.01832686951227911,
+      "opponent_adjusted_epa": 0.01832686951227912,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Aaron Rodgers",
@@ -6880,9 +6880,9 @@
       "active_roster_ol_count": null
     },
     "away": {
-      "last_performance_week": 5,
-      "plays_per_game": 55.4,
-      "opponent_adjusted_epa": 0.28819771901597335,
+      "last_performance_week": 6,
+      "plays_per_game": 54.6,
+      "opponent_adjusted_epa": 0.2628870042096319,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Brock Purdy",
@@ -7014,7 +7014,7 @@
     "away": {
       "last_performance_week": 5,
       "plays_per_game": 54.8,
-      "opponent_adjusted_epa": 0.0405915943726376,
+      "opponent_adjusted_epa": 0.04059159437263761,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Malik Willis",
@@ -7101,7 +7101,7 @@
     "home": {
       "last_performance_week": 6,
       "plays_per_game": 62.8,
-      "opponent_adjusted_epa": 0.01832686951227911,
+      "opponent_adjusted_epa": 0.01832686951227912,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Aaron Rodgers",
@@ -7179,7 +7179,7 @@
     "away": {
       "last_performance_week": 6,
       "plays_per_game": 68.8,
-      "opponent_adjusted_epa": -0.0060052399119027156,
+      "opponent_adjusted_epa": -0.006005239911902727,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Daniel Jones",
@@ -7198,9 +7198,9 @@
     "week": 15,
     "sources": {},
     "home": {
-      "last_performance_week": 5,
-      "plays_per_game": 63.8,
-      "opponent_adjusted_epa": -0.12065834597496775,
+      "last_performance_week": 6,
+      "plays_per_game": 61.8,
+      "opponent_adjusted_epa": -0.08037214748908886,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Jayden Daniels",
@@ -7278,7 +7278,7 @@
     "away": {
       "last_performance_week": 6,
       "plays_per_game": 65.2,
-      "opponent_adjusted_epa": 0.07114111571591519,
+      "opponent_adjusted_epa": 0.0711411157159152,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Dak Prescott",
@@ -7596,7 +7596,7 @@
     "home": {
       "last_performance_week": 6,
       "plays_per_game": 68.8,
-      "opponent_adjusted_epa": -0.0060052399119027156,
+      "opponent_adjusted_epa": -0.006005239911902727,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Daniel Jones",
@@ -7629,7 +7629,7 @@
     "home": {
       "last_performance_week": 5,
       "plays_per_game": 54.8,
-      "opponent_adjusted_epa": 0.0405915943726376,
+      "opponent_adjusted_epa": 0.04059159437263761,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Malik Willis",
@@ -7672,9 +7672,9 @@
       "active_roster_ol_count": null
     },
     "away": {
-      "last_performance_week": 5,
-      "plays_per_game": 63.8,
-      "opponent_adjusted_epa": -0.12065834597496775,
+      "last_performance_week": 6,
+      "plays_per_game": 61.8,
+      "opponent_adjusted_epa": -0.08037214748908886,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Jayden Daniels",
@@ -7761,7 +7761,7 @@
     "home": {
       "last_performance_week": 6,
       "plays_per_game": 62.8,
-      "opponent_adjusted_epa": 0.01832686951227911,
+      "opponent_adjusted_epa": 0.01832686951227912,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Aaron Rodgers",
@@ -7837,9 +7837,9 @@
       "active_roster_ol_count": null
     },
     "away": {
-      "last_performance_week": 5,
-      "plays_per_game": 55.4,
-      "opponent_adjusted_epa": 0.28819771901597335,
+      "last_performance_week": 6,
+      "plays_per_game": 54.6,
+      "opponent_adjusted_epa": 0.2628870042096319,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Brock Purdy",
@@ -7860,7 +7860,7 @@
     "home": {
       "last_performance_week": 6,
       "plays_per_game": 65.2,
-      "opponent_adjusted_epa": 0.07114111571591519,
+      "opponent_adjusted_epa": 0.0711411157159152,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Dak Prescott",
@@ -8037,7 +8037,7 @@
     "away": {
       "last_performance_week": 6,
       "plays_per_game": 68.8,
-      "opponent_adjusted_epa": -0.0060052399119027156,
+      "opponent_adjusted_epa": -0.006005239911902727,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Daniel Jones",
@@ -8058,7 +8058,7 @@
     "home": {
       "last_performance_week": 6,
       "plays_per_game": 65.2,
-      "opponent_adjusted_epa": 0.07114111571591519,
+      "opponent_adjusted_epa": 0.0711411157159152,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Dak Prescott",
@@ -8101,9 +8101,9 @@
       "active_roster_ol_count": null
     },
     "away": {
-      "last_performance_week": 5,
-      "plays_per_game": 63.8,
-      "opponent_adjusted_epa": -0.12065834597496775,
+      "last_performance_week": 6,
+      "plays_per_game": 61.8,
+      "opponent_adjusted_epa": -0.08037214748908886,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Jayden Daniels",
@@ -8157,7 +8157,7 @@
     "home": {
       "last_performance_week": 5,
       "plays_per_game": 54.8,
-      "opponent_adjusted_epa": 0.0405915943726376,
+      "opponent_adjusted_epa": 0.04059159437263761,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Malik Willis",
@@ -8301,7 +8301,7 @@
     "away": {
       "last_performance_week": 6,
       "plays_per_game": 62.8,
-      "opponent_adjusted_epa": 0.01832686951227911,
+      "opponent_adjusted_epa": 0.01832686951227912,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Aaron Rodgers",
@@ -8386,9 +8386,9 @@
     "week": 17,
     "sources": {},
     "home": {
-      "last_performance_week": 5,
-      "plays_per_game": 55.4,
-      "opponent_adjusted_epa": 0.28819771901597335,
+      "last_performance_week": 6,
+      "plays_per_game": 54.6,
+      "opponent_adjusted_epa": 0.2628870042096319,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Brock Purdy",
@@ -8464,9 +8464,9 @@
       "active_roster_ol_count": null
     },
     "away": {
-      "last_performance_week": 5,
-      "plays_per_game": 55.4,
-      "opponent_adjusted_epa": 0.28819771901597335,
+      "last_performance_week": 6,
+      "plays_per_game": 54.6,
+      "opponent_adjusted_epa": 0.2628870042096319,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Brock Purdy",
@@ -8499,7 +8499,7 @@
     "away": {
       "last_performance_week": 6,
       "plays_per_game": 62.8,
-      "opponent_adjusted_epa": 0.01832686951227911,
+      "opponent_adjusted_epa": 0.01832686951227912,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Aaron Rodgers",
@@ -8718,7 +8718,7 @@
     "home": {
       "last_performance_week": 6,
       "plays_per_game": 68.8,
-      "opponent_adjusted_epa": -0.0060052399119027156,
+      "opponent_adjusted_epa": -0.006005239911902727,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Daniel Jones",
@@ -8862,7 +8862,7 @@
     "away": {
       "last_performance_week": 5,
       "plays_per_game": 54.8,
-      "opponent_adjusted_epa": 0.0405915943726376,
+      "opponent_adjusted_epa": 0.04059159437263761,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Malik Willis",
@@ -8947,9 +8947,9 @@
     "week": 18,
     "sources": {},
     "home": {
-      "last_performance_week": 5,
-      "plays_per_game": 63.8,
-      "opponent_adjusted_epa": -0.12065834597496775,
+      "last_performance_week": 6,
+      "plays_per_game": 61.8,
+      "opponent_adjusted_epa": -0.08037214748908886,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Jayden Daniels",
@@ -8961,7 +8961,7 @@
     "away": {
       "last_performance_week": 6,
       "plays_per_game": 65.2,
-      "opponent_adjusted_epa": 0.07114111571591519,
+      "opponent_adjusted_epa": 0.0711411157159152,
       "expected_qb": null,
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Dak Prescott",

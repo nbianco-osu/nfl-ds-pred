@@ -394,11 +394,11 @@
       "version": "20260929T124531Z",
       "dimension": "confidence",
       "group": "70%+",
-      "games": 9,
-      "accuracy": 0.6666666666666666,
-      "log_loss": 0.6403293839818277,
-      "brier": 0.2241669484029766,
-      "status": "Small sample; descriptive only"
+      "games": 10,
+      "accuracy": 0.7,
+      "log_loss": 0.6054924351942579,
+      "brier": 0.20816135428757251,
+      "status": "Descriptive; overlapping groups"
     },
     {
       "version": "20260929T124531Z",
@@ -414,20 +414,20 @@
       "version": "20260929T124531Z",
       "dimension": "provenance",
       "group": "Timestamped archive",
-      "games": 13,
-      "accuracy": 0.38461538461538464,
-      "log_loss": 0.8149410148758676,
-      "brier": 0.3078056958018918,
+      "games": 14,
+      "accuracy": 0.42857142857142855,
+      "log_loss": 0.7775852206780292,
+      "brier": 0.2903989323338235,
       "status": "Descriptive; overlapping groups"
     },
     {
       "version": "20260929T124531Z",
       "dimension": "stage",
       "group": "Weeks 1-6",
-      "games": 43,
-      "accuracy": 0.5348837209302325,
-      "log_loss": 0.696760723895118,
-      "brier": 0.251209918512678,
+      "games": 44,
+      "accuracy": 0.5454545454545454,
+      "log_loss": 0.687560705081732,
+      "brier": 0.24695767052941112,
       "status": "Descriptive; overlapping groups"
     },
     {
@@ -714,10 +714,10 @@
       "version": "20260929T124531Z",
       "dimension": "team",
       "group": "SF",
-      "games": 2,
+      "games": 3,
       "accuracy": 1.0,
-      "log_loss": 0.4014608241222062,
-      "brier": 0.11677678395886458,
+      "log_loss": 0.36496051478351393,
+      "brier": 0.09922152505555488,
       "status": "Small sample; descriptive only"
     },
     {
@@ -744,10 +744,10 @@
       "version": "20260929T124531Z",
       "dimension": "team",
       "group": "WAS",
-      "games": 1,
-      "accuracy": 0.0,
-      "log_loss": 0.9606233611552775,
-      "brier": 0.3811157382492567,
+      "games": 2,
+      "accuracy": 0.5,
+      "log_loss": 0.6262916286307034,
+      "brier": 0.22261337274909612,
       "status": "Small sample; descriptive only"
     },
     {

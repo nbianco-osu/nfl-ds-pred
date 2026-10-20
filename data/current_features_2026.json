@@ -1,36 +1,36 @@
 {
   "season": 2026,
-  "completed_games": 92,
+  "completed_games": 93,
   "sources": {
-    "pbp_games": 92,
-    "qb_team_games": 184,
+    "pbp_games": 93,
+    "qb_team_games": 186,
     "injuries_team_weeks": 186,
-    "rosters_team_weeks": 186
+    "rosters_team_weeks": 214
   },
   "receipts": {
     "load_schedules": {
       "source": "nflreadpy.load_schedules",
-      "sha256": "cd09e0388a2e71bd7e3fc9ec16db42cf18e11c658233a4a268ee685db39c2561",
+      "sha256": "12217f77885d20c6955d2b0febfb851a21c51889ad97f62c8c79ceeb55ca82dd",
       "rows": 272,
-      "retrieved_at": "2026-10-19T06:15:51.213446+00:00",
+      "retrieved_at": "2026-10-20T15:40:00.586023+00:00",
       "provider_published_at": null,
       "cache_may_be_used": true,
       "note": "Local observation time, not proof of original publication or freshness."
     },
     "load_pbp": {
       "source": "nflreadpy.load_pbp",
-      "sha256": "556d4d565314d8152a93b73da387634b3189e0800be7a1d60faf80bbebf6691c",
-      "rows": 16212,
-      "retrieved_at": "2026-10-19T06:15:52.616396+00:00",
+      "sha256": "f75bef4de4437f81d69ee1d709645cb0b8892f23658a7f3de18601b063772d08",
+      "rows": 16380,
+      "retrieved_at": "2026-10-20T15:40:01.787434+00:00",
       "provider_published_at": null,
       "cache_may_be_used": true,
       "note": "Local observation time, not proof of original publication or freshness."
     },
     "load_player_stats": {
       "source": "nflreadpy.load_player_stats",
-      "sha256": "bd3808e6aa82511f59a02f7647e68b04368c3cc927a32b20df0564605b3a609e",
-      "rows": 6417,
-      "retrieved_at": "2026-10-19T06:15:56.909163+00:00",
+      "sha256": "dac67efc6fad9a08c8c2591318516302cac93395ae98455057fa44d5824e4e3a",
+      "rows": 6488,
+      "retrieved_at": "2026-10-20T15:40:05.953016+00:00",
       "provider_published_at": null,
       "cache_may_be_used": true,
       "note": "Local observation time, not proof of original publication or freshness."
@@ -39,16 +39,16 @@
       "source": "nflreadpy.load_injuries",
       "sha256": "06e4109ee9d22001875ea1f0d939a0a73127fa1610bfc8dfbcafcf0a28edb5dd",
       "rows": 1789,
-      "retrieved_at": "2026-10-19T06:15:59.209963+00:00",
+      "retrieved_at": "2026-10-20T15:40:08.249208+00:00",
       "provider_published_at": null,
       "cache_may_be_used": true,
       "note": "Local observation time, not proof of original publication or freshness."
     },
     "load_rosters_weekly": {
       "source": "nflreadpy.load_rosters_weekly",
-      "sha256": "f13c33c532a04abb48a1f426bfb5c4159e2cfd52a6f1a564007817d47ab22221",
-      "rows": 15327,
-      "retrieved_at": "2026-10-19T06:15:59.353084+00:00",
+      "sha256": "c0919fb43adee1253bfba7122dde65f300b96fbc72de19fbe2bede86c08cb608",
+      "rows": 17574,
+      "retrieved_at": "2026-10-20T15:40:09.331347+00:00",
       "provider_published_at": null,
       "cache_may_be_used": true,
       "note": "Local observation time, not proof of original publication or freshness."

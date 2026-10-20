@@ -80,72 +80,72 @@
     },
     {
       "feature": "home_team_roster_size",
-      "missing": 179,
+      "missing": 165,
       "rows": 272
     },
     {
       "feature": "home_team_roster_active_count",
-      "missing": 179,
+      "missing": 165,
       "rows": 272
     },
     {
       "feature": "home_team_roster_avg_years_exp",
-      "missing": 179,
+      "missing": 165,
       "rows": 272
     },
     {
       "feature": "home_team_roster_rookie_count",
-      "missing": 179,
+      "missing": 165,
       "rows": 272
     },
     {
       "feature": "home_team_roster_qb_count",
-      "missing": 179,
+      "missing": 165,
       "rows": 272
     },
     {
       "feature": "home_team_roster_ol_count",
-      "missing": 179,
+      "missing": 165,
       "rows": 272
     },
     {
       "feature": "home_team_roster_skill_count",
-      "missing": 179,
+      "missing": 165,
       "rows": 272
     },
     {
       "feature": "away_team_roster_size",
-      "missing": 179,
+      "missing": 165,
       "rows": 272
     },
     {
       "feature": "away_team_roster_active_count",
-      "missing": 179,
+      "missing": 165,
       "rows": 272
     },
     {
       "feature": "away_team_roster_avg_years_exp",
-      "missing": 179,
+      "missing": 165,
       "rows": 272
     },
     {
       "feature": "away_team_roster_rookie_count",
-      "missing": 179,
+      "missing": 165,
       "rows": 272
     },
     {
       "feature": "away_team_roster_qb_count",
-      "missing": 179,
+      "missing": 165,
       "rows": 272
     },
     {
       "feature": "away_team_roster_ol_count",
-      "missing": 179,
+      "missing": 165,
       "rows": 272
     },
     {
       "feature": "away_team_roster_skill_count",
-      "missing": 179,
+      "missing": 165,
       "rows": 272
     },
     {
