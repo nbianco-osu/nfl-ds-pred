@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "source_updated_at": "2026-10-20T15:42:28.984737+00:00",
+  "source_updated_at": "2026-10-22T00:03:01.852112+00:00",
   "default_version": "20260929T124531Z",
   "note": "Observed saved forecasts, not backtests. Older winner archives lack creation timestamps; legacy provenance is incomplete. New forecasts carry timestamps from the October 13 audit onward. All versions combines different models. Score errors require an archived score timestamp. Top summary score/line statistics use the ensemble within the selected winner cohort; the independent score comparison below uses score-model versions. Ties are excluded from winner metrics; pushes and ungraded picks are excluded from line hit rates. Wilson 95% intervals assume independent games and can understate dependence.",
   "groups": [

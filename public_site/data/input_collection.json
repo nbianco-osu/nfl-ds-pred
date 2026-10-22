@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T15:43:04.007712+00:00",
+  "updated_at": "2026-10-22T00:03:24.750331+00:00",
   "provider": "Open-Meteo",
   "games": [
     {
@@ -52,7 +52,12 @@
     },
     {
       "game_id": "2026_07_KC_SEA",
-      "status": "Forecast archived"
+      "status": "Outside 16-day horizon"
+    },
+    {
+      "game_id": "2026_07_KC_SEA",
+      "status": "Forecast unavailable",
+      "error": "URLError"
     },
     {
       "game_id": "2026_07_DAL_PHI",
@@ -88,7 +93,12 @@
     },
     {
       "game_id": "2026_08_CLE_PIT",
-      "status": "Forecast archived"
+      "status": "Outside 16-day horizon"
+    },
+    {
+      "game_id": "2026_08_CLE_PIT",
+      "status": "Forecast unavailable",
+      "error": "URLError"
     },
     {
       "game_id": "2026_08_ATL_TB",
@@ -719,7 +729,7 @@
       "status": "Outside 16-day horizon"
     }
   ],
-  "added": 22,
+  "added": 20,
   "note": "Non-commercial Open-Meteo forecast API; CC BY 4.0 attribution. Outdoor grid-cell weather only. Provider issue time unavailable: locally observed time is retained, never called publication time. Confirmed QB inputs remain manual imports with source URLs; previous usage is not confirmation.",
   "venue_source": "https://raw.githubusercontent.com/greerreNFL/Stadiums/main/data/stadiums.csv",
   "venue_sha256": "c73bc82fdcb5abe9018227a61bfe91a562d7bf1f10214ee34f1a480d5bcd519c"

@@ -3080,7 +3080,7 @@
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Caleb Williams",
       "last_qb_attempt_share": 1.0,
-      "ol_out": null,
+      "ol_out": 0,
       "roster_ol_count": 12,
       "active_roster_ol_count": 9
     },
@@ -3092,7 +3092,7 @@
       "qb_status": "Unconfirmed; previous usage is not a starter announcement",
       "last_qb": "Drake Maye",
       "last_qb_attempt_share": 1.0,
-      "ol_out": null,
+      "ol_out": 0,
       "roster_ol_count": 17,
       "active_roster_ol_count": 9
     },
@@ -3114,7 +3114,7 @@
       "last_qb": "Tyler Shough",
       "last_qb_attempt_share": 1.0,
       "ol_out": null,
-      "roster_ol_count": 13,
+      "roster_ol_count": 14,
       "active_roster_ol_count": 8
     },
     "away": {
@@ -3214,7 +3214,7 @@
       "last_qb_attempt_share": 1.0,
       "ol_out": null,
       "roster_ol_count": 15,
-      "active_roster_ol_count": 11
+      "active_roster_ol_count": 10
     },
     "away": {
       "last_performance_week": 6,
@@ -3357,7 +3357,7 @@
       "last_qb": "Deshaun Watson",
       "last_qb_attempt_share": 1.0,
       "ol_out": null,
-      "roster_ol_count": 13,
+      "roster_ol_count": 14,
       "active_roster_ol_count": 10
     },
     "weather": {
@@ -3457,7 +3457,7 @@
       "last_qb_attempt_share": 1.0,
       "ol_out": null,
       "roster_ol_count": 13,
-      "active_roster_ol_count": 9
+      "active_roster_ol_count": 10
     },
     "weather": {
       "status": "No timestamped forecast source configured"

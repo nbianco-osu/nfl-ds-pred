@@ -9,10 +9,10 @@
     {
       "team": "SF",
       "actual_wins": 6,
-      "expected_wins": 13.2337,
+      "expected_wins": 13.2354,
       "low_wins": 11,
       "high_wins": 15,
-      "probability_16_plus": 0.0661,
+      "probability_16_plus": 0.0662,
       "team_name": "San Francisco 49ers"
     },
     {
@@ -36,10 +36,10 @@
     {
       "team": "MIN",
       "actual_wins": 5,
-      "expected_wins": 11.2519,
+      "expected_wins": 11.2532,
       "low_wins": 9,
       "high_wins": 13,
-      "probability_16_plus": 0.003,
+      "probability_16_plus": 0.0031,
       "team_name": "Minnesota Vikings"
     },
     {
@@ -54,7 +54,7 @@
     {
       "team": "DET",
       "actual_wins": 3,
-      "expected_wins": 10.9747,
+      "expected_wins": 10.974,
       "low_wins": 9,
       "high_wins": 13,
       "probability_16_plus": 0.0,
@@ -63,7 +63,7 @@
     {
       "team": "BAL",
       "actual_wins": 4,
-      "expected_wins": 10.575,
+      "expected_wins": 10.5762,
       "low_wins": 8,
       "high_wins": 13,
       "probability_16_plus": 0.0,
@@ -72,7 +72,7 @@
     {
       "team": "CIN",
       "actual_wins": 3,
-      "expected_wins": 10.2864,
+      "expected_wins": 10.2852,
       "low_wins": 8,
       "high_wins": 12,
       "probability_16_plus": 0.0,
@@ -81,7 +81,7 @@
     {
       "team": "NE",
       "actual_wins": 4,
-      "expected_wins": 10.1822,
+      "expected_wins": 10.1748,
       "low_wins": 8,
       "high_wins": 12,
       "probability_16_plus": 0.0,
@@ -99,7 +99,7 @@
     {
       "team": "GB",
       "actual_wins": 4,
-      "expected_wins": 9.7648,
+      "expected_wins": 9.7655,
       "low_wins": 8,
       "high_wins": 12,
       "probability_16_plus": 0.0,
@@ -108,7 +108,7 @@
     {
       "team": "PIT",
       "actual_wins": 4,
-      "expected_wins": 9.5081,
+      "expected_wins": 9.5079,
       "low_wins": 7,
       "high_wins": 12,
       "probability_16_plus": 0.0,
@@ -117,7 +117,7 @@
     {
       "team": "DEN",
       "actual_wins": 4,
-      "expected_wins": 9.4951,
+      "expected_wins": 9.4938,
       "low_wins": 7,
       "high_wins": 12,
       "probability_16_plus": 0.0,
@@ -126,7 +126,7 @@
     {
       "team": "CHI",
       "actual_wins": 4,
-      "expected_wins": 9.4356,
+      "expected_wins": 9.443,
       "low_wins": 7,
       "high_wins": 11,
       "probability_16_plus": 0.0,
@@ -144,7 +144,7 @@
     {
       "team": "CLE",
       "actual_wins": 4,
-      "expected_wins": 8.564,
+      "expected_wins": 8.5643,
       "low_wins": 7,
       "high_wins": 11,
       "probability_16_plus": 0.0,
@@ -162,7 +162,7 @@
     {
       "team": "HOU",
       "actual_wins": 2,
-      "expected_wins": 8.3251,
+      "expected_wins": 8.3265,
       "low_wins": 6,
       "high_wins": 10,
       "probability_16_plus": 0.0,
@@ -180,7 +180,7 @@
     {
       "team": "DAL",
       "actual_wins": 2,
-      "expected_wins": 7.6911,
+      "expected_wins": 7.6915,
       "low_wins": 6,
       "high_wins": 10,
       "probability_16_plus": 0.0,
@@ -189,7 +189,7 @@
     {
       "team": "NYG",
       "actual_wins": 3,
-      "expected_wins": 7.5104,
+      "expected_wins": 7.509,
       "low_wins": 6,
       "high_wins": 10,
       "probability_16_plus": 0.0,
@@ -207,7 +207,7 @@
     {
       "team": "PHI",
       "actual_wins": 2,
-      "expected_wins": 6.9069,
+      "expected_wins": 6.9065,
       "low_wins": 5,
       "high_wins": 9,
       "probability_16_plus": 0.0,
@@ -216,7 +216,7 @@
     {
       "team": "IND",
       "actual_wins": 2,
-      "expected_wins": 6.849,
+      "expected_wins": 6.8477,
       "low_wins": 5,
       "high_wins": 9,
       "probability_16_plus": 0.0,
@@ -225,7 +225,7 @@
     {
       "team": "ATL",
       "actual_wins": 2,
-      "expected_wins": 6.7822,
+      "expected_wins": 6.7805,
       "low_wins": 5,
       "high_wins": 9,
       "probability_16_plus": 0.0,
@@ -234,7 +234,7 @@
     {
       "team": "ARI",
       "actual_wins": 2,
-      "expected_wins": 6.5787,
+      "expected_wins": 6.58,
       "low_wins": 5,
       "high_wins": 9,
       "probability_16_plus": 0.0,
@@ -243,7 +243,7 @@
     {
       "team": "NO",
       "actual_wins": 2,
-      "expected_wins": 6.1092,
+      "expected_wins": 6.1094,
       "low_wins": 4,
       "high_wins": 8,
       "probability_16_plus": 0.0,
@@ -270,7 +270,7 @@
     {
       "team": "TEN",
       "actual_wins": 1,
-      "expected_wins": 4.2496,
+      "expected_wins": 4.2493,
       "low_wins": 2,
       "high_wins": 6,
       "probability_16_plus": 0.0,

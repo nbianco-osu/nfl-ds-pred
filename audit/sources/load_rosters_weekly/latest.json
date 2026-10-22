@@ -1,8 +1,8 @@
 {
   "source": "nflreadpy.load_rosters_weekly",
-  "sha256": "c0919fb43adee1253bfba7122dde65f300b96fbc72de19fbe2bede86c08cb608",
-  "rows": 17574,
-  "retrieved_at": "2026-10-20T15:40:09.331347+00:00",
+  "sha256": "c5b0e1e74ec08c40b8baef07a98a740c2ee1ff5afa19eea5f747a901c6e69da5",
+  "rows": 17596,
+  "retrieved_at": "2026-10-22T00:01:18.883160+00:00",
   "provider_published_at": null,
   "cache_may_be_used": true,
   "note": "Local observation time, not proof of original publication or freshness."

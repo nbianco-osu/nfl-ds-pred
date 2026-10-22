@@ -1,8 +1,8 @@
 {
   "source": "nflreadpy.load_injuries",
-  "sha256": "06e4109ee9d22001875ea1f0d939a0a73127fa1610bfc8dfbcafcf0a28edb5dd",
-  "rows": 1789,
-  "retrieved_at": "2026-10-20T15:40:08.249208+00:00",
+  "sha256": "9f8b1f7e0c09efeea3ddd2016df28c301a5c6720b873f169636819dcac7c92df",
+  "rows": 1812,
+  "retrieved_at": "2026-10-22T00:01:18.597047+00:00",
   "provider_published_at": null,
   "cache_may_be_used": true,
   "note": "Local observation time, not proof of original publication or freshness."

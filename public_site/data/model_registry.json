@@ -3017,37 +3017,37 @@
     },
     {
       "source": "nflreadpy.load_injuries",
-      "sha256": "06e4109ee9d22001875ea1f0d939a0a73127fa1610bfc8dfbcafcf0a28edb5dd",
-      "rows": 1789,
-      "retrieved_at": "2026-10-20T15:40:08.249208+00:00",
+      "sha256": "9f8b1f7e0c09efeea3ddd2016df28c301a5c6720b873f169636819dcac7c92df",
+      "rows": 1812,
+      "retrieved_at": "2026-10-22T00:01:18.597047+00:00",
       "provider_published_at": null
     },
     {
       "source": "nflreadpy.load_pbp",
-      "sha256": "f75bef4de4437f81d69ee1d709645cb0b8892f23658a7f3de18601b063772d08",
+      "sha256": "7bf8c63ca6e408f2416d6aab9e7ac27339033831b8806de1fc5e113a1cdd87cc",
       "rows": 16380,
-      "retrieved_at": "2026-10-20T15:40:01.787434+00:00",
+      "retrieved_at": "2026-10-22T00:01:13.315153+00:00",
       "provider_published_at": null
     },
     {
       "source": "nflreadpy.load_player_stats",
-      "sha256": "dac67efc6fad9a08c8c2591318516302cac93395ae98455057fa44d5824e4e3a",
+      "sha256": "34628515f129776fa39a69754861c8c7c824224c92fe69437d656f6d17cca84d",
       "rows": 6488,
-      "retrieved_at": "2026-10-20T15:40:05.953016+00:00",
+      "retrieved_at": "2026-10-22T00:01:16.705078+00:00",
       "provider_published_at": null
     },
     {
       "source": "nflreadpy.load_rosters_weekly",
-      "sha256": "c0919fb43adee1253bfba7122dde65f300b96fbc72de19fbe2bede86c08cb608",
-      "rows": 17574,
-      "retrieved_at": "2026-10-20T15:40:09.331347+00:00",
+      "sha256": "c5b0e1e74ec08c40b8baef07a98a740c2ee1ff5afa19eea5f747a901c6e69da5",
+      "rows": 17596,
+      "retrieved_at": "2026-10-22T00:01:18.883160+00:00",
       "provider_published_at": null
     },
     {
       "source": "nflreadpy.load_schedules",
-      "sha256": "12217f77885d20c6955d2b0febfb851a21c51889ad97f62c8c79ceeb55ca82dd",
+      "sha256": "00136798fab2f7fa401f727b9c189eaf51dd39e7de447a7017791c5052132108",
       "rows": 272,
-      "retrieved_at": "2026-10-20T15:40:00.586023+00:00",
+      "retrieved_at": "2026-10-22T00:01:11.733106+00:00",
       "provider_published_at": null
     }
   ],
