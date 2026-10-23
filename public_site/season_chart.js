@@ -117,9 +117,38 @@ window.setupSeasonCharts = function (data) {
   for (const name of ['Games','Teams','Evaluation','Operations']) {
     const option = document.createElement('option'); option.value = name; option.textContent = name; group.append(option);
   }
-  document.querySelector('.view-tabs').before(group);
+  const navigation = document.createElement('nav');
+  navigation.className = 'dashboard-navigation';
+  navigation.setAttribute('aria-label', 'Dashboard sections');
+  const categories = document.createElement('div');
+  categories.className = 'navigation-categories';
+  const categoryButtons = [];
+  for (const option of group.options) {
+    const button = document.createElement('button');
+    button.type = 'button'; button.textContent = option.textContent;
+    button.addEventListener('click', () => tabs.find(tab => groupFor(tab) === option.value).click());
+    categories.append(button); categoryButtons.push(button);
+  }
+  const viewSelect = document.createElement('select');
+  viewSelect.id = 'mobileView'; viewSelect.setAttribute('aria-label', 'Dashboard view');
+  viewSelect.addEventListener('change', () => {
+    const tab = tabs.find(item => item.id === viewSelect.value);
+    // Click also invokes each lazy view's own loading handler.
+    tab.click();
+  });
+  const tabList = document.querySelector('.view-tabs');
+  tabList.before(navigation);
+  navigation.append(categories, group, viewSelect, tabList);
+  group.hidden = true;
   function activate(tab) {
     group.value = groupFor(tab);
+    categoryButtons.forEach(button => button.setAttribute('aria-pressed', String(button.textContent === group.value)));
+    viewSelect.replaceChildren();
+    tabs.filter(item => groupFor(item) === group.value).forEach(item => {
+      const option = document.createElement('option');
+      option.value = item.id; option.textContent = item.textContent; viewSelect.append(option);
+    });
+    viewSelect.value = tab.id;
     tabs.forEach(item => {
       item.hidden = groupFor(item) !== group.value;
       const active = item === tab;

@@ -41,7 +41,9 @@
  load('model_registry','registryNote',d=>{el('registryNote').textContent=d.note;el('registryRows').innerHTML=d.models.map(r=>`<tr><td>${esc(r.path)}</td><td>${esc(r.role)}</td><td class="hash-value">${esc(r.sha256)}</td></tr>`).join('');});
  const controls=document.createElement('div');controls.className='comparison-controls weekly-utilities';
  controls.innerHTML='<label>Kickoff timezone<select id="kickoffTimezone"><option value="America/New_York">Eastern time</option><option value="local">My local time</option></select></label><label>Find game<input id="gameFinder" type="search" list="gameOptions" autocomplete="off"><datalist id="gameOptions"></datalist></label><button id="exportVisible" type="button">Export filtered CSV</button><p id="exportStatus" role="status"></p>';
- el('matchupList').before(controls);
+ const tools=document.createElement('details');tools.className='schedule-tools';
+ const toolsSummary=document.createElement('summary');toolsSummary.textContent='Find game, timezone and export';
+ tools.append(toolsSummary,controls);el('matchupList').before(tools);
  let kickoffs={},visible=[],predictions=[];
  const original=window.renderMatchups;
  function times(){const tz=el('kickoffTimezone').value==='local'?Intl.DateTimeFormat().resolvedOptions().timeZone:'America/New_York';
@@ -50,7 +52,7 @@
  read('kickoffs').then(d=>{kickoffs=d;times();}).catch(()=>{});
  read('predictions').then(d=>{predictions=d;d.forEach(g=>el('gameOptions').append(new Option(`${g.away_team_name} at ${g.home_team_name}, week ${g.week}`,g.game_id)));}).catch(()=>{});
  el('gameFinder').addEventListener('change',()=>{const id=el('gameFinder').value;if(predictions.some(g=>g.game_id===id)){const url=new URL(location.href);url.search='';url.searchParams.set('game',id);location.assign(url);}});
- document.addEventListener('keydown',event=>{if(event.key==='/'&&!/INPUT|TEXTAREA|SELECT/.test(event.target.tagName)&&!event.target.isContentEditable){event.preventDefault();el('dashboardTab').click();el('gameFinder').focus();}if(event.key==='Escape'&&document.activeElement===el('gameFinder')){el('gameFinder').value='';el('gameFinder').blur();}});
+ document.addEventListener('keydown',event=>{if(event.key==='/'&&!/INPUT|TEXTAREA|SELECT/.test(event.target.tagName)&&!event.target.isContentEditable){event.preventDefault();el('dashboardTab').click();tools.open=true;el('gameFinder').focus();}if(event.key==='Escape'&&document.activeElement===el('gameFinder')){el('gameFinder').value='';el('gameFinder').blur();}});
  const csv=v=>{let s=v==null?'':String(v);if(typeof v==='string'&&/^[=+\-@\t\r]/.test(s))s="'"+s;return '"'+s.replaceAll('"','""')+'"';};
  el('exportVisible').addEventListener('click',()=>{const fields=['game_id','week','away_team','home_team','predicted_winner','home_win_probability','predicted_away_score','predicted_home_score','status','model_version','winner_forecast_at','score_model_version','score_forecast_at'];
    const text=[fields.map(csv).join(','),...visible.map(r=>fields.map(k=>csv(r[k])).join(','))].join('\r\n');const url=URL.createObjectURL(new Blob([text],{type:'text/csv;charset=utf-8'}));const link=document.createElement('a');link.href=url;link.download='nfl-filtered-forecasts.csv';link.click();setTimeout(()=>URL.revokeObjectURL(url),1000);el('exportStatus').textContent=`Exported ${visible.length} games with model versions and saved forecast times.`;});

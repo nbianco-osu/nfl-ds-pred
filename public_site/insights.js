@@ -62,7 +62,9 @@
     const toolbar=el('teamFilter').closest('.toolbar');
     const preferences=document.createElement('div');preferences.className='preference-controls';
     preferences.innerHTML='<label>Favorite team<select id="favoriteTeam"><option value="">None</option>'+teams.map(t=>`<option value="${esc(t.code)}">${esc(t.name)}</option>`).join('')+'</select></label><button id="resetFilters" type="button">Reset filters</button><a id="shareFilters" href="?">Link to this view</a><span id="preferenceStatus" role="status"></span>';
-    toolbar.append(preferences);
+    const preferenceDetails=document.createElement('details');preferenceDetails.className='schedule-preferences';
+    const preferenceSummary=document.createElement('summary');preferenceSummary.textContent='Favorite team and sharing';
+    preferenceDetails.append(preferenceSummary,preferences);toolbar.append(preferenceDetails);
     let favorite='';try {favorite=localStorage.getItem('nfl-favorite')||'';}catch{el('preferenceStatus').textContent='Preferences cannot be saved in this browser.';}
     if(!teams.some(t=>t.code===favorite)) favorite='';
     el('favoriteTeam').value=favorite;

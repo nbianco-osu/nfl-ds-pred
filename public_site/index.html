@@ -4,13 +4,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>NFL Matchup Prediction Dashboard</title>
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./styles.css?v=layout85" />
   </head>
   <body>
+    <a class="skip-link" href="#dashboardContent">Skip to dashboard</a>
     <header class="app-header">
       <div>
         <p class="eyebrow">2026 NFL Predictions</p>
-        <h1>NFL Matchup Prediction Dashboard</h1>
+        <h1>NFL Matchup Predictor</h1>
         <p class="lede">
           Schedule, projected winners and expected scores.
         </p>
@@ -21,7 +22,7 @@
       </div>
     </header>
 
-    <main>
+    <main id="dashboardContent" tabindex="-1">
       <section class="metrics" id="metrics"></section>
       <details class="refresh-detail"><summary>Model and refresh details</summary><p id="refreshStatus" aria-live="polite"></p>
       <p><a href="#modelComparison" id="libraryLink">Model library: 64 models</a></p></details>
@@ -308,16 +309,16 @@
     <script src="./vendor/chart.umd.min.js?v=r57"></script>
     <script src="./data_source.js?v=r71"></script>
     <script src="./lazy_view.js?v=r75"></script>
-    <script src="./season_chart.js?v=r71"></script>
+    <script src="./season_chart.js?v=layout85"></script>
     <script src="./score_lines.js?v=r57"></script>
     <script src="./matchups.js?v=r57"></script>
     <script src="./performance.js?v=r57"></script>
     <script src="./research.js?v=r57"></script>
-    <script src="./insights.js?v=r57"></script>
+    <script src="./insights.js?v=layout85"></script>
     <script src="./matched.js?v=r75"></script>
     <script src="./experiments.js?v=r75"></script>
     <script src="./iteration.js?v=r57"></script>
-    <script src="./lab.js?v=r57"></script>
+    <script src="./lab.js?v=layout85"></script>
     <script src="./retraining.js?v=r57"></script>
     <script src="./next_models.js?v=r57"></script>
     <script src="./evidence49.js?v=r57"></script>
