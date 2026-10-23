@@ -324,6 +324,8 @@ def main():
         export_iterations(root, season, run_research=False)
         from iteration_r61 import export as export_r61
         export_r61(root, season, run_research=False)
+        from generative_tracking import export as export_generative
+        export_generative(root, season)
         checked = validate_transition(root, previous)
         if args.mode in ('run', 'force-run'):
             export_cloud_schedule(root, config)

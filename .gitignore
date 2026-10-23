@@ -61,3 +61,4 @@ data/research_sources/*
 !models/retrained/
 models/retrained/*
 !models/retrained/active_shadow.json
+backtests/generative/*/candidate.joblib

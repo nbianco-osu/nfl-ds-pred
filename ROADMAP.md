@@ -1,9 +1,25 @@
 # NFL Predictor Roadmap
 
-Updated: 2026-10-18. Keep this file current in each iteration. Record evidence,
+Updated: 2026-10-23. Keep this file current in each iteration. Record evidence,
 limitations, and the next acceptance check before marking an item complete.
 
 ## Current Iteration
+
+### R79-R84: Generative Shadow Pipeline
+
+Implemented fresh research inputs, regular-season OT stopping logic, matched
+chronological score-model mixtures, correlated season trajectories, immutable
+cloud-only prospective tracking and the Generative Forecasts tab. See
+`RELEASE_R79_R84.md` for evidence and approximations. No demonstrated predictive
+improvement and no production promotion. Publication/installation tracked below.
+
+### R78: Semi-Markov Generative Research (Partial)
+
+Added regulation possession-duration transitions, league/team-conditioned models,
+an earlier-week out-of-fold generative mixture, serialized transition data and an
+offline trajectory viewer. See `RELEASE_R78.md`. Production unchanged. Complete
+overtime, final-game score-model integration, shared-strength season trajectories
+and prospective capture remain pending; this is not a production-ready model.
 
 ### R75-R77: On-Demand Research
 

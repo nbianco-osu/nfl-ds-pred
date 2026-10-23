@@ -1,0 +1,46 @@
+name: Install generative shadow
+on:
+  workflow_dispatch:
+    inputs:
+      generation:
+        required: true
+        type: string
+      source_sha:
+        required: true
+        type: string
+permissions:
+  contents: write
+concurrency:
+  group: nfl-private-state
+  cancel-in-progress: false
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: nbianco-osu/nfl-ds-pred
+          ref: ${{ inputs.source_sha }}
+          path: source
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - working-directory: source
+        run: pip install -r requirements.txt 'scikit-learn==1.8.0'
+      - working-directory: source
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GENERATION: ${{ inputs.generation }}
+        run: python -B -m runner.migrate_generative migrate
+      - uses: actions/checkout@v4
+        with:
+          repository: nbianco-osu/nfl-ds-pred
+          ref: main
+          path: public
+          ssh-key: ${{ secrets.PUBLIC_EXPORT_DEPLOY_KEY }}
+      - working-directory: source
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python -B -m runner.run --mode publish --public-root ../public

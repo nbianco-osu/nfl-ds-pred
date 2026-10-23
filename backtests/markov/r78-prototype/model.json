@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "model": "empirical_semi_markov",
+  "scope": "regulation_only",
+  "team_conditioning_weight": 0.35,
+  "league_smoothing": 0.05,
+  "sources": {
+    "audit\\sources\\load_pbp\\a05af1006ffe9ee35eb7cb54b6fad907d793d16f1ffa1e52daa54828f22c04cf.parquet": "a05af1006ffe9ee35eb7cb54b6fad907d793d16f1ffa1e52daa54828f22c04cf",
+    "data\\schedule_2026.csv": "5a2f8912a5102e0a3019fd20f7635a4bff42db1df66ec3af3e94e08c87a07fc7"
+  },
+  "fit_protocol": "Only season/week strictly before target; mixture weights from earlier out-of-fold games"
+}
