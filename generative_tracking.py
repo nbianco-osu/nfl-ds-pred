@@ -101,7 +101,7 @@ def export(root, season, now=None):
             if not eligible(game,artifact,started,horizon):continue
             target = folder/'forecasts'/(game['game_id']+'_'+horizon+'.json')
             if target.exists():continue
-            history_path = Path(__file__).resolve().parent/'backtests/source_schedule.csv'
+            history_path = artifact_path.parent/'historical_schedule.csv'
             historical = pd.read_csv(history_path)
             history = pd.concat([historical.loc[historical.season.lt(season)],schedule],ignore_index=True)
             if digest(history_path) != artifact['source_hashes']['historical_schedule']:

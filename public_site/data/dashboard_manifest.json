@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "revision": "183db80978510b82ea4d735c688de52caf475876de8b6c0b253eef677ef30278",
+  "revision": "3c677aa7cb2eed25b323b617446d9abf13c99aa95606835b3c76bb0e6e992efc",
   "files": {
     "advanced_backtest.json": {
       "path": "revisions/253d8a98569654e22f3520d6455e7336d852e2930a5e7a10698a237a76159c28.json",
@@ -76,6 +76,16 @@
       "path": "revisions/631ed582e019bc7e4096bef0193948f8e27ee09586e64a354bf9c3443ec8c12b.json",
       "sha256": "631ed582e019bc7e4096bef0193948f8e27ee09586e64a354bf9c3443ec8c12b",
       "bytes": 708221
+    },
+    "generative.json": {
+      "path": "revisions/bf73746cabe9f52cfa6e669437b21ab10d4fb0271eaeaeac28110f67d3bd2820.json",
+      "sha256": "bf73746cabe9f52cfa6e669437b21ab10d4fb0271eaeaeac28110f67d3bd2820",
+      "bytes": 969746
+    },
+    "generative_readiness.json": {
+      "path": "revisions/c635eba6eae11ca68eeb1a7458565262e5ea73038b0b1fb93d8bbb6e9377c3ea.json",
+      "sha256": "c635eba6eae11ca68eeb1a7458565262e5ea73038b0b1fb93d8bbb6e9377c3ea",
+      "bytes": 216
     },
     "global_shap.json": {
       "path": "revisions/97e5db42b1dcd698cda2a53c5100359970a1925db45aadf71d9e96b9e81e3379.json",

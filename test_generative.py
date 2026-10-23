@@ -2,6 +2,7 @@ import json
 from pathlib import Path
 import tempfile
 import unittest
+from unittest.mock import patch
 import numpy as np
 import pandas as pd
 
@@ -84,10 +85,33 @@ class GenerativeTests(unittest.TestCase):
 
     def test_migration_scope_is_exact(self):
         from runner.migrate_generative import allowed
-        files={f'models/generative/generat ive/{name}' for name in ['candidate.joblib','report.json']}
+        files={f'models/generative/generative-test/{name}' for name in ['candidate.joblib','report.json','historical_schedule.csv']}
         files.add('public_site/data/generative.json')
-        self.assertTrue(allowed(files,'generat ive'))
-        self.assertFalse(allowed(files|{'models/production.joblib'},'generat ive'))
+        self.assertTrue(allowed(files,'generative-test'))
+        self.assertFalse(allowed(files|{'models/production.joblib'},'generative-test'))
+
+    def test_cloud_capture_integration_and_immutable_retry(self):
+        from generative_tracking import export
+        from generative_pipeline import digest
+        with tempfile.TemporaryDirectory() as d:
+            root=Path(d);version='generative-test';model=root/'models/generative'/version
+            model.mkdir(parents=True);(root/'data').mkdir()
+            (model/'candidate.joblib').write_bytes(b'test-artifact')
+            historic=pd.DataFrame([dict(game_id='old',season=2025,week=18,gameday='2026-01-04',home_team='A',away_team='B',home_score=20,away_score=10)])
+            historic.to_csv(model/'historical_schedule.csv',index=False)
+            game=dict(game_id='2026_07_A_B',season=2026,week=7,game_type='REG',gameday='2026-10-25',gametime='13:00',home_team='A',away_team='B',home_score=np.nan,away_score=np.nan,spread_line=3,total_line=40)
+            pd.DataFrame([game]).to_csv(root/'data/schedule_2026.csv',index=False)
+            selector=dict(generation=version,artifact_sha256=digest(model/'candidate.joblib'))
+            (root/'models/generative/active_shadow.json').write_text(json.dumps(selector))
+            artifact=dict(model_version=version,season=2026,training_max_week=6,source_hashes={'historical_schedule':digest(model/'historical_schedule.csv')})
+            prediction={'distributions':{'ensemble':dict(home_win=.6,tie=.05,away_win=.35)}}
+            with patch.dict('os.environ',{'GITHUB_ACTIONS':'true','GITHUB_REPOSITORY':'nbianco-osu/nfl-ds-pred-runner'}),patch('generative_tracking.joblib.load',return_value=artifact),patch('generative_tracking.forecast',return_value=(prediction,{})) as infer:
+                export(root,2026,'2026-10-25T15:30:00Z')
+                export(root,2026,'2026-10-25T15:31:00Z')
+                self.assertEqual(infer.call_count,1)
+            records=list((root/'audit/generative'/version/'forecasts').glob('*.json'))
+            self.assertEqual(len(records),1)
+            self.assertEqual(json.loads(records[0].read_text())['forecast_at'],'2026-10-25T15:30:00+00:00')
 
 
 if __name__=='__main__':unittest.main()

@@ -27,7 +27,7 @@
     const readiness=await (await window.dashboardFetch('./data/generative_readiness.json')).json();
     if(readiness.model_version!==d.model_version)throw Error('Readiness generation mismatch');
     const c=d.source_coverage;
-    el('genCoverage').textContent=`${d.model_version}. Source observed ${c.observed_at}; ${c.pbp_games}/${c.completed_games} completed games with play-by-play, through week ${c.source_max_week}. Missing: ${c.missing_completed_games.join(', ')||'None'}.`;
+    el('genCoverage').textContent=`${d.model_version}. Source observed ${c.observed_at}; ${c.pbp_games}/${c.completed_games} completed games with play-by-play, through week ${c.source_max_week}. Missing: ${c.missing_completed_games.join(', ')||'None'}. ${d.skipped.length} early-season matchups omitted for insufficient earlier transition data.`;
     el('genReadiness').textContent=`Prospective matched results: ${readiness.matched_games}. ${readiness.ready_for_review?'Ready for human review; not approved.':'Not ready for review.'} ${readiness.note||''}`;
     for(const g of d.games){const option=document.createElement('option');option.value=g.game_id;option.textContent=`Week ${g.week}: ${g.away_team} at ${g.home_team}${g.actual?' (replay)':''}`;el('genGame').append(option);}
     const future=d.games.find(g=>!g.actual);if(future)el('genGame').value=future.game_id;

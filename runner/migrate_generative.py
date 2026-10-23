@@ -12,7 +12,7 @@ from runner.common import GitHub,credential,PRIVATE,pack,unpack,inventory,digest
 
 
 def allowed(files,version):
-    return set(files)=={f'models/generative/{version}/candidate.joblib',f'models/generative/{version}/report.json',
+    return set(files)=={f'models/generative/{version}/candidate.joblib',f'models/generative/{version}/report.json',f'models/generative/{version}/historical_schedule.csv',
                         'public_site/data/generative.json'}
 
 
@@ -25,6 +25,9 @@ def prepare(root,run):
     payload=destination/'payload'
     model=payload/'models/generative'/version;model.mkdir(parents=True)
     for name in ['candidate.joblib','report.json']:shutil.copyfile(run/name,model/name)
+    historical=root/'backtests/source_schedule.csv'
+    if digest(historical)!=report['source_hashes']['historical_schedule']:raise ValueError('Frozen historical source changed')
+    shutil.copyfile(historical,model/'historical_schedule.csv')
     public=payload/'public_site/data';public.mkdir(parents=True)
     shutil.copyfile(root/'public_site/data/generative.json',public/'generative.json')
     files=pack(payload,destination/'payload.tar.gz')
@@ -58,10 +61,8 @@ def migrate():
         if digest(current/f'models/generative/{version}/candidate.joblib')!=report['artifact_sha256']:raise ValueError('Artifact mismatch')
         selector=dict(generation=version,artifact_sha256=report['artifact_sha256'],trials=1000,status='shadow_only')
         write_json(current/'models/generative/active_shadow.json',selector)
-        # Inference needs only the tracked historical feature source; preserve all runtime state.
-        historical=Path(__file__).resolve().parents[1]/'backtests/source_schedule.csv'
-        (current/'backtests').mkdir(exist_ok=True)
-        shutil.copyfile(historical,current/'backtests/source_schedule.csv')
+        if digest(current/f'models/generative/{version}/historical_schedule.csv')!=report['source_hashes']['historical_schedule']:
+            raise ValueError('Frozen historical feature source mismatch')
         season=report['season'];track(current,season);snapshot(current)
         after=inventory(current)
         for name,sha in state['files'].items():
