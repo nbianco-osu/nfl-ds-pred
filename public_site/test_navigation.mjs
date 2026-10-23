@@ -8,7 +8,8 @@ test('navigation initializes without chart data and arrows stay in the visible g
   const elements=new Map();
   function element(id='') {
     const e={id,hidden:false,children:[],attrs:{},events:{},value:'',
-      append(child){this.children.push(child);},before(child){elements.set(child.id,child);},
+      append(...children){this.children.push(...children);for(const child of children) if(child.id) elements.set(child.id,child);},before(child){elements.set(child.id,child);},
+      get options(){return this.children;},replaceChildren(){this.children=[];},click(){this.events.click?.();},
       setAttribute(k,v){this.attrs[k]=v;},getAttribute(k){return this.attrs[k];},
       addEventListener(k,fn){this.events[k]=fn;},focus(){this.focused=true;}};
     if(id) elements.set(id,e);return e;
@@ -37,6 +38,9 @@ test('navigation initializes without chart data and arrows stay in the visible g
   elements.get('libraryLink').events.click();
   assert.equal(group.value,'Evaluation');
   assert.equal(elements.get('researchTab').hidden,false);
+  const mobile=elements.get('mobileView');mobile.value='researchTab';mobile.events.change();
+  assert.equal(elements.get('researchTab').attrs['aria-selected'],'true');
+  assert.equal(group.hidden,true);
   window.setupSeasonCharts({teams:[]});
   assert.equal(requests,1,'setup is idempotent');
 });
